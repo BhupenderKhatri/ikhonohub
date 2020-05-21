@@ -3,90 +3,174 @@ const users = express.Router()
 const cors = require('cors')
 const jwt = require('jsonwebtoken')
 const bcrypt = require('bcrypt')
-
+const nodemailer = require("nodemailer");
+var url = require('url');
 const User = require('../models/User')
 users.use(cors())
 
 process.env.SECRET_KEY = 'secret'
 
-users.post('/register', (req, res) => {
-  const today = new Date()
-  const userData = {
-    first_name: req.body.first_name,
-    last_name: req.body.last_name,
-    email: req.body.email,
-    password: req.body.password,
-    created: today
-  }
 
-  User.findOne({
-    where: {
-      email: req.body.email
+var transporter = nodemailer.createTransport({
+    service: 'gmail',
+    auth: {
+        user: 'iknonohhub@gmail.com',
+        pass: 'mylifemyrules'
     }
-  })
-    
+});
+
+users.post('/register', (req, res) => {
+    const today = new Date()
+    const userData = {
+        first_name: req.body.first_name,
+        last_name: req.body.last_name,
+        email: req.body.email,
+        password: req.body.password,
+        created: today
+    }
+
+    User.findOne({
+        where: {
+            email: req.body.email
+        }
+    })
+
     .then(user => {
-      if (!user) {
-        bcrypt.hash(req.body.password, 10, (err, hash) => {
-          userData.password = hash
-          User.create(userData)
-            .then(user => {
-              res.json({ status: user.email + 'Registered!' })
-            })
-            .catch(err => {
-              res.send('error: ' + err)
-            })
+            if (!user) {
+                bcrypt.hash(req.body.password, 10, (err, hash) => {
+
+                    console.log("hereeeee");
+
+                    function Store(pass) {
+                        var verify = Math.floor((Math.random() * 10000000) + 1);
+
+                        var mailOption = {
+                            from: 'iknonohhub@gmail.com', // sender this is your email here
+                            to: `pratyushgoel100@gmail.com`, // receiver email2
+                            subject: "Account Verification",
+                            html: `<h4>Hello ,Please Click on this link to verify you account<h4><br><hr>
+    <br><a href="http://localhost:4000/verification/?email=${req.body.email}&verify=${verify}/">CLICK ME TO ACTIVATE YOUR ACCOUNT</a>`
+                        }
+
+                        transporter.sendMail(mailOption, (error, info) => {
+                            if (error) {
+                                console.log(error)
+                            } else {
+                                userData.password = hash
+                                User.create(userData)
+                                    .then(user => {
+                                        res.json({ status: user.email + 'Registered!' })
+                                    })
+                                    .catch(err => {
+                                        res.send('error: ' + err)
+                                    })
+
+
+                            }
+                        });
+
+                    }
+                    Store(hash);
+                })
+            } else {
+                res.json({ error: 'User already exists' })
+            }
         })
-      } else {
-        res.json({ error: 'User already exists' })
-      }
-    })
-    .catch(err => {
-      res.send('error: ' + err)
-    })
+        .catch(err => {
+            res.send('error: ' + err)
+        })
 })
 
-users.post('/login', (req, res) => {
-  User.findOne({
-    where: {
-      email: req.body.email
+
+users.get('/verification/', (req, res) => {
+    function activateAccount() {
+        //if (verification == qdata.verify) {
+        //pool.query(
+        //  `UPDATE login SET verified = $2  WHERE email = $1`, [req.query.email,true],
+        //(err, results) => {
+        //  if (err) {
+        //    throw err;
+        //} else {
+        req.flash("success_msg", "You are now registered. Please log in");
+        res.redirect("/client/src/components/Login");
+        //res.cookie("UserInfo", userdata);
+        //res.send('<h1>Account Verification Successfully</h1>');
+        //}
+        //})
+        //else {
+        //  res.send("<h1>verification failed</h1>")
     }
-  })
-    .then(user => {
-      if (user) {
-        if (bcrypt.compareSync(req.body.password, user.password)) {
-          let token = jwt.sign(user.dataValues, process.env.SECRET_KEY, {
-            expiresIn: 1440
-          })
-          res.send(token)
-        }
-      } else {
-        res.status(400).json({ error: 'User does not exist' })
-      }
-    })
-    .catch(err => {
-      res.status(400).json({ error: err })
-    })
+
+
+    var q = url.parse(req.url, true);
+    var qdata = q.query;
+    //pool.query(
+    //  `SELECT login.verification FROM login
+    //WHERE email = $1`, [qdata.email],
+    //(err, results) => {
+    //  if (err) {
+    //    throw err;
+    //} else {
+
+    console.log(qdata.email);
+    // data = results.rows;
+    //  data.forEach(row => {
+    //    console.log(`id: ${row.id} name: ${row.name} `);
+    //});
+
+    activateAccount();
+    /* var verify1 = req.query.verify;
+    var verify2 = result[0].verification; 
+    if(verify1 == verify2) {
+        activateAccount(result[0].verification);
+    }else{
+        res.send("<h1>verification fail</h1>")
+    } */
+    //}
+    //})
+});
+
+users.post('/login', (req, res) => {
+    User.findOne({
+            where: {
+                email: req.body.email
+            }
+        })
+        .then(user => {
+            if (user) {
+                if (bcrypt.compareSync(req.body.password, user.password)) {
+                    let token = jwt.sign(user.dataValues, process.env.SECRET_KEY, {
+                        expiresIn: 1440
+                    })
+                    res.send(token)
+                }
+            } else {
+                res.status(400).json({ error: 'User does not exist' })
+            }
+        })
+        .catch(err => {
+            res.status(400).json({ error: err })
+        })
 })
 
 users.get('/profile', (req, res) => {
-  var decoded = jwt.verify(req.headers['authorization'], process.env.SECRET_KEY)
+    var decoded = jwt.verify(req.headers['authorization'], process.env.SECRET_KEY)
 
-  User.findOne({
-    where: {
-      id: decoded.id
-    }
-  })
-    .then(user => {
-      if (user) {
-        res.json(user)
-      } else {
-        res.send('User does not exist')
-      }
-    })
-    .catch(err => {
-      res.send('error: ' + err)
-    })
+    User.findOne({
+            where: {
+                id: decoded.id
+            }
+        })
+        .then(user => {
+            if (user) {
+                res.json(user)
+            } else {
+                res.send('User does not exist')
+            }
+        })
+        .catch(err => {
+            res.send('error: ' + err)
+        })
 })
 
 module.exports = users
