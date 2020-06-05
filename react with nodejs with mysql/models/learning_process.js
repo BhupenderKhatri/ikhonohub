@@ -1,5 +1,5 @@
 const Sequelize = require('sequelize')
-const learning_process = require('../database/database/learning_process.js')
+const db = require('../database/database/db.js')
 
 module.exports = db.sequelize.define(
   'learning_process',
@@ -10,19 +10,36 @@ module.exports = db.sequelize.define(
       autoIncrement: true
     },
     status: {
-      type: Sequelize.BINARY
+      type: Sequelize.BOOLEAN
     },
-    enroll_id: {
-      type: Sequelize.INTEGER
-    },
-    ccc_id: {
-      type: Sequelize.INTEGER
-    },
+   
     count: {
         type: Sequelize.INTEGER
       },
-    })
-    db.sequelize = sequelize
-db.Sequelize = Sequelize
+      enroll_id: {
+        type: Sequelize.INTEGER,
+        references: {
+          // This is a reference to another model
+          model: Student_enrollment,
 
-module.exports = learning_process
+          // This is the column name of the referenced model
+          key: 'enroll_id'
+      }
+
+      },
+      ccc_id: {
+        type: Sequelize.INTEGER,
+        references: {
+          // This is a reference to another model
+          model: course_chapter_content,
+
+          // This is the column name of the referenced model
+          key: 'ccc_id'
+      }
+      },
+    },
+      {
+        timestamps: false
+      }
+    })
+   

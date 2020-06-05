@@ -13,7 +13,7 @@ module.exports = db.sequelize.define(
     
     language_type: {
         type: Sequelize.VARCHAR(45),
-        allowNull:false
+        allowNull:true
     }
   },
   {

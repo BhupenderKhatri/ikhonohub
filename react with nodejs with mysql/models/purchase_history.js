@@ -1,8 +1,7 @@
 const Sequelize = require('sequelize')
-const purchase_history = require('../database/database/purchase_history.js')
+const db = require('../database/database/db.js')
 
 module.exports = db.sequelize.define(
-  'purchase_history',
   {
     purchase_id: {
       type: Sequelize.INTEGER,
@@ -16,13 +15,28 @@ module.exports = db.sequelize.define(
       type: Sequelize.STRING(45)
     },
     course_id: {
-      type: Sequelize.INTEGER
+      type: Sequelize.INTEGER,
+      references: {
+        // This is a reference to another model
+        model: Courses_details,
+
+        // This is the column name of the referenced model
+        key: 'course_id'
+    }
     },
     enroll_id: {
-        type: Sequelize.INTEGER
-      },
-    })
-    db.sequelize = sequelize
-db.Sequelize = Sequelize
+        type: Sequelize.INTEGER,
+        references: {
+          // This is a reference to another model
+          model: Student_enrollment,
 
-module.exports = purchase_history
+          // This is the column name of the referenced model
+          key: 'enroll_id'
+      }
+      }
+    },
+    {
+      timestamps: false
+    }
+    )
+    

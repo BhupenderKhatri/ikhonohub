@@ -4,7 +4,7 @@ const db = require('../database/database/db.js')
 module.exports = db.sequelize.define(
   'content_type',
   {
-    content_type_id: {
+    cpntent_type_id: {
       type: Sequelize.INTEGER,
       primaryKey: true,
       autoIncrement: true
@@ -13,7 +13,7 @@ module.exports = db.sequelize.define(
         type: Sequelize.VARCHAR(45),
         primaryKey: true,
         autoIncrement: true,
-        allowNull:false
+        allowNull:true
       }
   },
   {

@@ -1,5 +1,5 @@
 const Sequelize = require('sequelize')
-const gift_card = require('../database/database/course_chapter_content.js')
+const db = require('../database/database/db.js')
 
 module.exports = db.sequelize.define(
   'course_chapter_content',
@@ -9,9 +9,7 @@ module.exports = db.sequelize.define(
       primaryKey: true,
       autoIncrement: true
     },
-    content_type_id: {
-      type: Sequelize.INTEGER
-    },
+    
     time_required: {
       type: Sequelize.INTEGER
     },
@@ -22,16 +20,30 @@ module.exports = db.sequelize.define(
         type: Sequelize.CHAR
       },
     status: {
-        type: Sequelize.BINARY
+        type: Sequelize.BOOLEAN
       },
     ccp_id: {
-        type: Sequelize.INTEGER
-      },
-    content_type_id: {
-        type: Sequelize.INTEGER
-      },
-    })
-    db.sequelize = sequelize
-db.Sequelize = Sequelize
+        type: Sequelize.INTEGER,
+        references: {
+          // This is a reference to another model
+          model: Course_chapter,
 
-module.exports = course_chapter_content
+          // This is the column name of the referenced model
+          key: 'ccp_id'
+      }
+      },
+
+      cpntent_type_id: {
+        type: Sequelize.INTEGER,
+        references: {
+          // This is a reference to another model
+          model: Content_type,
+
+          // This is the column name of the referenced model
+          key: 'cpntent_type_id'
+      }
+      }
+    },
+    {
+      timestamps: false
+    })

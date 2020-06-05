@@ -1,8 +1,8 @@
 const Sequelize = require('sequelize')
-const test = require('../database/database/test.js')
+const db = require('../database/database/db.js')
 
 module.exports = db.sequelize.define(
-  'test',
+  'test/quizes',
   {
     test_id: {
       type: Sequelize.INTEGER,
@@ -19,10 +19,18 @@ module.exports = db.sequelize.define(
       type: Sequelize.STRING(45)
     },
     enroll_id: {
-        type: Sequelize.INTEGER
-      },
-    })
-    db.sequelize = sequelize
-db.Sequelize = Sequelize
+        type: Sequelize.INTEGER,
+        references: {
+          // This is a reference to another model
+          model: Student_enrollment,
 
-module.exports = test
+          // This is the column name of the referenced model
+          key: 'enroll_id'
+      }
+      }
+    },
+    {
+      timestamps: false
+    }
+    )
+   

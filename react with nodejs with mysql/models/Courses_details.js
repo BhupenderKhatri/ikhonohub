@@ -12,41 +12,55 @@ module.exports = db.sequelize.define(
     },
     course_name: {
       type: Sequelize.VARCHAR(45),
-      allowNull:false
+      allowNull:true
     },
     course_rating: {
       type: Sequelize.INTEGER,
-      allowNull:false
+      allowNull:true
     },
     price: {
       type: Sequelize.INTEGER,
-      allowNull:false
+      allowNull:true
     },
     short_description: {
       type: Sequelize.VARCHAR(45),
-      allowNull:false
+      allowNull:true
     },
     long_description: {
         type: Sequelize.VARCHAR(45),
-        allowNull:false
+        allowNull:true
     },
     no_of_chapter: {
         type: Sequelize.INTEGER,
-        allowNull:false
+        allowNull:true
     },
     total_hours_of_course: {
         type: Sequelize.INTEGER,
-        allowNull:false
+        allowNull:true
     },
     course_photo: {
         type: Sequelize.BLOB,
-        allowNull:false
+        allowNull:true
     },
     lang_id: {
-        type: Sequelize.INTEGER
-    },
-    cat_id: {
         type: Sequelize.INTEGER,
+        references: {
+          // This is a reference to another model
+          model: Language,
+
+          // This is the column name of the referenced model
+          key: 'lang_id'
+      }
+    },
+    cate_id: {
+        type: Sequelize.INTEGER,
+        references: {
+          // This is a reference to another model
+          model: category,
+
+          // This is the column name of the referenced model
+          key: 'cate_id'
+      }
     
     }
   },

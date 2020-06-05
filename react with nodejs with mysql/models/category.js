@@ -1,19 +1,19 @@
 const Sequelize = require('sequelize')
-const category = require('./category.js')
+const db = require('../database/database/db.js')
 
-module.exports = category.sequelize.define(
+module.exports = db.sequelize.define(
   'category',
   {
-    cat_id: {
+    cate_id: {
       type: Sequelize.INTEGER,
       primaryKey: true,
       autoIncrement: true
     },
-    cat_type: {
+    cate_type: {
       type: Sequelize.STRING(45)
-    },
-})
-db.sequelize = sequelize
-db.Sequelize = Sequelize
-
-module.exports = category
+    }
+  },
+    {
+      timestamps: false
+    }
+)

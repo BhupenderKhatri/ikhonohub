@@ -1,5 +1,5 @@
 const Sequelize = require('sequelize')
-const gift_card = require('../database/database/gift_card.js')
+const db = require('../database/database/db.js')
 
 module.exports = db.sequelize.define(
   'gift_card',
@@ -9,13 +9,7 @@ module.exports = db.sequelize.define(
       primaryKey: true,
       autoIncrement: true
     },
-    course_id: {
-      type: Sequelize.INTEGER
-    },
-    student_id: {
-      type: Sequelize.INTEGER
-    },
-    recevier_email: {
+    reciever_email: {
       type: Sequelize.STRING(45)
     },
     value: {
@@ -30,14 +24,29 @@ module.exports = db.sequelize.define(
     message: {
         type: Sequelize.STRING(45)
       },
-    course_id_1: {
-        type: Sequelize.INTEGER
-      },
-    student_id_1: {
-        type: Sequelize.INTEGER
-      },
-    })
-    db.sequelize = sequelize
-db.Sequelize = Sequelize
+      course_id: {
+        type: Sequelize.INTEGER,
+        references: {
+          // This is a reference to another model
+          model: Courses_details,
 
-module.exports = gift_card
+          // This is the column name of the referenced model
+          key: 'course_id'
+      }
+      },
+      student_id: {
+        type: Sequelize.INTEGER,
+        references: {
+          // This is a reference to another model
+          model: User,
+
+          // This is the column name of the referenced model
+          key: 'student_id'
+      }
+      }
+    },
+    {
+      timestamps: false
+    }
+    )
+   

@@ -15,17 +15,31 @@ module.exports = db.sequelize.define(
     },
     date_of_comp: {
         type: Sequelize.DATE,
-        allowNull:false
+        allowNull:true
       },
     is_paid: {
       type: Sequelize.CHAR,
-      allowNull:false
+      allowNull:true
     },
     student_id: {
         type: Sequelize.INTEGER,
+        references: {
+          // This is a reference to another model
+          model: User,
+  
+          // This is the column name of the referenced model
+          key: 'student_id'
+      }
     },
     course_id: {
-        type: Sequelize.INTEGER
+        type: Sequelize.INTEGER,
+        references: {
+          // This is a reference to another model
+          model: Courses_details,
+  
+          // This is the column name of the referenced model
+          key: 'course_id'
+      }
     }
   },
   {

@@ -12,22 +12,27 @@ module.exports = db.sequelize.define(
     no_of_reading: {
         type: Sequelize.INTEGER,
         autoIncrement: true,
-        allowNull:false
+        allowNull:true
       },
       no_of_videos: {
         type: Sequelize.INTEGER,
         autoIncrement: true,
-        allowNull:false
+        allowNull:true
       },
       no_of_Assignment: {
         type: Sequelize.INTEGER,
         autoIncrement: true,
-        allowNull:false
+        allowNull:true
       },
       course_id: {
         type: Sequelize.INTEGER,
-        autoIncrement: true,
-        allowNull:false
+        references: {
+          // This is a reference to another model
+          model: Courses_details,
+
+          // This is the column name of the referenced model
+          key: 'course_id'
+      }
       }
   },
   {
