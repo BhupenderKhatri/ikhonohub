@@ -22,22 +22,20 @@ var transporter = nodemailer.createTransport({
 users.post('/register', (req, res) => {
     const today = new Date()
     const userData = {
-        first_name: req.body.first_name,
-        last_name: req.body.last_name,
-        email: req.body.email,
-        password: req.body.password,
-        created: today
+        name: req.body.signupUser,
+        email: req.body.signupEmail,
+        password: req.body.signupPassword
     }
 
     User.findOne({
         where: {
-            email: req.body.email
+            email: req.body.signupEmail
         }
     })
 
-    .then(user => {
-            if (!user) {
-                bcrypt.hash(req.body.password, 10, (err, hash) => {
+    .then(users => {
+            if (!users) {
+                bcrypt.hash(req.body.signupPassword, 10, (err, hash) => {
 
                     console.log("hereeeee");
 
@@ -46,7 +44,7 @@ users.post('/register', (req, res) => {
 
                         var mailOption = {
                             from: 'iknonohhub@gmail.com', // sender this is your email here
-                            to: `pratyushgoel100@gmail.com`, // receiver email2
+                            to: `ag.adityagupta1998@gmail.com`, // receiver email2
                             subject: "Account Verification",
                             html: `<h4>Hello ,Please Click on this link to verify you account<h4><br><hr>
     <br><a href="http://localhost:4000/verification/?email=${req.body.email}&verify=${verify}/">CLICK ME TO ACTIVATE YOUR ACCOUNT</a>`
@@ -58,8 +56,8 @@ users.post('/register', (req, res) => {
                             } else {
                                 userData.password = hash
                                 User.create(userData)
-                                    .then(user => {
-                                        res.json({ status: user.email + 'Registered!' })
+                                    .then(users => {
+                                        res.json({ status: users.email + 'Registered!' })
                                     })
                                     .catch(err => {
                                         res.send('error: ' + err)
@@ -82,95 +80,95 @@ users.post('/register', (req, res) => {
 })
 
 
-users.get('/verification/', (req, res) => {
-    function activateAccount() {
-        //if (verification == qdata.verify) {
-        //pool.query(
-        //  `UPDATE login SET verified = $2  WHERE email = $1`, [req.query.email,true],
-        //(err, results) => {
-        //  if (err) {
-        //    throw err;
-        //} else {
-        req.flash("success_msg", "You are now registered. Please log in");
-        res.redirect("/client/src/components/Login");
-        //res.cookie("UserInfo", userdata);
-        //res.send('<h1>Account Verification Successfully</h1>');
-        //}
-        //})
-        //else {
-        //  res.send("<h1>verification failed</h1>")
-    }
+// users.get('/verification/', (req, res) => {
+//     function activateAccount() {
+//         //if (verification == qdata.verify) {
+//         //pool.query(
+//         //  `UPDATE login SET verified = $2  WHERE email = $1`, [req.query.email,true],
+//         //(err, results) => {
+//         //  if (err) {
+//         //    throw err;
+//         //} else {
+//         req.flash("success_msg", "You are now registered. Please log in");
+//         res.redirect("/client/src/components/Login");
+//         //res.cookie("UserInfo", userdata);
+//         //res.send('<h1>Account Verification Successfully</h1>');
+//         //}
+//         //})
+//         //else {
+//         //  res.send("<h1>verification failed</h1>")
+//     }
 
 
-    var q = url.parse(req.url, true);
-    var qdata = q.query;
-    //pool.query(
-    //  `SELECT login.verification FROM login
-    //WHERE email = $1`, [qdata.email],
-    //(err, results) => {
-    //  if (err) {
-    //    throw err;
-    //} else {
+//     var q = url.parse(req.url, true);
+//     var qdata = q.query;
+//     //pool.query(
+//     //  `SELECT login.verification FROM login
+//     //WHERE email = $1`, [qdata.email],
+//     //(err, results) => {
+//     //  if (err) {
+//     //    throw err;
+//     //} else {
 
-    console.log(qdata.email);
-    // data = results.rows;
-    //  data.forEach(row => {
-    //    console.log(`id: ${row.id} name: ${row.name} `);
-    //});
+//     console.log(qdata.email);
+//     // data = results.rows;
+//     //  data.forEach(row => {
+//     //    console.log(`id: ${row.id} name: ${row.name} `);
+//     //});
 
-    activateAccount();
-    /* var verify1 = req.query.verify;
-    var verify2 = result[0].verification; 
-    if(verify1 == verify2) {
-        activateAccount(result[0].verification);
-    }else{
-        res.send("<h1>verification fail</h1>")
-    } */
-    //}
-    //})
-});
+//     activateAccount();
+//     /* var verify1 = req.query.verify;
+//     var verify2 = result[0].verification; 
+//     if(verify1 == verify2) {
+//         activateAccount(result[0].verification);
+//     }else{
+//         res.send("<h1>verification fail</h1>")
+//     } */
+//     //}
+//     //})
+// });
 
-users.post('/login', (req, res) => {
-    User.findOne({
-            where: {
-                email: req.body.email
-            }
-        })
-        .then(user => {
-            if (user) {
-                if (bcrypt.compareSync(req.body.password, user.password)) {
-                    let token = jwt.sign(user.dataValues, process.env.SECRET_KEY, {
-                        expiresIn: 1440
-                    })
-                    res.send(token)
-                }
-            } else {
-                res.status(400).json({ error: 'User does not exist' })
-            }
-        })
-        .catch(err => {
-            res.status(400).json({ error: err })
-        })
-})
+// users.post('/login', (req, res) => {
+//     User.findOne({
+//             where: {
+//                 email: req.body.signupEmail
+//             }
+//         })
+//         .then(users => {
+//             if (users) {
+//                 if (bcrypt.compareSync(req.body.signupPassword, users.signupPassword)) {
+//                     let token = jwt.sign(user.dataValues, process.env.SECRET_KEY, {
+//                         expiresIn: 1440
+//                     })
+//                     res.send(token)
+//                 }
+//             } else {
+//                 res.status(400).json({ error: 'User does not exist' })
+//             }
+//         })
+//         .catch(err => {
+//             res.status(400).json({ error: err })
+//         })
+// })
 
-users.get('/profile', (req, res) => {
-    var decoded = jwt.verify(req.headers['authorization'], process.env.SECRET_KEY)
+// users.get('/profile', (req, res) => {
+//     var decoded = jwt.verify(req.headers['authorization'], process.env.SECRET_KEY)
 
-    User.findOne({
-            where: {
-                id: decoded.id
-            }
-        })
-        .then(user => {
-            if (user) {
-                res.json(user)
-            } else {
-                res.send('User does not exist')
-            }
-        })
-        .catch(err => {
-            res.send('error: ' + err)
-        })
-})
+//     User.findOne({
+//             where: {
+//                 id: decoded.id
+//             }
+//         })
+//         .then(user => {
+//             if (user) {
+//                 res.json(user)
+//             } else {
+//                 res.send('User does not exist')
+//             }
+//         })
+//         .catch(err => {
+//             res.send('error: ' + err)
+//         })
+// })
 
 module.exports = users

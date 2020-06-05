@@ -2,22 +2,19 @@ const Sequelize = require('sequelize')
 const db = require('../database/database/db.js')
 
 module.exports = db.sequelize.define(
-  'users',
+  'content_type',
   {
-    student_id: {
+    content_type_id: {
       type: Sequelize.INTEGER,
       primaryKey: true,
       autoIncrement: true
     },
-    name: {
-      type: Sequelize.STRING
-    },
-    email: {
-      type: Sequelize.STRING
-    },
-    password: {
-      type: Sequelize.STRING
-    }
+    content_types_data: {
+        type: Sequelize.VARCHAR(45),
+        primaryKey: true,
+        autoIncrement: true,
+        allowNull:false
+      }
   },
   {
     timestamps: false

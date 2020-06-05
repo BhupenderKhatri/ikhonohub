@@ -2,21 +2,18 @@ const Sequelize = require('sequelize')
 const db = require('../database/database/db.js')
 
 module.exports = db.sequelize.define(
-  'users',
+  'language',
   {
-    student_id: {
+    lang_id: {
       type: Sequelize.INTEGER,
       primaryKey: true,
+      allowNull:false,
       autoIncrement: true
     },
-    name: {
-      type: Sequelize.STRING
-    },
-    email: {
-      type: Sequelize.STRING
-    },
-    password: {
-      type: Sequelize.STRING
+    
+    language_type: {
+        type: Sequelize.VARCHAR(45),
+        allowNull:false
     }
   },
   {
