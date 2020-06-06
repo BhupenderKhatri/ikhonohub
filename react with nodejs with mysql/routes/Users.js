@@ -171,4 +171,16 @@ users.post('/register', (req, res) => {
 //         })
 // })
 
+
+users.post('/login',(req,res)=>{
+    const userData = {
+        email: req.body.loginEmail,
+        password: req.body.loginPassword
+    }
+
+    console.log(userData);
+    res.json("sucess");
+
+})
+
 module.exports = users
