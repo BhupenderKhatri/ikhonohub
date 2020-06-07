@@ -12,7 +12,7 @@ module.exports = db.sequelize.define(
     },
     
     language_type: {
-        type: Sequelize.VARCHAR(45),
+        type: Sequelize.STRING,
         allowNull:true
     }
   },

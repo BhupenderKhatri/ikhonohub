@@ -32,4 +32,38 @@ Courses_details_routes.post('/', (req, res) => {
         course_photo: req.body.course_photo
     }
 })
+
+const database ={
+    pop:[{
+        
+            id:1,
+            heading: "Web Developement",
+            data:"This is the comeplete course",
+            name:"Khatri",
+            url:'https://www.youtube.com/watch?v=ysz5S6PUM-U'
+        },
+        {   id:2,
+            heading: "French",
+            data:"This is the comeplete course ",
+            name:"Khatri",
+            url:'https://www.youtube.com/watch?v=ysz5S6PUM-U'
+        },
+        {   id:3,
+            heading: "Python",
+            data:"This is the comeplete course ",
+            name:"Khatri",
+            url:'https://www.youtube.com/watch?v=ysz5S6PUM-U'
+        },
+    ]
+}
+
+
+Courses_details_routes.get('/coursedetails',(req,res)=>{
+    database.pop.forEach(course =>{
+        res.json(user);
+    })
+})
+
+
+
 module.exports=Courses_details_routes;

@@ -1,5 +1,7 @@
 const Sequelize = require('sequelize')
 const db = require('../database/database/db.js')
+const Language = require('./Language')
+const category = require('./category')
 
 module.exports = db.sequelize.define(
   'courses_details',
@@ -11,7 +13,7 @@ module.exports = db.sequelize.define(
       autoIncrement: true
     },
     course_name: {
-      type: Sequelize.VARCHAR(45),
+      type: Sequelize.STRING,
       allowNull:true
     },
     course_rating: {
@@ -23,11 +25,11 @@ module.exports = db.sequelize.define(
       allowNull:true
     },
     short_description: {
-      type: Sequelize.VARCHAR(45),
+      type: Sequelize.STRING,
       allowNull:true
     },
     long_description: {
-        type: Sequelize.VARCHAR(45),
+        type: Sequelize.STRING,
         allowNull:true
     },
     no_of_chapter: {
@@ -46,7 +48,7 @@ module.exports = db.sequelize.define(
         type: Sequelize.INTEGER,
         references: {
           // This is a reference to another model
-          model: Language,
+          models: Language,
 
           // This is the column name of the referenced model
           key: 'lang_id'
@@ -56,7 +58,7 @@ module.exports = db.sequelize.define(
         type: Sequelize.INTEGER,
         references: {
           // This is a reference to another model
-          model: category,
+          models: category,
 
           // This is the column name of the referenced model
           key: 'cate_id'

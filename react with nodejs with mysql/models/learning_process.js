@@ -1,5 +1,7 @@
 const Sequelize = require('sequelize')
 const db = require('../database/database/db.js')
+const Student_enrollment =require('./Student_enrollment')
+const course_chapter_content = require('./course_chapter_content')
 
 module.exports = db.sequelize.define(
   'learning_process',
@@ -20,7 +22,7 @@ module.exports = db.sequelize.define(
         type: Sequelize.INTEGER,
         references: {
           // This is a reference to another model
-          model: Student_enrollment,
+          models: Student_enrollment,
 
           // This is the column name of the referenced model
           key: 'enroll_id'
@@ -31,7 +33,7 @@ module.exports = db.sequelize.define(
         type: Sequelize.INTEGER,
         references: {
           // This is a reference to another model
-          model: course_chapter_content,
+          models: course_chapter_content,
 
           // This is the column name of the referenced model
           key: 'ccc_id'
@@ -41,5 +43,5 @@ module.exports = db.sequelize.define(
       {
         timestamps: false
       }
-    })
+    )
    

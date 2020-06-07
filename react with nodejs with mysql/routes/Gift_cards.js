@@ -26,8 +26,9 @@ gift_cards.post('/', (req, res) => {
         value: req.body.value,
         no_of_cards: req.body.no_of_cards,
         gift_name: req.body.gift_name,
-        message: req.body.message,
+        message: req.body.message
 
     }
+    // giftcard.create(giftcardData)
 })
 module.exports=gift_cards;

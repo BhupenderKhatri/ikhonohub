@@ -1,5 +1,7 @@
 const Sequelize = require('sequelize')
 const db = require('../database/database/db.js')
+const models = require('./Course_chapter')
+const Content_type = require('./Content_type')
 
 module.exports = db.sequelize.define(
   'course_chapter_content',
@@ -26,7 +28,7 @@ module.exports = db.sequelize.define(
         type: Sequelize.INTEGER,
         references: {
           // This is a reference to another model
-          model: Course_chapter,
+          models: models,
 
           // This is the column name of the referenced model
           key: 'ccp_id'
@@ -37,7 +39,7 @@ module.exports = db.sequelize.define(
         type: Sequelize.INTEGER,
         references: {
           // This is a reference to another model
-          model: Content_type,
+          models: Content_type,
 
           // This is the column name of the referenced model
           key: 'cpntent_type_id'

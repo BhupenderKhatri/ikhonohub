@@ -10,9 +10,7 @@ module.exports = db.sequelize.define(
       autoIncrement: true
     },
     content_types_data: {
-        type: Sequelize.VARCHAR(45),
-        primaryKey: true,
-        autoIncrement: true,
+        type: Sequelize.INTEGER,
         allowNull:true
       }
   },
