@@ -24,8 +24,11 @@ users.post('/register', (req, res) => {
     const userData = {
         name: req.body.signupUser,
         email: req.body.signupEmail,
-        password: req.body.signupPassword
+        password: req.body.signupPassword,
+        confirmpassword: req.body.signupComPassword
     }
+
+
 
     User.findOne({
         where: {
@@ -38,7 +41,7 @@ users.post('/register', (req, res) => {
                 bcrypt.hash(req.body.signupPassword, 10, (err, hash) => {
 
                     console.log("hereeeee");
-
+                    console.log(req.body.signupComPassword);
                     function Store(pass) {
                         var verify = Math.floor((Math.random() * 10000000) + 1);
 

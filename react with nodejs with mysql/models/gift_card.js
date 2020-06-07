@@ -11,8 +11,11 @@ module.exports = db.sequelize.define(
       primaryKey: true,
       autoIncrement: true
     },
+    receiver_name:{
+      type: Sequelize.STRING
+    },
     reciever_email: {
-      type: Sequelize.STRING(45)
+      type: Sequelize.STRING
     },
     value: {
         type: Sequelize.INTEGER
@@ -21,10 +24,10 @@ module.exports = db.sequelize.define(
         type: Sequelize.INTEGER
       },
     gift_name: {
-        type: Sequelize.STRING(45)
+        type: Sequelize.STRING
       },
     message: {
-        type: Sequelize.STRING(45)
+        type: Sequelize.STRING
       },
       course_id: {
         type: Sequelize.INTEGER,
