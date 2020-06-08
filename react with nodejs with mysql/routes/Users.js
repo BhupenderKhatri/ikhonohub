@@ -24,60 +24,78 @@ users.post('/register', (req, res) => {
     const userData = {
         name: req.body.signupUser,
         email: req.body.signupEmail,
-        password: req.body.signupPassword
+        password: req.body.signupPassword,
+        password2: req.body.signupPassword2
     }
+    let errors = [];
+
     console.log(userData);
+    if (!userData.name || !userData.email || !userData.password || !userData.password2) {
+        errors.push({ message: "Please enter all fields" });
+    }
 
-    User.findOne({
-        where: {
-            email: req.body.signupEmail
-        }
-    })
+    if (userData.password.length < 6) {
+        errors.push({ message: "Password must be a least 6 characters long" });
+    }
 
-    .then(users => {
-            if (!users) {
-                bcrypt.hash(req.body.signupPassword, 10, (err, hash) => {
+    if (userData.password !== userData.password2) {
+        errors.push({ message: "Passwords do not match" });
+    }
 
-                    console.log("hereeeee");
-
-                    function Store(pass) {
-                        var verify = Math.floor((Math.random() * 10000000) + 1);
-
-                        var mailOption = {
-                            from: 'iknonohhub@gmail.com', // sender this is your email here
-                            to: `ag.adityagupta1998@gmail.com`, // receiver email2
-                            subject: "Account Verification",
-                            html: `<h4>Hello ,Please Click on this link to verify you account<h4><br><hr>
-    <br><a href="http://localhost:4000/verification/?email=${req.body.email}&verify=${verify}/">CLICK ME TO ACTIVATE YOUR ACCOUNT</a>`
-                        }
-
-                        transporter.sendMail(mailOption, (error, info) => {
-                            if (error) {
-                                console.log(error)
-                            } else {
-                                userData.password = hash
-                                User.create(userData)
-                                    .then(users => {
-                                        res.json({ status: users.email + 'Registered!' })
-                                    })
-                                    .catch(err => {
-                                        res.send('error: ' + err)
-                                    })
-
-
-                            }
-                        });
-
-                    }
-                    Store(hash);
-                })
-            } else {
-                res.json({ error: 'User already exists' })
+    if (errors.length > 0) {
+        //res.render("register", { errors, userData.name, email, password, password2 });
+    } else {
+        User.findOne({
+            where: {
+                email: req.body.signupEmail
             }
         })
-        .catch(err => {
-            res.send('error: ' + err)
-        })
+
+        .then(users => {
+                if (!users) {
+                    bcrypt.hash(req.body.signupPassword, 10, (err, hash) => {
+
+                        console.log("hereeeee");
+
+                        function Store(pass) {
+                            var verify = Math.floor((Math.random() * 10000000) + 1);
+
+                            var mailOption = {
+                                from: 'iknonohhub@gmail.com', // sender this is your email here
+                                to: `ag.adityagupta1998@gmail.com`, // receiver email2
+                                subject: "Account Verification",
+                                html: `<h4>Hello ,Please Click on this link to verify you account<h4><br><hr>
+            <br><a href="http://localhost:4000/verification/?email=${req.body.email}&verify=${verify}/">CLICK ME TO ACTIVATE YOUR ACCOUNT</a>`
+                            }
+
+                            transporter.sendMail(mailOption, (error, info) => {
+                                if (error) {
+                                    console.log(error)
+                                } else {
+                                    userData.password = hash
+                                    User.create(userData)
+                                        .then(users => {
+                                            res.json({ status: users.email + 'Registered!' })
+                                        })
+                                        .catch(err => {
+                                            res.send('error: ' + err)
+                                        })
+
+
+                                }
+                            });
+
+                        }
+                        Store(hash);
+                    })
+                } else {
+                    res.json({ error: 'User already exists' })
+                }
+            })
+            .catch(err => {
+                res.send('error: ' + err)
+            })
+    }
 })
 
 
