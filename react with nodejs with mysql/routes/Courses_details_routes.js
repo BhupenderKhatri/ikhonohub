@@ -59,9 +59,10 @@ const database ={
 
 
 Courses_details_routes.get('/coursedetails',(req,res)=>{
-    database.pop.forEach(course =>{
-        res.json(user);
-    })
+    // database.pop.forEach(course =>{
+    //     res.json();
+    res.json(database.pop)
+    
 })
 
 

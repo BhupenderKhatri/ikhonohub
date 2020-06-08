@@ -26,6 +26,7 @@ users.post('/register', (req, res) => {
         email: req.body.signupEmail,
         password: req.body.signupPassword
     }
+    console.log(userData);
 
     User.findOne({
         where: {
@@ -128,28 +129,30 @@ users.post('/register', (req, res) => {
 //     //})
 // });
 
-// users.post('/login', (req, res) => {
-//     User.findOne({
-//             where: {
-//                 email: req.body.signupEmail
-//             }
-//         })
-//         .then(users => {
-//             if (users) {
-//                 if (bcrypt.compareSync(req.body.signupPassword, users.signupPassword)) {
-//                     let token = jwt.sign(user.dataValues, process.env.SECRET_KEY, {
-//                         expiresIn: 1440
-//                     })
-//                     res.send(token)
-//                 }
-//             } else {
-//                 res.status(400).json({ error: 'User does not exist' })
-//             }
-//         })
-//         .catch(err => {
-//             res.status(400).json({ error: err })
-//         })
-// })
+users.post('/login', (req, res) => {
+    User.findOne({
+            where: {
+                email: req.body.loginEmail
+            }
+        })
+        .then(users => {
+
+            if (users) {
+
+                if (bcrypt.compareSync(req.body.loginPassword, users.password)) {
+
+
+                    ab = 'Registered!'
+                    res.send(ab)
+                }
+            } else {
+                res.status(400).json({ error: 'User does not exist' })
+            }
+        })
+        .catch(err => {
+            res.status(400).json({ error: err })
+        })
+})
 
 // users.get('/profile', (req, res) => {
 //     var decoded = jwt.verify(req.headers['authorization'], process.env.SECRET_KEY)
