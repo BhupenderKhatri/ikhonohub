@@ -1,0 +1,1626 @@
+#basecontentcon{
+    width: 800px;
+    height: 220px ;
+    border: box solid;
+    border-radius: 40px;
+    margin-top: 30px;
+    background: #6E6E6E 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    opacity: 0.8;
+    margin-left: 70px;
+}
+
+#infocon{
+    text-align: left;
+    color: white;
+    padding-left: 20px;
+    padding-top: 20px;
+    
+}
+
+
+#theorycon{
+    text-align: left;
+    font-size: medium;
+    font: Roman 25px/34px Avenir;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    padding-left: 2px;
+}
+#imgcon{
+    margin-top: -100px;
+    margin-left: 580px;
+    width:23%; 
+    filter: brightness(150%);
+}
+#basecontent2con{
+    width: 800px;
+    height: 220px ;
+    margin-left: 645px;
+    border: box solid;
+    border-radius: 40px;
+    margin-top: 30px;
+    background: #6E6E6E 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    opacity: 0.8;
+}
+#img2con{
+    width:23%;
+    margin-top: 50px;
+    margin-left: 30px;
+    filter: brightness(150%);
+    
+}
+#info2con{
+    color: white;
+    margin-left: 235px;
+    margin-top: -155px;
+    
+}
+#theory2con{
+    padding-left: 20px;
+    padding-bottom: -500px;
+    margin-left: -17px;
+}
+
+
+#basecontent4con{
+    width: 800px;
+    height: 220px ;
+    margin-left: 645px;
+    border: box solid;
+    border-radius: 40px;
+    margin-top: 30px;
+    background: #6E6E6E 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    opacity: 0.8;
+}
+#img4con{
+    width:23%;
+    margin-top: 50px;
+    margin-left: 30px;
+    filter: brightness(150%);
+    
+}
+#info4con{
+    color: white;
+    margin-left: 240px;
+    margin-top: -125px;
+    
+    
+}
+#theory4con{
+    padding-left: 20px;
+    padding-bottom: -500px;
+    margin-left: -18px;
+}
+#headingcon h1{
+letter-spacing: 0px;
+color: #FF6600D9;
+text-transform: uppercase;
+opacity: 1;
+    text-align: center;
+}
+
+@media only screen and (min-width: 320px) 
+    and (max-width: 374px) 
+      {
+        #headingcon h1{
+            font-size: 65%;
+            margin-left: 2%;
+        }
+          #basecontentcon{
+             width: 280px;
+             height: 100px;
+             margin-left: 20px;
+            
+          }  
+          #infocon{
+              font-size: 7px;
+              margin-left: -6px;
+              margin-top: -2px;
+          }
+         #theorycon{
+            font-size: 7px;
+            margin-right: 65px;
+            
+            
+          }
+         #imgcon{
+            margin-left: 206px;
+            margin-top: -45px;
+          }
+          #fivecon{
+              
+              margin-left: -20px;
+              margin-top: 5px;
+          }
+          #basecontent2con{
+            width: 280px;
+             height: 100px;
+             margin-left: 20px;
+            
+        }  
+        #img2con{
+            margin-top: 20px;
+            margin-left: 8px;
+           }
+        #info2con{
+            font-size: 7px;
+            margin-left: 85px;
+            margin-top: -57px;
+        }
+       #theory2con{
+        font-size: 7px;
+        
+        }
+      
+        #basecontent4con{
+            width: 280px;
+            height: 100px;
+            margin-left: 20px;
+            
+            
+        }  
+        #info4con{
+            font-size: 7px;
+            margin-left: 85px;
+            margin-top: -47px;
+        }
+       #theory4con{
+        font-size:7px;
+        margin-right: 5px;
+        }
+       #img4con{
+        margin-top: 30px;
+        margin-left: 8px;
+        }
+      }
+
+      @media only screen and (min-width: 374px) 
+    and (max-width: 450px) 
+      {
+        #headingcon h1{
+            font-size: 65%;
+            margin-left: 2%;
+        }
+          #basecontentcon{
+             width: 290px;
+             height: 115px;
+             margin-left: 50px;
+            
+          }  
+          #infocon{
+              font-size: 8px;
+              margin-left: -6px;
+              margin-top: 5px;
+          }
+         #theorycon{
+            font-size: 7px;
+            margin-right: 70px;
+            
+            
+          }
+         #imgcon{
+            margin-left: 221px;
+            margin-top: -45px;
+          }
+          #fivecon{
+              
+              margin-left: -20px;
+              margin-top: 5px;
+          }
+          #basecontent2con{
+            width: 290px;
+            height: 115px;
+            margin-left: 50px;
+            
+        }  
+        #img2con{
+            margin-top: 30px;
+            margin-left: 6px;
+           }
+        #info2con{
+            font-size: 8px;
+            margin-left: 85px;
+            margin-top: -57px;
+        }
+       #theory2con{
+        font-size: 7px;
+        margin-right: 5px;
+        
+        }
+      
+        #basecontent4con{
+            width: 290px;
+            height: 115px;
+            margin-left: 50px;
+            
+            
+        }  
+        #info4con{
+            font-size: 8px;
+            margin-left: 85px;
+            margin-top: -47px;
+        }
+       #theory4con{
+        font-size: 7px;
+        margin-right: 10px;
+        }
+       #img4con{
+        margin-top: 30px;
+        margin-left: 6px;
+        }
+        
+      }
+
+      @media only screen and (min-width: 450px) 
+    and (max-width: 550px) 
+      {
+        #headingcon h1{
+            font-size: 85%;
+            margin-left: -6px;
+        }
+          #basecontentcon{
+             width: 290px;
+             height: 120px;
+             margin-left: 30px;
+            
+          }  
+          #infocon{
+              font-size: 8px;
+              margin-left: -6px;
+              margin-top: 5px;
+          }
+         #theorycon{
+            font-size: 7px;
+            margin-right: 70px;
+            
+            
+          }
+         #imgcon{
+            margin-left: 221px;
+            margin-top: -45px;
+          }
+          #fivecon{
+              
+              margin-left: -20px;
+              margin-top: 5px;
+          }
+          #basecontent2con{
+            width: 290px;
+            height: 120px;
+            margin-left: 160px;
+            
+        }  
+        #img2con{
+            margin-top: 30px;
+            margin-left: 6px;
+           }
+        #info2con{
+            font-size: 8px;
+            margin-left: 85px;
+            margin-top: -57px;
+        }
+       #theory2con{
+        font-size: 7px;
+        margin-right: 10px;
+        
+        }
+      
+        #basecontent4con{
+            width: 290px;
+            height: 120px;
+            margin-left: 160px;
+            
+            
+        }  
+        #info4con{
+            font-size: 8px;
+            margin-left: 85px;
+            margin-top: -47px;
+        }
+       #theory4con{
+        font-size: 7px;
+        margin-right: 10px;
+        }
+       #img4con{
+        margin-top: 30px;
+        margin-left: 6px;
+        }
+      }
+      @media only screen and (min-width: 551px) 
+    and (max-width: 617px) 
+      {
+        #headingcon h1{
+            font-size: 95%;
+            margin-left: -29px;
+        }
+          #basecontentcon{
+             width: 310px;
+             height: 120px;
+             margin-left: 40px;
+            
+          }  
+          #infocon{
+              font-size: 10px;
+              margin-left: -6px;
+              margin-top: -4px;
+          }
+         #theorycon{
+            font-size: 7.3px;
+            margin-right: 100px;
+            
+            
+          }
+         #imgcon{
+            margin-left: 221px;
+            margin-top: -60px;
+          }
+          #fivecon{
+              
+              margin-left: -20px;
+              margin-top: 5px;
+          }
+          #basecontent2con{
+            width: 310px;
+            height: 120px;
+            margin-left: 220px;
+            
+        }  
+        #img2con{
+            margin-top: 30px;
+            margin-left: 6px;
+           }
+        #info2con{
+            font-size: 10px;
+            margin-left: 85px;
+            margin-top: -67px;
+        }
+       #theory2con{
+        font-size: 7.3px;
+        margin-right: 20px;
+        
+        }
+      
+        #basecontent4con{
+            width: 310px;
+            height: 120px;
+            margin-left: 220px;
+            
+            
+        }  
+        #info4con{
+            font-size: 10px;
+            margin-left: 85px;
+            margin-top: -67px;
+        }
+       #theory4con{
+        font-size: 7.3px;
+        margin-right: 10px;
+        }
+       #img4con{
+        margin-top: 35px;
+        margin-left: 6px;
+        }
+  
+      }
+
+      @media only screen and (min-width: 618px) 
+and (max-width: 700px) 
+  {
+
+    #headingcon h1{
+        font-size: 105%;
+        margin-left: -48px;
+    }
+      #basecontentcon{
+         width: 320px;
+         height: 120px;
+         margin-left: 80px;
+        
+      }  
+      #infocon{
+          font-size: 8px;
+          margin-left: -8px;
+          margin-top: 5px;
+      }
+     #theorycon{
+        font-size: 7.8px;
+        margin-right: 90px;
+        
+        
+      }
+     #imgcon{
+        margin-left: 235px;
+        margin-top: -55px;
+
+      }
+      #fivecon{
+          
+          margin-left: -20px;
+          margin-top: 5px;
+      }
+      #basecontent2con{
+        width: 320px;
+        height: 120px;
+        margin-left: 250px;
+        
+    }  
+    #img2con{
+        margin-top: 30px;
+        margin-left: 6px;
+       }
+    #info2con{
+        font-size: 8px;
+        margin-left: 95px;
+        margin-top: -67px;
+    }
+   #theory2con{
+    font-size: 7.8px;
+    margin-right: 20px;
+    
+    }
+  
+    #basecontent4con{
+        width: 320px;
+        height: 120px;
+        margin-left: 250px;
+        
+        
+    }  
+    #info4con{
+        font-size: 8px;
+        margin-left: 95px;
+        margin-top: -57px;
+    }
+   #theory4con{
+    font-size: 7.8px;
+    margin-right: 10px;
+    }
+   #img4con{
+    margin-top: 35px;
+    margin-left: 6px;
+    }
+    }
+
+    @media only screen and (min-width: 701px) 
+    and (max-width: 767px) 
+      {
+        #headingcon h1{
+            font-size: 115%;
+            margin-left: -30px;
+        }
+          #basecontentcon{
+             width: 350px;
+             height: 120px;
+             margin-left: 50px;
+            
+          }  
+          #infocon{
+              font-size: 10px;
+              margin-left: -8px;
+              margin-top: 2px;
+          }
+         #theorycon{
+            font-size: 8px;
+            margin-right: 95px;
+            
+            
+          }
+         #imgcon{
+            margin-left: 255px;
+            margin-top: -55px;
+    
+          }
+          #fivecon{
+              
+              margin-left: -20px;
+              margin-top: 5px;
+          }
+          #basecontent2con{
+            width: 350px;
+            height: 120px;
+            margin-left: 338px;
+            
+        }  
+        #img2con{
+            margin-top: 30px;
+            margin-left: 6px;
+           }
+        #info2con{
+            font-size: 10px;
+            margin-left: 95px;
+            margin-top: -77px;
+        }
+       #theory2con{
+        font-size: 8px;
+        margin-right: 20px;
+        
+        }
+      
+        #basecontent4con{
+            width: 350px;
+            height: 120px;
+            margin-left: 338px;
+            
+            
+        }  
+        #info4con{
+            font-size: 10px;
+            margin-left: 95px;
+            margin-top: -67px;
+        }
+       #theory4con{
+        font-size: 8px;
+        margin-right: 20px;
+        }
+       #img4con{
+        margin-top: 35px;
+        margin-left: 6px;
+        }
+}
+@media only screen and (min-width: 768px) 
+    and (max-width: 850px) 
+      {
+        #headingcon h1{
+            font-size: 115%;
+            margin-left: -30px;
+        }
+          #basecontentcon{
+             width: 350px;
+             height: 120px;
+             margin-left: 70px;
+            
+          }  
+          #infocon{
+              font-size: 10px;
+              margin-left: -8px;
+              margin-top: 2px;
+          }
+         #theorycon{
+            font-size: 8px;
+            margin-right: 95px;
+            
+            
+          }
+         #imgcon{
+            margin-left: 255px;
+            margin-top: -55px;
+    
+          }
+          #fivecon{
+              
+              margin-left: -20px;
+              margin-top: 5px;
+          }
+          #basecontent2con{
+            width: 350px;
+            height: 120px;
+            margin-left: 338px;
+            
+        }  
+        #img2con{
+            margin-top: 30px;
+            margin-left: 6px;
+           }
+        #info2con{
+            font-size: 10px;
+            margin-left: 95px;
+            margin-top: -77px;
+        }
+       #theory2con{
+        font-size: 8px;
+        margin-right: 20px;
+        
+        }
+      
+        #basecontent4con{
+            width: 350px;
+            height: 120px;
+            margin-left: 338px;
+            
+            
+        }  
+        #info4con{
+            font-size: 10px;
+            margin-left: 105px;
+            margin-top: -67px;
+        }
+       #theory4con{
+        font-size: 8px;
+        margin-right: 20px;
+        }
+       #img4con{
+        margin-top: 35px;
+        margin-left: 6px;
+        }
+}
+@media only screen and (min-width: 851px) 
+    and (max-width: 909px) 
+      {
+        #headingcon h1{
+            font-size: 115%;
+            margin-left: -30px;
+        }
+          #basecontentcon{
+             width: 380px;
+             height: 140px;
+             margin-left: 120px;
+            
+          }  
+          #infocon{
+              font-size: 10px;
+              margin-left: 2px;
+              margin-top: 5px;
+          }
+         #theorycon{
+            font-size: 8px;
+            margin-right: 125px;
+            
+            
+          }
+         #imgcon{
+            margin-left: 265px;
+            margin-top: -60px;
+    
+          }
+          #fivecon{
+              
+              margin-left: -20px;
+              margin-top: 5px;
+          }
+          #basecontent2con{
+            width: 380px;
+            height: 140px;
+            margin-left: 378px;
+            
+        }  
+        #img2con{
+            margin-top: 30px;
+            margin-left: 6px;
+           }
+        #info2con{
+            font-size: 10px;
+            margin-left: 95px;
+            margin-top: -77px;
+        }
+       #theory2con{
+        font-size: 8px;
+        margin-right: 20px;
+        
+        }
+      
+        #basecontent4con{
+            width: 380px;
+            height: 140px;
+            margin-left: 378px;
+            
+            
+        }  
+        #info4con{
+            font-size: 10px;
+            margin-left: 105px;
+            margin-top: -67px;
+        }
+       #theory4con{
+        font-size: 8px;
+        margin-right: 20px;
+        }
+       #img4con{
+        margin-top: 35px;
+        margin-left: 6px;
+        }
+      }
+      @media only screen and (min-width: 910px) 
+    and (max-width: 1023px) 
+      {
+        #headingcon h1{
+            font-size: 115%;
+            margin-left: -30px;
+        }
+          #basecontentcon{
+             width: 420px;
+             height: 140px;
+             margin-left: 120px;
+            
+          }  
+          #infocon{
+              font-size: 10px;
+              margin-left: 2px;
+              margin-top: 5px;
+          }
+         #theorycon{
+            font-size: 9px;
+            margin-right: 135px;
+            
+            
+          }
+         #imgcon{
+            margin-left: 285px;
+            margin-top: -60px;
+    
+          }
+          #fivecon{
+              
+              margin-left: -20px;
+              margin-top: 5px;
+          }
+          #basecontent2con{
+            width: 420px;
+            height: 140px;
+            margin-left: 400px;
+            
+        }  
+        #img2con{
+            margin-top: 30px;
+            margin-left: 6px;
+           }
+        #info2con{
+            font-size: 10px;
+            margin-left: 115px;
+            margin-top: -77px;
+        }
+       #theory2con{
+        font-size: 9px;
+        margin-right: 20px;
+        
+        }
+      
+        #basecontent4con{
+            width: 420px;
+            height: 140px;
+            margin-left: 400px;
+            
+            
+        }  
+        #info4con{
+            font-size: 10px;
+            margin-left: 115px;
+            margin-top: -67px;
+        }
+       #theory4con{
+        font-size: 9px;
+        margin-right: 20px;
+        }
+       #img4con{
+        margin-top: 35px;
+        margin-left: 6px;
+        }
+      }
+
+
+     
+      @media only screen and (min-width: 1024px) 
+      and (max-width: 1100px)
+        {
+         
+            #headingcon h1{
+                font-size: 165%;
+                margin-left: -42px;
+            }
+              #basecontentcon{
+                 width: 650px;
+                 height: 190px;
+                 margin-left: 77px;
+                
+              }  
+              #infocon{
+                  font-size: 13px;
+                  margin-left: 8px;
+                  margin-top: 18px;
+              }
+             #theorycon{
+                font-size: 13px;
+                margin-right: 170px;
+                
+              }
+             #imgcon{
+                margin-left: 480px;
+                margin-top: -99px;
+                
+              }
+              #fivecon{
+                  
+                  margin-left: -20px;
+                  margin-top: 5px;
+              }
+              #basecontent2con{
+                width: 650px;
+                 height: 190px;
+                 margin-left: 287px;
+                
+            }  
+            #img2con{
+                margin-top: 30px;
+                margin-left: 13px;
+               }
+            #info2con{
+                font-size: 13px;
+                margin-left: 195px;
+                margin-top: -122px;
+            }
+           #theory2con{
+            font-size: 13px;
+            margin-right: 40px;
+            
+            }
+          
+            #basecontent4con{
+                width: 650px;
+                height: 190px;
+                margin-left: 287px;
+               
+                
+                
+            }  
+            #info4con{
+                font-size: 13px;
+                margin-left: 195px;
+                margin-top: -100px;
+            }
+           #theory4con{
+            font-size: 13px;
+            margin-right: 30px;
+            }
+           #img4con{
+            margin-top: 50px;
+            margin-left: 6px;
+            }
+          
+        }
+
+@media only screen and (min-width: 1101px) and (max-width: 1200px){
+    #headingcon h1{
+        font-size: 165%;
+        margin-left: -42px;
+    }
+      #basecontentcon{
+         width: 650px;
+         height: 190px;
+         margin-left: 77px;
+        
+      }  
+      #infocon{
+          font-size: 13px;
+          margin-left: 8px;
+          margin-top: 15px;
+      }
+     #theorycon{
+        font-size: 13px;
+        margin-right: 180px;
+        
+        
+      }
+     #imgcon{
+        margin-left: 480px;
+        margin-top: -99px;
+        
+      }
+      #fivecon{
+          
+          margin-left: -20px;
+          margin-top: 5px;
+      }
+      #basecontent2con{
+        width: 650px;
+         height: 190px;
+         margin-left: 427px;
+        
+    }  
+    #img2con{
+        margin-top: 30px;
+        margin-left: 13px;
+       }
+    #info2con{
+        font-size: 13px;
+        margin-left: 195px;
+        margin-top: -112px;
+    }
+   #theory2con{
+    font-size: 13px;
+    margin-right: 30px;
+    }
+  
+    #basecontent4con{
+        width: 650px;
+        height: 190px;
+        margin-left: 427px;
+       
+        
+        
+    }  
+    #info4con{
+        font-size: 13px;
+        margin-left: 195px;
+        margin-top: -92px;
+    }
+   #theory4con{
+    font-size: 13px;margin-right: 30px;
+    }
+   #img4con{
+    margin-top: 30px;
+    margin-left: 6px;
+    }
+        }
+@media only screen and (min-width: 1201px) and (max-width: 1300px){
+    #headingcon h1{
+        font-size: 165%;
+        margin-left: -42px;
+    }
+      #basecontentcon{
+         width: 650px;
+         height: 190px;
+         margin-left: 77px;
+        
+      }  
+      #infocon{
+          font-size: 13px;
+          margin-left: 8px;
+          margin-top: 20px;
+      }
+     #theorycon{
+        font-size: 13px;
+        margin-right: 170px;
+        
+        
+      }
+     #imgcon{
+        margin-left: 480px;
+        margin-top: -102px;
+        
+      }
+      #fivecon{
+          
+          margin-left: -20px;
+          margin-top: 5px;
+      }
+      #basecontent2con{
+        width: 650px;
+         height: 190px;
+         margin-left: 517px;
+        
+    }  
+    #img2con{
+        margin-top: 30px;
+        margin-left: 13px;
+       }
+    #info2con{
+        font-size: 13px;
+        margin-left: 195px;
+        margin-top: -122px;
+    }
+   #theory2con{
+    font-size: 13px;
+    margin-right: 40px;
+    
+    }
+  
+    #basecontent4con{
+        width: 650px;
+        height: 190px;
+        margin-left: 517px;
+       
+        
+        
+    }  
+    #info4con{
+        font-size: 13px;
+        margin-left: 195px;
+        margin-top: -102px;
+    }
+   #theory4con{
+    font-size: 13px;
+    margin-right: 40px;
+    }
+   #img4con{
+    margin-top: 45px;
+    margin-left: 6px;
+    }
+        }
+
+@media only screen and (min-width: 1301px) and (max-width: 1360px){
+    #headingcon h1{
+        font-size: 165%;
+        margin-left: -42px;
+    }
+      #basecontentcon{
+         width: 650px;
+         height: 190px;
+         margin-left: 77px;
+        
+      }  
+      #infocon{
+          font-size: 13px;
+          margin-left: 8px;
+          margin-top: 15px;
+      }
+     #theorycon{
+        font-size: 13px;
+        margin-right: 170px;
+        
+        
+      }
+     #imgcon{
+        margin-left: 480px;
+        margin-top: -99px;
+        
+      }
+      #fivecon{
+          
+          margin-left: -20px;
+          margin-top: 5px;
+      }
+      #basecontent2con{
+        width: 650px;
+         height: 190px;
+         margin-left: 597px;
+        
+    }  
+    #img2con{
+        margin-top: 30px;
+        margin-left: 13px;
+       }
+    #info2con{
+        font-size: 13px;
+        margin-left: 195px;
+        margin-top: -122px;
+    }
+   #theory2con{
+    font-size: 13px;
+    margin-right: 40px;
+    
+    }
+  
+    #basecontent4con{
+        width: 650px;
+        height: 190px;
+        margin-left: 597px;
+       
+        
+        
+    }  
+    #info4con{
+        font-size: 13px;
+        margin-left: 195px;
+        margin-top: -102px;
+    }
+   #theory4con{
+    font-size: 13px;
+    margin-right: 40px;
+    }
+   #img4con{
+    margin-top: 40px;
+    margin-left: 6px;
+    }
+        }
+        @media only screen and (min-width: 1361px) 
+        and (max-width: 1440px)
+          {
+        
+            #headingcon h1{
+                font-size: 215%;
+                margin-left: -42px;
+            }
+              #basecontentcon{
+                 width: 800px;
+                 height: 250px;
+                 margin-left: 77px;
+                
+              }  
+              #infocon{
+                  font-size: 16px;
+                  margin-left: 8px;
+                  margin-top: 30px;
+              }
+             #theorycon{
+                font-size: 16px;
+                margin-right: 200px;
+                
+                
+              }
+             #imgcon{
+                margin-left: 585px;
+                margin-top: -123px;
+                
+              }
+              #fivecon{
+                  
+                  margin-left: -20px;
+                  margin-top: 34px;
+              }
+              #basecontent2con{
+                width: 800px;
+                height: 250px;
+                 margin-left: 524px;
+                
+            }  
+            #img2con{
+                margin-top: 30px;
+                margin-left: 13px;
+               }
+            #info2con{
+                font-size: 16px;
+                margin-left: 195px;
+                margin-top: -122px;
+            }
+           #theory2con{
+            font-size: 16px;
+            margin-right: 40px;
+            
+            }
+          
+            #basecontent4con{
+                width: 800px;
+                height: 250px;
+                margin-left: 524px;
+               
+                
+            }  
+            #info4con{
+                font-size: 16px;
+                margin-left: 195px;
+                margin-top: -102px;
+            }
+           #theory4con{
+            font-size: 16px;
+            margin-right: 40px;
+            }
+           #img4con{
+            margin-top: 40px;
+            margin-left: 6px;
+            }
+         
+          }
+
+@media only screen and (min-width: 1441px) and (max-width: 1520px){
+    #headingcon h1{
+        font-size: 215%;
+        margin-left: -42px;
+    }
+      #basecontentcon{
+         width: 800px;
+         height: 250px;
+         margin-left: 137px;
+        
+      }  
+      #infocon{
+          font-size: 16px;
+          margin-left: 8px;
+          margin-top: 30px;
+      }
+     #theorycon{
+        font-size: 16px;
+        margin-right: 200px;
+        
+        
+      }
+     #imgcon{
+        margin-left: 585px;
+        margin-top: -123px;
+        
+      }
+      #fivecon{
+          
+          margin-left: -20px;
+          margin-top: 34px;
+      }
+      #basecontent2con{
+        width: 800px;
+        height: 250px;
+         margin-left: 524px;
+        
+    }  
+    #img2con{
+        margin-top: 30px;
+        margin-left: 13px;
+       }
+    #info2con{
+        font-size: 16px;
+        margin-left: 195px;
+        margin-top: -122px;
+    }
+   #theory2con{
+    font-size: 16px;
+    margin-right: 40px;
+    
+    }
+  
+    #basecontent4con{
+        width: 800px;
+        height: 250px;
+        margin-left: 524px;
+       
+        
+    }  
+    #info4con{
+        font-size: 16px;
+        margin-left: 195px;
+        margin-top: -122px;
+    }
+   #theory4con{
+    font-size: 16px;
+    margin-right: 40px;
+    }
+   #img4con{
+    margin-top: 60px;
+    margin-left: 6px;
+    }
+ 
+}
+
+@media only screen and (min-width: 1521px) and (max-width: 1600px) {
+    #headingcon h1{
+        font-size: 215%;
+        margin-left: -42px;
+    }
+      #basecontentcon{
+         width: 800px;
+         height: 250px;
+         margin-left: 167px;
+        
+      }  
+      #infocon{
+          font-size: 16px;
+          margin-left: 8px;
+          margin-top: 30px;
+      }
+     #theorycon{
+        font-size: 16px;
+        margin-right: 200px;
+        
+        
+      }
+     #imgcon{
+        margin-left: 585px;
+        margin-top: -123px;
+        
+      }
+      #fivecon{
+          
+          margin-left: -20px;
+          margin-top: 34px;
+      }
+      #basecontent2con{
+        width: 800px;
+        height: 250px;
+         margin-left: 580px;
+        
+    }  
+    #img2con{
+        margin-top: 30px;
+        margin-left: 13px;
+       }
+    #info2con{
+        font-size: 16px;
+        margin-left: 195px;
+        margin-top: -122px;
+    }
+   #theory2con{
+    font-size: 16px;
+    margin-right: 40px;
+    
+    }
+  
+    #basecontent4con{
+        width: 800px;
+        height: 250px;
+        margin-left: 580px;
+       
+        
+    }  
+    #info4con{
+        font-size: 16px;
+        margin-left: 195px;
+        margin-top: -122px;
+    }
+   #theory4con{
+    font-size: 16px;
+    margin-right: 40px;
+    }
+   #img4con{
+    margin-top: 60px;
+    margin-left: 6px;
+    }
+}
+
+@media only screen and (min-width: 1680px) and (max-width: 1760px){
+    #headingcon h1{
+        font-size: 215%;
+        margin-left: -42px;
+    }
+      #basecontentcon{
+         width: 820px;
+         height: 260px;
+         margin-left: 207px;
+        
+      }  
+      #infocon{
+          font-size: 16px;
+          margin-left: 8px;
+          margin-top: 30px;
+      }
+     #theorycon{
+        font-size: 16px;
+        margin-right: 220px;
+        
+        
+      }
+     #imgcon{
+        margin-left: 585px;
+        margin-top: -123px;
+        
+      }
+      #fivecon{
+          
+          margin-left: -20px;
+          margin-top: 34px;
+      }
+      #basecontent2con{
+        width: 820px;
+        height: 260px;
+         margin-left: 670px;
+        
+    }  
+    #img2con{
+        margin-top: 50px;
+        margin-left: 13px;
+       }
+    #info2con{
+        font-size: 16px;
+        margin-left: 215px;
+        margin-top: -142px;
+    }
+   #theory2con{
+    font-size: 16px;
+    margin-right: 40px;
+    
+    }
+  
+    #basecontent4con{
+        width: 820px;
+        height: 260px;
+        margin-left: 670px;
+       
+        
+    }  
+    #info4con{
+        font-size: 16px;
+        margin-left: 215px;
+        margin-top: -122px;
+    }
+   #theory4con{
+    font-size: 16px;
+    margin-right: 40px;
+    }
+   #img4con{
+    margin-top: 60px;
+    margin-left: 6px;
+    }
+}
+
+@media only screen and (min-width: 1760px) and (max-width: 1840px){
+    #headingcon h1{
+        font-size: 215%;
+        margin-left: -42px;
+    }
+      #basecontentcon{
+         width: 820px;
+         height: 260px;
+         margin-left: 207px;
+        
+      }  
+      #infocon{
+          font-size: 16px;
+          margin-left: 8px;
+          margin-top: 30px;
+      }
+     #theorycon{
+        font-size: 16px;
+        margin-right: 220px;
+        
+        
+      }
+     #imgcon{
+        margin-left: 585px;
+        margin-top: -123px;
+        
+      }
+      #fivecon{
+          
+          margin-left: -20px;
+          margin-top: 34px;
+      }
+      #basecontent2con{
+        width: 820px;
+        height: 260px;
+         margin-left: 760px;
+        
+    }  
+    #img2con{
+        margin-top: 50px;
+        margin-left: 13px;
+       }
+    #info2con{
+        font-size: 16px;
+        margin-left: 215px;
+        margin-top: -142px;
+    }
+   #theory2con{
+    font-size: 16px;
+    margin-right: 40px;
+    
+    }
+  
+    #basecontent4con{
+        width: 820px;
+        height: 260px;
+        margin-left: 760px;
+       
+        
+    }  
+    #info4con{
+        font-size: 16px;
+        margin-left: 215px;
+        margin-top: -122px;
+    }
+   #theory4con{
+    font-size: 16px;
+    margin-right: 40px;
+    }
+   #img4con{
+    margin-top: 60px;
+    margin-left: 6px;
+    }
+}
+
+@media only screen and (min-width: 1840px) and (max-width: 1920px){
+    #headingcon h1{
+        font-size: 215%;
+        margin-left: -42px;
+    }
+      #basecontentcon{
+         width: 820px;
+         height: 260px;
+         margin-left: 237px;
+        
+      }  
+      #infocon{
+          font-size: 16px;
+          margin-left: 8px;
+          margin-top: 30px;
+      }
+     #theorycon{
+        font-size: 16px;
+        margin-right: 220px;
+        
+        
+      }
+     #imgcon{
+        margin-left: 585px;
+        margin-top: -123px;
+        
+      }
+      #fivecon{
+          
+          margin-left: -20px;
+          margin-top: 34px;
+      }
+      #basecontent2con{
+        width: 820px;
+        height: 260px;
+         margin-left: 790px;
+        
+    }  
+    #img2con{
+        margin-top: 50px;
+        margin-left: 13px;
+       }
+    #info2con{
+        font-size: 16px;
+        margin-left: 215px;
+        margin-top: -142px;
+    }
+   #theory2con{
+    font-size: 16px;
+    margin-right: 40px;
+    
+    }
+  
+    #basecontent4con{
+        width: 820px;
+        height: 260px;
+        margin-left: 790px;
+       
+        
+    }  
+    #info4con{
+        font-size: 16px;
+        margin-left: 215px;
+        margin-top: -122px;
+    }
+   #theory4con{
+    font-size: 16px;
+    margin-right: 40px;
+    }
+   #img4con{
+    margin-top: 60px;
+    margin-left: 6px;
+    }
+}
+
+@media only screen and (min-width: 1920px) and (max-width: 2000px){
+    #headingcon h1{
+        font-size: 215%;
+        margin-left: -42px;
+    }
+      #basecontentcon{
+         width: 820px;
+         height: 260px;
+         margin-left: 267px;
+        
+      }  
+      #infocon{
+          font-size: 16px;
+          margin-left: 8px;
+          margin-top: 30px;
+      }
+     #theorycon{
+        font-size: 16px;
+        margin-right: 220px;
+        
+        
+      }
+     #imgcon{
+        margin-left: 585px;
+        margin-top: -123px;
+        
+      }
+      #fivecon{
+          
+          margin-left: -20px;
+          margin-top: 34px;
+      }
+      #basecontent2con{
+        width: 820px;
+        height: 260px;
+         margin-left: 830px;
+        
+    }  
+    #img2con{
+        margin-top: 50px;
+        margin-left: 13px;
+       }
+    #info2con{
+        font-size: 16px;
+        margin-left: 215px;
+        margin-top: -142px;
+    }
+   #theory2con{
+    font-size: 16px;
+    margin-right: 40px;
+    
+    }
+  
+    #basecontent4con{
+        width: 820px;
+        height: 260px;
+        margin-left: 830px;
+       
+        
+    }  
+    #info4con{
+        font-size: 16px;
+        margin-left: 215px;
+        margin-top: -122px;
+    }
+   #theory4con{
+    font-size: 16px;
+    margin-right: 40px;
+    }
+   #img4con{
+    margin-top: 60px;
+    margin-left: 6px;
+    }
+}

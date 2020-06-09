@@ -1,0 +1,585 @@
+    #anchor_one {
+        text-align: center;
+        font: Book 22px/30px Avenir;
+        margin-top: 10px;
+    }
+    
+    #aboutus_footer {
+        box-sizing: border-box;
+        color: whitesmoke;
+    }
+    
+    #anchor_one a:link {
+        text-decoration: none;
+    }
+    
+    #anchor_one a {
+        color: white;
+    }
+    
+    .row {
+        margin-left: 631.5px;
+        margin-top: 12px;
+    }
+    
+    .column {
+        float: left;
+        width: 50px;
+        padding: 5px;
+    }
+    
+    .footer {
+        text-align: center;
+        color: white;
+        margin-top: 70px;
+        background-color: #FF3300CC;
+        width: 1519px;
+    }
+    
+    #issuetwo {
+        margin-left: -25px;
+        color: white;
+        size: 12px;
+        margin-top: -10px;
+    }
+    
+    #issuetwo a:link {
+        text-decoration: none;
+    }
+    
+    #issuetwo a {
+        color: white;
+    }
+    
+    #issueone {
+        text-align: center;
+        color: white;
+        size: 12px;
+    }
+    
+    @media only screen and (min-width: 320px) and (max-width: 374px) {
+        .row {
+            margin-left: 32px;
+            margin-top: 12px;
+        }
+        #issueone {
+            text-align: left;
+            font-size: 15px;
+            margin-left: 29px;
+        }
+        #issuetwo {
+            font-size: 15px;
+            text-align: left;
+            margin-left: 88px;
+        }
+        .footer {
+            width: 100%;
+        }
+    }
+    
+    @media only screen and (min-width: 374px) and (max-width: 450px) {
+        .row {
+            margin-left: 79px;
+            margin-top: 12px;
+        }
+        #issueone {
+            text-align: left;
+            font-size: 15px;
+            margin-left: 72px;
+        }
+        #issuetwo {
+            font-size: 15px;
+            text-align: left;
+            margin-left: 126px;
+        }
+        .footer {
+            width: 100%;
+        }
+    }
+    
+    @media only screen and (min-width: 450px) and (max-width: 500px) {
+        #anchor_one {
+            text-align: center;
+            margin-left: -85px;
+        }
+        .row {
+            margin-left: 67px;
+            margin-top: 12px;
+        }
+        #issueone {
+            text-align: left;
+            font-size: 15px;
+            margin-left: 65px;
+        }
+        #issuetwo {
+            font-size: 15px;
+            text-align: left;
+            margin-left: 110px;
+        }
+        .footer {
+            width: 100%;
+        }
+    }
+    @media only screen and (min-width: 501px) and (max-width: 550px) {
+        #anchor_one {
+            text-align: center;
+            margin-left: -85px;
+        }
+        .row {
+            margin-left: 100px;
+            margin-top: 12px;
+        }
+        #issueone {
+            text-align: left;
+            font-size: 15px;
+            margin-left: 100px;
+        }
+        #issuetwo {
+            font-size: 15px;
+            text-align: left;
+            margin-left: 140px;
+        }
+        .footer {
+            width: 100%;
+        }
+    }
+    
+    @media only screen and (min-width: 551px) and (max-width: 617px) {
+        #anchor_one {
+            text-align: center;
+            margin-left: -15px;
+        }
+        .row {
+            margin-left: 163px;
+            margin-top: 12px;
+        }
+        #issueone {
+            text-align: left;
+            font-size: 15px;
+            margin-left: 165px;
+        }
+        #issuetwo {
+            font-size: 15px;
+            text-align: left;
+            margin-left: 208px;
+        }
+        .footer {
+            width: 100%;
+        }
+    }
+    
+    @media only screen and (min-width: 618px) and (max-width: 700px) {
+        #anchor_one {
+            text-align: center;
+            margin-left: -15px;
+        }
+        .row {
+            margin-left: 197px;
+            margin-top: 12px;
+        }
+        #issueone {
+            text-align: left;
+            font-size: 15px;
+            margin-left: 195px;
+        }
+        #issuetwo {
+            font-size: 15px;
+            text-align: left;
+            margin-left: 248px;
+        }
+        .footer {
+            width: 100%;
+        }
+    }
+    
+    @media only screen and (min-width: 701px) and (max-width: 767px) {
+        #anchor_one {
+            text-align: center;
+            margin-left: -15px;
+        }
+        .row {
+            margin-left: 235px;
+            margin-top: 12px;
+        }
+        #issueone {
+            text-align: left;
+            font-size: 15px;
+            margin-left: 235px;
+        }
+        #issuetwo {
+            font-size: 15px;
+            text-align: left;
+            margin-left: 283px;
+        }
+        .footer {
+            width: 100%;
+        }
+    }
+    
+    @media only screen and (min-width: 768px) and (max-width: 850px) {
+        #anchor_one {
+            text-align: center;
+            margin-left: -15px;
+        }
+        .row {
+            margin-left: 245px;
+            margin-top: 12px;
+        }
+        #issueone {
+            text-align: left;
+            font-size: 15px;
+            margin-left: 255px;
+        }
+        #issuetwo {
+            font-size: 15px;
+            text-align: left;
+            margin-left: 293px;
+        }
+        .footer {
+            width: 100%;
+        }
+    }
+    
+    @media only screen and (min-width: 851px) and (max-width: 909px) {
+        #anchor_one {
+            text-align: center;
+            margin-left: -15px;
+        }
+        .row {
+            margin-left: 308px;
+            margin-top: 12px;
+        }
+        #issueone {
+            text-align: left;
+            font-size: 15px;
+            margin-left: 314px;
+        }
+        #issuetwo {
+            font-size: 15px;
+            text-align: left;
+            margin-left: 354px;
+        }
+        .footer {
+            width: 100%;
+        }
+    }
+    
+    @media only screen and (min-width: 910px) and (max-width: 1023px) {
+        #anchor_one {
+            text-align: center;
+            margin-left: -15px;
+        }
+        .row {
+            margin-left: 370px;
+            margin-top: 12px;
+        }
+        #issueone {
+            text-align: left;
+            font-size: 15px;
+            margin-left: 375px;
+        }
+        #issuetwo {
+            font-size: 15px;
+            text-align: left;
+            margin-left: 420px;
+        }
+        .footer {
+            width: 100%;
+        }
+    }
+    
+    @media only screen and (min-width: 1024px) and (max-width: 1100px) {
+        #anchor_one {
+            text-align: center;
+            margin-left: -15px;
+        }
+        .row {
+            margin-left: 410px;
+            margin-top: 12px;
+        }
+        #issueone {
+            text-align: left;
+            font-size: 15px;
+            margin-left: 410px;
+        }
+        #issuetwo {
+            font-size: 15px;
+            text-align: left;
+            margin-left: 460px;
+        }
+        .footer {
+            width: 100%;
+        }
+    }
+    
+    @media only screen and (min-width: 1101px) and (max-width: 1200px) {
+        #anchor_one {
+            text-align: center;
+            margin-left: -15px;
+        }
+        .row {
+            margin-left: 417px;
+            margin-top: 12px;
+        }
+        #issueone {
+            text-align: left;
+            font-size: 15px;
+            margin-left: 420px;
+        }
+        #issuetwo {
+            font-size: 15px;
+            text-align: left;
+            margin-left: 470px;
+        }
+        .footer {
+            width: 100%;
+        }
+    }
+    
+    @media only screen and (min-width: 1201px) and (max-width: 1300px) {
+        #anchor_one {
+            text-align: center;
+            margin-left: -15px;
+        }
+        .row {
+            margin-left: 482px;
+            margin-top: 12px;
+        }
+        #issueone {
+            text-align: left;
+            font-size: 15px;
+            margin-left: 485px;
+        }
+        #issuetwo {
+            font-size: 15px;
+            text-align: left;
+            margin-left: 535px;
+        }
+        .footer {
+            width: 100%;
+        }
+    }
+    
+    @media only screen and (min-width: 1301px) and (max-width: 1360px) {
+        #anchor_one {
+            text-align: center;
+            margin-left: -15px;
+        }
+        .row {
+            margin-left: 522px;
+            margin-top: 12px;
+        }
+        #issueone {
+            text-align: left;
+            font-size: 15px;
+            margin-left: 538px;
+        }
+        #issuetwo {
+            font-size: 15px;
+            text-align: left;
+            margin-left: 580px;
+        }
+        .footer {
+            width: 100%;
+        }
+    }
+    
+    @media only screen and (min-width: 1361px) and (max-width: 1440px) {
+        #anchor_one {
+            text-align: center;
+            margin-left: -15px;
+            font-size: 17px;
+        }
+        .row {
+            margin-left: 561px;
+            margin-top: 12px;
+        }
+        #issueone {
+            text-align: left;
+            font-size: 17px;
+            margin-left: 545px;
+        }
+        #issuetwo {
+            font-size: 17px;
+            text-align: left;
+            margin-left: 610px;
+        }
+        .footer {
+            width: 100%;
+        }
+    }
+    
+    @media only screen and (min-width: 1441px) and (max-width: 1520px) {
+        #anchor_one {
+            text-align: center;
+            margin-left: -15px;
+            font-size: 17px;
+        }
+        .row {
+            margin-left: 610px;
+            margin-top: 12px;
+        }
+        #issueone {
+            text-align: left;
+            font-size: 17px;
+            margin-left: 590px;
+        }
+        #issuetwo {
+            font-size: 17px;
+            text-align: left;
+            margin-left: 654px;
+        }
+        .footer {
+            width: 100%;
+        }
+    }
+    
+    @media only screen and (min-width: 1521px) and (max-width: 1600px) {
+        #anchor_one {
+            text-align: center;
+            margin-left: -15px;
+            font-size: 17px;
+        }
+        .row {
+            margin-left: 655px;
+            margin-top: 12px;
+        }
+        #issueone {
+            text-align: left;
+            font-size: 17px;
+            margin-left: 638px;
+        }
+        #issuetwo {
+            font-size: 17px;
+            text-align: left;
+            margin-left: 698px;
+        }
+        .footer {
+            width: 100%;
+        }
+    }
+    
+    @media only screen and (min-width: 1601px) and (max-width: 1680px) {
+        #anchor_one {
+            text-align: center;
+            margin-left: -15px;
+            font-size: 17px;
+        }
+        .row {
+            margin-left: 670px;
+            margin-top: 12px;
+        }
+        #issueone {
+            text-align: left;
+            font-size: 17px;
+            margin-left: 670px;
+        }
+        #issuetwo {
+            font-size: 17px;
+            text-align: left;
+            margin-left: 712px;
+        }
+        .footer {
+            width: 100%;
+        }
+    }
+    
+    @media only screen and (min-width: 1680px) and (max-width: 1760px) {
+        #anchor_one {
+            text-align: center;
+            margin-left: -15px;
+            font-size: 17px;
+        }
+        .row {
+            margin-left: 739px;
+            margin-top: 12px;
+        }
+        #issueone {
+            text-align: left;
+            font-size: 17px;
+            margin-left: 726px;
+        }
+        #issuetwo {
+            font-size: 17px;
+            text-align: left;
+            margin-left: 777px;
+        }
+        .footer {
+            width: 100%;
+        }
+    }
+    
+    @media only screen and (min-width: 1760px) and (max-width: 1840px) {
+        #anchor_one {
+            text-align: center;
+            margin-left: -15px;
+            font-size: 17px;
+        }
+        .row {
+            margin-left: 743px;
+            margin-top: 12px;
+        }
+        #issueone {
+            text-align: left;
+            font-size: 17px;
+            margin-left: 730px;
+        }
+        #issuetwo {
+            font-size: 17px;
+            text-align: left;
+            margin-left: 782px;
+        }
+        .footer {
+            width: 100%;
+        }
+    }
+    
+    @media only screen and (min-width: 1840px) and (max-width: 1920px) {
+        #anchor_one {
+            text-align: center;
+            margin-left: -15px;
+            font-size: 17px;
+        }
+        .row {
+            margin-left: 790px;
+            margin-top: 12px;
+        }
+        #issueone {
+            text-align: left;
+            font-size: 17px;
+            margin-left: 770px;
+        }
+        #issuetwo {
+            font-size: 17px;
+            text-align: left;
+            margin-left: 832px;
+        }
+        .footer {
+            width: 100%;
+        }
+    }
+    
+    @media only screen and (min-width: 1920px) and (max-width: 2000px) {
+        #anchor_one {
+            text-align: center;
+            margin-left: -15px;
+            font-size: 17px;
+        }
+        .row {
+            margin-left: 824px;
+            margin-top: 12px;
+        }
+        #issueone {
+            text-align: left;
+            font-size: 17px;
+            margin-left: 820px;
+        }
+        #issuetwo {
+            font-size: 17px;
+            text-align: left;
+            margin-left: 866px;
+        }
+        .footer {
+            width: 100%;
+        }
+    }

@@ -1,0 +1,54 @@
+{
+    "entity": "event",
+    "account_id": "acc_EzpaNLRWYmj2Nh",
+    "event": "payment.captured",
+    "contains": [
+        "payment"
+    ],
+    "payload": {
+        "payment": {
+            "entity": {
+                "id": "pay_F0gRVGDkjKKiG9",
+                "entity": "payment",
+                "amount": 49900,
+                "currency": "INR",
+                "status": "captured",
+                "order_id": "order_F0gROtagApp4kA",
+                "invoice_id": null,
+                "international": false,
+                "method": "card",
+                "amount_refunded": 0,
+                "refund_status": null,
+                "captured": true,
+                "description": "Thank you for nothing. Please give us some money",
+                "card_id": "card_F0gRVNIQmDpGgo",
+                "card": {
+                    "id": "card_F0gRVNIQmDpGgo",
+                    "entity": "card",
+                    "name": "T",
+                    "last4": "1111",
+                    "network": "Visa",
+                    "type": "debit",
+                    "issuer": null,
+                    "international": false,
+                    "emi": false
+                },
+                "bank": null,
+                "wallet": null,
+                "vpa": null,
+                "email": "pratyush@gmail.com",
+                "contact": "+919654439851",
+                "notes": [],
+                "fee": 998,
+                "tax": 0,
+                "error_code": null,
+                "error_description": null,
+                "error_source": null,
+                "error_step": null,
+                "error_reason": null,
+                "created_at": 1591740168
+            }
+        }
+    },
+    "created_at": 1591740170
+}

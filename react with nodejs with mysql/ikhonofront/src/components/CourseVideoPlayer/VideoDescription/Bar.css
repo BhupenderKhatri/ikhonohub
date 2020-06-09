@@ -1,0 +1,52 @@
+#mainCoursebelowPlayer{
+    color: black;
+}
+.barcontents{
+    height: 30px;
+    padding-left: 2%;
+    line-height: 2px;
+    text-align: center;
+    
+}
+#background{
+  width: 700px;
+  height: 700px;
+  font-size: 80%;
+  margin-top: 100px;
+  margin-left: 100px;
+  
+
+}
+
+button.buttons:hover{
+    background-color: white;
+    transition: 1;
+}
+#search{
+   height: 100%;
+   width : 35px ;
+   border: transparent;
+}
+
+#tablealign{
+    display: inline;
+    margin-left: 20px;
+    
+}
+.middlespace{
+    padding-left: 100px;
+}
+#buttonalign{
+    margin-top: 20px;
+    margin-left: 100px;
+}
+#barstyle{
+ list-style: none;    
+}
+
+.style{
+    display: inline-block;
+    margin-left: 8%;
+}
+
+

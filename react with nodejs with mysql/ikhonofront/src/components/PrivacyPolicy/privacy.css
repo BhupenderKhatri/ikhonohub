@@ -1,0 +1,30 @@
+
+.privacy-main{
+    color: black;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: large;
+    text-align: justify;
+    background-color:white ;
+    padding-left:20px;
+
+}
+#privacy-heading{
+    font-size: 50px;
+    
+}
+#privacy-table{
+       
+    border:2px solid rgb(0, 0, 0);
+}
+#privacy-table td{
+    border:1px solid black;
+}
+#para1{
+    margin-left: 20px;
+    margin-right:20px;
+}
+.para1{
+    margin-left: 20px;
+    margin-right:20px;
+}

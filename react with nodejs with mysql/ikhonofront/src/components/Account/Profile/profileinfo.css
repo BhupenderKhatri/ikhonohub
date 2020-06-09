@@ -1,0 +1,208 @@
+
+#info1pro{
+width: 700px;
+height: 470px;
+background: transparent linear-gradient(123deg, #FF3800BD 0%, #EBDC124D 100%) 0% 0% no-repeat padding-box;
+border-radius: 15px;
+box-sizing: inherit;
+margin-top: 50px;
+margin-left:150px;
+padding-left: 30px;
+margin-bottom: 10px;
+padding-top: 1px;
+opacity: 1;
+color:white;
+}
+.perinputpro{
+
+width: 250px;
+height: 50px;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+border: 1px solid #707070;
+border-radius: 11px;
+padding-left: 20px;
+
+}
+.perinput1pro{
+    width: 380px;
+height: 50px;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+border: 1px solid #707070;
+border-radius: 11px;
+padding-left: 20px;
+}
+#info2pro{
+   
+    
+    margin-left: 15px;
+}
+@media only screen and (min-width:320px) 
+and (max-width:374px){
+    #info1pro{
+        margin-top: 35px;
+        margin-left:8px;
+        margin-bottom: 680px;
+        }       
+}
+@media only screen and (min-width: 374px) 
+and (max-width: 450px){
+    
+    #info1pro{       
+        margin-top: 30px;
+        margin-left:8px; 
+        margin-bottom: 680px;   
+    }  
+}
+@media only screen and (min-width: 450px) 
+and (max-width: 550px){
+    #info1pro{       
+        margin-top: 30px;
+        margin-left:8px;
+        margin-bottom: 680px;      
+    }   
+}
+@media only screen and (min-width:551px) 
+and (max-width:617px){
+    #info1pro{       
+        margin-top: 30px;
+        margin-left:8px; 
+        margin-bottom: 680px;     
+    }
+}
+@media only screen and (min-width: 618px) 
+and (max-width: 700px) {
+    #info1pro{       
+        margin-top: 30px;
+        margin-left:8px;  
+        margin-bottom: 680px;    
+    }
+}
+@media only screen and (min-width: 701px) 
+and (max-width: 767px) {
+    #info1pro{       
+        margin-top: 30px;
+        margin-left:8px;
+        margin-bottom: 680px;      
+    }  
+}
+
+@media only screen and (min-width:768px) 
+and (max-width:850px){
+    #info1pro{       
+        margin-top: 30px;
+        margin-left:28px;
+        margin-bottom: 680px;      
+    }
+}
+@media only screen and (min-width: 851px) 
+and (max-width: 909px) {
+    #info1pro{       
+        margin-top: 30px;
+        margin-left:28px; 
+        margin-bottom: 680px;     
+    } 
+}
+@media only screen and (min-width: 910px) 
+and (max-width: 1023px) {
+    #info1pro{       
+        margin-top: 30px;
+        margin-left:48px; 
+        margin-bottom: 680px;     
+    } 
+}
+@media only screen and (min-width: 1024px) 
+and (max-width: 1100px){
+    #info1pro{       
+        margin-top: 40px;
+        margin-left:60px; 
+        margin-bottom: 680px;     
+    }
+}
+@media only screen and (min-width: 1101px) 
+    and (max-width: 1200px){
+        #info1pro{       
+            margin-top: 40px;
+            margin-left:80px; 
+            margin-bottom: 680px;    
+        }   
+    }
+@media only screen and (min-width: 1201px) 
+    and (max-width: 1300px){
+        #info1pro{       
+            margin-top: 50px;
+            margin-left:95px; 
+            margin-bottom: 680px;    
+        }   
+    }
+    @media only screen and (min-width: 1301px) 
+    and (max-width: 1360px){
+    #info1pro{       
+        margin-top: 50px;
+        margin-left:150px; 
+        margin-bottom: 650px;      
+    }    
+    }
+    @media only screen and (min-width: 1361px) 
+    and (max-width: 1440px)
+    {
+        #info1pro{       
+            margin-top: 60px;
+            margin-left:150px; 
+            margin-bottom: 650px;      
+        }  
+    }
+    @media only screen and (min-width: 1441px) and (max-width: 1520px) {
+        #info1pro{       
+          
+            margin-left:150px; 
+            margin-bottom: 650px;    
+        }
+    }
+    
+    @media only screen and (min-width: 1521px) and (max-width: 1600px) {
+        #info1pro{       
+           
+            margin-left:150px;  
+            margin-bottom: 650px;    
+        }
+    }
+    
+    @media only screen and (min-width: 1601px) and (max-width: 1680px) {
+        #info1pro{       
+            
+            margin-left:150px; 
+            margin-bottom: 650px;    
+        }
+    }
+    
+    @media only screen and (min-width: 1680px) and (max-width: 1760px) {
+        #info1pro{       
+           
+            margin-left:150px; 
+            margin-bottom: 650px;    
+        }
+    }
+    
+    @media only screen and (min-width: 1760px) and (max-width: 1840px) {
+        #info1pro{       
+            
+            margin-left:150px; 
+            margin-bottom: 650px;    
+        }
+    }
+    
+    @media only screen and (min-width: 1840px) and (max-width: 1920px) {
+        #info1pro{       
+           
+            margin-left:150px; 
+            margin-bottom: 650px;    
+        }
+    }
+    
+    @media only screen and (min-width: 1920px) and (max-width: 2000px) {
+        #info1pro{       
+           
+            margin-left:150px;  
+            margin-bottom: 650px;    
+        }
+    }

@@ -1,0 +1,8 @@
+export const announced=[{
+   id:1,
+   para1: "Helllooooo ZTM members! Here is another round of monthly updates! Sure, I tell you that every single one of them is exciting, but this month's updates are especially exciting because of the new Live Coding Stream we are doing in the community... read on for some updates and all the things happening this month for you to participate",
+   para2: "1. The regular way to stay up to date with industry news is back at it again. Here is the Web Developer Monthly, Python Monthly and Machine Learning Monthly. Share it with your friends and enemies (I'm looking at you Zack!)." ,
+   para3: "2. New Coding Live Streams by Star Mentors! We will now be hosting weekly coding live streams on Discord! That means that you will be able to follow along as Star Mentors in the community tackle a coding problem every week. The goal is that anybody can watch, participate and learn! To find out more and how to watch these, check out the new Live Coding section and #get-started channel in our Discord community (see lecture 2 in the course to join if you haven't yet)." ,
+   para4: "3. New Coding Challenge for the month is here: Sudoku Goku 🔥 (I'm really proud of the name...spent a solid 30 minutes coming up with that name so appreciate it!). This one is going to really get your programming brain working. A hard logical problem that will make you glad that you put the effort at the end (and may also teach you about recursion)." ,
+   para5: "4. Check out all of the code/submissions for last month's Coding Challenge here. Nicely done everyone! Some great projects in there and amazing to see so many people participate!" 
+}]

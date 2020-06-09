@@ -1,0 +1,1624 @@
+.head{
+    padding-left: 13%;
+    margin-top: 10px;
+}
+
+.styling{
+    font-size: 110%;
+    width:1050px ;
+    padding-left: 13%;
+    line-height: 35px;
+}
+#firsthalf
+{
+    width: 500px;
+    padding-left: 15%;
+    line-height: 30px;
+    font-size: 120%;
+}
+#secondhalf{
+    width: 500px;
+    padding-left: 40px;
+    line-height: 30px;
+    font-size: 120%;
+}
+#list
+{
+    list-style: circle;
+    
+}
+#heading2
+{
+   margin-left: 25%;
+   margin-top: 40px;
+   font-size: 220%;
+}
+#heading3{
+    margin-left: 16%;
+    margin-top: 6%;
+    margin-bottom: 40px;
+    font-size: 210%;
+    width: 1000px;
+}
+.content3{
+    font-size: 120%;
+    margin-top: 2%;
+    padding-left: 12%;
+    width: 60%;
+}
+#heading4{
+    margin-left: 27%;
+    margin-top: 6%;
+    margin-bottom: 40px;
+    font-size: 220%;
+}
+.content4{
+    font-size: 120%;
+    margin-top: 2%;
+    
+    width: 57%;
+}
+#set{
+    margin-left: 6%;
+}
+#heading5{
+    margin-left: 10%;
+    margin-top: 6%;
+    margin-bottom: 40px;
+    font-size: 220%;
+}
+#background{
+    background-color: #A9A9A9;
+}
+#questioning{
+    list-style: none;
+    width:600px ;
+    margin-left: 5%;
+    font-size: 150%;
+    line-height: 40px;
+    height: 450px;
+}
+.ques{
+    
+    color: blue;
+}
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 320px) 
+and (max-width: 374px) 
+{   
+    
+    .head{
+        font-size: 300%;
+        padding-left: 6%;
+        
+    }
+    
+.styling{
+    font-size: 250%;
+    width:1360px  ;
+    padding-left: 6%;
+    line-height: 60px;
+}
+
+
+#firsthalf
+{
+    width: 650px;
+    padding-left: 2%;
+    line-height: 50px;
+    font-size: 250%;
+}
+
+
+#secondhalf{
+    width: 650px;
+    padding-left: 50px;
+    line-height: 50px;
+    font-size: 250%;
+}
+#heading2
+{
+   margin-left: 27%;
+   margin-top: 40px;
+   font-size: 300%;
+} 
+
+#heading3{
+    margin-left: 17%;
+    margin-top: 6%;
+    margin-bottom: 40px;
+    font-size: 300%;
+}
+.content3{
+    font-size: 250%;
+    margin-top: 2%;
+    padding-left: 4%;
+    width:1350px;
+}
+#heading4{
+    margin-left: 35%;
+    margin-top: 6%;
+    margin-bottom: 40px;
+    font-size: 370%;
+}
+.content4{
+    font-size: 250%;
+    margin-top: 2%;
+    
+    width: 1200px;
+}
+
+
+#heading5{
+    margin-left: 8%;
+    margin-top: 6%;
+   
+    font-size: 350%;
+}
+
+#questioning{
+    list-style: none;
+    width:1180px ;
+    margin-left: 4%;
+    font-size: 250%;
+    line-height: 50px;
+    height: 650px;
+}
+
+#background{
+   width: 1370px;
+   height: 800px;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 374px) 
+and (max-width: 450px) 
+  { 
+      
+    .head{
+        font-size: 350%;
+        padding-left: 4%;
+        width: 1200px;
+    }
+         
+    .styling{
+    font-size: 300%;
+    width:1360px  ;
+    padding-left: 4%;
+    line-height: 60px;
+    } 
+
+
+#firsthalf
+{
+    width: 700px;
+    padding-left: 4%;
+    line-height:60px;
+    font-size: 300%;
+}
+
+
+#secondhalf{
+    width: 700px;
+    padding-left: 50px;
+    line-height: 60px;
+    font-size: 300%;
+}
+#heading2
+{
+   margin-left: 30%;
+   margin-top: 40px;
+   font-size: 350%;
+}
+
+#heading3{
+    margin-left: 12%;
+    margin-top: 6%;
+    margin-bottom: 40px;
+    font-size: 350%;
+}
+.content3{
+    font-size: 330%;
+    margin-top: 2%;
+    padding-left: 6%;
+    width:1280px;
+}
+#heading4{
+    margin-left: 34%;
+    margin-top: 6%;
+    margin-bottom: 40px;
+    font-size: 350%;
+}
+.content4{
+    font-size: 300%;
+    margin-top: 2%;
+    
+    width: 1150px;
+} 
+
+#heading5{
+    margin-left: 8%;
+    margin-top: 6%;
+   
+    font-size: 350%;
+}
+
+#questioning{
+    list-style: none;
+    width: 1288px ;
+    margin-left: 6%;
+    font-size: 300%;
+    line-height: 60px;
+    height: 450px;
+}
+
+#background{
+   width: 1380px;
+   height: 1000px;
+}
+
+
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+  @media only screen and (min-width: 450px) 
+  and (max-width: 550px) 
+    { 
+          
+    .head{
+        font-size: 350%;
+        width: 1300px;
+        padding-left: 4%;
+    }
+         
+    .styling{
+    font-size: 300%;
+    width:1300px  ;
+    padding-left: 4%;
+    line-height: 60px;
+}
+
+#firsthalf
+{
+    width: 650px;
+    padding-left: 4%;
+    line-height: 60px;
+    font-size: 300%;
+}
+
+
+#secondhalf{
+    width: 650px;
+    padding-left: 50px;
+    line-height: 60px;
+    font-size: 300%;
+}
+#heading2
+{
+   margin-left: 30%;
+   margin-top: 40px;
+   font-size: 350%;
+}
+#heading3{
+    margin-left: 15%;
+    margin-top: 6%;
+    margin-bottom: 40px;
+    font-size: 350%;
+}
+.content3{
+    font-size: 300%;
+    margin-top: 2%;
+    padding-left: 6%;
+    width:1350px;
+}
+#heading4{
+    margin-left: 37%;
+    margin-top: 6%;
+    margin-bottom: 40px;
+    font-size: 350%;
+}
+.content4{
+    font-size: 300%;
+    margin-top: 2%;
+    
+    width: 1200px;
+} 
+
+#heading5
+{
+    margin-left: 10%;
+    margin-top: 6%;
+   
+    font-size: 350%;
+}
+
+#questioning{
+    list-style: none;
+    width: 1208px ;
+    margin-left: 4%;
+    font-size: 300%;
+    line-height: 60px;
+    height: 450px;
+}
+
+#background{
+   width: 1370px;
+   height: 1000px;
+}
+
+
+
+        
+    }
+
+
+
+
+
+
+
+
+
+
+    @media only screen and (min-width: 551px) 
+    and (max-width: 617px) 
+      
+    {
+              
+    .head{
+        font-size:  350%;
+        padding-left: 4%;
+        width: 1200px;
+    }
+         
+    .styling{
+    font-size: 300%;
+    width:1460px  ;
+    line-height: 60px;
+    padding-left: 6%;
+}  
+
+
+#firsthalf
+{
+    width: 700px;
+    padding-left: 4%;
+    line-height: 60px;
+    font-size: 300%;
+}
+
+
+#secondhalf{
+    width: 700px;
+    padding-left: 50px;
+    line-height: 60px;
+    font-size: 300%;
+}
+#heading2
+{
+   margin-left: 30%;
+   margin-top: 40px;
+   font-size: 350%;
+}
+#heading3{
+    margin-left: 20%;
+    margin-top: 6%;
+    margin-bottom: 40px;
+    font-size: 350%;
+}
+.content3{
+    font-size: 300%;
+    margin-top: 2%;
+    padding-left: 4%;
+    width:1450px;
+}
+#heading4{
+    margin-left: 35%;
+    margin-top: 6%;
+    margin-bottom: 40px;
+    font-size: 350%;
+}
+.content4{
+    font-size: 300%;
+    margin-top: 2%;
+    
+    width: 1350px;
+} 
+
+#heading5
+{
+    margin-left: 12%;
+    margin-top: 6%;
+    font-size: 140%;
+    font-size: 350%;
+}
+
+#questioning{
+    list-style: none;
+    width: 1208px ;
+    margin-left: 4%;
+    font-size: 300%;
+    line-height: 60px;
+    height: 450px;
+}
+
+#background{
+   width: 1530px;
+   height: 1100px;
+}
+
+
+    }
+
+
+
+
+
+
+
+
+
+
+    @media only screen and (min-width: 618px) 
+    and (max-width: 700px) 
+      {
+                    
+        
+              
+            .head{
+                font-size: 350%;
+                padding-left: 4%;
+                width: 1250px;
+                 }
+                 
+            .styling{
+            font-size: 300%;
+            width:1460px  ;
+            line-height: 60px;
+            padding-left: 6%;
+               }  
+        
+        
+        #firsthalf
+        {
+            width: 710px;
+            padding-left: 4%;
+            line-height: 60px;
+            font-size: 300%;
+        }
+        
+        
+        #secondhalf{
+            width: 710px;
+            padding-left: 50px;
+            line-height: 60px;
+            font-size: 300%;
+        }
+        #heading2
+        {
+           margin-left: 32%;
+           margin-top: 40px;
+           font-size: 350%;
+        }
+        #heading3{
+            margin-left: 20%;
+            margin-top: 6%;
+            margin-bottom: 40px;
+            font-size: 350%;
+        }
+        .content3{
+            font-size: 300%;
+            margin-top: 2%;
+            padding-left: 4%;
+            width:1490px;
+        }
+        #heading4{
+            margin-left: 35%;
+            margin-top: 6%;
+            margin-bottom: 40px;
+            font-size: 350%;
+        }
+        .content4{
+            font-size: 300%;
+            margin-top: 2%;
+            
+            width: 1380px;
+        } 
+        
+        #heading5
+        {
+            margin-left: 12%;
+            margin-top: 6%;
+            font-size: 140%;
+            font-size: 350%;
+        }
+        
+        #questioning{
+            list-style: none;
+            width: 1208px ;
+            margin-left: 4%;
+            font-size: 300%;
+            line-height: 60px;
+            height: 450px;
+        }
+        
+        #background{
+           width: 1550px;
+           height: 1100px;
+        }
+        
+
+      }
+
+
+
+
+
+
+
+
+
+      @media only screen and (min-width: 701px) 
+      and (max-width: 768px) {
+
+            
+        .head{
+            font-size: 350%;
+            padding-left: 4%;
+            width: 1250px;
+             }
+             
+        .styling{
+        font-size: 300%;
+        width:1480px  ;
+        line-height: 60px;
+        padding-left: 6%;
+           }  
+    
+    
+    #firsthalf
+    {
+        width: 730px;
+        padding-left: 4%;
+        line-height: 60px;
+        font-size: 300%;
+    }
+    
+    
+    #secondhalf{
+        width: 730px;
+        padding-left: 50px;
+        line-height: 60px;
+        font-size: 300%;
+    }
+    #heading2
+    {
+       margin-left: 32%;
+       margin-top: 40px;
+       font-size: 350%;
+    }
+    #heading3{
+        margin-left: 20%;
+        margin-top: 6%;
+        margin-bottom: 40px;
+        font-size: 350%;
+    }
+    .content3{
+        font-size: 300%;
+        margin-top: 2%;
+        padding-left: 4%;
+        width:1500px;
+    }
+    #heading4{
+        margin-left: 35%;
+        margin-top: 6%;
+        margin-bottom: 40px;
+        font-size: 350%;
+    }
+    .content4{
+        font-size: 300%;
+        margin-top: 2%;
+        
+        width: 1400px;
+    } 
+    
+    #heading5
+    {
+        margin-left: 12%;
+        margin-top: 6%;
+        font-size: 140%;
+        font-size: 350%;
+    }
+    
+    #questioning{
+        list-style: none;
+        width: 1208px ;
+        margin-left: 4%;
+        font-size: 300%;
+        line-height: 60px;
+        height: 450px;
+    }
+    
+    #background{
+       width: 1550px;
+       height: 1100px;
+    }
+    
+
+      }    
+      
+     
+
+
+      
+@media only screen and (min-width: 769px) 
+and (max-width: 1055px) 
+  {
+      
+        
+    .head{
+        font-size: 350%;
+        padding-left: 4%;
+        width: 1250px;
+         }
+         
+    .styling{
+    font-size: 300%;
+    width:1500px  ;
+    line-height: 60px;
+    padding-left: 6%;
+       }  
+
+
+#firsthalf
+{
+    width: 710px;
+    padding-left: 4%;
+    line-height: 60px;
+    font-size: 300%;
+}
+
+
+#secondhalf{
+    width: 710px;
+    padding-left: 50px;
+    line-height: 60px;
+    font-size: 300%;
+}
+#heading2
+{
+   margin-left: 32%;
+   margin-top: 40px;
+   font-size: 350%;
+}
+#heading3{
+    margin-left: 20%;
+    margin-top: 6%;
+    margin-bottom: 40px;
+    font-size: 350%;
+}
+.content3{
+    font-size: 300%;
+    margin-top: 2%;
+    padding-left: 4%;
+    width:1500px;
+}
+#heading4{
+    margin-left: 35%;
+    margin-top: 6%;
+    margin-bottom: 40px;
+    font-size: 350%;
+}
+.content4{
+    font-size: 300%;
+    margin-top: 2%;
+    
+    width: 1430px;
+} 
+
+#heading5
+{
+    margin-left: 12%;
+    margin-top: 6%;
+    font-size: 140%;
+    font-size: 350%;
+}
+
+#questioning{
+    list-style: none;
+    width: 1408px ;
+    margin-left: 4%;
+    font-size: 300%;
+    line-height: 60px;
+    height: 450px;
+}
+
+#background{
+   width: 1550px;
+   height: 1100px;
+}
+
+
+
+
+  }   
+
+
+
+
+
+  @media only screen and (min-width: 1056px) 
+  and (max-width: 1360px){
+    
+    .head{
+        font-size: 350%;
+        padding-left: 4%;
+        width: 1250px;
+         }
+         
+    .styling{
+    font-size: 300%;
+    width:1500px  ;
+    line-height: 60px;
+    padding-left: 6%;
+       }  
+
+
+#firsthalf
+{
+    width: 710px;
+    padding-left: 4%;
+    line-height: 60px;
+    font-size: 300%;
+}
+
+
+#secondhalf{
+    width: 710px;
+    padding-left: 50px;
+    line-height: 60px;
+    font-size: 300%;
+}
+#heading2
+{
+   margin-left: 32%;
+   margin-top: 40px;
+   font-size: 350%;
+}
+#heading3{
+    margin-left: 20%;
+    margin-top: 6%;
+    margin-bottom: 40px;
+    font-size: 350%;
+}
+.content3{
+    font-size: 300%;
+    margin-top: 2%;
+    padding-left: 4%;
+    width:1500px;
+}
+#heading4{
+    margin-left: 35%;
+    margin-top: 6%;
+    margin-bottom: 40px;
+    font-size: 350%;
+}
+.content4{
+    font-size: 300%;
+    margin-top: 2%;
+    
+    width: 1430px;
+} 
+
+#heading5
+{
+    margin-left: 12%;
+    margin-top: 6%;
+    font-size: 140%;
+    font-size: 350%;
+}
+
+#questioning{
+    list-style: none;
+    width: 1408px ;
+    margin-left: 4%;
+    font-size: 300%;
+    line-height: 60px;
+    height: 450px;
+}
+
+#background{
+   width: 1550px;
+   height: 1100px;
+}
+
+
+
+  }
+
+
+
+
+  @media only screen and (min-width: 1361px) 
+  and (max-width: 1440px){
+
+    .head{
+        font-size: 240%;
+        width: 1290px;
+        padding-left: 4%;
+    }
+         
+    .styling{
+    font-size: 170%;
+    width: 1000px  ;
+    padding-left: 4%;
+    line-height: 40px;
+}
+
+#firsthalf
+{   
+   
+    width: 470px;
+    padding-left: 6%;
+    line-height: 40px;
+    font-size: 170%;
+}
+
+
+#secondhalf{
+
+    width:470px;
+    padding-left: 50px;
+    line-height: 40px;
+    font-size: 170%;
+}
+#heading2
+{
+   margin-left: 20%;
+   margin-top: 40px;
+   font-size: 240%;
+} 
+#heading3{
+    margin-left: 10%;
+    margin-top: 6%;
+    margin-bottom: 40px;
+    font-size: 240%;
+    width:900px ;
+}
+.content3{
+    font-size: 180%;
+    margin-top: 2%;
+    padding-left: 4%;
+    width:970px;
+}
+#heading4{
+    margin-left: 25%;
+    margin-top: 6%;
+    margin-bottom: 40px;
+    font-size: 230%;
+}
+.content4{
+   
+    margin-top: 2%;
+    font-size: 170%;
+    width: 840px;
+} 
+#heading5
+{
+    margin-left: 16%;
+    margin-top: 6%;
+    font-size: 140%;
+    font-size: 230%;
+    width: 900px;
+}
+
+#questioning{
+    list-style: none;
+    width: 908px ;
+    margin-left: 6%;
+    font-size: 170%;
+    line-height: 40px;
+    height: 450px;
+}
+
+#background{
+   width: 1550px;
+   height: 700px;
+}
+
+
+
+
+
+  }
+ 
+
+  
+  @media only screen and (min-width: 1441px) 
+  and (max-width: 1520px){
+    .head{
+        font-size: 240%;
+        width: 1290px;
+        padding-left: 4%;
+    }
+         
+    .styling{
+    font-size: 170%;
+    width: 1000px  ;
+    padding-left: 4%;
+    line-height: 40px;
+}
+
+#firsthalf
+{   
+   
+    width: 470px;
+    padding-left: 6%;
+    line-height: 40px;
+    font-size: 170%;
+}
+
+
+#secondhalf{
+
+    width:470px;
+    padding-left: 50px;
+    line-height: 40px;
+    font-size: 170%;
+}
+#heading2
+{
+   margin-left: 20%;
+   margin-top: 40px;
+   font-size: 240%;
+} 
+#heading3{
+    margin-left: 10%;
+    margin-top: 6%;
+    margin-bottom: 40px;
+    font-size: 240%;
+    width:900px ;
+}
+.content3{
+    font-size: 180%;
+    margin-top: 2%;
+    padding-left: 4%;
+    width:970px;
+}
+#heading4{
+    margin-left: 25%;
+    margin-top: 6%;
+    margin-bottom: 40px;
+    font-size: 230%;
+}
+.content4{
+   
+    margin-top: 2%;
+    font-size: 170%;
+    width: 840px;
+} 
+#heading5
+{
+    margin-left: 16%;
+    margin-top: 6%;
+    font-size: 140%;
+    font-size: 230%;
+    width: 900px;
+}
+
+#questioning{
+    list-style: none;
+    width: 908px ;
+    margin-left: 6%;
+    font-size: 170%;
+    line-height: 40px;
+    height: 450px;
+}
+
+#background{
+   width: 1550px;
+   height: 700px;
+}
+
+
+
+  }
+
+
+
+
+
+
+  
+
+  
+  @media only screen and (min-width: 1521px) 
+  and (max-width: 1600px){
+
+    .head{
+        font-size: 170%;
+        width: 990px;
+        padding-left: 4%;
+    }
+         
+    .styling{
+    font-size: 130%;
+    width: 1000px  ;
+    padding-left: 4%;
+    line-height: 30px;
+}
+
+#firsthalf
+{   
+   
+    width: 470px;
+    padding-left: 6%;
+    line-height: 30px;
+    font-size: 140%;
+}
+
+
+#secondhalf{
+
+    width:470px;
+    padding-left: 50px;
+    line-height: 30px;
+    font-size: 140%;
+}
+#heading2
+{
+   margin-left: 20%;
+   margin-top: 40px;
+   font-size: 190%;
+} 
+#heading3{
+    margin-left: 13%;
+    margin-top: 6%;
+    margin-bottom: 40px;
+    font-size: 200%;
+    width:900px ;
+}
+.content3{
+    font-size: 150%;
+    margin-top: 2%;
+    padding-left: 4%;
+    width:990px;
+}
+#heading4{
+    margin-left: 24%;
+    margin-top: 6%;
+    margin-bottom: 40px;
+    font-size: 190%;
+}
+.content4{
+    font-size: 250%;
+    margin-top: 2%;
+    font-size: 130%;
+    width: 850px;
+} 
+#heading5
+{
+    margin-left: 8%;
+    margin-top: 6%;
+   
+    font-size: 200%;
+    width: 900px;
+}
+
+#questioning{
+    list-style: none;
+    width: 908px ;
+    margin-left: 6%;
+    font-size: 130%;
+    line-height: 30px;
+    height: 450px;
+}
+
+#background{
+   width: 1650px;
+   height: 600px;
+}
+  }
+
+
+ 
+  @media only screen and (min-width: 1601px) 
+  and (max-width: 1680px)   
+ {
+    .head{
+        font-size: 250%;
+        width: 990px;
+        padding-left: 4%;
+    }
+         
+    .styling{
+    font-size: 170%;
+    width: 1000px  ;
+    padding-left: 4%;
+    line-height: 30px;
+}
+
+#firsthalf
+{   
+   
+    width: 470px;
+    padding-left: 6%;
+    line-height: 30px;
+    font-size: 170%;
+}
+
+
+#secondhalf{
+
+    width:470px;
+    padding-left: 50px;
+    line-height: 30px;
+    font-size: 170%;
+}
+#heading2
+{
+   margin-left: 20%;
+   margin-top: 40px;
+   font-size: 250%;
+} 
+#heading3{
+    margin-left: 7%;
+    margin-top: 6%;
+    margin-bottom: 40px;
+    font-size: 270%;
+    width:900px ;
+}
+.content3{
+    font-size: 170%;
+    margin-top: 2%;
+    padding-left: 4%;
+    width:990px;
+}
+#heading4{
+    margin-left: 24%;
+    margin-top: 6%;
+    margin-bottom: 40px;
+    font-size: 240%;
+}
+.content4{
+    font-size: 250%;
+    margin-top: 2%;
+    font-size: 170%;
+    width: 900px;
+} 
+#heading5
+{
+    margin-left: 8%;
+    margin-top: 6%;
+   
+    font-size: 240%;
+    width: 900px;
+}
+
+#questioning{
+    list-style: none;
+    width: 908px ;
+    margin-left: 6%;
+    font-size: 170%;
+    line-height: 40px;
+    height: 450px;
+}
+
+#background{
+   width: 1650px;
+   height: 600px;
+}
+
+}  
+
+
+@media only screen and (min-width: 1681px) 
+and (max-width: 1770px)  {   
+
+  
+  
+    .head{
+        font-size: 290%;
+        width: 1190px;
+        padding-left: 4%;
+    }
+         
+    .styling{
+    font-size: 190%;
+    width: 1180px  ;
+    padding-left: 4%;
+    line-height: 40px;
+    }
+    
+    #firsthalf
+    {   
+    
+    width: 550px;
+    padding-left: 6%;
+    line-height: 40px;
+    font-size: 190%;
+    }
+    
+    
+    #secondhalf{
+    
+    width:550px;
+    padding-left: 50px;
+    line-height: 40px;
+    font-size: 190%;
+    }
+    #heading2
+    {
+    margin-left: 22%;
+    margin-top: 40px;
+    font-size: 290%;
+    } 
+    #heading3{
+    margin-left: 13%;
+    margin-top: 6%;
+    margin-bottom: 40px;
+    font-size: 290%;
+    width:900px ;
+    }
+    .content3{
+    font-size: 190%;
+    margin-top: 2%;
+    padding-left: 4%;
+    width:1150px;
+    }
+    #heading4{
+    margin-left: 25%;
+    margin-top: 6%;
+    margin-bottom: 40px;
+    font-size: 290%;
+    }
+    .content4{
+    font-size: 190%;
+    margin-top: 2%;
+    
+    width: 990px;
+    } 
+    #heading5
+    {
+    margin-left: 8%;
+    margin-top: 6%;
+    
+    font-size: 290%;
+    width: 900px;
+    }
+    
+    #questioning{
+    list-style: none;
+    width: 1088px ;
+    margin-left: 6%;
+    font-size: 210%;
+    line-height: 40px;
+    height: 450px;
+    }
+    
+    #background{
+    width: 1800px;
+    height: 600px;
+    }
+    
+
+} 
+
+
+@media only screen and (min-width: 1771px) 
+and (max-width: 1850px) { 
+  
+
+
+  
+  
+.head{
+    font-size: 290%;
+    width: 1190px;
+    padding-left: 4%;
+}
+     
+.styling{
+font-size: 190%;
+width: 1180px  ;
+padding-left: 4%;
+line-height: 40px;
+}
+
+#firsthalf
+{   
+
+width: 550px;
+padding-left: 6%;
+line-height: 40px;
+font-size: 190%;
+}
+
+
+#secondhalf{
+
+width:550px;
+padding-left: 50px;
+line-height: 40px;
+font-size: 190%;
+}
+#heading2
+{
+margin-left: 22%;
+margin-top: 40px;
+font-size: 290%;
+} 
+#heading3{
+margin-left: 13%;
+margin-top: 6%;
+margin-bottom: 40px;
+font-size: 290%;
+width:900px ;
+}
+.content3{
+font-size: 190%;
+margin-top: 2%;
+padding-left: 4%;
+width:1180px;
+}
+#heading4{
+margin-left: 25%;
+margin-top: 6%;
+margin-bottom: 40px;
+font-size: 290%;
+}
+.content4{
+font-size: 190%;
+margin-top: 2%;
+
+width: 1030px;
+} 
+#heading5
+{
+margin-left: 8%;
+margin-top: 6%;
+
+font-size: 290%;
+width: 900px;
+}
+
+#questioning{
+list-style: none;
+width: 1088px ;
+margin-left: 6%;
+font-size: 210%;
+line-height: 40px;
+height: 450px;
+}
+
+#background{
+width: 1800px;
+height: 600px;
+}
+
+
+
+}
+
+
+
+@media only screen and (min-width: 1850px) 
+and (max-width: 1950px){ 
+      
+.head{
+    font-size: 300%;
+    width: 1190px;
+    padding-left: 4%;
+}
+     
+.styling{
+font-size: 220%;
+width: 1260px  ;
+padding-left: 4%;
+line-height: 40px;
+}
+
+#firsthalf
+{   
+
+width: 600px;
+padding-left: 6%;
+line-height: 40px;
+font-size: 220%;
+}
+
+
+#secondhalf{
+
+width:600px;
+padding-left: 50px;
+line-height: 40px;
+font-size: 220%;
+}
+#heading2
+{
+margin-left: 22%;
+margin-top: 40px;
+font-size: 290%;
+} 
+#heading3{
+margin-left: 13%;
+margin-top: 6%;
+margin-bottom: 40px;
+font-size: 300%;
+width:900px ;
+}
+.content3{
+font-size: 230%;
+margin-top: 2%;
+padding-left: 4%;
+width:1280px;
+}
+#heading4{
+margin-left: 25%;
+margin-top: 6%;
+margin-bottom: 40px;
+font-size: 300%;
+}
+.content4{
+font-size: 230%;
+margin-top: 2%;
+
+width: 1130px;
+} 
+#heading5
+{
+margin-left: 8%;
+margin-top: 6%;
+
+font-size: 290%;
+width: 900px;
+}
+
+#questioning{
+list-style: none;
+width: 1088px ;
+margin-left: 6%;
+font-size: 210%;
+line-height: 40px;
+height: 450px;
+}
+
+#background{
+width: 1910px;
+height: 600px;
+}
+
+
+}
+
+
+
+@media only screen and (min-width: 1951px) 
+and (max-width: 2050px)
+  {
+    .head{
+        font-size: 300%;
+        width: 1190px;
+        padding-left: 4%;
+    }
+         
+    .styling{
+    font-size: 220%;
+    width: 1260px  ;
+    padding-left: 4%;
+    line-height: 40px;
+    }
+    
+    #firsthalf
+    {   
+    
+    width: 600px;
+    padding-left: 6%;
+    line-height: 40px;
+    font-size: 220%;
+    }
+    
+    
+    #secondhalf{
+    
+    width:600px;
+    padding-left: 50px;
+    line-height: 40px;
+    font-size: 220%;
+    }
+    #heading2
+    {
+    margin-left: 22%;
+    margin-top: 40px;
+    font-size: 290%;
+    } 
+    #heading3{
+    margin-left: 13%;
+    margin-top: 6%;
+    margin-bottom: 40px;
+    font-size: 300%;
+    width:900px ;
+    }
+    .content3{
+    font-size: 230%;
+    margin-top: 2%;
+    padding-left: 4%;
+    width:1280px;
+    }
+    #heading4{
+    margin-left: 25%;
+    margin-top: 6%;
+    margin-bottom: 40px;
+    font-size: 300%;
+    }
+    .content4{
+    font-size: 230%;
+    margin-top: 2%;
+    
+    width: 1130px;
+    } 
+    #heading5
+    {
+    margin-left: 8%;
+    margin-top: 6%;
+    
+    font-size: 290%;
+    width: 900px;
+    }
+    
+    #questioning{
+    list-style: none;
+    width: 1088px ;
+    margin-left: 6%;
+    font-size: 210%;
+    line-height: 40px;
+    height: 450px;
+    }
+    
+    #background{
+    width: 1910px;
+    height: 1300px;
+    }
+       
+  }
+  
+
+
+
+
+
+
+
+
+
+
