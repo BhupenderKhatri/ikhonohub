@@ -33,8 +33,8 @@ Courses_details_routes.post('/', (req, res) => {
     }
 })
 
-const database ={
-    course:[
+const Courses ={
+    users:[
         {
             id:1,
           
@@ -64,11 +64,116 @@ const database ={
 
 }
 
-Courses_details_routes.get('/allcourses',(req,res)=>{
-            res.json(database.course)
+Courses_details_routes.get('/popularcourse',(req,res)=>{
+            res.json(Courses.users)
     })
     
+Courses_details_routes.get('/recommendedcourse',(req,res)=>{
+        res.json(Courses.users)
+    })
+Courses_details_routes.get('/mycourses',(req,res)=>{
+        res.json(Courses.users)
+    })
+
+
+
+    const database ={
+        allcourses:[
+                    {
+                        id:1,
+                        img :  "https://i.cdn.newsbytesapp.com/images/200_11061589456404.jpg" ,
+                        heading: "Web Developement ",
+                        subject:"web development",
+                        rating : "4.4" ,
+                        data:"Learn to code and become a Web developerin 2020 using HTML,CSS,Javascript , React, Nodejs and more",
+                        name:"Khatri",
+                        url:'https://www.youtube.com/watch?v=ysz5S6PUM-U'
+                        
+                    },
+                    {   id:2,
+                        img :  "https://i.cdn.newsbytesapp.com/images/200_11061589456404.jpg" ,
+                        heading: "comming soon",
+                        subject:"web development",
+                        rating : "4.4" ,
+                        data:"Learn to code and become a Web developerin 2020 using HTML,CSS,Javascript , React, Nodejs and more",
+                        name:"comming soon",
+                        url:'https://www.youtube.com/watch?v=ysz5S6PUM-U'
+                    },
+                    {
+                        id:3,
+                        img :  "https://i.cdn.newsbytesapp.com/images/200_11061589456404.jpg" ,
+                        heading: "Web Developement ",
+                        subject:"web development",
+                        rating : "4.4" ,
+                        data:"Learn to code and become a Web developerin 2020 using HTML,CSS,Javascript , React, Nodejs and more",
+                        name:"Siddharth",
+                        url:'https://www.youtube.com/watch?v=ysz5S6PUM-U'
+                    }
+                    ,
+                    {
+                        id:1,
+                        img :  "https://i.cdn.newsbytesapp.com/images/200_11061589456404.jpg" ,
+                       heading: "python",
+                       subject:"PYTHON",
+                        data:"This is the comeplete course t",
+                        name:"Khatri",
+                        url:'https://www.youtube.com/watch?v=ysz5S6PUM-U'
+                    },
+                    {   id:2,
+                        img :  "https://i.cdn.newsbytesapp.com/images/200_11061589456404.jpg" ,
+                        heading: "comming soon",
+                        subject:"PYTHON",
+                        data:"comming soon ",
+                        name:"comming soon",
+                        url:'https://www.youtube.com/watch?v=ysz5S6PUM-U'
+                    },
     
+                    {
+                        id:1,
+                        img :  "https://i.cdn.newsbytesapp.com/images/200_11061589456404.jpg" ,
+                        heading: "Maths 1",
+                        subject:'Maths',
+                        data:"This is the comeplete course t",
+                        name:"Khatri",
+                        url:'https://www.youtube.com/watch?v=ysz5S6PUM-U'
+                    },
+                    {   id:2,
+                        img :  "https://i.cdn.newsbytesapp.com/images/200_11061589456404.jpg" ,
+                        heading: "comming soon",
+                        subject:"PYTHON",
+                        data:"comming soon ",
+                        name:"comming soon",
+                        url:'https://www.youtube.com/watch?v=ysz5S6PUM-U'
+                    },
+                    {
+                        id:1,
+                        img :  "https://i.cdn.newsbytesapp.com/images/200_11061589456404.jpg" ,
+                        heading: "French 1",
+                        subject:"French",
+                        data:"This is the comeplete course t",
+                        name:"Khatri",
+                        url:'https://www.youtube.com/watch?v=ysz5S6PUM-U'
+                    },
+                    {   id:2,
+                        img :  "https://i.cdn.newsbytesapp.com/images/200_11061589456404.jpg" ,
+                       heading: "comming soon",
+                       subject:"French",
+                        data:"comming soon ",
+                        name:"comming soon",
+                        url:'https://www.youtube.com/watch?v=ysz5S6PUM-U'
+                    },
+                    ]
+    
+            }
+       
+    
+    
+    
+    Courses_details_routes.get('/Allcourses',(req,res)=>{
+        res.json(database.allcourses)
+        
+        
+    })
 
 
 module.exports=Courses_details_routes;
