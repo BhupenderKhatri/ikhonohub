@@ -37,23 +37,23 @@ class dashboardnav extends Component {
 
 
     
-    componentDidMount() {
-        const headers = {
-            "Content-type": "application/text"
-        }
-        let tok = localStorage.getItem("tkk");
-        console.log(tok);
-        axios.post('http://localhost:5000/users/login', { token: tok }).then(res => {
-            if (res.data = "/dash") {
+    // componentDidMount() {
+    //     const headers = {
+    //         "Content-type": "application/text"
+    //     }
+    //     let tok = localStorage.getItem("tkk");
+    //     console.log(tok);
+    //     axios.post('http://localhost:5000/users/login', { token: tok }).then(res => {
+    //         if (res.data = "/dash") {
 
-                history.push('/dashboard');
+    //             history.push('/dashboard');
 
-            }
-            else {
-                history.push('/login');
-            }
-        })
-    }
+    //         }
+    //         else {
+    //             history.push('/login');
+    //         }
+    //     })
+    // }
 
 
     
