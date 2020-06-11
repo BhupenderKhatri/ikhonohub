@@ -1,0 +1,1050 @@
+
+  #priceing{
+  
+      position: fixed;
+      left: 500px;
+      top: 30px;
+      margin-left: 550px;
+      
+      background-color: white;
+      text-align: left;
+      font-size: 100%;
+       color: black;
+      width : 405px;
+      height: 730px;
+      line-height: 30px ;
+      font: 45 Book 22px/35px Avenir LT Std;
+  }
+    
+  #discounts{
+      padding-left: 18%;
+      font-size: xx-large;
+    
+  }
+  #percentage{
+      padding-left: 20%;
+      margin-left: 50px;
+  
+  
+  }
+  #rate {
+      text-decoration:line-through;
+  }
+  #buttons{
+      display: flex;
+  }
+  #buttonAddCart{
+      color: white;
+      background-color:#FF3300;
+      border-radius: 40px;
+      margin-left: 30px;
+      margin-top: 25px;
+      text-align: center;
+      width: 150px;
+      height: 50px;
+  }
+  #buttonbuy{
+      color: white;
+      background-color:#FF3300;
+      border-radius: 40px;
+      margin-left: 30px;
+      margin-top: 25px;
+      text-align: center;
+      width: 150px;
+      height: 50px;
+  }
+  
+  
+  
+  #lastline{
+      padding-left: 25px;
+  }
+  #fontstylinghead{
+      font-size: 200%;
+  }
+  .fontstylinglist {
+      font-size: 100%;
+  }
+ 
+
+
+
+
+  
+@media only screen and (min-width: 320px) 
+and (max-width: 374px) 
+{ 
+    #priceing{
+    margin-left: 60%; 
+    position: static;
+    width: 570px;
+    height: 1050px;
+    
+} 
+   
+#discounts{
+    padding-left: 18%;
+    font-size: 270%;
+    margin-top: 10%;
+  
+}
+#percentage{
+    padding-left: 20%;
+    margin-left: 50px;
+
+
+}
+#rate {
+    text-decoration:line-through;
+}
+#buttons{
+    display: flex;
+    margin-top: 10px;
+}
+#buttonAddCart{
+    color: white;
+    background-color:#FF3300;
+    border-radius: 40px;
+    margin-left: 15px;
+    margin-top: 25px;
+    text-align: center;
+    width: 240px;
+    height: 50px;
+    font-size: 200%;
+}
+#buttonbuy{
+    color: white;
+    background-color:#FF3300;
+    border-radius: 40px;
+    margin-left: 30px;
+    margin-top: 25px;
+    text-align: center;
+    width: 240px;
+    height: 50px;
+    font-size: 200%;
+}
+
+
+
+#lastline{
+    padding-left: 10px;
+    font-size: 160%;
+    width: 700px;
+}
+#fontstylinghead{
+    font-size: 250%;
+}
+.fontstylinglist {
+    font-size: 240%;
+    line-height: 40px;
+    margin-left: 30px;
+}
+
+
+}
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 374px) 
+and (max-width: 450px) 
+{
+ 
+    #priceing{
+        margin-left: 60%; 
+        position: static;
+        width: 570px;
+        height: 1050px;
+        
+    } 
+       
+    #discounts{
+        padding-left: 18%;
+        font-size: 270%;
+        margin-top: 10%;
+      
+    }
+    #percentage{
+        padding-left: 20%;
+        margin-left: 50px;
+    
+    
+    }
+    #rate {
+        text-decoration:line-through;
+    }
+    #buttons{
+        display: flex;
+        margin-top: 10px;
+    }
+    #buttonAddCart{
+        color: white;
+        background-color:#FF3300;
+        border-radius: 40px;
+        margin-left: 15px;
+        margin-top: 25px;
+        text-align: center;
+        width: 240px;
+        height: 50px;
+        font-size: 200%;
+    }
+    #buttonbuy{
+        color: white;
+        background-color:#FF3300;
+        border-radius: 40px;
+        margin-left: 30px;
+        margin-top: 25px;
+        text-align: center;
+        width: 240px;
+        height: 50px;
+        font-size: 200%;
+    }
+    
+    
+    
+    #lastline{
+        padding-left: 10px;
+        font-size: 160%;
+        width: 700px;
+    }
+    #fontstylinghead{
+        font-size: 250%;
+    }
+    .fontstylinglist {
+        font-size: 240%;
+        line-height: 40px;
+        margin-left: 30px;
+    }
+
+}
+
+
+
+
+
+
+
+  @media only screen and (min-width: 450px) 
+  and (max-width: 550px)
+{
+    #priceing{
+        margin-left: 60%; 
+        position: static;
+        width: 570px;
+        height: 1050px;
+        
+    } 
+       
+    #discounts{
+        padding-left: 18%;
+        font-size: 270%;
+        margin-top: 10%;
+      
+    }
+    #percentage{
+        padding-left: 20%;
+        margin-left: 50px;
+    
+    
+    }
+    #rate {
+        text-decoration:line-through;
+    }
+    #buttons{
+        display: flex;
+        margin-top: 10px;
+    }
+    #buttonAddCart{
+        color: white;
+        background-color:#FF3300;
+        border-radius: 40px;
+        margin-left: 15px;
+        margin-top: 25px;
+        text-align: center;
+        width: 240px;
+        height: 50px;
+        font-size: 200%;
+    }
+    #buttonbuy{
+        color: white;
+        background-color:#FF3300;
+        border-radius: 40px;
+        margin-left: 30px;
+        margin-top: 25px;
+        text-align: center;
+        width: 240px;
+        height: 50px;
+        font-size: 200%;
+    }
+    
+    
+    
+    #lastline{
+        padding-left: 10px;
+        font-size: 160%;
+        width: 700px;
+    }
+    #fontstylinghead{
+        font-size: 250%;
+    }
+    .fontstylinglist {
+        font-size: 240%;
+        line-height: 40px;
+        margin-left: 30px;
+    }
+
+}
+
+
+
+
+
+
+
+@media only screen and (min-width: 551px) 
+and (max-width: 617px) 
+{
+
+    #priceing{
+        margin-left: 60%; 
+        position: static;
+        width: 570px;
+        height: 1050px;
+        
+    } 
+       
+    #discounts{
+        padding-left: 18%;
+        font-size: 270%;
+        margin-top: 10%;
+      
+    }
+    #percentage{
+        padding-left: 20%;
+        margin-left: 50px;
+    
+    
+    }
+    #rate {
+        text-decoration:line-through;
+    }
+    #buttons{
+        display: flex;
+        margin-top: 10px;
+    }
+    #buttonAddCart{
+        color: white;
+        background-color:#FF3300;
+        border-radius: 40px;
+        margin-left: 15px;
+        margin-top: 25px;
+        text-align: center;
+        width: 240px;
+        height: 50px;
+        font-size: 200%;
+    }
+    #buttonbuy{
+        color: white;
+        background-color:#FF3300;
+        border-radius: 40px;
+        margin-left: 30px;
+        margin-top: 25px;
+        text-align: center;
+        width: 240px;
+        height: 50px;
+        font-size: 200%;
+    }
+    
+    
+    
+    #lastline{
+        padding-left: 10px;
+        font-size: 160%;
+        width: 700px;
+    }
+    #fontstylinghead{
+        font-size: 250%;
+    }
+    .fontstylinglist {
+        font-size: 240%;
+        line-height: 40px;
+        margin-left: 30px;
+    }
+}
+
+
+
+
+
+
+@media only screen and (min-width: 618px) 
+and (max-width: 700px)
+{
+
+    #priceing{
+        margin-left: 60%; 
+        position: static;
+        width: 570px;
+        height: 1050px;
+        
+    } 
+       
+    #discounts{
+        padding-left: 18%;
+        font-size: 270%;
+        margin-top: 10%;
+      
+    }
+    #percentage{
+        padding-left: 20%;
+        margin-left: 50px;
+    
+    
+    }
+    #rate {
+        text-decoration:line-through;
+    }
+    #buttons{
+        display: flex;
+        margin-top: 10px;
+    }
+    #buttonAddCart{
+        color: white;
+        background-color:#FF3300;
+        border-radius: 40px;
+        margin-left: 15px;
+        margin-top: 25px;
+        text-align: center;
+        width: 240px;
+        height: 50px;
+        font-size: 200%;
+    }
+    #buttonbuy{
+        color: white;
+        background-color:#FF3300;
+        border-radius: 40px;
+        margin-left: 30px;
+        margin-top: 25px;
+        text-align: center;
+        width: 240px;
+        height: 50px;
+        font-size: 200%;
+    }
+    
+    
+    
+    #lastline{
+        padding-left: 10px;
+        font-size: 160%;
+        width: 700px;
+    }
+    #fontstylinghead{
+        font-size: 250%;
+    }
+    .fontstylinglist {
+        font-size: 240%;
+        line-height: 40px;
+        margin-left: 30px;
+    }
+
+}
+
+
+
+
+
+
+@media only screen and (min-width: 701px) 
+and (max-width: 768px) { 
+    
+    #priceing{
+        margin-left: 60%; 
+        position: static;
+        width: 570px;
+        height: 1050px;
+        
+    } 
+       
+    #discounts{
+        padding-left: 18%;
+        font-size: 270%;
+        margin-top: 10%;
+      
+    }
+    #percentage{
+        padding-left: 20%;
+        margin-left: 50px;
+    
+    
+    }
+    #rate {
+        text-decoration:line-through;
+    }
+    #buttons{
+        display: flex;
+        margin-top: 10px;
+    }
+    #buttonAddCart{
+        color: white;
+        background-color:#FF3300;
+        border-radius: 40px;
+        margin-left: 15px;
+        margin-top: 25px;
+        text-align: center;
+        width: 240px;
+        height: 50px;
+        font-size: 200%;
+    }
+    #buttonbuy{
+        color: white;
+        background-color:#FF3300;
+        border-radius: 40px;
+        margin-left: 30px;
+        margin-top: 25px;
+        text-align: center;
+        width: 240px;
+        height: 50px;
+        font-size: 200%;
+    }
+    
+    
+    
+    #lastline{
+        padding-left: 10px;
+        font-size: 160%;
+        width: 700px;
+    }
+    #fontstylinghead{
+        font-size: 250%;
+    }
+    .fontstylinglist {
+        font-size: 240%;
+        line-height: 40px;
+        margin-left: 30px;
+    }
+}
+
+
+
+
+      
+@media only screen and (min-width: 769px) 
+and (max-width: 1055px) 
+{ 
+    #priceing{
+        margin-left: 60%; 
+        position: static;
+        width: 570px;
+        height: 1050px;
+        
+    } 
+       
+    #discounts{
+        padding-left: 18%;
+        font-size: 270%;
+        margin-top: 10%;
+      
+    }
+    #percentage{
+        padding-left: 20%;
+        margin-left: 50px;
+    
+    
+    }
+    #rate {
+        text-decoration:line-through;
+    }
+    #buttons{
+        display: flex;
+        margin-top: 10px;
+    }
+    #buttonAddCart{
+        color: white;
+        background-color:#FF3300;
+        border-radius: 40px;
+        margin-left: 15px;
+        margin-top: 25px;
+        text-align: center;
+        width: 240px;
+        height: 50px;
+        font-size: 200%;
+    }
+    #buttonbuy{
+        color: white;
+        background-color:#FF3300;
+        border-radius: 40px;
+        margin-left: 30px;
+        margin-top: 25px;
+        text-align: center;
+        width: 240px;
+        height: 50px;
+        font-size: 200%;
+    }
+    
+    
+    
+    #lastline{
+        padding-left: 10px;
+        font-size: 160%;
+        width: 700px;
+    }
+    #fontstylinghead{
+        font-size: 250%;
+    }
+    .fontstylinglist {
+        font-size: 240%;
+        line-height: 40px;
+        margin-left: 30px;
+    }
+
+}
+
+
+
+
+
+@media only screen and (min-width: 1056px) 
+and (max-width: 1360px)
+{ 
+   
+    #priceing{
+        margin-left: 60%; 
+        position: static;
+        width: 570px;
+        height: 1050px;
+        
+    } 
+       
+    #discounts{
+        padding-left: 18%;
+        font-size: 270%;
+        margin-top: 10%;
+      
+    }
+    #percentage{
+        padding-left: 20%;
+        margin-left: 50px;
+    
+    
+    }
+    #rate {
+        text-decoration:line-through;
+    }
+    #buttons{
+        display: flex;
+        margin-top: 10px;
+    }
+    #buttonAddCart{
+        color: white;
+        background-color:#FF3300;
+        border-radius: 40px;
+        margin-left: 15px;
+        margin-top: 25px;
+        text-align: center;
+        width: 240px;
+        height: 50px;
+        font-size: 200%;
+    }
+    #buttonbuy{
+        color: white;
+        background-color:#FF3300;
+        border-radius: 40px;
+        margin-left: 30px;
+        margin-top: 25px;
+        text-align: center;
+        width: 240px;
+        height: 50px;
+        font-size: 200%;
+    }
+    
+    
+    
+    #lastline{
+        padding-left: 10px;
+        font-size: 160%;
+        width: 700px;
+    }
+    #fontstylinghead{
+        font-size: 250%;
+    }
+    .fontstylinglist {
+        font-size: 240%;
+        line-height: 40px;
+        margin-left: 30px;
+    }
+
+}
+
+
+
+
+
+@media only screen and (min-width: 1361px) 
+  and (max-width: 1440px)
+{ 
+    #priceing
+    {
+       left: 470px; 
+       top: 80px;
+       width: 500px;
+       height: 850px;
+ 
+    }
+    
+  #fontstylinghead{
+    font-size: 200%;
+}
+    .fontstylinglist {
+        font-size: 150%;
+    }
+    #discounts{
+        padding-left: 18%;
+        font-size: 250%;
+
+    }
+    #buttonAddCart{ 
+        font-size: 150%;
+        width: 180px;
+      height: 60px;
+      margin-left: 60px;
+
+    }
+
+    #buttonbuy{  
+        font-size: 150%;
+        width: 180px;
+      height: 60px;
+    }
+    #lastline{
+        font-size: 130%;
+    }
+    
+} 
+
+
+@media only screen and (min-width: 1441px) 
+  and (max-width: 1520px)
+{ 
+    #priceing
+    {
+       left: 490px; 
+       top: 20px;
+       width: 500px;
+       height: 850px;
+ 
+    }
+    
+  #fontstylinghead{
+    font-size: 200%;
+}
+    .fontstylinglist {
+        font-size: 150%;
+    }
+    #discounts{
+        padding-left: 18%;
+        font-size: 250%;
+
+    }
+    #buttonAddCart{ 
+        font-size: 150%;
+        width: 180px;
+      height: 60px;
+      margin-left: 60px;
+
+    }
+
+    #buttonbuy{  
+        font-size: 150%;
+        width: 180px;
+      height: 60px;
+    }
+    #lastline{
+        font-size: 130%;
+    }
+    
+} 
+
+
+
+
+
+
+@media only screen and (min-width: 1521px) 
+  and (max-width: 1600px)
+{ 
+    #priceing
+    {
+       left: 500px; 
+       top: 10px;
+       width: 520px;
+       height: 850px;
+ 
+    }
+    
+  #fontstylinghead{
+    font-size: 180%;
+}
+    .fontstylinglist {
+        font-size: 160%;
+    }
+    #discounts{
+        padding-left: 18%;
+        font-size: 240%;
+
+    }
+    #buttonAddCart{ 
+        font-size: 150%;
+        width: 190px;
+      height: 60px;
+      margin-left: 50px;
+
+    }
+
+    #buttonbuy{  
+        font-size: 150%;
+        width: 190px;
+      height: 60px;
+    }
+    #lastline{
+        padding-left: 40px;
+        font-size: 120%;
+    }
+    
+} 
+
+
+@media only screen and (min-width: 1601px) 
+and (max-width: 1680px)   
+{
+ 
+    #priceing
+    {
+       left: 520px; 
+       top: 30px;
+       width: 450px;
+       height: 800px;
+ 
+    }
+    
+  #fontstylinghead{
+    font-size: 150%;
+}
+    .fontstylinglist {
+        font-size: 130%;
+    }
+    #discounts{
+        padding-left: 18%;
+        font-size: 200%;
+
+    }
+    #buttonAddCart{ 
+        font-size: 150%;
+        width: 170px;
+      height: 60px;
+      margin-left: 40px;
+
+    }
+
+    #buttonbuy{  
+        font-size: 150%;
+        width: 170px;
+      height: 60px;
+    }
+    #lastline{
+        font-size: 120%;
+    }
+} 
+
+
+
+@media only screen and (min-width: 1681px) 
+and (max-width: 1770px)  {  
+    #priceing
+    {  position: fixed;
+       left: 600px; 
+       top: 20px;
+       width: 550px;
+       height: 930px;
+ 
+    }
+    
+  #fontstylinghead{
+    font-size: 190%;
+}
+    .fontstylinglist {
+        font-size: 190%;
+    }
+    #discounts{
+        padding-left: 18%;
+        font-size: 280%;
+        margin-top: 120px;
+
+    }
+    #buttonAddCart{ 
+        margin-top: 20px;
+        font-size: 150%;
+        width: 200px;
+      height: 60px;
+      margin-left: 60px;
+
+    }
+
+    #buttonbuy{   
+        margin-top: 20px;
+        font-size: 150%;
+        width: 200px;
+      height: 60px;
+    }
+    #lastline{
+        font-size: 135%;
+        width: 500px;
+    }
+
+}
+
+
+@media only screen and (min-width: 1771px) 
+and (max-width: 1850px) {  
+    #priceing
+    {  position: fixed;
+       left: 650px; 
+       top: 80px;
+       width: 550px;
+       height: 930px;
+ 
+    }
+    
+  #fontstylinghead{
+    font-size: 190%;
+}
+    .fontstylinglist {
+        font-size: 190%;
+    }
+    #discounts{
+        padding-left: 18%;
+        font-size: 280%;
+        margin-top: 120px;
+
+    }
+    #buttonAddCart{ 
+        margin-top: 20px;
+        font-size: 150%;
+        width: 200px;
+      height: 60px;
+      margin-left: 60px;
+
+    }
+
+    #buttonbuy{   
+        margin-top: 20px;
+        font-size: 150%;
+        width: 200px;
+      height: 60px;
+    }
+    #lastline{
+        font-size: 135%;
+        width: 500px;
+    }
+  
+
+}
+
+
+
+@media only screen and (min-width: 1850px) 
+and (max-width: 1950px){ 
+    #priceing
+    {  position: fixed;
+       left: 750px; 
+       top: 80px;
+       width: 550px;
+       height: 930px;
+ 
+    }
+    
+  #fontstylinghead{
+    font-size: 190%;
+}
+    .fontstylinglist {
+        line-height: 40px;
+        font-size: 190%;
+    }
+    #discounts{
+        padding-left: 18%;
+        font-size: 280%;
+        margin-top: 50px;
+
+    }
+    #buttonAddCart{ 
+        margin-top: 20px;
+        font-size: 150%;
+        width: 240px;
+      height: 60px;
+      margin-left: 20px;
+
+    }
+
+    #buttonbuy{   
+        margin-top: 20px;
+        font-size: 150%;
+        width: 240px;
+      height: 60px;
+    }
+    #lastline{
+        font-size: 145%;
+        width: 600px;
+    }
+}
+
+
+
+@media only screen and (min-width: 1951px) 
+and (max-width: 2050px)
+  {
+    #priceing
+    {  position: fixed;
+       left: 750px; 
+       top: 80px;
+       width: 550px;
+       height: 930px;
+ 
+    }
+    
+  #fontstylinghead{
+    font-size: 190%;
+}
+    .fontstylinglist {
+        line-height: 40px;
+        font-size: 190%;
+    }
+    #discounts{
+        padding-left: 18%;
+        font-size: 280%;
+        margin-top: 50px;
+
+    }
+    #buttonAddCart{ 
+        margin-top: 20px;
+        font-size: 150%;
+        width: 240px;
+      height: 60px;
+      margin-left: 20px;
+
+    }
+
+    #buttonbuy{   
+        margin-top: 20px;
+        font-size: 150%;
+        width: 240px;
+      height: 60px;
+    }
+    #lastline{
+        font-size: 145%;
+        width: 600px;
+    } 
+  }
+  

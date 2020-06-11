@@ -1,0 +1,45 @@
+.sub_bar{
+    color: white;
+}
+
+#coursetitle{
+    font-size: 50px;
+    font-weight: bold;
+    margin-left: 50px;
+}
+
+.sublst{
+    list-style: none;
+    font-size: x-large;
+    font-weight: bold;
+    display: flex;
+    margin-left: 40px;
+    padding-left: 20px;
+    
+}
+
+.sublst li{
+    position: relative;
+    padding-left: 50px;
+}
+.sublst li:hover{
+    cursor: pointer;
+}
+
+button.see_more{
+    font-family:  'Roman 46px/63px Avenir';
+    background-color: #ff4500; 
+    border-radius: 25px;  
+    font-size: 100%;
+    color: white;
+    transition: 0.4s;
+}
+button.see_more:hover{
+    cursor: pointer;
+    background-color: #ff4500;
+}
+button.see_more:active{
+   outline: none;
+    border: none;
+}
+button:focus {outline:0;}
