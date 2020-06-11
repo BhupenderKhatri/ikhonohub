@@ -183,4 +183,43 @@ users.post('/login',(req,res)=>{
 
 })
 
+
+const user ={
+    info:[
+        {
+            userid:1,
+            name:"Khatri",
+            subscription:'Free',
+            streak:'5',
+            badges:'0'
+
+        }
+        
+    ]
+
+}
+
+
+
+
+
+users.post('/personalinfo',(req,res)=>{
+    const userdataid = {  id:req.body.id };
+   console.log(userdataid.id);
+   res.json(user.info);
+   }
+)
+
+
+
+
+
+
+
+
+
+
+
+
+
 module.exports = users

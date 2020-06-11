@@ -71,9 +71,12 @@ Courses_details_routes.get('/popularcourse',(req,res)=>{
 Courses_details_routes.get('/recommendedcourse',(req,res)=>{
         res.json(Courses.users)
     })
-Courses_details_routes.get('/mycourses',(req,res)=>{
-        res.json(Courses.users)
-    })
+Courses_details_routes.post('/mycourses',(req,res)=>{
+    const userdataid = {  id:req.body.id };
+   console.log(userdataid.id);
+   res.json(Courses.users)
+   }
+)
 
 
 
