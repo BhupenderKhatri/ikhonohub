@@ -5,7 +5,7 @@ import bell from '../nav/notifications.png';
 import cart from '../nav/Cart.png';
 import history from '../../history';
 import Facebook from '../signup/facebook.png';
-
+import axios from "axios";
 
 //import Logo from '../components/logo/logo';
 //import cart from '../components/cart/cart';
@@ -13,6 +13,30 @@ import Facebook from '../signup/facebook.png';
 //import signup from '../components/signup/signup';
 
 class Newdashboardnav extends Component {
+   
+   
+    onSubmitlogout = (event) => {
+
+        const headers = {
+            "Content-type": "application/text"
+        }
+        let tok = localStorage.getItem("tkk");
+        console.log(tok);
+        axios.post('http://localhost:5000/users/logout', { token: tok }).then(res => {
+
+            console.log(res.data);
+
+            history.push('/');
+            window.localStorage.clear();
+
+        })
+
+
+    }
+
+
+
+    
     render(){
         return (
             <div className="new_nav_bar_dash">  
@@ -30,7 +54,7 @@ class Newdashboardnav extends Component {
                                         <button class="new_droplist" onClick={()=>history.push('/bell')}>Notification</button>
                                         <button class="new_droplist" onClick={()=>history.push('/accountboard')}>Account</button>
                                         <button class="new_droplist" onClick={()=>history.push('/help')}>Help</button>
-                                        <button class="new_droplist" onClick={()=>history.push('/')}>LogOut</button>
+                        <button class="new_droplist" onClick={this.onSubmitlogout}>LogOut</button>
                                     </div>
                          </div>
             </div>

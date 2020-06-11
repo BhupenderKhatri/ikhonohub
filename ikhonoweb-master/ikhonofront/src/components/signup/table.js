@@ -17,7 +17,8 @@ class table extends Component{
           this.state={
                signupUser:'',
                signupEmail:'',
-               signupPassword:''
+               signupPassword:'',
+               signupPassword2:''
 
           }
      }
@@ -34,6 +35,9 @@ class table extends Component{
           this.setState({signupPassword:event.target.value});
      }
 
+     onPassword2signupchange = (event) => {
+          this.setState({ signupPassword2: event.target.value });
+     }
      onSubmitsignup=(event)=>{
           
           const headers = {
@@ -110,7 +114,12 @@ class table extends Component{
                                ></input>}</td>
                     </tr>
                     <tr>
-                         <td> {<input type= "password" name="passwordConf" placeholder="Confirm Password " class="inputs" ></input>}</td>
+                         <td> {<input type= "password"
+                          name="passwordConf"
+                           placeholder="Confirm Password "
+                            class="inputs" 
+                          onChange={this.onPassword2signupchange}
+                          ></input>}</td>
                     </tr>
                     <tr>
                          <td>

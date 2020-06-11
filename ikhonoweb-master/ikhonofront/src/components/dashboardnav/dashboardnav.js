@@ -28,7 +28,7 @@ class dashboardnav extends Component {
                 console.log(res.data);
                 
                 history.push('/');
-                localStorage.clear();
+                window.localStorage.clear();
 
         })
 
@@ -36,24 +36,6 @@ class dashboardnav extends Component {
         }
 
 
-    
-    // componentDidMount() {
-    //     const headers = {
-    //         "Content-type": "application/text"
-    //     }
-    //     let tok = localStorage.getItem("tkk");
-    //     console.log(tok);
-    //     axios.post('http://localhost:5000/users/login', { token: tok }).then(res => {
-    //         if (res.data = "/dash") {
-
-    //             history.push('/dashboard');
-
-    //         }
-    //         else {
-    //             history.push('/login');
-    //         }
-    //     })
-    // }
 
 
     

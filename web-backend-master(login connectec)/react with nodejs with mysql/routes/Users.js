@@ -33,116 +33,114 @@ users.post('/register', (req, res) => {
         const userData = {
             name: req.body.signupUser,
             email: req.body.signupEmail,
-            password: req.body.signupPassword
+            password: req.body.signupPassword,
+            password2: req.body.signupPassword2
         }
         console.log(userData);
+        let errors = [];
 
-        User.findOne({
-            where: {
-                email: req.body.signupEmail
-            }
-        })
+        console.log(userData);
+        if (!userData.name || !userData.email || !userData.password || !userData.password2) {
+            errors.push({ message: "Please enter all fields" });
+        }
 
-        .then(users => {
-                if (!users) {
-                    bcrypt.hash(req.body.signupPassword, 10, (err, hash) => {
+        if (userData.password.length < 6) {
+            errors.push({ message: "Password must be a least 6 characters long" });
+        }
 
-                        console.log("hereeeee");
+        if (userData.password !== userData.password2) {
+            errors.push({ message: "Passwords do not match" });
+        }
 
-                        function Store(pass) {
-                            var verify = Math.floor((Math.random() * 10000000) + 1);
-
-                            var mailOption = {
-                                from: 'iknonohhub@gmail.com', // sender this is your email here
-                                to: `ag.adityagupta1998@gmail.com`, // receiver email2
-                                subject: "Account Verification",
-                                html: `<h4>Hello ,Please Click on this link to verify you account<h4><br><hr>
-    <br><a href="http://localhost:4000/verification/?email=${req.body.email}&verify=${verify}/">CLICK ME TO ACTIVATE YOUR ACCOUNT</a>`
-                            }
-
-                            transporter.sendMail(mailOption, (error, info) => {
-                                if (error) {
-                                    console.log(error)
-                                } else {
-                                    userData.password = hash
-                                    User.create(userData)
-                                        .then(users => {
-                                            res.json({ status: users.email + 'Registered!' })
-                                        })
-                                        .catch(err => {
-                                            res.send('error: ' + err)
-                                        })
-
-
-                                }
-                            });
-
-                        }
-                        Store(hash);
-                    })
-                } else {
-                    res.json({ error: 'User already exists' })
+        if (errors.length > 0) {
+            // res.send("register", { errors, userData.name, userData.email, password, password2 });
+        } else {
+            User.findOne({
+                where: {
+                    email: req.body.signupEmail
                 }
             })
-            .catch(err => {
-                res.send('error: ' + err)
-            })
+
+            .then(users => {
+                    if (!users) {
+                        bcrypt.hash(req.body.signupPassword, 10, (err, hash) => {
+
+                            console.log("hereeeee");
+
+                            function Store(pass) {
+
+
+                                var mailOption = {
+                                    from: 'iknonohhub@gmail.com', // sender this is your email here
+                                    to: req.body.signupEmail, // receiver email2 
+                                    subject: "Account Verification",
+                                    html: `<h4>Hello ,Please Click on this link to verify you account<h4><br><hr>
+    <br><a href="http://localhost:5000/users/verification/?em=${userData.email}">CLICK ME TO ACTIVATE YOUR ACCOUNT</a>`
+                                }
+
+                                transporter.sendMail(mailOption, (error, info) => {
+                                    if (error) {
+                                        console.log(error)
+                                    } else {
+                                        userData.password = hash
+                                        User.create(userData)
+                                            .then(users => {
+                                                res.json({ status: users.email + 'Registered!' })
+                                            })
+                                            .catch(err => {
+                                                res.send('error: ' + err)
+                                            })
+
+
+                                    }
+                                });
+
+                            }
+                            Store(hash);
+                        })
+                    } else {
+                        console.log('User already exists');
+                    }
+                })
+                .catch(err => {
+                    console.log('error: ' + err)
+                })
+        }
     }
 })
 
 
-// users.get('/verification/', (req, res) => {
-//     function activateAccount() {
-//         //if (verification == qdata.verify) {
-//         //pool.query(
-//         //  `UPDATE login SET verified = $2  WHERE email = $1`, [req.query.email,true],
-//         //(err, results) => {
-//         //  if (err) {
-//         //    throw err;
-//         //} else {
-//         req.flash("success_msg", "You are now registered. Please log in");
-//         res.redirect("/client/src/components/Login");
-//         //res.cookie("UserInfo", userdata);
-//         //res.send('<h1>Account Verification Successfully</h1>');
-//         //}
-//         //})
-//         //else {
-//         //  res.send("<h1>verification failed</h1>")
-//     }
+users.get('/verification/', (req, res) => {
+
+    var q = url.parse(req.url, true);
+    var qdata = q.query;
+    console.log(qdata.em);
+    var ud = {
+
+        verified: true
+    }
+    console.log("heree")
+    User.findOne({
+            where: {
+                email: qdata.em
+            }
+        })
+        .then(users => {
+
+            users.verified = true
+            users.save();
 
 
-//     var q = url.parse(req.url, true);
-//     var qdata = q.query;
-//     //pool.query(
-//     //  `SELECT login.verification FROM login
-//     //WHERE email = $1`, [qdata.email],
-//     //(err, results) => {
-//     //  if (err) {
-//     //    throw err;
-//     //} else {
+        })
 
-//     console.log(qdata.email);
-//     // data = results.rows;
-//     //  data.forEach(row => {
-//     //    console.log(`id: ${row.id} name: ${row.name} `);
-//     //});
+})
 
-//     activateAccount();
-//     /* var verify1 = req.query.verify;
-//     var verify2 = result[0].verification; 
-//     if(verify1 == verify2) {
-//         activateAccount(result[0].verification);
-//     }else{
-//         res.send("<h1>verification fail</h1>")
-//     } */
-//     //}
-//     //})
-// });
+
 
 users.post('/login', (req, res) => {
 
         if (req.body.token) {
-            //  console.log(req.body.token)
+
             var decoded = jwtDecode(req.body.token);
             console.log(decoded.student_id);
             fLen = temp.length;
@@ -163,18 +161,23 @@ users.post('/login', (req, res) => {
 
                         if (bcrypt.compareSync(req.body.password, users.password)) {
 
-                            let token = jwt.sign(users.dataValues, process.env.SECRET_KEY, {
+                            if (users.verified === true) {
+
+                                let token = jwt.sign(users.dataValues, process.env.SECRET_KEY, {
                                     expiresIn: 140000000000
                                 })
-                                //console.log(token);
-                            temp.push(token);
-                            //ab = 'Registered!'
-                            res.send(token)
+
+                                temp.push(token);
+
+                                res.send(token)
+                            } else {
+                                console.log("not verfied")
+                            }
                         }
                     } else {
-                        console.log("Ffffff");
+                        console.log("invalid password");
 
-                        res.status(400).json({ error: 'User does not exist' })
+                        console.log('User does not exist')
                     }
                 })
                 .catch(err => {
@@ -202,11 +205,13 @@ users.post('/login', (req, res) => {
 //         })
 // })
 users.post('/logout', (req, res) => {
+    console.log(req.body.token);
+    let fLen = temp.length
 
     for (i = 0; i < fLen; i++) {
         console.log("here");
 
-        if (req.body.token === temp[i]) {
+        if (req.body.token == temp[i]) {
             temp.pop[temp[i]]
             console.log("here");
             res.send("loggedout")
