@@ -184,20 +184,50 @@ users.post('/login',(req,res)=>{
 })
 
 
+
+
+
 const user ={
     info:[
         {
             userid:1,
             name:"Khatri",
+            gender:'male',
             subscription:'Free',
             streak:'5',
-            badges:'0'
+            badges:'0',
+            email:'bhupi@gmail.com',
+            mobilenumber:999999999
 
         }
-        
+    ],
+    add:[
+        {
+            userid:1,
+            name:"khatri",
+            phonenumber:9999999,
+            pincode:140401,
+            locality:"",
+            message:"",
+            city:"ghanaur",
+            state:"haryana",
+            landmark:"unknown",
+            type:"home"
+        }
+
     ]
 
 }
+
+
+
+
+users.post('/addressinfo',(req,res)=>{
+    const userdataid = {  id:req.body.id };
+   console.log(userdataid.id);
+   res.json(user.add);
+   }
+)
 
 
 
