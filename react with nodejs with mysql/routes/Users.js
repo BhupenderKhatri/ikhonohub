@@ -19,6 +19,8 @@ var transporter = nodemailer.createTransport({
     }
 });
 
+
+
 users.post('/register', (req, res) => {
     const today = new Date()
     const userData = {
@@ -239,6 +241,23 @@ users.post('/personalinfo',(req,res)=>{
    res.json(user.info);
    }
 )
+
+users.post('/addresschange',(req,res)=>{
+    const addresschange={
+       name:req.body.addressname,
+       number:req.body.addressnumber,
+        pincode:req.body.addresspincode,
+       city:req.body.addresscity,
+        locality:req.body.addresslocality,
+        state:req.body.addressstate,
+        landmark:req.body.addresslandmark,
+        type:req.body.addresstype
+    }
+
+
+    console.log(addresschange);
+    res.json('addsucess');
+})
 
 
 
