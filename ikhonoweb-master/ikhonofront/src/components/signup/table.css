@@ -1,0 +1,1239 @@
+.base{
+    background-image: url("login1360.png");
+    background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 750px;
+}
+
+::-webkit-input-placeholder {
+    color: #0c0b0b;
+    font-weight: bold;
+}
+:-moz-placeholder {
+    color: #160f0d;
+    font-weight: bold;
+}
+:-ms-input-placeholder {
+    color: #141110;
+    font-weight: bold;
+}
+
+/* for that login button jo upr ha */
+button.loginsignup
+{
+    margin-left: 645px;
+    margin-top: 60px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 3px;
+    padding-bottom: 5px;
+    border: none;
+    border-radius: 25px;
+    background: none;
+    font-size: 170%;
+    color: white;
+    transition: 0.4s;
+}
+button.loginsignup:hover{
+    cursor: pointer;
+    background-color: #ff4500;
+}
+
+button.loginsignup:active{
+    outline: none;
+    border: none;
+}
+
+
+/* Signup button jo upr hai*/
+button.signupsignup
+{    
+    font-family:  'Roman 46px/63px Avenir';
+    background-color: #ff4500;
+    margin-left: 30px;
+    border-radius: 25px;  
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-size: 170%;
+    color: white;
+    transition: 0.4s;
+}
+button.signupsignup:hover{
+    cursor: pointer;
+    background-color: #ff4500;
+}
+button.signupsignup:active{
+   outline: none;
+    border: none;
+}
+button:focus {outline:0;}
+
+
+
+#signingup
+{
+
+    border-radius: 40px;
+
+    text-align: center;
+    background-color:rgb(134, 133, 133);
+    line-height: 50px;
+    align-items: center;
+    margin: auto;
+    margin-top: 5px;
+    font: rgb(5, 5, 5) 30px/41px Avenir;
+    letter-spacing: 0px;
+    opacity: 1.0;
+    height: 400px;
+    width: 350px;
+
+}
+
+
+
+.inputs{
+    opacity: 2;
+    margin-top: 32px;
+    font: bold;
+   height: 45px;
+   width: 270px;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.inputs:hover{
+    cursor: pointer;
+    background-color:tan;
+}
+
+.inputs:active{
+    outline: none;
+    border: none;
+}
+
+.inputs:focus {outline:0;}
+
+
+.willsubmit{
+    font-family:  'Roman 46px/63px Avenir';
+    background-color: #ff4500; 
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 12px;
+    padding-bottom: 6px;
+    font-size: 170%;
+    color: white;
+    transition: 0.4s;
+    text-align: center;
+    border-radius: 25px;
+}
+
+.willsubmit:hover{
+    cursor: pointer;
+    background-color: #ff4500;
+}
+.willsubmit:active{
+   outline: none;
+    border: none;
+}
+
+.willsubmit:focus {outline:0;}
+
+.logos3{
+    margin-left: -10px;
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    
+}
+
+.logos4{
+    margin-left: 60px;
+    height: 40px;
+    width: 40px;
+
+    display: inline-block;
+}
+
+.logos5{
+    margin-left: 60px;
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+}
+
+
+@media only screen and (min-width: 320px) 
+and (max-width: 374px) 
+  {
+    .base{
+        background-image: url("two.jpeg");
+        
+    }
+
+    #signingup
+{
+
+        margin-left: 12%;
+        margin-top: 2px;
+        height: 200px;
+        width: 270px;
+        opacity: 0.8;
+        
+        
+        
+    }
+
+    button.loginsignup{
+        margin-left:22%;
+        font-size: 120%;
+
+    }
+    button.signupsignup{
+        font-size: 120%;
+    }
+    .inputs{
+        margin-top: 39px;
+       height: 45px;
+       width: 190px;
+      border-radius: 20px;
+    
+    }
+
+    .logos3{
+
+        margin-left: -10px;
+        margin-top: -7px;
+        display: inline-block;
+        height: 30px;
+        width: 30px;
+    }
+    
+    .logos4{
+        margin-left: 60px;
+        margin-top: -7px;
+        height: 30px;
+        width: 30px;
+        display: inline-block;
+    }
+    
+    .logos5{
+        margin-left: 60px;
+        margin-top: -7px;
+        height: 30px;
+        width: 30px;
+        border-radius: 50%;
+        display: inline-block;
+    }
+  }
+
+  @media only screen and (min-width: 374px) 
+and (max-width: 450px) 
+  {
+   
+    .logos3{
+
+        margin-left: -10px;
+        margin-top: -7px;
+        display: inline-block;
+        height: 30px;
+        width: 30px;
+    }
+    
+    .logos4{
+        margin-left: 60px;
+        margin-top: -7px;
+        height: 30px;
+        width: 30px;
+        display: inline-block;
+    }
+    
+    .logos5{
+        margin-left: 60px;
+        margin-top: -7px;
+        height: 30px;
+        width: 30px;
+        border-radius: 50%;
+        display: inline-block;
+    }
+    .base{
+    
+            background-image: url("two.jpeg");
+           min-height: 896px;
+        }
+    
+        #signingup
+        {
+
+        margin-left: 15%;
+        margin-top: 2px;
+        height: 200px;
+        width: 270px;
+        opacity: 0.8;
+    }
+
+    button.loginsignup{
+        margin-left:24%;
+        font-size: 120%;
+        margin-top: 150px;
+
+    }
+    button.signupsignup{
+        font-size: 120%;
+    }
+    .inputs{
+        margin-top: 39px;
+       height: 45px;
+       width: 190px;
+      border-radius: 20px;
+    
+    }
+  }
+
+  @media only screen and (min-width: 450px) 
+and (max-width: 550px) 
+  {
+
+    .logo3{
+    
+        width: 35px;
+        height: 35px;
+        
+    }
+    
+    .logos4{
+        width: 35px;
+        height: 35px;
+        
+    }
+    
+    .logos5{
+        width: 35px;
+        height: 35px;
+    
+    }
+    .base{
+    
+        background-image: url("two.jpeg");
+       min-height: 896px;
+    }
+   
+    #signingup
+{
+
+        margin-left: 20%;
+        margin-top: 2px;
+        height: 200px;
+        width: 270px;
+        opacity: 0.8;
+    }
+
+    button.loginsignup{
+        margin-left:28%;
+        font-size: 120%;
+
+    }
+    button.signupsignup{
+        font-size: 120%;
+    }
+    .inputs{
+        margin-top: 39px;
+       height: 45px;
+       width: 190px;
+      border-radius: 20px;
+    
+    }
+  }
+  @media only screen and (min-width: 551px) 
+and (max-width: 617px) 
+  {
+
+    .base{
+    
+        background-image: url("two.jpeg");
+       min-height: 960px;
+    }
+    #signingup
+    {
+
+        margin-left: 25%;
+        margin-top: 2px;
+        height: 200px;
+        width: 300px;
+        opacity: 0.8;
+    }
+
+    button.loginsignup{
+        margin-left:32%;
+        font-size: 120%;
+        margin-top: 150px;
+
+    }
+    button.signupsignup{
+        font-size: 150%;
+    }
+    .inputs{
+        margin-top: 39px;
+       height: 45px;
+       width: 190px;
+      border-radius: 20px;
+    
+    }
+  }
+
+  @media only screen and (min-width: 618px) 
+and (max-width: 700px) 
+{
+
+    .base{
+    background-image: url("two.jpeg");
+    min-height: 1024px;
+    
+}
+#signingup
+{
+
+        margin-left: 25%;
+        margin-top: 10px;
+        height: 400px;
+        width: 50%;
+        opacity: 0.8;
+    }
+    button.loginsignup{
+        margin-left:33%;
+    }
+
+    .inputs{
+
+        opacity: 2;
+        margin-top: 39px;
+       height: 45px;
+       width: 230px;
+      border-radius: 20px;
+    
+    }
+    button.signupsignup
+{
+margin-left: 20px;
+
+}
+}
+
+@media only screen and (min-width: 701px) 
+and (max-width: 768px) 
+  {
+    .base{
+        background-image: url("two.jpeg");
+        min-height: 1024px;
+        
+    }
+    #signingup
+    {
+    
+            margin-left: 23%;
+            margin-top: 10px;
+            height: 500px;
+            width: 50%;
+            opacity: 0.8;
+        }
+        button.loginsignup{
+            margin-left:32%;
+            margin-top: 140px;
+        }
+
+        .inputs{
+
+            opacity: 2;
+            margin-top: 39px;
+           height: 45px;
+           width: 85%;
+          border-radius: 20px;
+        
+        }
+        button.signupsignup
+{
+    margin-left: 20px;
+
+}
+}
+
+@media only screen and (min-width: 769px) 
+and (max-width: 1023px) 
+  {
+    .base{
+        background-image: url("two.jpeg");
+        min-height: 1280px;
+        
+    }
+
+    #signingup
+    {
+
+        margin-left: 29%;
+        margin-top: 9px;
+        height: 500px;
+        width: 350px;
+   opacity: 0.8;
+        
+        
+    }
+
+    button.loginsignup{
+        margin-left:36%;
+        font-size: 170%;
+        margin-top: 150px;
+        border: none;
+
+    }
+    button.signupsignup{
+        font-size: 170%;
+    }
+    .inputs{
+        margin-top: 39px;
+       height: 45px;
+       width: 250px;
+      border-radius: 20px;
+    
+    }
+  }
+  @media only screen and (min-width: 1024px) 
+  and (max-width: 1360px)
+    {
+        .base{
+          background-image: url("two.jpeg");
+          min-height: 1366px;
+
+          
+      }
+
+      #signingup
+{
+  
+          margin-left: 30%;
+          margin-top: 9px;
+          height: 550px;
+          width: 450px;
+          opacity: 0.8;
+          
+          
+      }
+
+      button.loginsignup{
+          margin-left:40%;
+          margin-top: 25%;
+          font-size: 200%;
+          border: none;
+
+      }
+      button.signupsignup{
+          font-size: 200%;
+          margin-right: 4%;
+      }
+      .inputs{
+          margin-top: 39px;
+         height: 60px;
+         width: 320px;
+        border-radius: 20px;
+      
+      }
+      #checkme{
+        width: 20px;
+        height: 20px;
+        display: inline-block;
+        margin-left: 5%;
+    
+    }
+    
+    
+    
+    
+    .willsubmit{
+        font-size: 240%;
+    }
+    
+    #keepme{
+        text-align: left;
+        font-size: 25px;
+        padding-left: 50px;
+    }
+    .logos3{
+    
+        width: 50px;
+        height: 50px;
+        
+    }
+    
+    .logos4{
+        width: 50px;
+        height: 50px;
+        
+    }
+    
+    .logos5{
+        width: 50px;
+        height: 50px;
+    
+    }
+    
+    
+    }
+
+    @media only screen and (min-width: 1361px) 
+    and (max-width: 1440px)
+      {
+    
+        #signingup
+        {
+    
+            margin-left: 35%;
+            margin-top: 9px;
+            height: 550px;
+            width: 450px;
+            opacity: 0.8;
+            
+            
+        }
+
+        button.loginsignup{
+            margin-left:42%;
+            margin-top: 5%;
+            font-size: 200%;
+            border: none;
+
+        }
+        button.signupsignup{
+            font-size: 200%;
+            margin-right: 4%;
+        }
+        .inputs{
+            margin-top: 39px;
+           height: 60px;
+           width: 320px;
+          border-radius: 20px;
+        
+        }
+        #checkme{
+          width: 20px;
+          height: 20px;
+          display: inline-block;
+          margin-left: 5%;
+      
+      }
+      
+      
+      
+      
+      .willsubmit{
+          font-size: 240%;
+      }
+      
+      #keepme{
+          text-align: left;
+          font-size: 25px;
+          padding-left: 50px;
+      }
+      .logos3{
+      
+          width: 50px;
+          height: 50px;
+          
+      }
+      
+      .logos4{
+          width: 50px;
+          height: 50px;
+          
+      }
+      
+      .logos5{
+          width: 50px;
+          height: 50px;
+      
+      }
+      .base{
+        background-image: url("login1360.png");
+        background-size: 100% 100%;
+      background-repeat: no-repeat;
+      background-position: center;
+      height: 1050px;
+    }
+    }
+      @media only screen and (min-width: 1441px) 
+    and (max-width: 1520px)
+      {
+    
+        #signingup
+        {
+    
+            margin-left: 35%;
+            margin-top: 9px;
+            height: 550px;
+            width: 450px;
+            opacity: 0.8;
+            
+            
+        }
+
+        button.loginsignup{
+            margin-left:42%;
+            margin-top: 5%;
+            font-size: 200%;
+            border: none;
+
+        }
+        button.signupsignup{
+            font-size: 200%;
+            margin-right: 4%;
+        }
+        .inputs{
+            margin-top: 39px;
+           height: 60px;
+           width: 320px;
+          border-radius: 20px;
+        
+        }
+        #checkme{
+          width: 20px;
+          height: 20px;
+          display: inline-block;
+          margin-left: 5%;
+      
+      }
+      
+      
+      
+      
+      .willsubmit{
+          font-size: 240%;
+      }
+      
+      #keepme{
+          text-align: left;
+          font-size: 25px;
+          padding-left: 50px;
+      }
+      .logos3{
+      
+          width: 50px;
+          height: 50px;
+          
+      }
+      
+      .logos4{
+          width: 50px;
+          height: 50px;
+          
+      }
+      
+      .logos5{
+          width: 50px;
+          height: 50px;
+      
+      }
+      .base{
+        background-image: url("login1360.png");
+        background-size: 100% 100%;
+      background-repeat: no-repeat;
+      background-position: center;
+      height: 902px;
+    }
+      
+      
+      }
+      @media only screen and (min-width: 1521px) 
+    and (max-width: 1600px)
+      {
+    
+        #signingup
+        {
+    
+            margin-left: 38%;
+            margin-top: 9px;
+            height: 550px;
+            width: 450px;
+            opacity: 0.8;
+            
+            
+        }
+
+        button.loginsignup{
+            margin-left:45%;
+            margin-top: 5%;
+            font-size: 200%;
+            border: none;
+
+        }
+        button.signupsignup{
+            font-size: 200%;
+            margin-right: 4%;
+        }
+        .inputs{
+            margin-top: 39px;
+           height: 60px;
+           width: 320px;
+          border-radius: 20px;
+        
+        }
+        #checkme{
+          width: 20px;
+          height: 20px;
+          display: inline-block;
+          margin-left: 5%;
+      
+      }
+      
+      
+      
+      
+      .willsubmit{
+          font-size: 240%;
+      }
+      
+      #keepme{
+          text-align: left;
+          font-size: 25px;
+          padding-left: 50px;
+      }
+      .logos3{
+      
+          width: 50px;
+          height: 50px;
+          
+      }
+      
+      .logos4{
+          width: 50px;
+          height: 50px;
+          
+      }
+      
+      .logos5{
+          width: 50px;
+          height: 50px;
+      
+      }
+      .base{
+        background-image: url("login1360.png");
+        background-size: 100% 100%;
+      background-repeat: no-repeat;
+      background-position: center;
+      height: 900px;
+    }
+      
+      
+      }
+      @media only screen and (min-width: 1601px) 
+    and (max-width: 1680px)
+      {
+    
+        #signingup
+        {
+    
+            margin-left: 40%;
+            margin-top: 9px;
+            height: 550px;
+            width: 450px;
+            opacity: 0.8;
+            
+            
+        }
+
+        button.loginsignup{
+            margin-left: 45%;
+            margin-top: 8%;
+            font-size: 200%;
+            border: none;
+
+        }
+        button.signupsignup{
+            font-size: 200%;
+            margin-right: 4%;
+        }
+        .inputs{
+            margin-top: 39px;
+           height: 60px;
+           width: 320px;
+          border-radius: 20px;
+        
+        }
+        #checkme{
+          width: 20px;
+          height: 20px;
+          display: inline-block;
+          margin-left: 5%;
+      
+      }
+      
+      
+      
+      
+      .willsubmit{
+          font-size: 240%;
+      }
+      
+      #keepme{
+          text-align: left;
+          font-size: 25px;
+          padding-left: 50px;
+      }
+      .logos3{
+      
+          width: 50px;
+          height: 50px;
+          
+      }
+      
+      .logos4{
+          width: 50px;
+          height: 50px;
+          
+      }
+      
+      .logos5{
+          width: 50px;
+          height: 50px;
+      
+      }
+      .base{
+        background-image: url("login1360.png");
+        background-size: 100% 100%;
+      background-repeat: no-repeat;
+      background-position: center;
+      height: 1050px;
+    }
+      
+      
+      }
+      @media only screen and (min-width: 1680px) 
+      and (max-width: 1759px)
+        {
+      
+          #signingup
+          {
+      
+              margin-left: 40%;
+              margin-top: 9px;
+              height: 550px;
+              width: 450px;
+              opacity: 0.8;
+              
+              
+          }
+  
+          button.loginsignup{
+              margin-left:45%;
+              margin-top: 8%;
+              font-size: 200%;
+              border: none;
+  
+          }
+          button.signupsignup{
+              font-size: 200%;
+              margin-right: 4%;
+          }
+          .inputs{
+              margin-top: 39px;
+             height: 60px;
+             width: 320px;
+            border-radius: 20px;
+          
+          }
+          #checkme{
+            width: 20px;
+            height: 20px;
+            display: inline-block;
+            margin-left: 5%;
+        
+        }
+        
+        
+        
+        
+        .willsubmit{
+            font-size: 240%;
+        }
+        
+        #keepme{
+            text-align: left;
+            font-size: 25px;
+            padding-left: 50px;
+        }
+        .logos3{
+        
+            width: 50px;
+            height: 50px;
+            
+        }
+        
+        .logos4{
+            width: 50px;
+            height: 50px;
+            
+        }
+        
+        .logos5{
+            width: 50px;
+            height: 50px;
+        
+        }
+        .base{
+          background-image: url("login1360.png");
+          background-size: 100% 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 1050px;
+      }
+        
+        
+        }
+      @media only screen and (min-width: 1760px) 
+    and (max-width: 1840px)
+      {
+    
+        #signingup
+        {
+    
+            margin-left: 40%;
+            margin-top: 9px;
+            height: 550px;
+            width: 450px;
+            opacity: 0.8;
+            
+            
+        }
+
+        button.loginsignup{
+            margin-left:45%;
+            margin-top: 8%;
+            font-size: 200%;
+            border: none;
+
+        }
+        button.signupsignup{
+            font-size: 200%;
+            margin-right: 4%;
+        }
+        .inputs{
+            margin-top: 39px;
+           height: 60px;
+           width: 320px;
+          border-radius: 20px;
+        
+        }
+        #checkme{
+          width: 20px;
+          height: 20px;
+          display: inline-block;
+          margin-left: 5%;
+      
+      }
+      
+      
+      
+      
+      .willsubmit{
+          font-size: 240%;
+      }
+      
+      #keepme{
+          text-align: left;
+          font-size: 25px;
+          padding-left: 50px;
+      }
+      .logos3{
+      
+          width: 50px;
+          height: 50px;
+          
+      }
+      
+      .logos4{
+          width: 50px;
+          height: 50px;
+          
+      }
+      
+      .logos5{
+          width: 50px;
+          height: 50px;
+      
+      }
+      .base{
+        background-image: url("login1360.png");
+        background-size: 100% 100%;
+      background-repeat: no-repeat;
+      background-position: center;
+      height: 1050px;
+    }
+      
+      
+      }
+      @media only screen and (min-width: 1840px) 
+    and (max-width: 1920px)
+      {
+    
+        #signingup
+        {
+    
+            margin-left: 40%;
+            margin-top: 9px;
+            height: 550px;
+            width: 450px;
+            opacity: 0.8;
+            
+            
+        }
+
+        button.loginsignup{
+            margin-left:45%;
+            margin-top: 10%;
+            font-size: 200%;
+            border: none;
+
+        }
+        button.signupsignup{
+            font-size: 200%;
+            margin-right: 4%;
+        }
+        .inputs{
+            margin-top: 39px;
+           height: 60px;
+           width: 320px;
+          border-radius: 20px;
+        
+        }
+        #checkme{
+          width: 20px;
+          height: 20px;
+          display: inline-block;
+          margin-left: 5%;
+      
+      }
+      
+      
+      
+      
+      .willsubmit{
+          font-size: 240%;
+      }
+      
+      #keepme{
+          text-align: left;
+          font-size: 25px;
+          padding-left: 50px;
+      }
+      .logos3{
+      
+          width: 50px;
+          height: 50px;
+          
+      }
+      
+      .logos4{
+          width: 50px;
+          height: 50px;
+          
+      }
+      
+      .logos5{
+          width: 50px;
+          height: 50px;
+      
+      }
+      .base{
+        background-image: url("login1360.png");
+        background-size: 100% 100%;
+      background-repeat: no-repeat;
+      background-position: center;
+      height: 1200px;
+    }
+      
+      
+      }
+      @media only screen and (min-width: 1920px) 
+      and (max-width: 2000px)
+        {
+      
+          #signingup
+          {
+      
+              margin-left: 40%;
+              margin-top: 9px;
+              height: 550px;
+              width: 450px;
+              opacity: 0.8;
+              
+              
+          }
+  
+          button.loginsignup{
+              margin-left:45%;
+              margin-top: 11%;
+              font-size: 200%;
+              border: none;
+  
+          }
+          button.signupsignup{
+              font-size: 200%;
+              margin-right: 4%;
+          }
+          .inputs{
+              margin-top: 39px;
+             height: 60px;
+             width: 320px;
+            border-radius: 20px;
+          
+          }
+          #checkme{
+            width: 20px;
+            height: 20px;
+            display: inline-block;
+            margin-left: 5%;
+        
+        }
+        
+        
+        
+        
+        .willsubmit{
+            font-size: 240%;
+        }
+        
+        #keepme{
+            text-align: left;
+            font-size: 25px;
+            padding-left: 50px;
+        }
+        .logos3{
+        
+            width: 50px;
+            height: 50px;
+            
+        }
+        
+        .logos4{
+            width: 50px;
+            height: 50px;
+            
+        }
+        
+        .logos5{
+            width: 50px;
+            height: 50px;
+        
+        }
+        .base{
+            background-image: url("login1360.png");
+            background-size: 100% 100%;
+          background-repeat: no-repeat;
+          background-position: center;
+          height: 1200px;
+        }
+        
+        
+        
+      
+      }
