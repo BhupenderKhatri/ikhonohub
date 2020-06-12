@@ -1,0 +1,49 @@
+#new1{
+    color: black;
+    margin-left: 30px;
+    padding-top: 10px;
+}
+
+#new2{
+    margin-left: 30px;
+    padding-top: 10px;
+
+}
+#new3{
+    margin-left: 30px;
+    padding-top: 10px;
+
+}
+#new4{
+    margin-left: 30px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+#new5{
+    margin-left: 30px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+#new6{
+    margin-left: 30px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+#new7{
+    margin-left: 30px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+#new8{
+    margin-left: 0px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-weight: bolder;
+    color: blue;
+    font-size: 12px;
+}
+#btn{
+    margin-left: 30px;
+    margin-top: 20px;
+    background-color: orangered;
+}

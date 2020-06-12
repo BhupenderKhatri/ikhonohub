@@ -1,0 +1,15 @@
+#searchbar{
+    width :600px;
+    height: 25px ;
+    margin-top: 10%;
+   
+}
+#searchicon{
+    background-color: white;
+    height: 30px;
+    width : 30px;
+    margin-top: 100px;
+}
+#first{
+    width:200px ;
+}

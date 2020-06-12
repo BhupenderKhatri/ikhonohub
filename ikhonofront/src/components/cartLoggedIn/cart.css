@@ -1,0 +1,14 @@
+#cart{
+    margin: 0 auto;
+    
+  }
+  #tableHeader, #tabledata{
+    border: 1px solid gray;
+  width:100px;
+    padding:5px;
+  }
+  
+  .cart1 {
+    text-align: center;
+    color: white;
+  }
