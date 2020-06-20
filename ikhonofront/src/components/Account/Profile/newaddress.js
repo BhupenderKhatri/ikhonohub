@@ -68,7 +68,7 @@ class newaddress extends Component {
         console.log('form submit',this.state);
         axios.post('http://localhost:5000/users/addresschange',this.state,{headers: headers}).then(res => {
 
-             console.log('POST response', res);
+           
              history.push('/accountboard');
          })
         }

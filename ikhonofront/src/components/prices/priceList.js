@@ -1,9 +1,42 @@
-import React from 'react';
+import React,{Component} from 'react';
 import Prices from './prices';
-import {priceofcourse} from '../../course_price';
+import axios from 'axios';
 
 
-const PriceList = () => {
+class PriceList extends Component {
+
+  constructor(props){
+    super(props);
+    this.state={
+      priceofcourse:[]
+    }
+  }
+
+  componentDidMount(){
+    this.getItems();
+  }
+
+
+  getItems =()=>{
+    const headers = {
+      
+        "Content-Type": "application/json"
+    }
+    const id = { id :1234};
+   
+    axios.post('http://localhost:5000/cardinfodetail/priceofcourse',id,{headers: headers}).then(res => {
+          
+        const data = res.data;
+        this.setState({priceofcourse:data})
+        })
+                    
+   }
+
+
+  render(){
+
+    const { priceofcourse}=this.state;
+
   return (
     <div style={{display: "inline-block"}}>
         {
@@ -36,5 +69,5 @@ const PriceList = () => {
     
   );
 }
-
+}
 export default PriceList;

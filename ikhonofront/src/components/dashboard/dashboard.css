@@ -1,24 +1,27 @@
 .upperbutton {
     font-style: oblique;
     font-size: large;
-text-align: center ;
- height: 35px;
- width: 400px;
+    text-align: center;
+    height: 35px;
+    width: 400px;
 }
-#button2{
+
+
+#button2 {
     color: black;
     font-style: oblique;
     font-size: large;
-text-align: center ;
- height: 35px;
- width: 400px;
-}
-#buttonsalign{
-   padding-left: 300px;
-   padding-top: 120px;
+    text-align: center;
+    height: 35px;
+    width: 400px;
 }
 
-#dashboard-namebar{
+#buttonsalign {
+    padding-left: 300px;
+    padding-top: 120px;
+}
+
+#dashboard-namebar {
     display: flex;
     color: white;
     margin-top: 100px;
@@ -30,121 +33,186 @@ text-align: center ;
     font-size: 25px;
 }
 
-#dashboard-namebar-icon{
+#dashboard-namebar-icon {
     height: 60px;
     width: 60px;
 }
-#dashboard-namebar-name{
+
+#dashboard-namebar-name {
     margin-left: 20px;
 }
 
-#dashboard-streak{
+#dashboard-streak {
     margin-left: 900px;
     display: block;
 }
 
-#dashboard-badges{
+#dashboard-badges {
     margin-left: 70px;
 }
 
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    position: relative;
+}
+
+.nav {
+    width: 30vw;
+    border-width: 0 1px 1px 0;
+    border-style: solid;
+    border-color: #888;
+    position: absolute;
+    top: 0;
+    z-index: 999;
+    background-color: #fff;
+    left: -35vw;
+    -webkit-transition: left 0.3s ease-in;
+    -o-transition: left 0.3s ease-in;
+    transition: left 0.3s ease-in;
+}
+
+@media screen and ( max-width: 600px) {
+    .nav {
+        width: 50vw;
+        left: -55vw;
+    }
+}
+
+.close {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 15px 0 0;
+    font-size: 3rem;
+    font-weight: bold;
+    color: #AAA;
+    cursor: pointer;
+}
+
+.nav.show {
+    left: 0;
+}
+
+.menu-button {
+    position: relative;
+    z-index: 99;
+    font-size: 36px;
+    cursor: pointer;
+    padding: 10px 8px;
+}
+
+.menu-items {
+    padding: 0;
+    margin: 0;
+}
+
+.menu-list {
+    list-style: none;
+}
+
+.menu-link {
+    text-decoration: none;
+    color: #555;
+    display: flex;
+    padding: 16px 10px;
+    font-size: 24px;
+    border-bottom: 1px solid #555;
+}
+
 @media only screen and (min-width: 320px) and (max-width: 374px) {
-    .upperbutton {font-style: oblique;
+    .upperbutton {
+        font-style: oblique;
         font-size: large;
-    text-align: center ;
-     height: 25px;
-     width: 110px;
+        text-align: center;
+        height: 25px;
+        width: 110px;
     }
-    #button2{
-        
+    #button2 {
         font-size: large;
-    text-align: center ;
-     height: 25px;
-     width: 110px;
+        text-align: center;
+        height: 25px;
+        width: 110px;
     }
-    #buttonsalign{
-       padding-left: 300px;
-       padding-top: 120px;
-       margin-left: -255px;
+    #buttonsalign {
+        padding-left: 300px;
+        padding-top: 120px;
+        margin-left: -255px;
     }
-    
 }
 
 @media only screen and (min-width: 374px) and (max-width: 450px) {
     .upperbutton {
-    
-     height: 25px;
-     width: 120px;
+        height: 25px;
+        width: 120px;
     }
-    #button2{
-        
+    #button2 {
         font-size: large;
-    text-align: center ;
-     height: 25px;
-     width: 120px;
+        text-align: center;
+        height: 25px;
+        width: 120px;
     }
-    #buttonsalign{
-       padding-left: 300px;
-       padding-top: 120px;
-       margin-left: -235px;
+    #buttonsalign {
+        padding-left: 300px;
+        padding-top: 120px;
+        margin-left: -235px;
     }
 }
 
 @media only screen and (min-width: 450px) and (max-width: 550px) {
-    .upperbutton {font-style: oblique;
-    
+    .upperbutton {
+        font-style: oblique;
         height: 25px;
         width: 140px;
-       }
-       #button2{
-           
-           font-size: large;
-       text-align: center ;
+    }
+    #button2 {
+        font-size: large;
+        text-align: center;
         height: 25px;
         width: 140px;
-       }
-       #buttonsalign{
-          padding-left: 300px;
-          padding-top: 120px;
-          margin-left: -195px;
-       }
+    }
+    #buttonsalign {
+        padding-left: 300px;
+        padding-top: 120px;
+        margin-left: -195px;
+    }
 }
 
 @media only screen and (min-width: 551px) and (max-width: 617px) {
     .upperbutton {
-    
         height: 30px;
         width: 157px;
-       }
-       #button2{
-           
-           font-size: large;
-       text-align: center ;
+    }
+    #button2 {
+        font-size: large;
+        text-align: center;
         height: 30px;
         width: 157px;
-       }
-       #buttonsalign{
-          padding-left: 300px;
-          padding-top: 120px;
-          margin-left: -161px;
-       }
+    }
+    #buttonsalign {
+        padding-left: 300px;
+        padding-top: 120px;
+        margin-left: -161px;
+    }
 }
 
 @media only screen and (min-width: 618px) and (max-width: 700px) {
     .upperbutton {
-    
         height: 35px;
         width: 155px;
-       }
-       #button2{
-       text-align: center ;
+    }
+    #button2 {
+        text-align: center;
         height: 35px;
         width: 155px;
-       }
-       #buttonsalign{
-          padding-left: 300px;
-          padding-top: 120px;
-          margin-left: -140px;
-       }
+    }
+    #buttonsalign {
+        padding-left: 300px;
+        padding-top: 120px;
+        margin-left: -140px;
+    }
 }
 
 @media only screen and (min-width: 701px) and (max-width: 767px) {
@@ -152,19 +220,18 @@ text-align: center ;
         font-size: larger;
         height: 40px;
         width: 207px;
-       }
-       #button2{
-           
-           font-size: larger;
-       text-align: center ;
+    }
+    #button2 {
+        font-size: larger;
+        text-align: center;
         height: 40px;
         width: 207px;
-       }
-       #buttonsalign{
-          padding-left: 300px;
-          padding-top: 120px;
-          margin-left: -161px;
-       }
+    }
+    #buttonsalign {
+        padding-left: 300px;
+        padding-top: 120px;
+        margin-left: -161px;
+    }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 850px) {
@@ -172,19 +239,18 @@ text-align: center ;
         font-size: larger;
         height: 40px;
         width: 227px;
-       }
-       #button2{
-           
-           font-size: larger;
-       text-align: center ;
+    }
+    #button2 {
+        font-size: larger;
+        text-align: center;
         height: 40px;
         width: 227px;
-       }
-       #buttonsalign{
-          padding-left: 300px;
-          padding-top: 120px;
-          margin-left: -157px;
-       }
+    }
+    #buttonsalign {
+        padding-left: 300px;
+        padding-top: 120px;
+        margin-left: -157px;
+    }
 }
 
 @media only screen and (min-width: 851px) and (max-width: 909px) {
@@ -192,19 +258,18 @@ text-align: center ;
         font-size: larger;
         height: 45px;
         width: 257px;
-       }
-       #button2{
-           
-           font-size: larger;
-       text-align: center ;
+    }
+    #button2 {
+        font-size: larger;
+        text-align: center;
         height: 45px;
         width: 257px;
-       }
-       #buttonsalign{
-          padding-left: 300px;
-          padding-top: 120px;
-          margin-left: -127px;
-       }
+    }
+    #buttonsalign {
+        padding-left: 300px;
+        padding-top: 120px;
+        margin-left: -127px;
+    }
 }
 
 @media only screen and (min-width: 910px) and (max-width: 1023px) {
@@ -212,19 +277,18 @@ text-align: center ;
         font-size: larger;
         height: 45px;
         width: 300px;
-       }
-       #button2{
-           
-           font-size: larger;
-       text-align: center ;
+    }
+    #button2 {
+        font-size: larger;
+        text-align: center;
         height: 45px;
         width: 300px;
-       }
-       #buttonsalign{
-          padding-left: 300px;
-          padding-top: 120px;
-          margin-left: -127px;
-       }
+    }
+    #buttonsalign {
+        padding-left: 300px;
+        padding-top: 120px;
+        margin-left: -127px;
+    }
 }
 
 @media only screen and (min-width: 1024px) and (max-width: 1100px) {
@@ -232,19 +296,18 @@ text-align: center ;
         font-size: larger;
         height: 50px;
         width: 330px;
-       }
-       #button2{
-           
-           font-size: larger;
-       text-align: center ;
+    }
+    #button2 {
+        font-size: larger;
+        text-align: center;
         height: 50px;
         width: 330px;
-       }
-       #buttonsalign{
-          padding-left: 300px;
-          padding-top: 120px;
-          margin-left: -127px;
-       }
+    }
+    #buttonsalign {
+        padding-left: 300px;
+        padding-top: 120px;
+        margin-left: -127px;
+    }
 }
 
 @media only screen and (min-width: 1101px) and (max-width: 1200px) {
@@ -252,19 +315,18 @@ text-align: center ;
         font-size: larger;
         height: 50px;
         width: 360px;
-       }
-       #button2{
-           
-           font-size: larger;
-       text-align: center ;
+    }
+    #button2 {
+        font-size: larger;
+        text-align: center;
         height: 50px;
         width: 360px;
-       }
-       #buttonsalign{
-          padding-left: 300px;
-          padding-top: 120px;
-          margin-left: -127px;
-       }
+    }
+    #buttonsalign {
+        padding-left: 300px;
+        padding-top: 120px;
+        margin-left: -127px;
+    }
 }
 
 @media only screen and (min-width: 1201px) and (max-width: 1300px) {
@@ -272,19 +334,18 @@ text-align: center ;
         font-size: larger;
         height: 50px;
         width: 390px;
-       }
-       #button2{
-           
-           font-size: larger;
-       text-align: center ;
+    }
+    #button2 {
+        font-size: larger;
+        text-align: center;
         height: 50px;
         width: 390px;
-       }
-       #buttonsalign{
-          padding-left: 300px;
-          padding-top: 120px;
-          margin-left: -87px;
-       }
+    }
+    #buttonsalign {
+        padding-left: 300px;
+        padding-top: 120px;
+        margin-left: -87px;
+    }
 }
 
 @media only screen and (min-width: 1301px) and (max-width: 1360px) {
@@ -292,19 +353,18 @@ text-align: center ;
         font-size: larger;
         height: 50px;
         width: 390px;
-       }
-       #button2{
-           
-           font-size: larger;
-       text-align: center ;
+    }
+    #button2 {
+        font-size: larger;
+        text-align: center;
         height: 50px;
         width: 390px;
-       }
-       #buttonsalign{
-          padding-left: 300px;
-          padding-top: 120px;
-          margin-left: -47px;
-       }
+    }
+    #buttonsalign {
+        padding-left: 300px;
+        padding-top: 120px;
+        margin-left: -47px;
+    }
 }
 
 @media only screen and (min-width: 1361px) and (max-width: 1440px) {
@@ -312,19 +372,18 @@ text-align: center ;
         font-size: x-large;
         height: 55px;
         width: 420px;
-       }
-       #button2{
-           
-           font-size: x-large;
-       text-align: center ;
+    }
+    #button2 {
+        font-size: x-large;
+        text-align: center;
         height: 55px;
         width: 420px;
-       }
-       #buttonsalign{
-          padding-left: 300px;
-          padding-top: 120px;
-          margin-left: -47px;
-       }
+    }
+    #buttonsalign {
+        padding-left: 300px;
+        padding-top: 120px;
+        margin-left: -47px;
+    }
 }
 
 @media only screen and (min-width: 1441px) and (max-width: 1520px) {
@@ -332,19 +391,18 @@ text-align: center ;
         font-size: x-large;
         height: 55px;
         width: 420px;
-       }
-       #button2{
-           
-           font-size: x-large;
-       text-align: center ;
+    }
+    #button2 {
+        font-size: x-large;
+        text-align: center;
         height: 55px;
         width: 420px;
-       }
-       #buttonsalign{
-          padding-left: 300px;
-          padding-top: 120px;
-          margin-left: -27px;
-       }
+    }
+    #buttonsalign {
+        padding-left: 300px;
+        padding-top: 120px;
+        margin-left: -27px;
+    }
 }
 
 @media only screen and (min-width: 1521px) and (max-width: 1600px) {
@@ -352,19 +410,18 @@ text-align: center ;
         font-size: x-large;
         height: 55px;
         width: 430px;
-       }
-       #button2{
-           
-           font-size: x-large;
-       text-align: center ;
+    }
+    #button2 {
+        font-size: x-large;
+        text-align: center;
         height: 55px;
         width: 430px;
-       }
-       #buttonsalign{
-          padding-left: 300px;
-          padding-top: 120px;
-          margin-left: 9px;
-       }
+    }
+    #buttonsalign {
+        padding-left: 300px;
+        padding-top: 120px;
+        margin-left: 9px;
+    }
 }
 
 @media only screen and (min-width: 1601px) and (max-width: 1680px) {
@@ -372,19 +429,18 @@ text-align: center ;
         font-size: x-large;
         height: 55px;
         width: 460px;
-       }
-       #button2{
-           
-           font-size: x-large;
-       text-align: center ;
+    }
+    #button2 {
+        font-size: x-large;
+        text-align: center;
         height: 55px;
         width: 460px;
-       }
-       #buttonsalign{
-          padding-left: 300px;
-          padding-top: 120px;
-          margin-left: 24px;
-       }
+    }
+    #buttonsalign {
+        padding-left: 300px;
+        padding-top: 120px;
+        margin-left: 24px;
+    }
 }
 
 @media only screen and (min-width: 1680px) and (max-width: 1760px) {
@@ -392,19 +448,18 @@ text-align: center ;
         font-size: xx-large;
         height: 60px;
         width: 500px;
-       }
-       #button2{
-           
-           font-size: xx-large;
-       text-align: center ;
+    }
+    #button2 {
+        font-size: xx-large;
+        text-align: center;
         height: 60px;
         width: 500px;
-       }
-       #buttonsalign{
-          padding-left: 300px;
-          padding-top: 120px;
-          margin-left: 26px;
-       }
+    }
+    #buttonsalign {
+        padding-left: 300px;
+        padding-top: 120px;
+        margin-left: 26px;
+    }
 }
 
 @media only screen and (min-width: 1760px) and (max-width: 1840px) {
@@ -412,19 +467,18 @@ text-align: center ;
         font-size: xx-large;
         height: 60px;
         width: 500px;
-       }
-       #button2{
-           
-           font-size: xx-large;
-       text-align: center ;
+    }
+    #button2 {
+        font-size: xx-large;
+        text-align: center;
         height: 60px;
         width: 500px;
-       }
-       #buttonsalign{
-          padding-left: 300px;
-          padding-top: 120px;
-          margin-left: 65px;
-       }
+    }
+    #buttonsalign {
+        padding-left: 300px;
+        padding-top: 120px;
+        margin-left: 65px;
+    }
 }
 
 @media only screen and (min-width: 1840px) and (max-width: 1920px) {
@@ -432,19 +486,18 @@ text-align: center ;
         font-size: xx-large;
         height: 60px;
         width: 500px;
-       }
-       #button2{
-           
-           font-size: xx-large;
-       text-align: center ;
+    }
+    #button2 {
+        font-size: xx-large;
+        text-align: center;
         height: 60px;
         width: 500px;
-       }
-       #buttonsalign{
-          padding-left: 300px;
-          padding-top: 120px;
-          margin-left: 115px;
-       }
+    }
+    #buttonsalign {
+        padding-left: 300px;
+        padding-top: 120px;
+        margin-left: 115px;
+    }
 }
 
 @media only screen and (min-width: 1920px) and (max-width: 2000px) {
@@ -452,17 +505,16 @@ text-align: center ;
         font-size: xx-large;
         height: 65px;
         width: 550px;
-       }
-       #button2{
-           
-           font-size: xx-large;
-       text-align: center ;
+    }
+    #button2 {
+        font-size: xx-large;
+        text-align: center;
         height: 65px;
         width: 550px;
-       }
-       #buttonsalign{
-          padding-left: 300px;
-          padding-top: 120px;
-          margin-left: 115px;
-       }
+    }
+    #buttonsalign {
+        padding-left: 300px;
+        padding-top: 120px;
+        margin-left: 115px;
+    }
 }

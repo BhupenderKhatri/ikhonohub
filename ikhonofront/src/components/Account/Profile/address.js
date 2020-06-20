@@ -12,7 +12,6 @@ class addressinfo extends Component {
           };
     }
 
-
   componentDidMount(){
     this.getItems();
   }
@@ -46,7 +45,6 @@ class addressinfo extends Component {
     
   ));
   
-
 
     render(){
     return (

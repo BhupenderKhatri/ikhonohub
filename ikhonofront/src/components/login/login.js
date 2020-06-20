@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './login.css';
 import Facebook from './fb.png';
 import Twitter from './twit.png';
-import Google from './google.png' ;
+import Google from './sahivaligoogli.png' ;
 import Loginnav from '../loginnav/loginnav';
 import history from "./../../history";
 import axios from "axios";
@@ -85,16 +85,17 @@ class login extends Component {
       </div>
   
       
-                   <button class="loginsignup1" >Login</button>
-                   <a href="/signup"><button class="signupsignup1" >Signup</button> </a>
+                  
            
         <table id='loggingup'>
-
+          
+<tr> <a class="loginsignup1" href="/loginsignup1" >Login</a><span id="login_slogan_danda">/</span>
+                   <a href="/signup" class="signupsignup1" >Signup</a></tr>
                     <tr>
                          <td> {<input 
                          type= "email" 
                          placeholder="Enter Email "
-                          class ='input'
+                          class ='login_inputs'
                           onChange={this.onEmailloginchange}
                           ></input>}</td>
                     </tr>
@@ -102,49 +103,52 @@ class login extends Component {
                          <td> {<input 
                          type= "password"
                           placeholder="Enter Password "
-                           class="input"
+                           class="login_inputs"
                            onChange={this.onPasswordloginchange}
                            ></input>}</td>
                     </tr>
-                    <tr>
                     
-                         <td id='keepme'> 
-                              {<input type= "checkbox" class='input' id="checkme" ></input>}
-                              {<label> Keep me Logged in</label>}
-                         </td >
-                         </tr>
-                       
                        
 
-                    
                        <tr >
                          <td> 
-                         <button class="willsubmit" onClick={this.onSubmitlogin}>Login</button>
+                         <button class="login_willsubmit" onClick={this.onSubmitlogin}>Login</button>
                        </td>
                        </tr>
-                       
-               
 
-                     <tr id='line'>
-                         {<hr height='50px'></hr>}
-                     </tr>
-                     <tr class="logos">
+                       <tr>
+                         <td>
+                           <p id="login_forgot_password">Lost Your Password ? </p>
+                         </td>
+                       </tr>
+                       <tr>
+                    
+                         <td > 
+                              <p class='login_or'>OR</p>
+                         </td >
+                         </tr> 
+                       
+                     <tr class="login_logos">
                       {< a href="https://www.facebook.com/">  <img src= {Facebook}  alt="Error"></img> </a>}
                     </tr>
 
 
-                    <tr class="logos1">
+                    <tr class="login_logos1">
                       <a href="https://twitter.com/" >  {<img src= {Twitter}  alt="Error"></img>}</a>
                     </tr>
-                    <tr class="logos2" >
+                    <tr class="login_logos2" >
                      <a href="https://www.google.co.in/">{<img src= {Google}  alt="Error"></img>}</a> 
                     </tr>
          
          
-                
+                  
                     
   </table>  
-              
+  <div id="login_slogan">
+    <h2 id="login_slogan_heading">Where Aspiration Meets Preparation</h2>
+    <p id="login_slogan_para">Find your next opportunity, get that key introduction, even meet a co-founder. Someone in our thriving and supportive <strong><span class="login_spancolor">IKHONO HUB</span></strong> community is always online willing to lend a hand.</p>
+  </div>
+        
     </div>
   );
 

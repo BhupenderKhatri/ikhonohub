@@ -42,7 +42,8 @@ class Courses extends Component {
             heading={user.heading}
             data={user.data}
             name={user.name}
-            url={user.url}    
+            url={user.url}  
+            id={user.id}   
             />
    }
  

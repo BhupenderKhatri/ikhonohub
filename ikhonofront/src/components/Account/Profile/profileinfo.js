@@ -1,12 +1,15 @@
 import React , {Component} from 'react';
 import './profileinfo.css';
 import axios from 'axios';
+import history from '../../../history';
+import mukhda from './padukone.jpg';
 
 class profileinfo extends Component {
     constructor(props){
         super(props);
         this.state={
             users:[]
+
           };
     }
 
@@ -16,24 +19,26 @@ class profileinfo extends Component {
   }
 
   getItems =()=>{
-    
+
     const headers = {
-            
+
       "Content-Type": "application/json"
   }
-  const id = { id :1234};
+  let id = { id :50 };
  axios.post('http://localhost:5000/users/personalinfo',id,{headers: headers}).then(res => {
 
         const data =res.data;
+      
         this.setState({users:data})
+        console.log(data)
         })
 
   }
 
-  
+
 
   gendercheckmale =(gender) =>{
-      if(gender==='male'){
+      if(gender==='Male'){
         return(true)
       }
       else{
@@ -42,7 +47,7 @@ class profileinfo extends Component {
   }
 
   gendercheckfemale =(gender) =>{
-    if(gender==='female'){
+    if(gender==='Female'){
       return(true)
     }
     else{
@@ -56,31 +61,49 @@ class profileinfo extends Component {
   listItems = () =>
   this.state.users.map(user => (
     <div id='info1pro'>
-    <h2>Personal Details</h2>
+     <p id="personal_details_heading">Personal Details  </p>
+    
+     <br/>
+
+     <img id="personal_mukhda" src={mukhda} alt="no image" ></img><br></br>
+     {/* <button id="mukhda_edit" >Edit</button> */}
+     <div id="personal_nameinfo">
+     <p class="personal_paravaliclass">
+    Name  &nbsp;&nbsp;&nbsp; <a class="personal_request_change"  onClick={()=>history.push('/addprofile')}>Request to Change</a>
+    </p>
     <input class="perinputpro" type="text" name="title" value={user.name}/> 
 
-    {/* your gender */}
-   
-    <h2>Your Gender</h2>
-    <input  type="radio" value="male" checked={ this.gendercheckmale(user.gender)} />male
-    <input id="info2pro" type="radio" value="female" checked={ this.gendercheckfemale(user.gender)} />Female
+{/* your gender */}
+
+<p  class="personal_paravaliclass">Your Gender</p>
+<input  type="radio" class="info2pro" value="male" name="gender" checked={ this.gendercheckmale(user.gender)} /> Male&nbsp;&nbsp;    &nbsp;&nbsp;
+<input  type="radio"  class="info2pro" value="female" name="gender" checked={ this.gendercheckfemale(user.gender)} /> Female &nbsp;&nbsp;   &nbsp;&nbsp;
 
 
-         
-     {/* email Details        */}
-    
-    <h2>Email Address</h2>
-    <input class="perinput1pro" refs="email" type="text" size="30" placeholder="Email" value={user.email}/>
-          
-   {/* Mobile Details */}
-       
-        <h2>Mobile Number</h2>
-        <input class="perinputpro" refs="phone" type="text" size="30" placeholder="Phone" value={user.mobilenumber}/>
+     
+ {/* email Details        */}
+
+<p  class="personal_paravaliclass">Email Address  &nbsp;&nbsp;&nbsp;
+ {/* <a class="personal_request_change1" href="">Change Password</a> */}
+</p>
+<input type="text" class="perinput1pro" refs="email" type="text" size="30" placeholder="Email" value={user.email}/>
+      
+{/* Mobile Details */}
    
+    <p  class="personal_paravaliclass">Mobile Number &nbsp;&nbsp;&nbsp;
+     {/* <a class="personal_request_change2" href="">Edit</a> */}
+    </p>
+    <input type="text" class="perinputpro" refs="phone" type="text" size="30" placeholder="Phone" value={user.mobile}/>
+
+    <p  class="personal_paravaliclass">Address  &nbsp;&nbsp;&nbsp;
+     {/* <a class="personal_request_change3" href="">Edit</a> */}
+    </p>
+    <input type="text"  class="perinputpro" type="text" size="30" placeholder="Address" value={user.address}/>
+
 </div>
-    
-  ));
-  
+</div>
+));
+
 
 
 
@@ -88,13 +111,13 @@ class profileinfo extends Component {
 
 render(){
        return (
-        
+
         <div >
-        
+
         <div className="container">{this.listItems()}</div>
-            
+
 </div>
-        
+
     );
 }
 }

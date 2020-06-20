@@ -3,37 +3,38 @@ import ComingSoon from './comingsoon.png';
 import './card.css';
 
 import history from './../../history';
+import axios from 'axios';
+ 
 
 class card extends Component {
- /*
-  constructor(){
-            super(); 
-            this.state={
-             name :"React",
-            showHideDemo1:false,
-                  };
-          this.hideComponent=this.hideComponent.bind(this);
 
-       }
+  addItems(props){
+                                 
 
-  hideComponent(){           
-     this.setState({showHideDemo1: true }  );   
+    const headers = {
+        
+      "Content-Type": "application/json"
+                }
+  const id = { id :this.props.id};
+  axios.post('http://localhost:5000/cartcardadd',id,{headers: headers});
+  
+  
   }
-*/
+
  render()
    {    
   /*   const{showHideDemo1}=this.state; */
     return (
-      <div className='tc bg-light-gray br3 pa3 ma2 dib bw2 shadow-5' id='card'>
+      <div className='tc bg-light-green br4 pa2 ma2 dib  shadow-5' id='card1'>
 
-          <div id='img_commingsoon'>
-              <img alt="courseimage" src={ComingSoon}/>
-              <hr/>
+          <div >
+              <img id='card_img_commingsoon' alt="courseimage" src={ComingSoon}/>
+              
           </div>
           <div>
             <h2 id='heading'>{this.props.heading}</h2>
-            <p id="card_data">{this.props.data}</p>
-            <p className='name'>Name : {this.props.name}</p>
+           {/* <p id="card_data">{this.props.data}</p>  */}
+            <p className='name'>By : {this.props.name}</p>
             <br/>
           </div>
               
@@ -41,7 +42,7 @@ class card extends Component {
               <div className='place'>
            
               <button className='details' onClick={()=>history.push('/carddetails')} >Course Detail</button>
-              <button id='preview' >Add to Cart</button>
+              <button id='preview' onClick={()=>this.addItems()}>Add to Cart</button>
 
 
  

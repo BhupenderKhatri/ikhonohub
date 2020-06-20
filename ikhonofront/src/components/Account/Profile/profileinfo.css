@@ -1,208 +1,1520 @@
+#personal_mukhda{
+    width: 130px;
+    margin-top: -10px;
+    margin-left: 24px;
+    filter: brightness(100%);
+    height: 130px;
+    border-radius: 80px;
+}
+
+
+#personal_details_heading{
+    font-size: 26px;
+    filter: brightness(200%);
+    margin-top: -5px;
+    color: yellow;
+}
+.personal_paravaliclass{
+    font-size: 17px;
+cursor: default;
+}
+
+#personal_nameinfo{
+    margin-left: 205px;
+    margin-top: -154px;
+}
+.personal_request_change{
+    color: yellow;
+    margin-left: 57px;
+    text-decoration: none;
+    cursor: pointer;
+}
 
 #info1pro{
 width: 700px;
-height: 470px;
-background: transparent linear-gradient(123deg, #FF3800BD 0%, #EBDC124D 100%) 0% 0% no-repeat padding-box;
-border-radius: 15px;
-box-sizing: inherit;
-margin-top: 50px;
-margin-left:150px;
+height: 600px;
+background: transparent linear-gradient(126deg, #2D2D2D 0%, #151314 100%) 0% 0% no-repeat padding-box;
+border-bottom: 12px solid orangered;
+border-radius: 9px;
+margin-top: -10px;
+margin-left:250px;
 padding-left: 30px;
-margin-bottom: 10px;
-padding-top: 1px;
 opacity: 1;
 color:white;
+box-shadow: 3px 4px 10px #000000;
+
 }
 .perinputpro{
 
-width: 250px;
-height: 50px;
+width: 280px;
+height: 40px;
 background: #FFFFFF 0% 0% no-repeat padding-box;
 border: 1px solid #707070;
-border-radius: 11px;
+border-radius: 8px;
 padding-left: 20px;
 
 }
+
+.perinputpro:active{
+   
+     transform: scale(0.98); 
+     box-shadow: 3px 2px 22px 1px #535151d8; 
+ }
+ 
+ 
+ .perinputpro:focus {outline:0;}
+ 
+ .perinput1pro:active{
+   
+    transform: scale(0.98); 
+    box-shadow: 3px 2px 22px 1px #535151d8; 
+}
+
+ .perinput1pro:focus {outline:0;}
 .perinput1pro{
     width: 380px;
 height: 50px;
 background: #FFFFFF 0% 0% no-repeat padding-box;
 border: 1px solid #707070;
-border-radius: 11px;
+border-radius: 8px;
 padding-left: 20px;
 }
-#info2pro{
-   
-    
-    margin-left: 15px;
-}
-@media only screen and (min-width:320px) 
-and (max-width:374px){
-    #info1pro{
-        margin-top: 35px;
-        margin-left:8px;
-        margin-bottom: 680px;
-        }       
-}
-@media only screen and (min-width: 374px) 
-and (max-width: 450px){
-    
-    #info1pro{       
-        margin-top: 30px;
-        margin-left:8px; 
-        margin-bottom: 680px;   
-    }  
-}
-@media only screen and (min-width: 450px) 
-and (max-width: 550px){
-    #info1pro{       
-        margin-top: 30px;
-        margin-left:8px;
-        margin-bottom: 680px;      
-    }   
-}
-@media only screen and (min-width:551px) 
-and (max-width:617px){
-    #info1pro{       
-        margin-top: 30px;
-        margin-left:8px; 
-        margin-bottom: 680px;     
-    }
-}
-@media only screen and (min-width: 618px) 
-and (max-width: 700px) {
-    #info1pro{       
-        margin-top: 30px;
-        margin-left:8px;  
-        margin-bottom: 680px;    
-    }
-}
-@media only screen and (min-width: 701px) 
-and (max-width: 767px) {
-    #info1pro{       
-        margin-top: 30px;
-        margin-left:8px;
-        margin-bottom: 680px;      
-    }  
+.info2pro{
+    cursor: pointer;
 }
 
-@media only screen and (min-width:768px) 
-and (max-width:850px){
-    #info1pro{       
-        margin-top: 30px;
-        margin-left:28px;
-        margin-bottom: 680px;      
+@media only screen and (min-width: 320px) 
+and (max-width: 359px) 
+  {
+    #personal_mukhda{
+        width: 60px;
+        height: 60px;
+        margin-top: -35px;
+        margin-left: 60px;
+     
     }
+    
+    #personal_details_heading{
+        font-size: 20px;
+        margin-top: -5px;
+        margin-left: -10px;
+        
+    }
+    .personal_paravaliclass{
+        font-size: 12px;
+    }
+    
+    #personal_nameinfo{
+        margin-left: 20px;
+        margin-top: -10px;
+    }
+    .personal_request_change{
+        margin-left: 1px;
+    }
+    
+    #info1pro{
+    width: 250px;
+    height:480px;
+    margin-top: -10px;
+    margin-left:-18px;
+    padding-left: 25px;
+    border-bottom: 7px solid orangered;
+    }
+    .perinputpro{
+    
+    width: 160px;
+    height: 30px;
+    padding-left: 10px;
+    
+    }
+    .perinput1pro{
+     width: 160px;
+     height: 30px;
+     padding-left: 10px;
+    }
+   
 }
-@media only screen and (min-width: 851px) 
-and (max-width: 909px) {
-    #info1pro{       
-        margin-top: 30px;
-        margin-left:28px; 
-        margin-bottom: 680px;     
-    } 
-}
-@media only screen and (min-width: 910px) 
-and (max-width: 1023px) {
-    #info1pro{       
-        margin-top: 30px;
-        margin-left:48px; 
-        margin-bottom: 680px;     
-    } 
-}
-@media only screen and (min-width: 1024px) 
-and (max-width: 1100px){
-    #info1pro{       
-        margin-top: 40px;
-        margin-left:60px; 
-        margin-bottom: 680px;     
-    }
-}
-@media only screen and (min-width: 1101px) 
-    and (max-width: 1200px){
-        #info1pro{       
-            margin-top: 40px;
-            margin-left:80px; 
-            margin-bottom: 680px;    
-        }   
-    }
-@media only screen and (min-width: 1201px) 
-    and (max-width: 1300px){
-        #info1pro{       
-            margin-top: 50px;
-            margin-left:95px; 
-            margin-bottom: 680px;    
-        }   
-    }
-    @media only screen and (min-width: 1301px) 
-    and (max-width: 1360px){
-    #info1pro{       
-        margin-top: 50px;
-        margin-left:150px; 
-        margin-bottom: 650px;      
-    }    
-    }
-    @media only screen and (min-width: 1361px) 
-    and (max-width: 1440px)
+
+  @media only screen and (min-width: 360px) 
+  and (max-width: 374px) 
     {
-        #info1pro{       
-            margin-top: 60px;
-            margin-left:150px; 
-            margin-bottom: 650px;      
-        }  
+        
+        #personal_mukhda{
+            width: 60px;
+            height: 60px;
+            margin-top: -35px;
+            margin-left: 60px;
+         
+        }
+        
+        #personal_details_heading{
+            font-size: 20px;
+            margin-top: -5px;
+            margin-left: -10px;
+            
+        }
+        .personal_paravaliclass{
+            font-size: 12px;
+        }
+        
+        #personal_nameinfo{
+            margin-left: 20px;
+            margin-top: -10px;
+        }
+        .personal_request_change{
+            margin-left: 1px;
+        }
+        
+        #info1pro{
+        width: 250px;
+        height:480px;
+        margin-top: -10px;
+        margin-left:-13px;
+        padding-left: 25px;
+        border-bottom: 7px solid orangered;
+        }
+        .perinputpro{
+        
+        width: 160px;
+        height: 30px;
+        padding-left: 10px;
+        
+        }
+        .perinput1pro{
+         width: 160px;
+         height: 30px;
+         padding-left: 10px;
+        }
+       
+      
+  }
+
+  @media only screen and (min-width: 375px) 
+  and (max-width: 411px) 
+    {
+       
+        #personal_mukhda{
+            width: 65px;
+            height: 65px;
+            margin-top: -35px;
+            margin-left: 60px;
+         
+        }
+        
+        #personal_details_heading{
+            font-size: 20px;
+            margin-top: -5px;
+            margin-left: -10px;
+            
+        }
+        .personal_paravaliclass{
+            font-size: 13px;
+        }
+        
+        #personal_nameinfo{
+            margin-left: 0px;
+            margin-top: -10px;
+        }
+        .personal_request_change{
+            margin-left: 30px;
+        }
+        
+        #info1pro{
+        width: 250px;
+        height:520px;
+        margin-top: -10px;
+        margin-left:-3px;
+        padding-left: 25px;
+        border-bottom: 7px solid orangered;
+        }
+        .perinputpro{
+        
+        width: 200px;
+        height: 35px;
+        padding-left: 10px;
+        
+        }
+        .perinput1pro{
+         width: 200px;
+         height: 35px;
+         padding-left: 10px;
+        }
+       
+    
     }
-    @media only screen and (min-width: 1441px) and (max-width: 1520px) {
-        #info1pro{       
+
+
+    @media only screen and (min-width: 412px) 
+    and (max-width: 413px) 
+      {
+     
+      
+        #personal_mukhda{
+            width: 65px;
+            height: 65px;
+            margin-top: -35px;
+            margin-left: 60px;
+         
+        }
+        
+        #personal_details_heading{
+            font-size: 20px;
+            margin-top: -5px;
+            margin-left: -10px;
+            
+        }
+        .personal_paravaliclass{
+            font-size: 13px;
+        }
+        
+        #personal_nameinfo{
+            margin-left: 0px;
+            margin-top: -10px;
+        }
+        .personal_request_change{
+            margin-left: 30px;
+        }
+        
+        #info1pro{
+        width: 250px;
+        height:530px;
+        margin-top: -10px;
+        margin-left:-3px;
+        padding-left: 25px;
+        border-bottom: 9px solid orangered;
+        }
+        .perinputpro{
+        
+        width: 200px;
+        height: 35px;
+        padding-left: 10px;
+        
+        }
+        .perinput1pro{
+         width: 200px;
+         height: 35px;
+         padding-left: 10px;
+        }
+      
+      }
+
+      
+    @media only screen and (min-width: 414px) 
+    and (max-width: 449px) 
+      {
           
-            margin-left:150px; 
-            margin-bottom: 650px;    
+        #personal_mukhda{
+            width: 65px;
+            height: 65px;
+            margin-top: -35px;
+            margin-left: 60px;
+         
         }
-    }
-    
-    @media only screen and (min-width: 1521px) and (max-width: 1600px) {
-        #info1pro{       
-           
-            margin-left:150px;  
-            margin-bottom: 650px;    
-        }
-    }
-    
-    @media only screen and (min-width: 1601px) and (max-width: 1680px) {
-        #info1pro{       
+        
+        #personal_details_heading{
+            font-size: 22px;
+            margin-top: -5px;
+            margin-left: -10px;
             
-            margin-left:150px; 
-            margin-bottom: 650px;    
         }
+        .personal_paravaliclass{
+            font-size: 14px;
+        }
+        
+        #personal_nameinfo{
+            margin-left: 0px;
+            margin-top: -10px;
+        }
+        .personal_request_change{
+            margin-left: 36px;
+        }
+        
+        #info1pro{
+        width: 270px;
+        height:555px;
+        margin-top: -10px;
+        margin-left:-3px;
+        padding-left: 25px;
+        border-bottom: 11px solid orangered;
+        }
+        .perinputpro{
+        
+        width: 220px;
+        height: 35px;
+        padding-left: 10px;
+        
+        }
+        .perinput1pro{
+         width: 220px;
+         height: 35px;
+         padding-left: 10px;
+        }
+      
+      }
+
+  @media only screen and (min-width: 450px) 
+and (max-width: 550px) 
+  {
+ 
+    #personal_mukhda{
+        width: 80px;
+        height: 80px;
+        margin-top: -35px;
+        margin-left: 90px;
+     
     }
     
-    @media only screen and (min-width: 1680px) and (max-width: 1760px) {
-        #info1pro{       
+    #personal_details_heading{
+        font-size: 25px;
+        margin-top: -5px;
+        margin-left: -10px;
+        
+    }
+    .personal_paravaliclass{
+        font-size: 17px;
+    }
+    
+    #personal_nameinfo{
+        margin-left: 5px;
+        margin-top: -10px;
+    }
+    .personal_request_change{
+        margin-left: 36px;
+    }
+    
+    #info1pro{
+    width: 330px;
+    height:670px;
+    margin-top: -10px;
+    margin-left:25px;
+    padding-left: 25px;
+    border-bottom: 12px solid orangered;
+    }
+    .perinputpro{
+    
+    width: 250px;
+    height: 40px;
+    padding-left: 10px;
+    
+    }
+    .perinput1pro{
+     width: 220px;
+     height: 40px;
+     padding-left: 10px;
+    }
+}
+    
+   
+  
+  @media only screen and (min-width: 551px) 
+and (max-width: 599px) 
+  {
+    #personal_mukhda{
+        width: 90px;
+        height: 90px;
+        margin-top: -35px;
+        margin-left: 90px;
+     
+    }
+    
+    #personal_details_heading{
+        font-size: 25px;
+        margin-top: -5px;
+        margin-left: -10px;
+        
+    }
+    .personal_paravaliclass{
+        font-size: 17px;
+    }
+    
+    #personal_nameinfo{
+        margin-left: 5px;
+        margin-top: -10px;
+    }
+    .personal_request_change{
+        margin-left: 36px;
+    }
+    
+    #info1pro{
+    width: 330px;
+    height:670px;
+    margin-top: -10px;
+    margin-left:25px;
+    padding-left: 25px;
+    border-bottom: 12px solid orangered;
+    }
+    .perinputpro{
+    
+    width: 250px;
+    height: 40px;
+    padding-left: 10px;
+    
+    }
+    .perinput1pro{
+     width: 250px;
+     height: 40px;
+     padding-left: 10px;
+    }
+    input[type=radio].info2pro {
+        
+        width: 18px;
+        height: 18px;
+    }
+   .radio_vala_gender{
+       font-size: 17px;
+   }
+    
+  }
+
+  @media only screen and (min-width: 600px) 
+and (max-width: 616px) 
+  {
+
+    #personal_mukhda{
+        width: 90px;
+        height: 90px;
+        margin-top: -35px;
+        margin-left: 120px;
+     
+    }
+    
+    #personal_details_heading{
+        font-size: 28px;
+        margin-top: -5px;
+        margin-left: -10px;
+        
+    }
+    .personal_paravaliclass{
+        font-size: 20px;
+    }
+    
+    #personal_nameinfo{
+        margin-left: 15px;
+        margin-top: -10px;
+    }
+    .personal_request_change{
+        margin-left: 50px;
+    }
+    
+    #info1pro{
+    width: 400px;
+    height:740px;
+    margin-top: -10px;
+    margin-left:25px;
+    padding-left: 25px;
+    border-bottom: 12px solid orangered;
+    }
+    .perinputpro{
+    
+    width: 305px;
+    height: 42px;
+    padding-left: 10px;
+    
+    }
+    .perinput1pro{
+     width: 305px;
+     height: 42px;
+     padding-left: 10px;
+    }
+    input[type=radio].info2pro {
+        
+        width: 19px;
+        height: 19px;
+    }
+   .radio_vala_gender{
+       font-size: 19px;
+   }
+    
+  }
+
+  @media only screen and (min-width: 618px) 
+and (max-width: 700px) 
+{
+    
+   
+
+    #personal_mukhda{
+        width: 90px;
+        height: 90px;
+        margin-top: -35px;
+        margin-left: 120px;
+     
+    }
+    
+    #personal_details_heading{
+        font-size: 28px;
+        margin-top: -5px;
+        margin-left: -10px;
+        
+    }
+    .personal_paravaliclass{
+        font-size: 20px;
+    }
+    
+    #personal_nameinfo{
+        margin-left: 15px;
+        margin-top: -10px;
+    }
+    .personal_request_change{
+        margin-left: 50px;
+    }
+    
+    #info1pro{
+    width: 400px;
+    height:740px;
+    margin-top: -10px;
+    margin-left:65px;
+    padding-left: 25px;
+    border-bottom: 12px solid orangered;
+    }
+    .perinputpro{
+    
+    width: 305px;
+    height: 42px;
+    padding-left: 10px;
+    
+    }
+    .perinput1pro{
+     width: 305px;
+     height: 42px;
+     padding-left: 10px;
+    }
+    input[type=radio].info2pro {
+        
+        width: 19px;
+        height: 19px;
+    }
+   .radio_vala_gender{
+       font-size: 19px;
+   }
+}
+
+@media only screen and (min-width: 701px) 
+and (max-width: 767px) 
+  {#personal_mukhda{
+    width: 130px;
+    margin-top: -10px;
+    margin-left: 14px;
+    filter: brightness(100%);
+    height: 130px;
+    border-radius: 80px;
+}
+
+
+#personal_details_heading{
+    font-size: 26px;
+    margin-top: -5px;
+ 
+}
+.personal_paravaliclass{
+    font-size: 17px;
+}
+
+#personal_nameinfo{
+    margin-left: 190px;
+    margin-top: -154px;
+}
+.personal_request_change{
+   
+    margin-left: 117px;
+    
+}
+
+#info1pro{
+width: 600px;
+height: 600px;
+border-radius: 9px;
+margin-top: -10px;
+margin-left:5px;
+padding-left: 30px;
+
+}
+.perinputpro{
+
+width: 340px;
+height: 40px;
+padding-left: 20px;
+
+}
+.perinput1pro{
+width: 340px;
+height: 50px;
+padding-left: 20px;
+}
+
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 799px) 
+{
+      
+    #personal_mukhda{
+        width: 130px;
+        margin-top: -10px;
+        margin-left: 14px;
+        filter: brightness(100%);
+        height: 130px;
+        border-radius: 80px;
+    }
+    
+    
+    #personal_details_heading{
+        font-size: 26px;
+        margin-top: -5px;
+     
+    }
+    .personal_paravaliclass{
+        font-size: 17px;
+    }
+    
+    #personal_nameinfo{
+        margin-left: 190px;
+        margin-top: -154px;
+    }
+    .personal_request_change{
+       
+        margin-left: 117px;
+        
+    }
+    
+    #info1pro{
+    width: 600px;
+    height: 600px;
+    border-radius: 9px;
+    margin-top: -10px;
+    margin-left:25px;
+    padding-left: 30px;
+    
+    }
+    .perinputpro{
+    
+    width: 340px;
+    height: 40px;
+    padding-left: 20px;
+    
+    }
+    .perinput1pro{
+    width: 340px;
+    height: 50px;
+    padding-left: 20px;
+    }
+   
+}
+
+
+@media only screen and (min-width: 800px) and (max-width: 850px) 
+{
+    #personal_mukhda{
+        width: 130px;
+        margin-top: -10px;
+        margin-left: 24px;
+        height: 130px;
+       
+    }
+    
+    
+    #personal_details_heading{
+      
+        margin-top: -5px;
+       
+    }
+    .personal_paravaliclass{
+        font-size: 17px;
+    }
+    
+    #personal_nameinfo{
+        margin-left: 205px;
+        margin-top: -154px;
+    }
+    .personal_request_change{
+        margin-left: 57px;
+    
+    }
+    
+    #info1pro{
+    width: 700px;
+    height: 600px;
+    margin-top: -10px;
+    margin-left:4px;
+    padding-left: 30px;
+    
+    }
+    .perinputpro{
+    
+    width: 280px;
+    height: 40px;
+    padding-left: 20px;
+    
+    }
+    .perinput1pro{
+        width: 380px;
+    height: 50px;
+    padding-left: 20px;
+    }
+}
+    
+
+
+    @media only screen and (min-width: 851px) and (max-width: 909px)
+     {
+   
+        #personal_mukhda{
+            width: 130px;
+            margin-top: -10px;
+            margin-left: 24px;
+            height: 130px;
            
-            margin-left:150px; 
-            margin-bottom: 650px;    
         }
-    }
-    
-    @media only screen and (min-width: 1760px) and (max-width: 1840px) {
-        #info1pro{       
-            
-            margin-left:150px; 
-            margin-bottom: 650px;    
-        }
-    }
-    
-    @media only screen and (min-width: 1840px) and (max-width: 1920px) {
-        #info1pro{       
+        
+        
+        #personal_details_heading{
+          
+            margin-top: -5px;
            
-            margin-left:150px; 
-            margin-bottom: 650px;    
         }
+        .personal_paravaliclass{
+            font-size: 17px;
+        }
+        
+        #personal_nameinfo{
+            margin-left: 205px;
+            margin-top: -154px;
+        }
+        .personal_request_change{
+            margin-left: 57px;
+        
+        }
+        
+        #info1pro{
+        width: 700px;
+        height: 600px;
+        margin-top: -10px;
+        margin-left:26px;
+        padding-left: 30px;
+        
+        }
+        .perinputpro{
+        
+        width: 280px;
+        height: 40px;
+        padding-left: 20px;
+        
+        }
+        .perinput1pro{
+            width: 380px;
+        height: 50px;
+        padding-left: 20px;
+        }
+    
+      
+ } @media only screen and (min-width: 910px) and (max-width: 1023px) {
+
+    
+    #personal_mukhda{
+        width: 130px;
+        margin-top: -10px;
+        margin-left: 24px;
+        height: 130px;
+       
     }
     
-    @media only screen and (min-width: 1920px) and (max-width: 2000px) {
-        #info1pro{       
-           
-            margin-left:150px;  
-            margin-bottom: 650px;    
-        }
+    
+    #personal_details_heading{
+      
+        margin-top: -5px;
+       
     }
+    .personal_paravaliclass{
+        font-size: 17px;
+    }
+    
+    #personal_nameinfo{
+        margin-left: 205px;
+        margin-top: -154px;
+    }
+    .personal_request_change{
+        margin-left: 57px;
+    
+    }
+    
+    #info1pro{
+    width: 700px;
+    height: 600px;
+    margin-top: -10px;
+    margin-left:54px;
+    padding-left: 30px;
+    
+    }
+    .perinputpro{
+    
+    width: 280px;
+    height: 40px;
+    padding-left: 20px;
+    
+    }
+    .perinput1pro{
+        width: 380px;
+    height: 50px;
+    padding-left: 20px;
+    }
+      
+
+}
+
+
+@media only screen and (min-width: 1024px) and (max-width: 1100px) {
+
+    #personal_mukhda{
+        width: 130px;
+        margin-top: -10px;
+        margin-left: 24px;
+        height: 130px;
+       
+    }
+    
+    
+    #personal_details_heading{
+      
+        margin-top: -5px;
+       
+    }
+    .personal_paravaliclass{
+        font-size: 17px;
+    }
+    
+    #personal_nameinfo{
+        margin-left: 205px;
+        margin-top: -154px;
+    }
+    .personal_request_change{
+        margin-left: 57px;
+    
+    }
+    
+    #info1pro{
+    width: 700px;
+    height: 600px;
+    margin-top: 20px;
+    margin-left:94px;
+    padding-left: 30px;
+    
+    }
+    .perinputpro{
+    
+    width: 280px;
+    height: 40px;
+    padding-left: 20px;
+    
+    }
+    .perinput1pro{
+        width: 380px;
+    height: 50px;
+    padding-left: 20px;
+    }
+}
+
+
+@media only screen and (min-width: 1101px) and (max-width: 1200px) {
+
+   
+    #personal_mukhda{
+        width: 130px;
+        margin-top: -10px;
+        margin-left: 24px;
+        height: 130px;
+       
+    }
+    
+    
+    #personal_details_heading{
+      
+        margin-top: -5px;
+       
+    }
+    .personal_paravaliclass{
+        font-size: 17px;
+    }
+    
+    #personal_nameinfo{
+        margin-left: 205px;
+        margin-top: -154px;
+    }
+    .personal_request_change{
+        margin-left: 57px;
+    
+    }
+    
+    #info1pro{
+    width: 700px;
+    height: 600px;
+    margin-top: 30px;
+    margin-left:154px;
+    padding-left: 30px;
+    
+    }
+    .perinputpro{
+    
+    width: 280px;
+    height: 40px;
+    padding-left: 20px;
+    
+    }
+    .perinput1pro{
+        width: 380px;
+    height: 50px;
+    padding-left: 20px;
+    }
+}
+
+
+@media only screen and (min-width: 1201px) and (max-width: 1300px) {
+   
+    #personal_mukhda{
+        width: 130px;
+        margin-top: -10px;
+        margin-left: 24px;
+        height: 130px;
+       
+    }
+    
+    
+    #personal_details_heading{
+      
+        margin-top: -5px;
+       
+    }
+    .personal_paravaliclass{
+        font-size: 17px;
+    }
+    
+    #personal_nameinfo{
+        margin-left: 205px;
+        margin-top: -154px;
+    }
+    .personal_request_change{
+        margin-left: 57px;
+    
+    }
+    
+    #info1pro{
+    width: 700px;
+    height: 600px;
+    margin-top: 30px;
+    margin-left:204px;
+    padding-left: 30px;
+    
+    }
+    .perinputpro{
+    
+    width: 280px;
+    height: 40px;
+    padding-left: 20px;
+    
+    }
+    .perinput1pro{
+        width: 380px;
+    height: 50px;
+    padding-left: 20px;
+    }
+}
+
+
+@media only screen and (min-width: 1301px) 
+and (max-width: 1359px)
+  {
+
+    #personal_mukhda{
+        width: 130px;
+        margin-top: -10px;
+        margin-left: 24px;
+        height: 130px;
+       
+    }
+    
+    
+    #personal_details_heading{
+      
+        margin-top: -5px;
+       
+    }
+    .personal_paravaliclass{
+        font-size: 17px;
+    }
+    
+    #personal_nameinfo{
+        margin-left: 205px;
+        margin-top: -154px;
+    }
+    .personal_request_change{
+        margin-left: 57px;
+    
+    }
+    
+    #info1pro{
+    width: 700px;
+    height: 600px;
+    margin-top: 30px;
+    margin-left:234px;
+    padding-left: 30px;
+    
+    }
+    .perinputpro{
+    
+    width: 280px;
+    height: 40px;
+    padding-left: 20px;
+    
+    }
+    .perinput1pro{
+        width: 380px;
+    height: 50px;
+    padding-left: 20px;
+    }
+   
+}
+
+@media only screen and (min-width: 1360px) and (max-width: 1439px)
+ {
+
+
+    
+    #personal_mukhda{
+        width: 130px;
+        margin-top: -10px;
+        margin-left: 24px;
+        height: 130px;
+       
+    }
+    
+    
+    #personal_details_heading{
+      
+        margin-top: -5px;
+       
+    }
+    .personal_paravaliclass{
+        font-size: 17px;
+    }
+    
+    #personal_nameinfo{
+        margin-left: 205px;
+        margin-top: -154px;
+    }
+    .personal_request_change{
+        margin-left: 57px;
+    
+    }
+    
+    #info1pro{
+    width: 700px;
+    height: 600px;
+    margin-top: 30px;
+    margin-left:234px;
+    padding-left: 30px;
+    
+    }
+    .perinputpro{
+    
+    width: 280px;
+    height: 40px;
+    padding-left: 20px;
+    
+    }
+    .perinput1pro{
+        width: 380px;
+    height: 50px;
+    padding-left: 20px;
+    }
+   
+}
+
+  @media only screen and (min-width: 1440px) 
+and (max-width: 1520px)
+  {
+
+    
+    #personal_mukhda{
+        width: 130px;
+        margin-top: -10px;
+        margin-left: 24px;
+        height: 130px;
+       
+    }
+    
+    
+    #personal_details_heading{
+      
+        margin-top: -5px;
+       
+    }
+    .personal_paravaliclass{
+        font-size: 17px;
+    }
+    
+    #personal_nameinfo{
+        margin-left: 205px;
+        margin-top: -154px;
+    }
+    .personal_request_change{
+        margin-left: 57px;
+    
+    }
+    
+    #info1pro{
+    width: 700px;
+    height: 600px;
+    margin-top: 30px;
+    margin-left:274px;
+    padding-left: 30px;
+    
+    }
+    .perinputpro{
+    
+    width: 280px;
+    height: 40px;
+    padding-left: 20px;
+    
+    }
+    .perinput1pro{
+        width: 380px;
+    height: 50px;
+    padding-left: 20px;
+    }
+   
+  
+  
+  }
+  @media only screen and (min-width: 1521px) 
+and (max-width: 1599px)
+  {
+
+   
+    #personal_mukhda{
+        width: 130px;
+        margin-top: -10px;
+        margin-left: 24px;
+        height: 130px;
+       
+    }
+    
+    
+    #personal_details_heading{
+      
+        margin-top: -5px;
+       
+    }
+    .personal_paravaliclass{
+        font-size: 17px;
+    }
+    
+    #personal_nameinfo{
+        margin-left: 205px;
+        margin-top: -154px;
+    }
+    .personal_request_change{
+        margin-left: 57px;
+    
+    }
+    
+    #info1pro{
+    width: 700px;
+    height: 600px;
+    margin-top: 30px;
+    margin-left:334px;
+    padding-left: 30px;
+    
+    }
+    .perinputpro{
+    
+    width: 280px;
+    height: 40px;
+    padding-left: 20px;
+    
+    }
+    .perinput1pro{
+        width: 380px;
+    height: 50px;
+    padding-left: 20px;
+    }
+   
+  
+  
+   
+  
+  }
+  @media only screen and (min-width: 1600px) 
+and (max-width: 1680px)
+  {
+
+   
+    #personal_mukhda{
+        width: 130px;
+        margin-top: -10px;
+        margin-left: 24px;
+        height: 130px;
+       
+    }
+    
+    
+    #personal_details_heading{
+      
+        margin-top: -5px;
+       
+    }
+    .personal_paravaliclass{
+        font-size: 17px;
+    }
+    
+    #personal_nameinfo{
+        margin-left: 205px;
+        margin-top: -154px;
+    }
+    .personal_request_change{
+        margin-left: 57px;
+    
+    }
+    
+    #info1pro{
+    width: 700px;
+    height: 600px;
+    margin-top: 30px;
+    margin-left:334px;
+    padding-left: 30px;
+    
+    }
+    .perinputpro{
+    
+    width: 280px;
+    height: 40px;
+    padding-left: 20px;
+    
+    }
+    .perinput1pro{
+        width: 380px;
+    height: 50px;
+    padding-left: 20px;
+    }
+   
+   
+  
+  }
+  @media only screen and (min-width: 1680px) 
+  and (max-width: 1760px)
+    {
+  
+     
+        #personal_mukhda{
+            width: 130px;
+            margin-top: -10px;
+            margin-left: 24px;
+            height: 130px;
+           
+        }
+        
+        
+        #personal_details_heading{
+          
+            margin-top: -5px;
+           
+        }
+        .personal_paravaliclass{
+            font-size: 17px;
+        }
+        
+        #personal_nameinfo{
+            margin-left: 205px;
+            margin-top: -154px;
+        }
+        .personal_request_change{
+            margin-left: 57px;
+        
+        }
+        
+        #info1pro{
+        width: 700px;
+        height: 600px;
+        margin-top: 30px;
+        margin-left:384px;
+        padding-left: 30px;
+        
+        }
+        .perinputpro{
+        
+        width: 280px;
+        height: 40px;
+        padding-left: 20px;
+        
+        }
+        .perinput1pro{
+            width: 380px;
+        height: 50px;
+        padding-left: 20px;
+        }
+       
+    
+    }
+  @media only screen and (min-width: 1759px) 
+and (max-width: 1840px)
+  {
+
+    
+    #personal_mukhda{
+        width: 130px;
+        margin-top: -10px;
+        margin-left: 24px;
+        height: 130px;
+       
+    }
+    
+    
+    #personal_details_heading{
+      
+        margin-top: -5px;
+       
+    }
+    .personal_paravaliclass{
+        font-size: 17px;
+    }
+    
+    #personal_nameinfo{
+        margin-left: 205px;
+        margin-top: -154px;
+    }
+    .personal_request_change{
+        margin-left: 57px;
+    
+    }
+    
+    #info1pro{
+    width: 700px;
+    height: 600px;
+    margin-top: 30px;
+    margin-left:424px;
+    padding-left: 30px;
+    
+    }
+    .perinputpro{
+    
+    width: 280px;
+    height: 40px;
+    padding-left: 20px;
+    
+    }
+    .perinput1pro{
+        width: 380px;
+    height: 50px;
+    padding-left: 20px;
+    }
+    
+  
+      
+  }
+  @media only screen and (min-width: 1841px) 
+and (max-width: 1919px)
+  {
+
+    #personal_mukhda{
+        width: 130px;
+        margin-top: -10px;
+        margin-left: 24px;
+        height: 130px;
+       
+    }
+    
+    
+    #personal_details_heading{
+      
+        margin-top: -5px;
+       
+    }
+    .personal_paravaliclass{
+        font-size: 17px;
+    }
+    
+    #personal_nameinfo{
+        margin-left: 205px;
+        margin-top: -154px;
+    }
+    .personal_request_change{
+        margin-left: 57px;
+    
+    }
+    
+    #info1pro{
+    width: 700px;
+    height: 600px;
+    margin-top: 30px;
+    margin-left:454px;
+    padding-left: 30px;
+    
+    }
+    .perinputpro{
+    
+    width: 280px;
+    height: 40px;
+    padding-left: 20px;
+    
+    }
+    .perinput1pro{
+        width: 380px;
+    height: 50px;
+    padding-left: 20px;
+    }
+
+  
+  }
+  @media only screen and (min-width: 1920px) 
+  and (max-width: 2000px)
+    {
+  
+
+    
+        #personal_mukhda{
+            width: 130px;
+            margin-top: -10px;
+            margin-left: 24px;
+            height: 130px;
+           
+        }
+        
+        
+        #personal_details_heading{
+          
+            margin-top: -5px;
+           
+        }
+        .personal_paravaliclass{
+            font-size: 17px;
+        }
+        
+        #personal_nameinfo{
+            margin-left: 205px;
+            margin-top: -154px;
+        }
+        .personal_request_change{
+            margin-left: 57px;
+        
+        }
+        
+        #info1pro{
+        width: 700px;
+        height: 600px;
+        margin-top: 30px;
+        margin-left:504px;
+        padding-left: 30px;
+        
+        }
+        .perinputpro{
+        
+        width: 280px;
+        height: 40px;
+        padding-left: 20px;
+        
+        }
+        .perinput1pro{
+        width: 380px;
+        height: 50px;
+        padding-left: 20px;
+        }
+    
+  } 

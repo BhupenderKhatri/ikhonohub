@@ -1,1363 +1,1207 @@
-#card{
-    color: black;
-    margin-left: 45px;
-    width: 350px;
-    height: 500px;
-}
-
-#card_data{
-
-    overflow: hidden;
-    display: -webkit-box;
-    -webkit-line-clamp: 2;
-    -webkit-box-orient: vertical;  
-          
-}
-
-.player-wrapper{
-    display: -webkit-box;
-    height: 5%;
-    width: 5%;
-
-}
-#heading{
-    margin-left: -95px;
-    margin-top: 0px;
-    top: 1235px;
-font: 95 Black 20px/30px Avenir LT Std;
-letter-spacing: 0px;
-color: #000000;
-opacity: 1;
-}
-
-
-.name{
-    margin-top: 120px;
-    margin-left: 0px;
-    text-align: left;
-    font: Roman 17px/30px Avenir;
-    letter-spacing: 0px;
-    color: #000000BD;
+#mycourses_card {
+    display: flex;
+    width: 408px;
+    height:128px;
+    background: transparent linear-gradient(107deg, #2D2D2D 0%, #151314 100%) 0% 0% no-repeat padding-box;
+    box-shadow: 3px 2px 6px #00000029;
     opacity: 1;
+    color: white;
+    margin-left: 102px;
+    margin-top: 40px;
+    border-bottom: 2px solid orangered;
 }
 
-
-
-
-
-.details{
-
-text-align: center;
-left: 472px;
-width: 150px;
-height: 33px;
-border: 2px solid #FF3300;
-border-radius: 9px;
-margin-right: 9px;
-align-content: right;
-margin-left: 0px;
-color:black;
-text-align: center;
-
+.container_mycourse {
+    display: flex;
+    flex-wrap: wrap;
 }
 
+#mycourses_image_coming {
+    width: 125px;
+    color: white;
+    
+}
+
+#mycourses_bar {
+    height: 52px;
+    width: 52px;
+    margin-top: 27px;
+    margin-left: 20px;
+}
+
+#mycourses_contentsecond {
+    display: flex;
+}
+
+#mycourses_start {
+   
+    font-size: 16px;
+    color: #FFDB00;
+    opacity: 1;
+    margin-left: 104px;
+    margin-top: 55px;
+}
+
+#mycourses_coursename {
+    margin-left: 19px;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+@media only screen and (min-width: 320px) 
+and (max-width: 359px) 
+  {
+    
+    #mycourses_card {
+        display: flex;
+        width: 247px;
+        height:80px;
+        background: transparent linear-gradient(107deg, #2D2D2D 0%, #151314 100%) 0% 0% no-repeat padding-box;
+        box-shadow: 3px 2px 6px #00000029;
+        opacity: 1;
+        color: white;
+        margin-left: -16px;
+        margin-top: 33px;
+        border-bottom: 2px solid orangered;
+    }
+    
+    .container_mycourse {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    #mycourses_image_coming {
+        width: 77px;
+        
+        
+        
+    }
+    
+    #mycourses_bar {
+        height: 28px;
+        width: 28px;
+        margin-top: 12px;
+        margin-left: 18px;
+    }
+    
+    #mycourses_contentsecond {
+        display: flex;
+    }
+    
+    #mycourses_start {
+       
+        font-size: 12px;
+        color: #FFDB00;
+        opacity: 1;
+        margin-left: 27px;
+        margin-top: 19px;
+    }
+    
+    #mycourses_coursename {
+        margin-left: 19px;
+        font-size: 14px;
+        margin-top: 10px;
+    }
+  }
+
+  @media only screen and (min-width: 360px) 
+  and (max-width: 374px) 
+    {
+        #mycourses_card {
+            display: flex;
+            width: 247px;
+            height:80px;
+            margin-left: -5px;
+            margin-top: 33px;
+        }
+        
+        .container_mycourse {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        
+        #mycourses_image_coming {
+            width: 77px;
+            
+            
+            
+        }
+        
+        #mycourses_bar {
+            height: 28px;
+            width: 28px;
+            margin-top: 12px;
+            margin-left: 18px;
+        }
+        
+        #mycourses_contentsecond {
+            display: flex;
+        }
+        
+        #mycourses_start {
+           
+            font-size: 12px;
+            color: #FFDB00;
+            opacity: 1;
+            margin-left: 27px;
+            margin-top: 19px;
+        }
+        
+        #mycourses_coursename {
+            margin-left: 19px;
+            font-size: 14px;
+            margin-top: 10px;
+        }
+      
+  }
+
+  @media only screen and (min-width: 375px) 
+  and (max-width: 411px) 
+    {
+       
+        #mycourses_card {
+            display: flex;
+            width: 247px;
+            height:80px;
+            margin-left: 6px;
+            margin-top: 33px;
+        }
+        
+        .container_mycourse {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        
+        #mycourses_image_coming {
+            width: 77px;
+            
+            
+            
+        }
+        
+        #mycourses_bar {
+            height: 29px;
+            width: 29px;
+            margin-top: 12px;
+            margin-left: 20px;
+        }
+        
+        #mycourses_contentsecond {
+            display: flex;
+        }
+        
+        #mycourses_start {
+           
+            font-size: 13px;
+            color: #FFDB00;
+            opacity: 1;
+            margin-left: 26px;
+            margin-top: 19px;
+        }
+        
+        #mycourses_coursename {
+            margin-left: 19px;
+            font-size: 15px;
+            margin-top: 10px;
+        }
+      
+       
+        
+    }
+    
+
+    @media only screen and (min-width: 412px) 
+    and (max-width: 413px) 
+      {
+        
+        #mycourses_card {
+            display: flex;
+            width: 267px;
+            height:90px;
+            margin-left: 6px;
+            margin-top: 33px;
+        }
+        
+        .container_mycourse {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        
+        #mycourses_image_coming {
+            width: 86px;
+            
+            
+            
+        }
+        
+        #mycourses_bar {
+            height: 29px;
+            width: 29px;
+            margin-top: 12px;
+            margin-left: 20px;
+        }
+        
+        #mycourses_contentsecond {
+            display: flex;
+        }
+        
+        #mycourses_start {
+           
+            font-size: 13px;
+            color: #FFDB00;
+            opacity: 1;
+            margin-left: 26px;
+            margin-top: 19px;
+        }
+        
+        #mycourses_coursename {
+            margin-left: 19px;
+            font-size: 15px;
+            margin-top: 10px;
+        }
+      
+}
+@media only screen and (min-width: 414px) 
+and (max-width: 449px) 
+  {
 
 
-#preview{
+    #mycourses_card {
+        display: flex;
+        width: 267px;
+        height:90px;
+        margin-left: 18px;
+        margin-top: 33px;
+    }
+    
+    .container_mycourse {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    #mycourses_image_coming {
+        width: 86px;
+        
+        
+        
+    }
+    
+    #mycourses_bar {
+        height: 29px;
+        width: 29px;
+        margin-top: 12px;
+        margin-left: 20px;
+    }
+    
+    #mycourses_contentsecond {
+        display: flex;
+    }
+    
+    #mycourses_start {
+       
+        font-size: 13px;
+        color: #FFDB00;
+        opacity: 1;
+        margin-left: 27px;
+        margin-top: 19px;
+    }
+    
+    #mycourses_coursename {
+        margin-left: 19px;
+        font-size: 15px;
+        margin-top: 10px;
+    }
+  }
+   
+
+  @media only screen and (min-width: 450px) 
+and (max-width: 550px) 
+  {
+
+
+    #mycourses_card {
+        display: flex;
+        width: 297px;
+        height:100px;
+        margin-left: 38px;
+        margin-top: 33px;
+    }
+    
+    .container_mycourse {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    #mycourses_image_coming {
+        width: 96px;
+        
+        
+        
+    }
+    
+    #mycourses_bar {
+        height: 32px;
+        width: 32px;
+        margin-top: 16px;
+        margin-left: 25px;
+    }
+    
+    #mycourses_contentsecond {
+        display: flex;
+    }
+    
+    #mycourses_start {
+       
+        font-size: 14px;
+        color: #FFDB00;
+        opacity: 1;
+        margin-left: 26px;
+        margin-top: 22px;
+    }
+    
+    #mycourses_coursename {
+        margin-left: 25px;
+        font-size: 16px;
+        margin-top: 10px;
+    }
+  }
   
-    top: 1557px;
-    left: 472px;
-    width: 150px;
-    height: 33px;
-    background: #FF3300 0% 0% no-repeat padding-box;
-    border-radius: 9px;
-    opacity: 1;
-    border-style: none;
-    text-align: center;
-    color:white; 
-    margin-right: 0px;
-    margin-left: 9px; 
-     
-}
+  @media only screen and (min-width: 551px) 
+and (max-width: 599px) 
+  {
 
-.place{
-    margin-top: -15px;
+  
+    #mycourses_card {
+        display: flex;
+        width: 350px;
+        height:120px;
+        margin-left: 55px;
+        margin-top: 33px;
+    }
+    
+    .container_mycourse {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    #mycourses_image_coming {
+        width: 116px;
         
-}
-.details:hover{
-    background-color: #FF3300;
-    color:white;
-    
-}
-#preview:hover{
-    background-color: #EA330C;
- } 
-
-
-
- @media only screen and (min-width: 320px) 
- and (max-width: 374px) 
-   {
-     
-    #card{
-        color: black;
-        margin-left: 45px;
-        width: 250px;
-        height: 400px;
-    }
-
-    #heading{
-        margin-left: -75px;
-        margin-top: 0px;
-        top: 1235px;
-        font-size: 20px;
+        
+        
     }
     
-   
-    
-    .name{
-        margin-top: 60px;
-        margin-left: 10px;
-        text-align: left;
+    #mycourses_bar {
+        height: 40px;
+        width: 40px;
+        margin-top: 22px;
+        margin-left: 20px;
     }
     
+    #mycourses_contentsecond {
+        display: flex;
+    }
     
-    
-    
-    .details{
-    
+    #mycourses_start {
        
-        left: 472px;
-        width: 150px;
-        height: 33px;
-        
-        }
-        
-    
-    
-    
-    #preview{
-      
-        margin-top: 15px;
-        width: 150px;
-        height: 33px;
-        text-align: center;
-        margin-right: 0px;
-        margin-left: -10px; 
-         
+        font-size: 18px;
+        color: #FFDB00;
+        opacity: 1;
+        margin-left: 44px;
+        margin-top: 34px;
     }
     
-    .place{
-        margin-top: -15px;
-            
+    #mycourses_coursename {
+        margin-left: 19px;
+        font-size: 22px;
+        margin-top: 10px;
     }
-   }
+    
+  }
 
-   @media only screen and (min-width: 374px) 
- and (max-width: 450px) 
-   {
-    #card{
-        color: black;
-        margin-left: 16%;
-        width: 250px;
-        height: 400px;
-    }
+  @media only screen and (min-width: 600px) 
+  and (max-width: 616px) 
+    {
 
-    #heading{
-        margin-left: -75px;
-        margin-top: 0px;
-        top: 1235px;
-        font-size: 20px;
+        
+    #mycourses_card {
+        display: flex;
+        width: 350px;
+        height:120px;
+        margin-left: 55px;
+        margin-top: 33px;
     }
     
-   
-    
-    .name{
-        margin-top: 60px;
-        margin-left: 10px;
-        text-align: left;
+    .container_mycourse {
+        display: flex;
+        flex-wrap: wrap;
     }
     
+    #mycourses_image_coming {
+        width: 116px;
+        
+        
+        
+    }
     
+    #mycourses_bar {
+        height: 40px;
+        width: 40px;
+        margin-top: 22px;
+        margin-left: 20px;
+    }
     
+    #mycourses_contentsecond {
+        display: flex;
+    }
     
-    .details{
-    
+    #mycourses_start {
        
-        left: 472px;
-        width: 150px;
-        height: 33px;
-        
-        }
-        
-    
-    
-    
-    #preview{
-      
-        margin-top: 15px;
-        width: 150px;
-        height: 33px;
-        text-align: center;
-        margin-right: 0px;
-        margin-left: -10px; 
-         
+        font-size: 18px;
+        color: #FFDB00;
+        opacity: 1;
+        margin-left: 38px;
+        margin-top: 34px;
     }
     
-    .place{
-        margin-top: -15px;
-            
-    }
-   }
-
-   @media only screen and (min-width: 450px) 
- and (max-width: 550px) 
-   {
-    #card{
-        color: black;
-        margin-left: 21.5%;
-        width: 280px;
-        height: 420px;
+    #mycourses_coursename {
+        margin-left: 19px;
+        font-size: 22px;
+        margin-top: 10px;
     }
 
-    #heading{
-        margin-left: -97px;
-        margin-top: 0px;
-        top: 1235px;
-        font-size: 20px;
     }
-    
-   
-    
-    .name{
-        margin-top: 60px;
-        margin-left: 10px;
-        text-align: left;
-    }
-    
-    
-    
-    
-    .details{
-    
-       
-        left: 472px;
-        width: 150px;
-        height: 33px;
-        
-        }
-        
-    
-    
-    
-    #preview{
-      
-        margin-top: 15px;
-        width: 150px;
-        height: 33px;
-        text-align: center;
-        margin-right: 0px;
-        margin-left: -10px; 
-         
-    }
-    
-    .place{
-        margin-top: -15px;
-            
-    }
-   
-   }
-   @media only screen and (min-width: 551px) 
- and (max-width: 617px) 
-   {
-    #card{
-        color: black;
-        margin-left: 22.5%;
-        width: 320px;
-        height: 435px;
-    }
-
-    #heading{
-        margin-left: -117px;
-        margin-top: 0px;
-        top: 1235px;
-        font-size: 20px;
-    }
-    
-   
-    
-    .name{
-        margin-top: 60px;
-        margin-left: 10px;
-        text-align: left;
-    }
-    
-    
-    
-    
-    .details{
-    
-       
-        left: 472px;
-        width: 150px;
-        height: 33px;
-        
-        }
-        
-    
-    
-    
-    #preview{
-      
-        margin-top: 15px;
-        width: 150px;
-        height: 33px;
-        text-align: center;
-        margin-right: 0px;
-        margin-left: -10px; 
-         
-    }
-    
-    .place{
-        margin-top: -15px;
-            
-    }
-   
-   }
-
-   @media only screen and (min-width: 618px) 
+  @media only screen and (min-width: 618px) 
 and (max-width: 700px) 
 {
-
-    #card{
-        color: black;
-        margin-left: 22%;
-        width: 360px;
-        height: 435px;
+    
+    #mycourses_card {
+        display: flex;
+        width: 370px;
+        height:120px;
+        margin-left: 55px;
+        margin-top: 33px;
     }
+    
+    .container_mycourse {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    #mycourses_image_coming {
+        width: 116px;
+        
+        
+        
+    }
+    
+    #mycourses_bar {
+        height: 40px;
+        width: 40px;
+        margin-top: 22px;
+        margin-left: 20px;
+    }
+    
+    #mycourses_contentsecond {
+        display: flex;
+    }
+    
+    #mycourses_start {
+       
+        font-size: 18px;
+        color: #FFDB00;
+        opacity: 1;
+        margin-left: 48px;
+        margin-top: 34px;
+    }
+    
+    #mycourses_coursename {
+        margin-left: 19px;
+        font-size: 22px;
+        margin-top: 10px;
+    }
+    
+}
 
-    #heading{
-        margin-left: -117px;
-        margin-top: 0px;
-        top: 1235px;
-        font-size: 20px;
+@media only screen and (min-width: 701px) 
+and (max-width: 767px) 
+  {
+    
+    #mycourses_card {
+        width: 408px;
+        height:128px;
+        margin-left: 72px;
+        margin-top: 40px;
+        
     }
     
    
     
-    .name{
-        margin-top: 60px;
-        margin-left: 10px;
-        text-align: left;
+    #mycourses_image_coming {
+        width: 125px;  
+        
     }
     
-    
-    
-    
-    .details{
-        width: 150px;
-        height: 33px;
-        
-        }
-        
-    
-    #preview{
-      
-        margin-top: 15px;
-        width: 150px;
-        height: 33px;
-        text-align: center;
-        margin-right: 0px;
-        margin-left: 5px; 
-         
-    }
-    
-    .place{
-        margin-top: -15px;
-            
+    #mycourses_bar {
+        height: 52px;
+        width: 52px;
+        margin-top: 27px;
+        margin-left: 20px;
     }
  
- }
-
- @media only screen and (min-width: 701px) 
- and (max-width: 767px) 
-   {
-    #card{
-        color: black;
-        margin-left: 3%;
-        width: 335px;
-        height: 455px;
-    }
-
-    #heading{
-        margin-left: -117px;
-        margin-top: 0px;
-        top: 1235px;
-        font-size: 20px;
+    #mycourses_start {
+       
+        margin-left: 104px;
+        margin-top: 55px;
     }
     
-   
-    
-    .name{
-        margin-top: 60px;
-        margin-left: 10px;
-        text-align: left;
-    }
-    
-    
-    
-    
-    .details{
-        width: 130px;
-        height: 33px;
-        
-        }
-        
-    
-    #preview{
-      
-        margin-top: 15px;
-        width: 130px;
-        height: 33px;
-        text-align: center;
-        margin-right: 0px;
-        margin-left: 5px; 
-         
-    }
-    
-    .place{
-        margin-top: -15px;
-            
-    }
-}
-
-@media only screen and (min-width: 768px) 
- and (max-width: 850px) 
-   {
-    #card{
-        color: black;
-        margin-left: 5%;
-        width: 335px;
-        height: 465px;
-    }
-
-    #heading{
-        margin-left: -117px;
+    #mycourses_coursename {
+        margin-left: 19px;
+        font-size: 16px;
         margin-top: 10px;
-        top: 1235px;
-        font-size: 20px;
     }
-    
-   
-    
-    .name{
-        margin-top: 70px;
-        margin-left: 20px;
-        text-align: left;
-    }
-    
-    
-    
-    
-    .details{
-        width: 130px;
-        height: 33px;
-        
-        }
-        
-    
-    #preview{
-      
-        margin-top: 15px;
-        width: 130px;
-        height: 33px;
-        text-align: center;
-        margin-right: 0px;
-        margin-left: 5px; 
-         
-    }
-    
-    .place{
-        margin-top: -15px;
-            
-    }
-   }
-   @media only screen and (min-width: 851px) 
-   and (max-width: 909px) 
-     {
-        #card{
-            color: black;
-            margin-left: 6%;
-            width: 345px;
-            height: 475px;
-        }
-    
-        #heading{
-            margin-left: -117px;
-            margin-top: 10px;
-            top: 1235px;
-            font-size: 20px;
-        }
-        
-       
-        
-        .name{
-            margin-top: 70px;
-            margin-left: 20px;
-            text-align: left;
-        }
-        
-        
-        
-        
-        .details{
-            width: 130px;
-            height: 33px;
-            
-            }
-            
-        
-        #preview{
-          
-            margin-top: 25px;
-            width: 130px;
-            height: 33px;
-            text-align: center;
-            margin-right: 0px;
-            margin-left: 5px; 
-             
-        }
-        
-        .place{
-            margin-top: -15px;
-                
-        }
-     }
-     @media only screen and (min-width: 910px) 
-     and (max-width: 1023px) 
-       {
-        
-        #card{
-            color: black;
-            margin-left: 7%;
-            width: 365px;
-            height: 505px;
-            margin-bottom: 40px;
-        }
-    
-        #heading{
-            margin-left: -117px;
-            margin-top: 10px;
-            top: 1235px;
-            font-size: 30px;
-        }
-        #card_data{
-            font-size: 20px;
-        }
-        
-       
-        
-        .name{
-            margin-top: 70px;
-            margin-left: 30px;
-            text-align: left;
-            font-size: 20px;
-        }
-        
-        
-        
-        
-        .details{
-            width: 140px;
-            height: 43px;
-            font-size: 18px;
-            
-            }
-            
-        
-        #preview{
-          
-            margin-top: 25px;
-            width: 140px;
-            font-size: 18px;
-            height: 43px;
-            text-align: center;
-            margin-right: 0px;
-            margin-left: 5px; 
-             
-        }
-        
-        .place{
-            margin-top: -15px;
-                
-        }
-       }
-  
-   @media only screen and (min-width: 1024px) 
-   and (max-width: 1100px)
-     {
-      
-        #card{
-            color: black;
-            margin-left: 8%;
-            margin-right: -5px;
-            width: 395px;
-            height: 525px;
-            margin-bottom: 50px;
-        }
-    
-        #heading{
-            margin-left: -117px;
-            margin-top: 10px;
-            top: 1235px;
-            font-size: 30px;
-        }
-        #card_data{
-            font-size: 20px;
-        }
-        
-       
-        
-        .name{
-            margin-top: 70px;
-            margin-left: 30px;
-            text-align: left;
-            font-size: 20px;
-        }
-        
-        
-        
-        
-        .details{
-            width: 155px;
-            height: 43px;
-            font-size: 20px;
-            
-            }
-            
-        
-        #preview{
-          
-            margin-top: 30px;
-            width: 155px;
-            font-size: 20px;
-            height: 43px;
-            text-align: center;
-            margin-right: 0px;
-            margin-left: 5px; 
-             
-        }
-        
-        .place{
-            margin-top: -15px;
-                
-        }
-     }
-     @media only screen and (min-width: 1101px) 
-     and (max-width: 1200px)
-       {
-        
-        #card{
-            color: black;
-            margin-left: 9%;
-            margin-right: -15px;
-            width: 415px;
-            height: 545px;
-            margin-bottom: 50px;
-        }
-    
-        #heading{
-            margin-left: -167px;
-            margin-top: 10px;
-            top: 1235px;
-            font-size: 30px;
-        }
-        #card_data{
-            font-size: 20px;
-        }
-        
-       
-        
-        .name{
-            margin-top: 70px;
-            margin-left: 30px;
-            text-align: left;
-            font-size: 20px;
-        }
-        
-        
-        
-        
-        .details{
-            width: 155px;
-            height: 43px;
-            font-size: 20px;
-            
-            }
-            
-        
-        #preview{
-          
-            margin-top: 30px;
-            width: 155px;
-            font-size: 20px;
-            height: 43px;
-            text-align: center;
-            margin-right: 0px;
-            margin-left: 5px; 
-             
-        }
-        
-        .place{
-            margin-top: -15px;
-                
-        }
-       
-       }
-       @media only screen and (min-width: 1201px) 
-     and (max-width: 1300px)
-       {
-        
-        
-        
-            #card{
-                color: black;
-                margin-left: 9%;
-                margin-right: -15px;
-                width: 415px;
-                height: 545px;
-                margin-bottom: 50px;
-            }
-        
-            #heading{
-                margin-left: -167px;
-                margin-top: 10px;
-                top: 1235px;
-                font-size: 30px;
-            }
-            #card_data{
-                font-size: 20px;
-            }
-            
-           
-            
-            .name{
-                margin-top: 70px;
-                margin-left: 30px;
-                text-align: left;
-                font-size: 20px;
-            }
-            
-            
-            
-            
-            .details{
-                width: 155px;
-                height: 43px;
-                font-size: 20px;
-                
-                }
-                
-            
-            #preview{
-              
-                margin-top: 30px;
-                width: 155px;
-                font-size: 20px;
-                height: 43px;
-                text-align: center;
-                margin-right: 0px;
-                margin-left: 5px; 
-                 
-            }
-            
-            .place{
-                margin-top: -15px;
-                    
-            }
-       
-       }
-       @media only screen and (min-width: 1301px) 
-       and (max-width: 1360px)
-         {
-          
-            #card{
-                color: black;
-                margin-left: 11%;
-                margin-right: -15px;
-                width: 415px;
-                height: 565px;
-                margin-bottom: 50px;
-            }
-        
-            #heading{
-                margin-left: -167px;
-                margin-top: 10px;
-                top: 1235px;
-                font-size: 30px;
-            }
-            #card_data{
-                font-size: 20px;
-            }
-            
-           
-            
-            .name{
-                margin-top: 70px;
-                margin-left: 30px;
-                text-align: left;
-                font-size: 20px;
-            }
-            
-            
-            
-            
-            .details{
-                width: 165px;
-                height: 53px;
-                font-size: 23px;
-                
-                }
-                
-            
-            #preview{
-              
-                margin-top: 30px;
-                width: 165px;
-                font-size: 23px;
-                height: 53px;
-                text-align: center;
-                margin-right: 0px;
-                margin-left: 5px; 
-                 
-            }
-            
-            .place{
-                margin-top: -15px;
-                    
-            }
-           
-         
-         }
-
-     @media only screen and (min-width: 1361px) 
-     and (max-width: 1440px)
-       {
-     
-        
-        #card{
-            color: black;
-            margin-left: 11%;
-            margin-right: -15px;
-            width: 415px;
-            height: 565px;
-            margin-bottom: 50px;
-        }
-    
-        #heading{
-            margin-left: -167px;
-            margin-top: 10px;
-            top: 1235px;
-            font-size: 30px;
-        }
-        #card_data{
-            font-size: 20px;
-
-        }
-        
-       
-        
-        .name{
-            margin-top: 70px;
-            margin-left: 30px;
-            text-align: left;
-            font-size: 20px;
-        }
-        
-        
-        
-        
-        .details{
-            width: 165px;
-            height: 53px;
-            font-size: 23px;
-            
-            }
-            
-        
-        #preview{
-          
-            margin-top: 30px;
-            width: 165px;
-            font-size: 23px;
-            height: 53px;
-            text-align: center;
-            margin-right: 0px;
-            margin-left: 5px; 
-             
-        }
-        
-        .place{
-            margin-top: -15px;
-                
-        }
-       
-       }
-
-
-       @media only screen and (min-width: 1441px) and (max-width: 1520px){
-        #card{
-            color: black;
-            margin-left: 45px;
-            width: 350px;
-            height: 500px;
-        }
-        
-        #card_data{
-        
-            overflow: hidden;
-            display: -webkit-box;
-            -webkit-line-clamp: 2;
-            -webkit-box-orient: vertical;  
-                  
-        }
-        
-        .player-wrapper{
-            display: -webkit-box;
-            height: 5%;
-            width: 5%;
-        
-        }
-        #heading{
-            margin-left: -95px;
-            margin-top: 0px;
-            top: 1235px;
-        font: 95 Black 20px/30px Avenir LT Std;
-        letter-spacing: 0px;
-        color: #000000;
-        opacity: 1;
-        }
-        
-        
-        .name{
-            margin-top: 120px;
-            margin-left: 0px;
-            text-align: left;
-            font: Roman 17px/30px Avenir;
-            letter-spacing: 0px;
-            color: #000000BD;
-            opacity: 1;
-        }
-        
-        
-        
-        
-        
-        .details{
-        
-        text-align: center;
-        left: 472px;
-        width: 150px;
-        height: 33px;
-        border: 2px solid #FF3300;
-        border-radius: 9px;
-        margin-right: 9px;
-        align-content: right;
-        margin-left: 0px;
-        color:black;
-        text-align: center;
-        
-        }
-        
-        
-        
-        #preview{
-          
-            top: 1557px;
-            left: 472px;
-            width: 150px;
-            height: 33px;
-            background: #FF3300 0% 0% no-repeat padding-box;
-            border-radius: 9px;
-            opacity: 1;
-            border-style: none;
-            text-align: center;
-            color:white; 
-            margin-right: 0px;
-            margin-left: 9px; 
-             
-        }
-        
-        .place{
-            margin-top: -15px;
-                
-        }
-        .details:hover{
-            background-color: #FF3300;
-            color:white;
-            
-        }
-        #preview:hover{
-            background-color: #EA330C;
-         } 
-        
-       }
-
-@media only screen and (min-width: 1521px) and (max-width: 1600px){
-#card{ color: black;
-    margin-left: 100px;
-    width: 350px;
-    height: 500px;
-}
-
-.player-wrapper{
-    display: -webkit-box;
-    height: 5%;
-    width: 5%;
-
-}
-#heading{
-    margin-left: -95px;
-    margin-top: 0px;
-    top: 1235px;
-font: 95 Black 20px/30px Avenir LT Std;
-letter-spacing: 0px;
-color: #000000;
-opacity: 1;
 }
 
 
-.name{
-    margin-top: 120px;
-    margin-left: 0px;
-    text-align: left;
-    font: Roman 17px/30px Avenir;
-    letter-spacing: 0px;
-    color: #000000BD;
-    opacity: 1;
-}
-
-
-
-
-
-.details{
-
-text-align: center;
-left: 472px;
-width: 150px;
-height: 33px;
-border: 2px solid #FF3300;
-border-radius: 9px;
-margin-right: 9px;
-align-content: right;
-margin-left: 0px;
-color:black;
-text-align: center;
-
-}
-
-
-
-#preview{
-  
-    top: 1557px;
-    left: 472px;
-    width: 150px;
-    height: 33px;
-    background: #FF3300 0% 0% no-repeat padding-box;
-    border-radius: 9px;
-    opacity: 1;
-    border-style: none;
-    text-align: center;
-    color:white; 
-    margin-right: 0px;
-    margin-left: 9px; 
-     
-}
-
-.place{
-    margin-top: -15px;
-        
-}
-.details:hover{
-    background-color: #FF3300;
-    color:white;
-    
-}
-#preview:hover{
-    background-color: #EA330C;
- } 
-}
-@media only screen and (min-width: 1601px) and (max-width: 1680px)
+@media only screen and (min-width: 768px) and (max-width: 799px) 
 {
-    #card{ color: black;
-        margin-left: 100px;
-        width: 400px;
-        height: 550px;
+      
+    #mycourses_card {
+        width: 408px;
+        height:128px;
+        margin-left: 102px;
+        margin-top: 40px;
+        
     }
-    
-    .player-wrapper{
-        display: -webkit-box;
-        height: 5%;
-        width: 5%;
-    
-    }
-    #heading{
-        margin-left: -95px;
-        margin-top: 0px;
-        top: 1235px;
-       font-size:30px;
-    }
-    #card_data{
-        font-size: 18px;
-    }
-    
-    .name{
-        margin-top: 110px;
-        margin-left: 15px;
-        text-align: left;
-        font-size: 20px;
-    }
-    
-    
-    
-    
-    
-    .details{
     
    
-    width: 160px;
-    height: 43px;
     
-    
+    #mycourses_image_coming {
+        width: 125px;  
+        
     }
     
-    
-    
-    #preview{
-      
-        
-        width: 160px;
-        height: 43px;
-        
-        margin-right: 0px;
-        margin-left: 9px; 
-         
+    #mycourses_bar {
+        height: 52px;
+        width: 52px;
+        margin-top: 27px;
+        margin-left: 20px;
+    }
+ 
+    #mycourses_start {
+       
+        margin-left: 104px;
+        margin-top: 55px;
     }
     
+    #mycourses_coursename {
+        margin-left: 19px;
+        font-size: 16px;
+        margin-top: 10px;
+    }
+
 
 }
-@media only screen and (min-width: 1680px) and (max-width: 1760px){
-    #card{ color: black;
-        margin-left: 100px;
-        width: 400px;
-        height: 550px;
-    }
-    
-    .player-wrapper{
-        display: -webkit-box;
-        height: 5%;
-        width: 5%;
-    
-    }
-    #heading{
-        margin-left: -95px;
-        margin-top: 0px;
-        top: 1235px;
-       font-size:30px;
-    }
-    #card_data{
-        font-size: 18px;
-    }
-    
-    .name{
-        margin-top: 110px;
-        margin-left: 15px;
-        text-align: left;
-        font-size: 20px;
-    }
-    
-    
-    
-    
-    
-    .details{
-    
-   
-    width: 160px;
-    height: 43px;
-    
-    
-    }
-    
-    
-    
-    #preview{
-      
-        
-        width: 160px;
-        height: 43px;
-        
-        margin-right: 0px;
-        margin-left: 9px; 
-         
-    }
-    
-} 
-@media only screen and (min-width: 1760px) and (max-width: 1840px){
-    #card{ color: black;
-        margin-left: 120px;
-        width: 400px;
-        height: 550px;
-    }
-    
-    .player-wrapper{
-        display: -webkit-box;
-        height: 5%;
-        width: 5%;
-    
-    }
-    #heading{
-        margin-left: -95px;
-        margin-top: 0px;
-        top: 1235px;
-       font-size:30px;
-    }
-    #card_data{
-        font-size: 18px;
-    }
-    
-    .name{
-        margin-top: 110px;
-        margin-left: 15px;
-        text-align: left;
-        font-size: 20px;
-    }
-    
-    
-    
-    
-    
-    .details{
-    
-   
-    width: 160px;
-    height: 43px;
-    
-    
-    }
-    
-    
-    
-    #preview{
-      
-        
-        width: 160px;
-        height: 43px;
-        
-        margin-right: 0px;
-        margin-left: 9px; 
-         
-    }
+
+
+@media only screen and (min-width: 800px) and (max-width: 850px) 
+{    #mycourses_card {
+    width: 408px;
+    height:128px;
+    margin-left: 132px;
+    margin-top: 40px;
     
 }
 
-@media only screen and (min-width: 1840px) and (max-width: 1920px){
-    #card{ color: black;
-        margin-left: 130px;
-        width: 440px;
-        height: 570px;
-    }
+
+
+#mycourses_image_coming {
+    width: 125px;  
     
-    .player-wrapper{
-        display: -webkit-box;
-        height: 5%;
-        width: 5%;
+}
+
+#mycourses_bar {
+    height: 52px;
+    width: 52px;
+    margin-top: 27px;
+    margin-left: 20px;
+}
+
+#mycourses_start {
+   
+    margin-left: 104px;
+    margin-top: 55px;
+}
+
+#mycourses_coursename {
+    margin-left: 19px;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+
+   
+}
     
-    }
-    #heading{
-        margin-left: -115px;
-        margin-top: 0px;
-        top: 1235px;
-       font-size:35px;
-    }
-    #card_data{
-        font-size: 20px;
-        margin-left: -10px;
-    }
-    
-    .name{
-        margin-top: 110px;
-        margin-left: 35px;
-        text-align: left;
-        font-size: 20px;
-    }
-    
-    
-    .details{
-    width: 170px;
-    height: 53px;
-    font-size: 20px;
-    }
-    
-    #preview{
-      
+
+
+    @media only screen and (min-width: 851px) and (max-width: 909px)
+     {
+   
+        #mycourses_card {
+            width: 408px;
+            height:128px;
+            margin-left: 152px;
+            margin-top: 40px;
+            
+        }
         
-        width: 170px;
-        height: 53px;
-        font-size: 20px;
-        margin-right: 0px;
-        margin-left: 9px; 
-         
+       
+        
+        #mycourses_image_coming {
+            width: 125px;  
+            
+        }
+        
+        #mycourses_bar {
+            height: 52px;
+            width: 52px;
+            margin-top: 27px;
+            margin-left: 20px;
+        }
+     
+        #mycourses_start {
+           
+            margin-left: 104px;
+            margin-top: 55px;
+        }
+        
+        #mycourses_coursename {
+            margin-left: 19px;
+            font-size: 16px;
+            margin-top: 10px;
+        }
+    
+   
+ }
+ 
+ @media only screen and (min-width: 910px) and (max-width: 1023px) {
+
+  
+    #mycourses_card {
+        width: 390px;
+        height:128px;
+        margin-left: -10px;
+        margin-right: 14px;
+        margin-top: 40px;
+        
+        
+    }
+    
+   
+    
+    #mycourses_image_coming {
+        width: 125px;  
+        
+    }
+    
+    #mycourses_bar {
+        height: 52px;
+        width: 52px;
+        margin-top: 27px;
+        margin-left: 20px;
+    }
+ 
+    #mycourses_start {
+       
+        margin-left: 74px;
+        margin-top: 55px;
+    }
+    
+    #mycourses_coursename {
+        margin-left: 19px;
+        font-size: 16px;
+        margin-top: 10px;
+    }
+    
+   
+      
+
+}
+
+
+@media only screen and (min-width: 1024px) and (max-width: 1100px) {
+
+   
+    #mycourses_card {
+        width: 408px;
+        height:128px;
+        margin-left: 32px;
+        margin-top: 40px;
+        
+    }
+    
+   
+    
+    #mycourses_image_coming {
+        width: 125px;  
+        
+    }
+    
+    #mycourses_bar {
+        height: 52px;
+        width: 52px;
+        margin-top: 27px;
+        margin-left: 20px;
+    }
+ 
+    #mycourses_start {
+       
+        margin-left: 104px;
+        margin-top: 55px;
+    }
+    
+    #mycourses_coursename {
+        margin-left: 19px;
+        font-size: 16px;
+        margin-top: 10px;
+    }
+    
+}
+
+
+@media only screen and (min-width: 1101px) and (max-width: 1200px) {
+
+    #mycourses_card {
+        width: 408px;
+        height:128px;
+        margin-left: 52px;
+        margin-top: 40px;
+        
+    }
+    
+   
+    
+    #mycourses_image_coming {
+        width: 125px;  
+        
+    }
+    
+    #mycourses_bar {
+        height: 52px;
+        width: 52px;
+        margin-top: 27px;
+        margin-left: 20px;
+    }
+ 
+    #mycourses_start {
+       
+        margin-left: 104px;
+        margin-top: 55px;
+    }
+    
+    #mycourses_coursename {
+        margin-left: 19px;
+        font-size: 16px;
+        margin-top: 10px;
+    }
+
+}
+
+
+@media only screen and (min-width: 1201px) and (max-width: 1300px) {
+  
+    #mycourses_card {
+        width: 408px;
+        height:128px;
+        margin-left: 102px;
+        margin-top: 40px;
+        
+    }
+    
+   
+    
+    #mycourses_image_coming {
+        width: 125px;  
+        
+    }
+    
+    #mycourses_bar {
+        height: 52px;
+        width: 52px;
+        margin-top: 27px;
+        margin-left: 20px;
+    }
+ 
+    #mycourses_start {
+       
+        margin-left: 104px;
+        margin-top: 55px;
+    }
+    
+    #mycourses_coursename {
+        margin-left: 19px;
+        font-size: 16px;
+        margin-top: 10px;
     }
 }
-@media only screen and (min-width: 1920px) and (max-width: 2000px){
-    #card{ color: black;
-        margin-left: 130px;
-        width: 440px;
-        height: 570px;
-    }
-    
-    .player-wrapper{
-        display: -webkit-box;
-        height: 5%;
-        width: 5%;
-    
-    }
-    #heading{
-        margin-left: -115px;
-        margin-top: 0px;
-        top: 1235px;
-       font-size:35px;
-    }
-    #card_data{
-        font-size: 20px;
-        margin-left: -10px;
-    }
-    
-    .name{
-        margin-top: 110px;
-        margin-left: 35px;
-        text-align: left;
-        font-size: 20px;
-    }
-    
-    
-    .details{
-    width: 170px;
-    height: 53px;
-    font-size: 20px;
-    }
-    
-    #preview{
-      
+
+
+@media only screen and (min-width: 1301px) 
+and (max-width: 1359px)
+  {
+
+    #mycourses_card {
+        width: 408px;
+        height:128px;
+        margin-left: 102px;
+        margin-top: 40px;
         
-        width: 170px;
-        height: 53px;
-        font-size: 20px;
-        margin-right: 0px;
-        margin-left: 9px; 
-         
     }
+    
+   
+    
+    #mycourses_image_coming {
+        width: 125px;  
+        
+    }
+    
+    #mycourses_bar {
+        height: 52px;
+        width: 52px;
+        margin-top: 27px;
+        margin-left: 20px;
+    }
+ 
+    #mycourses_start {
+       
+        margin-left: 104px;
+        margin-top: 55px;
+    }
+    
+    #mycourses_coursename {
+        margin-left: 19px;
+        font-size: 16px;
+        margin-top: 10px;
+    }
+   
 }
+
+@media only screen and (min-width: 1360px) and (max-width: 1439px)
+ {
+
+    #mycourses_card {
+        width: 408px;
+        height:128px;
+        margin-left: 5px;
+        margin-top: 40px;
+        
+    }
+    
+   
+    
+    #mycourses_image_coming {
+        width: 125px;  
+        
+    }
+    
+    #mycourses_bar {
+        height: 52px;
+        width: 52px;
+        margin-top: 27px;
+        margin-left: 20px;
+    }
+ 
+    #mycourses_start {
+       
+        margin-left: 104px;
+        margin-top: 55px;
+    }
+    
+    #mycourses_coursename {
+        margin-left: 19px;
+        font-size: 16px;
+        margin-top: 10px;
+    }
+   
+}
+
+  @media only screen and (min-width: 1440px) 
+and (max-width: 1520px)
+  {
+
+    #mycourses_card {
+        width: 408px;
+        height:128px;
+        margin-left: 22px;
+        margin-top: 40px;
+        
+    }
+    
+   
+    
+    #mycourses_image_coming {
+        width: 125px;  
+        
+    }
+    
+    #mycourses_bar {
+        height: 52px;
+        width: 52px;
+        margin-top: 27px;
+        margin-left: 20px;
+    }
+ 
+    #mycourses_start {
+       
+        margin-left: 104px;
+        margin-top: 55px;
+    }
+    
+    #mycourses_coursename {
+        margin-left: 19px;
+        font-size: 16px;
+        margin-top: 10px;
+    }
+  
+  }
+  @media only screen and (min-width: 1521px) 
+and (max-width: 1599px)
+  {
+
+    #mycourses_card {
+        width: 408px;
+        height:128px;
+        margin-left: 32px;
+        margin-top: 40px;
+        
+    }
+    
+   
+    
+    #mycourses_image_coming {
+        width: 125px;  
+        
+    }
+    
+    #mycourses_bar {
+        height: 52px;
+        width: 52px;
+        margin-top: 27px;
+        margin-left: 20px;
+    }
+ 
+    #mycourses_start {
+       
+        margin-left: 104px;
+        margin-top: 55px;
+    }
+    
+    #mycourses_coursename {
+        margin-left: 19px;
+        font-size: 16px;
+        margin-top: 10px;
+    }
+  
+  }
+
+ 
+    @media only screen and (min-width: 1600px) 
+    and (max-width: 1679px)
+      {
+    
+        #mycourses_card {
+            width: 408px;
+            height:128px;
+            margin-left: 52px;
+            margin-top: 40px;
+            
+        }
+        
+       
+        
+        #mycourses_image_coming {
+            width: 125px;  
+            
+        }
+        
+        #mycourses_bar {
+            height: 52px;
+            width: 52px;
+            margin-top: 27px;
+            margin-left: 20px;
+        }
+     
+        #mycourses_start {
+           
+            margin-left: 104px;
+            margin-top: 55px;
+        }
+        
+        #mycourses_coursename {
+            margin-left: 19px;
+            font-size: 16px;
+            margin-top: 10px;
+        }
+       
+      
+      }
+    @media only screen and (min-width: 1680px) 
+    and (max-width: 1758px)
+      {
+
+        #mycourses_card {
+            width: 408px;
+            height:128px;
+            margin-left: 72px;
+            margin-top: 40px;
+            
+        }
+        
+       
+        
+        #mycourses_image_coming {
+            width: 125px;  
+            
+        }
+        
+        #mycourses_bar {
+            height: 52px;
+            width: 52px;
+            margin-top: 27px;
+            margin-left: 20px;
+        }
+     
+        #mycourses_start {
+           
+            margin-left: 104px;
+            margin-top: 55px;
+        }
+        
+        #mycourses_coursename {
+            margin-left: 19px;
+            font-size: 16px;
+            margin-top: 10px;
+        }
+
+      }
+  @media only screen and (min-width: 1759px) 
+and (max-width: 1840px)
+  {
+    #mycourses_card {
+        width: 408px;
+        height:128px;
+        margin-left: 92px;
+        margin-top: 40px;
+        
+    }
+    
+   
+    
+    #mycourses_image_coming {
+        width: 125px;  
+        
+    }
+    
+    #mycourses_bar {
+        height: 52px;
+        width: 52px;
+        margin-top: 27px;
+        margin-left: 20px;
+    }
+ 
+    #mycourses_start {
+       
+        margin-left: 104px;
+        margin-top: 55px;
+    }
+    
+    #mycourses_coursename {
+        margin-left: 19px;
+        font-size: 16px;
+        margin-top: 10px;
+    }
+  
+   
+    
+  }
+  @media only screen and (min-width: 1841px) 
+and (max-width: 1919px)
+  {
+    #mycourses_card {
+        width: 408px;
+        height:128px;
+        margin-left: 92px;
+        margin-top: 40px;
+        
+    }
+    
+   
+    
+    #mycourses_image_coming {
+        width: 125px;  
+        
+    }
+    
+    #mycourses_bar {
+        height: 52px;
+        width: 52px;
+        margin-top: 27px;
+        margin-left: 20px;
+    }
+ 
+    #mycourses_start {
+       
+        margin-left: 104px;
+        margin-top: 55px;
+    }
+    
+    #mycourses_coursename {
+        margin-left: 19px;
+        font-size: 16px;
+        margin-top: 10px;
+    }
+  
+ 
+  
+  }
+  @media only screen and (min-width: 1920px) 
+  and (max-width: 2000px)
+    {
+  
+        #mycourses_card {
+            width: 408px;
+            height:128px;
+            margin-left: 142px;
+            margin-top: 40px;
+            
+        }
+        
+       
+        
+        #mycourses_image_coming {
+            width: 125px;  
+            
+        }
+        
+        #mycourses_bar {
+            height: 52px;
+            width: 52px;
+            margin-top: 27px;
+            margin-left: 20px;
+        }
+     
+        #mycourses_start {
+           
+            margin-left: 104px;
+            margin-top: 55px;
+        }
+        
+        #mycourses_coursename {
+            margin-left: 19px;
+            font-size: 16px;
+            margin-top: 10px;
+        }
+      
+       
+  } 

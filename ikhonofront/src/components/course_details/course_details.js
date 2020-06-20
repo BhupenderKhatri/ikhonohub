@@ -8,15 +8,74 @@ import Details from './course_intro4' ;
 import Questions from './course_intro5' ;
 
 import Card1 from '../prices/priceList';
+import axios from 'axios';
 
 
-import { intro,what_you_learn ,why_course,full_details,answer_to_questions}  from '../../detailsOfCourses';
-{/*
-import Course_curriculum from './course_curriculum';
-*/}
+class course_details extends Component {
 
-const course_details =() => {
-        return(
+    constructor(props){
+        super(props);
+        this.state={
+            intro:[],
+            instructor:[],
+            what_you_learn:[],
+            why_course:[],
+            full_details:[],
+            answer_to_questions:[]
+        }
+      
+    }
+
+    componentDidMount(){
+        this.getItems();
+      }
+    
+
+
+      getItems =()=>{
+        const headers = {
+          
+            "Content-Type": "application/json"
+        }
+        const id = { id :1234};
+       axios.post('http://localhost:5000/course_chapter/cardinfodetail/intro',id,{headers: headers}).then(res => {
+          
+        const data = res.data;
+        this.setState({intro:data})
+        })
+        axios.post('http://localhost:5000/course_chapter/cardinfodetail/whatyoulearn',id,{headers: headers}).then(res => {
+          
+            const data = res.data;
+            this.setState({what_you_learn:data})
+            })
+            axios.post('http://localhost:5000/course_chapter/cardinfodetail/instructor',id,{headers: headers}).then(res => {
+          
+                const data = res.data;
+                this.setState({instructor:data})
+                })
+                axios.post('http://localhost:5000/course_chapter/cardinfodetail/why_course',id,{headers: headers}).then(res => {
+          
+                    const data = res.data;
+                    this.setState({why_course:data})
+                    })
+                    axios.post('http://localhost:5000/course_chapter/cardinfodetail/full_details',id,{headers: headers}).then(res => {
+          
+                        const data = res.data;
+                        this.setState({full_details:data})
+                        })
+                        axios.post('http://localhost:5000/course_chapter/cardinfodetail/answer_to_questions',id,{headers: headers}).then(res => {
+          
+                            const data = res.data;
+                            this.setState({answer_to_questions:data})
+                            })
+                        
+       }
+      
+
+    render(){
+
+        const { intro,what_you_learn ,why_course,full_details,answer_to_questions} = this.state;
+     return(
        <div>
           <table id="finalset">
               <tr>
@@ -35,11 +94,11 @@ const course_details =() => {
                         })
                     }
                 </div> 
-                  <div id="second">
+                  {/* <div id="second">
                       {
                           <Card1/>
                       }
-                  </div>
+                  </div> */}
                 <div>
                     {
                         what_you_learn.map((user,i)=>{
@@ -120,6 +179,7 @@ const course_details =() => {
 
         </div>    
         );
+}
 }
 
 export default course_details;

@@ -1,345 +1,2507 @@
-#purchasehistory-table{
-    background-color: white;
+#purchasehistory-table {
     width: 830px;
     height: 250px;
-    margin-left:82px;
-   
+    margin-left: 250px;
+    margin-top: 50px;
+    background: transparent linear-gradient(124deg, #2D2D2D 0%, #151314 100%) 0% 0% no-repeat padding-box;
+    box-shadow: 0px 4px 10px #00000099;
+    border-radius: 15px;
+    opacity: 1;
+    border-bottom: solid 10px #FF3300;
 }
-#purchasehistory-h2{
-   color: white;
-   margin-top: 40px;
-   margin-left: 80px;
+
+.puechase_History_head td {
+    color: #FFDB00;
+    font-size: 25px;
+    padding-left: 20px;
+    text-transform: capitalize;
+    font-weight: bold;
+    padding-top: -10px;
+    cursor: default;
 }
-#tableHeader{
-    background: white;
-  
-    border: 1px solid white;
+
+.puechase_History_head_line {
+    margin-top: 45px;
+    margin-left: -240px;
+    margin-right: 280px;
+    border: 1.2px solid orangered;
+    cursor: default;
+}
+
+
+#tableHeader {
+    border-bottom: 1.2px solid orangered;
+    border-top: none !important;
+    border-right: none !important;
+    border-left: none !important;
+    padding-top: 25px;
     margin-bottom: 5px;
+    cursor: default;
+    color: white;
+    font-size: 20px;
 }
-#tabledata{
+
+#tabledata {
+    padding-top: 30px;
+    padding-left: 30px;
     text-align: left;
-    font-weight: 500;
-    background-color: white;
-    border: 1px solid white;
+    cursor: default;
+    font-size: 15px;
+    padding-bottom: 30px;
+    font: Black 20px/27px Avenir;
+    letter-spacing: 0px;
+    color: white;
+    border-bottom: 0.8px solid #D5D5D5;
+    border-top: none !important;
+    border-right: none !important;
+    border-left: none !important;
 }
 
-#tabledata1{
+#purchase_history_view {
+    color: #FFDB00;
+    cursor: default;
+}
+
+#tabledata1 {
     text-align: center;
-    font-weight: 500;
-
-    background-color: white;
-    border: 1px solid white;
+    color: #D5D5D5;
+    border-bottom: 0.8px solid #D5D5D5;
+    border-top: none !important;
+    border-right: none !important;
+    cursor: default;
+    font: Roman 20px/27px Avenir;
+    border-left: none !important;
 }
 
-#tabledata2{
+#tabledata2 {
     text-align: center;
-    font-weight: 500;
-
-    background-color: white;
-    border: 1px solid white;
+    color: #D5D5D5;
+    border-bottom: 0.8px solid #D5D5D5;
+    border-top: none !important;
+    border-right: none !important;
+    border-left: none !important;
+    cursor: default;
 }
-#tabledata3{
+
+#tabledata3 {
     text-align: center;
-    font-weight: 500;
-
-    background-color: white;
-    border: 1px solid white;
+    border-bottom: 0.8px solid #D5D5D5;
+    border-top: none !important;
+    border-right: none !important;
+    border-left: none !important;
 }
-#tabledata4{
-    background-color: #FF3300;
+
+#tabledata4 {
+    background: transparent linear-gradient(249deg, #2D2D2D 0%, #151314 100%) 0% 0% no-repeat padding-box;
     border: none;
     width: 100px;
     height: 35px;
-    color: white;
-    border-radius:5px;
-    text-transform: uppercase;
+    font: Medium 22px/30px Avenir;
+    letter-spacing: 0px;
+    color: #FFDB00;
+    border-radius: 5px;
+    text-transform: capitalize;
     text-align: center;
 }
-#tabledata4:hover{
-    background-color: rgb(226, 48, 3);
+
+#tabledata4:hover {
+    background: transparent linear-gradient(249deg, #2D2D2D 0%, #151314 100%) 0% 0% no-repeat padding-box;
     cursor: pointer;
 }
 
 
-@media only screen and (min-width:320px) 
+ @media only screen and (min-width:320px) 
 and (max-width:374px){
-    #purchasehistory-table{
-        width: 710px;
-        margin-left:5px; 
+    #purchasehistory-table {
+        width: 800px;
+        height: 450px;
+        margin-left: 50px;
+        margin-top: 50px;
+        background: transparent linear-gradient(124deg, #2D2D2D 0%, #151314 100%) 0% 0% no-repeat padding-box;
+        box-shadow: 0px 4px 10px #00000099;
+        border-radius: 15px;
+        opacity: 1;
+        border-bottom: solid 10px #FF3300;
     }
-    #purchasehistory-h2{
-       margin-left: 0px;
-    } 
-    .pos5{
-        margin-bottom:500px;
+    
+    .puechase_History_head td {
+        color: #FFDB00;
+        font-size: 25px;
+        padding-left: 20px;
+        text-transform: capitalize;
+        font-weight: bold;
+        padding-top: -10px;
+        cursor: default;
+    }
+    
+    .puechase_History_head_line {
+        margin-top: 45px;
+        margin-left: -240px;
+        margin-right: 280px;
+        border: 1.2px solid orangered;
+        cursor: default;
+    }
+    
+    
+    #tableHeader {
+        border-bottom: 1.2px solid orangered;
+        border-top: none !important;
+        border-right: none !important;
+        border-left: none !important;
+        padding-top: 25px;
+        margin-bottom: 5px;
+        cursor: default;
+        color: white;
+        font-size: 20px;
+    }
+    
+    #tabledata {
+        padding-top: 30px;
+        padding-left: 30px;
+        text-align: left;
+        cursor: default;
+        font-size: 15px;
+        padding-bottom: 30px;
+        font: Black 20px/27px Avenir;
+        letter-spacing: 0px;
+        color: white;
+        border-bottom: 0.8px solid #D5D5D5;
+        border-top: none !important;
+        border-right: none !important;
+        border-left: none !important;
+    }
+    
+    #purchase_history_view {
+        color: #FFDB00;
+        cursor: default;
+    }
+    
+    #tabledata1 {
+        text-align: center;
+        color: #D5D5D5;
+        border-bottom: 0.8px solid #D5D5D5;
+        border-top: none !important;
+        border-right: none !important;
+        cursor: default;
+        font: Roman 20px/27px Avenir;
+        border-left: none !important;
+    }
+    
+    #tabledata2 {
+        text-align: center;
+        color: #D5D5D5;
+        border-bottom: 0.8px solid #D5D5D5;
+        border-top: none !important;
+        border-right: none !important;
+        border-left: none !important;
+        cursor: default;
+    }
+    
+    #tabledata3 {
+        text-align: center;
+        border-bottom: 0.8px solid #D5D5D5;
+        border-top: none !important;
+        border-right: none !important;
+        border-left: none !important;
+    }
+    
+    #tabledata4 {
+        background: transparent linear-gradient(249deg, #2D2D2D 0%, #151314 100%) 0% 0% no-repeat padding-box;
+        border: none;
+        width: 100px;
+        height: 35px;
+        font: Medium 22px/30px Avenir;
+        letter-spacing: 0px;
+        color: #FFDB00;
+        border-radius: 5px;
+        text-transform: capitalize;
+        text-align: center;
+    }
+    
+    #tabledata4:hover {
+        background: transparent linear-gradient(249deg, #2D2D2D 0%, #151314 100%) 0% 0% no-repeat padding-box;
+        cursor: pointer;
     }
 }
+
+
+
 @media only screen and (min-width: 374px) 
 and (max-width: 450px){
     
-    #purchasehistory-table{
-        width: 710px;
-        margin-left:5px; 
+   #purchasehistory-table {
+        width: 800px;
+        height: 450px;
+        margin-left: 50px;
+        margin-top: 50px;
+        background: transparent linear-gradient(124deg, #2D2D2D 0%, #151314 100%) 0% 0% no-repeat padding-box;
+        box-shadow: 0px 4px 10px #00000099;
+        border-radius: 15px;
+        opacity: 1;
+        border-bottom: solid 10px #FF3300;
     }
-    #purchasehistory-h2{
-       margin-left: 0px;
-    } 
-    .pos5{
-        margin-bottom:500px;
-    }  
+    
+    .puechase_History_head td {
+        color: #FFDB00;
+        font-size: 25px;
+        padding-left: 20px;
+        text-transform: capitalize;
+        font-weight: bold;
+        padding-top: -10px;
+        cursor: default;
+    }
+    
+    .puechase_History_head_line {
+        margin-top: 45px;
+        margin-left: -240px;
+        margin-right: 280px;
+        border: 1.2px solid orangered;
+        cursor: default;
+    }
+    
+    
+    #tableHeader {
+        border-bottom: 1.2px solid orangered;
+        border-top: none !important;
+        border-right: none !important;
+        border-left: none !important;
+        padding-top: 25px;
+        margin-bottom: 5px;
+        cursor: default;
+        color: white;
+        font-size: 20px;
+    }
+    
+    #tabledata {
+        padding-top: 30px;
+        padding-left: 30px;
+        text-align: left;
+        cursor: default;
+        font-size: 15px;
+        padding-bottom: 30px;
+        font: Black 20px/27px Avenir;
+        letter-spacing: 0px;
+        color: white;
+        border-bottom: 0.8px solid #D5D5D5;
+        border-top: none !important;
+        border-right: none !important;
+        border-left: none !important;
+    }
+    
+    #purchase_history_view {
+        color: #FFDB00;
+        cursor: default;
+    }
+    
+    #tabledata1 {
+        text-align: center;
+        color: #D5D5D5;
+        border-bottom: 0.8px solid #D5D5D5;
+        border-top: none !important;
+        border-right: none !important;
+        cursor: default;
+        font: Roman 20px/27px Avenir;
+        border-left: none !important;
+    }
+    
+    #tabledata2 {
+        text-align: center;
+        color: #D5D5D5;
+        border-bottom: 0.8px solid #D5D5D5;
+        border-top: none !important;
+        border-right: none !important;
+        border-left: none !important;
+        cursor: default;
+    }
+    
+    #tabledata3 {
+        text-align: center;
+        border-bottom: 0.8px solid #D5D5D5;
+        border-top: none !important;
+        border-right: none !important;
+        border-left: none !important;
+    }
+    
+    #tabledata4 {
+        background: transparent linear-gradient(249deg, #2D2D2D 0%, #151314 100%) 0% 0% no-repeat padding-box;
+        border: none;
+        width: 100px;
+        height: 35px;
+        font: Medium 22px/30px Avenir;
+        letter-spacing: 0px;
+        color: #FFDB00;
+        border-radius: 5px;
+        text-transform: capitalize;
+        text-align: center;
+    }
+    
+    #tabledata4:hover {
+        background: transparent linear-gradient(249deg, #2D2D2D 0%, #151314 100%) 0% 0% no-repeat padding-box;
+        cursor: pointer;
+    }
 }
+
+
 @media only screen and (min-width: 450px) 
 and (max-width: 550px){
-    #purchasehistory-table{
-        width: 710px;
-        margin-left:5px; 
+     #purchasehistory-table {
+        width: 800px;
+        height: 450px;
+        margin-left: 50px;
+        margin-top: 50px;
+        background: transparent linear-gradient(124deg, #2D2D2D 0%, #151314 100%) 0% 0% no-repeat padding-box;
+        box-shadow: 0px 4px 10px #00000099;
+        border-radius: 15px;
+        opacity: 1;
+        border-bottom: solid 10px #FF3300;
     }
-    #purchasehistory-h2{
-       margin-left: 0px;
-    }  
-    .pos5{
-        margin-bottom:500px;
-    } 
+    
+    .puechase_History_head td {
+        color: #FFDB00;
+        font-size: 25px;
+        padding-left: 20px;
+        text-transform: capitalize;
+        font-weight: bold;
+        padding-top: -10px;
+        cursor: default;
+    }
+    
+    .puechase_History_head_line {
+        margin-top: 45px;
+        margin-left: -240px;
+        margin-right: 280px;
+        border: 1.2px solid orangered;
+        cursor: default;
+    }
+    
+    
+    #tableHeader {
+        border-bottom: 1.2px solid orangered;
+        border-top: none !important;
+        border-right: none !important;
+        border-left: none !important;
+        padding-top: 25px;
+        margin-bottom: 5px;
+        cursor: default;
+        color: white;
+        font-size: 20px;
+    }
+    
+    #tabledata {
+        padding-top: 30px;
+        padding-left: 30px;
+        text-align: left;
+        cursor: default;
+        font-size: 15px;
+        padding-bottom: 30px;
+        font: Black 20px/27px Avenir;
+        letter-spacing: 0px;
+        color: white;
+        border-bottom: 0.8px solid #D5D5D5;
+        border-top: none !important;
+        border-right: none !important;
+        border-left: none !important;
+    }
+    
+    #purchase_history_view {
+        color: #FFDB00;
+        cursor: default;
+    }
+    
+    #tabledata1 {
+        text-align: center;
+        color: #D5D5D5;
+        border-bottom: 0.8px solid #D5D5D5;
+        border-top: none !important;
+        border-right: none !important;
+        cursor: default;
+        font: Roman 20px/27px Avenir;
+        border-left: none !important;
+    }
+    
+    #tabledata2 {
+        text-align: center;
+        color: #D5D5D5;
+        border-bottom: 0.8px solid #D5D5D5;
+        border-top: none !important;
+        border-right: none !important;
+        border-left: none !important;
+        cursor: default;
+    }
+    
+    #tabledata3 {
+        text-align: center;
+        border-bottom: 0.8px solid #D5D5D5;
+        border-top: none !important;
+        border-right: none !important;
+        border-left: none !important;
+    }
+    
+    #tabledata4 {
+        background: transparent linear-gradient(249deg, #2D2D2D 0%, #151314 100%) 0% 0% no-repeat padding-box;
+        border: none;
+        width: 100px;
+        height: 35px;
+        font: Medium 22px/30px Avenir;
+        letter-spacing: 0px;
+        color: #FFDB00;
+        border-radius: 5px;
+        text-transform: capitalize;
+        text-align: center;
+    }
+    
+    #tabledata4:hover {
+        background: transparent linear-gradient(249deg, #2D2D2D 0%, #151314 100%) 0% 0% no-repeat padding-box;
+        cursor: pointer;
+    }
 }
+
 @media only screen and (min-width:551px) 
 and (max-width:617px){
-    #purchasehistory-table{
-        width: 710px;
-        margin-left:5px; 
+    #purchasehistory-table {
+        width: 800px;
+        height: 450px;
+        margin-left: 50px;
+        margin-top: 50px;
+        background: transparent linear-gradient(124deg, #2D2D2D 0%, #151314 100%) 0% 0% no-repeat padding-box;
+        box-shadow: 0px 4px 10px #00000099;
+        border-radius: 15px;
+        opacity: 1;
+        border-bottom: solid 10px #FF3300;
     }
-    #purchasehistory-h2{
-       margin-left: 0px;
-    } 
-    .pos5{
-        margin-bottom:500px;
+    
+    .puechase_History_head td {
+        color: #FFDB00;
+        font-size: 25px;
+        padding-left: 20px;
+        text-transform: capitalize;
+        font-weight: bold;
+        padding-top: -10px;
+        cursor: default;
+    }
+    
+    .puechase_History_head_line {
+        margin-top: 45px;
+        margin-left: -240px;
+        margin-right: 280px;
+        border: 1.2px solid orangered;
+        cursor: default;
+    }
+    
+    
+    #tableHeader {
+        border-bottom: 1.2px solid orangered;
+        border-top: none !important;
+        border-right: none !important;
+        border-left: none !important;
+        padding-top: 25px;
+        margin-bottom: 5px;
+        cursor: default;
+        color: white;
+        font-size: 20px;
+    }
+    
+    #tabledata {
+        padding-top: 30px;
+        padding-left: 30px;
+        text-align: left;
+        cursor: default;
+        font-size: 15px;
+        padding-bottom: 30px;
+        font: Black 20px/27px Avenir;
+        letter-spacing: 0px;
+        color: white;
+        border-bottom: 0.8px solid #D5D5D5;
+        border-top: none !important;
+        border-right: none !important;
+        border-left: none !important;
+    }
+    
+    #purchase_history_view {
+        color: #FFDB00;
+        cursor: default;
+    }
+    
+    #tabledata1 {
+        text-align: center;
+        color: #D5D5D5;
+        border-bottom: 0.8px solid #D5D5D5;
+        border-top: none !important;
+        border-right: none !important;
+        cursor: default;
+        font: Roman 20px/27px Avenir;
+        border-left: none !important;
+    }
+    
+    #tabledata2 {
+        text-align: center;
+        color: #D5D5D5;
+        border-bottom: 0.8px solid #D5D5D5;
+        border-top: none !important;
+        border-right: none !important;
+        border-left: none !important;
+        cursor: default;
+    }
+    
+    #tabledata3 {
+        text-align: center;
+        border-bottom: 0.8px solid #D5D5D5;
+        border-top: none !important;
+        border-right: none !important;
+        border-left: none !important;
+    }
+    
+    #tabledata4 {
+        background: transparent linear-gradient(249deg, #2D2D2D 0%, #151314 100%) 0% 0% no-repeat padding-box;
+        border: none;
+        width: 100px;
+        height: 35px;
+        font: Medium 22px/30px Avenir;
+        letter-spacing: 0px;
+        color: #FFDB00;
+        border-radius: 5px;
+        text-transform: capitalize;
+        text-align: center;
+    }
+    
+    #tabledata4:hover {
+        background: transparent linear-gradient(249deg, #2D2D2D 0%, #151314 100%) 0% 0% no-repeat padding-box;
+        cursor: pointer;
     }
 }
+
 @media only screen and (min-width: 618px) 
 and (max-width: 700px) {
-    #purchasehistory-table{
-        width: 710px;
-        margin-left:5px; 
+    #purchasehistory-table {
+        width: 800px;
+        height: 450px;
+        margin-left: 50px;
+        margin-top: 50px;
+        background: transparent linear-gradient(124deg, #2D2D2D 0%, #151314 100%) 0% 0% no-repeat padding-box;
+        box-shadow: 0px 4px 10px #00000099;
+        border-radius: 15px;
+        opacity: 1;
+        border-bottom: solid 10px #FF3300;
     }
-    #purchasehistory-h2{
-       margin-left: 0px;
-    } 
-    .pos5{
-        margin-bottom:500px;
+    
+    .puechase_History_head td {
+        color: #FFDB00;
+        font-size: 25px;
+        padding-left: 20px;
+        text-transform: capitalize;
+        font-weight: bold;
+        padding-top: -10px;
+        cursor: default;
+    }
+    
+    .puechase_History_head_line {
+        margin-top: 45px;
+        margin-left: -240px;
+        margin-right: 280px;
+        border: 1.2px solid orangered;
+        cursor: default;
+    }
+    
+    
+    #tableHeader {
+        border-bottom: 1.2px solid orangered;
+        border-top: none !important;
+        border-right: none !important;
+        border-left: none !important;
+        padding-top: 25px;
+        margin-bottom: 5px;
+        cursor: default;
+        color: white;
+        font-size: 20px;
+    }
+    
+    #tabledata {
+        padding-top: 30px;
+        padding-left: 30px;
+        text-align: left;
+        cursor: default;
+        font-size: 15px;
+        padding-bottom: 30px;
+        font: Black 20px/27px Avenir;
+        letter-spacing: 0px;
+        color: white;
+        border-bottom: 0.8px solid #D5D5D5;
+        border-top: none !important;
+        border-right: none !important;
+        border-left: none !important;
+    }
+    
+    #purchase_history_view {
+        color: #FFDB00;
+        cursor: default;
+    }
+    
+    #tabledata1 {
+        text-align: center;
+        color: #D5D5D5;
+        border-bottom: 0.8px solid #D5D5D5;
+        border-top: none !important;
+        border-right: none !important;
+        cursor: default;
+        font: Roman 20px/27px Avenir;
+        border-left: none !important;
+    }
+    
+    #tabledata2 {
+        text-align: center;
+        color: #D5D5D5;
+        border-bottom: 0.8px solid #D5D5D5;
+        border-top: none !important;
+        border-right: none !important;
+        border-left: none !important;
+        cursor: default;
+    }
+    
+    #tabledata3 {
+        text-align: center;
+        border-bottom: 0.8px solid #D5D5D5;
+        border-top: none !important;
+        border-right: none !important;
+        border-left: none !important;
+    }
+    
+    #tabledata4 {
+        background: transparent linear-gradient(249deg, #2D2D2D 0%, #151314 100%) 0% 0% no-repeat padding-box;
+        border: none;
+        width: 100px;
+        height: 35px;
+        font: Medium 22px/30px Avenir;
+        letter-spacing: 0px;
+        color: #FFDB00;
+        border-radius: 5px;
+        text-transform: capitalize;
+        text-align: center;
+    }
+    
+    #tabledata4:hover {
+        background: transparent linear-gradient(249deg, #2D2D2D 0%, #151314 100%) 0% 0% no-repeat padding-box;
+        cursor: pointer;
     }
 }
 @media only screen and (min-width: 701px) 
 and (max-width: 767px) {
-    #purchasehistory-table{
-        width: 710px;
-        margin-left:5px; 
+    #purchasehistory-table {
+        width: 800px;
+        height: 450px;
+        margin-left: 50px;
+        margin-top: 50px;
+        background: transparent linear-gradient(124deg, #2D2D2D 0%, #151314 100%) 0% 0% no-repeat padding-box;
+        box-shadow: 0px 4px 10px #00000099;
+        border-radius: 15px;
+        opacity: 1;
+        border-bottom: solid 10px #FF3300;
     }
-    #purchasehistory-h2{
-       margin-left: 0px;
-    } 
-    .pos5{
-        margin-bottom:500px;
+    
+    .puechase_History_head td {
+        color: #FFDB00;
+        font-size: 25px;
+        padding-left: 20px;
+        text-transform: capitalize;
+        font-weight: bold;
+        padding-top: -10px;
+        cursor: default;
+    }
+    
+    .puechase_History_head_line {
+        margin-top: 45px;
+        margin-left: -240px;
+        margin-right: 280px;
+        border: 1.2px solid orangered;
+        cursor: default;
+    }
+    
+    
+    #tableHeader {
+        border-bottom: 1.2px solid orangered;
+        border-top: none !important;
+        border-right: none !important;
+        border-left: none !important;
+        padding-top: 25px;
+        margin-bottom: 5px;
+        cursor: default;
+        color: white;
+        font-size: 20px;
+    }
+    
+    #tabledata {
+        padding-top: 30px;
+        padding-left: 30px;
+        text-align: left;
+        cursor: default;
+        font-size: 15px;
+        padding-bottom: 30px;
+        font: Black 20px/27px Avenir;
+        letter-spacing: 0px;
+        color: white;
+        border-bottom: 0.8px solid #D5D5D5;
+        border-top: none !important;
+        border-right: none !important;
+        border-left: none !important;
+    }
+    
+    #purchase_history_view {
+        color: #FFDB00;
+        cursor: default;
+    }
+    
+    #tabledata1 {
+        text-align: center;
+        color: #D5D5D5;
+        border-bottom: 0.8px solid #D5D5D5;
+        border-top: none !important;
+        border-right: none !important;
+        cursor: default;
+        font: Roman 20px/27px Avenir;
+        border-left: none !important;
+    }
+    
+    #tabledata2 {
+        text-align: center;
+        color: #D5D5D5;
+        border-bottom: 0.8px solid #D5D5D5;
+        border-top: none !important;
+        border-right: none !important;
+        border-left: none !important;
+        cursor: default;
+    }
+    
+    #tabledata3 {
+        text-align: center;
+        border-bottom: 0.8px solid #D5D5D5;
+        border-top: none !important;
+        border-right: none !important;
+        border-left: none !important;
+    }
+    
+    #tabledata4 {
+        background: transparent linear-gradient(249deg, #2D2D2D 0%, #151314 100%) 0% 0% no-repeat padding-box;
+        border: none;
+        width: 100px;
+        height: 35px;
+        font: Medium 22px/30px Avenir;
+        letter-spacing: 0px;
+        color: #FFDB00;
+        border-radius: 5px;
+        text-transform: capitalize;
+        text-align: center;
+    }
+    
+    #tabledata4:hover {
+        background: transparent linear-gradient(249deg, #2D2D2D 0%, #151314 100%) 0% 0% no-repeat padding-box;
+        cursor: pointer;
     }
 }
 
 @media only screen and (min-width:768px) 
 and (max-width:850px){
-    #purchasehistory-table{
-        width: 750px;
-        margin-left:5px; 
+    #purchasehistory-table {
+        width: 800px;
+        height: 250px;
+        margin-left: 50px;
+        margin-top: 50px;
+        background: transparent linear-gradient(124deg, #2D2D2D 0%, #151314 100%) 0% 0% no-repeat padding-box;
+        box-shadow: 0px 4px 10px #00000099;
+        border-radius: 15px;
+        opacity: 1;
+        border-bottom: solid 10px #FF3300;
     }
-    #purchasehistory-h2{
-       margin-left: 0px;
-    } 
-    .pos5{
-        margin-bottom:500px;
+    
+    .puechase_History_head td {
+        color: #FFDB00;
+        font-size: 25px;
+        padding-left: 20px;
+        text-transform: capitalize;
+        font-weight: bold;
+        padding-top: -10px;
+        cursor: default;
+    }
+    
+    .puechase_History_head_line {
+        margin-top: 45px;
+        margin-left: -240px;
+        margin-right: 280px;
+        border: 1.2px solid orangered;
+        cursor: default;
+    }
+    
+    
+    #tableHeader {
+        border-bottom: 1.2px solid orangered;
+        border-top: none !important;
+        border-right: none !important;
+        border-left: none !important;
+        padding-top: 25px;
+        margin-bottom: 5px;
+        cursor: default;
+        color: white;
+        font-size: 20px;
+    }
+    
+    #tabledata {
+        padding-top: 30px;
+        padding-left: 30px;
+        text-align: left;
+        cursor: default;
+        font-size: 15px;
+        padding-bottom: 30px;
+        font: Black 20px/27px Avenir;
+        letter-spacing: 0px;
+        color: white;
+        border-bottom: 0.8px solid #D5D5D5;
+        border-top: none !important;
+        border-right: none !important;
+        border-left: none !important;
+    }
+    
+    #purchase_history_view {
+        color: #FFDB00;
+        cursor: default;
+    }
+    
+    #tabledata1 {
+        text-align: center;
+        color: #D5D5D5;
+        border-bottom: 0.8px solid #D5D5D5;
+        border-top: none !important;
+        border-right: none !important;
+        cursor: default;
+        font: Roman 20px/27px Avenir;
+        border-left: none !important;
+    }
+    
+    #tabledata2 {
+        text-align: center;
+        color: #D5D5D5;
+        border-bottom: 0.8px solid #D5D5D5;
+        border-top: none !important;
+        border-right: none !important;
+        border-left: none !important;
+        cursor: default;
+    }
+    
+    #tabledata3 {
+        text-align: center;
+        border-bottom: 0.8px solid #D5D5D5;
+        border-top: none !important;
+        border-right: none !important;
+        border-left: none !important;
+    }
+    
+    #tabledata4 {
+        background: transparent linear-gradient(249deg, #2D2D2D 0%, #151314 100%) 0% 0% no-repeat padding-box;
+        border: none;
+        width: 100px;
+        height: 35px;
+        font: Medium 22px/30px Avenir;
+        letter-spacing: 0px;
+        color: #FFDB00;
+        border-radius: 5px;
+        text-transform: capitalize;
+        text-align: center;
+    }
+    
+    #tabledata4:hover {
+        background: transparent linear-gradient(249deg, #2D2D2D 0%, #151314 100%) 0% 0% no-repeat padding-box;
+        cursor: pointer;
     }
 }
+
 @media only screen and (min-width: 851px) 
 and (max-width: 909px) {
-    #purchasehistory-table{
-        width: 750px;
-        margin-left:5px; 
+    #purchasehistory-table {
+        width: 800px;
+        height: 250px;
+        margin-left: 50px;
+        margin-top: 50px;
+        background: transparent linear-gradient(124deg, #2D2D2D 0%, #151314 100%) 0% 0% no-repeat padding-box;
+        box-shadow: 0px 4px 10px #00000099;
+        border-radius: 15px;
+        opacity: 1;
+        border-bottom: solid 10px #FF3300;
     }
-    #purchasehistory-h2{
-       margin-left: 0px;
-    }  
-    .pos5{
-        margin-bottom:500px;
+    
+    .puechase_History_head td {
+        color: #FFDB00;
+        font-size: 25px;
+        padding-left: 20px;
+        text-transform: capitalize;
+        font-weight: bold;
+        padding-top: -10px;
+        cursor: default;
+    }
+    
+    .puechase_History_head_line {
+        margin-top: 45px;
+        margin-left: -240px;
+        margin-right: 280px;
+        border: 1.2px solid orangered;
+        cursor: default;
+    }
+    
+    
+    #tableHeader {
+        border-bottom: 1.2px solid orangered;
+        border-top: none !important;
+        border-right: none !important;
+        border-left: none !important;
+        padding-top: 25px;
+        margin-bottom: 5px;
+        cursor: default;
+        color: white;
+        font-size: 20px;
+    }
+    
+    #tabledata {
+        padding-top: 30px;
+        padding-left: 30px;
+        text-align: left;
+        cursor: default;
+        font-size: 15px;
+        padding-bottom: 30px;
+        font: Black 20px/27px Avenir;
+        letter-spacing: 0px;
+        color: white;
+        border-bottom: 0.8px solid #D5D5D5;
+        border-top: none !important;
+        border-right: none !important;
+        border-left: none !important;
+    }
+    
+    #purchase_history_view {
+        color: #FFDB00;
+        cursor: default;
+    }
+    
+    #tabledata1 {
+        text-align: center;
+        color: #D5D5D5;
+        border-bottom: 0.8px solid #D5D5D5;
+        border-top: none !important;
+        border-right: none !important;
+        cursor: default;
+        font: Roman 20px/27px Avenir;
+        border-left: none !important;
+    }
+    
+    #tabledata2 {
+        text-align: center;
+        color: #D5D5D5;
+        border-bottom: 0.8px solid #D5D5D5;
+        border-top: none !important;
+        border-right: none !important;
+        border-left: none !important;
+        cursor: default;
+    }
+    
+    #tabledata3 {
+        text-align: center;
+        border-bottom: 0.8px solid #D5D5D5;
+        border-top: none !important;
+        border-right: none !important;
+        border-left: none !important;
+    }
+    
+    #tabledata4 {
+        background: transparent linear-gradient(249deg, #2D2D2D 0%, #151314 100%) 0% 0% no-repeat padding-box;
+        border: none;
+        width: 100px;
+        height: 35px;
+        font: Medium 22px/30px Avenir;
+        letter-spacing: 0px;
+        color: #FFDB00;
+        border-radius: 5px;
+        text-transform: capitalize;
+        text-align: center;
+    }
+    
+    #tabledata4:hover {
+        background: transparent linear-gradient(249deg, #2D2D2D 0%, #151314 100%) 0% 0% no-repeat padding-box;
+        cursor: pointer;
     }
 }
+
 @media only screen and (min-width: 910px) 
 and (max-width: 1023px) {
-    #purchasehistory-table{
-        width: 781px;
-        margin-left:5px; 
+    #purchasehistory-table {
+        width: 800px;
+        height: 250px;
+        margin-left: 50px;
+        margin-top: 50px;
+        background: transparent linear-gradient(124deg, #2D2D2D 0%, #151314 100%) 0% 0% no-repeat padding-box;
+        box-shadow: 0px 4px 10px #00000099;
+        border-radius: 15px;
+        opacity: 1;
+        border-bottom: solid 10px #FF3300;
     }
-    #purchasehistory-h2{
-       margin-left: 0px;
-    }  
-    .pos5{
-        margin-bottom:500px;
+    
+    .puechase_History_head td {
+        color: #FFDB00;
+        font-size: 25px;
+        padding-left: 20px;
+        text-transform: capitalize;
+        font-weight: bold;
+        padding-top: -10px;
+        cursor: default;
+    }
+    
+    .puechase_History_head_line {
+        margin-top: 45px;
+        margin-left: -240px;
+        margin-right: 280px;
+        border: 1.2px solid orangered;
+        cursor: default;
+    }
+    
+    
+    #tableHeader {
+        border-bottom: 1.2px solid orangered;
+        border-top: none !important;
+        border-right: none !important;
+        border-left: none !important;
+        padding-top: 25px;
+        margin-bottom: 5px;
+        cursor: default;
+        color: white;
+        font-size: 20px;
+    }
+    
+    #tabledata {
+        padding-top: 30px;
+        padding-left: 30px;
+        text-align: left;
+        cursor: default;
+        font-size: 15px;
+        padding-bottom: 30px;
+        font: Black 20px/27px Avenir;
+        letter-spacing: 0px;
+        color: white;
+        border-bottom: 0.8px solid #D5D5D5;
+        border-top: none !important;
+        border-right: none !important;
+        border-left: none !important;
+    }
+    
+    #purchase_history_view {
+        color: #FFDB00;
+        cursor: default;
+    }
+    
+    #tabledata1 {
+        text-align: center;
+        color: #D5D5D5;
+        border-bottom: 0.8px solid #D5D5D5;
+        border-top: none !important;
+        border-right: none !important;
+        cursor: default;
+        font: Roman 20px/27px Avenir;
+        border-left: none !important;
+    }
+    
+    #tabledata2 {
+        text-align: center;
+        color: #D5D5D5;
+        border-bottom: 0.8px solid #D5D5D5;
+        border-top: none !important;
+        border-right: none !important;
+        border-left: none !important;
+        cursor: default;
+    }
+    
+    #tabledata3 {
+        text-align: center;
+        border-bottom: 0.8px solid #D5D5D5;
+        border-top: none !important;
+        border-right: none !important;
+        border-left: none !important;
+    }
+    
+    #tabledata4 {
+        background: transparent linear-gradient(249deg, #2D2D2D 0%, #151314 100%) 0% 0% no-repeat padding-box;
+        border: none;
+        width: 100px;
+        height: 35px;
+        font: Medium 22px/30px Avenir;
+        letter-spacing: 0px;
+        color: #FFDB00;
+        border-radius: 5px;
+        text-transform: capitalize;
+        text-align: center;
+    }
+    
+    #tabledata4:hover {
+        background: transparent linear-gradient(249deg, #2D2D2D 0%, #151314 100%) 0% 0% no-repeat padding-box;
+        cursor: pointer;
     }
 }
+
 @media only screen and (min-width: 1024px) 
 and (max-width: 1100px){
-    #purchasehistory-table{
-        width: 750px;
-        margin-left:50px; 
+    #purchasehistory-table {
+        width: 800px;
+        height: 250px;
+        margin-left: 50px;
+        margin-top: 60px;
+        background: transparent linear-gradient(124deg, #2D2D2D 0%, #151314 100%) 0% 0% no-repeat padding-box;
+        box-shadow: 0px 4px 10px #00000099;
+        border-radius: 15px;
+        opacity: 1;
+        border-bottom: solid 10px #FF3300;
     }
-    #purchasehistory-h2{
-       margin-left: 50px;
+    
+    .puechase_History_head td {
+        color: #FFDB00;
+        font-size: 25px;
+        padding-left: 20px;
+        text-transform: capitalize;
+        font-weight: bold;
+        padding-top: -10px;
+        cursor: default;
     }
-    .pos5{
-        margin-bottom:500px;
-    } 
+    
+    .puechase_History_head_line {
+        margin-top: 45px;
+        margin-left: -240px;
+        margin-right: 280px;
+        border: 1.2px solid orangered;
+        cursor: default;
+    }
+    
+    
+    #tableHeader {
+        border-bottom: 1.2px solid orangered;
+        border-top: none !important;
+        border-right: none !important;
+        border-left: none !important;
+        padding-top: 25px;
+        margin-bottom: 5px;
+        cursor: default;
+        color: white;
+        font-size: 20px;
+    }
+    
+    #tabledata {
+        padding-top: 30px;
+        padding-left: 30px;
+        text-align: left;
+        cursor: default;
+        font-size: 15px;
+        padding-bottom: 30px;
+        font: Black 20px/27px Avenir;
+        letter-spacing: 0px;
+        color: white;
+        border-bottom: 0.8px solid #D5D5D5;
+        border-top: none !important;
+        border-right: none !important;
+        border-left: none !important;
+    }
+    
+    #purchase_history_view {
+        color: #FFDB00;
+        cursor: default;
+    }
+    
+    #tabledata1 {
+        text-align: center;
+        color: #D5D5D5;
+        border-bottom: 0.8px solid #D5D5D5;
+        border-top: none !important;
+        border-right: none !important;
+        cursor: default;
+        font: Roman 20px/27px Avenir;
+        border-left: none !important;
+    }
+    
+    #tabledata2 {
+        text-align: center;
+        color: #D5D5D5;
+        border-bottom: 0.8px solid #D5D5D5;
+        border-top: none !important;
+        border-right: none !important;
+        border-left: none !important;
+        cursor: default;
+    }
+    
+    #tabledata3 {
+        text-align: center;
+        border-bottom: 0.8px solid #D5D5D5;
+        border-top: none !important;
+        border-right: none !important;
+        border-left: none !important;
+    }
+    
+    #tabledata4 {
+        background: transparent linear-gradient(249deg, #2D2D2D 0%, #151314 100%) 0% 0% no-repeat padding-box;
+        border: none;
+        width: 100px;
+        height: 35px;
+        font: Medium 22px/30px Avenir;
+        letter-spacing: 0px;
+        color: #FFDB00;
+        border-radius: 5px;
+        text-transform: capitalize;
+        text-align: center;
+    }
+    
+    #tabledata4:hover {
+        background: transparent linear-gradient(249deg, #2D2D2D 0%, #151314 100%) 0% 0% no-repeat padding-box;
+        cursor: pointer;
+    }
 }
+
 @media only screen and (min-width: 1101px) 
     and (max-width: 1200px){
-        #purchasehistory-table{
-            width: 750px;
-            margin-left:50px; 
+        #purchasehistory-table {
+            width: 800px;
+            height: 250px;
+            margin-left: 120px;
+            margin-top: 60px;
+            background: transparent linear-gradient(124deg, #2D2D2D 0%, #151314 100%) 0% 0% no-repeat padding-box;
+            box-shadow: 0px 4px 10px #00000099;
+            border-radius: 15px;
+            opacity: 1;
+            border-bottom: solid 10px #FF3300;
         }
-        #purchasehistory-h2{
-           margin-left: 50px;
+        
+        .puechase_History_head td {
+            color: #FFDB00;
+            font-size: 25px;
+            padding-left: 20px;
+            text-transform: capitalize;
+            font-weight: bold;
+            padding-top: -10px;
+            cursor: default;
         }
-        .pos5{
-            margin-bottom:500px;
-        } 
+        
+        .puechase_History_head_line {
+            margin-top: 45px;
+            margin-left: -240px;
+            margin-right: 280px;
+            border: 1.2px solid orangered;
+            cursor: default;
+        }
+        
+        
+        #tableHeader {
+            border-bottom: 1.2px solid orangered;
+            border-top: none !important;
+            border-right: none !important;
+            border-left: none !important;
+            padding-top: 25px;
+            margin-bottom: 5px;
+            cursor: default;
+            color: white;
+            font-size: 20px;
+        }
+        
+        #tabledata {
+            padding-top: 30px;
+            padding-left: 30px;
+            text-align: left;
+            cursor: default;
+            font-size: 15px;
+            padding-bottom: 30px;
+            font: Black 20px/27px Avenir;
+            letter-spacing: 0px;
+            color: white;
+            border-bottom: 0.8px solid #D5D5D5;
+            border-top: none !important;
+            border-right: none !important;
+            border-left: none !important;
+        }
+        
+        #purchase_history_view {
+            color: #FFDB00;
+            cursor: default;
+        }
+        
+        #tabledata1 {
+            text-align: center;
+            color: #D5D5D5;
+            border-bottom: 0.8px solid #D5D5D5;
+            border-top: none !important;
+            border-right: none !important;
+            cursor: default;
+            font: Roman 20px/27px Avenir;
+            border-left: none !important;
+        }
+        
+        #tabledata2 {
+            text-align: center;
+            color: #D5D5D5;
+            border-bottom: 0.8px solid #D5D5D5;
+            border-top: none !important;
+            border-right: none !important;
+            border-left: none !important;
+            cursor: default;
+        }
+        
+        #tabledata3 {
+            text-align: center;
+            border-bottom: 0.8px solid #D5D5D5;
+            border-top: none !important;
+            border-right: none !important;
+            border-left: none !important;
+        }
+        
+        #tabledata4 {
+            background: transparent linear-gradient(249deg, #2D2D2D 0%, #151314 100%) 0% 0% no-repeat padding-box;
+            border: none;
+            width: 100px;
+            height: 35px;
+            font: Medium 22px/30px Avenir;
+            letter-spacing: 0px;
+            color: #FFDB00;
+            border-radius: 5px;
+            text-transform: capitalize;
+            text-align: center;
+        }
+        
+        #tabledata4:hover {
+            background: transparent linear-gradient(249deg, #2D2D2D 0%, #151314 100%) 0% 0% no-repeat padding-box;
+            cursor: pointer;
+        }
     }
+    
 @media only screen and (min-width: 1201px) 
     and (max-width: 1300px){
-        #purchasehistory-table{
-            width: 780px;
-            margin-left:50px; 
+        #purchasehistory-table {
+            width: 800px;
+            height: 250px;
+            margin-left: 150px;
+            margin-top: 60px;
+            background: transparent linear-gradient(124deg, #2D2D2D 0%, #151314 100%) 0% 0% no-repeat padding-box;
+            box-shadow: 0px 4px 10px #00000099;
+            border-radius: 15px;
+            opacity: 1;
+            border-bottom: solid 10px #FF3300;
         }
-        #purchasehistory-h2{
-           margin-left: 50px;
-        } 
-        .pos5{
-            margin-bottom:500px;
-        } 
+        
+        .puechase_History_head td {
+            color: #FFDB00;
+            font-size: 25px;
+            padding-left: 20px;
+            text-transform: capitalize;
+            font-weight: bold;
+            padding-top: -10px;
+            cursor: default;
+        }
+        
+        .puechase_History_head_line {
+            margin-top: 45px;
+            margin-left: -240px;
+            margin-right: 280px;
+            border: 1.2px solid orangered;
+            cursor: default;
+        }
+        
+        
+        #tableHeader {
+            border-bottom: 1.2px solid orangered;
+            border-top: none !important;
+            border-right: none !important;
+            border-left: none !important;
+            padding-top: 25px;
+            margin-bottom: 5px;
+            cursor: default;
+            color: white;
+            font-size: 20px;
+        }
+        
+        #tabledata {
+            padding-top: 30px;
+            padding-left: 30px;
+            text-align: left;
+            cursor: default;
+            font-size: 15px;
+            padding-bottom: 30px;
+            font: Black 20px/27px Avenir;
+            letter-spacing: 0px;
+            color: white;
+            border-bottom: 0.8px solid #D5D5D5;
+            border-top: none !important;
+            border-right: none !important;
+            border-left: none !important;
+        }
+        
+        #purchase_history_view {
+            color: #FFDB00;
+            cursor: default;
+        }
+        
+        #tabledata1 {
+            text-align: center;
+            color: #D5D5D5;
+            border-bottom: 0.8px solid #D5D5D5;
+            border-top: none !important;
+            border-right: none !important;
+            cursor: default;
+            font: Roman 20px/27px Avenir;
+            border-left: none !important;
+        }
+        
+        #tabledata2 {
+            text-align: center;
+            color: #D5D5D5;
+            border-bottom: 0.8px solid #D5D5D5;
+            border-top: none !important;
+            border-right: none !important;
+            border-left: none !important;
+            cursor: default;
+        }
+        
+        #tabledata3 {
+            text-align: center;
+            border-bottom: 0.8px solid #D5D5D5;
+            border-top: none !important;
+            border-right: none !important;
+            border-left: none !important;
+        }
+        
+        #tabledata4 {
+            background: transparent linear-gradient(249deg, #2D2D2D 0%, #151314 100%) 0% 0% no-repeat padding-box;
+            border: none;
+            width: 100px;
+            height: 35px;
+            font: Medium 22px/30px Avenir;
+            letter-spacing: 0px;
+            color: #FFDB00;
+            border-radius: 5px;
+            text-transform: capitalize;
+            text-align: center;
+        }
+        
+        #tabledata4:hover {
+            background: transparent linear-gradient(249deg, #2D2D2D 0%, #151314 100%) 0% 0% no-repeat padding-box;
+            cursor: pointer;
+        }
     }
+
     @media only screen and (min-width: 1301px) 
     and (max-width: 1360px){
-        #purchasehistory-table{
+        #purchasehistory-table {
             width: 830px;
-            margin-left:82px; 
+            height: 250px;
+            margin-left: 150px;
+            margin-top: 60px;
+            background: transparent linear-gradient(124deg, #2D2D2D 0%, #151314 100%) 0% 0% no-repeat padding-box;
+            box-shadow: 0px 4px 10px #00000099;
+            border-radius: 15px;
+            opacity: 1;
+            border-bottom: solid 10px #FF3300;
         }
-        #purchasehistory-h2{
-           margin-left: 80px;
-        } 
-        .pos5{
-            margin-bottom:500px;
-        }  
+        
+        .puechase_History_head td {
+            color: #FFDB00;
+            font-size: 25px;
+            padding-left: 20px;
+            text-transform: capitalize;
+            font-weight: bold;
+            padding-top: -10px;
+            cursor: default;
+        }
+        
+        .puechase_History_head_line {
+            margin-top: 45px;
+            margin-left: -240px;
+            margin-right: 280px;
+            border: 1.2px solid orangered;
+            cursor: default;
+        }
+        
+        
+        #tableHeader {
+            border-bottom: 1.2px solid orangered;
+            border-top: none !important;
+            border-right: none !important;
+            border-left: none !important;
+            padding-top: 25px;
+            margin-bottom: 5px;
+            cursor: default;
+            color: white;
+            font-size: 20px;
+        }
+        
+        #tabledata {
+            padding-top: 30px;
+            padding-left: 30px;
+            text-align: left;
+            cursor: default;
+            font-size: 15px;
+            padding-bottom: 30px;
+            font: Black 20px/27px Avenir;
+            letter-spacing: 0px;
+            color: white;
+            border-bottom: 0.8px solid #D5D5D5;
+            border-top: none !important;
+            border-right: none !important;
+            border-left: none !important;
+        }
+        
+        #purchase_history_view {
+            color: #FFDB00;
+            cursor: default;
+        }
+        
+        #tabledata1 {
+            text-align: center;
+            color: #D5D5D5;
+            border-bottom: 0.8px solid #D5D5D5;
+            border-top: none !important;
+            border-right: none !important;
+            cursor: default;
+            font: Roman 20px/27px Avenir;
+            border-left: none !important;
+        }
+        
+        #tabledata2 {
+            text-align: center;
+            color: #D5D5D5;
+            border-bottom: 0.8px solid #D5D5D5;
+            border-top: none !important;
+            border-right: none !important;
+            border-left: none !important;
+            cursor: default;
+        }
+        
+        #tabledata3 {
+            text-align: center;
+            border-bottom: 0.8px solid #D5D5D5;
+            border-top: none !important;
+            border-right: none !important;
+            border-left: none !important;
+        }
+        
+        #tabledata4 {
+            background: transparent linear-gradient(249deg, #2D2D2D 0%, #151314 100%) 0% 0% no-repeat padding-box;
+            border: none;
+            width: 100px;
+            height: 35px;
+            font: Medium 22px/30px Avenir;
+            letter-spacing: 0px;
+            color: #FFDB00;
+            border-radius: 5px;
+            text-transform: capitalize;
+            text-align: center;
+        }
+        
+        #tabledata4:hover {
+            background: transparent linear-gradient(249deg, #2D2D2D 0%, #151314 100%) 0% 0% no-repeat padding-box;
+            cursor: pointer;
+        }
     }
+
     @media only screen and (min-width: 1361px) 
     and (max-width: 1440px)
     {
-        #purchasehistory-table{
-            width: 830px;
-            margin-left:82px; 
+        #purchasehistory-table {
+            width: 860px;
+            height: 250px;
+            margin-left: 180px;
+            margin-top: 60px;
+            background: transparent linear-gradient(124deg, #2D2D2D 0%, #151314 100%) 0% 0% no-repeat padding-box;
+            box-shadow: 0px 4px 10px #00000099;
+            border-radius: 15px;
+            opacity: 1;
+            border-bottom: solid 10px #FF3300;
         }
-        #purchasehistory-h2{
-           margin-left: 80px;
-           
-        }  
-        .pos5{
-            margin-bottom:500px;
+        
+        .puechase_History_head td {
+            color: #FFDB00;
+            font-size: 25px;
+            padding-left: 20px;
+            text-transform: capitalize;
+            font-weight: bold;
+            padding-top: -10px;
+            cursor: default;
+        }
+        
+        .puechase_History_head_line {
+            margin-top: 45px;
+            margin-left: -250px;
+            margin-right: 300px;
+            border: 1.2px solid orangered;
+            cursor: default;
+        }
+        
+        
+        #tableHeader {
+            border-bottom: 1.2px solid orangered;
+            border-top: none !important;
+            border-right: none !important;
+            border-left: none !important;
+            padding-top: 25px;
+            margin-bottom: 5px;
+            cursor: default;
+            color: white;
+            font-size: 20px;
+        }
+        
+        #tabledata {
+            padding-top: 30px;
+            padding-left: 30px;
+            text-align: left;
+            cursor: default;
+            font-size: 15px;
+            padding-bottom: 30px;
+            font: Black 20px/27px Avenir;
+            letter-spacing: 0px;
+            color: white;
+            border-bottom: 0.8px solid #D5D5D5;
+            border-top: none !important;
+            border-right: none !important;
+            border-left: none !important;
+        }
+        
+        #purchase_history_view {
+            color: #FFDB00;
+            cursor: default;
+        }
+        
+        #tabledata1 {
+            text-align: center;
+            color: #D5D5D5;
+            border-bottom: 0.8px solid #D5D5D5;
+            border-top: none !important;
+            border-right: none !important;
+            cursor: default;
+            font: Roman 20px/27px Avenir;
+            border-left: none !important;
+        }
+        
+        #tabledata2 {
+            text-align: center;
+            color: #D5D5D5;
+            border-bottom: 0.8px solid #D5D5D5;
+            border-top: none !important;
+            border-right: none !important;
+            border-left: none !important;
+            cursor: default;
+        }
+        
+        #tabledata3 {
+            text-align: center;
+            border-bottom: 0.8px solid #D5D5D5;
+            border-top: none !important;
+            border-right: none !important;
+            border-left: none !important;
+        }
+        
+        #tabledata4 {
+            background: transparent linear-gradient(249deg, #2D2D2D 0%, #151314 100%) 0% 0% no-repeat padding-box;
+            border: none;
+            width: 100px;
+            height: 35px;
+            font: Medium 22px/30px Avenir;
+            letter-spacing: 0px;
+            color: #FFDB00;
+            border-radius: 5px;
+            text-transform: capitalize;
+            text-align: center;
+        }
+        
+        #tabledata4:hover {
+            background: transparent linear-gradient(249deg, #2D2D2D 0%, #151314 100%) 0% 0% no-repeat padding-box;
+            cursor: pointer;
         }
     }
+
+    
     @media only screen and (min-width: 1441px) and (max-width: 1520px) {
-        #purchasehistory-table{
-            width: 830px;
-            margin-left:82px; 
+        #purchasehistory-table {
+            width: 860px;
+            height: 250px;
+            margin-left: 180px;
+            margin-top: 60px;
+            background: transparent linear-gradient(124deg, #2D2D2D 0%, #151314 100%) 0% 0% no-repeat padding-box;
+            box-shadow: 0px 4px 10px #00000099;
+            border-radius: 15px;
+            opacity: 1;
+            border-bottom: solid 10px #FF3300;
         }
-        #purchasehistory-h2{
-           margin-left: 80px;
-           
-        } 
-        .pos5{
-            margin-bottom:500px;
+        
+        .puechase_History_head td {
+            color: #FFDB00;
+            font-size: 25px;
+            padding-left: 20px;
+            text-transform: capitalize;
+            font-weight: bold;
+            padding-top: -10px;
+            cursor: default;
+        }
+        
+        .puechase_History_head_line {
+            margin-top: 45px;
+            margin-left: -250px;
+            margin-right: 300px;
+            border: 1.2px solid orangered;
+            cursor: default;
+        }
+        
+        
+        #tableHeader {
+            border-bottom: 1.2px solid orangered;
+            border-top: none !important;
+            border-right: none !important;
+            border-left: none !important;
+            padding-top: 25px;
+            margin-bottom: 5px;
+            cursor: default;
+            color: white;
+            font-size: 20px;
+        }
+        
+        #tabledata {
+            padding-top: 30px;
+            padding-left: 30px;
+            text-align: left;
+            cursor: default;
+            font-size: 15px;
+            padding-bottom: 30px;
+            font: Black 20px/27px Avenir;
+            letter-spacing: 0px;
+            color: white;
+            border-bottom: 0.8px solid #D5D5D5;
+            border-top: none !important;
+            border-right: none !important;
+            border-left: none !important;
+        }
+        
+        #purchase_history_view {
+            color: #FFDB00;
+            cursor: default;
+        }
+        
+        #tabledata1 {
+            text-align: center;
+            color: #D5D5D5;
+            border-bottom: 0.8px solid #D5D5D5;
+            border-top: none !important;
+            border-right: none !important;
+            cursor: default;
+            font: Roman 20px/27px Avenir;
+            border-left: none !important;
+        }
+        
+        #tabledata2 {
+            text-align: center;
+            color: #D5D5D5;
+            border-bottom: 0.8px solid #D5D5D5;
+            border-top: none !important;
+            border-right: none !important;
+            border-left: none !important;
+            cursor: default;
+        }
+        
+        #tabledata3 {
+            text-align: center;
+            border-bottom: 0.8px solid #D5D5D5;
+            border-top: none !important;
+            border-right: none !important;
+            border-left: none !important;
+        }
+        
+        #tabledata4 {
+            background: transparent linear-gradient(249deg, #2D2D2D 0%, #151314 100%) 0% 0% no-repeat padding-box;
+            border: none;
+            width: 100px;
+            height: 35px;
+            font: Medium 22px/30px Avenir;
+            letter-spacing: 0px;
+            color: #FFDB00;
+            border-radius: 5px;
+            text-transform: capitalize;
+            text-align: center;
+        }
+        
+        #tabledata4:hover {
+            background: transparent linear-gradient(249deg, #2D2D2D 0%, #151314 100%) 0% 0% no-repeat padding-box;
+            cursor: pointer;
         }
     }
     
     @media only screen and (min-width: 1521px) and (max-width: 1600px) {
-        #purchasehistory-table{
-            width: 830px;
-            margin-left:82px; 
+        #purchasehistory-table {
+            width: 900px;
+            height: 350px;
+            margin-left: 180px;
+            margin-top: 60px;
+            background: transparent linear-gradient(124deg, #2D2D2D 0%, #151314 100%) 0% 0% no-repeat padding-box;
+            box-shadow: 0px 4px 10px #00000099;
+            border-radius: 15px;
+            opacity: 1;
+            border-bottom: solid 10px #FF3300;
         }
-        #purchasehistory-h2{
-           margin-left: 80px;
-           
-        } 
-        .pos5{
-            margin-bottom:500px;
+        
+        .puechase_History_head td {
+            color: #FFDB00;
+            font-size: 25px;
+            padding-left: 20px;
+            text-transform: capitalize;
+            font-weight: bold;
+            padding-top: -10px;
+            cursor: default;
+        }
+        
+        .puechase_History_head_line {
+            margin-top: 45px;
+            margin-left: -270px;
+            margin-right: 320px;
+            border: 1.2px solid orangered;
+            cursor: default;
+        }
+        
+        
+        #tableHeader {
+            border-bottom: 1.2px solid orangered;
+            border-top: none !important;
+            border-right: none !important;
+            border-left: none !important;
+            padding-top: 25px;
+            margin-bottom: 5px;
+            cursor: default;
+            color: white;
+            font-size: 20px;
+        }
+        
+        #tabledata {
+            padding-top: 30px;
+            padding-left: 30px;
+            text-align: left;
+            cursor: default;
+            font-size: 15px;
+            padding-bottom: 30px;
+            font: Black 20px/27px Avenir;
+            letter-spacing: 0px;
+            color: white;
+            border-bottom: 0.8px solid #D5D5D5;
+            border-top: none !important;
+            border-right: none !important;
+            border-left: none !important;
+        }
+        
+        #purchase_history_view {
+            color: #FFDB00;
+            cursor: default;
+        }
+        
+        #tabledata1 {
+            text-align: center;
+            color: #D5D5D5;
+            border-bottom: 0.8px solid #D5D5D5;
+            border-top: none !important;
+            border-right: none !important;
+            cursor: default;
+            font: Roman 20px/27px Avenir;
+            border-left: none !important;
+        }
+        
+        #tabledata2 {
+            text-align: center;
+            color: #D5D5D5;
+            border-bottom: 0.8px solid #D5D5D5;
+            border-top: none !important;
+            border-right: none !important;
+            border-left: none !important;
+            cursor: default;
+        }
+        
+        #tabledata3 {
+            text-align: center;
+            border-bottom: 0.8px solid #D5D5D5;
+            border-top: none !important;
+            border-right: none !important;
+            border-left: none !important;
+        }
+        
+        #tabledata4 {
+            background: transparent linear-gradient(249deg, #2D2D2D 0%, #151314 100%) 0% 0% no-repeat padding-box;
+            border: none;
+            width: 100px;
+            height: 35px;
+            font: Medium 22px/30px Avenir;
+            letter-spacing: 0px;
+            color: #FFDB00;
+            border-radius: 5px;
+            text-transform: capitalize;
+            text-align: center;
+        }
+        
+        #tabledata4:hover {
+            background: transparent linear-gradient(249deg, #2D2D2D 0%, #151314 100%) 0% 0% no-repeat padding-box;
+            cursor: pointer;
         }
     }
-    
+   
     @media only screen and (min-width: 1601px) and (max-width: 1680px) {
-        #purchasehistory-table{
-            width: 830px;
-            margin-left:82px; 
+        #purchasehistory-table {
+            width: 930px;
+            height: 350px;
+            margin-left: 180px;
+            margin-top: 60px;
+            background: transparent linear-gradient(124deg, #2D2D2D 0%, #151314 100%) 0% 0% no-repeat padding-box;
+            box-shadow: 0px 4px 10px #00000099;
+            border-radius: 15px;
+            opacity: 1;
+            border-bottom: solid 10px #FF3300;
         }
-        #purchasehistory-h2{
-           margin-left: 80px;
-           
-        } 
-        .pos5{
-            margin-bottom:500px;
+        
+        .puechase_History_head td {
+            color: #FFDB00;
+            font-size: 25px;
+            padding-left: 20px;
+            text-transform: capitalize;
+            font-weight: bold;
+            padding-top: -10px;
+            cursor: default;
+        }
+        
+        .puechase_History_head_line {
+            margin-top: 45px;
+            margin-left: -280px;
+            margin-right: 340px;
+            border: 1.2px solid orangered;
+            cursor: default;
+        }
+        
+        
+        #tableHeader {
+            border-bottom: 1.2px solid orangered;
+            border-top: none !important;
+            border-right: none !important;
+            border-left: none !important;
+            padding-top: 25px;
+            margin-bottom: 5px;
+            cursor: default;
+            color: white;
+            font-size: 20px;
+        }
+        
+        #tabledata {
+            padding-top: 30px;
+            padding-left: 30px;
+            text-align: left;
+            cursor: default;
+            font-size: 15px;
+            padding-bottom: 30px;
+            font: Black 20px/27px Avenir;
+            letter-spacing: 0px;
+            color: white;
+            border-bottom: 0.8px solid #D5D5D5;
+            border-top: none !important;
+            border-right: none !important;
+            border-left: none !important;
+        }
+        
+        #purchase_history_view {
+            color: #FFDB00;
+            cursor: default;
+        }
+        
+        #tabledata1 {
+            text-align: center;
+            color: #D5D5D5;
+            border-bottom: 0.8px solid #D5D5D5;
+            border-top: none !important;
+            border-right: none !important;
+            cursor: default;
+            font: Roman 20px/27px Avenir;
+            border-left: none !important;
+        }
+        
+        #tabledata2 {
+            text-align: center;
+            color: #D5D5D5;
+            border-bottom: 0.8px solid #D5D5D5;
+            border-top: none !important;
+            border-right: none !important;
+            border-left: none !important;
+            cursor: default;
+        }
+        
+        #tabledata3 {
+            text-align: center;
+            border-bottom: 0.8px solid #D5D5D5;
+            border-top: none !important;
+            border-right: none !important;
+            border-left: none !important;
+        }
+        
+        #tabledata4 {
+            background: transparent linear-gradient(249deg, #2D2D2D 0%, #151314 100%) 0% 0% no-repeat padding-box;
+            border: none;
+            width: 100px;
+            height: 35px;
+            font: Medium 22px/30px Avenir;
+            letter-spacing: 0px;
+            color: #FFDB00;
+            border-radius: 5px;
+            text-transform: capitalize;
+            text-align: center;
+        }
+        
+        #tabledata4:hover {
+            background: transparent linear-gradient(249deg, #2D2D2D 0%, #151314 100%) 0% 0% no-repeat padding-box;
+            cursor: pointer;
         }
     }
     
     @media only screen and (min-width: 1680px) and (max-width: 1760px) {
-        #purchasehistory-table{
-            width: 830px;
-            margin-left:82px; 
+        #purchasehistory-table {
+            width: 960px;
+            height: 380px;
+            margin-left: 180px;
+            margin-top: 60px;
+            background: transparent linear-gradient(124deg, #2D2D2D 0%, #151314 100%) 0% 0% no-repeat padding-box;
+            box-shadow: 0px 4px 10px #00000099;
+            border-radius: 15px;
+            opacity: 1;
+            border-bottom: solid 10px #FF3300;
         }
-        #purchasehistory-h2{
-           margin-left: 80px;
-        } 
-        .pos5{
-            margin-bottom:500px;
+        
+        .puechase_History_head td {
+            color: #FFDB00;
+            font-size: 25px;
+            padding-left: 20px;
+            text-transform: capitalize;
+            font-weight: bold;
+            padding-top: -10px;
+            cursor: default;
+        }
+        
+        .puechase_History_head_line {
+            margin-top: 45px;
+            margin-left: -300px;
+            margin-right: 360px;
+            border: 1.2px solid orangered;
+            cursor: default;
+        }
+        
+        
+        #tableHeader {
+            border-bottom: 1.2px solid orangered;
+            border-top: none !important;
+            border-right: none !important;
+            border-left: none !important;
+            padding-top: 25px;
+            margin-bottom: 5px;
+            cursor: default;
+            color: white;
+            font-size: 20px;
+        }
+        
+        #tabledata {
+            padding-top: 30px;
+            padding-left: 30px;
+            text-align: left;
+            cursor: default;
+            font-size: 15px;
+            padding-bottom: 30px;
+            font: Black 20px/27px Avenir;
+            letter-spacing: 0px;
+            color: white;
+            border-bottom: 0.8px solid #D5D5D5;
+            border-top: none !important;
+            border-right: none !important;
+            border-left: none !important;
+        }
+        
+        #purchase_history_view {
+            color: #FFDB00;
+            cursor: default;
+        }
+        
+        #tabledata1 {
+            text-align: center;
+            color: #D5D5D5;
+            border-bottom: 0.8px solid #D5D5D5;
+            border-top: none !important;
+            border-right: none !important;
+            cursor: default;
+            font: Roman 20px/27px Avenir;
+            border-left: none !important;
+        }
+        
+        #tabledata2 {
+            text-align: center;
+            color: #D5D5D5;
+            border-bottom: 0.8px solid #D5D5D5;
+            border-top: none !important;
+            border-right: none !important;
+            border-left: none !important;
+            cursor: default;
+        }
+        
+        #tabledata3 {
+            text-align: center;
+            border-bottom: 0.8px solid #D5D5D5;
+            border-top: none !important;
+            border-right: none !important;
+            border-left: none !important;
+        }
+        
+        #tabledata4 {
+            background: transparent linear-gradient(249deg, #2D2D2D 0%, #151314 100%) 0% 0% no-repeat padding-box;
+            border: none;
+            width: 100px;
+            height: 35px;
+            font: Medium 22px/30px Avenir;
+            letter-spacing: 0px;
+            color: #FFDB00;
+            border-radius: 5px;
+            text-transform: capitalize;
+            text-align: center;
+        }
+        
+        #tabledata4:hover {
+            background: transparent linear-gradient(249deg, #2D2D2D 0%, #151314 100%) 0% 0% no-repeat padding-box;
+            cursor: pointer;
         }
     }
-    
+
     @media only screen and (min-width: 1760px) and (max-width: 1840px) {
-        #purchasehistory-table{
-            width: 830px;
-            margin-left:82px; 
+        #purchasehistory-table {
+            width: 990px;
+            height: 400px;
+            margin-left: 180px;
+            margin-top: 60px;
+            background: transparent linear-gradient(124deg, #2D2D2D 0%, #151314 100%) 0% 0% no-repeat padding-box;
+            box-shadow: 0px 4px 10px #00000099;
+            border-radius: 15px;
+            opacity: 1;
+            border-bottom: solid 10px #FF3300;
         }
-        #purchasehistory-h2{
-           margin-left: 80px;
-           
-        } 
-        .pos5{
-            margin-bottom:500px;
+        
+        .puechase_History_head td {
+            color: #FFDB00;
+            font-size: 25px;
+            padding-left: 20px;
+            text-transform: capitalize;
+            font-weight: bold;
+            padding-top: -10px;
+            cursor: default;
+        }
+        
+        .puechase_History_head_line {
+            margin-top: 45px;
+            margin-left: -310px;
+            margin-right: 380px;
+            border: 1.2px solid orangered;
+            cursor: default;
+        }
+        
+        
+        #tableHeader {
+            border-bottom: 1.2px solid orangered;
+            border-top: none !important;
+            border-right: none !important;
+            border-left: none !important;
+            padding-top: 25px;
+            margin-bottom: 5px;
+            cursor: default;
+            color: white;
+            font-size: 20px;
+        }
+        
+        #tabledata {
+            padding-top: 30px;
+            padding-left: 30px;
+            text-align: left;
+            cursor: default;
+            font-size: 15px;
+            padding-bottom: 30px;
+            font: Black 20px/27px Avenir;
+            letter-spacing: 0px;
+            color: white;
+            border-bottom: 0.8px solid #D5D5D5;
+            border-top: none !important;
+            border-right: none !important;
+            border-left: none !important;
+        }
+        
+        #purchase_history_view {
+            color: #FFDB00;
+            cursor: default;
+        }
+        
+        #tabledata1 {
+            text-align: center;
+            color: #D5D5D5;
+            border-bottom: 0.8px solid #D5D5D5;
+            border-top: none !important;
+            border-right: none !important;
+            cursor: default;
+            font: Roman 20px/27px Avenir;
+            border-left: none !important;
+        }
+        
+        #tabledata2 {
+            text-align: center;
+            color: #D5D5D5;
+            border-bottom: 0.8px solid #D5D5D5;
+            border-top: none !important;
+            border-right: none !important;
+            border-left: none !important;
+            cursor: default;
+        }
+        
+        #tabledata3 {
+            text-align: center;
+            border-bottom: 0.8px solid #D5D5D5;
+            border-top: none !important;
+            border-right: none !important;
+            border-left: none !important;
+        }
+        
+        #tabledata4 {
+            background: transparent linear-gradient(249deg, #2D2D2D 0%, #151314 100%) 0% 0% no-repeat padding-box;
+            border: none;
+            width: 100px;
+            height: 35px;
+            font: Medium 22px/30px Avenir;
+            letter-spacing: 0px;
+            color: #FFDB00;
+            border-radius: 5px;
+            text-transform: capitalize;
+            text-align: center;
+        }
+        
+        #tabledata4:hover {
+            background: transparent linear-gradient(249deg, #2D2D2D 0%, #151314 100%) 0% 0% no-repeat padding-box;
+            cursor: pointer;
         }
     }
     
     @media only screen and (min-width: 1840px) and (max-width: 1920px) {
-        #purchasehistory-table{
-            width: 830px;
-            margin-left:82px; 
+        #purchasehistory-table {
+            width: 1020px;
+            height: 420px;
+            margin-left: 180px;
+            margin-top: 60px;
+            background: transparent linear-gradient(124deg, #2D2D2D 0%, #151314 100%) 0% 0% no-repeat padding-box;
+            box-shadow: 0px 4px 10px #00000099;
+            border-radius: 15px;
+            opacity: 1;
+            border-bottom: solid 10px #FF3300;
         }
-        #purchasehistory-h2{
-           margin-left: 80px;
+        
+        .puechase_History_head td {
+            color: #FFDB00;
+            font-size: 25px;
+            padding-left: 20px;
+            text-transform: capitalize;
+            font-weight: bold;
+            padding-top: -10px;
+            cursor: default;
         }
-        .pos5{
-            margin-bottom:500px;
+        
+        .puechase_History_head_line {
+            margin-top: 45px;
+            margin-left: -320px;
+            margin-right: 400px;
+            border: 1.2px solid orangered;
+            cursor: default;
+        }
+        
+        
+        #tableHeader {
+            border-bottom: 1.2px solid orangered;
+            border-top: none !important;
+            border-right: none !important;
+            border-left: none !important;
+            padding-top: 25px;
+            margin-bottom: 5px;
+            cursor: default;
+            color: white;
+            font-size: 20px;
+        }
+        
+        #tabledata {
+            padding-top: 30px;
+            padding-left: 30px;
+            text-align: left;
+            cursor: default;
+            font-size: 15px;
+            padding-bottom: 30px;
+            font: Black 20px/27px Avenir;
+            letter-spacing: 0px;
+            color: white;
+            border-bottom: 0.8px solid #D5D5D5;
+            border-top: none !important;
+            border-right: none !important;
+            border-left: none !important;
+        }
+        
+        #purchase_history_view {
+            color: #FFDB00;
+            cursor: default;
+        }
+        
+        #tabledata1 {
+            text-align: center;
+            color: #D5D5D5;
+            border-bottom: 0.8px solid #D5D5D5;
+            border-top: none !important;
+            border-right: none !important;
+            cursor: default;
+            font: Roman 20px/27px Avenir;
+            border-left: none !important;
+        }
+        
+        #tabledata2 {
+            text-align: center;
+            color: #D5D5D5;
+            border-bottom: 0.8px solid #D5D5D5;
+            border-top: none !important;
+            border-right: none !important;
+            border-left: none !important;
+            cursor: default;
+        }
+        
+        #tabledata3 {
+            text-align: center;
+            border-bottom: 0.8px solid #D5D5D5;
+            border-top: none !important;
+            border-right: none !important;
+            border-left: none !important;
+        }
+        
+        #tabledata4 {
+            background: transparent linear-gradient(249deg, #2D2D2D 0%, #151314 100%) 0% 0% no-repeat padding-box;
+            border: none;
+            width: 100px;
+            height: 35px;
+            font: Medium 22px/30px Avenir;
+            letter-spacing: 0px;
+            color: #FFDB00;
+            border-radius: 5px;
+            text-transform: capitalize;
+            text-align: center;
+        }
+        
+        #tabledata4:hover {
+            background: transparent linear-gradient(249deg, #2D2D2D 0%, #151314 100%) 0% 0% no-repeat padding-box;
+            cursor: pointer;
         }
            
         
     }
     
     @media only screen and (min-width: 1920px) and (max-width: 2000px) {
-        #purchasehistory-table{
-            width: 830px;
-            margin-left:82px; 
+        #purchasehistory-table {
+            width: 1020px;
+            height: 420px;
+            margin-left: 180px;
+            margin-top: 60px;
+            background: transparent linear-gradient(124deg, #2D2D2D 0%, #151314 100%) 0% 0% no-repeat padding-box;
+            box-shadow: 0px 4px 10px #00000099;
+            border-radius: 15px;
+            opacity: 1;
+            border-bottom: solid 10px #FF3300;
         }
-        #purchasehistory-h2{
-           margin-left: 80px;           
-        } 
-        .pos5{
-            margin-bottom:500px;
+        
+        .puechase_History_head td {
+            color: #FFDB00;
+            font-size: 25px;
+            padding-left: 20px;
+            text-transform: capitalize;
+            font-weight: bold;
+            padding-top: -10px;
+            cursor: default;
         }
+        
+        .puechase_History_head_line {
+            margin-top: 45px;
+            margin-left: -320px;
+            margin-right: 400px;
+            border: 1.2px solid orangered;
+            cursor: default;
+        }
+        
+        
+        #tableHeader {
+            border-bottom: 1.2px solid orangered;
+            border-top: none !important;
+            border-right: none !important;
+            border-left: none !important;
+            padding-top: 25px;
+            margin-bottom: 5px;
+            cursor: default;
+            color: white;
+            font-size: 20px;
+        }
+        
+        #tabledata {
+            padding-top: 30px;
+            padding-left: 30px;
+            text-align: left;
+            cursor: default;
+            font-size: 15px;
+            padding-bottom: 30px;
+            font: Black 20px/27px Avenir;
+            letter-spacing: 0px;
+            color: white;
+            border-bottom: 0.8px solid #D5D5D5;
+            border-top: none !important;
+            border-right: none !important;
+            border-left: none !important;
+        }
+        
+        #purchase_history_view {
+            color: #FFDB00;
+            cursor: default;
+        }
+        
+        #tabledata1 {
+            text-align: center;
+            color: #D5D5D5;
+            border-bottom: 0.8px solid #D5D5D5;
+            border-top: none !important;
+            border-right: none !important;
+            cursor: default;
+            font: Roman 20px/27px Avenir;
+            border-left: none !important;
+        }
+        
+        #tabledata2 {
+            text-align: center;
+            color: #D5D5D5;
+            border-bottom: 0.8px solid #D5D5D5;
+            border-top: none !important;
+            border-right: none !important;
+            border-left: none !important;
+            cursor: default;
+        }
+        
+        #tabledata3 {
+            text-align: center;
+            border-bottom: 0.8px solid #D5D5D5;
+            border-top: none !important;
+            border-right: none !important;
+            border-left: none !important;
+        }
+        
+        #tabledata4 {
+            background: transparent linear-gradient(249deg, #2D2D2D 0%, #151314 100%) 0% 0% no-repeat padding-box;
+            border: none;
+            width: 100px;
+            height: 35px;
+            font: Medium 22px/30px Avenir;
+            letter-spacing: 0px;
+            color: #FFDB00;
+            border-radius: 5px;
+            text-transform: capitalize;
+            text-align: center;
+        }
+        
+        #tabledata4:hover {
+            background: transparent linear-gradient(249deg, #2D2D2D 0%, #151314 100%) 0% 0% no-repeat padding-box;
+            cursor: pointer;
+        }
+           
+        
     }

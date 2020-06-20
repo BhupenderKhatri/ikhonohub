@@ -39,7 +39,7 @@ class MyCoursesDetails extends Component{
 
   listItems = () =>
   this.state.users.map(user => (
-    <div className="card">
+    <div className="card_mycourse">
       <MyCoursessend
                                     heading={user.heading}
                                     data={user.data}
@@ -52,7 +52,7 @@ class MyCoursesDetails extends Component{
   render(){
   return (
       <div >  
-           <div className="container">{this.listItems()}</div>
+      <div className="container_mycourse">{this.listItems()}</div>
 
           </div>
           

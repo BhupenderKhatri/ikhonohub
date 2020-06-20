@@ -33,6 +33,7 @@ class CardList extends Component {
   this.state.users.map(user => (
     <div className="card">
       <Card
+      id={user.id}
     heading={user.heading}
     data={user.data}
     name={user.name}

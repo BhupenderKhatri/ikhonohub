@@ -6,6 +6,7 @@ const bcrypt = require('bcrypt')
 const nodemailer = require("nodemailer");
 var url = require('url');
 const User = require('../models/User')
+const profile_info = require('../models/profile_info')
 var jwtDecode = require('jwt-decode');
 users.use(cors())
 
@@ -37,75 +38,63 @@ users.post('/register', (req, res) => {
             password2: req.body.signupPassword2
         }
         console.log(userData);
-        let errors = [];
 
-        console.log(userData);
-        if (!userData.name || !userData.email || !userData.password || !userData.password2) {
-            errors.push({ message: "Please enter all fields" });
-        }
+        User.findOne({
+            where: {
+                email: req.body.signupEmail
+            }
+        })
 
-        if (userData.password.length < 6) {
-            errors.push({ message: "Password must be a least 6 characters long" });
-        }
+        .then(users => {
+                if (!users) {
+                    bcrypt.hash(req.body.signupPassword, 10, (err, hash) => {
 
-        if (userData.password !== userData.password2) {
-            errors.push({ message: "Passwords do not match" });
-        }
+                        console.log("hereeeee");
 
-        if (errors.length > 0) {
-            // res.send("register", { errors, userData.name, userData.email, password, password2 });
-        } else {
-            User.findOne({
-                where: {
-                    email: req.body.signupEmail
+                        function Store(pass) {
+
+
+                            var mailOption = {
+                                from: 'iknonohhub@gmail.com', // sender this is your email here
+                                to: req.body.signupEmail, // receiver email2 
+                                subject: "Account Verification",
+                                html: `<h4>Hello ,Please Click on this link to verify you account<h4><br><hr>
+    <br><a href="http://localhost:5000/users/verification/?em=${userData.email}">CLICK ME TO ACTIVATE YOUR ACCOUNT</a>`
+                            }
+
+                            transporter.sendMail(mailOption, (error, info) => {
+                                if (error) {
+                                    console.log(error)
+                                } else {
+                                    userData.password = hash
+
+                                    User.create(userData)
+                                        .then(users => {
+                                            profile_info.create({ student_id: users.student_id, name: userData.name, email: userData.email})
+                                            .then(users1 => {
+                                                console.log("here");
+                                            })
+                                            res.json({ status: users.email + 'Registered!' })
+                                        })
+                                        .catch(err => {
+                                            res.send('error: ' + err)
+                                        })
+
+
+                                }
+                            });
+
+                        }
+                        Store(hash);
+                    })
+                } else {
+                    console.log('User already exists');
                 }
             })
+            .catch(err => {
+                console.log('error: ' + err)
+            })
 
-            .then(users => {
-                    if (!users) {
-                        bcrypt.hash(req.body.signupPassword, 10, (err, hash) => {
-
-                            console.log("hereeeee");
-
-                            function Store(pass) {
-
-
-                                var mailOption = {
-                                    from: 'iknonohhub@gmail.com', // sender this is your email here
-                                    to: req.body.signupEmail, // receiver email2 
-                                    subject: "Account Verification",
-                                    html: `<h4>Hello ,Please Click on this link to verify you account<h4><br><hr>
-    <br><a href="http://localhost:5000/users/verification/?em=${userData.email}">CLICK ME TO ACTIVATE YOUR ACCOUNT</a>`
-                                }
-
-                                transporter.sendMail(mailOption, (error, info) => {
-                                    if (error) {
-                                        console.log(error)
-                                    } else {
-                                        userData.password = hash
-                                        User.create(userData)
-                                            .then(users => {
-                                                res.json({ status: users.email + 'Registered!' })
-                                            })
-                                            .catch(err => {
-                                                res.send('error: ' + err)
-                                            })
-
-
-                                    }
-                                });
-
-                            }
-                            Store(hash);
-                        })
-                    } else {
-                        console.log('User already exists');
-                    }
-                })
-                .catch(err => {
-                    console.log('error: ' + err)
-                })
-        }
     }
 })
 
@@ -115,10 +104,6 @@ users.get('/verification/', (req, res) => {
     var q = url.parse(req.url, true);
     var qdata = q.query;
     console.log(qdata.em);
-    var ud = {
-
-        verified: true
-    }
     console.log("heree")
     User.findOne({
             where: {
@@ -140,7 +125,7 @@ users.get('/verification/', (req, res) => {
 users.post('/login', (req, res) => {
 
         if (req.body.token) {
-            
+
 
             var decoded = jwtDecode(req.body.token);
             console.log(decoded.student_id);
@@ -159,6 +144,7 @@ users.post('/login', (req, res) => {
                 .then(users => {
 
                     if (users) {
+                        console.log("hello");
 
                         if (bcrypt.compareSync(req.body.password, users.password)) {
 
@@ -174,13 +160,12 @@ users.post('/login', (req, res) => {
                             } else {
                                 console.log("not verfied")
                             }
-                        }
-                        else{
+                        } else {
                             console.log("invalid password");
 
-                        console.log('User does not exist')
+                            console.log('User does not exist')
                         }
-                    } 
+                    }
                 })
                 .catch(err => {
 
@@ -224,76 +209,69 @@ users.post('/logout', (req, res) => {
 })
 
 
-
-const user ={
-    info:[
-        {
-            userid:1,
-            name:"Khatri",
-            gender:'male',
-            subscription:'Free',
-            streak:'5',
-            badges:'0',
-            email:'bhupi@gmail.com',
-            mobilenumber:999999999
-
-        }
-    ],
-    add:[
-        {
-            userid:1,
-            name:"khatri",
-            phonenumber:9999999,
-            pincode:140401,
-            locality:"",
-            message:"",
-            city:"ghanaur",
-            state:"haryana",
-            landmark:"unknown",
-            type:"home"
-        }
-
-    ]
-
-}
+users.post('/personalinfo', (req, res) => {
+            profile_info.findAll({ where: { student_id: req.body.id } }).then(data => {
+            res.send(data);
+            console.log(data)
+        }).catch(err => {
+            res.status(500).send({
+                message: err.message
+            });
+        });
+    })
 
 
 
 
-users.post('/addressinfo',(req,res)=>{
-    const userdataid = {  id:req.body.id };
-   console.log(userdataid.id);
-   res.json(user.add);
-   }
-)
-
-
-
-
-
-users.post('/personalinfo',(req,res)=>{
-    const userdataid = {  id:req.body.id };
-   console.log(userdataid.id);
-   res.json(user.info);
-   }
-)
-
-users.post('/addresschange',(req,res)=>{
-    const addresschange={
-       name:req.body.addressname,
-       number:req.body.addressnumber,
-        pincode:req.body.addresspincode,
-       city:req.body.addresscity,
-        locality:req.body.addresslocality,
-        state:req.body.addressstate,
-        landmark:req.body.addresslandmark,
-        type:req.body.addresstype
+users.post('/profilechange', (req,res) =>{
+    const today = new Date()
+    const personalinformation = {
+        name: req.body.name,
+        mobile: req.body.mobile,
+        gender:req.body.gender,
+        address: req.body.address
     }
+    console.log(personalinformation);
+    
+    
+    profile_info.findOne({
+        where: {
+            pf_id: req.body.id
+        }
+    }).then((profile_info) => {
+
+       
+            profile_info.name = personalinformation.name
+            profile_info.mobile= personalinformation.mobile
+            profile_info.gender= personalinformation.gender
+            profile_info.address=personalinformation.address
+            profile_info.save();
+
+            res.send('hello');
+        })  .catch(err => {
+            res.send('error: ' + err)
+        })
+        
+       })
+  
+    
+
+// users.post('/addresschange', (req, res) => {
+//     const addresschange = {
+//         name: req.body.addressname,
+//         number: req.body.addressnumber,
+//         pincode: req.body.addresspincode,
+//         city: req.body.addresscity,
+//         locality: req.body.addresslocality,
+//         state: req.body.addressstate,
+//         landmark: req.body.addresslandmark,
+//         type: req.body.addresstype
+//     }
 
 
-    console.log(addresschange);
-    res.json('addsucess');
-})
+//     console.log(addresschange);
+//     res.json('addsucess');
+// })
 
 
 

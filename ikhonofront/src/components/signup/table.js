@@ -3,7 +3,7 @@ import './table.css';
 import 'tachyons' ;
 import Facebook from './fb.png';
 import Twitter from './twit.png';
-import Google from './google.png' ;
+import Google from './sahivaligoogli.png' ;
 import Loginnav from '../loginnav/loginnav';
 import axios from 'axios';
 import history from '../../history';
@@ -77,19 +77,18 @@ class table extends Component{
                 <Loginnav/>
               </div>
 
-              <section class="img">
+              
             
-            
-            <a href="/login"  ><button class="loginsignup" id="aa"  >Login</button></a>
-                   <button class="signupsignup" >Signup</button>
 
                 <table id='signingup'>
+               <tr><a href="/login" class="loginsignup"  >Login</a><span id="sign_in_slogan_danda">/</span>
+                   <a class="signupsignup" >Signup</a></tr> 
                     <tr>
         <td> {<input 
                     type= "text " 
                     name="username"
                      placeholder=  " Enter Name " 
-                     class="inputs"
+                     class="sign_in_inputs"
                     onChange={this.onUsersignupchange}
                      ></input>}</td>
                     </tr>
@@ -99,7 +98,7 @@ class table extends Component{
                                type= "email"
                                 name="email" 
                                 placeholder="Enter Email " 
-                                class="inputs"
+                                class="sign_in_inputs"
                                 onChange={this.onEmailsignupchange}
                                 ></input>}</td>
                     </tr>
@@ -109,7 +108,7 @@ class table extends Component{
                                type= "password" 
                                name="password" 
                                placeholder="Enter Password " 
-                               class="inputs" 
+                               class="sign_in_inputs" 
                                onChange={this.onPasswordsignupchange}
                                ></input>}</td>
                     </tr>
@@ -117,36 +116,43 @@ class table extends Component{
                          <td> {<input type= "password"
                           name="passwordConf"
                            placeholder="Confirm Password "
-                            class="inputs" 
+                            class="sign_in_inputs" 
                           onChange={this.onPassword2signupchange}
                           ></input>}</td>
                     </tr>
                     <tr>
                          <td>
-                         {<button id="aa" class="willsubmit" onClick={this.onSubmitsignup}>Login</button>}
+                         {<button  class="sign_in_willsubmit" onClick={this.onSubmitsignup}>Register</button>}
                          </td>
                     </tr>
                     
-                     <tr>
-                         {<hr height='50px' breath='15px'></hr>}
-                     </tr>
+                    <tr>
+                    
+                    <td > 
+                         <p class='sign_in_or'>OR</p>
+                    </td >
+                    </tr> 
                   
-                    <tr class="logos3">
+                    <tr class="sign_in_logos3">
                       {< a href="https://www.facebook.com/">  <img src= {Facebook}  alt="Error"></img> </a>}
                     </tr>
 
-                    <tr class="logos4">
+                    <tr class="sign_in_logos4">
                       <a href="https://twitter.com/" >  {<img src= {Twitter}  alt="Error"></img>}</a>
                     </tr>
-                    <tr class="logos5" >
+                    <tr class="sign_in_logos5" >
                      <a href="https://www.google.co.in/">{<img src= {Google}  alt="Error"></img>}</a> 
                     </tr>
               
                 
                     
         </table>  
-                    
-                    </section>
+
+                   <div id="sign_in_slogan">
+    <h2 id="sign_in_slogan_heading">Where Aspiration Meets Preparation</h2>
+    <p id="sign_in_slogan_para">Find your next opportunity, get that key introduction, even meet a co-founder. Someone in our thriving and supportive <strong><span class="sign_in_spancolor">IKHONO HUB</span></strong> community is always online willing to lend a hand.</p>
+  </div> 
+               
             </div>
 
         );

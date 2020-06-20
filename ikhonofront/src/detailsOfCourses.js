@@ -1,9 +1,9 @@
 export const intro=[{
     id:1,
     heading: 'The Complete study of Python',
-    subtitle : '  2020 : Zero to Hero' ,
-    paragraph: 'Learn to code and become a Web Developer in 2020 with HTML, CSS, Javascript, React, Node.js, Machine Learning & more! Learn to code and become a Web Developer in 2020 with HTML, CSS, Javascript, React, Node.js, Machine Learning & more! ',
-    creator : 'Created By-Siddharth Tewani'
+    subtitle : '  2020 : Zero to Mastery' ,
+    paragraph: '75 Rating  18 Review',
+    creator : 'Start Your Course'
 }
 ];
 export const what_you_learn =[{

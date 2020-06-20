@@ -3,10 +3,12 @@ import './course_intro.css' ;
 
 const Right_Now = ({head, para1 , para2  }) => {
     return (
-      <div>
-          <h1 id="heading3">{head}</h1>
-        <p class="content3">{para1}</p>
-        <p  class="content3">{para2}</p> 
+     <div> <div>
+          <h1 id="heading3_coursedetail">{head}</h1>
+        <p class="content3_coursedetail">{para1}</p>
+        <p  class="content3_coursedetail">{para2}</p> 
+      </div>
+      
       </div>
     );
   }

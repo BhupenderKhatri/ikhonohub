@@ -3,7 +3,7 @@ import './course_intro.css' ;
 
 const Questions = ({ques1,ques2,ques3,ans1,ans2,ans3,point1,point2,point3}) => {
     return (
-      <div id="background">
+      <div id="background_course">
           <h1 id="heading5">
           Answers to your questions
           </h1>

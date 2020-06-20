@@ -1,88 +1,98 @@
-.head{
+.head {
     padding-left: 13%;
     margin-top: 10px;
 }
 
-.styling{
+.styling {
     font-size: 110%;
-    width:1050px ;
+    width: 1050px;
     padding-left: 13%;
     line-height: 35px;
 }
-#firsthalf
-{
+
+#firsthalf {
     width: 500px;
     padding-left: 15%;
     line-height: 30px;
     font-size: 120%;
 }
-#secondhalf{
+
+#secondhalf {
     width: 500px;
     padding-left: 40px;
     line-height: 30px;
     font-size: 120%;
 }
-#list
-{
+
+#list {
     list-style: circle;
-    
 }
-#heading2
-{
-   margin-left: 25%;
-   margin-top: 40px;
-   font-size: 220%;
-}
-#heading3{
-    margin-left: 16%;
-    margin-top: 6%;
-    margin-bottom: 40px;
-    font-size: 210%;
-    width: 1000px;
-}
-.content3{
-    font-size: 120%;
-    margin-top: 2%;
-    padding-left: 12%;
-    width: 60%;
-}
-#heading4{
-    margin-left: 27%;
-    margin-top: 6%;
-    margin-bottom: 40px;
+
+#heading2 {
+    margin-left: 25%;
+    margin-top: 40px;
     font-size: 220%;
 }
-.content4{
-    font-size: 120%;
-    margin-top: 2%;
-    
-    width: 57%;
+
+#heading3_coursedetail {
+    margin-left:29%;
+    margin-top: 6%;
+    margin-bottom: 30px;
+    font-size: 32px;
 }
-#set{
-    margin-left: 6%;
+
+.content3_coursedetail {
+    font-size: 18px;
+    padding-left: 20%;
+    width: 76.9%;
+    margin-left: 20px;
 }
-#heading5{
-    margin-left: 10%;
+
+#heading4_coursedetail {
+    text-align:center;
     margin-top: 6%;
     margin-bottom: 40px;
+    font-size: 32px;
+}
+
+.content4_coursedetail {
+    font-size: 18px;
+    text-align:left;
+    width: 80%;
+    
+}
+
+#set_coursedetail {
+    margin-left: 17%;
+}
+
+#heading5 {
+    padding-top: 1%;
+    margin-top: 5%;
+    margin-bottom: 30px;
     font-size: 220%;
+    text-align: center;
 }
-#background{
-    background-color: #A9A9A9;
+
+#background_course {
+    background: linear-gradient(113deg, #2D2D2D 0%, #151314 100%) 0% 0% no-repeat padding-box;
+    box-shadow: 0px -6px 10px #00000042;
+    opacity: 1;
+    width: 1345px;
+    height: 500px;
 }
-#questioning{
+
+#questioning {
     list-style: none;
-    width:600px ;
-    margin-left: 5%;
-    font-size: 150%;
+    margin-left: 17%;
     line-height: 40px;
     height: 450px;
-}
-.ques{
-    
-    color: blue;
+    width:65%;
 }
 
+.ques {
+    color: yellow;
+}
 
 
 
@@ -90,7 +100,7 @@
 
 
 
-@media only screen and (min-width: 320px) 
+/* @media only screen and (min-width: 320px) 
 and (max-width: 374px) 
 {   
     
@@ -1621,4 +1631,4 @@ and (max-width: 2050px)
 
 
 
-
+ */

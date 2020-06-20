@@ -6,7 +6,7 @@ import * as serviceWorker from './serviceWorker';
 
 
 
-import CourseCurriculumn from './components/course_details/course_curriculum';
+import Dashboard from './components/dashboard/dashboard';
 import Cart from './components/cart/cart';
 import 'tachyons';
 import './index.css';

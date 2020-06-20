@@ -10,6 +10,7 @@ import bell from './../components/bell/bell';
 
 import cartLoggedIn from './../components/cartLoggedIn/cartLoggedIn';
 import Addaddress from '../components/Account/Profile/newaddress';
+import Addprofile from '../components/Account/Profile/addprofile';
 
 import Carddetails from '../components/carddetails/carddetails';
 import Dashboard from '../components/dashboard/dashboard';
@@ -20,6 +21,11 @@ import Help from '../components/Help/help';
 import Privacy from '../components/PrivacyPolicy/privacy';
 import ReactPlayerPage from '../components/CourseVideoPlayer/ReactPlayer';
 
+
+import MyCourses from '../components/dashboard/dashoardMyCourses';
+import TrendingCourses from '../components/dashboard/dashboardTrendingCourses';
+import PurchaseHistory from '../components/dashboard/dashboardPaymentHistory';
+import Account from '../components/dashboard/dashboardAccount';
 
 export default class Routes extends Component {
     render() {
@@ -42,6 +48,14 @@ export default class Routes extends Component {
                     <Route path="/privacy" component={Privacy} />
                     <Route path="/player" component={ReactPlayerPage} />
                     <Route path="/addaddress" component={Addaddress} />
+                    <Route path="/addprofile" component={Addprofile} />
+
+                    
+                    <Route path="/mycourses" component={MyCourses} />
+                    <Route path="/trending" component={TrendingCourses} />
+                    <Route path="/purchasehistory" component={PurchaseHistory} />
+                    <Route path="/account" component={Account} />
+                    
                 </Switch>
             </Router>
         )

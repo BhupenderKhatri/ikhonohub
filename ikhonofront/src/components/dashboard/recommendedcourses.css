@@ -1,325 +1,2440 @@
-#col1{
-  margin-left: 40px;
-
-}
-#btn_allcourses{
-margin-left: 40px;
-display: inline-block;
-font-size: 18px;
-cursor: pointer;
-background-color: orangered;
-border: none;
-color: white;
-padding: 10px;
-text-align: center;
-border-radius: 12px;
-
-}
-#col1 h6{
-  display:inline-block;
-}
-
 #dashboard-CurrentCourse{
-color: white;
-display: flex;
+  display: flex;
+ 
 }
 
-#dashboard-TotalProgress{
-margin-left: 100px;
-}
+
+
+/*----- Current Section---------*/
+
 #dashboard-resumeCourse{
 border: box 2px solid;
-background-color: white;
-color: black;
-width: 400px;
-height: 250px;
-border-radius: 20px;
+background-color: black;
+color: white;
+width: 320px;
+height: 220px;
+border-radius: 10px;
 margin-top: 70px;
-margin-left: 120px;
-padding-left: 20px;
+margin-left: 60px;
+background: transparent linear-gradient(126deg, #2D2D2D 0%, #151314 100%) 0% 0% no-repeat padding-box;
+box-shadow: -3px -4px 10px #00000046;
+opacity: 1;
+cursor: default;
+border-bottom: 5px solid orangered;
 }
-#dashboard-resumeCourse th{
-font-size: 24px;
-text-align: left;
-padding-top: 10px;
+
+.current_section_head{
+  
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 1;
+  font-size: 25px;
+  margin-bottom: 15px;
+  color: gold;
+  font-weight: bolder;
+  margin-left: 60px;
+} 
+
+
+#current_icon{
+margin-left: 20px;
+margin-top: 0px;
+width: 90px;
+display: inline-block;
+cursor: pointer;
 }
-#res{
-padding-left: 300px;
+
+
+#current_co1{
+  margin-left: 180px;
+  margin-top: -25px;
+  cursor: pointer;
+  color: #b3b3b3;
+  display: flex;
+  width: 100px;
 }
-#arrow{
-font-size: 30px;
-padding-right: 20px;
+
+#current_co11{
+  margin-left: 200px;
+  margin-top: -28px;
+  color: #b3b3b3;
+  cursor: pointer;
 }
+
+
+#current_res{
+  margin-left: 200px;
+  width: 100px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+
+
+
+/*----- Current Next---------*/
 #dashboard-next{
 border: box 2px solid;
-background-color: white;
-color: black;
-width: 250px;
-height: 250px;
-border-radius: 20px;
+background-color: black;
+color: white;
+width: 320px;
+height: 220px;
+border-radius: 10px;
+cursor: default;
 margin-top: 70px;
 margin-left: 150px;
 padding-left: 20px;
+margin-left: 80px;
+background: transparent linear-gradient(126deg, #2D2D2D 0%, #151314 100%) 0% 0% no-repeat padding-box;
+box-shadow: -3px -4px 10px #0000003b;
+opacity: 1;
+border-bottom: 5px solid orangered;
 }
-#dashboard-next th{
-font-size: 24px;
-text-align: left;
-padding-top: 10px;
+
+.current_section_head1{
+  
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 1;
+  font-size: 25px;
+  width: 100%;
+  margin-bottom: 15px;
+  color: gold;
+  font-weight: bolder;
+  margin-left: 60px;
+} 
+#current_res1{
+  margin-left: 175px;
+  width: 100px;
+  /* margin-bottom: 10px; */
+  margin-top: 30px;
+  cursor: pointer;
 }
-#res1{
-padding-left: 100px;
+
+.current_Video1{
+ 
+  display: inline-block;
+  color: #FFFFFF;
+  font-size: 20px;
+margin-left: 10px;
+font: Heavy 28px/40px Avenir;
+letter-spacing: 0px;
+margin-top: 20px;
+color: #FFFFFF;
+cursor: pointer;
+opacity: 1;
+
 }
-#arrow{
-  font-size: 30px;
-  padding-right: 20px;
-}
+
+/*----- Progress Bar---------*/
 #dashboard-TotalProgress{
 border: box 2px solid;
-background-color: white;
-color: black;
-width: 250px;
-height: 250px;
-border-radius: 20px;
+background-color: black;
+color: white ;
+width: 320px;
+height: 220px;
+cursor: default;
+border-radius: 10px;
 margin-top: 70px;
-margin-left: 120px;
+margin-left: 80px;
 padding-left: 20px;
+background: transparent linear-gradient(126deg, #2D2D2D 0%, #151314 100%) 0% 0% no-repeat padding-box;
+box-shadow: -3px -4px 10px #00000042;
+opacity: 1;
+border-bottom: 5px solid orangered;
 }
 
-
-
-@media only screen and (min-width: 320px) and (max-width: 374px) {
-#col1 {
-  margin-left: 25px;
-  margin-top: 20px;
-  font-size: 20px;
-}
-#btn_allcourses {
-  margin-left: 20px;
-  margin-bottom: 10px;
-  font-size: 12px;
-}
+#dashoard_resumecourse_progressBar{
+  height: 120px;
+  width: 120px;
+  padding-left: 20px;
+  padding-top: 40px;
 }
 
-@media only screen and (min-width: 374px) and (max-width: 450px) {
-#col1 {
-  margin-left: 20px;
-  margin-top: 20px;
+.current_section_head2{
+  
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 1;
   font-size: 25px;
-}
-#btn_allcourses {
-  margin-left: 16px;
-  margin-bottom: 10px;
-  font-size: 12px;
-}
-}
-
-@media only screen and (min-width: 450px) and (max-width: 550px) {
-#col1 {
-  margin-left: 25px;
-  font-size: 30px;
-}
-#btn_allcourses {
-  margin-left: 20px;
-  margin-bottom: 10px;
-  font-size: 12px;
-}
-}
-
-@media only screen and (min-width: 551px) and (max-width: 617px) {
-#col1 {
-  margin-left: 40px;
-  font-size: 30px;
-}
-#btn_allcourses {
-  margin-left: 20px;
-  margin-bottom: 10px;
-  font-size: 12ox;
-}
-}
-
-@media only screen and (min-width: 618px) and (max-width: 700px) {
-#col1 {
+  width: 100%;
+  color: gold;
+  font-weight: bolder;
+  margin-top: 1.2px;
   margin-left: 55px;
-  margin-top: 20px;
-}
-#btn_allcourses {
+} 
+@media only screen and (min-width: 320px) 
+and (max-width: 359px) 
+{  
+
+/*----- Current Section---------*/
+
+#dashboard-resumeCourse{
+  width: 220px;
+  height: 160px;
+  margin-top: 70px;
+  margin-left: 15px;  
+  }
+  
+  .current_section_head{
+    
+   
+    font-size: 18px;
+    margin-bottom: 15px;
+    margin-left: 50px;
+  } 
+  
+  
+  #current_icon{
   margin-left: 20px;
-  margin-bottom: 10px;
+  margin-top: 0px;
+  width: 60px;
+  }
+  #current_co1{
+    margin-left: 100px;
+    margin-top:-20px;
+    font-size:11px;
+    }
+  
+  #current_co11{
+    margin-left: 121px;
+    margin-top:-20px;
+    font-size:11px;
+  }
+  
+  
+  #current_res{
+    margin-left: 123px;
+    width: 70px;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  /*-----  Next section---------*/
+  #dashboard-next{
+  width: 220px;
+  height: 160px;
+  margin-top:250px;
+  margin-left: -220px; 
+  }
+  .current_section_head1{
+    
+   
+    font-size: 18px;
+    margin-bottom: 15px;
+    margin-left: 40px;
+  } 
+  .current_Video1{
+   
+    margin-left: 10px;
+    margin-top:10px;
+    font-size:11px;
+  
+  }
+  #current_res1{
+    margin-left: 102px;
+    width: 70px;
+    cursor: pointer;
+   
+  }
+  
+  /*----- Progress Bar---------*/
+  #dashboard-TotalProgress{
+    width: 220px;
+    height: 160px;
+    margin-top:430px;
+    margin-left: -220px; 
+  }
+  
+  
+  
+  .current_section_head2{
+    
+    
+    font-size: 18px;
+    margin-bottom: 15px;
+    margin-left: 40px;
+  } 
+  #dashoard_resumecourse_progressBar{
+    height: 120px;
+    width: 120px;
+    padding-left: 20px;
+    padding-top: 0px;
+    margin-left:-20px;
+  }
+
+ }  
+  @media only screen and (min-width: 360px) 
+  and (max-width: 374px) 
+    {
+      
+/*----- Current Section---------*/
+
+#dashboard-resumeCourse{
+  width: 220px;
+  height: 160px;
+  margin-top: 70px;
+  margin-left: 30px;  
+  }
+  
+  .current_section_head{
+    
+   
+    font-size: 18px;
+    margin-bottom: 15px;
+    margin-left: 50px;
+  } 
+  
+  
+  #current_icon{
+  margin-left: 20px;
+  margin-top: 0px;
+  width: 60px;
+  }
+  #current_co1{
+    margin-left: 100px;
+    margin-top:-20px;
+    font-size:11px;
+    }
+  
+  #current_co11{
+    margin-left: 121px;
+    margin-top:-20px;
+    font-size:11px;
+  }
+  
+  
+  #current_res{
+    margin-left: 123px;
+    width: 70px;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  /*-----  Next section---------*/
+  #dashboard-next{
+  width: 220px;
+  height: 160px;
+  margin-top:250px;
+  margin-left: -220px; 
+  }
+  .current_section_head1{
+    
+   
+    font-size: 18px;
+    margin-bottom: 15px;
+    margin-left: 40px;
+  } 
+  .current_Video1{
+   
+    margin-left: 10px;
+    margin-top:10px;
+    font-size:11px;
+  
+  }
+  #current_res1{
+    margin-left: 102px;
+    width: 70px;
+    cursor: pointer;
+   
+  }
+  
+  /*----- Progress Bar---------*/
+  #dashboard-TotalProgress{
+    width: 220px;
+    height: 160px;
+    margin-top:430px;
+    margin-left: -220px; 
+  }
+  
+  
+  
+  .current_section_head2{
+    
+    
+    font-size: 18px;
+    margin-bottom: 15px;
+    margin-left: 40px;
+  } 
+  #dashoard_resumecourse_progressBar{
+    height: 120px;
+    width: 120px;
+    padding-left: 20px;
+    padding-top: 0px;
+    margin-left:-20px;
+  }  
+  }
+
+  @media only screen and (min-width: 375px) 
+  and (max-width: 411px) 
+    {
+       
+/*----- Current Section---------*/
+
+#dashboard-resumeCourse{
+  width: 220px;
+  height: 160px;
+  margin-top: 70px;
+  margin-left: 36px;  
+  }
+  
+  .current_section_head{
+    
+   
+    font-size: 18px;
+    margin-bottom: 15px;
+    margin-left: 50px;
+  } 
+  
+  
+  #current_icon{
+  margin-left: 20px;
+  margin-top: 0px;
+  width: 60px;
+  }
+  #current_co1{
+    margin-left: 100px;
+    margin-top:-20px;
+    font-size:11px;
+    }
+  
+  #current_co11{
+    margin-left: 121px;
+    margin-top:-20px;
+    font-size:11px;
+  }
+  
+  
+  #current_res{
+    margin-left: 123px;
+    width: 70px;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  /*-----  Next section---------*/
+  #dashboard-next{
+  width: 220px;
+  height: 160px;
+  margin-top:250px;
+  margin-left: -220px; 
+  }
+  .current_section_head1{
+    
+   
+    font-size: 18px;
+    margin-bottom: 15px;
+    margin-left: 40px;
+  } 
+  .current_Video1{
+   
+    margin-left: 10px;
+    margin-top:10px;
+    font-size:11px;
+  
+  }
+  #current_res1{
+    margin-left: 102px;
+    width: 70px;
+    cursor: pointer;
+   
+  }
+  
+  /*----- Progress Bar---------*/
+  #dashboard-TotalProgress{
+    width: 220px;
+    height: 160px;
+    margin-top:430px;
+    margin-left: -220px; 
+  }
+  
+  
+  
+  .current_section_head2{
+    
+    
+    font-size: 18px;
+    margin-bottom: 15px;
+    margin-left: 40px;
+  } 
+  #dashoard_resumecourse_progressBar{
+    height: 120px;
+    width: 120px;
+    padding-left: 20px;
+    padding-top: 0px;
+    margin-left:-20px;
+  }
+    }
+
+
+    @media only screen and (min-width: 412px) 
+    and (max-width: 413px) 
+      {
+         
+/*----- Current Section---------*/
+
+#dashboard-resumeCourse{
+  width: 220px;
+  height: 160px;
+  margin-top: 70px;
+  margin-left: 45px;  
+  }
+  
+  .current_section_head{
+    
+   
+    font-size: 18px;
+    margin-bottom: 15px;
+    margin-left: 50px;
+  } 
+  
+  
+  #current_icon{
+  margin-left: 20px;
+  margin-top: 0px;
+  width: 60px;
+  }
+  #current_co1{
+    margin-left: 100px;
+    margin-top:-20px;
+    font-size:11px;
+    }
+  
+  #current_co11{
+    margin-left: 121px;
+    margin-top:-20px;
+    font-size:11px;
+  }
+  
+  
+  #current_res{
+    margin-left: 123px;
+    width: 70px;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  /*-----  Next section---------*/
+  #dashboard-next{
+  width: 220px;
+  height: 160px;
+  margin-top:250px;
+  margin-left: -220px; 
+  }
+  .current_section_head1{
+    
+   
+    font-size: 18px;
+    margin-bottom: 15px;
+    margin-left: 40px;
+  } 
+  .current_Video1{
+   
+    margin-left: 10px;
+    margin-top:10px;
+    font-size:11px;
+  
+  }
+  #current_res1{
+    margin-left: 102px;
+    width: 70px;
+    cursor: pointer;
+   
+  }
+  
+  /*----- Progress Bar---------*/
+  #dashboard-TotalProgress{
+    width: 220px;
+    height: 160px;
+    margin-top:430px;
+    margin-left: -220px; 
+  }
+  
+  
+  
+  .current_section_head2{
+    
+    
+    font-size: 18px;
+    margin-bottom: 15px;
+    margin-left: 40px;
+  } 
+  #dashoard_resumecourse_progressBar{
+    height: 120px;
+    width: 120px;
+    padding-left: 20px;
+    padding-top: 0px;
+    margin-left:-20px;
+  }
+      
+      }
+      @media only screen and (min-width: 414px) 
+      and (max-width: 449px) 
+        {
+    /*----- Current Section---------*/
+
+#dashboard-resumeCourse{
+  width: 220px;
+  height: 160px;
+  margin-top: 70px;
+  margin-left: 45px;  
+  }
+  
+  .current_section_head{
+    
+   
+    font-size: 18px;
+    margin-bottom: 15px;
+    margin-left: 50px;
+  } 
+  
+  
+  #current_icon{
+  margin-left: 20px;
+  margin-top: 0px;
+  width: 60px;
+  }
+  #current_co1{
+    margin-left: 100px;
+    margin-top:-20px;
+    font-size:11px;
+    }
+  
+  #current_co11{
+    margin-left: 121px;
+    margin-top:-20px;
+    font-size:11px;
+  }
+  
+  
+  #current_res{
+    margin-left: 123px;
+    width: 70px;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  /*-----  Next section---------*/
+  #dashboard-next{
+  width: 220px;
+  height: 160px;
+  margin-top:250px;
+  margin-left: -220px; 
+  }
+  .current_section_head1{
+    
+   
+    font-size: 18px;
+    margin-bottom: 15px;
+    margin-left: 40px;
+  } 
+  .current_Video1{
+   
+    margin-left: 10px;
+    margin-top:10px;
+    font-size:11px;
+  
+  }
+  #current_res1{
+    margin-left: 102px;
+    width: 70px;
+    cursor: pointer;
+   
+  }
+  
+  /*----- Progress Bar---------*/
+  #dashboard-TotalProgress{
+    width: 220px;
+    height: 160px;
+    margin-top:430px;
+    margin-left: -220px; 
+  }
+  
+  
+  
+  .current_section_head2{
+    
+    
+    font-size: 18px;
+    margin-bottom: 15px;
+    margin-left: 40px;
+  } 
+  #dashoard_resumecourse_progressBar{
+    height: 120px;
+    width: 120px;
+    padding-left: 20px;
+    padding-top: 0px;
+    margin-left:-20px;
+  }
+      }
+  @media only screen and (min-width: 450px) 
+and (max-width: 550px) 
+  {
+    /*----- Current Section---------*/
+
+#dashboard-resumeCourse{
+  width: 220px;
+  height: 160px;
+  margin-top: 70px;
+  margin-left: 75px;  
+  }
+  
+  .current_section_head{
+    
+   
+    font-size: 18px;
+    margin-bottom: 15px;
+    margin-left: 50px;
+  } 
+  
+  
+  #current_icon{
+  margin-left: 20px;
+  margin-top: 0px;
+  width: 60px;
+  }
+  #current_co1{
+    margin-left: 100px;
+    margin-top:-20px;
+    font-size:11px;
+    }
+  
+  #current_co11{
+    margin-left: 121px;
+    margin-top:-20px;
+    font-size:11px;
+  }
+  
+  
+  #current_res{
+    margin-left: 123px;
+    width: 70px;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  /*-----  Next section---------*/
+  #dashboard-next{
+  width: 220px;
+  height: 160px;
+  margin-top:250px;
+  margin-left: -220px; 
+  }
+  .current_section_head1{
+    
+   
+    font-size: 18px;
+    margin-bottom: 15px;
+    margin-left: 40px;
+  } 
+  .current_Video1{
+   
+    margin-left: 10px;
+    margin-top:10px;
+    font-size:11px;
+  
+  }
+  #current_res1{
+    margin-left: 102px;
+    width: 70px;
+    cursor: pointer;
+   
+  }
+  
+  /*----- Progress Bar---------*/
+  #dashboard-TotalProgress{
+    width: 220px;
+    height: 160px;
+    margin-top:430px;
+    margin-left: -220px; 
+  }
+  .current_section_head2{
+    
+    
+    font-size: 18px;
+    margin-bottom: 15px;
+    margin-left: 40px;
+  } 
+  #dashoard_resumecourse_progressBar{
+    height: 120px;
+    width: 120px;
+    padding-left: 20px;
+    padding-top: 0px;
+    margin-left:-20px;
+  }
+
 }
+  @media only screen and (min-width: 551px) 
+and (max-width: 599px) 
+  {
+/*----- Current Section---------*/
+
+#dashboard-resumeCourse{
+  width: 220px;
+  height: 160px;
+  margin-top: 70px;
+  margin-left: 100px;  
+  }
+  
+  .current_section_head{
+    
+   
+    font-size: 18px;
+    margin-bottom: 15px;
+    margin-left: 50px;
+  } 
+  
+  
+  #current_icon{
+  margin-left: 20px;
+  margin-top: 0px;
+  width: 60px;
+  }
+  #current_co1{
+    margin-left: 100px;
+    margin-top:-20px;
+    font-size:11px;
+    }
+  
+  #current_co11{
+    margin-left: 121px;
+    margin-top:-20px;
+    font-size:11px;
+  }
+  
+  
+  #current_res{
+    margin-left: 123px;
+    width: 70px;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  /*-----  Next section---------*/
+  #dashboard-next{
+  width: 220px;
+  height: 160px;
+  margin-top:250px;
+  margin-left: -220px; 
+  }
+  .current_section_head1{
+    
+   
+    font-size: 18px;
+    margin-bottom: 15px;
+    margin-left: 40px;
+  } 
+  .current_Video1{
+   
+    margin-left: 10px;
+    margin-top:10px;
+    font-size:11px;
+  
+  }
+  #current_res1{
+    margin-left: 102px;
+    width: 70px;
+    cursor: pointer;
+   
+  }
+  
+  /*----- Progress Bar---------*/
+  #dashboard-TotalProgress{
+    width: 220px;
+    height: 160px;
+    margin-top:430px;
+    margin-left: -220px; 
+  }
+  
+  
+  
+  .current_section_head2{
+    
+    
+    font-size: 18px;
+    margin-bottom: 15px;
+    margin-left: 40px;
+  } 
+  #dashoard_resumecourse_progressBar{
+    height: 120px;
+    width: 120px;
+    padding-left: 20px;
+    padding-top: 0px;
+    margin-left:-20px;
+  }
+  }
+  @media only screen and (min-width: 600px) 
+and (max-width: 617px) {
+/*----- Current Section---------*/
+
+#dashboard-resumeCourse{
+  width: 220px;
+  height: 160px;
+  margin-top: 70px;
+  margin-left: 120px;  
+  }
+  
+  .current_section_head{
+    
+   
+    font-size: 18px;
+    margin-bottom: 15px;
+    margin-left: 50px;
+  } 
+  
+  
+  #current_icon{
+  margin-left: 20px;
+  margin-top: 0px;
+  width: 60px;
+  }
+  #current_co1{
+    margin-left: 100px;
+    margin-top:-20px;
+    font-size:11px;
+    }
+  
+  #current_co11{
+    margin-left: 121px;
+    margin-top:-20px;
+    font-size:11px;
+  }
+  
+  
+  #current_res{
+    margin-left: 123px;
+    width: 70px;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  /*-----  Next section---------*/
+  #dashboard-next{
+  width: 220px;
+  height: 160px;
+  margin-top:250px;
+  margin-left: -220px; 
+  }
+  .current_section_head1{
+    
+   
+    font-size: 18px;
+    margin-bottom: 15px;
+    margin-left: 40px;
+  } 
+  .current_Video1{
+   
+    margin-left: 10px;
+    margin-top:10px;
+    font-size:11px;
+  
+  }
+  #current_res1{
+    margin-left: 102px;
+    width: 70px;
+    cursor: pointer;
+   
+  }
+  
+  /*----- Progress Bar---------*/
+  #dashboard-TotalProgress{
+    width: 220px;
+    height: 160px;
+    margin-top:430px;
+    margin-left: -220px; 
+  }
+  
+  
+  
+  .current_section_head2{
+    
+    
+    font-size: 18px;
+    margin-bottom: 15px;
+    margin-left: 40px;
+  } 
+  #dashoard_resumecourse_progressBar{
+    height: 120px;
+    width: 120px;
+    padding-left: 20px;
+    padding-top: 0px;
+    margin-left:-20px;
+  }
+}
+  @media only screen and (min-width: 618px) 
+and (max-width: 700px) 
+{
+    /*----- Current Section---------*/
+
+#dashboard-resumeCourse{
+  width: 220px;
+  height: 160px;
+  margin-top: 70px;
+  margin-left: 10px;  
+  }
+  
+  .current_section_head{
+    
+   
+    font-size: 18px;
+    margin-bottom: 15px;
+    margin-left: 50px;
+  } 
+  
+  
+  #current_icon{
+  margin-left: 20px;
+  margin-top: 0px;
+  width: 60px;
+  }
+  #current_co1{
+    margin-left: 100px;
+    margin-top:-20px;
+    font-size:11px;
+    }
+  
+  #current_co11{
+    margin-left: 121px;
+    margin-top:-20px;
+    font-size:11px;
+  }
+  
+  
+  #current_res{
+    margin-left: 123px;
+    width: 70px;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  /*-----  Next section---------*/
+  #dashboard-next{
+  width: 220px;
+  height: 160px;
+  margin-top:70px;
+  margin-left: 20px; 
+  }
+  .current_section_head1{
+    
+   
+    font-size: 18px;
+    margin-bottom: 15px;
+    margin-left: 40px;
+  } 
+  .current_Video1{
+   
+    margin-left: 10px;
+    margin-top:10px;
+    font-size:11px;
+  
+  }
+  #current_res1{
+    margin-left: 102px;
+    width: 70px;
+    cursor: pointer;
+   
+  }
+  
+  /*----- Progress Bar---------*/
+  #dashboard-TotalProgress{
+    width: 220px;
+    height: 160px;
+    margin-top:260px;
+    margin-left: -460px; 
+  }
+  .current_section_head2{
+    
+    
+    font-size: 18px;
+    margin-bottom: 15px;
+    margin-left: 40px;
+  } 
+  #dashoard_resumecourse_progressBar{
+    height: 120px;
+    width: 120px;
+    padding-left: 20px;
+    padding-top: 0px;
+    margin-left:-20px;
+  }  
 }
 
-@media only screen and (min-width: 701px) and (max-width: 767px) {
-#col1 {
-  margin-left: 55px;
-  margin-top: 20px;
-}
-#btn_allcourses {
+@media only screen and (min-width: 701px) 
+and (max-width: 767px) 
+  {
+    /*----- Current Section---------*/
+
+#dashboard-resumeCourse{
+  width: 250px;
+  height: 180px;
+  margin-top: 70px;
+  margin-left: 20px;  
+  }
+  
+  .current_section_head{
+    font-size: 20px;
+    margin-bottom: 15px;
+    margin-left: 50px;
+  } 
+  #current_icon{
   margin-left: 20px;
-  margin-bottom: 10px;
+  margin-top: 0px;
+  width: 70px;
+  }
+  #current_co1{
+    margin-left: 110px;
+    margin-top:-23px;
+    font-size:13px;
+    }
+  #current_co11{
+    margin-left: 131px;
+    margin-top:-25px;
+    font-size:13px;
+  }
+  #current_res{
+    margin-left: 131px;
+    width: 90px;
+   margin-top:-5px; 
+  }
+  /*-----  Next section---------*/
+  #dashboard-next{
+  width: 260px;
+  height: 180px;
+  margin-top:70px;
+  margin-left: 30px; 
+  }
+  .current_section_head1{
+    font-size: 20px;
+    margin-bottom: 15px;
+    margin-left: 45px;
+  }
+  .current_Video1{
+    margin-left: 10px;
+    margin-top:10px;
+    font-size:15px;
+  }
+  #current_res1{
+    margin-left: 122px;
+    width: 90px;
+    margin-top:32px;
+    cursor: pointer;
+  }
+  /*----- Progress Bar---------*/
+  #dashboard-TotalProgress{
+    width: 260px;
+    height: 180px;
+    margin-top:290px;
+    margin-left: -542px; 
+  }
+  .current_section_head2{
+    font-size: 20px;
+    margin-bottom: 15px;
+    margin-left: 48px;
+  } 
+  #dashoard_resumecourse_progressBar{
+    height: 120px;
+    width: 120px;
+    padding-left: 20px;
+    padding-top: 10px;
+    margin-left:-15px;
+  }  
 }
+@media only screen and (min-width: 768px) and (max-width: 799px) 
+{
+    /*----- Current Section---------*/
+
+#dashboard-resumeCourse{
+  width: 250px;
+  height: 180px;
+  margin-top: 70px;
+  margin-left: 45px;  
+  }
+  
+  .current_section_head{
+    font-size: 20px;
+    margin-bottom: 15px;
+    margin-left: 50px;
+  } 
+  #current_icon{
+  margin-left: 20px;
+  margin-top: 0px;
+  width: 70px;
+  }
+  #current_co1{
+    margin-left: 110px;
+    margin-top:-23px;
+    font-size:13px;
+    }
+  #current_co11{
+    margin-left: 131px;
+    margin-top:-25px;
+    font-size:13px;
+  }
+  #current_res{
+    margin-left: 131px;
+    width: 90px;
+   margin-top:-5px; 
+  }
+  /*-----  Next section---------*/
+  #dashboard-next{
+  width: 260px;
+  height: 180px;
+  margin-top:70px;
+  margin-left: 50px; 
+  }
+  .current_section_head1{
+    font-size: 20px;
+    margin-bottom: 15px;
+    margin-left: 45px;
+  }
+  .current_Video1{
+    margin-left: 10px;
+    margin-top:10px;
+    font-size:15px;
+  }
+  #current_res1{
+    margin-left: 122px;
+    width: 90px;
+    margin-top:32px;
+    cursor: pointer;
+  }
+  /*----- Progress Bar---------*/
+  #dashboard-TotalProgress{
+    width: 260px;
+    height: 180px;
+    margin-top:290px;
+    margin-left: -562px; 
+  }
+  .current_section_head2{
+    font-size: 20px;
+    margin-bottom: 15px;
+    margin-left: 48px;
+  } 
+  #dashoard_resumecourse_progressBar{
+    height: 120px;
+    width: 120px;
+    padding-left: 20px;
+    padding-top: 10px;
+    margin-left:-15px;
+  }  
 }
 
-@media only screen and (min-width: 768px) and (max-width: 850px) {
-#col1 {
-  margin-left: 55px;
-  margin-top: 20px;
-}
-#btn_allcourses {
-  margin-left: 20px;
-  margin-bottom: 10px;
-}
+
+@media only screen and (min-width: 800px) and (max-width: 850px) 
+{
+  /*----- Current Section---------*/
+
+#dashboard-resumeCourse{
+width: 270px;
+height: 180px;
+margin-top: 70px;
+margin-left: 45px;  
 }
 
-@media only screen and (min-width: 851px) and (max-width: 909px) {
-#col1 {
-  margin-left: 55px;
-  margin-top: 20px;
+.current_section_head{
+  font-size: 20px;
+  margin-bottom: 15px;
+  margin-left: 60px;
+} 
+#current_icon{
+margin-left: 20px;
+margin-top: 0px;
+width: 75px;
 }
-#btn_allcourses {
+#current_co1{
+  margin-left: 120px;
+  margin-top:-23px;
+  font-size:14px;
+  }
+#current_co11{
+  margin-left: 140px;
+  margin-top:-25px;
+  font-size:14px;
+}
+#current_res{
+  margin-left: 145px;
+  width: 90px;
+ margin-top:-10px; 
+}
+/*-----  Next section---------*/
+#dashboard-next{
+width: 280px;
+height: 180px;
+margin-top:70px;
+margin-left: 50px; 
+}
+.current_section_head1{
+  font-size: 20px;
+  margin-bottom: 15px;
+  margin-left: 45px;
+}
+.current_Video1{
+  margin-left: 10px;
+  margin-top:10px;
+  font-size:17px;
+}
+#current_res1{
+  margin-left: 142px;
+  width: 90px;
+  margin-top:35px;
+  cursor: pointer;
+}
+/*----- Progress Bar---------*/
+#dashboard-TotalProgress{
+  width: 280px;
+  height: 180px;
+  margin-top:290px;
+  margin-left: -600px; 
+}
+.current_section_head2{
+  font-size: 20px;
+  margin-bottom: 15px;
+  margin-left: 48px;
+} 
+#dashoard_resumecourse_progressBar{
+  height: 120px;
+  width: 120px;
+  padding-left: 20px;
+  padding-top: 10px;
+  margin-left:-15px;
+}  
+}
+    @media only screen and (min-width: 851px) and (max-width: 909px)
+     {
+   /*----- Current Section---------*/
+
+#dashboard-resumeCourse{
+  width: 270px;
+  height: 180px;
+  margin-top: 70px;
+  margin-left: 55px;  
+  }
+  
+  .current_section_head{
+    font-size: 20px;
+    margin-bottom: 15px;
+    margin-left: 60px;
+  } 
+  #current_icon{
   margin-left: 20px;
-  margin-bottom: 10px;
-}
+  margin-top: 0px;
+  width: 75px;
+  }
+  #current_co1{
+    margin-left: 120px;
+    margin-top:-23px;
+    font-size:14px;
+    }
+  #current_co11{
+    margin-left: 140px;
+    margin-top:-25px;
+    font-size:14px;
+  }
+  #current_res{
+    margin-left: 145px;
+    width: 90px;
+   margin-top:-10px; 
+  }
+  /*-----  Next section---------*/
+  #dashboard-next{
+  width: 280px;
+  height: 180px;
+  margin-top:70px;
+  margin-left: 60px; 
+  }
+  .current_section_head1{
+    font-size: 20px;
+    margin-bottom: 15px;
+    margin-left: 54px;
+  }
+  .current_Video1{
+    margin-left: 10px;
+    margin-top:10px;
+    font-size:17px;
+  }
+  #current_res1{
+    margin-left: 142px;
+    width: 90px;
+    margin-top:35px;
+    cursor: pointer;
+  }
+  /*----- Progress Bar---------*/
+  #dashboard-TotalProgress{
+    width: 280px;
+    height: 180px;
+    margin-top:290px;
+    margin-left: -614px; 
+  }
+  .current_section_head2{
+    font-size: 20px;
+    margin-bottom: 15px;
+    margin-left: 55px;
+  } 
+  #dashoard_resumecourse_progressBar{
+    height: 120px;
+    width: 120px;
+    padding-left: 20px;
+    padding-top: 10px;
+    margin-left:-15px;
+  } 
+ } 
+ @media only screen and (min-width: 910px) and (max-width: 1023px) {
+    /*----- Current Section---------*/
+
+#dashboard-resumeCourse{
+  width: 270px;
+  height: 180px;
+  margin-top: 70px;
+  margin-left: 60px;  
+  }
+  
+  .current_section_head{
+    font-size: 20px;
+    margin-bottom: 15px;
+    margin-left: 60px;
+  } 
+  #current_icon{
+  margin-left: 20px;
+  margin-top: 0px;
+  width: 75px;
+  }
+  #current_co1{
+    margin-left: 120px;
+    margin-top:-23px;
+    font-size:14px;
+    }
+  #current_co11{
+    margin-left: 140px;
+    margin-top:-25px;
+    font-size:14px;
+  }
+  #current_res{
+    margin-left: 145px;
+    width: 90px;
+   margin-top:-10px; 
+  }
+  /*-----  Next section---------*/
+  #dashboard-next{
+  width: 280px;
+  height: 180px;
+  margin-top:70px;
+  margin-left: 70px; 
+  }
+  .current_section_head1{
+    font-size: 20px;
+    margin-bottom: 15px;
+    margin-left: 54px;
+  }
+  .current_Video1{
+    margin-left: 10px;
+    margin-top:10px;
+    font-size:17px;
+  }
+  #current_res1{
+    margin-left: 142px;
+    width: 90px;
+    margin-top:35px;
+    cursor: pointer;
+  }
+  /*----- Progress Bar---------*/
+  #dashboard-TotalProgress{
+    width: 280px;
+    height: 180px;
+    margin-top:290px;
+    margin-left: -624px; 
+  }
+  .current_section_head2{
+    font-size: 20px;
+    margin-bottom: 15px;
+    margin-left: 55px;
+  } 
+  #dashoard_resumecourse_progressBar{
+    height: 120px;
+    width: 120px;
+    padding-left: 20px;
+    padding-top: 10px;
+    margin-left:-15px;
+  } 
 }
 
-@media only screen and (min-width: 910px) and (max-width: 1023px) {
-#col1 {
-  margin-left: 55px;
-  margin-top: 20px;
-}
-#btn_allcourses {
-  margin-left: 20px;
-  margin-bottom: 10px;
-}
-}
 
 @media only screen and (min-width: 1024px) and (max-width: 1100px) {
-#col1 {
-  margin-left: 55px;
-  margin-top: 20px;
-}
-#btn_allcourses {
-  margin-left: 20px;
-  margin-bottom: 10px;
-}
-}
+ /*----- Current Section---------*/
 
+ #dashboard-resumeCourse{
+  width: 270px;
+  height: 180px;
+  margin-top: 70px;
+  margin-left: 20px;  
+  }
+  
+  .current_section_head{
+    font-size: 20px;
+    margin-bottom: 15px;
+    margin-left: 60px;
+  } 
+  #current_icon{
+  margin-left: 20px;
+  margin-top: 0px;
+  width: 75px;
+  }
+  #current_co1{
+    margin-left: 120px;
+    margin-top:-23px;
+    font-size:14px;
+    }
+  #current_co11{
+    margin-left: 140px;
+    margin-top:-25px;
+    font-size:14px;
+  }
+  #current_res{
+    margin-left: 145px;
+    width: 90px;
+   margin-top:-10px; 
+  }
+  /*-----  Next section---------*/
+  #dashboard-next{
+  width: 280px;
+  height: 180px;
+  margin-top:70px;
+  margin-left: 30px; 
+  }
+  .current_section_head1{
+    font-size: 20px;
+    margin-bottom: 15px;
+    margin-left: 54px;
+  }
+  .current_Video1{
+    margin-left: 10px;
+    margin-top:10px;
+    font-size:17px;
+  }
+  #current_res1{
+    margin-left: 142px;
+    width: 90px;
+    margin-top:35px;
+    cursor: pointer;
+  }
+  /*----- Progress Bar---------*/
+  #dashboard-TotalProgress{
+    width: 280px;
+    height: 180px;
+    margin-top:70px;
+    margin-left: 30px; 
+  }
+  .current_section_head2{
+    font-size: 20px;
+    margin-bottom: 15px;
+    margin-left: 55px;
+  } 
+  #dashoard_resumecourse_progressBar{
+    height: 120px;
+    width: 120px;
+    padding-left: 20px;
+    padding-top: 10px;
+    margin-left:-15px;
+  }   
+}
 @media only screen and (min-width: 1101px) and (max-width: 1200px) {
-#col1 {
-  margin-left: 55px;
-  margin-top: 20px;
-}
-#btn_allcourses {
-  margin-left: 20px;
-  margin-bottom: 10px;
-}
-}
+/*----- Current Section---------*/
 
+#dashboard-resumeCourse{
+  width: 270px;
+  height: 180px;
+  margin-top: 70px;
+  margin-left: 35px;  
+  }
+  
+  .current_section_head{
+    font-size: 20px;
+    margin-bottom: 15px;
+    margin-left: 60px;
+  } 
+  #current_icon{
+  margin-left: 20px;
+  margin-top: 0px;
+  width: 75px;
+  }
+  #current_co1{
+    margin-left: 120px;
+    margin-top:-23px;
+    font-size:14px;
+    }
+  #current_co11{
+    margin-left: 140px;
+    margin-top:-25px;
+    font-size:14px;
+  }
+  #current_res{
+    margin-left: 145px;
+    width: 90px;
+   margin-top:-10px; 
+  }
+  /*-----  Next section---------*/
+  #dashboard-next{
+  width: 280px;
+  height: 180px;
+  margin-top:70px;
+  margin-left: 45px; 
+  }
+  .current_section_head1{
+    font-size: 20px;
+    margin-bottom: 15px;
+    margin-left: 54px;
+  }
+  .current_Video1{
+    margin-left: 10px;
+    margin-top:10px;
+    font-size:17px;
+  }
+  #current_res1{
+    margin-left: 142px;
+    width: 90px;
+    margin-top:35px;
+    cursor: pointer;
+  }
+  /*----- Progress Bar---------*/
+  #dashboard-TotalProgress{
+    width: 280px;
+    height: 180px;
+    margin-top:70px;
+    margin-left: 45px; 
+  }
+  .current_section_head2{
+    font-size: 20px;
+    margin-bottom: 15px;
+    margin-left: 55px;
+  } 
+  #dashoard_resumecourse_progressBar{
+    height: 120px;
+    width: 120px;
+    padding-left: 20px;
+    padding-top: 10px;
+    margin-left:-15px;
+  }   
+}
 @media only screen and (min-width: 1201px) and (max-width: 1300px) {
-#col1 {
-  margin-left: 55px;
-  margin-top: 20px;
-}
-#btn_allcourses {
-  margin-left: 20px;
-  margin-bottom: 10px;
-}
-}
+ /*----- Current Section---------*/
 
-@media only screen and (min-width: 1301px) and (max-width: 1360px) {
-#col1 {
-  margin-left: 55px;
-  margin-top: 20px;
-}
-#btn_allcourses {
+#dashboard-resumeCourse{
+  width: 270px;
+  height: 180px;
+  margin-top: 70px;
+  margin-left: 40px;  
+  }
+  
+  .current_section_head{
+    font-size: 20px;
+    margin-bottom: 15px;
+    margin-left: 60px;
+  } 
+  #current_icon{
   margin-left: 20px;
-  margin-bottom: 10px;
+  margin-top: 0px;
+  width: 75px;
+  }
+  #current_co1{
+    margin-left: 120px;
+    margin-top:-23px;
+    font-size:14px;
+    }
+  #current_co11{
+    margin-left: 140px;
+    margin-top:-25px;
+    font-size:14px;
+  }
+  #current_res{
+    margin-left: 145px;
+    width: 90px;
+   margin-top:-10px; 
+  }
+  /*-----  Next section---------*/
+  #dashboard-next{
+  width: 280px;
+  height: 180px;
+  margin-top:70px;
+  margin-left: 55px; 
+  }
+  .current_section_head1{
+    font-size: 20px;
+    margin-bottom: 15px;
+    margin-left: 54px;
+  }
+  .current_Video1{
+    margin-left: 10px;
+    margin-top:10px;
+    font-size:17px;
+  }
+  #current_res1{
+    margin-left: 142px;
+    width: 90px;
+    margin-top:35px;
+    cursor: pointer;
+  }
+  /*----- Progress Bar---------*/
+  #dashboard-TotalProgress{
+    width: 280px;
+    height: 180px;
+    margin-top:70px;
+    margin-left: 55px; 
+  }
+  .current_section_head2{
+    font-size: 20px;
+    margin-bottom: 15px;
+    margin-left: 55px;
+  } 
+  #dashoard_resumecourse_progressBar{
+    height: 120px;
+    width: 120px;
+    padding-left: 20px;
+    padding-top: 10px;
+    margin-left:-15px;
+  }  
 }
-}
+@media only screen and (min-width: 1301px) 
+and (max-width: 1359px)
+  {
+ /*----- Current Section---------*/
 
-@media only screen and (min-width: 1361px) and (max-width: 1440px) {
-#col1 {
-  margin-left: 55px;
-  margin-top: 20px;
-}
-#btn_allcourses {
+ #dashboard-resumeCourse{
+  width: 300px;
+  height: 200px;
+  margin-top: 70px;
+  margin-left: 45px;  
+  }
+  
+  .current_section_head{
+    font-size: 22px;
+    margin-bottom: 19px;
+    margin-left: 60px;
+  } 
+  #current_icon{
   margin-left: 20px;
-  margin-bottom: 10px;
+  margin-top: 0px;
+  width: 90px;
+  }
+  #current_co1{
+    margin-left: 150px;
+    margin-top:-27px;
+    font-size:16px;
+    width:150px;
+    }
+  #current_co11{
+    margin-left: 170px;
+    margin-top:-29px;
+    font-size:16px;
+  }
+  #current_res{
+    margin-left: 175px;
+    width: 90px;
+   margin-top:-10px; 
+  }
+  /*-----  Next section---------*/
+  #dashboard-next{
+  width: 300px;
+  height: 200px;
+  margin-top:70px;
+  margin-left: 60px; 
+  }
+  .current_section_head1{
+    font-size: 22px;
+    margin-bottom: 15px;
+    margin-left: 54px;
+  }
+  .current_Video1{
+    margin-left: 10px;
+    margin-top:10px;
+    font-size:19px;
+  }
+  #current_res1{
+    margin-left: 160px;
+    width: 90px;
+    margin-top:45px;
+    cursor: pointer;
+  }
+  /*----- Progress Bar---------*/
+  #dashboard-TotalProgress{
+    width: 300px;
+    height: 200px;
+    margin-top:70px;
+    margin-left: 60px; 
+  }
+  .current_section_head2{
+    font-size: 22px;
+    margin-bottom: 15px;
+    margin-left: 55px;
+  } 
+  #dashoard_resumecourse_progressBar{
+    height: 120px;
+    width: 120px;
+    padding-left: 0px;
+    padding-top: 0px;
+    margin-left:10px;
+  }
 }
+@media only screen and (min-width: 1360px) and (max-width: 1439px)
+ {
+  
+    /*----- Current Section---------*/
+   
+    #dashboard-resumeCourse{
+     width: 300px;
+     height: 200px;
+     margin-top: 70px;
+     margin-left: 50px;  
+     }
+     
+     .current_section_head{
+       font-size: 22px;
+       margin-bottom: 19px;
+       margin-left: 60px;
+     } 
+     #current_icon{
+     margin-left: 20px;
+     margin-top: 0px;
+     width: 90px;
+     }
+     #current_co1{
+       margin-left: 150px;
+       margin-top:-27px;
+       font-size:16px;
+       width:150px;
+       }
+     #current_co11{
+       margin-left: 170px;
+       margin-top:-29px;
+       font-size:16px;
+     }
+     #current_res{
+       margin-left: 175px;
+       width: 90px;
+      margin-top:-10px; 
+     }
+     /*-----  Next section---------*/
+     #dashboard-next{
+     width: 300px;
+     height: 200px;
+     margin-top:70px;
+     margin-left: 70px; 
+     }
+     .current_section_head1{
+       font-size: 22px;
+       margin-bottom: 15px;
+       margin-left: 54px;
+     }
+     .current_Video1{
+       margin-left: 10px;
+       margin-top:10px;
+       font-size:19px;
+     }
+     #current_res1{
+       margin-left: 160px;
+       width: 90px;
+       margin-top:45px;
+       cursor: pointer;
+     }
+     /*----- Progress Bar---------*/
+     #dashboard-TotalProgress{
+       width: 300px;
+       height: 200px;
+       margin-top:70px;
+       margin-left: 70px; 
+     }
+     .current_section_head2{
+       font-size: 22px;
+       margin-bottom: 15px;
+       margin-left: 55px;
+     } 
+     #dashoard_resumecourse_progressBar{
+       height: 120px;
+       width: 120px;
+       padding-left: 0px;
+       padding-top: 0px;
+       margin-left:10px;
+     }
 }
+  @media only screen and (min-width: 1440px) 
+and (max-width: 1520px)
+  {
+/*----- Current Section---------*/
+   
+#dashboard-resumeCourse{
+  width: 300px;
+  height: 200px;
+  margin-top: 70px;
+  margin-left: 60px;  
+  }
+  
+  .current_section_head{
+    font-size: 22px;
+    margin-bottom: 19px;
+    margin-left: 60px;
+  } 
+  #current_icon{
+  margin-left: 20px;
+  margin-top: 0px;
+  width: 90px;
+  }
+  #current_co1{
+    margin-left: 150px;
+    margin-top:-27px;
+    font-size:16px;
+    width:150px;
+    }
+  #current_co11{
+    margin-left: 170px;
+    margin-top:-29px;
+    font-size:16px;
+  }
+  #current_res{
+    margin-left: 175px;
+    width: 90px;
+   margin-top:-10px; 
+  }
+  /*-----  Next section---------*/
+  #dashboard-next{
+  width: 300px;
+  height: 200px;
+  margin-top:70px;
+  margin-left: 80px; 
+  }
+  .current_section_head1{
+    font-size: 22px;
+    margin-bottom: 15px;
+    margin-left: 54px;
+  }
+  .current_Video1{
+    margin-left: 10px;
+    margin-top:10px;
+    font-size:19px;
+  }
+  #current_res1{
+    margin-left: 160px;
+    width: 90px;
+    margin-top:45px;
+    cursor: pointer;
+  }
+  /*----- Progress Bar---------*/
+  #dashboard-TotalProgress{
+    width: 300px;
+    height: 200px;
+    margin-top:70px;
+    margin-left: 80px; 
+  }
+  .current_section_head2{
+    font-size: 22px;
+    margin-bottom: 15px;
+    margin-left: 55px;
+  } 
+  #dashoard_resumecourse_progressBar{
+    height: 120px;
+    width: 120px;
+    padding-left: 0px;
+    padding-top: 0px;
+    margin-left:10px;
+  }
+  }
+  @media only screen and (min-width: 1521px) 
+and (max-width: 1599px)
+  {
+/*----- Current Section---------*/
 
-@media only screen and (min-width: 1441px) and (max-width: 1520px) {
-#col1 {
-  margin-left: 55px;
-  margin-top: 20px;
-}
-#btn_allcourses {
+#dashboard-resumeCourse{
+  width: 320px;
+  height: 220px;
+  margin-top: 70px;
+  margin-left: 60px;
+  }
+  .current_section_head{
+    font-size: 25px;
+    margin-bottom: 15px;
+    margin-left: 60px;
+  } 
+  #current_icon{
   margin-left: 20px;
-  margin-bottom: 10px;
-}
-}
+  margin-top: 0px;
+  width: 90px;
+  }
+  #current_co1{
+    margin-left: 180px;
+    margin-top: -25px;
+    width: 100px;
+  }
+  #current_co11{
+    margin-left: 200px;
+    margin-top: -28px;
+  }
+  #current_res{
+    margin-left: 200px;
+    width: 100px;
+    margin-bottom: 10px;
+    cursor: pointer;
+  } 
+  /*----- Current Next---------*/
+  #dashboard-next{
+  width: 320px;
+  height: 220px;
+  margin-top: 70px;
+  margin-left: 150px;
+  padding-left: 20px;
+  margin-left: 80px;
+  }
+  .current_section_head1{
+    font-size: 25px;
+    width: 100%;
+    margin-bottom: 15px;
+    margin-left: 60px;
+  } 
+  #current_res1{
+    margin-left: 175px;
+    width: 100px;
+    margin-top: 30px;
+  }
+  .current_Video1{
+    font-size: 20px;
+  margin-left: 10px;
+  margin-top: 20px;  
+  }
+  /*----- Progress Bar---------*/
+  #dashboard-TotalProgress{
+  width: 320px;
+  height: 220px;
+  margin-top: 70px;
+  margin-left: 80px;
+  padding-left: 20px;
+  }
+  
+  .current_section_head2{
+    font-size: 25px;
+    width: 100%;
+    margin-top: 1.2px;
+    margin-left: 55px;
+  } 
+  #dashoard_resumecourse_progressBar{
+    height: 120px;
+    width: 120px;
+    padding-left: 0px;
+    padding-top: 10px;
+    margin-left:10px;
+  }
+  }
+  @media only screen and (min-width: 1600px) 
+and (max-width: 1680px)
+  {
+/*----- Current Section---------*/
 
-@media only screen and (min-width: 1521px) and (max-width: 1600px) {
-#col1 {
-  margin-left: 55px;
-  margin-top: 20px;
-}
-#btn_allcourses {
+#dashboard-resumeCourse{
+  width: 400px;
+height: 280px;
+  margin-top: 70px;
+  margin-left: 70px;
+  }
+  .current_section_head{
+    font-size: 32px;
+    margin-bottom: 15px;
+    margin-left: 90px;
+  } 
+  #current_icon{
   margin-left: 20px;
-  margin-bottom: 10px;
-}
-}
+  margin-top: 0px;
+  width: 110px;
+  }
+  #current_co1{
+    margin-left: 190px;
+    margin-top: -36px;
+    width: 180px;
+    font-size:24px;
+  }
+  #current_co11{
+    margin-left: 210px;
+    margin-top: -45px;
+    width:180px;
+    font-size:24px;
+  }
+  #current_res{
+    margin-left: 220px;
+    width: 130px;
+    margin-top: -5px;
+    cursor: pointer;
+  } 
+  /*----- Current Next---------*/
+  #dashboard-next{
+    width: 400px;
+    height: 280px;
+  margin-top: 70px;
+  margin-left: 150px;
+  padding-left: 20px;
+  margin-left: 80px;
+  }
+  .current_section_head1{
+    font-size: 32px;
+    width: 100%;
+    margin-bottom: 18px;
+    margin-left: 75px;
+  } 
+  #current_res1{
+    margin-left: 210px;
+    width: 130px;
+    margin-top: 60px;
+  }
+  .current_Video1{
+    font-size: 23px;
+  margin-left: 10px;
+  margin-top: 20px;  
+  }
+  /*----- Progress Bar---------*/
+  #dashboard-TotalProgress{
+    width: 400px;
+    height: 280px;
+  margin-top: 70px;
+  margin-left: 80px;
+  padding-left: 20px;
+  }
+  .current_section_head2{
+    font-size: 32px;
+    margin-top: 1.2px;
+    margin-left: 75px;
+  } 
+  #dashoard_resumecourse_progressBar{
+    height: 120px;
+    width: 185px;
+    padding-left: 30px;
+    padding-top: 30px;
+    margin-left:-10px;
+  }  
+  }
+  @media only screen and (min-width: 1680px) 
+  and (max-width: 1760px)
+    {
+  /*----- Current Section---------*/
 
-@media only screen and (min-width: 1601px) and (max-width: 1680px) {
-#col1 {
-  margin-left: 55px;
-  margin-top: 20px;
-}
-#btn_allcourses {
+#dashboard-resumeCourse{
+  width: 400px;
+height: 280px;
+  margin-top: 70px;
+  margin-left: 90px;
+  }
+  .current_section_head{
+    font-size: 32px;
+    margin-bottom: 15px;
+    margin-left: 90px;
+  } 
+  #current_icon{
   margin-left: 20px;
-  margin-bottom: 10px;
-}
-}
+  margin-top: 0px;
+  width: 110px;
+  }
+  #current_co1{
+    margin-left: 190px;
+    margin-top: -36px;
+    width: 180px;
+    font-size:24px;
+  }
+  #current_co11{
+    margin-left: 210px;
+    margin-top: -45px;
+    width:180px;
+    font-size:24px;
+  }
+  #current_res{
+    margin-left: 220px;
+    width: 130px;
+    margin-top: -5px;
+    cursor: pointer;
+  } 
+  /*----- Current Next---------*/
+  #dashboard-next{
+    width: 400px;
+    height: 280px;
+  margin-top: 70px;
+  margin-left: 150px;
+  padding-left: 20px;
+  margin-left: 100px;
+  }
+  .current_section_head1{
+    font-size: 32px;
+    width: 100%;
+    margin-bottom: 18px;
+    margin-left: 75px;
+  } 
+  #current_res1{
+    margin-left: 210px;
+    width: 130px;
+    margin-top: 60px;
+  }
+  .current_Video1{
+    font-size: 23px;
+  margin-left: 10px;
+  margin-top: 20px;  
+  }
+  /*----- Progress Bar---------*/
+  #dashboard-TotalProgress{
+    width: 400px;
+    height: 280px;
+  margin-top: 70px;
+  margin-left: 100px;
+  padding-left: 20px;
+  }
+  .current_section_head2{
+    font-size: 32px;
+    margin-top: 1.2px;
+    margin-left: 75px;
+  } 
+  #dashoard_resumecourse_progressBar{
+    height: 120px;
+    width: 185px;
+    padding-left: 30px;
+    padding-top: 30px;
+    margin-left:-10px;
+  }  
+    }
+  @media only screen and (min-width: 1759px) 
+and (max-width: 1840px)
+  {
+  /*----- Current Section---------*/
 
-@media only screen and (min-width: 1680px) and (max-width: 1760px) {
-#col1 {
-  margin-left: 55px;
-  margin-top: 20px;
-}
-#btn_allcourses {
+#dashboard-resumeCourse{
+  width: 436px;
+height: 322px;
+  margin-top: 70px;
+  margin-left: 70px;
+  }
+  .current_section_head{
+    font-size: 42px;
+    margin-bottom: 15px;
+    margin-left: 65px;
+  } 
+  #current_icon{
   margin-left: 20px;
-  margin-bottom: 10px;
+  margin-top: 0px;
+  width: 136px;
+  }
+  #current_co1{
+    margin-left: 190px;
+    margin-top: -40px;
+    width: 240px;
+    font-size:28px;
+  }
+  #current_co11{
+    margin-left: 210px;
+    margin-top: -45px;
+    width:240px;
+    font-size:28px;
+  }
+  #current_res{
+    margin-left: 220px;
+    width: 155px;
+    margin-top: -25px;
+    cursor: pointer;
+  } 
+  /*----- Current Next---------*/
+  #dashboard-next{
+    width: 436px;
+    height: 322px;
+  margin-top: 70px;
+  margin-left: 150px;
+  padding-left: 20px;
+  margin-left: 80px;
+  }
+  .current_section_head1{
+    font-size: 42px;
+    width: 100%;
+    margin-bottom: 18px;
+    margin-left: 75px;
+  } 
+  #current_res1{
+    margin-left: 210px;
+    width: 155px;
+    margin-top: 75px;
+  }
+  .current_Video1{
+    font-size: 25px;
+  margin-left: 10px;
+  margin-top: 20px;  
+  }
+  /*----- Progress Bar---------*/
+  #dashboard-TotalProgress{
+    width: 436px;
+    height: 322px;
+  margin-top: 70px;
+  margin-left: 80px;
+  padding-left: 20px;
+  }
+  .current_section_head2{
+    font-size: 42px;
+    margin-top: 1.2px;
+    margin-left: 75px;
+  } 
+  #dashoard_resumecourse_progressBar{
+    height: 120px;
+    width: 255px;
+    padding-left: 30px;
+    padding-top: 0px;
+    margin-left:-10px;
+  }  
 }
-}
+  @media only screen and (min-width: 1841px) 
+and (max-width: 1919px)
+  {
+ /*----- Current Section---------*/
 
-@media only screen and (min-width: 1760px) and (max-width: 1840px) {
-#col1 {
-  margin-left: 55px;
-  margin-top: 20px;
-}
-#btn_allcourses {
+#dashboard-resumeCourse{
+  width: 436px;
+height: 322px;
+  margin-top: 70px;
+  margin-left: 90px;
+  }
+  .current_section_head{
+    font-size: 42px;
+    margin-bottom: 15px;
+    margin-left: 65px;
+  } 
+  #current_icon{
   margin-left: 20px;
-  margin-bottom: 10px;
-}
-}
+  margin-top: 0px;
+  width: 136px;
+  }
+  #current_co1{
+    margin-left: 190px;
+    margin-top: -40px;
+    width: 240px;
+    font-size:28px;
+  }
+  #current_co11{
+    margin-left: 210px;
+    margin-top: -45px;
+    width:240px;
+    font-size:28px;
+  }
+  #current_res{
+    margin-left: 220px;
+    width: 155px;
+    margin-top: -25px;
+    cursor: pointer;
+  } 
+  /*----- Current Next---------*/
+  #dashboard-next{
+    width: 436px;
+    height: 322px;
+  margin-top: 70px;
+  margin-left: 150px;
+  padding-left: 20px;
+  margin-left: 100px;
+  }
+  .current_section_head1{
+    font-size: 42px;
+    width: 100%;
+    margin-bottom: 18px;
+    margin-left: 75px;
+  } 
+  #current_res1{
+    margin-left: 210px;
+    width: 155px;
+    margin-top: 75px;
+  }
+  .current_Video1{
+    font-size: 25px;
+  margin-left: 10px;
+  margin-top: 20px;  
+  }
+  /*----- Progress Bar---------*/
+  #dashboard-TotalProgress{
+    width: 436px;
+    height: 322px;
+  margin-top: 70px;
+  margin-left: 100px;
+  padding-left: 20px;
+  }
+  .current_section_head2{
+    font-size: 42px;
+    margin-top: 1.2px;
+    margin-left: 65px;
+  } 
+  #dashoard_resumecourse_progressBar{
+    height: 120px;
+    width: 255px;
+    padding-left: 30px;
+    padding-top: 0px;
+    margin-left:-10px;
+  }  
+  }
+  @media only screen and (min-width: 1920px) 
+  and (max-width: 2000px)
+    {
+/*----- Current Section---------*/
 
-@media only screen and (min-width: 1840px) and (max-width: 1920px) {
-#col1 {
-  margin-left: 55px;
-  margin-top: 20px;
-}
-#btn_allcourses {
+#dashboard-resumeCourse{
+  width: 436px;
+height: 322px;
+  margin-top: 70px;
+  margin-left: 110px;
+  }
+  .current_section_head{
+    font-size: 42px;
+    margin-bottom: 15px;
+    margin-left: 65px;
+  } 
+  #current_icon{
   margin-left: 20px;
-  margin-bottom: 10px;
-}
-}
+  margin-top: 0px;
+  width: 136px;
+  }
+  #current_co1{
+    margin-left: 190px;
+    margin-top: -40px;
+    width: 240px;
+    font-size:28px;
+  }
+  #current_co11{
+    margin-left: 210px;
+    margin-top: -45px;
+    width:240px;
+    font-size:28px;
+  }
+  #current_res{
+    margin-left: 220px;
+    width: 155px;
+    margin-top: -25px;
+    cursor: pointer;
+  } 
+  /*----- Current Next---------*/
+  #dashboard-next{
+    width: 436px;
+    height: 322px;
+  margin-top: 70px;
+  margin-left: 150px;
+  padding-left: 20px;
+  margin-left: 120px;
+  }
+  .current_section_head1{
+    font-size: 42px;
+    width: 100%;
+    margin-bottom: 18px;
+    margin-left: 75px;
+  } 
+  #current_res1{
+    margin-left: 210px;
+    width: 155px;
+    margin-top: 75px;
+  }
+  .current_Video1{
+    font-size: 25px;
+  margin-left: 10px;
+  margin-top: 20px;  
+  }
+  /*----- Progress Bar---------*/
+  #dashboard-TotalProgress{
+    width: 436px;
+    height: 322px;
+  margin-top: 70px;
+  margin-left: 130px;
+  padding-left: 20px;
+  }
+  .current_section_head2{
+    font-size: 42px;
+    margin-top: 1.2px;
+    margin-left: 65px;
+  } 
+  #dashoard_resumecourse_progressBar{
+    height: 120px;
+    width: 255px;
+    padding-left: 30px;
+    padding-top: 0px;
+    margin-left:-10px;
+  }  
+  }           
 
-@media only screen and (min-width: 1920px) and (max-width: 2000px) {
-#col1 {
-  margin-left: 55px;
-  margin-top: 20px;
-}
-#btn_allcourses {
-  margin-left: 20px;
-  margin-bottom: 10px;
-}
-}

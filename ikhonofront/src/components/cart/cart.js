@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import './cart.css';
-import {productionItems} from '../../FinalDetails';
 import Nav from '../nav/nav';
 import Footer from '../footer/footer'; 
+import axios from 'axios';
 
 function Header(props){
   return <h2 class="shoping1"> Shopping Cart</h2>
@@ -26,17 +26,63 @@ function Items(props){
                                           Price - {items.price} RS
                                       </div>
                               <div >
-                                <button id='remove'>Remove</button>
+                                <input type="button"  id='remove' value='remove' onClick={()=>deleteItems()}></input>
                               </div>
                         </div>
                       )
                     }
               </div>
+              
   </div>
 }
-class cart extends Component{
-  render() {
 
+ function deleteItems(){
+                                 
+
+        const headers = {
+            
+          "Content-Type": "application/json"
+                    }
+      const id = { id :123456789};
+      axios.post('http://localhost:5000/student_enrollment/cartcarddelete',id,{headers: headers});
+
+
+}
+
+
+
+
+class cart extends Component{
+
+  constructor(props){
+    super(props);
+    this.state={
+      productionItems:[]
+    }
+  }
+
+  componentDidMount(){
+    this.getItems();
+  }
+
+  getItems =()=>{
+      const headers = {
+        
+          "Content-Type": "application/json"
+      }
+      const id = { id :1234};
+     axios.post('http://localhost:5000/student_enrollment/cartproduction',id,{headers: headers}).then(res => {
+        
+      const data = res.data;
+      this.setState({productionItems:data})
+      })
+
+    }
+  
+
+
+  render() {
+      const {productionItems} = this.state
     return(
     <div>
         <div>

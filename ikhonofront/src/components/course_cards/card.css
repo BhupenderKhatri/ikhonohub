@@ -1,9 +1,11 @@
-#card{
+#card1{
     color: black;
     margin-left: 45px;
-    width: 350px;
-    height: 500px;
+    width: 250px;
+    height: 300px;
 }
+
+
 
 #card_data{
 
@@ -23,8 +25,7 @@
 #heading{
     margin-left: -95px;
     margin-top: 0px;
-    top: 1235px;
-font: 95 Black 20px/30px Avenir LT Std;
+    font: 95 Black 20px/30px Avenir LT Std;
 letter-spacing: 0px;
 color: #000000;
 opacity: 1;
@@ -93,7 +94,7 @@ text-align: center;
     background-color: #EA330C;
  } 
 
-
+/* 
 
  @media only screen and (min-width: 320px) 
  and (max-width: 374px) 
@@ -1360,4 +1361,4 @@ text-align: center;
         margin-left: 9px; 
          
     }
-}
+} */
