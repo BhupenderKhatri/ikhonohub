@@ -29,11 +29,15 @@ import {ReactComponent as IconPurchaseHistory} from './icons/Icon-purchasehistor
 import {ReactComponent as IconHelp} from './icons/Icon-help2.svg';
 import {ReactComponent as IconLogout} from './icons/Icon-logout1.svg';
 
+import {ReactComponent as IconCart} from './icons/shopping_cart.svg';
+import {ReactComponent as IconNotification} from './icons/notification.svg';
+
 
 import Recommended from './recommendedcourses';
 import LogoWhite from '../nav/LogoWhite.png';
 import Icon_badge from './icons/Icon-badge.png';
 import Icon_badge1 from './icons/Icon-badge1.png';
+
 
 const drawerWidth = 240;
 
@@ -220,6 +224,15 @@ export default function MiniDrawer() {
               <ListItemIcon onClick={()=>history.push('/purchasehistory')}>{<IconPurchaseHistory /> }</ListItemIcon>
               <ListItemText primary="Payment History" onClick={()=>history.push('/purchasehistory')}/>
             </ListItem>
+            <ListItem button key="Cart">
+              <ListItemIcon onClick={()=>history.push('/cartLoggedIn')}>{<IconCart /> }</ListItemIcon>
+              <ListItemText onClick={()=>history.push('/cartLoggedIn')} primary="Cart"/>
+            </ListItem>
+            <ListItem button key="Notification">
+              <ListItemIcon onClick={()=>history.push('/bell')}>{<IconNotification /> }</ListItemIcon>
+              <ListItemText onClick={()=>history.push('/bell')} primary="Notification"/>
+            </ListItem>
+
 			<ListItem button key="Help">
               <ListItemIcon>{<IconHelp /> }</ListItemIcon>
               <ListItemText primary="Help"/>

@@ -32,6 +32,9 @@ import LogoWhite from '../nav/LogoWhite.png';
 import './dashboard.css';
 import history from '../../history';
 
+import {ReactComponent as IconCart} from './icons/shopping_cart.svg';
+import {ReactComponent as IconNotification} from './icons/notification.svg';
+
 import MyCourses from './MyCourses/MyCoursesList';
 import DashboardNav from '../newdashboardnav/newdashboardnav';
 
@@ -216,6 +219,14 @@ export default function MiniDrawer() {
 			<ListItem button key="PurchaseHistory">
               <ListItemIcon onClick={()=>history.push('/purchasehistory')}>{<IconPurchaseHistory /> }</ListItemIcon>
               <ListItemText primary="Payment History" onClick={()=>history.push('/purchasehistory')}/>
+            </ListItem>
+            <ListItem button key="Cart">
+              <ListItemIcon onClick={()=>history.push('/cartLoggedIn')}>{<IconCart /> }</ListItemIcon>
+              <ListItemText onClick={()=>history.push('/cartLoggedIn')} primary="Cart"/>
+            </ListItem>
+            <ListItem button key="Notification">
+              <ListItemIcon onClick={()=>history.push('/bell')}>{<IconNotification /> }</ListItemIcon>
+              <ListItemText onClick={()=>history.push('/bell')} primary="Notification"/>
             </ListItem>
 			<ListItem button key="Help">
               <ListItemIcon>{<IconHelp /> }</ListItemIcon>
