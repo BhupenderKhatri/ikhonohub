@@ -1,5 +1,5 @@
 import React ,{Component} from 'react';
-import './newaddress.css';
+// import './newaddress.css';
 import history from '../../../history';
 import axios from 'axios';
 import Newdashboardnav from '../../newdashboardnav/newdashboardnav';

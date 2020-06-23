@@ -71,7 +71,7 @@ class profileinfo extends Component {
      <p class="personal_paravaliclass">
     Name  &nbsp;&nbsp;&nbsp; <a class="personal_request_change"  onClick={()=>history.push('/addprofile')}>Request to Change</a>
     </p>
-    <input class="perinputpro" type="text" name="title" value={user.name}/> 
+    <input class="perinputpro" type="text" name="title" value={user.name} readOnly/> 
 
 {/* your gender */}
 
@@ -86,19 +86,19 @@ class profileinfo extends Component {
 <p  class="personal_paravaliclass">Email Address  &nbsp;&nbsp;&nbsp;
  {/* <a class="personal_request_change1" href="">Change Password</a> */}
 </p>
-<input type="text" class="perinput1pro" refs="email" type="text" size="30" placeholder="Email" value={user.email}/>
+<input type="text" class="perinput1pro" refs="email" type="text" size="30" placeholder="Email" value={user.email} readOnly/>
       
 {/* Mobile Details */}
    
     <p  class="personal_paravaliclass">Mobile Number &nbsp;&nbsp;&nbsp;
      {/* <a class="personal_request_change2" href="">Edit</a> */}
     </p>
-    <input type="text" class="perinputpro" refs="phone" type="text" size="30" placeholder="Phone" value={user.mobile}/>
+    <input type="text" class="perinputpro" refs="phone" type="text" size="30" placeholder="Phone" value={user.mobile} readOnly/>
 
     <p  class="personal_paravaliclass">Address  &nbsp;&nbsp;&nbsp;
      {/* <a class="personal_request_change3" href="">Edit</a> */}
     </p>
-    <input type="text"  class="perinputpro" type="text" size="30" placeholder="Address" value={user.address}/>
+    <input type="text"  class="perinputpro" type="text" size="30" placeholder="Address" value={user.address} readOnly/>
 
 </div>
 </div>

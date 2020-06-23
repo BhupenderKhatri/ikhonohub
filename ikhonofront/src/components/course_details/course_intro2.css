@@ -1,0 +1,562 @@
+#con_intro2 {
+    display: flex;
+}
+
+ul.list_intro2_00 {
+    list-style: none;
+    width: 700px;
+    padding-left: 15%;
+    line-height: 40px;
+    font-size: 120%;
+    list-style-type: disc;
+    list-style-position: inside;
+    padding: 10px 0 10px 20px;
+    text-indent: -2em;
+}
+
+ul.list_intro2_11 {
+    list-style: none;
+    width: 600px;
+    padding-left: 40px;
+    line-height: 40px;
+    font-size: 120%;
+    list-style-type: disc;
+    list-style-position: inside;
+    padding: 10px 0 10px 20px;
+    text-indent: -2em;
+}
+
+#stylingintro2 {
+    list-style: none;
+    text-align: left;
+}
+
+#stylingintro2:before {
+    content: '✓';
+    color: red;
+}
+
+#heading2 {
+    margin-left: 35%;
+    margin-top: 40px;
+    font-size: 35.2px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 359px) {
+    ul.list_intro2_00 {
+        width: 153px;
+        line-height: 15px;
+        font-size: 8px;
+    }
+    ul.list_intro2_11 {
+        width: 157px;
+        padding-left: 16px;
+        line-height: 15px;
+        font-size: 8px;
+    }
+    #heading2 {
+        margin-left: 25%;
+        margin-top: 40px;
+        font-size: 16px;
+    }
+}
+
+@media only screen and (min-width: 360px) and (max-width: 374px) {
+    ul.list_intro2_00 {
+        width: 167px;
+        padding-left: 26px;
+        line-height: 17px;
+        font-size: 10px;
+    }
+    ul.list_intro2_11 {
+        width: 170px;
+        padding-left: 32px;
+        line-height: 17px;
+        font-size: 10px;
+    }
+    #heading2 {
+        margin-left: 29%;
+        margin-top: 40px;
+        font-size: 18px;
+    }
+}
+
+@media only screen and (min-width: 375px) and (max-width: 411px) {
+    ul.list_intro2_00 {
+        width: 177px;
+        padding-left: 18px;
+        line-height: 17px;
+        font-size: 9px;
+    }
+    ul.list_intro2_11 {
+        width: 180px;
+        padding-left: 34px;
+        line-height: 17px;
+        font-size: 9px;
+    }
+    #heading2 {
+        margin-left: 26%;
+        margin-top: 40px;
+        font-size: 18px;
+    }
+}
+
+@media only screen and (min-width: 412px) and (max-width: 413px) {
+    ul.list_intro2_00 {
+        width: 182px;
+        padding-left: 22px;
+        line-height: 17px;
+        font-size: 10px;
+    }
+    ul.list_intro2_11 {
+        width: 184px;
+        padding-left: 38px;
+        line-height: 17px;
+        font-size: 10px;
+    }
+    #heading2 {
+        margin-left: 27%;
+        margin-top: 40px;
+        font-size: 20px;
+    }
+}
+
+@media only screen and (min-width: 414px) and (max-width: 449px) {
+    ul.list_intro2_00 {
+        width: 188px;
+        padding-left: 30px;
+        line-height: 18px;
+        font-size: 11px;
+    }
+    ul.list_intro2_11 {
+        width: 189px;
+        padding-left: 45px;
+        line-height: 18px;
+        font-size: 11px;
+    }
+    #heading2 {
+        margin-left: 27%;
+        margin-top: 40px;
+        font-size: 20px;
+    }
+}
+
+@media only screen and (min-width: 450px) and (max-width: 550px) {
+    ul.list_intro2_00 {
+        width: 230px;
+        padding-left: 50px;
+        line-height: 19px;
+        font-size: 12px;
+    }
+    ul.list_intro2_11 {
+        width: 220px;
+        padding-left: 50px;
+        line-height: 19px;
+        font-size: 12px;
+    }
+    #heading2 {
+        margin-left: 27%;
+        margin-top: 40px;
+        font-size: 20px;
+    }
+}
+
+@media only screen and (min-width: 551px) and (max-width: 599px) {
+    ul.list_intro2_00 {
+        width: 260px;
+        padding-left: 56px;
+        line-height: 20px;
+        font-size: 13px;
+    }
+    ul.list_intro2_11 {
+        width: 250px;
+        padding-left: 57px;
+        line-height: 20px;
+        font-size: 13px;
+    }
+    #heading2 {
+        margin-left: 34%;
+        margin-top: 40px;
+        font-size: 23px;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 616px) {
+    ul.list_intro2_00 {
+        width: 260px;
+        padding-left: 56px;
+        line-height: 20px;
+        font-size: 13px;
+    }
+    ul.list_intro2_11 {
+        width: 250px;
+        padding-left: 57px;
+        line-height: 20px;
+        font-size: 13px;
+    }
+    #heading2 {
+        margin-left: 34%;
+        margin-top: 40px;
+        font-size: 23px;
+    }
+}
+
+@media only screen and (min-width: 618px) and (max-width: 700px) {
+    ul.list_intro2_00 {
+        width: 280px;
+        padding-left: 66px;
+        line-height: 20px;
+        font-size: 13px;
+    }
+    ul.list_intro2_11 {
+        width: 260px;
+        padding-left: 63px;
+        line-height: 20px;
+        font-size: 13px;
+    }
+    #heading2 {
+        margin-left: 38%;
+        margin-top: 40px;
+        font-size: 23px;
+    }
+}
+
+@media only screen and (min-width: 701px) and (max-width: 767px) {
+    ul.list_intro2_00 {
+        width: 320px;
+        padding-left: 110px;
+        line-height: 20px;
+        font-size: 14px;
+    }
+    ul.list_intro2_11 {
+        width: 300px;
+        padding-left: 80px;
+        line-height: 20px;
+        font-size: 14px;
+    }
+    #heading2 {
+        margin-left: 40%;
+        margin-top: 40px;
+        font-size: 23px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 799px) {
+    ul.list_intro2_00 {
+        width: 320px;
+        padding-left: 120px;
+        line-height: 20px;
+        font-size: 14px;
+    }
+    ul.list_intro2_11 {
+        width: 300px;
+        padding-left: 90px;
+        line-height: 20px;
+        font-size: 14px;
+    }
+    #heading2 {
+        margin-left: 41%;
+        margin-top: 40px;
+        font-size: 23px;
+    }
+}
+
+@media only screen and (min-width: 800px) and (max-width: 850px) {
+    ul.list_intro2_00 {
+        width: 346px;
+        padding-left: 123px;
+        line-height: 21px;
+        font-size: 14px;
+    }
+    ul.list_intro2_11 {
+        width: 310px;
+        padding-left: 92px;
+        line-height: 21px;
+        font-size: 14px;
+    }
+    #heading2 {
+        margin-left: 37%;
+        margin-top: 42px;
+        font-size: 24px;
+    }
+}
+
+@media only screen and (min-width: 851px) and (max-width: 909px) {
+    ul.list_intro2_00 {
+        width: 360px;
+        padding-left: 126px;
+        line-height: 21px;
+        font-size: 14px;
+    }
+    ul.list_intro2_11 {
+        width: 320px;
+        padding-left: 106px;
+        line-height: 21px;
+        font-size: 14px;
+    }
+    #heading2 {
+        margin-left: 41%;
+        margin-top: 42px;
+        font-size: 24px;
+    }
+}
+
+@media only screen and (min-width: 910px) and (max-width: 1023px) {
+    ul.list_intro2_00 {
+        width: 425px;
+        padding-left: 136px;
+        line-height: 23px;
+        font-size: 16px;
+    }
+    ul.list_intro2_11 {
+        width: 368px;
+        padding-left: 114px;
+        line-height: 23px;
+        font-size: 16px;
+    }
+    #heading2 {
+        margin-left: 43%;
+        margin-top: 42px;
+        font-size: 26px;
+    }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1100px) {
+    ul.list_intro2_00 {
+        width: 449px;
+        padding-left: 158px;
+        line-height: 23px;
+        font-size: 16px;
+    }
+    ul.list_intro2_11 {
+        width: 423px;
+        padding-left: 107px;
+        line-height: 23px;
+        font-size: 16px;
+    }
+    #heading2 {
+        margin-left: 42%;
+        margin-top: 42px;
+        font-size: 26px;
+    }
+}
+
+@media only screen and (min-width: 1101px) and (max-width: 1200px) {
+    ul.list_intro2_00 {
+        width: 495px;
+        padding-left: 162px;
+        line-height: 25px;
+        font-size: 16px;
+    }
+    ul.list_intro2_11 {
+        width: 469px;
+        padding-left: 109px;
+        line-height: 29px;
+        font-size: 16px;
+    }
+    #heading2 {
+        margin-left: 42%;
+        margin-top: 42px;
+        font-size: 26px;
+    }
+}
+
+@media only screen and (min-width: 1201px) and (max-width: 1300px) {
+    ul.list_intro2_00 {
+        width: 582px;
+        padding-left: 185px;
+        line-height: 35px;
+        font-size: 19px;
+    }
+    ul.list_intro2_11 {
+        width: 469px;
+        padding-left: 109px;
+        line-height: 35px;
+        font-size: 19px;
+    }
+    #heading2 {
+        margin-left: 41%;
+        margin-top: 42px;
+        font-size: 33px;
+    }
+}
+
+@media only screen and (min-width: 1301px) and (max-width: 1359px) {
+    ul.list_intro2_00 {
+        width: 652px;
+        padding-left: 153px;
+        line-height: 37px;
+        font-size: 21px;
+    }
+    ul.list_intro2_11 {
+        width: 628px;
+        padding-left: 127px;
+        line-height: 37px;
+        font-size: 21px;
+    }
+    #heading2 {
+        margin-left: 37%;
+        margin-top: 42px;
+        font-size: 35px;
+    }
+}
+
+@media only screen and (min-width: 1360px) and (max-width: 1439px) {
+    ul.list_intro2_00 {
+        width: 652px;
+        padding-left: 153px;
+        line-height: 37px;
+        font-size: 22px;
+    }
+    ul.list_intro2_11 {
+        width: 628px;
+        padding-left: 127px;
+        line-height: 39px;
+        font-size: 22px;
+    }
+    #heading2 {
+        margin-left: 37%;
+        margin-top: 42px;
+        font-size: 37px;
+    }
+}
+
+@media only screen and (min-width: 1440px) and (max-width: 1520px) {
+    ul.list_intro2_00 {
+        width: 716px;
+        padding-left: 153px;
+        line-height: 41px;
+        font-size: 23px;
+    }
+    ul.list_intro2_11 {
+        width: 691px;
+        padding-left: 125px;
+        line-height: 40px;
+        font-size: 23px;
+    }
+    #heading2 {
+        margin-left: 37%;
+        margin-top: 42px;
+        font-size: 40px;
+    }
+}
+
+@media only screen and (min-width: 1521px) and (max-width: 1599px) {
+    ul.list_intro2_00 {
+        width: 716px;
+        padding-left: 153px;
+        line-height: 41px;
+        font-size: 24px;
+    }
+    ul.list_intro2_11 {
+        width: 691px;
+        padding-left: 125px;
+        line-height: 40px;
+        font-size: 24px;
+    }
+    #heading2 {
+        margin-left: 37%;
+        margin-top: 42px;
+        font-size: 42px;
+    }
+}
+
+@media only screen and (min-width: 1600px) and (max-width: 1679px) {
+    ul.list_intro2_00 {
+        width: 799px;
+        padding-left: 147px;
+        line-height: 44px;
+        font-size: 26px;
+    }
+    ul.list_intro2_11 {
+        width: 763px;
+        padding-left: 90px;
+        line-height: 44px;
+        font-size: 26px;
+    }
+    #heading2 {
+        margin-left: 36%;
+        margin-top: 42px;
+        font-size: 43px;
+    }
+}
+
+@media only screen and (min-width: 1680px) and (max-width: 1759px) {
+    ul.list_intro2_00 {
+        width: 877px;
+        padding-left: 193px;
+        line-height: 44px;
+        font-size: 26px;
+    }
+    ul.list_intro2_11 {
+        width: 776px;
+        padding-left: 93px;
+        line-height: 44px;
+        font-size: 26px;
+    }
+    #heading2 {
+        margin-left: 37%;
+        margin-top: 42px;
+        font-size: 45px;
+    }
+}
+
+@media only screen and (min-width: 1760px) and (max-width: 1840px) {
+    ul.list_intro2_00 {
+        width: 874px;
+        padding-left: 180px;
+        line-height: 46px;
+        font-size: 26px;
+    }
+    ul.list_intro2_11 {
+        width: 763px;
+        padding-left: 90px;
+        line-height: 46px;
+        font-size: 26px;
+    }
+    #heading2 {
+        margin-left: 37%;
+        margin-top: 42px;
+        font-size: 48px;
+    }
+}
+
+@media only screen and (min-width: 1841px) and (max-width: 1919px) {
+    ul.list_intro2_00 {
+        width: 984px;
+        padding-left: 180px;
+        line-height: 46px;
+        font-size: 26px;
+    }
+    ul.list_intro2_11 {
+        width: 763px;
+        padding-left: 90px;
+        line-height: 46px;
+        font-size: 26px;
+    }
+    #heading2 {
+        margin-left: 38%;
+        margin-top: 42px;
+        font-size: 50px;
+    }
+}
+
+@media only screen and (min-width: 1920px) and (max-width: 2000px) {
+    ul.list_intro2_00 {
+        width: 1038px;
+        padding-left: 180px;
+        line-height: 46px;
+        font-size: 29px;
+    }
+    ul.list_intro2_11 {
+        width: 798px;
+        padding-left: 90px;
+        line-height: 46px;
+        font-size: 29px;
+    }
+    #heading2 {
+        margin-left: 39%;
+        margin-top: 42px;
+        font-size: 51px;
+    }
+}

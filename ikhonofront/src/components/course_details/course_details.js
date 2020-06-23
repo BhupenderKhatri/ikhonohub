@@ -99,7 +99,7 @@ class course_details extends Component {
                           <Card1/>
                       }
                   </div> */}
-                <div>
+                 <div>
                     {
                         what_you_learn.map((user,i)=>{
                             return(
@@ -114,9 +114,9 @@ class course_details extends Component {
                         })
                     }
                 </div>
-                <div>
+                {/* <div>
                      <Comments/>
-                </div>
+                </div> */}
 
                 <div>
                     {
@@ -130,9 +130,9 @@ class course_details extends Component {
                             );
                         })
                     }
-                </div>
+                </div> 
 
-                <div>
+                 <div>
                     {
                         full_details.map((user,i)=>{
                             return(
@@ -168,11 +168,11 @@ class course_details extends Component {
                
                 
             </div></td>
-                  <td id="second">
+                  {/* <td id="second">
                       
                       
                      
-                  </td>
+                  </td> */}
               </tr>
           </table>
        

@@ -5,6 +5,8 @@ import home from "./../components/home/home";
 import signup from "./../components/signup/signup";
 import history from '../history';
 import login from './../components/login/login';
+import forgotpassword from './../components/Forgotpassword/forgotpassword'
+import Verification from './../components/Verfication/verification'
 import cart from './../components/cart/cart';
 import bell from './../components/bell/bell';
 
@@ -36,6 +38,8 @@ export default class Routes extends Component {
                     <Route path="/" exact component={home} />
                     <Route path="/login" component={login} />
                     <Route path="/signup" component={signup} />
+                    <Route path="/forgotpassword" component={forgotpassword} />
+                    <Route path="/Verification" component={Verification} />
                     <Route path="/cart" component={cart} />
                     <Route path="/bell" component={bell} />
                     <Route path="/AllCoursesLoggedIn" component={AllCoursesLoggedIn} />

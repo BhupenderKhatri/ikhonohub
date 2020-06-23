@@ -1,6 +1,10 @@
 var express = require('express')
 var cors = require('cors')
 var bodyParser = require('body-parser')
+busboy = require("then-busboy"),
+fileUpload = require('express-fileupload')
+path = require('path')
+
 var app = express()
 var port = process.env.PORT || 5000
 
@@ -43,6 +47,9 @@ app.use('/purchase_history', Purchase_histories)
 app.use('/student_enrollment', Student_enrollments)
 app.use('/test_result', Test_results)
 app.use('/razor_pay', Razor_pay)
+app.use(fileUpload());
+app.use(express.static(path.join(__dirname, 'public')));
+
 
 app.listen(port, function() {
     console.log('Server is running on port: ' + port)

@@ -48,7 +48,7 @@ class table extends Component{
           axios.post('http://localhost:5000/users/register',this.state,{headers: headers}).then(res => {
 
                console.log('POST response', res);
-               history.push('/verification');
+               history.push('/Verification');
            })
           }
      componentDidMount() {

@@ -1,0 +1,570 @@
+
+
+#heading4_coursedetail {
+    text-align: center;
+    margin-top: 6%;
+    margin-bottom: 40px;
+    font-size: 36px;
+}
+
+#styling_intro4 {
+    list-style: none;
+    text-align: left;
+    display: flex;
+}
+
+#styling_intro4:before {
+    content: '✓';
+    color: red;
+}
+
+.content4_coursedetail {
+    font-size: 22px;
+    text-align: left;
+    width: 90%;
+    line-height: 40px;
+    margin-left: -4%;
+}
+
+#set_coursedetail {
+    margin-left: 17%;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 359px) {
+    #heading4_coursedetail {
+        margin-top: 47px;
+        margin-bottom: 30px;
+        font-size: 18px;
+    }
+    #styling_intro4 {
+        margin-left: -20px;
+    }
+    .content4_coursedetail {
+        font-size: 10px;
+        width: 90%;
+        line-height: 16px;
+        margin-left: 6px;
+    }
+    #set_coursedetail {
+        margin-left: 37px;
+    }
+}
+
+@media only screen and (min-width: 360px) and (max-width: 374px) {
+    #heading4_coursedetail {
+        margin-top: 47px;
+        margin-bottom: 30px;
+        font-size: 19px;
+    }
+    #styling_intro4 {
+        margin-left: -20px;
+    }
+    .content4_coursedetail {
+        font-size: 11px;
+        width: 90%;
+        line-height: 16px;
+        margin-left: 6px;
+    }
+    #set_coursedetail {
+        margin-left: 37px;
+    }
+}
+
+@media only screen and (min-width: 375px) and (max-width: 411px) {
+    #heading4_coursedetail {
+        margin-top: 47px;
+        margin-bottom: 30px;
+        font-size: 19px;
+    }
+    #styling_intro4 {
+        margin-left: -20px;
+    }
+    .content4_coursedetail {
+        font-size: 10px;
+        width: 90%;
+        line-height: 17px;
+        margin-left: 6px;
+    }
+    #set_coursedetail {
+        margin-left: 38px;
+    }
+}
+
+@media only screen and (min-width: 412px) and (max-width: 413px) {
+    #heading4_coursedetail {
+        margin-top: 47px;
+        margin-bottom: 30px;
+        font-size: 19px;
+    }
+    #styling_intro4 {
+        margin-left: -20px;
+    }
+    .content4_coursedetail {
+        font-size: 10px;
+        width: 90%;
+        line-height: 17px;
+        margin-left: 6px;
+    }
+    #set_coursedetail {
+        margin-left: 38px;
+    }
+}
+
+@media only screen and (min-width: 414px) and (max-width: 449px) {
+    #heading4_coursedetail {
+        margin-top: 47px;
+        margin-bottom: 30px;
+        font-size: 20px;
+    }
+    #styling_intro4 {
+        margin-left: -20px;
+    }
+    .content4_coursedetail {
+        font-size: 11px;
+        width: 90%;
+        line-height: 18px;
+        margin-left: 6px;
+    }
+    #set_coursedetail {
+        margin-left: 38px;
+    }
+}
+
+@media only screen and (min-width: 450px) and (max-width: 550px) {
+    #heading4_coursedetail {
+        margin-top: 47px;
+        margin-bottom: 30px;
+        font-size: 20px;
+    }
+    #styling_intro4 {
+        margin-left: -20px;
+    }
+    .content4_coursedetail {
+        font-size: 12px;
+        width: 90%;
+        line-height: 19px;
+        margin-left: 6px;
+    }
+    #set_coursedetail {
+        margin-left: 38px;
+    }
+}
+
+@media only screen and (min-width: 551px) and (max-width: 599px) {
+    #heading4_coursedetail {
+        margin-top: 47px;
+        margin-bottom: 30px;
+        font-size: 23px;
+    }
+    #styling_intro4 {
+        margin-left: -20px;
+    }
+    .content4_coursedetail {
+        font-size: 13px;
+        width: 100%;
+        line-height: 20px;
+        margin-left: 6px;
+    }
+    #set_coursedetail {
+        margin-left: 50px;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 616px) {
+    #heading4_coursedetail {
+        margin-top: 47px;
+        margin-bottom: 30px;
+        font-size: 23px;
+        margin-left: 56px;
+    }
+    #styling_intro4 {
+        margin-left: 0px;
+    }
+    .content4_coursedetail {
+        font-size: 13px;
+        width: 110%;
+        line-height: 20px;
+        margin-left: 6px;
+    }
+    #set_coursedetail {
+        margin-left: 65px;
+    }
+}
+
+@media only screen and (min-width: 618px) and (max-width: 700px) {
+    #heading4_coursedetail {
+        margin-top: 47px;
+        margin-bottom: 30px;
+        font-size: 23px;
+        margin-left: 76px;
+    }
+    #styling_intro4 {
+        margin-left: 10px;
+    }
+    .content4_coursedetail {
+        font-size: 13px;
+        width: 110%;
+        line-height: 20px;
+        margin-left: 6px;
+    }
+    #set_coursedetail {
+        margin-left: 75px;
+    }
+}
+
+@media only screen and (min-width: 701px) and (max-width: 767px) {
+    #heading4_coursedetail {
+        margin-top: 47px;
+        margin-bottom: 30px;
+        font-size: 23px;
+        margin-left: 106px;
+    }
+    #styling_intro4 {
+        margin-left: 40px;
+    }
+    .content4_coursedetail {
+        font-size: 14px;
+        width: 110%;
+        line-height: 20px;
+        margin-left: 6px;
+    }
+    #set_coursedetail {
+        margin-left: 85px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 799px) {
+    #heading4_coursedetail {
+        margin-top: 47px;
+        margin-bottom: 30px;
+        font-size: 23px;
+        margin-left: 156px;
+    }
+    #styling_intro4 {
+        margin-left: 70px;
+    }
+    .content4_coursedetail {
+        font-size: 15px;
+        width: 110%;
+        line-height: 20px;
+        margin-left: 6px;
+    }
+    #set_coursedetail {
+        margin-left: 105px;
+    }
+}
+
+@media only screen and (min-width: 800px) and (max-width: 850px) {
+    #heading4_coursedetail {
+        margin-top: 47px;
+        margin-bottom: 30px;
+        font-size: 24px;
+        margin-left: 156px;
+    }
+    #styling_intro4 {
+        margin-left: 70px;
+    }
+    .content4_coursedetail {
+        font-size: 15px;
+        width: 110%;
+        line-height: 21px;
+        margin-left: 6px;
+    }
+    #set_coursedetail {
+        margin-left: 135px;
+    }
+}
+
+@media only screen and (min-width: 851px) and (max-width: 909px) {
+    #heading4_coursedetail {
+        margin-top: 47px;
+        margin-bottom: 30px;
+        font-size: 24px;
+        margin-left: 176px;
+    }
+    #styling_intro4 {
+        margin-left: 70px;
+    }
+    .content4_coursedetail {
+        font-size: 15px;
+        width: 110%;
+        line-height: 21px;
+        margin-left: 6px;
+    }
+    #set_coursedetail {
+        margin-left: 135px;
+    }
+}
+
+@media only screen and (min-width: 910px) and (max-width: 1023px) {
+    #heading4_coursedetail {
+        margin-top: 47px;
+        margin-bottom: 30px;
+        font-size: 26px;
+        margin-left: 196px;
+    }
+    #styling_intro4 {
+        margin-left: 80px;
+    }
+    .content4_coursedetail {
+        font-size: 16px;
+        width: 110%;
+        line-height: 23px;
+        margin-left: 6px;
+    }
+    #set_coursedetail {
+        margin-left: 145px;
+    }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1100px) {
+    #heading4_coursedetail {
+        margin-top: 47px;
+        margin-bottom: 30px;
+        font-size: 26px;
+        margin-left: 142px;
+    }
+    #styling_intro4 {
+        margin-left: 90px;
+    }
+    .content4_coursedetail {
+        font-size: 16px;
+        width: 110%;
+        line-height: 23px;
+        margin-left: 6px;
+    }
+    #set_coursedetail {
+        margin-left: 135px;
+    }
+}
+
+@media only screen and (min-width: 1101px) and (max-width: 1200px) {
+    #heading4_coursedetail {
+        margin-top: 47px;
+        margin-bottom: 30px;
+        font-size: 26px;
+        margin-left: 126px;
+    }
+    #styling_intro4 {
+        margin-left: 90px;
+    }
+    .content4_coursedetail {
+        font-size: 17px;
+        width: 110%;
+        line-height: 24px;
+        margin-left: 6px;
+    }
+    #set_coursedetail {
+        margin-left: 135px;
+    }
+}
+
+@media only screen and (min-width: 1201px) and (max-width: 1300px) {
+    #heading4_coursedetail {
+        margin-top: 47px;
+        margin-bottom: 30px;
+        font-size: 33px;
+        margin-left: 126px;
+    }
+    #styling_intro4 {
+        margin-left: 90px;
+    }
+    .content4_coursedetail {
+        font-size: 19px;
+        width: 110%;
+        line-height: 30px;
+        margin-left: 6px;
+    }
+    #set_coursedetail {
+        margin-left: 135px;
+    }
+}
+
+@media only screen and (min-width: 1301px) and (max-width: 1359px) {
+    #heading4_coursedetail {
+        margin-top: 60px;
+        margin-bottom: 30px;
+        font-size: 33px;
+        margin-left: 126px;
+    }
+    #styling_intro4 {
+        margin-left: 90px;
+    }
+    .content4_coursedetail {
+        font-size: 20px;
+        width: 90%;
+        line-height: 30px;
+        margin-left: 6px;
+    }
+    #set_coursedetail {
+        margin-left: 135px;
+    }
+}
+
+@media only screen and (min-width: 1360px) and (max-width: 1439px) {
+    #heading4_coursedetail {
+        margin-top: 70px;
+        margin-bottom: 30px;
+        font-size: 37px;
+        margin-left: 126px;
+    }
+    #styling_intro4 {
+        margin-left: 90px;
+    }
+    .content4_coursedetail {
+        font-size: 22px;
+        width: 90%;
+        line-height: 32px;
+        margin-left: 6px;
+    }
+    #set_coursedetail {
+        margin-left: 135px;
+    }
+}
+
+@media only screen and (min-width: 1440px) and (max-width: 1520px) {
+    #heading4_coursedetail {
+        margin-top: 90px;
+        margin-bottom: 30px;
+        font-size: 40px;
+        margin-left: 126px;
+    }
+    #styling_intro4 {
+        margin-left: 90px;
+    }
+    .content4_coursedetail {
+        font-size: 23px;
+        width: 90%;
+        line-height: 35px;
+        margin-left: 6px;
+    }
+    #set_coursedetail {
+        margin-left: 135px;
+    }
+}
+
+@media only screen and (min-width: 1521px) and (max-width: 1599px) {
+    #heading4_coursedetail {
+        margin-top: 90px;
+        margin-bottom: 30px;
+        font-size: 42px;
+        margin-left: 32px;
+    }
+    #styling_intro4 {
+        margin-left: 90px;
+    }
+    .content4_coursedetail {
+        font-size: 23px;
+        width: 90%;
+        line-height: 35px;
+        margin-left: 6px;
+    }
+    #set_coursedetail {
+        margin-left: 135px;
+    }
+}
+
+@media only screen and (min-width: 1600px) and (max-width: 1679px) {
+    #heading4_coursedetail {
+        margin-top: 90px;
+        margin-bottom: 30px;
+        font-size: 42px;
+        margin-left: -67px;
+    }
+    #styling_intro4 {
+        margin-left: 90px;
+    }
+    .content4_coursedetail {
+        font-size: 23px;
+        width: 90%;
+        line-height: 35px;
+        margin-left: 6px;
+    }
+    #set_coursedetail {
+        margin-left: 135px;
+    }
+}
+
+@media only screen and (min-width: 1680px) and (max-width: 1759px) {
+    #heading4_coursedetail {
+        margin-top: 90px;
+        margin-bottom: 30px;
+        font-size: 45px;
+        margin-left: -67px;
+    }
+    #styling_intro4 {
+        margin-left: 90px;
+    }
+    .content4_coursedetail {
+        font-size: 26px;
+        width: 90%;
+        line-height: 40px;
+        margin-left: 6px;
+    }
+    #set_coursedetail {
+        margin-left: 135px;
+    }
+}
+
+@media only screen and (min-width: 1760px) and (max-width: 1840px) {
+    #heading4_coursedetail {
+        margin-top: 90px;
+        margin-bottom: 30px;
+        font-size: 45px;
+        margin-left: -67px;
+    }
+    #styling_intro4 {
+        margin-left: 130px;
+    }
+    .content4_coursedetail {
+        font-size: 26px;
+        width: 90%;
+        line-height: 40px;
+        margin-left: 10px;
+    }
+    #set_coursedetail {
+        margin-left: 135px;
+    }
+}
+
+@media only screen and (min-width: 1841px) and (max-width: 1919px) {
+    #heading4_coursedetail {
+        margin-top: 90px;
+        margin-bottom: 30px;
+        font-size: 50px;
+        margin-left: 70px;
+    }
+    #styling_intro4 {
+        margin-left: 130px;
+    }
+    .content4_coursedetail {
+        font-size: 27px;
+        width: 90%;
+        line-height: 46px;
+        margin-left: 10px;
+    }
+    #set_coursedetail {
+        margin-left: 135px;
+    }
+}
+
+@media only screen and (min-width: 1920px) and (max-width: 2000px) {
+    #heading4_coursedetail {
+        margin-top: 90px;
+        margin-bottom: 30px;
+        font-size: 51px;
+        margin-left: 70px;
+    }
+    #styling_intro4 {
+        margin-left: 130px;
+    }
+    .content4_coursedetail {
+        font-size: 30px;
+        width: 90%;
+        line-height: 46px;
+        margin-left: 10px;
+    }
+    #set_coursedetail {
+        margin-left: 135px;
+    }
+}

@@ -1,0 +1,1432 @@
+#addprofilenew{
+    height: 450px;
+    width: 600px;
+   float:left;
+   margin-top:50px;
+   margin-left:300px;
+    background: transparent linear-gradient(126deg, #2D2D2D 0%, #151314 100%) 0% 0% no-repeat padding-box;
+    border-bottom: 5px solid #FF3300;
+    border-radius: 9px;
+    opacity: 1;
+    color:white;
+    box-shadow: 3px 4px 10px #000000;
+}
+#addprofilehead{
+    
+    margin-left:30px;
+    padding: 0px;
+}
+
+#addprofilename{
+margin-left: 30px;
+width:280px;
+height:40px;
+border:none;
+border-radius: 8px;
+padding-left:20px;
+cursor: text;
+}
+#addprofilenum{
+    margin-top:20px;
+    margin-left: 30px;
+    width:280px;
+    height:40px;
+    border:none;
+    border-radius: 8px;
+    padding-left:20px;
+    cursor: text;
+}
+#addprofileaddress{
+    margin-top:20px;
+    margin-left: 30px;
+    width:280px;
+    height:40px;
+    border:none;
+    border-radius: 8px;
+    padding-left:20px;
+    cursor: text;
+} 
+#addprofileradio{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+input[type="radio"]{
+    margin: 0 10px 0 10px;
+  }
+#addprofilepic{
+    margin-top: 30px;
+    margin-left: 30px;
+    height:25px;
+    
+}
+.addprofilebtn{
+    margin-top:20px;
+    margin-left:30px;
+    width:70px;
+    height:30px;
+    font-weight:bold;
+    background: transparent linear-gradient(249deg, #2D2D2D 0%, #151314 100%) 0% 0% no-repeat padding-box;
+    box-shadow: 0px 1px 6px #00000045;
+    color: #FFDB00;
+    border:none;
+    border-radius:5px;
+}
+.addprofilebtn:hover{
+    background:#FF3300;
+    color:white;
+}
+@media only screen and (min-width:320px)
+and (max-width:359px){
+    #addprofilenew{
+        height: 400px;
+        width: 280px;
+       margin-top:70px;
+       margin-left:30px;
+       
+    }
+    #addprofilehead{
+        font-size:12px;
+        margin-left:50px;
+    }
+    
+    #addprofilename{
+    margin-left: 38px;
+    width:200px;
+    }
+    #addprofilenum{
+        margin-top:20px;
+        margin-left: 38px;
+        width:200px;
+        height:40px; 
+    }
+    #addprofileaddress{
+        margin-top:20px;
+        margin-left: 38px;
+        width:200px;
+        height:40px;
+    } 
+    #addprofileradio{
+        margin-top: 20px;
+        margin-left: 38px;
+    }
+    #addprofilepic{
+        margin-top: 20px;
+        margin-left: 38px;
+        height:25px;   
+    }
+    .addprofilebtn{
+        margin-top:20px;
+        margin-left:38px;     
+    }
+    
+}
+@media only screen and (min-width: 360px) 
+  and (max-width: 374px) 
+    {
+       
+        #addprofilenew{
+            height: 400px;
+            width: 280px;
+           margin-top:40px;
+           margin-left:55px;
+           
+        }
+        #addprofilehead{
+            font-size:12px;
+            margin-left:50px;
+        }
+        
+        #addprofilename{
+        margin-left: 38px;
+        width:200px;
+        }
+        #addprofilenum{
+            margin-top:20px;
+            margin-left: 38px;
+            width:200px;
+            height:40px; 
+        }
+        #addprofileaddress{
+            margin-top:20px;
+            margin-left: 38px;
+            width:200px;
+            height:40px;
+        } 
+        #addprofileradio{
+            margin-top: 20px;
+            margin-left: 30px;
+        }
+        #addprofilepic{
+            margin-top: 20px;
+            margin-left: 38px;
+            height:25px;   
+        }
+        .addprofilebtn{
+            margin-top:20px;
+            margin-left:38px;     
+        }
+      
+  }
+
+  @media only screen and (min-width: 375px) 
+  and (max-width: 411px) 
+    {
+       
+        #addprofilenew{
+            height: 400px;
+            width: 280px;
+           margin-top:70px;
+           margin-left:59px;
+           
+        }
+        #addprofilehead{
+            font-size:12px;
+            margin-left:50px;
+        }
+        
+        #addprofilename{
+        margin-left: 38px;
+        width:200px;
+        }
+        #addprofilenum{
+            margin-top:20px;
+            margin-left: 38px;
+            width:200px;
+            height:40px; 
+        }
+        #addprofileaddress{
+            margin-top:20px;
+            margin-left: 38px;
+            width:200px;
+            height:40px;
+        } 
+        #addprofileradio{
+            margin-top: 20px;
+            margin-left: 30px;
+        }
+        #addprofilepic{
+            margin-top: 20px;
+            margin-left: 38px;
+            height:25px;   
+        }
+        .addprofilebtn{
+            margin-top:20px;
+            margin-left:38px;     
+        }
+        
+    }
+    
+    @media only screen and (min-width: 412px) 
+    and (max-width: 413px) 
+      {
+        #addprofilenew{
+            height: 400px;
+            width: 280px;
+           margin-top:70px;
+           margin-left:70px;
+           
+        }
+        #addprofilehead{
+            font-size:12px;
+            margin-left:50px;
+        }
+        
+        #addprofilename{
+        margin-left: 38px;
+        width:200px;
+        }
+        #addprofilenum{
+            margin-top:20px;
+            margin-left: 38px;
+            width:200px;
+            height:40px; 
+        }
+        #addprofileaddress{
+            margin-top:20px;
+            margin-left: 38px;
+            width:200px;
+            height:40px;
+        } 
+        #addprofileradio{
+            margin-top: 20px;
+            margin-left: 30px;
+        }
+        #addprofilepic{
+            margin-top: 20px;
+            margin-left: 38px;
+            height:25px;   
+        }
+        .addprofilebtn{
+            margin-top:20px;
+            margin-left:38px;     
+        }   
+      
+      }
+@media only screen and (min-width: 414px) 
+and (max-width: 449px){
+
+    #addprofilenew{
+        height: 400px;
+        width: 300px;
+       margin-top:70px;
+       margin-left:55px;
+       
+    }
+    #addprofilehead{
+        font-size:13px;
+        margin-left:40px;
+    }
+    
+    #addprofilename{
+    margin-left: 38px;
+    width:210px;
+    }
+    #addprofilenum{
+        margin-top:20px;
+        margin-left: 38px;
+        width:210px;
+        height:40px; 
+    }
+    #addprofileaddress{
+        margin-top:20px;
+        margin-left: 38px;
+        width:210px;
+        height:40px;
+    } 
+    #addprofileradio{
+        margin-top: 20px;
+        margin-left: 30px;
+    }
+    #addprofilepic{
+        margin-top: 20px;
+        margin-left: 38px;
+        height:25px;   
+    }
+    .addprofilebtn{
+        margin-top:20px;
+        margin-left:38px;     
+    }  
+      }
+  @media only screen and (min-width: 450px) 
+and (max-width: 550px) 
+  {
+   
+    #addprofilenew{
+        height: 430px;
+        width: 380px;
+       margin-top:70px;
+       margin-left:50px;
+       
+    }
+    #addprofilehead{
+        font-size:15px;
+        margin-left:40px;
+    }
+    
+    #addprofilename{
+    margin-left: 38px;
+    width:225px;
+    }
+    #addprofilenum{
+        margin-top:22px;
+        margin-left: 38px;
+        width:225px;
+        height:40px; 
+    }
+    #addprofileaddress{
+        margin-top:22px;
+        margin-left: 38px;
+        width:225px;
+        height:40px;
+    } 
+    #addprofileradio{
+        margin-top: 22px;
+        margin-left: 30px;
+    }
+    #addprofilepic{
+        margin-top: 22px;
+        margin-left: 38px;
+        height:25px;   
+    }
+    .addprofilebtn{
+        margin-top:25px;
+        margin-left:38px;     
+    }  
+}
+    
+   
+  
+  @media only screen and (min-width: 551px) 
+and (max-width: 599px) 
+  {
+
+    #addprofilenew{
+        height: 430px;
+        width: 400px;
+       margin-top:70px;
+       margin-left:78px;
+       
+    }
+    #addprofilehead{
+        font-size:15px;
+        margin-left:40px;
+    }
+    
+    #addprofilename{
+    margin-left: 38px;
+    width:225px;
+    }
+    #addprofilenum{
+        margin-top:22px;
+        margin-left: 38px;
+        width:225px;
+        height:40px; 
+    }
+    #addprofileaddress{
+        margin-top:22px;
+        margin-left: 38px;
+        width:225px;
+        height:40px;
+    } 
+    #addprofileradio{
+        margin-top: 22px;
+        margin-left: 30px;
+    }
+    #addprofilepic{
+        margin-top: 22px;
+        margin-left: 38px;
+        height:25px;   
+    }
+    .addprofilebtn{
+        margin-top:25px;
+        margin-left:38px;     
+    }  
+  }
+
+  @media only screen and (min-width: 600px) 
+  and (max-width: 617px){
+    #addprofilenew{
+        height: 430px;
+        width: 420px;
+       margin-top:70px;
+       margin-left:90px;
+       
+    }
+    #addprofilehead{
+        font-size:15px;
+        margin-left:45px;
+    }
+    
+    #addprofilename{
+    margin-left:45px;
+    width:245px;
+    }
+    #addprofilenum{
+        margin-top:22px;
+        margin-left: 45px;
+        width:245px;
+        height:40px; 
+    }
+    #addprofileaddress{
+        margin-top:22px;
+        margin-left: 45px;
+        width:245px;
+        height:40px;
+    } 
+    #addprofileradio{
+        margin-top: 22px;
+        margin-left: 38px;
+    }
+    #addprofilepic{
+        margin-top: 22px;
+        margin-left: 45px;
+        height:25px;   
+    }
+    .addprofilebtn{
+        margin-top:25px;
+        margin-left:45px;     
+    }  
+  }
+
+
+  @media only screen and (min-width: 618px) 
+and (max-width: 700px) 
+{
+    
+    #addprofilenew{
+        height: 430px;
+        width: 420px;
+       margin-top:75px;
+       margin-left:110px;
+       
+    }
+    #addprofilehead{
+        font-size:15px;
+        margin-left:45px;
+    }
+    
+    #addprofilename{
+    margin-left:45px;
+    width:245px;
+    }
+    #addprofilenum{
+        margin-top:22px;
+        margin-left: 45px;
+        width:245px;
+        height:40px; 
+    }
+    #addprofileaddress{
+        margin-top:22px;
+        margin-left: 45px;
+        width:245px;
+        height:40px;
+    } 
+    #addprofileradio{
+        margin-top: 22px;
+        margin-left: 38px;
+    }
+    #addprofilepic{
+        margin-top: 22px;
+        margin-left: 45px;
+        height:25px;   
+    }
+    .addprofilebtn{
+        margin-top:25px;
+        margin-left:45px;     
+    }  
+}
+
+@media only screen and (min-width: 701px) 
+and (max-width: 767px) 
+  {
+    
+ 
+    #addprofilenew{
+        height: 450px;
+        width: 450px;
+       margin-top:80px;
+       margin-left:120px;
+       
+    }
+    #addprofilehead{
+        font-size:15px;
+        margin-left:45px;
+       
+    }
+    
+    #addprofilename{
+    margin-left:45px;
+    width:255px;
+    margin-top:10px;
+    }
+    #addprofilenum{
+        margin-top:25px;
+        margin-left: 45px;
+        width:255px;
+        height:40px; 
+    }
+    #addprofileaddress{
+        margin-top:25px;
+        margin-left: 45px;
+        width:255px;
+        height:40px;
+    } 
+    #addprofileradio{
+        margin-top: 25px;
+        margin-left: 38px;
+    }
+    #addprofilepic{
+        margin-top: 25px;
+        margin-left: 45px;
+        height:25px;   
+    }
+    .addprofilebtn{
+        margin-top:25px;
+        margin-left:45px;     
+    }
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 799px) 
+{
+    
+ 
+    #addprofilenew{
+        height: 450px;
+        width: 480px;
+       margin-top:85px;
+       margin-left:130px;
+       
+    }
+    #addprofilehead{
+        font-size:15px;
+        margin-left:45px;
+       
+    }
+    
+    #addprofilename{
+    margin-left:45px;
+    width:255px;
+    margin-top:10px;
+    }
+    #addprofilenum{
+        margin-top:25px;
+        margin-left: 45px;
+        width:255px;
+        height:40px; 
+    }
+    #addprofileaddress{
+        margin-top:25px;
+        margin-left: 45px;
+        width:255px;
+        height:40px;
+    } 
+    #addprofileradio{
+        margin-top: 25px;
+        margin-left: 38px;
+    }
+    #addprofilepic{
+        margin-top: 25px;
+        margin-left: 45px;
+        height:25px;   
+    }
+    .addprofilebtn{
+        margin-top:25px;
+        margin-left:45px;     
+    }
+}
+
+
+@media only screen and (min-width: 800px) and (max-width: 850px) 
+{
+      
+   
+   
+    #addprofilenew{
+        height: 450px;
+        width: 480px;
+       margin-top:90px;
+       margin-left:150px;
+       
+    }
+    #addprofilehead{
+        font-size:15px;
+        margin-left:45px;
+       
+    }
+    
+    #addprofilename{
+    margin-left:45px;
+    width:260px;
+    margin-top:10px;
+    }
+    #addprofilenum{
+        margin-top:25px;
+        margin-left: 45px;
+        width:260px;
+        height:40px; 
+    }
+    #addprofileaddress{
+        margin-top:25px;
+        margin-left: 45px;
+        width:260px;
+        height:40px;
+    } 
+    #addprofileradio{
+        margin-top: 25px;
+        margin-left: 38px;
+    }
+    #addprofilepic{
+        margin-top: 25px;
+        margin-left: 45px;
+        height:25px;   
+    }
+    .addprofilebtn{
+        margin-top:25px;
+        margin-left:45px;     
+    }
+}
+    
+
+
+    @media only screen and (min-width: 851px) and (max-width: 909px)
+     {
+   
+      
+    #addprofilenew{
+        height: 450px;
+        width: 500px;
+       margin-top:95px;
+       margin-left:170px;
+       
+    }
+    #addprofilehead{
+        font-size:15px;
+        margin-left:45px;
+       
+    }
+    
+    #addprofilename{
+    margin-left:45px;
+    width:265px;
+    margin-top:11px;
+    }
+    #addprofilenum{
+        margin-top:27px;
+        margin-left: 45px;
+        width:265px;
+        height:40px; 
+    }
+    #addprofileaddress{
+        margin-top:27px;
+        margin-left: 45px;
+        width:265px;
+        height:40px;
+    } 
+    #addprofileradio{
+        margin-top: 27px;
+        margin-left: 38px;
+    }
+    #addprofilepic{
+        margin-top: 27px;
+        margin-left: 45px;
+        height:25px;   
+    }
+    .addprofilebtn{
+        margin-top:27px;
+        margin-left:45px;     
+    }
+ }
+  @media only screen and (min-width: 910px) and (max-width: 1023px) {
+
+    #addprofilenew{
+        height: 450px;
+        width: 520px;
+       margin-top:100px;
+       margin-left:200px;
+       
+    }
+    #addprofilehead{
+        font-size:15.5px;
+        margin-left:55px;
+       
+    }
+    
+    #addprofilename{
+    margin-left:55px;
+    width:270px;
+    margin-top:11px;
+    }
+    #addprofilenum{
+        margin-top:27px;
+        margin-left: 55px;
+        width:270px;
+        height:40px; 
+    }
+    #addprofileaddress{
+        margin-top:27px;
+        margin-left: 55px;
+        width:270px;
+        height:40px;
+    } 
+    #addprofileradio{
+        margin-top: 27px;
+        margin-left: 43px;
+    }
+    #addprofilepic{
+        margin-top: 27px;
+        margin-left: 55px;
+        height:25px;   
+    }
+    .addprofilebtn{
+        margin-top:27px;
+        margin-left:55px;     
+    }
+}
+
+
+@media only screen and (min-width: 1024px) and (max-width: 1100px) {
+
+    #addprofilenew{
+        height: 450px;
+        width: 550px;
+       margin-top:115px;
+       margin-left:230px;
+       
+    }
+    #addprofilehead{
+        font-size:15.5px;
+        margin-left:60px;
+       
+    }
+    
+    #addprofilename{
+    margin-left:60px;
+    width:275px;
+    margin-top:12px;
+    }
+    #addprofilenum{
+        margin-top:28px;
+        margin-left: 60px;
+        width:275px;
+        height:40px; 
+    }
+    #addprofileaddress{
+        margin-top:28px;
+        margin-left: 60px;
+        width:275px;
+        height:40px;
+    } 
+    #addprofileradio{
+        margin-top: 28px;
+        margin-left: 50px;
+    }
+    #addprofilepic{
+        margin-top: 28px;
+        margin-left: 60px;
+        height:25px;   
+    }
+    .addprofilebtn{
+        margin-top:28px;
+        margin-left:60px;     
+    }
+}
+
+
+@media only screen and (min-width: 1101px) and (max-width: 1200px) {
+
+    #addprofilenew{
+        height: 450px;
+        width: 580px;
+       margin-top:120px;
+       margin-left:280px;
+       
+    }
+    #addprofilehead{
+        margin-left:60px;
+       
+    }
+    
+    #addprofilename{
+    margin-left:60px;
+    width:280px;
+    margin-top:13px;
+    }
+    #addprofilenum{
+        margin-top:29px;
+        margin-left: 60px;
+        width:280px;
+        height:40px; 
+    }
+    #addprofileaddress{
+        margin-top:29px;
+        margin-left: 60px;
+        width:280px;
+        height:40px;
+    } 
+    #addprofileradio{
+        margin-top: 29px;
+        margin-left: 50px;
+    }
+    #addprofilepic{
+        margin-top: 29px;
+        margin-left: 60px;
+        height:25px;   
+    }
+    .addprofilebtn{
+        margin-top:29px;
+        margin-left:60px;     
+    }
+}
+
+
+@media only screen and (min-width: 1201px) and (max-width: 1300px) {
+    #addprofilenew{
+        height: 450px;
+        width: 600px;
+       float:left;
+       margin-top:125px;
+       margin-left:300px;
+        
+    }
+    #addprofilehead{
+        
+        margin-left:60px;
+        padding: 0px;
+    }
+    
+    #addprofilename{
+    margin-left: 60px;
+    width:280px;
+    height:40px;
+    margin-top:5px;
+   
+    }
+    #addprofilenum{
+        margin-top:23px;
+        margin-left: 60px;
+        width:280px;
+        height:40px;
+       
+    }
+    #addprofileaddress{
+        margin-top:23px;
+        margin-left: 60px;
+        width:280px;
+        height:40px;
+        
+    } 
+    #addprofileradio{
+        margin-top: 23px;
+        margin-left: 50px;
+    }
+    
+    #addprofilepic{
+        margin-top: 30px;
+        margin-left: 60px;
+        height:25px;
+        
+    }
+    .addprofilebtn{
+        margin-top:23px;
+        margin-left:60px;
+        width:70px;
+        height:30px;
+       
+    }
+    
+}
+
+
+@media only screen and (min-width: 1301px) 
+and (max-width: 1359px)
+  {
+
+    #addprofilenew{
+        height: 450px;
+        width: 600px;
+       float:left;
+       margin-top:130px;
+       margin-left:330px;
+        
+    }
+    #addprofilehead{
+        
+        margin-left:60px;
+        padding: 0px;
+    }
+    
+    #addprofilename{
+    margin-left: 60px;
+    width:280px;
+    height:40px;
+    margin-top:5px;
+   
+    }
+    #addprofilenum{
+        margin-top:25px;
+        margin-left: 60px;
+        width:280px;
+        height:40px;
+       
+    }
+    #addprofileaddress{
+        margin-top:25px;
+        margin-left: 60px;
+        width:280px;
+        height:40px;
+        
+    } 
+    #addprofileradio{
+        margin-top: 25px;
+        margin-left: 50px;
+    }
+    
+    #addprofilepic{
+        margin-top: 30px;
+        margin-left: 60px;
+        height:25px;
+        
+    }
+    .addprofilebtn{
+        margin-top:20px;
+        margin-left:60px;
+        width:70px;
+        height:30px;
+       
+    }
+}
+
+@media only screen and (min-width: 1360px) and (max-width: 1439px)
+ {
+
+    #addprofilenew{
+        height: 450px;
+        width: 600px;
+       float:left;
+       margin-top:140px;
+       margin-left:380px;
+        
+    }
+    #addprofilehead{
+        
+        margin-left:60px;
+        padding: 0px;
+    }
+    
+    #addprofilename{
+    margin-left: 60px;
+    width:280px;
+    height:40px;
+    margin-top:5px;
+   
+    }
+    #addprofilenum{
+        margin-top:25px;
+        margin-left: 60px;
+        width:280px;
+        height:40px;
+       
+    }
+    #addprofileaddress{
+        margin-top:25px;
+        margin-left: 60px;
+        width:280px;
+        height:40px;
+        
+    } 
+    #addprofileradio{
+        margin-top: 25px;
+        margin-left: 50px;
+    }
+    
+    #addprofilepic{
+        margin-top: 30px;
+        margin-left: 60px;
+        height:25px;
+        
+    }
+    .addprofilebtn{
+        margin-top:20px;
+        margin-left:60px;
+        width:70px;
+        height:30px;
+       
+    }
+}
+
+  @media only screen and (min-width: 1440px) 
+and (max-width: 1520px)
+  {
+    #addprofilenew{
+        height: 450px;
+        width: 600px;
+       float:left;
+       margin-top:150px;
+       margin-left:390px;
+        
+    }
+    #addprofilehead{
+        
+        margin-left:60px;
+        padding: 0px;
+    }
+    
+    #addprofilename{
+    margin-left: 60px;
+    width:300px;
+    height:40px;
+    margin-top:5px;
+   
+    }
+    #addprofilenum{
+        margin-top:25px;
+        margin-left: 60px;
+        width:300px;
+        height:40px;
+       
+    }
+    #addprofileaddress{
+        margin-top:25px;
+        margin-left: 60px;
+        width:300px;
+        height:40px;
+        
+    } 
+    #addprofileradio{
+        margin-top: 25px;
+        margin-left: 50px;
+    }
+    
+    #addprofilepic{
+        margin-top: 30px;
+        margin-left: 60px;
+        height:25px;
+        
+    }
+    .addprofilebtn{
+        margin-top:20px;
+        margin-left:60px;
+        width:70px;
+        height:30px;
+       
+    }
+  }
+  @media only screen and (min-width: 1521px) 
+and (max-width: 1599px)
+  {
+    #addprofilenew{
+        height: 500px;
+        width: 600px;
+       float:left;
+       margin-top:150px;
+       margin-left:400px;
+        
+    }
+    #addprofilehead{
+        font-size:20px;
+        margin-left:60px;
+        
+    }
+    
+    #addprofilename{
+        margin-left:60px;
+    width:340px;
+    height:45px;
+    margin-top:5px;
+   
+    }
+    #addprofilenum{
+        margin-top:30px;
+        margin-left:60px;
+        width:340px;
+        height:45px;
+       
+    }
+    #addprofileaddress{
+        margin-top:30px;
+        margin-left:60px;
+        width:340px;
+        height:45px;
+        
+    } 
+    #addprofileradio{
+        margin-top: 30px;
+        margin-left:50px;
+        font-size:22px;
+    }
+    
+    #addprofilepic{
+        margin-top: 30px;
+        margin-left:60px;
+        height:25px;
+        
+    }
+    .addprofilebtn{
+        margin-top:30px;
+        margin-left:60px;
+        width:70px;
+        height:40px;
+        font-size:21px;
+       
+    }
+  }
+  @media only screen and (min-width: 1600px) 
+and (max-width: 1680px)
+  {
+    #addprofilenew{
+        height: 550px;
+        width: 700px;
+       float:left;
+       margin-top:170px;
+       margin-left:410px;
+        
+    }
+    #addprofilehead{
+        font-size:22px;
+        margin-left:60px;
+        
+    }
+    
+    #addprofilename{
+        margin-left:60px;
+    width:360px;
+    height:50px;
+    margin-top:5px;
+   
+    }
+    #addprofilenum{
+        margin-top:30px;
+        margin-left:60px;
+        width:360px;
+        height:50px;
+       
+    }
+    #addprofileaddress{
+        margin-top:30px;
+        margin-left:60px;
+        width:360px;
+        height:50px;
+        
+    } 
+    #addprofileradio{
+        margin-top: 30px;
+        margin-left:50px;
+        font-size:23px;
+    }
+    
+    #addprofilepic{
+        margin-top: 30px;
+        margin-left:60px;
+        height:25px;
+        
+    }
+    .addprofilebtn{
+        margin-top:30px;
+        margin-left:60px;
+        width:75px;
+        height:40px;
+        font-size:23px;
+       
+    } 
+  }
+  @media only screen and (min-width: 1680px) 
+  and (max-width: 1760px)
+    {
+  
+        #addprofilenew{
+            height: 600px;
+            width: 800px;
+           float:left;
+           margin-top:180px;
+           margin-left:430px;
+            
+        }
+        #addprofilehead{
+            font-size:23px;
+            margin-left:65px;
+            
+        }
+        
+        #addprofilename{
+            margin-left:65px;
+        width:360px;
+        height:50px;
+        margin-top:7px;
+       
+        }
+        #addprofilenum{
+            margin-top:33px;
+            margin-left:65px;
+            width:360px;
+            height:50px;
+           
+        }
+        #addprofileaddress{
+            margin-top:33px;
+            margin-left:65px;
+            width:360px;
+            height:50px;
+            
+        } 
+        #addprofileradio{
+            margin-top: 33px;
+            margin-left:55px;
+            font-size:24px;
+        }
+        
+        #addprofilepic{
+            margin-top: 33px;
+            margin-left:65px;
+            height:25px;
+            
+        }
+        .addprofilebtn{
+            margin-top:33px;
+            margin-left:65px;
+            width:80px;
+            height:40px;
+            font-size:24px;
+           
+        } 
+    
+    }
+  @media only screen and (min-width: 1759px) 
+and (max-width: 1840px)
+  {
+    #addprofilenew{
+        height: 630px;
+        width: 830px;
+       float:left;
+       margin-top:180px;
+       margin-left:470px;
+        
+    }
+    #addprofilehead{
+        font-size:24px;
+        margin-left:70px;
+        
+    }
+    
+    #addprofilename{
+    margin-left: 70px;
+    width:380px;
+    height:55px;
+    margin-top:10px;
+   
+    }
+    #addprofilenum{
+        margin-top:35px;
+        margin-left: 70px;
+        width:380px;
+        height:55px;
+       
+    }
+    #addprofileaddress{
+        margin-top:35px;
+        margin-left: 70px;
+        width:380px;
+        height:55px;
+        
+    } 
+    #addprofileradio{
+        margin-top: 35px;
+        margin-left: 60px;
+        font-size:24.5px;
+    }
+    
+    #addprofilepic{
+        margin-top: 35px;
+        margin-left: 70px;
+        height:25px;
+        
+    }
+    .addprofilebtn{
+        margin-top:35px;
+        margin-left:70px;
+        width:90px;
+        height:45px;
+        font-size:25px;
+       
+    }
+  }
+  @media only screen and (min-width: 1841px) 
+and (max-width: 1919px)
+  {
+    #addprofilenew{
+        height: 650px;
+        width: 850px;
+       float:left;
+       margin-top:180px;
+       margin-left:480px;
+        
+    }
+    #addprofilehead{
+        font-size:25px;
+        margin-left:70px;
+        
+    }
+    
+    #addprofilename{
+    margin-left: 70px;
+    width:400px;
+    height:60px;
+    margin-top:10px;
+   
+    }
+    #addprofilenum{
+        margin-top:35px;
+        margin-left: 70px;
+        width:400px;
+        height:60px;
+       
+    }
+    #addprofileaddress{
+        margin-top:35px;
+        margin-left: 70px;
+        width:400px;
+        height:60px;
+        
+    } 
+    #addprofileradio{
+        margin-top: 35px;
+        margin-left: 60px;
+        font-size:25px;
+    }
+    
+    #addprofilepic{
+        margin-top: 35px;
+        margin-left: 70px;
+        height:25px;
+        
+    }
+    .addprofilebtn{
+        margin-top:35px;
+        margin-left:70px;
+        width:100px;
+        height:50px;
+        font-size:25px;
+       
+    }
+  }
+  @media only screen and (min-width: 1920px) 
+  and (max-width: 2000px)
+    {
+  
+        #addprofilenew{
+            height: 650px;
+            width: 850px;
+           float:left;
+           margin-top:180px;
+           margin-left:510px;
+            
+        }
+        #addprofilehead{
+            font-size:25px;
+            margin-left:70px;
+            
+        }
+        
+        #addprofilename{
+        margin-left: 70px;
+        width:400px;
+        height:60px;
+        margin-top:10px;
+       
+        }
+        #addprofilenum{
+            margin-top:35px;
+            margin-left: 70px;
+            width:400px;
+            height:60px;
+           
+        }
+        #addprofileaddress{
+            margin-top:35px;
+            margin-left: 70px;
+            width:400px;
+            height:60px;
+            
+        } 
+        #addprofileradio{
+            margin-top: 35px;
+            margin-left: 60px;
+            font-size:25px;
+        }
+        
+        #addprofilepic{
+            margin-top: 35px;
+            margin-left: 70px;
+            height:25px;
+            
+        }
+        .addprofilebtn{
+            margin-top:35px;
+            margin-left:70px;
+            width:100px;
+            height:50px;
+            font-size:25px;
+           
+        }
+       
+  }

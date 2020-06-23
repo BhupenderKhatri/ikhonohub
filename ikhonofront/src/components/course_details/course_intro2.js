@@ -1,28 +1,32 @@
 import React from 'react';
-import './course_intro.css' ;
+import './course_intro2.css' ;
 
 const What=({point1,point2,point3,point4,point5}) =>{
     return(
-      <div>
+      <div id ="intro2main">
           <h1 id="heading2">What you will Learn!!!</h1>
-           <table >
-               <ul id="list">
-                   <tr>
-                       <td id="firsthalf"> 
-                              <li>{point1}</li>
-                              <li>{point2}</li>
+        <div id="con_intro2">
+               <ul class="list_intro2_00">
+                   
+                       
+                    <li id="stylingintro2">&nbsp; {point1}</li>
+                    <li id="stylingintro2">&nbsp; {point2}</li>
                               
 
-                       </td>
-                       <td id='secondhalf'>
-                            <li>{point3}</li>
-                            <li>{point4}</li>
-                            <li>{point5}</li>
-                       </td>
-                   </tr>
+                       </ul>
+            <ul class="list_intro2_11">
+            
+                    <li id="stylingintro2">&nbsp; {point3}</li>
+                    <li id="stylingintro2">&nbsp; {point4}</li>
+                    <li id="stylingintro2">&nbsp; {point5}</li>
+                    
+                
                </ul>
-           </table>
+               
+            </div>
+     
       </div>
+        
     );
   
   }

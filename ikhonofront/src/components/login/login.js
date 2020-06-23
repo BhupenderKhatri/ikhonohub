@@ -118,7 +118,7 @@ class login extends Component {
 
                        <tr>
                          <td>
-                           <p id="login_forgot_password">Lost Your Password ? </p>
+                         <a class="forgotpassword_anchor"href="/forgotpassword"><p id="login_forgot_password">Lost Your Password ? </p></a> 
                          </td>
                        </tr>
                        <tr>

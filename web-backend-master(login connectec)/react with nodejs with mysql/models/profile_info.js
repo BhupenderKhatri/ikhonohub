@@ -20,7 +20,7 @@ module.exports = db.sequelize.define(
         email: {
             type: Sequelize.STRING
         },
-        photo: {
+        image: {
             type: Sequelize.BLOB
         },
         mobile: {

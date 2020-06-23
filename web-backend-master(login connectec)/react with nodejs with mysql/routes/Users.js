@@ -228,11 +228,11 @@ users.post('/profilechange', (req,res) =>{
     const personalinformation = {
         name: req.body.name,
         mobile: req.body.mobile,
+        image: req.body.image,
         gender:req.body.gender,
         address: req.body.address
     }
     console.log(personalinformation);
-    
     
     profile_info.findOne({
         where: {
@@ -243,6 +243,7 @@ users.post('/profilechange', (req,res) =>{
        
             profile_info.name = personalinformation.name
             profile_info.mobile= personalinformation.mobile
+            profile_info.image= personalinformation.image
             profile_info.gender= personalinformation.gender
             profile_info.address=personalinformation.address
             profile_info.save();
@@ -250,10 +251,12 @@ users.post('/profilechange', (req,res) =>{
             res.send('hello');
         })  .catch(err => {
             res.send('error: ' + err)
-        })
         
-       })
-  
+        })
+     
+
+    })
+
     
 
 // users.post('/addresschange', (req, res) => {

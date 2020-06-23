@@ -10,126 +10,90 @@ import Seven  from './seven.png' ;
 class content extends Component{
     render(){
         return(
-            <div>
-                <div id="headingcon">
-                    <h1>What you can get by joining IKHONO HUB</h1>
-                </div>
-           <div id="basecontentcon">
-                    <div id="infocon">
-                         <h2> Build your portfolio </h2>
-
-                           <div id="theorycon">
-                           Unlike most online courses and free tutorials, you’ll be using  
-                           everything you <br></br> learn to build complex, professional, real-world projects and your own<br></br>
-                           professional portfolio website.
-                       </div>
-                       </div>
-                       <div id='imgcon'>
-                       
-                       {<img src= {Second}  alt="Error"></img>}
-
-                       </div>
-                       </div>        
+    <div>
+         <div>
+              <h1 id="cont_headcontent">What you can get by joining IKHONO HUB</h1>
+         </div>
+                {/* first content */}
+                <div id="cont_maincontent1">
+                    <div >{<img id="img_content1" src= {Second}  alt="Error"></img>}</div>
+                        <div id="base_detail1" >
+                            <h2 id="cont_headdetail1"> Build your portfolio </h2>
+                                    <div id="cont_detailinside1">
+                                            Unlike most online courses and free tutorials,<br></br> you’ll be using  
+                                            everything you  learn to build<br></br> complex, professional, real-world projects and<br></br> your own
+                                            professional portfolio website.
+                                    </div>
+                        </div>  
+                    
+                </div>        
                        
 
-           <div id="basecontent2con">
-                  <div id="img2con">
-                       {<img src= {Third}  alt="Error"></img>}
-                      </div>
-                      
-                       <div id="info2con">
-                       <h2>Grow your network</h2>
-                           
-                           <div id="theory2con">
-                           Find your next opportunity, get that key introduction, even meet a <br></br>co-founder. 
-                           Someone in our thriving and supportive ZTM community  <br></br>is always online willing to lend a hand.
-                           </div>
+ {/* second content */}
 
+    <div id="cont_maincontent2">                    
+             <div id="base_detail2">
+                 <h2 id="cont_headdetail2">Grow your network</h2>
+                   <div id="cont_detailinside2">
+                               Find your next opportunity, get that key introduction,<br></br> even meet a co-founder. 
+                           Someone in our thriving<br></br> and supportive ZTM community is always <br></br>online willing to lend a hand.
+                   </div>
 
+                
+            </div>
+        <div>{<img id="img_content2" src= {Third}  alt="Error"></img>}</div>
+    </div>
+
+ {/* third content */}
+      <div id="cont_maincontent3">
+                 <div >{<img id="img_content3" src= {Fourth}  alt="Error"></img>}</div>  
+            <div id="base_detail3">
+                    <h2 id="cont_headdetail3"> Get Hired </h2>                       
+                        <div id="cont_detailinside3">
+                                You’ll gain the knowledge, confidence,<br></br> experience you need to ace  interviews and<br></br>  receive offers from any company<br></br>  you can imagine.
                         </div>
+               </div>                         
+    </div>  
+           
+            {/* fourth content */}
+         <div id="cont_maincontent4">          
+                <div  id="base_detail4">                            
+                    <h2 id="cont_headdetail4">Get promoted ,become top 10%</h2>      
+                        <div id="cont_detailinside4">
+                             Our intermediate and advanced courses help you<br></br> continue to build your skills, advance you to senior<br></br> roles and get you recognized as one of the best<br></br> developers at your company. 
+                        </div>
+                </div>
+                     <div>{<img id="img_content4"  src= {Fifth}  alt="Error"></img>}</div> 
+         </div>
+
+
+ {/* five content */}
+
+  <div id="cont_maincontent5"> 
+       <div> {<img id="img_content5" src= {Sixth}  alt="Error"></img>}</div> 
+          <div id="base_detail5">
+                <h2 id="cont_headdetail5"> Never stop growing </h2>
+                    <div id="cont_detailinside5">
+                            We regularly release new courses and exclusive<br></br> content for Ihono Hub 
+                            students to make<br></br> sure you stay ahead of the curve.
+                    </div> 
+            </div>                    
+  </div>
+
+ {/* sixth content */}
+
+        <div id="cont_maincontent6" >                     
+                <div id="base_detail6">
+                    <h2 id="cont_headdetail6">Learn to code, on your schedule</h2>
+                        <div id="cont_detailinside6">
+                            Our comprehensive courses have 200+ hours of<br></br> lessons available 24/7. You’ll learn everything from<br></br> beginner programming fundamentals to the <br></br>most advanced concepts. 
+                        </div>
+                </div>
+            <div>{<img id="img_content6" src= {Seven}  alt="Error"></img>}</div>
+        </div>
 
 </div>
-
-                    <div id="basecontentcon">
-
-                      <div id="infocon">
-                           <h2> Get Hired </h2>
-                            
-
-                           <div id="theorycon">
-                           You’ll gain the knowledge, confidence, experience you need to ace <br></br> interviews and receive
-                            offers <br></br>from any company you can imagine.
-                            </div>
-                       </div>
-                        
-                       <div>
-
-                       <div id="imgcon">
-
-                       {<img src= {Fourth}  alt="Error"></img>}
-
-                       </div>
-
-                       </div>
-
-  </div>  
-
-                <div id="basecontent4con">
-                      
-                       <div id="img4con">
-                       
-                       {<img src= {Fifth}  alt="Error"></img>}
-
-                       </div>  
-                      
-                       <div id="info4con">
-                     
-                       <h2>Get promoted ,become top 10%</h2>
-                           
-                           <div id="theory4con">
-                           Our intermediate and advanced courses help you continue to build <br></br>your skills, advance you to senior roles and get you recognized as one <br></br> of the best developers at your company. 
-                         
-                       </div>
-                     </div>
-                  </div>
-
-                     <div id="basecontentcon">
-                    <div id="infocon">
-                          
-                           <h2> Never stop growing </h2>
-
-                           <div id="theorycon">
-                           We regularly release new courses and exclusive content for Ihono Hub <br></br>
-                           students to make sure you stay ahead of the curve.
-                       </div>
-                         
-                       <div id="imgcon">
-                       <div id="fivecon">
-                       {<img src= {Sixth}  alt="Error"></img>}
-                       </div>
-                       </div>
-                         </div>
-                         </div>
-
-                         <div id="basecontent4con">
-                      
-                      <div id="img4con">
-                      
-                      {<img src= {Fifth}  alt="Error"></img>}
-
-                      </div>  
-                     
-                      <div id="info4con">
-                    
-                      <h2>Learn to code, on your schedule</h2>
-                          
-                          <div id="theory4con">
-                          Our comprehensive courses have 200+ hours (and counting) of lessons available 24/7. You’ll learn everything from beginner programming fundamentals to the most advanced concepts.
-                        
-                      </div>
-                    </div>
-                 </div>
-           </div>
+         
         );
     }
 }
