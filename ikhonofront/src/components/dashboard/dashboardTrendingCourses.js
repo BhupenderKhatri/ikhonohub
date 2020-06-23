@@ -35,8 +35,29 @@ import {ReactComponent as IconNotification} from './icons/notification.svg';
 import TrendingCourses from '../TrendingCourse/TrendingCourseList';
 import LogoWhite from '../nav/LogoWhite.png'
 
+import axios from "axios";
+
 const drawerWidth = 240;
 
+ 
+const onSubmitlogout = (event) => {
+
+  const headers = {
+      "Content-type": "application/text"
+  }
+  let tok = localStorage.getItem("tkk");
+  console.log(tok);
+  axios.post('http://localhost:5000/users/logout', { token: tok }).then(res => {
+
+          console.log(res.data);
+          
+          history.push('/');
+          localStorage.clear();
+
+  })
+
+
+  }
 const useStyles = makeStyles((theme) => ({
   root: {
 
@@ -225,8 +246,8 @@ export default function MiniDrawer() {
               <ListItemText primary="Help"/>
             </ListItem>
 			<ListItem button key="LogOut">
-              <ListItemIcon>{<IconLogout /> }</ListItemIcon>
-              <ListItemText primary="Logout"/>
+              <ListItemIcon onClick={()=>onSubmitlogout()}>{<IconLogout /> }</ListItemIcon>
+              <ListItemText primary="Logout" onClick={()=>onSubmitlogout()}/>
             </ListItem>
           
         </List>

@@ -38,8 +38,30 @@ import LogoWhite from '../nav/LogoWhite.png';
 import Icon_badge from './icons/Icon-badge.png';
 import Icon_badge1 from './icons/Icon-badge1.png';
 
+import axios from "axios";
 
 const drawerWidth = 240;
+
+ 
+const onSubmitlogout = (event) => {
+
+  const headers = {
+      "Content-type": "application/text"
+  }
+  let tok = localStorage.getItem("tkk");
+  console.log(tok);
+  axios.post('http://localhost:5000/users/logout', { token: tok }).then(res => {
+
+          console.log(res.data);
+          
+          history.push('/');
+          localStorage.clear();
+
+  })
+
+
+  }
+
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -238,8 +260,8 @@ export default function MiniDrawer() {
               <ListItemText primary="Help"/>
             </ListItem>
 			<ListItem button key="LogOut">
-              <ListItemIcon>{<IconLogout /> }</ListItemIcon>
-              <ListItemText primary="Logout"/>
+              <ListItemIcon onClick={()=>onSubmitlogout()}>{<IconLogout /> }</ListItemIcon>
+              <ListItemText primary="Logout" onClick={()=>onSubmitlogout()}/>
             </ListItem>
           
         </List>
