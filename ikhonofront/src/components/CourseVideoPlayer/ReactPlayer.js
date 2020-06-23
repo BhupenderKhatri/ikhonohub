@@ -17,7 +17,8 @@ function VideoPlayer(){
                 {title:"2 prototype model",vid:"d4ksC1z1k5I"},
                 {title:"3 Spiral model",vid:"O3hoEGKpAxk"},
                 {title:"4 RAD model",vid:"nW-U_cMohsI"},
-                {title:"5 Agile model",vid:"87pa5RN1Nm4"}
+                {title:"5 Agile model",vid:"87pa5RN1Nm4"},
+                {title:"Quiz"}
             ]
                     }
 

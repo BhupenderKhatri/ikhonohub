@@ -15,7 +15,8 @@ function PlayerHead1(){
             reactjs:[
                 {title:"Part 1",vid:"o8GW8XHqel4"},
                 {title:"Part 2",vid:"Ie2kTU5ph8Q"},
-                {title:"Part 3",vid:"dum7oOyIMIQ"}
+                {title:"Part 3",vid:"dum7oOyIMIQ"},
+                {title:"Quiz"}
             ]
                     }
 

@@ -14,7 +14,8 @@ function PlayerHead2(){
         const courses= {
             reactjs:[
                 {title:"Part 1",vid:"28uhnAaLSbs"},
-                {title:"Part 2",vid:"MDQqtW4VzLY"}
+                {title:"Part 2",vid:"MDQqtW4VzLY"},
+                {title:"Quiz"}
                 
             ]
                     }

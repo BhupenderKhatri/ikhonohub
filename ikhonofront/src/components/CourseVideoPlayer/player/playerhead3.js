@@ -15,7 +15,8 @@ function PlayerHead3(){
             reactjs:[
                 {title:" 1. Black Box and White Box Testing",vid:"GuXKM7z7t2M"},
                 {title:" 2. Unit and System Testing",vid:"uHBwa1KGUQU"},
-                {title:" 3. Alpha testing and Beta testing",vid:"PnDDCEaB8P4"}
+                {title:" 3. Alpha testing and Beta testing",vid:"PnDDCEaB8P4"},
+                {title:"Quiz"}
             ]
                     }
 

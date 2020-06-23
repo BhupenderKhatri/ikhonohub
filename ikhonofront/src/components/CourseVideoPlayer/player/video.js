@@ -6,6 +6,8 @@ import PlayerHead2 from './playerhead2';
 import PlayerHead3 from './playerhead3';
 import './video.css';
 
+import Direction from '../VideoDescription/Direction';
+
 class Video extends Component{
     constructor(){
 
@@ -58,6 +60,7 @@ class Video extends Component{
     render(){
         const {showHideDemo1,showHideDemo2,showHideDemo3,showHideDemo4}=this.state;
         return(
+            <div>
             <div id='video-main' >
                 <div id='video-leftlist'>
                 <ul>
@@ -95,7 +98,10 @@ class Video extends Component{
             }
                             
                 </div>
-                
+                </div>
+                <div>
+                    <Direction/>
+                </div>
             </div>
         );
     }
