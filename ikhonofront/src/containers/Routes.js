@@ -21,7 +21,7 @@ import AllCoursesLoggedOut from '../components/AllCourses/AllCoursesLoggedOut';
 import Accountboard from '../components/Accountboard/Accountboard';
 import Help from '../components/Help/help';
 import Privacy from '../components/PrivacyPolicy/privacy';
-import ReactPlayerPage from '../components/CourseVideoPlayer/ReactPlayer';
+import ReactPlayerPage from '../components/CourseVideoPlayer/player/video';
 
 
 import MyCourses from '../components/dashboard/dashoardMyCourses';

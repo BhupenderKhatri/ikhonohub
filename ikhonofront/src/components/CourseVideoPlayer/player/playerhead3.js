@@ -1,23 +1,21 @@
 import React ,{useState}from 'react';
 import ReactPlayer from "react-player";
-import Foreward from '../course_details/Test1';
+
 import {Link} from 'react-router-dom';
-import Desc from './VideoDescription/Direction';
+// import Desc from './VideoDescription/Direction';
 import Iframe from 'react-iframe';
 import axios from 'axios';
 
-import './ReactPlayer.css';
+import '../ReactPlayer.css';
 
 
 
-function VideoPlayer(){
+function PlayerHead3(){
         const courses= {
             reactjs:[
-                {title:"1 waterfall model",vid:"dfHZWXrEYd0"},
-                {title:"2 prototype model",vid:"d4ksC1z1k5I"},
-                {title:"3 Spiral model",vid:"O3hoEGKpAxk"},
-                {title:"4 RAD model",vid:"nW-U_cMohsI"},
-                {title:"5 Agile model",vid:"87pa5RN1Nm4"}
+                {title:" 1. Black Box and White Box Testing",vid:"GuXKM7z7t2M"},
+                {title:" 2. Unit and System Testing",vid:"uHBwa1KGUQU"},
+                {title:" 3. Alpha testing and Beta testing",vid:"PnDDCEaB8P4"}
             ]
                     }
 
@@ -40,9 +38,9 @@ function VideoPlayer(){
 
     return(
         <div id='react_player_main'>
-            <div>
+            
             {renderVideo()}
-            </div>
+
             <div className="collection">
                 
            
@@ -63,6 +61,4 @@ function VideoPlayer(){
         </div>
     );
 }
-
-
-export default VideoPlayer;
+export default PlayerHead3;

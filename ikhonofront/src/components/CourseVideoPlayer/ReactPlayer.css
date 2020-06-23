@@ -1,0 +1,14 @@
+#react_player_main{
+    display: flex;
+}
+.collection{
+   display: flex;
+   flex-direction: column;
+   
+}
+.collection a:link{
+    color: white;
+}
+.collection a:visited {
+    color: white;
+  }
