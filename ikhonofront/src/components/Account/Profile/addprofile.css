@@ -26,6 +26,15 @@ border-radius: 8px;
 padding-left:20px;
 cursor: text;
 }
+
+#addprofilename:active{
+    outline: none;
+    border: none;
+}
+
+#addprofilename:focus{
+    outline: 0;
+}
 #addprofilenum{
     margin-top:20px;
     margin-left: 30px;
@@ -35,6 +44,16 @@ cursor: text;
     border-radius: 8px;
     padding-left:20px;
     cursor: text;
+}
+
+
+#addprofilenum:active{
+    outline: none;
+    border: none;
+}
+
+#addprofilenum:focus{
+    outline: 0;
 }
 #addprofileaddress{
     margin-top:20px;
@@ -46,6 +65,15 @@ cursor: text;
     padding-left:20px;
     cursor: text;
 } 
+
+#addprofileaddress:active{
+    outline: none;
+    border: none;
+}
+
+#addprofileaddress:focus{
+    outline: 0;
+}
 #addprofileradio{
     margin-top: 20px;
     margin-left: 20px;

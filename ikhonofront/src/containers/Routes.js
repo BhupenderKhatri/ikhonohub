@@ -9,6 +9,7 @@ import forgotpassword from './../components/Forgotpassword/forgotpassword'
 import Verification from './../components/Verfication/verification'
 import cart from './../components/cart/cart';
 import bell from './../components/bell/bell';
+import quiz from './../components/quiz/quiz'
 
 import cartLoggedIn from './../components/cartLoggedIn/cartLoggedIn';
 import Addaddress from '../components/Account/Profile/newaddress';
@@ -42,6 +43,7 @@ export default class Routes extends Component {
                     <Route path="/Verification" component={Verification} />
                     <Route path="/cart" component={cart} />
                     <Route path="/bell" component={bell} />
+                    <Route path="/quiz" component={quiz} />
                     <Route path="/AllCoursesLoggedIn" component={AllCoursesLoggedIn} />
                     <Route path="/AllCoursesLoggedOut" component={AllCoursesLoggedOut} />
                     <Route path="/dashboard" component={Dashboard} />
