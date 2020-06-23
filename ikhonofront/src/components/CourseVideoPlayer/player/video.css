@@ -1,3 +1,6 @@
+#video_headmain{
+    background-color: blue !important;
+}
 #video-main{
     display: flex;
     color: white;

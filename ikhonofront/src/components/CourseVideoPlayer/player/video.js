@@ -60,7 +60,7 @@ class Video extends Component{
     render(){
         const {showHideDemo1,showHideDemo2,showHideDemo3,showHideDemo4}=this.state;
         return(
-            <div>
+            <div id='video_headmain'>
             <div id='video-main' >
                 <div id='video-leftlist'>
                 <ul>

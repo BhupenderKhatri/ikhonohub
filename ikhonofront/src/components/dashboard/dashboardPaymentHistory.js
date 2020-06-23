@@ -30,7 +30,7 @@ import {ReactComponent as IconLogout} from './icons/Icon-logout1.svg';
 
 
 import PayementHistory from '../Purchase_history/purchasehistory';
-
+import LogoWhite from '../nav/LogoWhite.png';
 
 const drawerWidth = 240;
 
@@ -40,8 +40,8 @@ const useStyles = makeStyles((theme) => ({
     display: 'flex',
   },
   appBar: {
-    opacity: 0,
-    background: 'linear-gradient( to left bottom, #FF3300, #FFDB00)',
+    opacity: 1,
+    background:'linear-gradient(to right top, #2D2D2D 0%, #151314 90%)',
    // width: '80px',
    // marginRight: '1447px',
     
@@ -52,8 +52,8 @@ const useStyles = makeStyles((theme) => ({
     }),
   },
   appBarShift: {
-    background: 'linear-gradient( to right, #FF3300, #FFDB00)',//top nav opening time
-   // opacity: 0,
+    background:'linear-gradient(to right top, #2D2D2D 0%, #151314 90%)',//top nav opening time
+    opacity: 1,
     marginLeft: drawerWidth,
     width: `calc(100% - ${drawerWidth}px)`,
     transition: theme.transitions.create(['width', 'margin'], {
@@ -151,7 +151,9 @@ export default function MiniDrawer() {
             <MenuIcon />
           </IconButton>
           <Typography variant="h6" noWrap>
-            Payment History
+             <div><img id='dashboard_logowhite' src={LogoWhite}/>
+
+             </div>
           </Typography>
         </Toolbar>
       </AppBar>
@@ -173,6 +175,16 @@ export default function MiniDrawer() {
             {theme.direction === 'rtl' ? <ChevronRightIcon /> : <ChevronLeftIcon />}
           </IconButton>
         </div>
+        <Divider />
+        <div>
+          <List>
+            <ListItem button >
+              <ListItemIcon>{/*<UserIcon /> */}</ListItemIcon>
+              <ListItemText  onClick={()=>history.push('/dashboard')}>Hello Khatri</ListItemText>
+            </ListItem>
+          </List>
+        </div>
+        
         <Divider />
         <List>
           

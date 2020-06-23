@@ -26,12 +26,15 @@ import {ReactComponent as IconPurchaseHistory} from './icons/Icon-purchasehistor
 import {ReactComponent as IconHelp} from './icons/Icon-help2.svg';
 import {ReactComponent as IconLogout} from './icons/Icon-logout1.svg';
 
+import LogoWhite from '../nav/LogoWhite.png';
 //import {ReactComponent as UserIcon} from './icons/userphoto.svg';
 
+import './dashboard.css';
 import history from '../../history';
 
 import MyCourses from './MyCourses/MyCoursesList';
 import DashboardNav from '../newdashboardnav/newdashboardnav';
+
 
 const drawerWidth = 240;
 
@@ -41,10 +44,11 @@ const useStyles = makeStyles((theme) => ({
     display: 'flex',
   },
   appBar: {
-    opacity: 0,
-    background: 'linear-gradient( to left bottom, #FF3300, #FFDB00)',
+    opacity: 1,
+    background:'linear-gradient(to right top, #2D2D2D 0%, #151314 90%)',
 
-    
+    //backgroundColor: 'transparent',
+     
     zIndex: theme.zIndex.drawer + 1,
     transition: theme.transitions.create(['width', 'margin'], {
       easing: theme.transitions.easing.sharp,
@@ -52,7 +56,7 @@ const useStyles = makeStyles((theme) => ({
     }),
   },
   appBarShift: {
-    background: 'linear-gradient( to right, #FF3300, #FFDB00)',//top nav opening time
+    background:'linear-gradient(to right top, #2D2D2D 0%, #151314 90%)',//top nav opening time
     
    marginLeft: drawerWidth,
     width: `calc(100% - ${drawerWidth}px)`,
@@ -130,6 +134,9 @@ export default function MiniDrawer() {
   };
 
   return (
+    <div>
+  
+    
     <div className={classes.root}>
       
       <CssBaseline />
@@ -152,9 +159,11 @@ export default function MiniDrawer() {
           >
             <MenuIcon />
           </IconButton>
-          {/* <Typography variant="h6" noWrap>
-            My Courses
-          </Typography> */}
+           <Typography variant="h6" noWrap>
+             <div><img id='dashboard_logowhite' src={LogoWhite}/>
+
+             </div>
+          </Typography> 
         </Toolbar>
       </AppBar>
       <Drawer
@@ -229,11 +238,12 @@ export default function MiniDrawer() {
         </List> */}
       </Drawer>
       <main className={classes.content}>
-      <DashboardNav/>
+      
         <div className={classes.toolbar} />
         
         <MyCourses/>
       </main>
+    </div>
     </div>
   );
 }

@@ -18,6 +18,7 @@ import ListItemText from '@material-ui/core/ListItemText';
 import InboxIcon from '@material-ui/icons/MoveToInbox';
 import MailIcon from '@material-ui/icons/Mail';
 
+import './dashboard.css';
 import history from '../../history';
 
 import {ReactComponent as IconDashboard} from './icons/Icon-dashboard1.svg';
@@ -30,8 +31,9 @@ import {ReactComponent as IconLogout} from './icons/Icon-logout1.svg';
 
 
 import Recommended from './recommendedcourses';
-
-
+import LogoWhite from '../nav/LogoWhite.png';
+import Icon_badge from './icons/Icon-badge.png';
+import Icon_badge1 from './icons/Icon-badge1.png';
 
 const drawerWidth = 240;
 
@@ -41,10 +43,11 @@ const useStyles = makeStyles((theme) => ({
     display: 'flex',
   },
   appBar: {
-    opacity: 0,
-    background: 'linear-gradient( to left bottom, #FF3300, #FFDB00)',
+    opacity: 1,
+  //  background: 'linear-gradient( to right top, #FF3300, #FFDB00)',
   //  width: '70px',
   //  marginRight: '1465px',
+  background:'linear-gradient(to right top, #2D2D2D 0%, #151314 90%)',
     
     zIndex: theme.zIndex.drawer + 1,
     transition: theme.transitions.create(['width', 'margin'], {
@@ -53,8 +56,8 @@ const useStyles = makeStyles((theme) => ({
     }),
   },
   appBarShift: {
-    background: 'linear-gradient( to right, #FF3300, #FFDB00)',//top nav opening time
-    //opacity: 0,
+    background:'linear-gradient(to right top, #2D2D2D 0%, #151314 90%)',//top nav opening time
+    
     marginLeft: drawerWidth,
     width: `calc(100% - ${drawerWidth}px)`,
     transition: theme.transitions.create(['width', 'margin'], {
@@ -154,9 +157,16 @@ export default function MiniDrawer() {
           >
             <MenuIcon />
           </IconButton>
-          {/* <Typography variant="h6" noWrap>
-            Dashboard
-          </Typography> */}
+          <Typography variant="h6" noWrap>
+             <div><img id='dashboard_logowhite' src={LogoWhite}/>
+             
+               <img src={Icon_badge1}/> 01
+             <img src={Icon_badge}/> 50
+
+             </div>
+            
+            
+          </Typography> 
         </Toolbar>
       </AppBar>
       <Drawer
@@ -177,6 +187,16 @@ export default function MiniDrawer() {
             {theme.direction === 'rtl' ? <ChevronRightIcon /> : <ChevronLeftIcon />}
           </IconButton>
         </div>
+        <Divider />
+        <div>
+          <List>
+            <ListItem button >
+              <ListItemIcon>{/*<UserIcon /> */}</ListItemIcon>
+              <ListItemText  onClick={()=>history.push('/dashboard')}>Hello Khatri</ListItemText>
+            </ListItem>
+          </List>
+        </div>
+        
         <Divider />
         <List>
           
@@ -222,6 +242,29 @@ export default function MiniDrawer() {
       </Drawer>
       <main className={classes.content}>   
         <div className={classes.toolbar} />
+        {/* <div id='dashboard-namebar'>
+               <img id='dashboard-namebar-icon' src={}/>
+              <div id='dashboard-namebar-name'> 
+                <div>
+                  Khatri
+                </div>
+                <div>
+                  Free member
+                </div>
+              </div>
+              <div id='dashboard-streak'>
+                <div>
+                Streak
+                </div>
+                <div>
+                &nbsp;&nbsp;&nbsp; 5
+                </div>
+              </div>
+              <div id='dashboard-badges'>
+                <div>Badges</div>
+                <div>&nbsp; &nbsp;&nbsp; 0</div>
+              </div>
+            </div> */}
         <Recommended/>
       </main>
     </div>
