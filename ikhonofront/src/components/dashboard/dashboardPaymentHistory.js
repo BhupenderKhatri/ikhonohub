@@ -240,8 +240,8 @@ export default function MiniDrawer() {
               <ListItemText onClick={()=>history.push('/bell')} primary="Notification"/>
             </ListItem>
 			<ListItem button key="Help">
-              <ListItemIcon>{<IconHelp /> }</ListItemIcon>
-              <ListItemText primary="Help"/>
+              <ListItemIcon onClick={()=>history.push('/help')}>{<IconHelp /> }</ListItemIcon>
+              <ListItemText primary="Help" onClick={()=>history.push('/help')}/>
             </ListItem>
 			<ListItem button key="LogOut">
               <ListItemIcon onClick={()=>onSubmitlogout()}>{<IconLogout /> }</ListItemIcon>

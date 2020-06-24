@@ -2,13 +2,16 @@
     top: 0px;
     left: 0px;
     filter: brightness(90%);
-    background-image: url("desiboy.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     height: 600px;
     background-position: center;
+    z-index:-1;
+    background-image:linear-gradient( rgba(0, 0, 0, 0.5) 100%, rgba(0, 0, 0, 0.5)100%),url("desiboy.jpg");
+  
     
 }
+
 
 .logo1 {
     margin-left: 50px;
@@ -108,6 +111,15 @@
 #cart1:hover {
     cursor: pointer;
 }
+#nav_motivation{
+   text-align: center;
+   margin-top:150px;
+   margin-left: -380px;
+    font-size: 45px;
+    color:#ffffff;
+    position: absolute;;
+
+}
 
 @media only screen and (min-width: 320px) and (max-width: 359px) {
 
@@ -141,6 +153,13 @@
         margin-top: 10px;
         margin-left: 5px;
     }
+    #nav_motivation{
+        
+        margin-top:135px;
+        margin-left: 15px;
+         font-size: 18px;        
+     
+     }
 }
 
 @media only screen and (min-width: 360px) 
@@ -175,7 +194,16 @@ and (max-width: 374px)
         width: 100px;
         margin-top: 10px;
         margin-left: 5px;
+
     }
+    #nav_motivation{
+        
+        margin-top:145px;
+        margin-left: 35px;
+         font-size: 18px;        
+     
+     }
+    
 
 }
 @media only screen and (min-width: 375px) and (max-width: 411px) {
@@ -208,6 +236,13 @@ and (max-width: 374px)
         margin-top: 10px;
         margin-left: 5px;
     }
+    #nav_motivation{
+        
+        margin-top:165px;
+        margin-left: 45px;
+         font-size: 18.5px;        
+     
+     }
 }
 @media only screen and (min-width: 412px) 
 and (max-width: 413px) 
@@ -241,6 +276,13 @@ and (max-width: 413px)
         margin-top: 10px;
         margin-left: 5px;
     }
+    #nav_motivation{
+        
+        margin-top:170px;
+        margin-left: 48px;
+         font-size: 19.5px;        
+     
+     }
    
   }
 
@@ -278,9 +320,13 @@ and (max-width: 449px)
         margin-top: 10px;
         margin-left: 5px;
     }
+    #nav_motivation{
+        
+        margin-top:170px;
+        margin-left: 48px;
+         font-size: 21px;        
      
-
-  
+     }
   }
 @media only screen and (min-width: 450px) and (max-width: 550px) {
    .restcomp{
@@ -315,6 +361,13 @@ and (max-width: 449px)
         margin-top: 8px;
         margin-left: 5px;
     }
+    #nav_motivation{
+        
+        margin-top:170px;
+        margin-left: 20px;
+         font-size: 24px;        
+     
+     }
 }
 
 @media only screen and (min-width: 551px) and (max-width: 599px) {
@@ -350,6 +403,13 @@ and (max-width: 449px)
          width: 125px;
          margin-top: 10px;
          margin-left: 5px;
+     }
+     #nav_motivation{
+        
+        margin-top:170px;
+        margin-left: -55px;
+         font-size: 26px;        
+     
      }
 }
 
@@ -390,7 +450,13 @@ and (max-width: 617px)
          margin-left: 5px;
      }
    
-    
+     #nav_motivation{
+        
+        margin-top:170px;
+        margin-left: -90px;
+         font-size: 28.5px;        
+     
+     }
   }
 
 
@@ -427,7 +493,13 @@ and (max-width: 617px)
          margin-top: 10px;
          margin-left: 5px;
      }
-   
+     #nav_motivation{
+        
+        margin-top:155px;
+        margin-left: -90px;
+         font-size: 29.5px;        
+     
+     }
 }
 
 @media only screen and (min-width: 701px) and (max-width: 767px) {
@@ -462,6 +534,13 @@ and (max-width: 617px)
          width: 127px;
          margin-top: 10px;
          margin-left: 5px;
+     }
+     #nav_motivation{
+        
+        margin-top:155px;
+        margin-left: -155px;
+         font-size: 31px;        
+     
      }
 }
 
@@ -498,6 +577,13 @@ and (max-width: 617px)
          margin-top: 10px;
          margin-left: 15px;
      }
+     #nav_motivation{
+        
+        margin-top:155px;
+        margin-left: -198px;
+         font-size: 33.5px;        
+     
+     }
 }
 
 @media only screen and (min-width: 851px) and (max-width: 909px) {
@@ -532,6 +618,13 @@ and (max-width: 617px)
          width: 133px;
          margin-top: 10px;
          margin-left: 15px;
+     }
+     #nav_motivation{
+        
+        margin-top:155px;
+        margin-left: -225px;
+         font-size: 33.5px;        
+     
      }
 
 }
@@ -569,6 +662,13 @@ and (max-width: 617px)
          margin-top: 10px;
          margin-left: 15px;
      }
+     #nav_motivation{
+        
+        margin-top:155px;
+        margin-left: -255px;
+         font-size: 36px;        
+     
+     }
 }
 
 @media only screen and (min-width: 1008px) and (max-width: 1100px) {
@@ -604,16 +704,23 @@ and (max-width: 617px)
          margin-top: 10px;
          margin-left: 15px;
      }
+     #nav_motivation{
+        
+        margin-top:155px;
+        margin-left: -230px;
+         font-size: 38px;        
+     
+     }
 }
 
 @media only screen and (min-width: 1101px) and (max-width: 1200px) {
 
     .restcomp{
-        margin-left: 555px;
+        margin-left: 600px;
     }
      .nav_bar1 {
        
-         height: 430px;
+         height: 480px;
          
      }
      #login_btn1 {
@@ -639,6 +746,13 @@ and (max-width: 617px)
          width: 160px;
          margin-top: 10px;
          margin-left: 15px;
+     }
+     #nav_motivation{
+        
+        margin-top:175px;
+        margin-left: -345px;
+         font-size: 43px;        
+     
      }
 }
 
@@ -648,7 +762,7 @@ and (max-width: 617px)
     }
      .nav_bar1 {
        
-         height: 430px;
+         height: 600px;
          
      }
      #login_btn1 {
@@ -675,6 +789,11 @@ and (max-width: 617px)
          margin-top: 10px;
          margin-left: 15px;
      }
+     #nav_motivation{
+        
+        margin-top:240px;
+        margin-left: -350px;
+     }
 }
 
 @media only screen and (min-width: 1301px) and (max-width: 1360px) {
@@ -683,7 +802,7 @@ and (max-width: 617px)
     }
      .nav_bar1 {
        
-         height: 430px;
+         height: 630px;
          
      }
      #login_btn1 {
@@ -710,7 +829,11 @@ and (max-width: 617px)
          margin-top: 10px;
          margin-left: 15px;
      }
-      
+     #nav_motivation{
+        
+        margin-top:245px;
+        margin-left: -410px;
+     }
 }
 
 @media only screen and (min-width: 1361px) and (max-width: 1440px) {
@@ -719,7 +842,7 @@ and (max-width: 617px)
     }
      .nav_bar1 {
        
-         height: 430px;
+         height: 630px;
          
      }
      #login_btn1 {
@@ -746,6 +869,11 @@ and (max-width: 617px)
          margin-top: 10px;
          margin-left: 15px;
      }
+     #nav_motivation{
+        
+        margin-top:245px;
+        margin-left: -450px;
+     }
 }
 
 @media only screen and (min-width: 1441px) and (max-width: 1520px) {
@@ -754,7 +882,7 @@ and (max-width: 617px)
     }
      .nav_bar1 {
        
-         height: 430px;
+         height: 630px;
          
      }
      #login_btn1 {
@@ -781,6 +909,12 @@ and (max-width: 617px)
          width: 110px;
          margin-top: 10px;
          margin-left: 5px;
+     }
+     #nav_motivation{
+        
+        margin-top:245px;
+        margin-left: -480px;
+        font-size:47px;
      }
 }
 
@@ -790,7 +924,7 @@ and (max-width: 617px)
     }
      .nav_bar1 {
        
-         height: 430px;
+         height: 650px;
          
      }
      #login_btn1 {
@@ -817,6 +951,12 @@ and (max-width: 617px)
          width: 110px;
          margin-top: 10px;
          margin-left: 5px;
+     }
+     #nav_motivation{
+        
+        margin-top:255px;
+        margin-left: -510px;
+        font-size:48px;
      }
 }
 
@@ -826,7 +966,7 @@ and (max-width: 617px)
     }
      .nav_bar1 {
        
-         height: 430px;
+         height: 650px;
          
      }
      #login_btn1 {
@@ -853,6 +993,12 @@ and (max-width: 617px)
          width: 110px;
          margin-top: 10px;
          margin-left: 5px;
+     }
+     #nav_motivation{
+        
+        margin-top:255px;
+        margin-left: -530px;
+        font-size:50px;
      }
 }
 
@@ -862,7 +1008,7 @@ and (max-width: 617px)
     }
      .nav_bar1 {
        
-         height: 430px;
+         height: 650px;
          
      }
      #login_btn1 {
@@ -889,6 +1035,12 @@ and (max-width: 617px)
          width: 110px;
          margin-top: 10px;
          margin-left: 5px;
+     }
+     #nav_motivation{
+        
+        margin-top:255px;
+        margin-left: -600px;
+        font-size:52px;
      }
 }
 
@@ -898,7 +1050,7 @@ and (max-width: 617px)
     }
      .nav_bar1 {
        
-         height: 430px;
+         height: 700px;
          
      }
      #login_btn1 {
@@ -926,6 +1078,13 @@ and (max-width: 617px)
          margin-top: 10px;
          margin-left: 5px;
      }
+     #nav_motivation{
+        
+        margin-top:260px;
+        margin-left: -670px;
+        font-size:54px;
+     }
+
 }
 
 @media only screen and (min-width: 1840px) and (max-width: 1920px) {
@@ -934,7 +1093,7 @@ and (max-width: 617px)
     }
      .nav_bar1 {
        
-         height: 430px;
+         height: 720px;
          
      }
      #login_btn1 {
@@ -961,6 +1120,12 @@ and (max-width: 617px)
          width: 110px;
          margin-top: 10px;
          margin-left: 5px;
+     }
+     #nav_motivation{
+        
+        margin-top:280px;
+        margin-left: -720px;
+        font-size:56px;
      }
 }
 
@@ -970,7 +1135,7 @@ and (max-width: 617px)
     }
      .nav_bar1 {
        
-         height: 430px;
+         height: 750px;
          
      }
      #login_btn1 {
@@ -997,5 +1162,11 @@ and (max-width: 617px)
          width: 110px;
          margin-top: 10px;
          margin-left: 5px;
+     }
+     #nav_motivation{
+        
+        margin-top:300px;
+        margin-left: -780px;
+        font-size:60px;
      }
 }

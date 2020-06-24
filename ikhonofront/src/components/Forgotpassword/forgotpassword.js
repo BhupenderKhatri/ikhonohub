@@ -13,14 +13,14 @@ class Forgotpassword extends Component {
 
     <div class="forgot_password">
 
-        {/* <div>
+        <div>
           <Loginnav />
 
       </div>
-   */}
+  
       
                   
-           
+          
         <table id='forgotting_password'>
           
                 <tr>
@@ -42,6 +42,7 @@ class Forgotpassword extends Component {
                       
                   
                 </table>  
+                
         
                </div>
   );

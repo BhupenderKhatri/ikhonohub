@@ -16,10 +16,7 @@ import ListItem from '@material-ui/core/ListItem';
 import ListItemIcon from '@material-ui/core/ListItemIcon';
 import ListItemText from '@material-ui/core/ListItemText';
 import InboxIcon from '@material-ui/icons/MoveToInbox';
-import MailIcon from '@material-ui/icons/Mail';
-
-import './dashboard.css';
-import history from '../../history';
+//import MailIcon from '@material-ui/icons/Mail';
 
 import {ReactComponent as IconDashboard} from './icons/Icon-dashboard1.svg';
 import {ReactComponent as IconMyCourses} from './icons/Icon-mycourses1.svg';
@@ -29,14 +26,17 @@ import {ReactComponent as IconPurchaseHistory} from './icons/Icon-purchasehistor
 import {ReactComponent as IconHelp} from './icons/Icon-help2.svg';
 import {ReactComponent as IconLogout} from './icons/Icon-logout1.svg';
 
+import LogoWhite from '../nav/LogoWhite.png';
+//import {ReactComponent as UserIcon} from './icons/userphoto.svg';
+
+import './dashboard.css';
+import history from '../../history';
+
 import {ReactComponent as IconCart} from './icons/shopping_cart.svg';
 import {ReactComponent as IconNotification} from './icons/notification.svg';
 
+import Help from '../Help/help';
 
-import Recommended from './recommendedcourses';
-import LogoWhite from '../nav/LogoWhite.png';
-import Icon_badge from './icons/Icon-badge.png';
-import Icon_badge1 from './icons/Icon-badge1.png';
 
 import axios from "axios";
 
@@ -61,20 +61,17 @@ const onSubmitlogout = (event) => {
 
 
   }
-
-
 const useStyles = makeStyles((theme) => ({
   root: {
-
+   
     display: 'flex',
   },
   appBar: {
     opacity: 1,
-  //  background: 'linear-gradient( to right top, #FF3300, #FFDB00)',
-  //  width: '70px',
-  //  marginRight: '1465px',
-  background:'linear-gradient(to right top, #2D2D2D 0%, #151314 90%)',
-    
+    background:'linear-gradient(to right top, #2D2D2D 0%, #151314 90%)',
+
+    //backgroundColor: 'transparent',
+     
     zIndex: theme.zIndex.drawer + 1,
     transition: theme.transitions.create(['width', 'margin'], {
       easing: theme.transitions.easing.sharp,
@@ -84,7 +81,7 @@ const useStyles = makeStyles((theme) => ({
   appBarShift: {
     background:'linear-gradient(to right top, #2D2D2D 0%, #151314 90%)',//top nav opening time
     
-    marginLeft: drawerWidth,
+   marginLeft: drawerWidth,
     width: `calc(100% - ${drawerWidth}px)`,
     transition: theme.transitions.create(['width', 'margin'], {
       easing: theme.transitions.easing.sharp,
@@ -99,17 +96,17 @@ const useStyles = makeStyles((theme) => ({
     display: 'none',
   },
   button: {
-    background: "#AF2F0F",
+    background:"#AF2F0F",
   },
   drawer: {
-
+    
     width: drawerWidth,
     flexShrink: 0,
     whiteSpace: 'nowrap',
   },
   drawerOpen: {
     background: 'linear-gradient( to left bottom, #FF3300, #FFDB00)',// when nav side gets open
-    color: 'white',
+    color:'white',
     width: drawerWidth,
     transition: theme.transitions.create('width', {
       easing: theme.transitions.easing.sharp,
@@ -129,7 +126,7 @@ const useStyles = makeStyles((theme) => ({
     },
   },
   toolbar: {
-
+    
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'flex-end',
@@ -138,7 +135,7 @@ const useStyles = makeStyles((theme) => ({
     ...theme.mixins.toolbar,
   },
   content: {
-
+    
     flexGrow: 1,
     padding: theme.spacing(3),
   },
@@ -160,19 +157,21 @@ export default function MiniDrawer() {
   };
 
   return (
-
+    <div>
+  
+    
     <div className={classes.root}>
-      <CssBaseline />
-      <AppBar
       
+      <CssBaseline />
+      
+      <AppBar
         position="fixed"
         className={clsx(classes.appBar, {
           [classes.appBarShift]: open,
         })}
       >
-        <Toolbar >
+        <Toolbar>
           <IconButton
-          
             color="inherit"
             aria-label="open drawer"
             onClick={handleDrawerOpen}
@@ -183,15 +182,10 @@ export default function MiniDrawer() {
           >
             <MenuIcon />
           </IconButton>
-          <Typography variant="h6" noWrap>
+           <Typography variant="h6" noWrap>
              <div><img id='dashboard_logowhite' src={LogoWhite}/>
-             
-               <img src={Icon_badge1}/> 01
-             <img src={Icon_badge}/> 50
 
              </div>
-            
-            
           </Typography> 
         </Toolbar>
       </AppBar>
@@ -226,11 +220,11 @@ export default function MiniDrawer() {
         <Divider />
         <List>
           
-          <ListItem button key="Dashboard" className={classes.button} >
-              <ListItemIcon>{<IconDashboard /> }</ListItemIcon>
-              <ListItemText primary="Dashboard"/>
+            <ListItem button key="Dashboard" >
+              <ListItemIcon onClick={()=>history.push('/dashboard')}>{<IconDashboard /> }</ListItemIcon>
+              <ListItemText primary="Dashboard" onClick={()=>history.push('/dashboard')}/>
             </ListItem>
-			<ListItem button key="MyCourses" >
+          <ListItem button key="MyCourses" className={classes.button}>
               <ListItemIcon onClick={()=>history.push('/mycourses')}>{<IconMyCourses /> }</ListItemIcon>
               <ListItemText primary="My Courses" onClick={()=>history.push('/mycourses')}/>
             </ListItem>
@@ -254,10 +248,9 @@ export default function MiniDrawer() {
               <ListItemIcon onClick={()=>history.push('/bell')}>{<IconNotification /> }</ListItemIcon>
               <ListItemText onClick={()=>history.push('/bell')} primary="Notification"/>
             </ListItem>
-
 			<ListItem button key="Help">
-              <ListItemIcon onClick={()=>history.push('/help')}>{<IconHelp /> }</ListItemIcon>
-              <ListItemText onClick={()=>history.push('/help')} primary="Help"/>
+              <ListItemIcon>{<IconHelp /> }</ListItemIcon>
+              <ListItemText primary="Help"/>
             </ListItem>
 			<ListItem button key="LogOut">
               <ListItemIcon onClick={()=>onSubmitlogout()}>{<IconLogout /> }</ListItemIcon>
@@ -275,34 +268,13 @@ export default function MiniDrawer() {
           ))}
         </List> */}
       </Drawer>
-      <main className={classes.content}>   
+      <main className={classes.content}>
+      
         <div className={classes.toolbar} />
-        {/* <div id='dashboard-namebar'>
-               <img id='dashboard-namebar-icon' src={}/>
-              <div id='dashboard-namebar-name'> 
-                <div>
-                  Khatri
-                </div>
-                <div>
-                  Free member
-                </div>
-              </div>
-              <div id='dashboard-streak'>
-                <div>
-                Streak
-                </div>
-                <div>
-                &nbsp;&nbsp;&nbsp; 5
-                </div>
-              </div>
-              <div id='dashboard-badges'>
-                <div>Badges</div>
-                <div>&nbsp; &nbsp;&nbsp; 0</div>
-              </div>
-            </div> */}
-        <Recommended/>
+        
+        <Help/>
       </main>
     </div>
-   
+    </div>
   );
 }
