@@ -1,23 +1,23 @@
-.help{
+.dashboardhelp{
     color: white;
     text-align: center;
 }
-#help_second{
+#dashboardhelp_second{
    display: flex;
    margin-top: 100px;
 }
-#help_left{
+#dashboardhelp_left{
     display: flex;
-    flex-direction: column;
-    text-align: left;
+   
+    
     margin-left: 250px;
     height: 200px;
     width: 300px;
-    border:  2px solid;
+    
     padding-left: 50px;
     padding-top: 30px;
 }
-#help_right{
+#dashboardhelp_right{
     height: 400px;
     width: 400px;
     
@@ -27,7 +27,7 @@
     
     
 }
-.help_right_fields{
+.dashboardhelp_right_fields{
     
     margin-top: 20px;
     margin-bottom: 20px;
@@ -40,7 +40,7 @@
     
 
 }
-.help_right_button{
+.dashboardhelp_right_button{
     width: 150px;
     border-radius: 15px;
     height: 40px;

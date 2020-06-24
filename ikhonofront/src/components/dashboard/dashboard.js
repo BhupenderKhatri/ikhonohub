@@ -186,8 +186,7 @@ export default function MiniDrawer() {
           <Typography variant="h6" noWrap>
              <div><img id='dashboard_logowhite' src={LogoWhite}/>
              
-               <img src={Icon_badge1}/> 01
-             <img src={Icon_badge}/> 50
+              
 
              </div>
             
@@ -277,29 +276,26 @@ export default function MiniDrawer() {
       </Drawer>
       <main className={classes.content}>   
         <div className={classes.toolbar} />
-        {/* <div id='dashboard-namebar'>
-               <img id='dashboard-namebar-icon' src={}/>
+        <div id='dashboard-namebar'>
+               {/* <img id='dashboard-namebar-icon' src={}/> */}
               <div id='dashboard-namebar-name'> 
-                <div>
-                  Khatri
-                </div>
-                <div>
-                  Free member
-                </div>
+               Welcome
               </div>
               <div id='dashboard-streak'>
                 <div>
                 Streak
                 </div>
                 <div>
+                <img id="dashboard_ion" src={Icon_badge1}/>
                 &nbsp;&nbsp;&nbsp; 5
                 </div>
               </div>
               <div id='dashboard-badges'>
                 <div>Badges</div>
-                <div>&nbsp; &nbsp;&nbsp; 0</div>
+                 
+                <div><img  id="dashboard_ion1" src={Icon_badge}/>&nbsp; &nbsp;&nbsp; 0</div>
               </div>
-            </div> */}
+            </div>
         <Recommended/>
       </main>
     </div>

@@ -1,25 +1,20 @@
 #dashboard-namebar{
     display: flex;
-    color: white;
-    margin-top: 100px;
-    border: 2px solid orangered;
-    height: 70px;
-    margin-top: 70px;
-    background-color: orangered;
-    padding-left: 150px;
+    color: white;   
     font-size: 25px;
+    margin-top: 10px;
 }
 
-#dashboard-namebar-icon{
-    height: 60px;
-    width: 60px;
-}
 #dashboard-namebar-name{
-    margin-left: 20px;
+  
+    margin-left: 55px;
 }
-
+#dashboard_member{
+margin-top: 5px;
+font-size: 15px;
+}
 #dashboard-streak{
-    margin-left: 900px;
+    margin-left: 800px;
     display: block;
 }
 
@@ -32,3 +27,749 @@
     height: 55px;
     width: 212px;
 }
+@media only screen and (min-width: 320px) 
+and (max-width: 359px) {
+   
+    #dashboard-namebar{
+     
+        font-size: 15px;
+        margin-top: 10px;
+    }  
+#dashboard-namebar-name{
+    margin-left: 0px;
+}
+#dashboard_member{
+margin-top: 5px;
+font-size: 10px;
+}
+#dashboard_ion{
+width:15px;
+}
+#dashboard_ion1{
+    width:11px;
+    }
+#dashboard-streak{
+    margin-left: 59px;   
+}
+#dashboard-badges{
+    margin-left: 20px;
+}
+#dashboard_logowhite{
+    margin-left: 20px;
+    height: 45px;
+    width: 152px;
+}
+}
+@media only screen and (min-width: 360px) 
+and (max-width: 374px) {
+    #dashboard-namebar{
+     
+        font-size: 15px;
+        margin-top: 10px;
+
+    }  
+#dashboard-namebar-name{
+    margin-left: 5px;
+}
+#dashboard_member{
+margin-top: 5px;
+font-size: 10px;
+}
+#dashboard_ion{
+width:15px;
+}
+#dashboard_ion1{
+    width:11px;
+    }
+#dashboard-streak{
+    margin-left: 59px;   
+}
+#dashboard-badges{
+    margin-left: 20px;
+}
+#dashboard_logowhite{
+    margin-left: 20px;
+    height: 45px;
+    width: 152px;
+}
+}
+@media only screen and (min-width: 375px) 
+and (max-width: 411px) 
+  {
+
+#dashboard-namebar{
+   
+    font-size: 15px;
+    margin-top: 10px;
+}  
+#dashboard-namebar-name{
+    margin-left: 10px;
+}
+#dashboard_member{
+margin-top: 5px;
+font-size: 10px;
+}
+#dashboard_ion{
+width:15px;
+}
+#dashboard_ion1{
+    width:11px;
+    }
+#dashboard-streak{
+    margin-left: 59px;   
+}
+#dashboard-badges{
+    margin-left: 20px;
+}
+#dashboard_logowhite{
+    margin-left: 20px;
+    height: 45px;
+    width: 152px;
+}
+  }
+  @media only screen and (min-width: 412px) 
+  and (max-width: 413px) 
+    {
+        #dashboard-namebar{
+   
+            font-size: 15px;
+            margin-top: 10px;
+        }  
+        #dashboard-namebar-name{
+            margin-left: 10px;
+        }
+        #dashboard_member{
+        margin-top: 5px;
+        font-size: 10px;
+        }
+        #dashboard_ion{
+        width:15px;
+        }
+        #dashboard_ion1{
+            width:11px;
+            }
+        #dashboard-streak{
+            margin-left: 59px;   
+        }
+        #dashboard-badges{
+            margin-left: 20px;
+        }
+        #dashboard_logowhite{
+            margin-left: 20px;
+            height: 45px;
+            width: 152px;
+        }  
+    }
+    @media only screen and (min-width: 414px) 
+    and (max-width: 449px) {
+            #dashboard-namebar{
+       
+                font-size: 15px;
+                margin-top: 10px;
+            }  
+            #dashboard-namebar-name{
+                margin-left: 20px;
+            }
+            #dashboard_member{
+            margin-top: 5px;
+            font-size: 10px;
+            }
+            #dashboard_ion{
+            width:15px;
+            }
+            #dashboard_ion1{
+                width:11px;
+                }
+            #dashboard-streak{
+                margin-left: 59px;   
+            }
+            #dashboard-badges{
+                margin-left: 20px;
+            }
+            #dashboard_logowhite{
+                margin-left: 20px;
+                height: 45px;
+                width: 152px;
+            } 
+    }
+    @media only screen and (min-width: 450px) 
+and (max-width: 550px) {
+    #dashboard-namebar{
+       
+        font-size: 16px;
+        margin-top: 10px;
+    }  
+    #dashboard-namebar-name{
+        margin-left: 50px;
+    }
+    #dashboard_member{
+    margin-top: 5px;
+    font-size: 11px;
+    }
+    #dashboard_ion{
+    width:15px;
+    }
+    #dashboard_ion1{
+        width:11px;
+        }
+    #dashboard-streak{
+        margin-left: 85px;   
+    }
+    #dashboard-badges{
+        margin-left: 20px;
+    }
+    #dashboard_logowhite{
+        margin-left: 20px;
+        height: 45px;
+        width: 152px;
+    } 
+}
+@media only screen and (min-width: 551px) 
+and (max-width: 599px) {
+    #dashboard-namebar{
+       
+        font-size: 16px;
+        margin-top: 10px;
+    }  
+    #dashboard-namebar-name{
+        margin-left: 50px;
+    }
+    #dashboard_member{
+    margin-top: 5px;
+    font-size: 11px;
+    }
+    #dashboard_ion{
+    width:15px;
+    }
+    #dashboard_ion1{
+        width:11px;
+        }
+    #dashboard-streak{
+        margin-left: 155px;   
+    }
+    #dashboard-badges{
+        margin-left: 30px;
+    }
+    #dashboard_logowhite{
+        margin-left: 20px;
+        height: 45px;
+        width: 152px;
+    } 
+}
+@media only screen and (min-width: 600px) 
+and (max-width: 617px){
+    #dashboard-namebar{
+       
+        font-size: 17px;
+        margin-top: 10px;
+    }  
+    #dashboard-namebar-name{
+        margin-left: 55px;
+    }
+    
+    #dashboard_ion{
+    width:15px;
+    }
+    #dashboard_ion1{
+        width:11px;
+        }
+    #dashboard-streak{
+        margin-left: 175px;   
+    }
+    #dashboard-badges{
+        margin-left: 40px;
+    }
+    #dashboard_logowhite{
+        margin-left: 20px;
+        height: 45px;
+        width: 152px;
+    } 
+}
+
+@media only screen and (min-width: 618px) 
+and (max-width: 700px) 
+{ #dashboard-namebar{
+       
+    font-size: 17px;
+    margin-top: 10px;
+}  
+#dashboard-namebar-name{
+    margin-left: 15px;
+}
+
+#dashboard_ion{
+width:15px;
+}
+#dashboard_ion1{
+    width:11px;
+    }
+#dashboard-streak{
+    margin-left: 270px;   
+}
+#dashboard-badges{
+    margin-left: 40px;
+}
+#dashboard_logowhite{
+    margin-left: 20px;
+    height: 45px;
+    width: 152px;
+} 
+}
+@media only screen and (min-width: 701px) 
+and (max-width: 767px) 
+{ #dashboard-namebar{
+       
+    font-size: 19px;
+    margin-top: 10px;
+}  
+#dashboard-namebar-name{
+    margin-left: 25px;
+}
+
+#dashboard_ion{
+width:17px;
+}
+#dashboard_ion1{
+    width:12px;
+    }
+#dashboard-streak{
+    margin-left: 300px;   
+}
+#dashboard-badges{
+    margin-left: 50px;
+}
+#dashboard_logowhite{
+    margin-left: 20px;
+    height: 45px;
+    width: 152px;
+} 
+}
+@media only screen and (min-width: 768px) and (max-width: 799px) 
+{
+    #dashboard-namebar{
+       
+        font-size: 19px;
+        margin-top: 10px;
+    }  
+    #dashboard-namebar-name{
+        margin-left: 25px;
+    }
+    
+    #dashboard_ion{
+    width:17px;
+    }
+    #dashboard_ion1{
+        width:12px;
+        }
+    #dashboard-streak{
+        margin-left: 320px;   
+    }
+    #dashboard-badges{
+        margin-left: 50px;
+    }
+    #dashboard_logowhite{
+        margin-left: 20px;
+        height: 45px;
+        width: 152px;
+    } 
+    }
+    @media only screen and (min-width: 800px) and (max-width: 850px) 
+{
+    #dashboard-namebar{
+       
+        font-size: 20px;
+        margin-top: 10px;
+    }  
+    #dashboard-namebar-name{
+        margin-left: 30px;
+    }
+    
+    #dashboard_ion{
+    width:18px;
+    }
+    #dashboard_ion1{
+        width:12.5px;
+        }
+    #dashboard-streak{
+        margin-left: 345px;   
+    }
+    #dashboard-badges{
+        margin-left: 50px;
+    }
+    #dashboard_logowhite{
+        margin-left: 20px;
+        height: 45px;
+        width: 152px;
+    } 
+}
+
+@media only screen and (min-width: 851px) and (max-width: 909px)
+{
+    #dashboard-namebar{
+       
+        font-size: 20px;
+        margin-top: 10px;
+    }  
+    #dashboard-namebar-name{
+        margin-left: 55px;
+    }
+    
+    #dashboard_ion{
+    width:18px;
+    }
+    #dashboard_ion1{
+        width:12.5px;
+        }
+    #dashboard-streak{
+        margin-left: 345px;   
+    }
+    #dashboard-badges{
+        margin-left: 50px;
+    }
+    #dashboard_logowhite{
+        margin-left: 20px;
+        height: 45px;
+        width: 152px;
+    }  
+}
+@media only screen and (min-width: 910px) and (max-width: 1023px) {
+    #dashboard-namebar{
+       
+        font-size: 21px;
+        margin-top: 10px;
+    }  
+    #dashboard-namebar-name{
+        margin-left: 65px;
+    }
+    
+    #dashboard_ion{
+    width:18px;
+    }
+    #dashboard_ion1{
+        width:12.5px;
+        }
+    #dashboard-streak{
+        margin-left: 360px;   
+    }
+    #dashboard-badges{
+        margin-left: 60px;
+    }
+    #dashboard_logowhite{
+        margin-left: 25px;
+        height: 50px;
+        width: 162px;
+    } 
+
+ }
+ @media only screen and (min-width: 1024px) and (max-width: 1100px) {
+
+ #dashboard-namebar{
+       
+    font-size: 21px;
+    margin-top: 10px;
+}  
+#dashboard-namebar-name{
+    margin-left: 30px;
+}
+
+#dashboard_ion{
+width:19px;
+}
+#dashboard_ion1{
+    width:13.5px;
+    }
+#dashboard-streak{
+    margin-left: 550px;   
+}
+#dashboard-badges{
+    margin-left: 80px;
+}
+#dashboard_logowhite{
+    margin-left: 25px;
+    height: 50px;
+    width: 162px;
+} 
+}
+@media only screen and (min-width: 1101px) and (max-width: 1200px) {
+    #dashboard-namebar{
+       
+        font-size: 22px;
+        margin-top: 10px;
+    }  
+    #dashboard-namebar-name{
+        margin-left: 45px;
+    }
+    
+    #dashboard_ion{
+    width:19px;
+    }
+    #dashboard_ion1{
+        width:13.5px;
+        }
+    #dashboard-streak{
+        margin-left: 570px;   
+    }
+    #dashboard-badges{
+        margin-left: 90px;
+    }
+    #dashboard_logowhite{
+        margin-left: 25px;
+        height: 50px;
+        width: 162px;
+    } 
+    }
+@media only screen and (min-width: 1201px) and (max-width: 1300px) {
+    #dashboard-namebar{
+       
+        font-size: 23px;
+        margin-top: 10px;
+    }  
+    #dashboard-namebar-name{
+        margin-left: 48px;
+    }
+    #dashboard_ion{
+    width:19px;
+    }
+    #dashboard_ion1{
+        width:13.5px;
+        }
+    #dashboard-streak{
+        margin-left: 590px;   
+    }
+    #dashboard-badges{
+        margin-left: 90px;
+    }
+    #dashboard_logowhite{
+        margin-left: 25px;
+        height: 50px;
+        width: 162px;
+    } 
+    }
+
+    @media only screen and (min-width: 1301px) 
+and (max-width: 1359px){
+    #dashboard-namebar{
+       
+        font-size: 24px;
+        margin-top: 10px;
+    }  
+    #dashboard-namebar-name{
+        margin-left: 48px;
+    }
+    #dashboard_ion{
+    width:21px;
+    }
+    #dashboard_ion1{
+        width:15px;
+        }
+    #dashboard-streak{
+        margin-left: 650px;   
+    }
+    #dashboard-badges{
+        margin-left: 100px;
+    }
+    #dashboard_logowhite{
+        margin-left: 30px;
+        height: 55px;
+        width: 182px;
+    } 
+    }
+    @media only screen and (min-width: 1360px) and (max-width: 1439px)
+ {
+    #dashboard-namebar{
+        margin-top: 10px;
+    }  
+    #dashboard-namebar-name{
+        margin-left: 55px;
+    }
+    #dashboard_ion{
+    width:21px;
+    }
+    #dashboard_ion1{
+        width:15px;
+        }
+    #dashboard-streak{
+        margin-left: 650px;   
+    }
+    #dashboard-badges{
+        margin-left: 100px;
+    }
+    #dashboard_logowhite{
+        margin-left: 30px;
+        height: 55px;
+        width: 182px;
+    }  
+ }
+ @media only screen and (min-width: 1440px) 
+and (max-width: 1520px)
+{
+    #dashboard-namebar{
+        margin-top: 10px;
+    }  
+    #dashboard-namebar-name{
+        margin-left: 65px;
+    }
+    #dashboard_ion{
+    
+    }
+    #dashboard_ion1{
+        width:18px;
+        }
+    #dashboard-streak{
+        margin-left: 675px;   
+    }
+    #dashboard-badges{
+        margin-left: 100px;
+    }
+    #dashboard_logowhite{
+        margin-left: 30px;
+        height: 55px;
+        width: 182px;
+    }  
+ }
+ @media only screen and (min-width: 1521px) 
+ and (max-width: 1599px)
+   {
+    #dashboard-namebar{
+        font-size:26px;
+        margin-top: 10px;
+    }  
+    #dashboard-namebar-name{
+        margin-left: 70px;
+    }
+    #dashboard_ion{
+    
+    }
+    #dashboard_ion1{
+        width:18px;
+        }
+    #dashboard-streak{
+        margin-left: 750px;   
+    }
+    #dashboard-badges{
+        margin-left: 100px;
+    }
+    #dashboard_logowhite{
+        margin-left: 30px;
+        height: 55px;
+        width: 182px;
+    }  
+ }
+ @media only screen and (min-width: 1600px) 
+and (max-width: 1680px)
+  {
+    #dashboard-namebar{
+        font-size:28px;
+        margin-top: 10px;
+    }  
+    #dashboard-namebar-name{
+        margin-left: 80px;
+    }
+    #dashboard_ion{
+    width:25px;
+    }
+    #dashboard_ion1{
+        width:19px;
+        }
+    #dashboard-streak{
+        margin-left: 920px;   
+    }
+    #dashboard-badges{
+        margin-left: 120px;
+    }
+        
+  }
+  @media only screen and (min-width: 1680px) 
+  and (max-width: 1760px)
+    {
+        
+    #dashboard-namebar{
+        font-size:29px;
+        margin-top: 10px;
+    }  
+    #dashboard-namebar-name{
+        margin-left: 95px;
+    }
+    #dashboard_ion{
+    width:26px;
+    }
+    #dashboard_ion1{
+        width:20px;
+        }
+    #dashboard-streak{
+        margin-left: 950px;   
+    }
+    #dashboard-badges{
+        margin-left: 120px;
+    }
+        
+  }
+  @media only screen and (min-width: 1759px) 
+and (max-width: 1840px)
+  {
+    #dashboard-namebar{
+        font-size:30px;
+        margin-top: 10px;
+    }  
+    #dashboard-namebar-name{
+        margin-left: 95px;
+    }
+    #dashboard_ion{
+    width:27px;
+    }
+    #dashboard_ion1{
+        width:21px;
+        }
+    #dashboard-streak{
+        margin-left: 980px;   
+    }
+    #dashboard-badges{
+        margin-left: 120px;
+    } 
+  }
+  @media only screen and (min-width: 1841px) 
+and (max-width: 1919px)
+{
+    #dashboard-namebar{
+        font-size:32px;
+        margin-top: 10px;
+    }  
+    #dashboard-namebar-name{
+        margin-left: 100px;
+    }
+    #dashboard_ion{
+    width:28px;
+    }
+    #dashboard_ion1{
+        width:22px;
+        }
+    #dashboard-streak{
+        margin-left: 1000px;   
+    }
+    #dashboard-badges{
+        margin-left: 130px;
+    } 
+  }
+  @media only screen and (min-width: 1920px) 
+  and (max-width: 2000px)
+    {
+        #dashboard-namebar{
+            font-size:34px;
+            margin-top: 10px;
+        }  
+        #dashboard-namebar-name{
+            margin-left: 115px;
+        }
+        #dashboard_ion{
+        width:30px;
+        }
+        #dashboard_ion1{
+            width:23.5px;
+            }
+        #dashboard-streak{
+            margin-left: 1035px;   
+        }
+        #dashboard-badges{
+            margin-left: 130px;
+        } 
+      }
