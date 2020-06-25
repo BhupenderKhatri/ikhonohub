@@ -72,3 +72,474 @@ td.verification_heading_color{
     text-align: center;
     margin-bottom: 25px;
 }
+@media only screen and (min-width: 320px) 
+and (max-width: 359px) 
+{   
+    #verification_table{
+        margin-left: 40px;
+        width: 250px;
+    }
+
+    
+}
+
+@media only screen and (min-width: 360px) 
+and (max-width: 374px) 
+{   
+    #verification_table{
+        margin-left: 55px;
+        width: 250px;
+    }
+
+}
+
+  @media only screen and (min-width: 375px) 
+  and (max-width: 411px) 
+    {
+       
+      
+        #verification_table{
+            margin-left: 30px;
+            width: 300px;
+        }
+    
+    }
+
+
+    @media only screen and (min-width: 412px) 
+    and (max-width: 413px) 
+      {
+     
+        #verification_table{
+            margin-left: 25px;
+            width: 320px;
+        }
+      }
+
+      
+    @media only screen and (min-width: 414px) 
+    and (max-width: 449px) 
+      {
+        
+      
+        #verification_table{
+            margin-left: 20px;
+            width: 350px;
+        }
+    
+      
+      }
+
+  @media only screen and (min-width: 450px) 
+and (max-width: 550px) 
+  {
+    #verification_table{
+        margin-left: 50px;
+        width: 350px;
+    }
+   
+}
+    
+   
+  
+  @media only screen and (min-width: 551px) 
+and (max-width: 599px) 
+  {
+    #verification_table{
+        margin-left: 80px;
+        width: 350px;
+    }
+    
+  }
+
+  @media only screen and (min-width: 600px) 
+and (max-width: 616px) 
+  {
+    
+    #verification_table{
+        margin-left: 70px;
+        width: 400px;
+    }
+   
+    
+  }
+
+  @media only screen and (min-width: 618px) 
+and (max-width: 700px) 
+{
+    
+    #verification_table{
+        margin-left: 95px;
+        width: 400px;
+    }
+    
+    
+}
+
+@media only screen and (min-width: 701px) 
+and (max-width: 767px) 
+  {
+    #verification_table{
+        margin-left: 140px;
+        width: 400px;
+    }
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 799px) 
+{
+    #verification_table{
+        margin-left: 160px;
+        width: 400px;
+    }
+   
+}
+
+
+@media only screen and (min-width: 800px) and (max-width: 850px) 
+{
+    #verification_table{
+        margin-left: 180px;
+        width: 400px;
+    }
+    
+}
+    
+
+
+    @media only screen and (min-width: 851px) and (max-width: 909px)
+     {
+        #verification_table{
+            margin-left: 200px;
+            width: 400px;
+        }
+     
+    
+      
+ } @media only screen and (min-width: 910px) and (max-width: 1023px) {
+
+    
+    #verification_table{
+        margin-left: 220px;
+        width: 450px;
+    }
+
+
+}
+
+
+@media only screen and (min-width: 1024px) and (max-width: 1100px) {
+    #verification_table{
+        margin-left: 240px;
+        width: 450px;
+    }
+ 
+}
+
+
+@media only screen and (min-width: 1101px) and (max-width: 1200px) {
+
+    #verification_table{
+        margin-left: 290px;
+        width: 450px;
+    }
+    
+}
+
+
+@media only screen and (min-width: 1201px) and (max-width: 1300px) {
+    #verification_table{
+        margin-left: 330px;
+        width: 450px;
+    }
+}
+
+
+@media only screen and (min-width: 1301px) 
+and (max-width: 1359px)
+  {
+    #verification_table{
+        margin-left: 370px;
+        width: 450px;
+    }
+   
+}
+
+@media only screen and (min-width: 1360px) and (max-width: 1439px)
+ {
+
+    #verification_table{
+        margin-left: 400px;
+        width: 450px;
+    }
+   
+}
+
+  @media only screen and (min-width: 1440px) 
+and (max-width: 1520px)
+  {
+
+    #verification_table{
+        margin-left: 450px;
+        width: 450px;
+    }
+  
+  
+  }
+  @media only screen and (min-width: 1521px) 
+and (max-width: 1599px)
+  {
+
+   
+    #verification_table{
+        margin-left: 480px;
+        width: 450px;
+    }
+  
+  
+   
+  
+  }
+  @media only screen and (min-width: 1600px) 
+and (max-width: 1679px)
+  {
+
+    #verification_table{
+        margin-left: 520px;
+        width: 450px;
+    }
+   
+   
+  
+  }
+  @media only screen and (min-width: 1680px) 
+  and (max-width: 1759px)
+    {
+     
+    
+  
+    
+    .verify_button_fix{
+        text-align: center;
+        margin-top: 5px;
+        
+    
+    }
+    
+  
+        #verification_table{
+            margin-left: 550px;
+            width: 500px;
+        
+        }
+      
+           
+    .verify_email_please{
+      text-align: center;
+      margin-top: -2px;
+      font-size: 18px;
+  }
+  
+      .verify_email_address{
+          font-size: 38px;
+          margin-top:10px;
+       
+      }
+      .verify_email_welcome{
+        text-align: center;
+        font-size: 18px;
+        margin-top: -20px;
+        color: orangered;
+    }
+ 
+      .verify_email_submit{
+          width: 220px;
+          height: 53px;
+         font-size: 20px;
+            
+      }
+      
+      .verify_button_fix{
+          text-align: center;
+          margin-top: 5px;
+          
+      }
+      
+      .verify_email_error{
+          text-align: center;
+          margin-bottom: 25px;
+          font-size: 18px;
+      }
+    
+    }
+  @media only screen and (min-width: 1760px) 
+and (max-width: 1840px)
+  {
+
+    #verification_table{
+        margin-left: 600px;
+        width: 500px;
+    }
+    .verify_button_fix{
+      text-align: center;
+      margin-top: 5px;
+      
+  
+  }
+  
+
+    
+         
+  .verify_email_please{
+    text-align: center;
+    margin-top: -2px;
+    font-size: 18px;
+}
+
+    .verify_email_address{
+        font-size: 38px;
+        margin-top:10px;
+     
+    }
+    .verify_email_welcome{
+      text-align: center;
+      font-size: 18px;
+      margin-top: -20px;
+      color: orangered;
+  }
+
+    .verify_email_submit{
+        width: 220px;
+        height: 53px;
+       font-size: 20px;
+          
+    }
+    
+    .verify_button_fix{
+        text-align: center;
+        margin-top: 5px;
+        
+    }
+    
+    .verify_email_error{
+        text-align: center;
+        margin-bottom: 25px;
+        font-size: 18px;
+    }
+  
+  
+      
+  }
+  @media only screen and (min-width: 1841px) 
+and (max-width: 1919px)
+  {
+
+    #verification_table{
+      margin-left: 600px;
+      width: 550px;
+  }
+  .verify_button_fix{
+    text-align: center;
+    margin-top: 5px;
+    
+
+}
+
+
+  
+       
+.verify_email_please{
+  text-align: center;
+  margin-top: -2px;
+  font-size: 18px;
+}
+
+  .verify_email_address{
+      font-size: 38px;
+      margin-top:10px;
+   
+  }
+  .verify_email_welcome{
+    text-align: center;
+    font-size: 18px;
+    margin-top: -20px;
+    color: orangered;
+}
+
+  .verify_email_submit{
+      width: 220px;
+      height: 53px;
+     font-size: 20px;
+        
+  }
+  
+  .verify_button_fix{
+      text-align: center;
+      margin-top: 5px;
+      
+  }
+  
+  .verify_email_error{
+      text-align: center;
+      margin-bottom: 25px;
+      font-size: 18px;
+  }
+
+  }
+  @media only screen and (min-width: 1920px) 
+  and (max-width: 2000px)
+    {
+  
+      #verification_table{
+        margin-left: 640px;
+        width: 590px;
+    }
+    .verify_button_fix{
+      text-align: center;
+      margin-top: 5px;
+      
+  }
+  
+  
+    
+         
+  .verify_email_please{
+    text-align: center;
+    margin-top: -2px;
+    font-size: 18px;
+  }
+  
+    .verify_email_address{
+        font-size: 38px;
+        margin-top:10px;
+     
+    }
+    .verify_email_welcome{
+      text-align: center;
+      font-size: 18px;
+      margin-top: -20px;
+      color: orangered;
+  }
+  
+    .verify_email_submit{
+        width: 220px;
+        height: 53px;
+       font-size: 20px;
+          
+    }
+    
+    .verify_button_fix{
+        text-align: center;
+        margin-top: 5px;
+        
+    }
+    
+    .verify_email_error{
+        text-align: center;
+        margin-bottom: 25px;
+        font-size: 18px;
+    }
+  
+      
+    
+  }

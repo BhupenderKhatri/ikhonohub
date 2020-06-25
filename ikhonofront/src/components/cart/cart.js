@@ -57,13 +57,33 @@ class cart extends Component{
   constructor(props){
     super(props);
     this.state={
-      productionItems:[]
+      productionItems:[],
+      couponvalue:'',
+      discount:1
     }
   }
 
   componentDidMount(){
     this.getItems();
   }
+
+  couponchange=(event)=>{
+    this.setState({couponvalue:event.target.value})
+  }
+
+  onCouponvalue =(event)=>{
+
+    const headers ={
+      "Content-type":"application/json"
+    }
+
+    axios.post('http://localhost:5000/student_enrollment/couponvalue',this.state.couponvalue,{headers: headers}).then(res=>{
+
+    this.setState({value:res.data})  
+  })
+  }
+
+
 
   getItems =()=>{
       const headers = {
@@ -95,13 +115,13 @@ class cart extends Component{
                                     <div class='right'>
                                      
                                         <Price 
-                                          total={productionItems.reduce((a,c)=>(a+c.price), 0)}/>
-                                        <button id="checkout1">Checkout</button>
+                                             total={productionItems.reduce((a,c)=>(a+c-(this.state.discount).price ), 0)}/>
+                                             <button id="checkout1">Checkout</button>
                                         
                                     </div>
                                     <div>
-                                    <input id="cart-input" placeholder='Enter coupon code'/>
-                                        <button id="cart-apply">Apply</button>
+                                    <input id="cart-input" placeholder='Enter coupon code' onChange={this.couponchange} />
+                                        <button id="cart-apply" onClick={this.onCouponvalue()} >Apply</button>
                                     </div>
                         </div>
             </div>

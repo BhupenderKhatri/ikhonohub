@@ -165,7 +165,100 @@ Courses_details_routes.post('/mycourses',(req,res)=>{
                         name:"comming soon",
                         url:'https://www.youtube.com/watch?v=ysz5S6PUM-U'
                     },
+                    ],
+                    recommendedtrendingcourses:[{
+                        id:1,
+                        img:"https://th.bing.com/th/id/OIP.MSz9EpxABUcU-r_xyAabQQHaFK?pid=Api&rs=1"  ,
+                        heading: "Web Developement",
+                        rating:0 ,
+                        name:"Siddharth",
+                        userimg:"https://th.bing.com/th/id/OIP.sTgGdkStC3pi7W0Kwn2heQHaD3?pid=Api&rs=1"
+
+                    }   ,
+                    {
+                        id:2,
+                        img:"https://th.bing.com/th/id/OIP.MSz9EpxABUcU-r_xyAabQQHaFK?pid=Api&rs=1"  ,
+                        heading: "Python",
+                        rating:0 ,
+                        name:"Siddharth",
+                        userimg:"https://th.bing.com/th/id/OIP.sTgGdkStC3pi7W0Kwn2heQHaD3?pid=Api&rs=1"
+
+                    }  ,
+                    {
+                        id:3,
+                        img:"https://th.bing.com/th/id/OIP.MSz9EpxABUcU-r_xyAabQQHaFK?pid=Api&rs=1"  ,
+                        heading: "Python",
+                        rating:0 ,
+                        name:"Siddharth",
+                        userimg:"https://th.bing.com/th/id/OIP.sTgGdkStC3pi7W0Kwn2heQHaD3?pid=Api&rs=1"
+
+                    },
+                    {
+                        id:4,
+                        img:"https://th.bing.com/th/id/OIP.MSz9EpxABUcU-r_xyAabQQHaFK?pid=Api&rs=1"  ,
+                        heading: "Python",
+                        rating:0 ,
+                        name:"Siddharth",
+                        userimg:"https://th.bing.com/th/id/OIP.sTgGdkStC3pi7W0Kwn2heQHaD3?pid=Api&rs=1"
+
+                    }  ,
+                    {
+                        id:5,
+                        img:"https://th.bing.com/th/id/OIP.MSz9EpxABUcU-r_xyAabQQHaFK?pid=Api&rs=1"  ,
+                        heading: "Python",
+                        rating:0 ,
+                        name:"Siddharth",
+                        userimg:"https://th.bing.com/th/id/OIP.sTgGdkStC3pi7W0Kwn2heQHaD3?pid=Api&rs=1"
+
+                    }
+                ],
+                recommendedtrendingcourses:[{
+                    id:1,
+                    img:"https://th.bing.com/th/id/OIP.MSz9EpxABUcU-r_xyAabQQHaFK?pid=Api&rs=1"  ,
+                    heading: "Web Developement",
+                    rating:0 ,
+                    name:"Siddharth",
+                    userimg:"https://th.bing.com/th/id/OIP.sTgGdkStC3pi7W0Kwn2heQHaD3?pid=Api&rs=1"
+
+                }   ,
+                {
+                    id:2,
+                    img:"https://th.bing.com/th/id/OIP.MSz9EpxABUcU-r_xyAabQQHaFK?pid=Api&rs=1"  ,
+                    heading: "Python",
+                    rating:0 ,
+                    name:"Siddharth",
+                    userimg:"https://th.bing.com/th/id/OIP.sTgGdkStC3pi7W0Kwn2heQHaD3?pid=Api&rs=1"
+
+                }  ,
+                {
+                    id:3,
+                    img:"https://th.bing.com/th/id/OIP.MSz9EpxABUcU-r_xyAabQQHaFK?pid=Api&rs=1"  ,
+                    heading: "Python",
+                    rating:0 ,
+                    name:"Siddharth",
+                    userimg:"https://th.bing.com/th/id/OIP.sTgGdkStC3pi7W0Kwn2heQHaD3?pid=Api&rs=1"
+
+                },
+                {
+                    id:4,
+                    img:"https://th.bing.com/th/id/OIP.MSz9EpxABUcU-r_xyAabQQHaFK?pid=Api&rs=1"  ,
+                    heading: "Python",
+                    rating:0 ,
+                    name:"Siddharth",
+                    userimg:"https://th.bing.com/th/id/OIP.sTgGdkStC3pi7W0Kwn2heQHaD3?pid=Api&rs=1"
+
+                }  ,
+                {
+                    id:5,
+                    img:"https://th.bing.com/th/id/OIP.MSz9EpxABUcU-r_xyAabQQHaFK?pid=Api&rs=1"  ,
+                    heading: "Python",
+                    rating:0 ,
+                    name:"Siddharth",
+                    userimg:"https://th.bing.com/th/id/OIP.sTgGdkStC3pi7W0Kwn2heQHaD3?pid=Api&rs=1"
+
+                }
                     ]
+
     
             }
        
@@ -177,6 +270,16 @@ Courses_details_routes.post('/mycourses',(req,res)=>{
         
         
     })
+
+
+    
+    Courses_details_routes.post('/trendingcourses',(req,res)=>{
+        const userdataid = {  id:req.body.id };
+       console.log(userdataid.id);
+       res.json(database.recommendedtrendingcourses);
+       }
+    )
+
 
 
 module.exports=Courses_details_routes;

@@ -51,6 +51,24 @@ Student_enrollments.post('/cartproduction',(req,res)=>{
 )
 
 
+const coupondetail={
+    value:[{
+        coupon:'tutu',
+        discount:200
+    }]
+}
+
+Student_enrollments.post('/couponvalue',(req,res)=>{
+    const userdataid = {  coupon:req.body.coupon };
+   console.log(userdataid.coupon);
+   res.json(coupondetail.value[0].discount);
+
+}
+)
+
+
+
+
 Student_enrollments.post('/cartcardadd',(req,res)=>{
     const userdataid = {  id:req.body.id };
    console.log(userdataid.id);

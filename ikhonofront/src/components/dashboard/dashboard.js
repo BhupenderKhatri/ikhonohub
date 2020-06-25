@@ -217,7 +217,7 @@ export default function MiniDrawer() {
           <List>
             <ListItem button >
               <ListItemIcon>{/*<UserIcon /> */}</ListItemIcon>
-              <ListItemText  onClick={()=>history.push('/dashboard')}>Hello Khatri</ListItemText>
+              <ListItemText  onClick={()=>history.push('/dashboard')}>USER</ListItemText>
             </ListItem>
           </List>
         </div>
