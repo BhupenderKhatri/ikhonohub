@@ -55,12 +55,18 @@ const coupondetail={
     value:[{
         coupon:'tutu',
         discount:200
-    }]
+    },
+{
+    coupon:'',
+    discount:0
+}
+]
 }
 
 Student_enrollments.post('/couponvalue',(req,res)=>{
     const userdataid = {  coupon:req.body.coupon };
    console.log(userdataid.coupon);
+  // if(userdataid.coupon==coupondetail.value.coupon)
    res.json(coupondetail.value[0].discount);
 
 }

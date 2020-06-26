@@ -1,54 +1,1050 @@
 .dashboardhelp{
     color: white;
     text-align: center;
+    
 }
+
 #dashboardhelp_second{
    display: flex;
-   margin-top: 100px;
+   margin-top: 50px;
+   float:left;
 }
 #dashboardhelp_left{
-    display: flex;
-   
-    
-    margin-left: 250px;
-    height: 200px;
-    width: 300px;
-    
-    padding-left: 50px;
-    padding-top: 30px;
+    background: rgba(0, 0, 0, 0.1);
+    margin-left: 150px;
+    height: 285px;
+    width:400px;
 }
+#dashboardhelp_left_content{
+    text-align: start;
+    margin-top:40px;
+    margin-left:30px;
+    font-size: 15px;
+   
+}
+
 #dashboardhelp_right{
-    height: 400px;
-    width: 400px;
-    
-    flex-direction: column;
-    margin-left: 100px;
-    border:  2px solid;
-    
-    
+    margin-left: 180px;   
 }
 .dashboardhelp_right_fields{
     
     margin-top: 20px;
-    margin-bottom: 20px;
+    background:transparent;
     width: 300px;
-    box-shadow: 0px 3px 10px #00000066;
-    height: 45px;
-    border: none;
-    
-    border-radius: 10px;
-    
-
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    height: 40px;
+    color: white;
+    border-bottom: 2px solid #ffffff;
+}
+.dashboardhelp_right_fields:focus{
+    outline: none;
+   
 }
 .dashboardhelp_right_button{
-    width: 150px;
-    border-radius: 15px;
+    float: right;
+    margin-right: 0px;
+    width: 120px;
     height: 40px;
+    margin-top: 30px;
     box-shadow: 0px 3px 10px #00000066;
     border: none;
     font-weight: bold;
     cursor: pointer;
-    padding-bottom: 6px;
     background-color: orangered;
     color: white;
 }
+@media only screen and (min-width: 320px) 
+and (max-width: 359px) {
+    
+    #dashboard-help-heading{
+        font-size:20px;
+    }
+    #dashboardhelp_second{
+       
+       margin-top: 10px;
+    }
+    #dashboardhelp_left{
+        position:absolute;
+        margin-top:280px;
+        margin-left: -12px;
+        height: 180px;
+        width: 240px;
+        margin-bottom:10px;
+        
+
+    }
+    #dashboardhelp_left_content{
+        margin-left: 20px;
+        text-align: start;
+        margin-top:22px;
+        font-size: 10px;
+       
+    }
+    
+    #dashboardhelp_right{
+        margin-left: 5px;       
+    }
+    .dashboardhelp_right_fields{
+        
+        margin-top:20px;
+        width: 200px;
+        height: 40px;
+    }
+    
+    .dashboardhelp_right_button{
+        
+        margin-right: 0px;
+        width: 80px;
+        height: 30px;
+        margin-top: 30px;
+  }
+}
+@media only screen and (min-width: 360px) 
+and (max-width: 374px) {
+    
+    #dashboard-help-heading{
+        font-size:20px;
+    }
+    #dashboardhelp_second{
+       
+       margin-top: 20px;
+    }
+    #dashboardhelp_left{
+        position:absolute;
+        margin-top:280px;
+        margin-left: 10px;
+        height: 180px;
+        width: 240px;
+        margin-bottom:10px;
+        
+        
+
+    }
+    #dashboardhelp_left_content{
+        margin-left: 20px;
+        text-align: start;
+        margin-top:22px;
+        font-size: 10px;
+       
+    }
+    
+    #dashboardhelp_right{
+        margin-left: 30px;      
+    }
+    .dashboardhelp_right_fields{
+        
+        margin-top:20px;
+        width: 200px;
+        height: 40px;
+    }
+    
+    .dashboardhelp_right_button{
+        
+        margin-right: 0px;
+        width: 80px;
+        height: 30px;
+        margin-top: 30px;
+  }
+}
+@media only screen and (min-width: 375px) 
+  and (max-width: 411px) 
+    {
+        
+        #dashboard-help-heading{
+            font-size:21px;
+        }
+        #dashboardhelp_second{
+           
+           margin-top: 20px;
+        }
+        #dashboardhelp_left{
+            position:absolute;
+            margin-top:280px;
+            margin-left: 18px;
+            height: 180px;
+            width: 250px;
+            margin-bottom:10px;
+            
+            
+    
+        }
+        #dashboardhelp_left_content{
+        
+            margin-left: 20px;
+            margin-top:22px;
+            font-size: 10.5px;
+           
+        }
+        
+        #dashboardhelp_right{
+            margin-left: 35px;      
+        }
+        .dashboardhelp_right_fields{
+            
+            margin-top:20px;
+            width: 210px;
+            height: 40px;
+        }
+        
+        .dashboardhelp_right_button{
+            
+            margin-right: 0px;
+            width: 80px;
+            height: 30px;
+            margin-top: 30px;
+      }
+    }
+    @media only screen and (min-width: 412px) 
+    and (max-width: 413px) 
+      {
+        #dashboard-help-heading{
+            font-size:21px;
+        }
+        #dashboardhelp_second{
+           
+           margin-top: 20px;
+        }
+        #dashboardhelp_left{
+            position:absolute;
+            margin-top:280px;
+            margin-left: 28px;
+            height: 180px;
+            width: 250px;
+            margin-bottom:10px;
+        }
+        #dashboardhelp_left_content{
+            margin-left: 20px;
+            margin-top:22px;
+            font-size: 10.5px;  
+        }
+        #dashboardhelp_right{
+            margin-left: 40px;      
+        }
+        .dashboardhelp_right_fields{ 
+            margin-top:20px;
+            width: 220px;
+            height: 40px;
+        }
+        .dashboardhelp_right_button{  
+            margin-right: 0px;
+            width: 80px;
+            height: 30px;
+            margin-top: 30px;
+      } 
+}
+      @media only screen and (min-width: 414px) 
+    and (max-width: 449px) 
+      {
+        #dashboard-help-heading{
+            font-size:22px;
+        }
+        #dashboardhelp_second{
+           
+           margin-top: 20px;
+        }
+        #dashboardhelp_left{
+            position:absolute;
+            margin-top:280px;
+            margin-left: 32px;
+            height: 180px;
+            width: 260px;
+            margin-bottom:10px;
+        }
+        #dashboardhelp_left_content{
+            margin-left: 20px;
+            margin-top:22px;
+            font-size: 10.5px;  
+        }
+        #dashboardhelp_right{
+            margin-left: 46px;      
+        }
+        .dashboardhelp_right_fields{
+            
+            margin-top:20px;
+            width: 230px;
+            height: 40px;
+        }
+        .dashboardhelp_right_button{   
+            margin-right: 0px;
+            width: 80px;
+            height: 30px;
+            margin-top: 30px;
+      }   
+      }
+      @media only screen and (min-width: 450px) 
+      and (max-width: 550px) 
+        {
+            #dashboard-help-heading{
+                font-size:22px;
+            }
+            #dashboardhelp_second{
+               
+               margin-top: 20px;
+            }
+            #dashboardhelp_left{
+                position:absolute;
+                margin-top:280px;
+                margin-left: 60px;
+                height: 180px;
+                width: 280px;
+                margin-bottom:10px;
+            }
+            #dashboardhelp_left_content{
+                margin-left: 20px;
+                margin-top:22px;
+                font-size: 12px;  
+            }
+            #dashboardhelp_right{
+                margin-left: 70px;      
+            }
+            .dashboardhelp_right_fields{
+                
+                margin-top:20px;
+                width: 250px;
+                height: 40px;
+            }
+            .dashboardhelp_right_button{   
+                margin-right: 0px;
+                width: 80px;
+                height: 30px;
+                margin-top: 30px;
+          }
+        }
+        @media only screen and (min-width: 551px) 
+and (max-width: 599px) 
+{
+    #dashboard-help-heading{
+        margin-left:-20px;
+        font-size:22px;
+    }
+    #dashboardhelp_second{
+       
+       margin-top: 20px;
+    }
+    #dashboardhelp_left{
+        position:absolute;
+        margin-top:280px;
+        margin-left: 80px;
+        height: 180px;
+        width: 300px;
+        margin-bottom:10px;
+    }
+    #dashboardhelp_left_content{
+        margin-left: 20px;
+        margin-top:22px;
+        font-size: 12px;  
+    }
+    #dashboardhelp_right{
+        margin-left: 100px;      
+    }
+    .dashboardhelp_right_fields{
+        
+        margin-top:20px;
+        width: 250px;
+        height: 40px;
+    }
+    .dashboardhelp_right_button{   
+        margin-right: 0px;
+        width: 80px;
+        height: 30px;
+        margin-top: 30px;
+  }
+}
+@media only screen and (min-width: 600px) 
+and (max-width: 617px) 
+  {
+    #dashboard-help-heading{
+        margin-left:-20px;
+        font-size:22px;
+    }
+    #dashboardhelp_second{
+       
+       margin-top: 20px;
+    }
+    #dashboardhelp_left{
+        position:absolute;
+        margin-top:280px;
+        margin-left: 92px;
+        height: 180px;
+        width: 300px;
+        margin-bottom:10px;
+    }
+    #dashboardhelp_left_content{
+        margin-left: 20px;
+        margin-top:22px;
+        font-size: 12px;  
+    }
+    #dashboardhelp_right{
+        margin-left: 112px;      
+    }
+    .dashboardhelp_right_fields{
+        
+        margin-top:20px;
+        width: 250px;
+        height: 40px;
+    }
+    .dashboardhelp_right_button{   
+        margin-right: 0px;
+        width: 80px;
+        height: 30px;
+        margin-top: 30px;
+  }
+}
+@media only screen and (min-width: 618px) 
+and (max-width: 700px) 
+{
+    #dashboard-help-heading{
+        margin-left:-20px;
+        font-size:23px;
+    }
+    #dashboardhelp_second{
+       margin-top: 20px;
+    }
+    #dashboardhelp_left{
+        position:absolute;
+        margin-top:280px;
+        margin-left: 105px;
+        height: 180px;
+        width: 320px;
+        margin-bottom:10px;
+    }
+    #dashboardhelp_left_content{
+        margin-left: 20px;
+        margin-top:22px;
+        font-size: 12px;  
+    }
+    #dashboardhelp_right{
+        margin-left: 125px;      
+    }
+    .dashboardhelp_right_fields{
+        
+        margin-top:20px;
+        width: 270px;
+        height: 40px;
+    }
+    .dashboardhelp_right_button{   
+        width: 85px;
+        height: 32px;
+        margin-top: 30px;
+  }
+}
+@media only screen and (min-width: 701px) 
+and (max-width: 767px) 
+  {
+    #dashboard-help-heading{
+        margin-left:-20px;
+        font-size:23px;
+    }
+    #dashboardhelp_second{
+       margin-top: 20px;
+    }
+    #dashboardhelp_left{
+        position:absolute;
+        margin-top:280px;
+        margin-left: 130px;
+        height: 180px;
+        width: 340px;
+        margin-bottom:10px;
+    }
+    #dashboardhelp_left_content{
+        margin-left: 20px;
+        margin-top:22px;
+        font-size: 12px;  
+    }
+    #dashboardhelp_right{
+        margin-left: 155px;      
+    }
+    .dashboardhelp_right_fields{
+        
+        margin-top:20px;
+        width: 280px;
+        height: 40px;
+    }
+    .dashboardhelp_right_button{   
+        width: 90px;
+        height: 34px;
+        margin-top: 30px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 799px) 
+{
+    #dashboard-help-heading{
+        margin-left:-20px;
+        font-size:24px;
+    }
+    #dashboardhelp_second{
+       margin-top: 50px;
+    }
+    #dashboardhelp_left{
+
+        margin-top:22px;
+        margin-left: 0px;
+        height: 190px;
+        width: 320px;
+    }
+    #dashboardhelp_left_content{
+        margin-left: 20px;
+        margin-top:23px;
+        font-size: 13px;  
+    }
+    #dashboardhelp_right{
+        margin-left: 50px;      
+    }
+    .dashboardhelp_right_fields{
+        
+        margin-top:10px;
+        width: 260px;
+        height: 40px;
+    }
+    .dashboardhelp_right_button{   
+        width: 90px;
+        height: 34px;
+        margin-top: 30px;
+  }
+}
+@media only screen and (min-width: 800px) and (max-width: 850px) 
+{
+    #dashboard-help-heading{
+        margin-left:-20px;
+        font-size:24px;
+    }
+    #dashboardhelp_second{
+       margin-top: 50px;
+    }
+    #dashboardhelp_left{
+
+        margin-top:22px;
+        margin-left: 12px;
+        height: 190px;
+        width: 330px;
+    }
+    #dashboardhelp_left_content{
+        margin-left: 20px;
+        margin-top:23px;
+        font-size: 13px;  
+    }
+    #dashboardhelp_right{
+        margin-left: 50px;      
+    }
+    .dashboardhelp_right_fields{
+        
+        margin-top:10px;
+        width: 270px;
+        height: 40px;
+    }
+    .dashboardhelp_right_button{   
+        width: 90px;
+        height: 34px;
+        margin-top: 30px;
+  }
+}
+@media only screen and (min-width: 851px) and (max-width: 909px)
+     {
+        #dashboard-help-heading{
+            margin-left:-20px;
+            font-size:24px;
+        }
+        #dashboardhelp_second{
+           margin-top: 50px;
+        }
+        #dashboardhelp_left{
+    
+            margin-top:22px;
+            margin-left: 12px;
+            height: 210px;
+            width: 350px;
+        }
+        #dashboardhelp_left_content{
+            margin-left: 20px;
+            margin-top:25.5px;
+            font-size: 13.5px;  
+        }
+        #dashboardhelp_right{
+            margin-left: 75px;      
+        }
+        .dashboardhelp_right_fields{
+            
+            margin-top:14px;
+            width: 280px;
+            height: 40px;
+        }
+        .dashboardhelp_right_button{   
+            width: 95px;
+            height: 36px;
+            margin-top: 30px;
+      }
+    }
+    @media only screen and (min-width: 910px) and (max-width: 1023px) {
+        #dashboard-help-heading{
+            margin-left:-20px;
+            font-size:25px;
+        }
+        #dashboardhelp_second{
+           margin-top: 50px;
+        }
+        #dashboardhelp_left{
+    
+            margin-top:20px;
+            margin-left: 25px;
+            height: 230px;
+            width: 360px;
+        }
+        #dashboardhelp_left_content{
+            margin-left: 20px;
+            margin-top:28.5px;
+            font-size: 14.5px;  
+        }
+        #dashboardhelp_right{
+            margin-left: 115px;      
+        }
+        .dashboardhelp_right_fields{
+            
+            margin-top:18px;
+            width: 290px;
+            height: 40px;
+        }
+        .dashboardhelp_right_button{   
+            width: 100px;
+            height: 38px;
+            margin-top: 30px;
+      }
+    }
+    @media only screen and (min-width: 1024px) and (max-width: 1100px) {
+        #dashboard-help-heading{
+            margin-left:-20px;
+            font-size:26px;
+        }
+        #dashboardhelp_second{
+           margin-top: 50px;
+        }
+        #dashboardhelp_left{
+    
+            margin-top:10px;
+            margin-left: 55px;
+            height: 250px;
+            width: 380px;
+        }
+        #dashboardhelp_left_content{
+            margin-left: 20px;
+            margin-top:30px;
+            font-size: 15px;  
+        }
+        #dashboardhelp_right{
+            margin-left: 115px;      
+        }
+        .dashboardhelp_right_fields{
+            margin-top:20px;
+            width: 300px;
+            height: 40px;
+        }
+        .dashboardhelp_right_button{   
+            width: 110px;
+            height: 39px;
+            margin-top: 30px;
+      }
+    }
+    @media only screen and (min-width: 1101px) and (max-width: 1200px) {
+        #dashboard-help-heading{
+            margin-left:-20px;
+            font-size:27px;
+        }
+        #dashboardhelp_second{
+           margin-top: 50px;
+        }
+        #dashboardhelp_left{
+    
+            margin-top:10px;
+            margin-left: 90px;
+            height: 260px;
+            width: 385px;
+        }
+        #dashboardhelp_left_content{
+            margin-left: 20px;
+            margin-top:33.5px;
+            font-size: 15px;  
+        }
+        #dashboardhelp_right{
+            margin-left: 135px;      
+        }
+        .dashboardhelp_right_fields{
+            margin-top:20px;
+            width: 300px;
+            height: 40px;
+        }
+        .dashboardhelp_right_button{   
+            width: 120px;
+            height: 40px;
+            margin-top: 30px;
+      }
+    }
+    
+@media only screen and (min-width: 1201px) and (max-width: 1300px) {
+    
+    
+    #dashboard-help-heading{
+        margin-left:-20px;
+        font-size:28px;
+    }
+    #dashboardhelp_second{
+       margin-top: 50px;
+    }
+    #dashboardhelp_left{
+
+        margin-top:10px;
+        margin-left: 120px;
+        height: 270px;
+        width: 390px;
+    }
+    #dashboardhelp_left_content{
+        margin-left: 20px;
+        margin-top:35.5px;
+        font-size: 15px;  
+    }
+    #dashboardhelp_right{
+        margin-left: 160px;      
+    }
+    .dashboardhelp_right_fields{
+        margin-top:20px;
+        width: 300px;
+        height: 40px;
+    }
+    .dashboardhelp_right_button{   
+        width: 120px;
+        height: 40px;
+        margin-top: 30px;
+  }
+}
+@media only screen and (min-width: 1301px) 
+and (max-width: 1359px)
+  {
+    #dashboard-help-heading{
+        margin-left:-20px;
+        font-size:29px;
+    }
+    #dashboardhelp_second{
+       margin-top: 50px;
+    }
+    #dashboardhelp_left{
+
+        margin-top:5px;
+        margin-left: 150px;
+        height: 280px;
+        width: 395px;
+    }
+    #dashboardhelp_left_content{
+        margin-left: 20px;
+        margin-top:37.5px;
+        font-size: 15px;  
+    }
+    #dashboardhelp_right{
+        margin-left: 185px;      
+    }
+    .dashboardhelp_right_fields{
+        margin-top:20px;
+        width: 300px;
+        height: 40px;
+    }
+    .dashboardhelp_right_button{   
+        width: 120px;
+        height: 40px;
+        margin-top: 30px;
+  }  
+  }
+  @media only screen and (min-width: 1360px) and (max-width: 1439px)
+ {
+    #dashboard-help-heading{
+        margin-left:-20px;
+        font-size:30px;
+    }
+    #dashboardhelp_second{
+       margin-top: 50px;
+    }
+    #dashboardhelp_left{
+
+        margin-top:0px;
+        margin-left: 170px;
+        height: 280px;
+        width: 395px;
+    }
+    #dashboardhelp_left_content{
+        margin-left: 20px;
+        margin-top:37.5px;
+        font-size: 15px;  
+    }
+    #dashboardhelp_right{
+        margin-left: 200px;      
+    }
+    .dashboardhelp_right_fields{
+        margin-top:20px;
+        width: 300px;
+        height: 40px;
+    }
+    .dashboardhelp_right_button{   
+        width: 120px;
+        height: 40px;
+        margin-top: 30px;
+  }
+ }
+ @media only screen and (min-width: 1440px) 
+and (max-width: 1520px)
+  {
+    #dashboard-help-heading{
+        
+        font-size:32px;
+    }
+    #dashboardhelp_second{
+       margin-top: 60px;
+    }
+    #dashboardhelp_left{
+
+        margin-top:5px;
+        margin-left: 190px;
+        height: 280px;
+        width: 400px;
+    }
+    #dashboardhelp_left_content{
+        margin-left: 20px;
+        margin-top:40px;
+        font-size: 15px;  
+    }
+    #dashboardhelp_right{
+        margin-left: 240px;      
+    }
+    .dashboardhelp_right_fields{
+        margin-top:22px;
+        width: 300px;
+        height: 40px;
+    }
+    .dashboardhelp_right_button{   
+        width: 120px;
+        height: 40px;
+        margin-top: 30px;
+  }
+ }
+ @media only screen and (min-width: 1521px) 
+and (max-width: 1599px)
+  {
+    #dashboard-help-heading{
+    
+        font-size:32px;
+    }
+    #dashboardhelp_second{
+       margin-top: 60px;
+    }
+    #dashboardhelp_left{
+
+        margin-top:5px;
+        margin-left: 200px;
+        height: 280px;
+        width: 400px;
+    }
+    #dashboardhelp_left_content{
+        margin-left: 20px;
+        margin-top:40px;
+        font-size: 15px;  
+    }
+    #dashboardhelp_right{
+        margin-left: 270px;      
+    }
+    .dashboardhelp_right_fields{
+        margin-top:25px;
+        width: 320px;
+        height: 40px;
+        font-size:16px;
+    }
+    .dashboardhelp_right_button{   
+        width: 120px;
+        height: 40px;
+        margin-top: 30px;
+  }
+ }
+ @media only screen and (min-width: 1600px) 
+and (max-width: 1680px)
+{
+    #dashboard-help-heading{
+       
+        font-size:34px;
+    }
+    #dashboardhelp_second{
+       margin-top: 60px;
+    }
+    #dashboardhelp_left{
+
+        margin-top:5px;
+        margin-left: 220px;
+        height: 280px;
+        width: 400px;
+    }
+    #dashboardhelp_left_content{
+        margin-left: 20px;
+        margin-top:40px;
+        font-size: 15px;  
+    }
+    #dashboardhelp_right{
+        margin-left: 300px;      
+    }
+    .dashboardhelp_right_fields{
+        margin-top:25px;
+        width: 320px;
+        height: 40px;
+        font-size:17px;
+    }
+    .dashboardhelp_right_button{   
+        width: 120px;
+        height: 40px;
+        margin-top: 30px;
+  }
+ }
+ @media only screen and (min-width: 1680px) 
+ and (max-width: 1760px){
+    #dashboard-help-heading{
+      
+        font-size:32px;
+    }
+    #dashboardhelp_second{
+       margin-top: 80px;
+    }
+    #dashboardhelp_left{
+
+        margin-top:5px;
+        margin-left: 240px;
+        height: 300px;
+        width: 420px;
+    }
+    #dashboardhelp_left_content{
+        margin-left: 20px;
+        margin-top:40px;
+        font-size: 16px;  
+    }
+    #dashboardhelp_right{
+        margin-left: 300px;      
+    }
+    .dashboardhelp_right_fields{
+        margin-top:25px;
+        width: 340px;
+        height: 45px;
+        font-size:18px;
+    }
+    .dashboardhelp_right_button{   
+        width: 120px;
+        height: 40px;
+        margin-top: 30px;
+        font-size:17px;
+  }
+ }
+ @media only screen and (min-width: 1759px) 
+and (max-width: 1840px)
+  {
+    #dashboard-help-heading{
+        
+        font-size:34px;
+    }
+    #dashboardhelp_second{
+       margin-top: 80px;
+    }
+    #dashboardhelp_left{
+
+        margin-top:5px;
+        margin-left: 270px;
+        height: 300px;
+        width: 430px;
+    }
+    #dashboardhelp_left_content{
+        margin-left: 20px;
+        margin-top:40px;
+        font-size: 17px;  
+    }
+    #dashboardhelp_right{
+        margin-left: 320px;      
+    }
+    .dashboardhelp_right_fields{
+        margin-top:25px;
+        width: 360px;
+        height: 45px;
+        font-size:18px;
+    }
+    .dashboardhelp_right_button{   
+        width: 120px;
+        height: 40px;
+        margin-top: 30px;
+        font-size:17px;
+  }
+ }
+ @media only screen and (min-width: 1841px) 
+ and (max-width: 1919px)
+ {
+    #dashboard-help-heading{
+        
+        font-size:36px;
+    }
+    #dashboardhelp_second{
+       margin-top: 90px;
+    }
+    #dashboardhelp_left{
+
+        margin-top:10px;
+        margin-left: 300px;
+        height: 300px;
+        width: 440px;
+    }
+    #dashboardhelp_left_content{
+        margin-left: 20px;
+        margin-top:40px;
+        font-size: 17px;  
+    }
+    #dashboardhelp_right{
+        margin-left: 320px;      
+    }
+    .dashboardhelp_right_fields{
+        margin-top:27px;
+        width: 380px;
+        height: 45px;
+        font-size:19px;
+    }
+    .dashboardhelp_right_button{   
+        width: 120px;
+        height: 40px;
+        margin-top: 30px;
+        font-size:18px;
+  }
+ }
+ @media only screen and (min-width: 1920px) 
+  and (max-width: 2000px)
+  {
+    #dashboard-help-heading{
+        
+        font-size:40px;
+    }
+    #dashboardhelp_second{
+       margin-top: 100px;
+    }
+    #dashboardhelp_left{
+
+        margin-top:5px;
+        margin-left: 300px;
+        height: 320px;
+        width: 460px;
+    }
+    #dashboardhelp_left_content{
+        margin-left: 20px;
+        margin-top:42px;
+        font-size: 18px;  
+    }
+    #dashboardhelp_right{
+        margin-left: 340px;      
+    }
+    .dashboardhelp_right_fields{
+        margin-top:30px;
+        width: 400px;
+        height: 45px;
+        font-size:20px;
+    }
+    .dashboardhelp_right_button{   
+        width: 130px;
+        height: 45px;
+        margin-top: 40px;
+        font-size:20px;
+  }
+ }

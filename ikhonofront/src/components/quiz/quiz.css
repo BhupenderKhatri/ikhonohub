@@ -2,12 +2,12 @@
     animation: spin infinite 20s linear;
     height: 80px;
   }
-  
   .App-header {
-    background-color: #222;
-    padding: 20px;
-    color: white;
+    
+    padding: 0px;
+    color: gold;
     text-align: center;
+    font-size:25px;
   }
   
   .App-intro {
@@ -26,17 +26,40 @@
     font-size: 16px;
     line-height: 1.5;
   }
+  
   .answerOption {
-    width: 150px;
-    float: left;
-    display: inherit;
-    margin-right: 10px;
+    margin-left:-50px;
+    display: block;
+    margin-top:10px; 
   }
   .next-btn{
-  
+  float:right;
+  margin-top:0px;
+  margin-right:20px;
+  width:100px;
+  height:40px;
+  background:#FF3300;
+  font-size:17px;
+  color: #ffffff;
+  font-weight:bold;
+  border-radius: 5px;
+  border:none;
+  box-shadow: 0px 1px 6px rgba(0,0,0,0.5);
+  cursor: pointer;
   }
   .Previous-btn{
-  
+  float: left;
+  margin-top:0px;
+  margin-left:20px;
+  width:100px;
+  height:40px;
+  font-size:17px;
+  color: #FF3300;
+  font-weight:bold;
+  border-radius: 5px;
+  border:3px solid #FF3300 ;
+  box-shadow: 0px 1px 6px rgba(0,0,0,0.5);
+  cursor: pointer;
   }
   .result-link {
     float: right;
@@ -44,7 +67,8 @@
     color: #000000;
   }
   .status{
-    color: green;
+    
+    color:green;
   }
   .list-grp {
     text-align: left;
@@ -54,9 +78,8 @@
   }
   .quiz-story{
     padding: 30px;
-    width: 70%;
-    background-color: #ccc;
-    /* padding-left: 10px; */
+    width: 50%;
+        /* padding-left: 10px; */
     background-color: #e8e5e5;
     margin: auto;
     min-height: 400px;
@@ -64,9 +87,1414 @@
     border-radius: 10px;
   }
   .selected-btn {
-    background-color: #54dc1c;
+    color: #ffffff;
+    background: #45e411;
   }
   .bottom-footer{
     margin-top: 30px;
-    background-color: #ccc;
+  }
+  .questionCount{
+    font-size:20px;
+    margin:0px;
+    padding:0px;
+    font-weight:500;
+  }
+  .question{
+    font-size: 18px;
+    padding:0px;
+    margin-bottom:30px;
+  }
+  #option1{
+    width: 300px;
+    height:40px;
+    font-size:16px;
+    font-weight:bold;
+    border-radius:30px;
+    border: none;
+    box-shadow:0px 1px 6px rgba(0, 0, 0, 0.726);
+  }
+  #option2{
+    width: 300px;
+    height:40px;
+    font-size:16px;
+    font-weight:bold;
+    border-radius:30px;
+    border: none;
+    box-shadow:0px 1px 6px rgba(0, 0, 0, 0.726);
+  }
+  #option3{
+    width: 300px;
+    height:40px;
+    font-size:16px;
+    font-weight:bold;
+    border-radius:30px;
+    border: none;
+    box-shadow:0px 1px 6px rgba(0, 0, 0, 0.726);
+  }
+  #option4{
+    width: 300px;
+    height:40px;
+    font-size:16px;
+    font-weight:bold;
+    border-radius:30px;
+    border: none;
+    box-shadow:0px 1px 6px rgba(0, 0, 0, 0.726);
+  }
+  @media only screen and (min-width: 320px) and (max-width: 359px) {
+    .App-header {
+      margin-top:50px;
+      font-size:15px;
+    }
+    .quiz-story{
+      padding: 10px;
+      width: 80%;   
+      min-height: 400px;
+    }
+    .next-btn{
+    
+      width:70px;
+      height:30px;
+      font-size:13px;
+      }
+      
+      .Previous-btn{
+        width:70px;
+        height:30px;
+        font-size:13px;
+      }
+    .bottom-footer{
+      margin-top: 40px;
+    }
+    .questionCount{
+      font-size:16px;
+    }
+    .question{
+      font-size: 15px;
+      padding:0px;
+      margin-bottom:30px;
+    }
+    #option1{
+      width:80%;
+      height:40px;
+      font-size:13px;
+    }
+    #option2{
+      width:80%;
+      height:40px;
+      font-size:13px;
+    }
+    #option3{
+      width:80%;
+      height:40px;
+      font-size:13px;
+    }
+    #option4{
+      width:80%;
+      height:40px;
+      font-size:13px;
+    }
+
+  }
+  @media only screen and (min-width: 360px) 
+and (max-width: 374px) 
+{ .App-header {
+  margin-top:50px;
+  font-size:15px;
+}
+.quiz-story{
+  padding: 10px;
+  width: 80%;   
+  min-height: 400px;
+}
+.next-btn{
+
+  width:70px;
+  height:30px;
+  font-size:13px;
+  }
+  
+  .Previous-btn{
+    width:70px;
+    height:30px;
+    font-size:13px;
+  }
+.bottom-footer{
+  margin-top: 40px;
+}
+.questionCount{
+  font-size:16px;
+}
+.question{
+  font-size: 15px;
+  padding:0px;
+  margin-bottom:30px;
+}
+#option1{
+  width: 80%;
+  height:40px;
+  font-size:13px;
+}
+#option2{
+  width: 80%;
+  height:40px;
+  font-size:13px;
+}
+#option3{
+  width: 80%;
+  height:40px;
+  font-size:13px;
+}
+#option4{
+  width: 80%;
+  height:40px;
+  font-size:13px;
+}
+
+}
+@media only screen and (min-width: 375px) and (max-width: 411px) {
+  .App-header {
+    margin-top:50px;
+    font-size:15px;
+  }
+  .quiz-story{
+    padding: 10px;
+    width: 80%;   
+    min-height: 400px;
+  }
+  .next-btn{
+  
+    width:70px;
+    height:30px;
+    font-size:13px;
+    }
+    
+    .Previous-btn{
+      width:70px;
+      height:30px;
+      font-size:13px;
+    }
+  .bottom-footer{
+    margin-top: 40px;
+  }
+  .questionCount{
+    font-size:16px;
+  }
+  .question{
+    font-size: 15px;
+    padding:0px;
+    margin-bottom:30px;
+  }
+  #option1{
+    width: 80%;
+    height:40px;
+    font-size:13px;
+  }
+  #option2{
+    width: 80%;
+    height:40px;
+    font-size:13px;
+  }
+  #option3{
+    width: 80%;
+    height:40px;
+    font-size:13px;
+  }
+  #option4{
+    width: 80%;
+    height:40px;
+    font-size:13px;
+  }
+}
+@media only screen and (min-width: 412px) 
+and (max-width: 413px) {
+  .App-header {
+    margin-top:50px;
+    font-size:15px;
+  }
+  .quiz-story{
+    padding: 10px;
+    width: 80%;   
+    min-height: 400px;
+  }
+  .next-btn{
+  
+    width:70px;
+    height:30px;
+    font-size:13px;
+    }
+    
+    .Previous-btn{
+      width:70px;
+      height:30px;
+      font-size:13px;
+    }
+  .bottom-footer{
+    margin-top: 40px;
+  }
+  .questionCount{
+    font-size:16px;
+  }
+  .question{
+    font-size: 15px;
+    padding:0px;
+    margin-bottom:30px;
+  }
+  #option1{
+    width: 80%;
+    height:40px;
+    font-size:13px;
+  }
+  #option2{
+    width: 80%;
+    height:40px;
+    font-size:13px;
+  }
+  #option3{
+    width: 80%;
+    height:40px;
+    font-size:13px;
+  }
+  #option4{
+    width: 80%;
+    height:40px;
+    font-size:13px;
+  }
+}
+@media only screen and (min-width: 414px) 
+and (max-width: 449px) 
+  {
+    .App-header {
+      margin-top:50px;
+      font-size:17px;
+    }
+    .quiz-story{
+      padding: 10px;
+      width: 80%;   
+      min-height: 400px;
+    }
+    .next-btn{
+    
+      width:70px;
+      height:30px;
+      font-size:13px;
+      }
+      
+      .Previous-btn{
+        width:70px;
+        height:30px;
+        font-size:13px;
+      }
+    .bottom-footer{
+      margin-top: 40px;
+    }
+    .questionCount{
+      font-size:16.5px;
+    }
+    .question{
+      font-size: 15px;
+      padding:0px;
+      margin-bottom:30px;
+    }
+    #option1{
+      width: 80%;
+      height:40px;
+      font-size:13px;
+    }
+    #option2{
+      width: 80%;
+      height:40px;
+      font-size:13px;
+    }
+    #option3{
+      width: 80%;
+      height:40px;
+      font-size:13px;
+    }
+    #option4{
+      width: 80%;
+      height:40px;
+      font-size:13px;
+    }
+  }
+  @media only screen and (min-width: 450px) and (max-width: 550px) {
+    .App-header {
+      margin-top:50px;
+      font-size:17px;
+    }
+    .quiz-story{
+      padding: 10px;
+      width: 75%;   
+      min-height: 400px;
+    }
+    .next-btn{
+    
+      width:70px;
+      height:30px;
+      font-size:13px;
+      }
+      
+      .Previous-btn{
+        width:70px;
+        height:30px;
+        font-size:13px;
+      }
+    .bottom-footer{
+      margin-top: 50px;
+    }
+    .questionCount{
+      font-size:16.5px;
+    }
+    .question{
+      font-size: 15px;
+      padding:0px;
+      margin-bottom:30px;
+    }
+    #option1{
+      width: 70%;
+      height:40px;
+      font-size:13px;
+    }
+    #option2{
+      width: 70%;
+      height:40px;
+      font-size:13px;
+    }
+    #option3{
+      width: 70%;
+      height:40px;
+      font-size:13px;
+    }
+    #option4{
+      width: 70%;
+      height:40px;
+      font-size:13px;
+    }
+  }
+  @media only screen and (min-width: 551px) and (max-width: 599px) {
+    .App-header {
+      margin-top:50px;
+      font-size:17px;
+    }
+    .quiz-story{
+      padding: 10px;
+      width: 70%;   
+      min-height: 400px;
+    }
+    .next-btn{
+    
+      width:75px;
+      height:30px;
+      font-size:13px;
+      }
+      
+      .Previous-btn{
+        width:75px;
+        height:30px;
+        font-size:13px;
+      }
+    .bottom-footer{
+      margin-top: 50px;
+    }
+    .questionCount{
+      font-size:16.5px;
+    }
+    .question{
+      font-size: 15px;
+      padding:0px;
+      margin-bottom:30px;
+    }
+    #option1{
+      width:65%;
+      height:40px;
+      font-size:13px;
+    }
+    #option2{
+      width:65%;
+      height:40px;
+      font-size:13px;
+    }
+    #option3{
+      width:65%;
+      height:40px;
+      font-size:13px;
+    }
+    #option4{
+      width:65%;
+      height:40px;
+      font-size:13px;
+    }
+  }
+  @media only screen and (min-width: 600px) 
+and (max-width: 617px) 
+  {
+    .App-header {
+      margin-top:50px;
+      font-size:17px;
+    }
+    .quiz-story{
+      padding: 10px;
+      width: 70%;   
+      min-height: 400px;
+    }
+    .next-btn{
+    
+      width:75px;
+      height:30px;
+      font-size:13px;
+      }
+      
+      .Previous-btn{
+        width:75px;
+        height:30px;
+        font-size:13px;
+      }
+    .bottom-footer{
+      margin-top: 50px;
+    }
+    .questionCount{
+      font-size:16.5px;
+    }
+    .question{
+      font-size: 15px;
+      padding:0px;
+      margin-bottom:30px;
+    }
+    #option1{
+      width:65%;
+      height:40px;
+      font-size:13px;
+    }
+    #option2{
+      width:65%;
+      height:40px;
+      font-size:13px;
+    }
+    #option3{
+      width:65%;
+      height:40px;
+      font-size:13px;
+    }
+    #option4{
+      width:65%;
+      height:40px;
+      font-size:13px;
+    }
+  }
+  @media only screen and (min-width: 618px) and (max-width: 700px) {
+    .App-header {
+      margin-top:50px;
+      font-size:18px;
+    }
+    .quiz-story{
+      padding: 10px;
+      width: 68%;   
+      min-height: 400px;
+    }
+    .next-btn{
+    
+      width:75px;
+      height:30px;
+      font-size:13px;
+      }
+      
+      .Previous-btn{
+        width:75px;
+        height:30px;
+        font-size:13px;
+      }
+    .bottom-footer{
+      margin-top: 50px;
+    }
+    .questionCount{
+      font-size:16.7px;
+    }
+    .question{
+      font-size: 15.5px;
+      padding:0px;
+      margin-bottom:30px;
+    }
+    #option1{
+      width:62%;
+      height:40px;
+      font-size:13px;
+    }
+    #option2{
+      width:62%;
+      height:40px;
+      font-size:13px;
+    }
+    #option3{
+      width:62%;
+      height:40px;
+      font-size:13px;
+    }
+    #option4{
+      width:62%;
+      height:40px;
+      font-size:13px;
+    }
+  }
+  @media only screen and (min-width: 701px) and (max-width: 767px) {
+    .App-header {
+      margin-top:50px;
+      font-size:18.5px;
+    }
+    .quiz-story{
+      padding: 10px;
+      width: 65%;   
+      min-height: 400px;
+    }
+    .next-btn{
+    
+      width:80px;
+      height:32px;
+      font-size:14px;
+      }
+      
+      .Previous-btn{
+        width:80px;
+        height:32px;
+        font-size:14px;
+      }
+    .bottom-footer{
+      margin-top: 60px;
+    }
+    .questionCount{
+      font-size:16.7px;
+    }
+    .question{
+      font-size: 15.5px;
+      padding:0px;
+      margin-bottom:30px;
+    }
+    #option1{
+      width:60%;
+      height:40px;
+      font-size:14px;
+    }
+    #option2{
+      width:60%;
+      height:40px;
+      font-size:14px;
+    }
+    #option3{
+      width:60%;
+      height:40px;
+      font-size:14px;
+    }
+    #option4{
+      width:60%;
+      height:40px;
+      font-size:14px;
+    }
+  }
+  @media only screen and (min-width: 768px) and (max-width: 850px) {
+    .App-header {
+      margin-top:50px;
+      font-size:18.5px;
+    }
+    .quiz-story{
+      padding: 10px;
+      width: 65%;   
+      min-height: 400px;
+    }
+    .next-btn{
+    
+      width:80px;
+      height:32px;
+      font-size:14px;
+      }
+      
+      .Previous-btn{
+        width:80px;
+        height:32px;
+        font-size:14px;
+      }
+    .bottom-footer{
+      margin-top: 60px;
+    }
+    .questionCount{
+      font-size:16.7px;
+    }
+    .question{
+      font-size: 15.5px;
+      padding:0px;
+      margin-bottom:30px;
+    }
+    #option1{
+      width:60%;
+      height:40px;
+      font-size:14px;
+    }
+    #option2{
+      width:60%;
+      height:40px;
+      font-size:14px;
+    }
+    #option3{
+      width:60%;
+      height:40px;
+      font-size:14px;
+    }
+    #option4{
+      width:60%;
+      height:40px;
+      font-size:14px;
+    }
+  }
+  @media only screen and (min-width: 851px) and (max-width: 909px) {
+    .App-header {
+      margin-top:50px;
+      font-size:19px;
+    }
+    .quiz-story{
+      padding: 10px;
+      width: 62%;   
+      min-height: 400px;
+    }
+    .next-btn{
+    
+      width:80px;
+      height:32px;
+      font-size:14px;
+      }
+      
+      .Previous-btn{
+        width:80px;
+        height:32px;
+        font-size:14px;
+      }
+    .bottom-footer{
+      margin-top: 60px;
+    }
+    .questionCount{
+      font-size:17px;
+    }
+    .question{
+      font-size: 16px;
+      padding:0px;
+      margin-bottom:30px;
+    }
+    #option1{
+      width:55%;
+      height:40px;
+      font-size:14px;
+    }
+    #option2{
+      width:55%;
+      height:40px;
+      font-size:14px;
+    }
+    #option3{
+      width:55%;
+      height:40px;
+      font-size:14px;
+    }
+    #option4{
+      width:55%;
+      height:40px;
+      font-size:14px;
+    }
+  }
+  @media only screen and (min-width: 910px) and (max-width: 1023px) {
+    .App-header {
+      margin-top:50px;
+      font-size:21px;
+    }
+    .quiz-story{
+      padding: 10px;
+      width: 60%;   
+      min-height: 400px;
+    }
+    .next-btn{
+    
+      width:80px;
+      height:34px;
+      font-size:14px;
+      }
+      
+      .Previous-btn{
+        width:80px;
+        height:34px;
+        font-size:14px;
+      }
+    .bottom-footer{
+      margin-top: 60px;
+    }
+    .questionCount{
+      font-size:17.5px;
+    }
+    .question{
+      font-size: 16.5px;
+      padding:0px;
+      margin-bottom:30px;
+    }
+    #option1{
+      width:53%;
+      height:40px;
+      font-size:14px;
+    }
+    #option2{
+      width:53%;
+      height:40px;
+      font-size:14px;
+    }
+    #option3{
+      width:53%;
+      height:40px;
+      font-size:14px;
+    }
+    #option4{
+      width:53%;
+      height:40px;
+      font-size:14px;
+    }
+  }
+  @media only screen and (min-width: 1024px) and (max-width: 1100px) {
+    .App-header {
+      margin-top:50px;
+      font-size:23px;
+    }
+    .quiz-story{
+      padding: 10px;
+      width: 58%;   
+      min-height: 400px;
+    }
+    .next-btn{
+    
+      width:85px;
+      height:36px;
+      font-size:15px;
+      }
+      
+      .Previous-btn{
+        width:85px;
+        height:36px;
+        font-size:15px;
+      }
+    .bottom-footer{
+      margin-top: 60px;
+    }
+    .questionCount{
+      font-size:18px;
+    }
+    .question{
+      font-size: 17px;
+      padding:0px;
+      margin-bottom:30px;
+    }
+    #option1{
+      width:51%;
+      height:40px;
+      font-size:14px;
+    }
+    #option2{
+      width:51%;
+      height:40px;
+      font-size:14px;
+    }
+    #option3{
+      width:51%;
+      height:40px;
+      font-size:14px;
+    }
+    #option4{
+      width:51%;
+      height:40px;
+      font-size:14px;
+    }
+  }
+  @media only screen and (min-width: 1101px) and (max-width: 1200px) {
+    .App-header {
+      margin-top:50px;
+      font-size:23.5px;
+    }
+    .quiz-story{
+      padding: 10px;
+      width: 55%;   
+      min-height: 400px;
+    }
+    .next-btn{
+    
+      width:85px;
+      height:36px;
+      font-size:15px;
+      }
+      
+      .Previous-btn{
+        width:85px;
+        height:36px;
+        font-size:15px;
+      }
+    .bottom-footer{
+      margin-top: 60px;
+    }
+    .questionCount{
+      font-size:18px;
+    }
+    .question{
+      font-size: 17px;
+      padding:0px;
+      margin-bottom:30px;
+    }
+    #option1{
+      width:49%;
+      height:40px;
+      font-size:14px;
+    }
+    #option2{
+      width:49%;
+      height:40px;
+      font-size:14px;
+    }
+    #option3{
+      width:49%;
+      height:40px;
+      font-size:14px;
+    }
+    #option4{
+      width:49%;
+      height:40px;
+      font-size:14px;
+    }
+  }
+  @media only screen and (min-width: 1201px) and (max-width: 1300px) {
+    .App-header {
+      margin-top:50px;
+      font-size:24px;
+    }
+    .quiz-story{
+      padding: 10px;
+      width: 51%;   
+      min-height: 400px;
+    }
+    .next-btn{
+    
+      width:85px;
+      height:36px;
+      font-size:15px;
+      }
+      
+      .Previous-btn{
+        width:85px;
+        height:36px;
+        font-size:15px;
+      }
+    .bottom-footer{
+      margin-top: 50px;
+    }
+    .questionCount{
+      font-size:18.5px;
+    }
+    .question{
+      font-size: 17px;
+      padding:0px;
+      margin-bottom:30px;
+    }
+    #option1{
+      width:46%;
+      height:40px;
+      font-size:14px;
+    }
+    #option2{
+      width:46%;
+      height:40px;
+      font-size:14px;
+    }
+    #option3{
+      width:46%;
+      height:40px;
+      font-size:14px;
+    }
+    #option4{
+      width:46%;
+      height:40px;
+      font-size:14px;
+    }
+  }
+  @media only screen and (min-width: 1301px) and (max-width: 1360px) {
+    .App-header {
+      margin-top:50px;
+      font-size:24px;
+    }
+    .quiz-story{
+      padding: 10px;
+      width: 50%;   
+      min-height: 400px;
+    }
+    .next-btn{
+    
+      width:90px;
+      height:40px;
+      font-size:16px;
+      }
+      
+      .Previous-btn{
+        width:90px;
+        height:40px;
+        font-size:16px;
+      }
+    .bottom-footer{
+      margin-top: 50px;
+    }
+    .questionCount{
+      font-size:18.5px;
+    }
+    .question{
+      font-size: 17.5px;
+      padding:0px;
+      margin-bottom:30px;
+    }
+    #option1{
+      width:44%;
+      height:40px;
+      font-size:14px;
+    }
+    #option2{
+      width:44%;
+      height:40px;
+      font-size:14px;
+    }
+    #option3{
+      width:44%;
+      height:40px;
+      font-size:14px;
+    }
+    #option4{
+      width:44%;
+      height:40px;
+      font-size:14px;
+    }
+  }
+  @media only screen and (min-width: 1361px) and (max-width: 1440px) {
+    .App-header {
+      margin-top:50px;
+      font-size:25px;
+    }
+    .quiz-story{
+      padding: 10px;
+      width: 50%;   
+      min-height: 400px;
+    }
+    .next-btn{
+    
+      width:100px;
+      height:40px;
+      font-size:17px;
+      }
+      
+      .Previous-btn{
+        width:100px;
+        height:40px;
+        font-size:17px;
+      }
+    .bottom-footer{
+      margin-top: 50px;
+    }
+    .questionCount{
+      font-size:19px;
+    }
+    .question{
+      font-size: 18px;
+      padding:0px;
+      margin-bottom:30px;
+    }
+    #option1{
+      width:43%;
+      height:40px;
+      font-size:14px;
+    }
+    #option2{
+      width:43%;
+      height:40px;
+      font-size:14px;
+    }
+    #option3{
+      width:43%;
+      height:40px;
+      font-size:14px;
+    }
+    #option4{
+      width:43%;
+      height:40px;
+      font-size:14px;
+    }
+  }
+  @media only screen and (min-width: 1441px) and (max-width: 1520px) {
+    .App-header {
+      margin-top:50px;
+      font-size:26px;
+    }
+    .quiz-story{
+      padding: 10px;
+      width: 50%;   
+      min-height: 400px;
+    }
+    .next-btn{
+    
+      width:100px;
+      height:40px;
+      font-size:17px;
+      }
+      
+      .Previous-btn{
+        width:100px;
+        height:40px;
+        font-size:17px;
+      }
+    .bottom-footer{
+      margin-top: 50px;
+    }
+    .questionCount{
+      font-size:20px;
+    }
+    .question{
+      font-size: 18.5px;
+      padding:0px;
+      margin-bottom:30px;
+    }
+    #option1{
+      width:42%;
+      height:40px;
+      font-size:14px;
+    }
+    #option2{
+      width:42%;
+      height:40px;
+      font-size:14px;
+    }
+    #option3{
+      width:42%;
+      height:40px;
+      font-size:14px;
+    }
+    #option4{
+      width:42%;
+      height:40px;
+      font-size:14px;
+    }
+  }
+  @media only screen and (min-width: 1521px) and (max-width: 1600px) {
+    .App-header {
+      margin-top:50px;
+      font-size:26.5px;
+    }
+    .quiz-story{
+      padding: 10px;
+      width: 50%;   
+      min-height: 400px;
+    }
+    .next-btn{
+    
+      width:100px;
+      height:40px;
+      font-size:17px;
+      }
+      
+      .Previous-btn{
+        width:100px;
+        height:40px;
+        font-size:17px;
+      }
+    .bottom-footer{
+      margin-top: 50px;
+    }
+    .questionCount{
+      font-size:21px;
+    }
+    .question{
+      font-size: 19.5px;
+      padding:0px;
+      margin-bottom:30px;
+    }
+    #option1{
+      width:40%;
+      height:40px;
+      font-size:15px;
+    }
+    #option2{
+      width:40%;
+      height:40px;
+      font-size:15px;
+    }
+    #option3{
+      width:40%;
+      height:40px;
+      font-size:15px;
+    }
+    #option4{
+      width:40%;
+      height:40px;
+      font-size:15px;
+    }
+  }
+  @media only screen and (min-width: 1601px) and (max-width: 1680px) {
+    .App-header {
+      margin-top:50px;
+      font-size:26.5px;
+    }
+    .quiz-story{
+      padding: 10px;
+      width: 50%;   
+      min-height: 400px;
+    }
+    .next-btn{
+    
+      width:100px;
+      height:40px;
+      font-size:17px;
+      }
+      
+      .Previous-btn{
+        width:100px;
+        height:40px;
+        font-size:17px;
+      }
+    .bottom-footer{
+      margin-top: 50px;
+    }
+    .questionCount{
+      font-size:21px;
+    }
+    .question{
+      font-size: 19.5px;
+      padding:0px;
+      margin-bottom:30px;
+    }
+    #option1{
+      width:40%;
+      height:40px;
+      font-size:15px;
+    }
+    #option2{
+      width:40%;
+      height:40px;
+      font-size:15px;
+    }
+    #option3{
+      width:40%;
+      height:40px;
+      font-size:15px;
+    }
+    #option4{
+      width:40%;
+      height:40px;
+      font-size:15px;
+    }
+  }
+  @media only screen and (min-width: 1680px) and (max-width: 1760px) {
+    .App-header {
+      margin-top:50px;
+      font-size:26.5px;
+    }
+    .quiz-story{
+      padding: 10px;
+      width: 50%;   
+      min-height: 400px;
+    }
+    .next-btn{
+    
+      width:100px;
+      height:40px;
+      font-size:17px;
+      }
+      
+      .Previous-btn{
+        width:100px;
+        height:40px;
+        font-size:17px;
+      }
+    .bottom-footer{
+      margin-top: 50px;
+    }
+    .questionCount{
+      font-size:21px;
+    }
+    .question{
+      font-size: 19.5px;
+      padding:0px;
+      margin-bottom:30px;
+    }
+    #option1{
+      width:40%;
+      height:40px;
+      font-size:15px;
+    }
+    #option2{
+      width:40%;
+      height:40px;
+      font-size:15px;
+    }
+    #option3{
+      width:40%;
+      height:40px;
+      font-size:15px;
+    }
+    #option4{
+      width:40%;
+      height:40px;
+      font-size:15px;
+    }
+  }
+  @media only screen and (min-width: 1760px) and (max-width: 1840px) {
+    .App-header {
+      margin-top:50px;
+      font-size:26.5px;
+    }
+    .quiz-story{
+      padding: 10px;
+      width: 50%;   
+      min-height: 400px;
+    }
+    .next-btn{
+    
+      width:100px;
+      height:40px;
+      font-size:17px;
+      }
+      
+      .Previous-btn{
+        width:100px;
+        height:40px;
+        font-size:17px;
+      }
+    .bottom-footer{
+      margin-top: 50px;
+    }
+    .questionCount{
+      font-size:22px;
+    }
+    .question{
+      font-size: 20px;
+      padding:0px;
+      margin-bottom:30px;
+    }
+    #option1{
+      width:38%;
+      height:40px;
+      font-size:16px;
+    }
+    #option2{
+      width:38%;
+      height:40px;
+      font-size:16px;
+    }
+    #option3{
+      width:38%;
+      height:40px;
+      font-size:16px;
+    }
+    #option4{
+      width:38%;
+      height:40px;
+      font-size:16px;
+    }
+  }
+  @media only screen and (min-width: 1840px) and (max-width: 1919px) {
+    .App-header {
+      margin-top:50px;
+      font-size:27px;
+    }
+    .quiz-story{
+      padding: 10px;
+      width: 50%;   
+      min-height: 400px;
+    }
+    .next-btn{
+    
+      width:100px;
+      height:40px;
+      font-size:17px;
+      }
+      
+      .Previous-btn{
+        width:100px;
+        height:40px;
+        font-size:17px;
+      }
+    .bottom-footer{
+      margin-top: 50px;
+    }
+    .questionCount{
+      font-size:23px;
+    }
+    .question{
+      font-size: 21px;
+      padding:0px;
+      margin-bottom:30px;
+    }
+    #option1{
+      width:38%;
+      height:40px;
+      font-size:16px;
+    }
+    #option2{
+      width:38%;
+      height:40px;
+      font-size:16px;
+    }
+    #option3{
+      width:38%;
+      height:40px;
+      font-size:16px;
+    }
+    #option4{
+      width:38%;
+      height:40px;
+      font-size:16px;
+    }
+  }
+  @media only screen and (min-width: 1920px) and (max-width: 2000px) {
+    .App-header {
+      margin-top:50px;
+      font-size:27px;
+    }
+    .quiz-story{
+      padding: 10px;
+      width: 50%;   
+      min-height: 400px;
+    }
+    .next-btn{
+    
+      width:100px;
+      height:40px;
+      font-size:17px;
+      }
+      
+      .Previous-btn{
+        width:100px;
+        height:40px;
+        font-size:17px;
+      }
+    .bottom-footer{
+      margin-top: 50px;
+    }
+    .questionCount{
+      font-size:23px;
+    }
+    .question{
+      font-size: 21px;
+      padding:0px;
+      margin-bottom:30px;
+    }
+    #option1{
+      width:38%;
+      height:40px;
+      font-size:16px;
+    }
+    #option2{
+      width:38%;
+      height:40px;
+      font-size:16px;
+    }
+    #option3{
+      width:38%;
+      height:40px;
+      font-size:16px;
+    }
+    #option4{
+      width:38%;
+      height:40px;
+      font-size:16px;
+    }
   }

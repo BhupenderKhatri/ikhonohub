@@ -1,5 +1,5 @@
 import React from 'react';
-
+import './quiz.css';
 function AnswerOption(props) {
 
   return (

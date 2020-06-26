@@ -29,6 +29,9 @@ module.exports = db.sequelize.define(
         gender: {
             type: Sequelize.STRING
         },
+        streak: {
+            type: Sequelize.INTEGER
+        },
         badges: {
             type: Sequelize.INTEGER
         },
@@ -38,7 +41,7 @@ module.exports = db.sequelize.define(
         DOR: {
             type: Sequelize.DATE
         },
-        address:{
+        address: {
             type: sequelize.STRING
         },
         student_id: {

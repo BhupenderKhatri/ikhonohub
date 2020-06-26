@@ -39,36 +39,47 @@ class table extends Component{
           this.setState({ signupPassword2: event.target.value });
      }
      onSubmitsignup=(event)=>{
-          
-          const headers = {
-            
-               "Content-Type": "application/json"
-           }
-          console.log('form submit',this.state);
-          axios.post('http://localhost:5000/users/register',this.state,{headers: headers}).then(res => {
+          if (!this.state.signupUser || !this.state.signupEmail || !this.state.signupPassword || !this.state.signupPassword2) {
+              console.log("error");
 
-               console.log('POST response', res);
-               history.push('/Verification');
-           })
+         }
+
+         else if (this.state.signupPassword.length < 6) {
+              console.log("error");
+         }
+
+          else if (this.state.signupPassword !== this.state.signupPassword2) {
+              console.log("error");
+         }
+         else{
+         const headers = {
+           
+              "Content-Type": "application/json"
           }
-     componentDidMount() {
-          const headers = {
-               "Content-type": "application/text"
-          }
-          let tok = localStorage.getItem("tkk");
-          axios.post('http://localhost:5000/users/register', { token: tok }).then(res => {
-               if (res.data = "/dash") {
+         console.log('form submit',this.state);
+         axios.post('http://localhost:5000/users/register',this.state,{headers: headers}).then(res => {
 
-                    history.push('/dashboard');
-
-               }
-               else {
-                    history.push('/signup');
-               }
+              console.log('POST response', res);
+              history.push('/Verification');
           })
-     }
+         }
+         }
+    componentDidMount() {
+         const headers = {
+              "Content-type": "application/text"
+         }
+         let tok = localStorage.getItem("tkk");
+         axios.post('http://localhost:5000/users/register', { token: tok }).then(res => {
+              if (res.data = "/dash") {
 
-     
+                   history.push('/dashboard');
+
+              }
+              else {
+                   history.push('/signup');
+              }
+         })
+    }
     render(){
         return(
             <div class='base'>

@@ -1,4 +1,4 @@
-import React,{Component} from 'react';
+import React, { Component } from 'react';
 import Trending from './TrendingCourses';
 //import {recommendedtrendingcourses} from '../../TrendingCoursesDetails';
 import './TrendingCoursesList.css';
@@ -18,17 +18,19 @@ class TrendingList extends Component {
   }
 
   getItems=()=>{
-    const headers = {
 
+    const headers = {
+        
       "Content-Type": "application/json"
   }
   const id = { id :1234};
-  axios.post('http://localhost:5000/Courses_details_routes/trendingcourses',id,{headers: headers}).then(res => {
- 
-   const data = res.data;
-   this.setState({recommendedtrendingcourses:data})
-   })
- }
+ axios.post('http://localhost:5000/course_details/trendingcourses',id,{headers: headers}).then(res => {
+    
+  const data = res.data;
+  this.setState({recommendedtrendingcourses:data})
+  })
+}
+   
 
   render(){
 

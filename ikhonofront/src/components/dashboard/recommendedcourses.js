@@ -110,10 +110,8 @@ class recommendedcourses extends Component {
               <div class="current_section_head2">Total Progress
               </div>
               <p id='dashoard_resumecourse_progressBar'>
-                  {
-                            percentage = this.state.totalprogress.map(dashbar => dashbar.bar)
-                  }
-                        <CircularProgressbar value={percentage} text={`${percentage}%`} strokeWidth='15' 
+                  
+                        <CircularProgressbar value={this.state.totalprogress.map(dashbar => dashbar.bar)} text={`${this.state.totalprogress.map(dashbar => dashbar.bar)}%`} strokeWidth='15' 
                 styles={buildStyles({
                     // Rotation of path and trail, in number of turns (0-1)
                     rotation: 0.25,

@@ -53,17 +53,17 @@ class addprofile extends Component {
         const headers = {
 
             "Content-Type": "application/json"
-        }
+        } 
+        let tok = localStorage.getItem("tkk");
         let ud = {
-            id: this.state.id,
+            id: tok,
             image: this.state.profilephoto,
             name: this.state.profilename,
             mobile: this.state.profilenumber,
             gender: this.state.profilegender,
             address: this.state.profileaddress
         }
-        console.log('form submit', this.state);
-        console.log(this.state.profilephoto)
+
         axios.post('http://localhost:5000/users/profilechange', ud, { headers: headers }).then(res => {
 
             history.push('/account');

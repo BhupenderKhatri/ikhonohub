@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './cart.css';
-import Nav from '../navCartLoggedOut/nav';
+import Nav from '../navCartLoggedOut/navcartout';
 import Footer from '../footer/footer'; 
 import axios from 'axios';
 
@@ -59,7 +59,7 @@ class cart extends Component{
     this.state={
       productionItems:[],
       couponvalue:'',
-      discount:1
+      discount:0
     }
   }
 
@@ -78,11 +78,11 @@ class cart extends Component{
     }
 
     axios.post('http://localhost:5000/student_enrollment/couponvalue',this.state.couponvalue,{headers: headers}).then(res=>{
-
-    this.setState({value:res.data})  
+    
+    this.setState({discount:res.data})  
+    console.log(res.data)
   })
   }
-
 
 
   getItems =()=>{
@@ -102,7 +102,8 @@ class cart extends Component{
 
 
   render() {
-      const {productionItems} = this.state
+      const {productionItems} = this.state;
+      var val=productionItems.reduce((a,c)=>(a+c.price), 0);
     return(
     <div>
         <div>
@@ -115,8 +116,8 @@ class cart extends Component{
                                     <div class='right'>
                                      
                                         <Price 
-                                             total={productionItems.reduce((a,c)=>(a+c-(this.state.discount).price ), 0)}/>
-                                             <button id="checkout1">Checkout</button>
+                                          total={val-this.state.discount} />
+                                        <button id="checkout1">Checkout</button>
                                         
                                     </div>
                                     <div>

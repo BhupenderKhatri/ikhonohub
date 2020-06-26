@@ -24,8 +24,8 @@ class profileinfo extends Component {
 
       "Content-Type": "application/json"
   }
-  let id = { id :50 };
- axios.post('http://localhost:5000/users/personalinfo',id,{headers: headers}).then(res => {
+    let tok = localStorage.getItem("tkk");
+    axios.post('http://localhost:5000/users/personalinfo', { token: tok },{headers: headers}).then(res => {
 
         const data =res.data;
       

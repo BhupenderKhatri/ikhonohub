@@ -7,16 +7,16 @@ import axios from 'axios';
 
 
 function addItems(props){
-
+                                 
 
     const headers = {
-
+        
       "Content-Type": "application/json"
                 }
   const id = { id :this.props.id};
   axios.post('http://localhost:5000/cartcardadd',id,{headers: headers});
-
-
+  
+  
   }
 
 const Trendingcourses = ({ image, name, heading, rating, userimg }) => {
@@ -53,7 +53,7 @@ const Trendingcourses = ({ image, name, heading, rating, userimg }) => {
                             </div>
                             <h4 id="trendingcreatorname">{name}</h4>
 
-                            <div class="trending_btn">   <button id="trendingcart" onClick={()=>addItems()}  ><IoIosCart /></button>
+                         <div class="trending_btn">   <button id="trendingcart" onClick={()=>addItems()}  ><IoIosCart /></button>
                          <button id="trendingplay"><FaPlay /></button></div>
                         
                 </div>
