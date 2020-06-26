@@ -5,7 +5,7 @@ import {Link} from 'react-router-dom';
 // import Desc from './VideoDescription/Direction';
 import Iframe from 'react-iframe';
 import axios from 'axios';
-
+import Whiteclock from '../clock.png';
 import '../ReactPlayer.css';
 
 
@@ -13,9 +13,9 @@ import '../ReactPlayer.css';
 function PlayerHead2(){
         const courses= {
             reactjs:[
-                {title:"Part 1",vid:"28uhnAaLSbs"},
-                {title:"Part 2",vid:"MDQqtW4VzLY"},
-                {title:"Quiz"}
+                {title:"Part 1 Cocomo Model",vid:"28uhnAaLSbs",time:"20 min"},
+                {title:"Part 2 Cocomo Model",vid:"MDQqtW4VzLY",time:"20 min"},
+                {title:"Quiz",time:"20 min"}
                 
             ]
                     }
@@ -25,13 +25,13 @@ function PlayerHead2(){
             
         const [vid,uid] = useState(courses.reactjs[0].vid);
         const [title,utit] = useState(courses.reactjs[0].title);
-
+        const [time,utime] = useState(courses.reactjs[0].time);
 
     const renderVideo = ()=>{
         return(
             <>
             <div className="video-container">
-            <ReactPlayer width="853px" height="480px" url={"https://www.youtube.com/embed/"+vid}  />
+            <ReactPlayer width="100%" height="100%"  controls = "true" url={"https://www.youtube.com/embed/"+vid}  />
           </div> 
           </>
         )
@@ -42,18 +42,18 @@ function PlayerHead2(){
             
             {renderVideo()}
 
-            <div className="collection">
-                
+            <div className="collection_react_player">
+            <ol>
            
             {
                 courses.reactjs.map(item => {
                 return <Link to="#!" class="collection-item" onClick= {()=>{
                     uid(item.vid)
                     utit(item.title)
-                      }}>{item.title}</Link>
+                      }}>  <li>{item.title}<br></br><span> <img class="player_white_clock" src={Whiteclock} alt="nikal"></img></span><p class="player_content_para">{item.time}</p> </li></Link>
                 })
             }
-                 
+                 </ol>    
             </div>
 
             {/* <Foreward/>  */}

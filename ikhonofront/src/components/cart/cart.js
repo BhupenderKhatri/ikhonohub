@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './cart.css';
-import Nav from '../nav/nav';
+import Nav from '../navCartLoggedOut/nav';
 import Footer from '../footer/footer'; 
 import axios from 'axios';
 
@@ -121,7 +121,7 @@ class cart extends Component{
                                     </div>
                                     <div>
                                     <input id="cart-input" placeholder='Enter coupon code' onChange={this.couponchange} />
-                                        <button id="cart-apply" onClick={this.onCouponvalue()} >Apply</button>
+                                        <button id="cart-apply" onClick={()=>this.onCouponvalue()} >Apply</button>
                                     </div>
                         </div>
             </div>

@@ -6,7 +6,9 @@ import "./QnA.css" ;
 const QuesAns =()=>{
     return( 
         <div>
-               <input value="Search all course Ques here" id='searchbar'></input>
+            <div id="q_ans_main"> 
+           
+               <input placeholder="Search all course Ques here" id='searchbar'></input>
             <AiOutlineSearch id="searchicon"/>
 
             <table>
@@ -26,7 +28,7 @@ const QuesAns =()=>{
                             <option value="Recommended">Sort By Recommended </option>
 
                         </select>
-
+                    </td> <td>
                         <select name="Questions" id="third">
                             <option value="Iam" selected="selected">Questions I'm following</option>
                             <option value="Iasked">Questions I asked</option>
@@ -39,17 +41,27 @@ const QuesAns =()=>{
                     <td></td>
                 </tr>
             </table>
-            {
+            <div id="qnabackground">
+            {  
+           
+              
                 doubt.map((user,i)=> {
                     return(
+                        <div class="q_a_names">
                         <Questions
                         name={doubt[i].name}
                         ques={doubt[i].ques}
                         answer={doubt[i].answer}
-                        />
+                        /></div>
                     );
                 })
+                 
             }
+           <hr class="qna_borderline" color="#FF3300" ></hr> 
+            <button id="qnaseemore">SEE MORE</button>
+            </div>
+            
+            </div>
         </div>
 
     );

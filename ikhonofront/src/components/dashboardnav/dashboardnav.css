@@ -6,9 +6,8 @@
     background-color:rgba(255, 255, 255, 0.01);
     height: 50px;
 }
-
-.logo5 {
-    margin-left: 10px;
+.nav_dash_logo5 {
+    margin-left: 30px;
     opacity: 1;
     position: absolute;
     flex: 1;
@@ -17,41 +16,41 @@
     width: 200px;
     height: 120px;
 }
-.logo5:hover{
+.nav_dash_logo5:hover{
     cursor: pointer;
 }
 
-#bell5 {
-    margin-left: 1100px;
-    margin-top: 10px;
+#nav_dash_bell{
+    margin-left: 1340px;
+    margin-top: 20px;
 }
-#bell5:hover{
+#nav_dash_bell:hover{
     cursor: pointer;
 }
 
-#cart5 {
-    margin-left: 1370px;
+#nav_dash_cart {
+    margin-left: 1290px;
     margin-top: -33px;
     margin-bottom: 25px;
 }
-#cart5:hover{
+#nav_dash_cart:hover{
     cursor: pointer;
 }
 
 
-.dropicn {
+.nav_dash_dropicn {
     color: white;
     padding: 16px;
     font-size: 16px;
     border: none;
-    margin-left: 1450px;
+    margin-left: 1230px;
     margin-top: -74px;
     margin-bottom: 26px;
     border-radius:32px;
 }
 
 
-.dropdown {
+.nav_dash_dropdown {
     position: relative;
     display: inline-block;
     margin-left: 0px;
@@ -61,17 +60,17 @@
 }
 
 
-.dropdown-content {
+.nav_dash_dropdown-content {
     display: none;
     position: absolute;
     min-width: 160px;
     z-index: 1;
-    margin-left: 1354px;
+    margin-left: 1250px;
     margin-top: -29px;
 }
 
 
-.dropdown-content .droplist {
+.nav_dash_dropdown-content .nav_dash_droplist {
     color: black;
     padding: 8px 18px;
     text-align: left;
@@ -84,19 +83,19 @@
 }
 
 
-.dropdown-content .droplist:hover {
+.nav_dash_dropdown-content .nav_dash_droplist:hover {
     background-color: #FF3300;
     color: #FFFFFF;
     cursor: pointer;
 }
-.dropdown:hover .dropdown-content {
+.nav_dash_dropdown:hover .nav_dash_dropdown-content {
     display: block;
 }
 
 /*.dropdown:hover .dropicn {
     background-color: #eef7ee;
 } */
-
+/*
 @media only screen and (min-width: 320px) and (max-width: 374px) {
     
     #bell5 {
@@ -560,4 +559,4 @@ and (max-width: 850px) {
             margin-left: 1710px;
             margin-top: -29px;
         }
-     }
+     }*/

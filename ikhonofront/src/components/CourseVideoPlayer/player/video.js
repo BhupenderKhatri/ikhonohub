@@ -5,7 +5,8 @@ import PlayerHead1 from './playerhead1';
 import PlayerHead2 from './playerhead2';
 import PlayerHead3 from './playerhead3';
 import './video.css';
-
+import Arrow from './arrow.png';
+import Blackclock from './Iconclock.png';
 import Direction from '../VideoDescription/Direction';
 
 class Video extends Component{
@@ -60,14 +61,15 @@ class Video extends Component{
     render(){
         const {showHideDemo1,showHideDemo2,showHideDemo3,showHideDemo4}=this.state;
         return(
-            <div id='video_headmain'>
+            <div id="react_player_background">
+            <div>
             <div id='video-main' >
                 <div id='video-leftlist'>
                 <ul>
-                    <li onClick={() => this.hideComponent("showHideDemo1")}>Section-1  Models</li>
-                    <li onClick={() => this.hideComponent("showHideDemo2")}>Section-2  Equivalence Class Testing</li>
-                    <li onClick={() => this.hideComponent("showHideDemo3")}>Section-3  Cocomo model</li>
-                    <li onClick={() => this.hideComponent("showHideDemo4")}>Section-4  Testing</li>
+                    <li  class="player_section" onClick={() => this.hideComponent("showHideDemo1")}>Section-1  Models <br></br> <span><img class="player_black_clock1" src={Blackclock} alt="nikal"></img></span><p class="player_section_time">100 min</p><span><img class="player_image" src={Arrow} alt="nikal"></img></span></li>
+                    <li  class="player_section" onClick={() => this.hideComponent("showHideDemo2")}>Section-2  Equivalence Class Testing <br></br> <span><img class="player_black_clock2" src={Blackclock} alt="nikal"></img></span><p class="player_section_time">100 min</p><img class="player_image" src={Arrow} alt="nikal"></img></li>
+                    <li  class="player_section" onClick={() => this.hideComponent("showHideDemo3")}>Section-3  Cocomo model <br></br><span><img class="player_black_clock3" src={Blackclock} alt="nikal"></img></span> <p class="player_section_time">100 min</p><img class="player_image" src={Arrow} alt="nikal"></img></li>
+                    <li  class="player_section" onClick={() => this.hideComponent("showHideDemo4")}>Section-4  Testing <br></br><span><img class="player_black_clock4" src={Blackclock} alt="nikal"></img></span> <p class="player_section_time">100 min</p><img class="player_image" src={Arrow} alt="nikal"></img></li>
                 </ul>
                 </div>
                 
@@ -102,6 +104,7 @@ class Video extends Component{
                 <div>
                     <Direction/>
                 </div>
+            </div>
             </div>
         );
     }

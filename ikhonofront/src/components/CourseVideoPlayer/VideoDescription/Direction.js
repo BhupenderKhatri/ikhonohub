@@ -62,15 +62,14 @@ class DirectionBar extends Component {
      return(
           <div id='mainCoursebelowPlayer'>
                  <ul id="barstyle">
-                     <li class="style" ><BsSearch/></li>
-                     <li class="style" onClick={() => this.hideComponent("showOverview")}>Overview</li>
-                     <li class="style" onClick={() => this.hideComponent("showQna")}>QnA</li>
-                     <li  class="style" onClick={() => this.hideComponent("showbookmark")}>Bookmarks</li>
-                     <li class="style" onClick={() => this.hideComponent("showannounce")}>Announcement</li>
+                     <li class="style1" ><h1><BsSearch/></h1></li>
+                     <li class="style2" onClick={() => this.hideComponent("showOverview")}><a class="humra"><h1>Overview</h1></a></li>
+                     <li class="style3" onClick={() => this.hideComponent("showQna")}><a class="humra1"><h1>QnA</h1></a></li>
+                     {/* <li  class="style" onClick={() => this.hideComponent("showbookmark")}>Bookmarks</li> */}
+                     <li class="style4" onClick={() => this.hideComponent("showannounce")}><h1>Announcement</h1></li>
                  </ul>
              
-          <div>
-               </div>
+         
 
                 <div>
 

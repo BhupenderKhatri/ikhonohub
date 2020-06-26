@@ -4,12 +4,2299 @@
     margin-top: 10%;
    
 }
+#qnabackground{
+     background: white;
+     width: 600px;
+}
 #searchicon{
-    background-color: white;
-    height: 30px;
-    width : 30px;
-    margin-top: 100px;
+   
+    height: 31px;
+    width : 34px;
+    margin-left: 5px;
+    filter: brightness(90%);
+    position: absolute;
+    margin-top: 106px;
+    background-color: orangered;
+    
+    
 }
 #first{
     width:200px ;
 }
+#q_ans_main{
+margin-left: 450px;
+margin-top: -80px;
+}
+#table_qna{
+    background-color: white;
+    width: 600px;
+}
+#qnaname{
+
+ margin-top: 15px;
+font-size: large;
+ 
+ width: 530px;
+}
+#qnaques{
+
+    font-size: 18px ;
+   
+    width: 530px;
+}
+#qnacontent{
+    margin-left: 50px;
+
+}
+#qnaseemore{
+    width: 500px;
+    height: 40px;
+    font-size: large;
+    background-color: black;
+    color: yellow;
+     font-weight: bolder;
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+
+
+
+@media only screen and (min-width: 320px) 
+and (max-width: 359px) {
+
+   
+#q_ans_main{
+    margin-left: 9px;
+    margin-top: -15px;
+}
+    #searchbar{
+        width :260px;
+        height: 25px ;
+        margin-top: 10%;
+       
+    }
+    
+#qnabackground{
+    background: white;
+    width: 305px;
+}
+
+#searchicon{
+   
+    height: 31px;
+    width : 30px;
+    margin-left: 2px;
+    margin-top: 33px;
+    
+}
+
+#first{
+    width:99px ;
+    font-size: 15px;
+    margin-left: 0px;
+    
+}
+
+#second{
+    width:99px ;
+    font-size: 15px;
+}
+
+
+#third{
+    width:99px ;
+    font-size: 15px;
+}
+
+#table_qna{
+    background-color: white;
+
+}
+
+#qnaques{
+
+    font-size: 18px ;
+   
+    width: 530px;
+}
+
+#qnaseemore{
+    width: 160px;
+    height: 40px;
+    font-size: 18px;
+    border-radius: 10px;
+    background-color: black;
+    color: yellow;
+     font-weight: bolder;
+    margin-top: 10px;
+    margin-left: 70px;
+    margin-bottom: 20px;
+}
+.q_a_names{
+    font-size: 15px;
+
+}
+.qna_borderline{
+    width: 490px;
+}
+
+}
+
+ 
+@media only screen and (min-width: 360px) 
+  and (max-width: 374px) {
+  
+       
+    #q_ans_main{
+        margin-left:10px;
+        padding-left: 4px;
+        margin-top: -15px;
+    }
+        #searchbar{
+            width :285px;
+            height: 25px ;
+            margin-top: 10%;
+           
+        }
+        
+
+    #qnabackground{
+        background: white;
+        width: 305px;
+    }
+    
+    #searchicon{
+       
+        height: 31px;
+        width : 30px;
+        margin-left: 2px;
+        margin-top: 33px;
+        
+    }
+    
+    #first{
+        width:90px ;
+        font-size: 15px;
+        margin-left: 12px;
+       
+        
+    }
+    
+    #second{
+        width:100px ;
+        font-size: 15px;
+    }
+    
+    
+    #third{
+        width:99px ;
+        font-size: 15px;
+    }
+    
+    #table_qna{
+        background-color: white;
+    
+    }
+    
+    #qnaques{
+    
+        font-size: 18px ;
+       
+        width: 530px;
+    }
+    
+    #qnaseemore{
+        width: 160px;
+        height: 40px;
+        font-size: 18px;
+        border-radius: 10px;
+        background-color: black;
+        color: yellow;
+         font-weight: bolder;
+        margin-top: 10px;
+        margin-left: 70px;
+        margin-bottom: 20px;
+    }
+    .q_a_names{
+        font-size: 15px;
+        margin-left: 12px;
+    
+    }
+    .qna_borderline{
+        width: 490px;
+    }
+
+  }
+
+
+  @media only screen and (min-width: 375px) 
+  and (max-width: 411px) {
+   
+   
+       
+    #q_ans_main{
+        margin-left:10px;
+        padding-left: 4px;
+        margin-top: -35px;
+    }
+        #searchbar{
+            width :285px;
+            height: 25px ;
+            margin-top: 10%;
+           
+        }
+        
+
+    #qnabackground{
+        background: white;
+        width: 305px;
+    }
+    
+    #searchicon{
+       
+        height: 31px;
+        width : 30px;
+        margin-left: 2px;
+        margin-top: 33px;
+        
+    }
+    
+    #first{
+        width:90px ;
+        font-size: 15px;
+        margin-left: 12px;
+       
+        
+    }
+    
+    #second{
+        width:100px ;
+        font-size: 15px;
+    }
+    
+    
+    #third{
+        width:99px ;
+        font-size: 15px;
+    }
+    
+    #table_qna{
+        background-color: white;
+    
+    }
+    
+    #qnaques{
+    
+        font-size: 18px ;
+       
+        width: 530px;
+    }
+    
+    #qnaseemore{
+        width: 160px;
+        height: 40px;
+        font-size: 18px;
+        border-radius: 10px;
+        background-color: black;
+        color: yellow;
+         font-weight: bolder;
+        margin-top: 10px;
+        margin-left: 70px;
+        margin-bottom: 20px;
+    }
+    .q_a_names{
+        font-size: 15px;
+        margin-left: 12px;
+    
+    }
+    .qna_borderline{
+        width: 490px;
+    }
+
+  }  
+  @media only screen and (min-width: 412px) 
+    and (max-width: 413px) {
+ 
+
+   
+         
+    #q_ans_main{
+        margin-left:10px;
+        padding-left: 4px;
+        margin-top: -35px;
+    }
+        #searchbar{
+            width :285px;
+            height: 25px ;
+            margin-top: 10%;
+           
+        }
+        
+
+    #qnabackground{
+        background: white;
+        width: 305px;
+    }
+    
+    #searchicon{
+       
+        height: 31px;
+        width : 30px;
+        margin-left: 2px;
+        margin-top: 33px;
+        
+    }
+    
+    #first{
+        width:90px ;
+        font-size: 15px;
+        margin-left: 12px;
+       
+        
+    }
+    
+    #second{
+        width:100px ;
+        font-size: 15px;
+    }
+    
+    
+    #third{
+        width:99px ;
+        font-size: 15px;
+    }
+    
+    #table_qna{
+        background-color: white;
+    
+    }
+    
+    #qnaques{
+    
+        font-size: 18px ;
+       
+        width: 530px;
+    }
+    
+    #qnaseemore{
+        width: 160px;
+        height: 40px;
+        font-size: 18px;
+        border-radius: 10px;
+        background-color: black;
+        color: yellow;
+         font-weight: bolder;
+        margin-top: 10px;
+        margin-left: 70px;
+        margin-bottom: 20px;
+    }
+    .q_a_names{
+        font-size: 15px;
+        margin-left: 12px;
+    }
+    .qna_borderline{
+        width: 490px;
+    }
+
+    }
+ 
+    @media only screen and (min-width: 414px) 
+    and (max-width: 449px) {
+     
+       
+   
+         
+    #q_ans_main{
+        margin-left:10px;
+        padding-left: 4px;
+        margin-top: -35px;
+    }
+        #searchbar{
+            width :340px;
+            height: 25px ;
+            margin-top: 10%;
+           
+        }
+        
+
+    #qnabackground{
+        background: white;
+        width: 305px;
+    }
+    
+    #searchicon{
+       
+        height: 31px;
+        width : 30px;
+        margin-left: 2px;
+        margin-top: 40px;
+        
+    }
+    
+    #first{
+        width:105px ;
+        font-size: 17px;
+        margin-left: 12px;
+       
+        
+    }
+    
+    #second{
+        width:105px ;
+        font-size: 17px;
+    }
+    
+    
+    #third{
+        width:105px ;
+        font-size: 17px;
+    }
+    
+    #table_qna{
+        background-color: white;
+    
+    }
+    
+    /* #qnaques{
+    
+        font-size: 19px ;
+        width: 530px;
+    } */
+    
+    #qnaseemore{
+        width: 160px;
+        height: 40px;
+        font-size: 18px;
+        border-radius: 10px;
+        background-color: black;
+        color: yellow;
+         font-weight: bolder;
+        margin-top: 10px;
+        margin-left: 70px;
+        margin-bottom: 20px;
+    }
+    .q_a_names{
+        font-size: 17px;
+        margin-left: 12px;
+        margin-top: 5px;
+    }
+    .qna_borderline{
+        width: 490px;
+    } 
+
+
+    }   
+
+    @media only screen and (min-width: 450px) 
+    and (max-width: 550px) {
+     
+
+        
+   
+         
+   
+         
+    #q_ans_main{
+        margin-left:25px;
+        padding-left: 4px;
+        margin-top: -35px;
+    }
+        #searchbar{
+            width :340px;
+            height: 25px ;
+            margin-top: 10%;
+           
+        }
+        
+
+    #qnabackground{
+        background: white;
+        width: 305px;
+    }
+    
+    #searchicon{
+       
+        height: 31px;
+        width : 30px;
+        margin-left: 2px;
+        margin-top: 42px;
+        
+    }
+    
+    #first{
+        width:105px ;
+        font-size: 17px;
+        margin-left: 12px;
+       
+        
+    }
+    
+    #second{
+        width:105px ;
+        font-size: 17px;
+    }
+    
+    
+    #third{
+        width:105px ;
+        font-size: 17px;
+    }
+    
+    #table_qna{
+        background-color: white;
+    
+    }
+    
+    /* #qnaques{
+    
+        font-size: 19px ;
+        width: 530px;
+    } */
+    
+    #qnaseemore{
+        width: 160px;
+        height: 40px;
+        font-size: 18px;
+        border-radius: 10px;
+        background-color: black;
+        color: yellow;
+         font-weight: bolder;
+        margin-top: 10px;
+        margin-left: 70px;
+        margin-bottom: 20px;
+    }
+    .q_a_names{
+        font-size: 17px;
+        margin-left: 12px;
+        margin-top: 5px;
+    }
+    .qna_borderline{
+        width: 490px;
+    }
+       
+    }   
+
+    @media only screen and (min-width: 551px) 
+    and (max-width: 599px) {
+  
+        #q_ans_main{
+            margin-left:80px;
+            padding-left: 4px;
+            margin-top: -35px;
+        }
+            #searchbar{
+                width :340px;
+                height: 25px ;
+                margin-top: 10%;
+               
+            }
+            
+    
+        #qnabackground{
+            background: white;
+            width: 305px;
+        }
+        
+        #searchicon{
+           
+            height: 31px;
+            width : 30px;
+            margin-left: 2px;
+            margin-top: 42px;
+            
+        }
+        
+        #first{
+            width:105px ;
+            font-size: 17px;
+            margin-left: 12px;
+           
+            
+        }
+        
+        #second{
+            width:105px ;
+            font-size: 17px;
+        }
+        
+        
+        #third{
+            width:105px ;
+            font-size: 17px;
+        }
+        
+        #table_qna{
+            background-color: white;
+        
+        }
+        
+        /* #qnaques{
+        
+            font-size: 19px ;
+            width: 530px;
+        } */
+        
+        #qnaseemore{
+            width: 160px;
+            height: 40px;
+            font-size: 18px;
+            border-radius: 10px;
+            background-color: black;
+            color: yellow;
+             font-weight: bolder;
+            margin-top: 10px;
+            margin-left: 70px;
+            margin-bottom: 20px;
+        }
+        .q_a_names{
+            font-size: 17px;
+            margin-left: 12px;
+            margin-top: 5px;
+        }
+        .qna_borderline{
+            width: 490px;
+        }
+        
+    }
+
+
+    @media only screen and (min-width: 600px) 
+    and (max-width: 618px) {
+  
+      
+        #q_ans_main{
+            margin-left:100px;
+            padding-left: 4px;
+            margin-top: -35px;
+        }
+            #searchbar{
+                width :340px;
+                height: 25px ;
+                margin-top: 10%;
+               
+            }
+            
+    
+        #qnabackground{
+            background: white;
+            width: 305px;
+        }
+        
+        #searchicon{
+           
+            height: 31px;
+            width : 30px;
+            margin-left: 2px;
+            margin-top: 48px;
+            
+        }
+        
+        #first{
+            width:105px ;
+            font-size: 17px;
+            margin-left: 12px;
+           
+            
+        }
+        
+        #second{
+            width:105px ;
+            font-size: 17px;
+        }
+        
+        
+        #third{
+            width:105px ;
+            font-size: 17px;
+        }
+        
+        #table_qna{
+            background-color: white;
+        
+        }
+        
+        /* #qnaques{
+        
+            font-size: 19px ;
+            width: 530px;
+        } */
+        
+        #qnaseemore{
+            width: 160px;
+            height: 40px;
+            font-size: 18px;
+            border-radius: 10px;
+            background-color: black;
+            color: yellow;
+             font-weight: bolder;
+            margin-top: 10px;
+            margin-left: 70px;
+            margin-bottom: 20px;
+        }
+        .q_a_names{
+            font-size: 17px;
+            margin-left: 12px;
+            margin-top: 5px;
+        }
+        .qna_borderline{
+            width: 490px;
+        }
+    }
+    @media only screen and (min-width: 618px) 
+    and (max-width: 700px) {
+
+      
+      
+        #q_ans_main{
+            margin-left:55px;
+            padding-left: 4px;
+            margin-top: -15px;
+        }
+            #searchbar{
+                width :450px;
+                height: 35px ;
+                font-size: 20px;
+                margin-top: 15%;
+               
+            }
+            
+    
+        #qnabackground{
+            background: white;
+            width: 305px;
+        }
+        
+        #searchicon{
+           
+            height: 40px;
+            width : 40px;
+            margin-left: 2px;
+            margin-top: 85px;
+            
+        }
+        
+        #first{
+            width:140px ;
+            font-size: 20px;
+            margin-left: 12px;
+            margin-top: 5px;
+           
+            
+        }
+        
+        #second{
+            width:140px ;
+            font-size: 20px;
+            margin-top: 5px;
+        }
+        
+        
+        #third{
+            width:140px ;
+            font-size: 20px;
+            margin-top: 5px;
+        }
+        
+        #table_qna{
+            background-color: white;
+        
+        }
+        
+        /* #qnaques{
+        
+            font-size: 19px ;
+            width: 530px;
+        } */
+        
+        #qnaseemore{
+            width: 200px;
+            height: 50px;
+            font-size: 20px;
+            border-radius: 15px;
+            margin-top: 10px;
+            margin-left: 170px;
+            margin-bottom: 20px;
+        }
+        .q_a_names{
+            font-size: 20px;
+            margin-left: 12px;
+            margin-top: 5px;
+        }
+        .qna_borderline{
+            width: 490px;
+        }
+    }
+    
+@media only screen and (min-width: 701px) 
+and (max-width: 767px) {
+ 
+
+
+        
+    #q_ans_main{
+        margin-left:55px;
+        padding-left: 4px;
+        margin-top: -15px;
+    }
+        #searchbar{
+            width :520px;
+            height: 35px ;
+            font-size: 20px;
+            margin-top: 15%;
+           
+        }
+        
+
+    #qnabackground{
+        background: white;
+        width: 305px;
+    }
+    
+    #searchicon{
+       
+        height: 40px;
+        width : 40px;
+        margin-left: 2px;
+        margin-top: 95px;
+        
+    }
+    
+    #first{
+        width:170px ;
+        font-size: 20px;
+        margin-left: 12px;
+        margin-top: 5px;
+       
+        
+    }
+    
+    #second{
+        width:170px ;
+        font-size: 20px;
+        margin-top: 5px;
+    }
+    
+    
+    #third{
+        width:170px ;
+        font-size: 20px;
+        margin-top: 5px;
+    }
+    
+    #table_qna{
+        background-color: white;
+    
+    }
+    
+    /* #qnaques{
+    
+        font-size: 19px ;
+        width: 530px;
+    } */
+       
+    #qnaseemore{
+        width: 200px;
+        height: 50px;
+        font-size: 20px;
+        border-radius: 15px;
+        margin-top: 10px;
+        margin-left: 170px;
+        margin-bottom: 20px;
+    }
+    .q_a_names{
+        font-size: 20px;
+        margin-left: 12px;
+        margin-top: 5px;
+    }
+    .qna_borderline{
+        width: 510px;
+    }
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 799px) {
+  
+    
+    #q_ans_main{
+        margin-left:95px;
+        padding-left: 4px;
+        margin-top: -15px;
+    }
+        #searchbar{
+            width :520px;
+            height: 35px ;
+            font-size: 20px;
+            margin-top: 15%;
+           
+        }
+        
+
+    #qnabackground{
+        background: white;
+        width: 305px;
+    }
+    
+    #searchicon{
+       
+        height: 40px;
+        width : 40px;
+        margin-left: 2px;
+        margin-top: 105px;
+        
+    }
+    
+    #first{
+        width:170px ;
+        font-size: 20px;
+        margin-left: 12px;
+        margin-top: 5px;
+       
+        
+    }
+    
+    #second{
+        width:170px ;
+        font-size: 20px;
+        margin-top: 5px;
+    }
+    
+    
+    #third{
+        width:170px ;
+        font-size: 20px;
+        margin-top: 5px;
+    }
+    
+    #table_qna{
+        background-color: white;
+    
+    }
+    
+    /* #qnaques{
+    
+        font-size: 19px ;
+        width: 530px;
+    } */
+    
+       
+    #qnaseemore{
+        width: 200px;
+        height: 50px;
+        font-size: 20px;
+        border-radius: 15px;
+        margin-top: 10px;
+        margin-left: 170px;
+        margin-bottom: 20px;
+    }
+    .q_a_names{
+        font-size: 20px;
+        margin-left: 12px;
+        margin-top: 5px;
+    }
+    .qna_borderline{
+        width: 510px;
+    }
+
+}
+
+
+@media only screen and (min-width: 800px) and (max-width: 850px) {
+  
+    
+    #q_ans_main{
+        margin-left:95px;
+        padding-left: 4px;
+        margin-top: -15px;
+    }
+        #searchbar{
+            width :520px;
+            height: 35px ;
+            font-size: 20px;
+            margin-top: 15%;
+           
+        }
+        
+
+    #qnabackground{
+        background: white;
+        width: 305px;
+    }
+    
+    #searchicon{
+       
+        height: 40px;
+        width : 40px;
+        margin-left: 2px;
+        margin-top: 105px;
+        
+    }
+    
+    #first{
+        width:170px ;
+        font-size: 20px;
+        margin-left: 12px;
+        margin-top: 5px;
+       
+        
+    }
+    
+    #second{
+        width:170px ;
+        font-size: 20px;
+        margin-top: 5px;
+    }
+    
+    
+    #third{
+        width:170px ;
+        font-size: 20px;
+        margin-top: 5px;
+    }
+    
+    #table_qna{
+        background-color: white;
+    
+    }
+    
+    /* #qnaques{
+    
+        font-size: 19px ;
+        width: 530px;
+    } */
+    
+       
+    #qnaseemore{
+        width: 200px;
+        height: 50px;
+        font-size: 20px;
+        border-radius: 15px;
+        margin-top: 10px;
+        margin-left: 170px;
+        margin-bottom: 20px;
+    }
+    .q_a_names{
+        font-size: 20px;
+        margin-left: 12px;
+        margin-top: 5px;
+    }
+    .qna_borderline{
+        width: 510px;
+    }
+
+}
+
+@media only screen and (min-width: 851px) and (max-width: 909px){
+
+
+
+   #q_ans_main{
+        margin-left:95px;
+        padding-left: 4px;
+        margin-top: -15px;
+    }
+        #searchbar{
+            width :570px;
+            height: 35px ;
+            font-size: 20px;
+            margin-top: 15%;
+           
+        }
+        
+
+    #qnabackground{
+        background: white;
+        width: 305px;
+    }
+    
+    #searchicon{
+       
+        height: 40px;
+        width : 40px;
+        margin-left: 2px;
+        margin-top: 112px;
+        
+    }
+    
+    #first{
+        width:170px ;
+        font-size: 20px;
+        margin-left: 12px;
+        margin-top: 5px;
+       
+        
+    }
+    
+    #second{
+        width:170px ;
+        font-size: 20px;
+        margin-top: 5px;
+    }
+    
+    
+    #third{
+        width:170px ;
+        font-size: 20px;
+        margin-top: 5px;
+    }
+    
+    #table_qna{
+        background-color: white;
+    
+    }
+    
+    /* #qnaques{
+    
+        font-size: 19px ;
+        width: 530px;
+    } */
+    
+      
+    #qnaseemore{
+        width: 200px;
+        height: 50px;
+        font-size: 20px;
+        border-radius: 15px;
+        margin-top: 10px;
+        margin-left: 170px;
+        margin-bottom: 20px;
+    }
+    .q_a_names{
+        font-size: 20px;
+        margin-left: 12px;
+        margin-top: 5px;
+    }
+    .qna_borderline{
+        width: 510px;
+    }
+
+}
+
+@media only screen and (min-width: 910px) and (max-width: 1023px){
+
+      
+    #q_ans_main{
+        margin-left:125px;
+        padding-left: 4px;
+        margin-top: -15px;
+    }
+        #searchbar{
+            width :570px;
+            height: 35px ;
+            font-size: 20px;
+            margin-top: 15%;
+           
+        }
+        
+
+    #qnabackground{
+        background: white;
+        width: 305px;
+    }
+    
+    #searchicon{
+       
+        height: 40px;
+        width : 40px;
+        margin-left: 2px;
+        margin-top: 117px;
+        
+    }
+    
+    #first{
+        width:170px ;
+        font-size: 20px;
+        margin-left: 12px;
+        margin-top: 5px;
+       
+        
+    }
+    
+    #second{
+        width:170px ;
+        font-size: 20px;
+        margin-top: 5px;
+    }
+    
+    
+    #third{
+        width:170px ;
+        font-size: 20px;
+        margin-top: 5px;
+    }
+    
+    #table_qna{
+        background-color: white;
+    
+    }
+    
+    /* #qnaques{
+    
+        font-size: 19px ;
+        width: 530px;
+    } */
+    
+    #qnaseemore{
+        width: 200px;
+        height: 50px;
+        font-size: 20px;
+        border-radius: 15px;
+        margin-top: 10px;
+        margin-left: 170px;
+        margin-bottom: 20px;
+    }
+    .q_a_names{
+        font-size: 20px;
+        margin-left: 12px;
+        margin-top: 5px;
+    }
+    .qna_borderline{
+        width: 620px;
+    }
+}
+@media only screen and (min-width: 1024px) and (max-width: 1100px) {
+  
+
+        
+      
+    #q_ans_main{
+        margin-left:145px;
+        padding-left: 4px;
+        margin-top: -15px;
+    }
+        #searchbar{
+            width :600px;
+            height: 40px ;
+            font-size: 23px;
+            margin-top: 13%;
+            margin-bottom: 15px;
+           
+        }
+        
+
+    #qnabackground{
+        background: white;
+        width: 305px;
+    }
+    
+    #searchicon{
+       
+        height: 50px;
+        width : 50px;
+        margin-left: 2px;
+        margin-top: 110px;
+        
+    }
+    
+    #first{
+        width:190px ;
+        font-size: 22px;
+        margin-left: 16px;
+        margin-top: 8px;
+       
+        
+    }
+    
+    #second{
+        width:190px ;
+        font-size: 22px;
+        margin-top: 8px;
+    }
+    
+    
+    #third{
+        width:190px ;
+        font-size: 22px;
+        margin-top: 8px;
+    }
+    
+    #table_qna{
+        background-color: white;
+    
+    }
+    
+    /* #qnaques{
+    
+        font-size: 19px ;
+        width: 530px;
+    } */
+    
+    #qnaseemore{
+        width: 240px;
+        height: 60px;
+        font-size: 25px;
+        border-radius: 15px;
+        margin-top: 10px;
+        margin-left: 190px;
+        margin-bottom: 20px;
+    }
+    .q_a_names{
+        font-size: 23px;
+        margin-left: 15px;
+        margin-top: 5px;
+    }
+    .qna_borderline{
+        width: 650px;
+    }
+}
+
+@media only screen and (min-width: 1101px) and (max-width: 1200px){
+ 
+ 
+      
+    #q_ans_main{
+        margin-left:195px;
+        padding-left: 4px;
+        margin-top: -15px;
+    }
+        #searchbar{
+            width :605px;
+            height: 40px ;
+            font-size: 23px;
+            margin-top: 13%;
+            margin-bottom: 15px;
+           
+        }
+        
+
+    #qnabackground{
+        background: white;
+        width: 305px;
+    }
+    
+    #searchicon{
+       
+        height: 50px;
+        width : 50px;
+        margin-left: 2px;
+        margin-top: 120px;
+        
+    }
+    
+    #first{
+        width:190px ;
+        font-size: 22px;
+        margin-left: 16px;
+        margin-top: 8px;
+       
+        
+    }
+    
+    #second{
+        width:190px ;
+        font-size: 22px;
+        margin-top: 8px;
+    }
+    
+    
+    #third{
+        width:190px ;
+        font-size: 22px;
+        margin-top: 8px;
+    }
+    
+    #table_qna{
+        background-color: white;
+    
+    }
+    
+    /* #qnaques{
+    
+        font-size: 19px ;
+        width: 530px;
+    } */
+    
+    #qnaseemore{
+        width: 240px;
+        height: 60px;
+        font-size: 25px;
+        border-radius: 15px;
+        margin-top: 10px;
+        margin-left: 190px;
+        margin-bottom: 20px;
+    }
+    .q_a_names{
+        font-size: 23px;
+        margin-left: 15px;
+        margin-top: 5px;
+    }
+    .qna_borderline{
+        width: 670px;
+    }
+}
+
+@media only screen and (min-width: 1201px) and (max-width: 1300px) {
+
+
+
+    #q_ans_main{
+        margin-left:235px;
+        padding-left: 4px;
+        margin-top: -15px;
+    }
+        #searchbar{
+            width :605px;
+            height: 40px ;
+            font-size: 23px;
+            margin-top: 12%;
+            margin-bottom: 15px;
+           
+        }
+        
+
+    #qnabackground{
+        background: white;
+        width: 305px;
+    }
+    
+    #searchicon{
+       
+        height: 50px;
+        width : 50px;
+        margin-left: 2px;
+        margin-top: 120px;
+        
+    }
+    
+    #first{
+        width:190px ;
+        font-size: 22px;
+        margin-left: 15px;
+        margin-top: 10px;
+       
+        
+    }
+    
+    #second{
+        width:190px ;
+        font-size: 22px;
+        margin-top: 8px;
+    }
+    
+    
+    #third{
+        width:190px ;
+        font-size: 22px;
+        margin-top: 8px;
+    }
+    
+    #table_qna{
+        background-color: white;
+    
+    }
+    
+    /* #qnaques{
+    
+        font-size: 19px ;
+        width: 530px;
+    } */
+    
+    #qnaseemore{
+        width: 240px;
+        height: 60px;
+        font-size: 25px;
+        border-radius: 15px;
+        margin-top: 10px;
+        margin-left: 190px;
+        margin-bottom: 20px;
+    }
+    .q_a_names{
+        font-size: 23px;
+        margin-left: 15px;
+        margin-top: 5px;
+    }
+    .qna_borderline{
+        width: 670px;
+    }
+}
+
+@media only screen and (min-width: 1301px) 
+and (max-width: 1359px){
+    #q_ans_main{
+        margin-left:280px;
+        padding-left: 4px;
+        margin-top: -30px;
+    }
+        #searchbar{
+            width :640px;
+            height: 45px ;
+            font-size: 23px;
+            margin-top: 12%;
+            margin-bottom: 15px;
+           
+        }
+        
+
+    #qnabackground{
+        background: white;
+        width: 305px;
+    }
+    
+    #searchicon{
+       
+        height: 50px;
+        width : 50px;
+        margin-left: 2px;
+        margin-top: 123px;
+        
+    }
+    
+    #first{
+        width:200px ;
+        font-size: 22px;
+        margin-left: 15px;
+        margin-top: 12px;
+       
+        
+    }
+    
+    #second{
+        width:200px ;
+        font-size: 22px;
+        margin-top: 12px;
+        margin-left: 1px;
+    
+        
+    }
+    
+    
+    #third{
+        width:200px ;
+        font-size: 22px;
+        margin-top: 12px;
+        margin-left: 2px;
+    
+    }
+    
+    #table_qna{
+        background-color: white;
+    
+    }
+    
+    /* #qnaques{
+    
+        font-size: 19px ;
+        width: 530px;
+    } */
+    
+    #qnaseemore{
+        width: 240px;
+        height: 60px;
+        font-size: 25px;
+        border-radius: 15px;
+        margin-top: 10px;
+        margin-left: 190px;
+        margin-bottom: 20px;
+    }
+    .q_a_names{
+        font-size: 23px;
+        margin-left: 15px;
+        margin-top: 5px;
+    }
+    .qna_borderline{
+        width: 690px;
+    }
+}
+
+@media only screen and (min-width: 1360px) and (max-width: 1439px){
+    #q_ans_main{
+        margin-left:300px;
+        padding-left: 4px;
+        margin-top: -30px;
+    }
+        #searchbar{
+            width :640px;
+            height: 45px ;
+            font-size: 23px;
+            margin-top: 12%;
+            margin-bottom: 15px;
+           
+        }
+        
+
+    #qnabackground{
+        background: white;
+        width: 305px;
+    }
+    
+    #searchicon{
+       
+        height: 50px;
+        width : 50px;
+        margin-left: 2px;
+        margin-top: 125px;
+        
+    }
+    
+    #first{
+        width:200px ;
+        font-size: 22px;
+        margin-left: 15px;
+        margin-top: 12px;
+       
+        
+    }
+    
+    #second{
+        width:200px ;
+        font-size: 22px;
+        margin-top: 12px;
+        margin-left: 2px;
+    
+        
+    }
+    
+    
+    #third{
+        width:200px ;
+        font-size: 22px;
+        margin-top: 12px;
+        margin-left: 3px;
+    
+    }
+    
+    #table_qna{
+        background-color: white;
+    
+    }
+    
+    /* #qnaques{
+    
+        font-size: 19px ;
+        width: 530px;
+    } */
+    
+    #qnaseemore{
+        width: 240px;
+        height: 60px;
+        font-size: 25px;
+        border-radius: 15px;
+        margin-top: 10px;
+        margin-left: 210px;
+        margin-bottom: 20px;
+    }
+    .q_a_names{
+        font-size: 23px;
+        margin-left: 15px;
+        margin-top: 5px;
+    }
+    .qna_borderline{
+        width: 710px;
+    }
+}
+
+@media only screen and (min-width: 1440px) 
+and (max-width: 1520px){
+    #q_ans_main{
+        margin-left:340px;
+        padding-left: 4px;
+        margin-top: -30px;
+    }
+        #searchbar{
+            width :640px;
+            height: 45px ;
+            font-size: 23px;
+            margin-top: 12%;
+            margin-bottom: 15px;
+           
+        }
+        
+
+    #qnabackground{
+        background: white;
+        width: 305px;
+    }
+    
+    #searchicon{
+       
+        height: 50px;
+        width : 50px;
+        margin-left: 2px;
+        margin-top: 130px;
+        
+    }
+    
+    #first{
+        width:200px ;
+        font-size: 22px;
+        margin-left: 15px;
+        margin-top: 12px;
+       
+        
+    }
+    
+    #second{
+        width:200px ;
+        font-size: 22px;
+        margin-top: 12px;
+        margin-left: 2px;
+    
+        
+    }
+    
+    
+    #third{
+        width:200px ;
+        font-size: 22px;
+        margin-top: 12px;
+        margin-left: 3px;
+    
+    }
+    
+    #table_qna{
+        background-color: white;
+    
+    }
+    
+    /* #qnaques{
+    
+        font-size: 19px ;
+        width: 530px;
+    } */
+    
+    #qnaseemore{
+        width: 240px;
+        height: 60px;
+        font-size: 25px;
+        border-radius: 15px;
+        margin-top: 10px;
+        margin-left: 210px;
+        margin-bottom: 20px;
+    }
+    .q_a_names{
+        font-size: 23px;
+        margin-left: 15px;
+        margin-top: 5px;
+    }
+    .qna_borderline{
+        width: 710px;
+    }
+}
+
+@media only screen and (min-width: 1521px) 
+and (max-width: 1599px){
+    #q_ans_main{
+        margin-left:360px;
+        padding-left: 4px;
+        margin-top: -30px;
+    }
+        #searchbar{
+            width :650px;
+            height: 45px ;
+            font-size: 23px;
+            margin-top: 12%;
+            margin-bottom: 15px;
+           
+        }
+        
+
+    #qnabackground{
+        background: white;
+        width: 305px;
+    }
+    
+    #searchicon{
+       
+        height: 50px;
+        width : 50px;
+        margin-left: 2px;
+        margin-top: 137px;
+        
+    }
+    
+    #first{
+        width:200px ;
+        font-size: 22px;
+        margin-left: 15px;
+        margin-top: 12px;
+       
+        
+    }
+    
+    #second{
+        width:200px ;
+        font-size: 22px;
+        margin-top: 12px;
+        margin-left: 3px;
+    
+        
+    }
+    
+    
+    #third{
+        width:200px ;
+        font-size: 22px;
+        margin-top: 12px;
+        margin-left: 5px;
+    
+    }
+    
+    #table_qna{
+        background-color: white;
+    
+    }
+    
+    /* #qnaques{
+    
+        font-size: 19px ;
+        width: 530px;
+    } */
+    
+    #qnaseemore{
+        width: 240px;
+        height: 60px;
+        font-size: 25px;
+        border-radius: 15px;
+        margin-top: 10px;
+        margin-left: 210px;
+        margin-bottom: 20px;
+    }
+    .q_a_names{
+        font-size: 23px;
+        margin-left: 15px;
+        margin-top: 5px;
+    }
+    .qna_borderline{
+        width: 710px;
+    }
+}
+@media only screen and (min-width: 1600px) 
+and (max-width: 1680px){
+    #q_ans_main{
+        margin-left:380px;
+        padding-left: 4px;
+        margin-top: -30px;
+    }
+        #searchbar{
+            width :650px;
+            height: 45px ;
+            font-size: 23px;
+            margin-top: 12%;
+            margin-bottom: 15px;
+           
+        }
+        
+
+    #qnabackground{
+        background: white;
+        width: 305px;
+    }
+    
+    #searchicon{
+       
+        height: 50px;
+        width : 50px;
+        margin-left: 2px;
+        margin-top: 144px;
+        
+    }
+    
+    #first{
+        width:200px ;
+        font-size: 22px;
+        margin-left: 15px;
+        margin-top: 12px;
+       
+        
+    }
+    
+    #second{
+        width:200px ;
+        font-size: 22px;
+        margin-top: 12px;
+        margin-left: 4px;
+    
+        
+    }
+    
+    
+    #third{
+        width:200px ;
+        font-size: 22px;
+        margin-top: 12px;
+        margin-left: 5px;
+    
+    }
+    
+    #table_qna{
+        background-color: white;
+    
+    }
+    
+    /* #qnaques{
+    
+        font-size: 19px ;
+        width: 530px;
+    } */
+    
+    #qnaseemore{
+        width: 240px;
+        height: 60px;
+        font-size: 25px;
+        border-radius: 15px;
+        margin-top: 10px;
+        margin-left: 210px;
+        margin-bottom: 20px;
+    }
+    .q_a_names{
+        font-size: 23px;
+        margin-left: 15px;
+        margin-top: 5px;
+    }
+    .qna_borderline{
+        width: 710px;
+    }
+}
+
+
+@media only screen and (min-width: 1680px) 
+and (max-width: 1760px){
+    #q_ans_main{
+        margin-left:450px;
+        padding-left: 4px;
+        margin-top: -20px;
+    }
+        #searchbar{
+            width :650px;
+            height: 45px ;
+            font-size: 23px;
+            margin-top: 12%;
+            margin-bottom: 15px;
+           
+        }
+        
+
+    #qnabackground{
+        background: white;
+        width: 305px;
+    }
+    
+    #searchicon{
+       
+        height: 50px;
+        width : 50px;
+        margin-left: 2px;
+        margin-top: 144px;
+        
+    }
+    
+    #first{
+        width:200px ;
+        font-size: 22px;
+        margin-left: 15px;
+        margin-top: 12px;
+       
+        
+    }
+    
+    #second{
+        width:200px ;
+        font-size: 22px;
+        margin-top: 12px;
+        margin-left: 4px;
+    
+        
+    }
+    
+    
+    #third{
+        width:200px ;
+        font-size: 22px;
+        margin-top: 12px;
+        margin-left: 6px;
+    
+    }
+    
+    #table_qna{
+        background-color: white;
+    
+    }
+    
+    /* #qnaques{
+    
+        font-size: 19px ;
+        width: 530px;
+    } */
+    
+    #qnaseemore{
+        width: 240px;
+        height: 60px;
+        font-size: 25px;
+        border-radius: 15px;
+        margin-top: 10px;
+        margin-left: 210px;
+        margin-bottom: 20px;
+    }
+    .q_a_names{
+        font-size: 23px;
+        margin-left: 15px;
+        margin-top: 5px;
+    }
+    .qna_borderline{
+        width: 710px;
+    }
+}
+@media only screen and (min-width: 1761px) 
+and (max-width: 1840px){
+    #q_ans_main{
+        margin-left:480px;
+        padding-left: 4px;
+        margin-top: -10px;
+    }
+        #searchbar{
+            width :650px;
+            height: 45px ;
+            font-size: 23px;
+            margin-top: 12%;
+            margin-bottom: 15px;
+           
+        }
+        
+
+    #qnabackground{
+        background: white;
+        width: 305px;
+    }
+    
+    #searchicon{
+       
+        height: 50px;
+        width : 50px;
+        margin-left: 2px;
+        margin-top: 152px;
+        
+    }
+    
+    #first{
+        width:200px ;
+        font-size: 22px;
+        margin-left: 15px;
+        margin-top: 12px;
+       
+        
+    }
+    
+    #second{
+        width:200px ;
+        font-size: 22px;
+        margin-top: 12px;
+        margin-left: 5px;
+    
+        
+    }
+    
+    
+    #third{
+        width:200px ;
+        font-size: 22px;
+        margin-top: 12px;
+        margin-left: 7px;
+    
+    }
+    
+    #table_qna{
+        background-color: white;
+    
+    }
+    
+    /* #qnaques{
+    
+        font-size: 19px ;
+        width: 530px;
+    } */
+    
+    #qnaseemore{
+        width: 240px;
+        height: 60px;
+        font-size: 25px;
+        border-radius: 15px;
+        margin-top: 10px;
+        margin-left: 210px;
+        margin-bottom: 20px;
+    }
+    .q_a_names{
+        font-size: 23px;
+        margin-left: 15px;
+        margin-top: 5px;
+    }
+    .qna_borderline{
+        width: 710px;
+    }
+}
+@media only screen and (min-width: 1841px) 
+and (max-width: 1919px){
+    #q_ans_main{
+        margin-left:550px;
+        padding-left: 4px;
+        margin-top: -50px;
+    }
+        #searchbar{
+            width :650px;
+            height: 45px ;
+            font-size: 23px;
+            margin-left: 3px;
+            margin-top: 15%;
+            margin-bottom: 25px;
+           
+        }
+        
+
+    #qnabackground{
+        background: white;
+        width: 305px;
+    }
+    
+    #searchicon{
+       
+        height: 50px;
+        width : 50px;
+        margin-left: 2px;
+        margin-top: 194px;
+        
+    }
+    
+    #first{
+        width:200px ;
+        font-size: 22px;
+        margin-left: 16px;
+        margin-top: 12px;
+       
+        
+    }
+    
+    #second{
+        width:200px ;
+        font-size: 22px;
+        margin-top: 12px;
+        margin-left: 6px;
+    
+        
+    }
+    
+    
+    #third{
+        width:200px ;
+        font-size: 22px;
+        margin-top: 12px;
+        margin-left: 7px;
+    
+    }
+    
+    #table_qna{
+        background-color: white;
+    
+    }
+    
+    /* #qnaques{
+    
+        font-size: 19px ;
+        width: 530px;
+    } */
+    
+    #qnaseemore{
+        width: 240px;
+        height: 60px;
+        font-size: 25px;
+        border-radius: 15px;
+        margin-top: 10px;
+        margin-left: 215px;
+        margin-bottom: 20px;
+    }
+    .q_a_names{
+        font-size: 23px;
+        margin-left: 16px;
+        margin-top: 5px;
+    }
+    .qna_borderline{
+        width: 710px;
+    }
+}
+@media only screen and (min-width: 1920px) 
+  and (max-width: 2000px){
+    #q_ans_main{
+        margin-left:570px;
+        padding-left: 4px;
+        margin-top: 20px;
+    }
+        #searchbar{
+            width :650px;
+            height: 45px ;
+            font-size: 23px;
+            margin-left: 3px;
+            margin-top: 8%;
+            margin-bottom: 25px;
+           
+        }
+        
+
+    #qnabackground{
+        background: white;
+        width: 305px;
+    }
+    
+    #searchicon{
+       
+        height: 50px;
+        width : 50px;
+        margin-left: 2px;
+        margin-top: 110px;
+        
+    }
+    
+    #first{
+        width:200px ;
+        font-size: 22px;
+        margin-left: 15px;
+        margin-top: 17px;
+       
+        
+    }
+    
+    #second{
+        width:200px ;
+        font-size: 22px;
+        margin-top: 15px;
+        margin-left: 6px;
+    
+        
+    }
+    
+    
+    #third{
+        width:200px ;
+        font-size: 22px;
+        margin-top: 15px;
+        margin-left: 12px;
+    
+    }
+    
+    #table_qna{
+        background-color: white;
+        
+    
+    }
+    
+    /* #qnaques{
+    
+        font-size: 19px ;
+        width: 530px;
+    } */
+    
+    #qnaseemore{
+        width: 240px;
+        height: 60px;
+        font-size: 25px;
+        border-radius: 15px;
+        margin-top: 10px;
+        margin-left: 215px;
+        margin-bottom: 20px;
+    }
+    .q_a_names{
+        font-size: 23px;
+        margin-left: 16px;
+        margin-top: 5px;
+    }
+    .qna_borderline{
+        width: 710px;
+    }
+} 

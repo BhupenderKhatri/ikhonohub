@@ -42,23 +42,23 @@ class dashboardnav extends Component {
     render(){
         return (
             <div className="nav_bar_dash">  
-                <div className="logo5">
-                    <img id="logo5" alt="ikhohub" onClick={()=>history.push('/dashboard')} src={logowhite}/>   
+                <div className="nav_dash_logo5">
+                    <img id="nav_dash_logo5" alt="ikhohub" onClick={()=>history.push('/dashboard')} src={logowhite}/>   
                 </div>
-                            <div className="restcomp">
-                                <img id="bell5" onClick={()=>history.push('/bell')} alt="ikhohub" src={bell}/>   
-                                <img id="cart5" onClick={()=>history.push('/cartLoggedIn')} alt="ikhohub" src={cart}/>   
+                            <div className="nav_dash_restcomp">
+                                <img id="nav_dash_bell" onClick={()=>history.push('/bell')} alt="ikhohub" src={bell}/>   
+                                <img id="nav_dash_cart" onClick={()=>history.push('/cartLoggedIn')} alt="ikhohub" src={cart}/>   
                             </div>
-                            <div class="dropdown">
-                                <img  class="dropicn" alt="Error"  src= {Facebook}/>
-                                    <div class="dropdown-content">
-                                        <button class="droplist" onClick={()=>history.push('/dashboard')}>Hello Khatri</button>
-                                        <button class="droplist" onClick={()=>history.push('/bell')}>Notification</button>
-                                        <button class="droplist" onClick={()=>history.push('/accountboard')}>Account</button>
-                                        <button class="droplist" onClick={()=>history.push('/help')}>Help</button>
-                        <button class="droplist" onClick={this.onSubmitlogout}>LogOut</button>
+                            <div class="nav_dash_dropdown">
+                                <img  class="nav_dash_dropicn" alt="Error"  src= {Facebook}/>
+                                    <div class="nav_dash_dropdown-content">
+                                        <button class="nav_dash_droplist" onClick={()=>history.push('/dashboard')}>Hello Khatri</button>
+                                        <button class="nav_dash_droplist" onClick={()=>history.push('/bell')}>Notification</button>
+                                        <button class="nav_dash_droplist" onClick={()=>history.push('/accountboard')}>Account</button>
+                                        <button class="nav_dash_droplist" onClick={()=>history.push('/help')}>Help</button>
+                        <button class="nav_dash_droplist" onClick={this.onSubmitlogout}>LogOut</button>
                                     </div>
-                         </div>
+                         </div> 
             </div>
 
         );
