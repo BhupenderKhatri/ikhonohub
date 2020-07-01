@@ -14,7 +14,7 @@
 
 
 .logo1 {
-    margin-left: 50px;
+    margin-left:5%;
     opacity: 1;
     margin-top: -3px;
     position: absolute;
@@ -29,18 +29,22 @@
     cursor: pointer;
 }
 
+
 #login_btn1 {
 
     float: left;
     margin-top: -33px;
     font-size: 25px;
     font-family: Avenir;
+    
     letter-spacing: 0px;
     color: #FFFFFF;
     text-align: center;
     padding: 0;
     border: none;
-    background: none;
+    background:none;
+    width: 80px;
+    height: 35px;
 }
 
 #login_btn1:focus {
@@ -50,11 +54,10 @@
 #login_btn1:hover {
     cursor: pointer;
     border-radius: 24px;
+    width: 80px;
+    height: 35px;
     background-color: orangered;
-    padding-left: 7px;
-    padding-right: 7px;
-    padding-bottom: 5px;
-    padding-top: 2px;
+
     
 }
 
@@ -66,12 +69,14 @@
 #signup_btn1 {
     font-family: Avenir;
     float: left;
-    margin-top: -33px;
+    margin-top: -35px;
     margin-left: 1426px;
     font-size: 25px;
     letter-spacing: 0px;
     color: #FFFFFF;
     padding: 0;
+    width: 90px;
+    height: 35px;
     border: none;
     background: none;
   
@@ -80,11 +85,9 @@
 #signup_btn1:hover {
     cursor: pointer;
     border-radius: 24px;
+    width: 90px;
+    height: 35px;
     background-color: orangered;
-    padding-left: 7px;
-    padding-right: 7px;
-    padding-bottom: 5px;
-    padding-top: 2px;
 }
 
 #signup_btn1:active {
@@ -130,17 +133,17 @@
     }
 
     #login_btn1 {
-        margin-left: 200px;
+        margin-left: 180px;
         font-size: 15px;
-        margin-top: -22px;
+        margin-top: -30px;
     }
     #signup_btn1 {
-        margin-left: 258px;
+        margin-left: 228px;
         font-size: 15px;
-        margin-top: -22px;
+        margin-top: -35px;
     }
     #bell1 {
-        margin-left: 133px;
+        margin-left: 140px;
         height: 20px;
         margin-top: 15px;
     }
@@ -150,7 +153,7 @@
     }
     .logo1 {
         width: 100px;
-        margin-top: 10px;
+        margin-top: 8px;
         margin-left: 5px;
     }
     #nav_motivation{
@@ -172,17 +175,17 @@ and (max-width: 374px)
         
     }
     #login_btn1 {
-        margin-left: 233px;
+        margin-left: 203px;
         font-size: 15px;
-        margin-top: -22px;
+        margin-top: -30px;
     }
     #signup_btn1 {
-        margin-left: 292px;
+        margin-left: 258px;
         font-size: 15px;
-        margin-top: -22px;
+        margin-top: -35px;
     }
     #bell1 {
-        margin-left: 160px;
+        margin-left: 150px;
         height: 20px;
         margin-top: 15px;
     }
@@ -192,7 +195,7 @@ and (max-width: 374px)
     }
     .logo1 {
         width: 100px;
-        margin-top: 10px;
+        margin-top: 8px;
         margin-left: 5px;
 
     }
@@ -213,17 +216,17 @@ and (max-width: 374px)
         
     }
     #login_btn1 {
-        margin-left: 242px;
+        margin-left: 230px;
         font-size: 15px;
-        margin-top: -22px;
+        margin-top: -30px;
     }
     #signup_btn1 {
-        margin-left: 305px;
+        margin-left: 285px;
         font-size: 15px;
-        margin-top: -22px;
+        margin-top: -35px;
     }
     #bell1 {
-        margin-left: 164px;
+        margin-left: 178px;
         height: 20px;
         margin-top: 15px;
     }
@@ -233,7 +236,7 @@ and (max-width: 374px)
     }
     .logo1 {
         width: 110px;
-        margin-top: 10px;
+        margin-top: 8px;
         margin-left: 5px;
     }
     #nav_motivation{
@@ -253,17 +256,17 @@ and (max-width: 413px)
         
     }
     #login_btn1 {
-        margin-left: 272px;
+        margin-left: 252px;
         font-size: 15px;
-        margin-top: -22px;
+        margin-top: -30px;
     }
     #signup_btn1 {
-        margin-left: 335px;
+        margin-left: 305px;
         font-size: 15px;
-        margin-top: -22px;
+        margin-top: -35px;
     }
     #bell1 {
-        margin-left: 184px;
+        margin-left: 170px;
         height: 20px;
         margin-top: 15px;
     }
@@ -273,7 +276,7 @@ and (max-width: 413px)
     }
     .logo1 {
         width: 115px;
-        margin-top: 10px;
+        margin-top: 8px;
         margin-left: 5px;
     }
     #nav_motivation{
@@ -297,17 +300,17 @@ and (max-width: 449px)
         
     }
     #login_btn1 {
-        margin-left: 276px;
+        margin-left: 256px;
         font-size: 15px;
-        margin-top: -22px;
+        margin-top: -30px;
     }
     #signup_btn1 {
-        margin-left: 339px;
+        margin-left: 309px;
         font-size: 15px;
-        margin-top: -22px;
+        margin-top: -35px;
     }
     #bell1 {
-        margin-left: 188px;
+        margin-left: 180px;
         height: 20px;
         margin-top: 15px;
     }
@@ -317,7 +320,7 @@ and (max-width: 449px)
     }
     .logo1 {
         width: 110px;
-        margin-top: 10px;
+        margin-top: 8px;
         margin-left: 5px;
     }
     #nav_motivation{
@@ -338,17 +341,17 @@ and (max-width: 449px)
         
     }
     #login_btn1 {
-        margin-left: 276px;
+        margin-left: 250px;
         font-size: 15px;
-        margin-top: -22px;
+        margin-top: -30px;
     }
     #signup_btn1 {
-        margin-left: 339px;
+        margin-left: 309px;
         font-size: 15px;
-        margin-top: -22px;
+        margin-top: -35px;
     }
     #bell1 {
-        margin-left: 188px;
+        margin-left: 190px;
         height: 20px;
         margin-top: 15px;
     }
@@ -381,17 +384,17 @@ and (max-width: 449px)
          
      }
      #login_btn1 {
-         margin-left: 276px;
+         margin-left: 256px;
          font-size: 15px;
-         margin-top: -22px;
+         margin-top: -30px;
      }
      #signup_btn1 {
-         margin-left: 339px;
+         margin-left: 319px;
          font-size: 15px;
-         margin-top: -22px;
+         margin-top: -35px;
      }
      #bell1 {
-         margin-left: 188px;
+         margin-left: 190px;
          height: 20px;
          margin-top: 15px;
      }
@@ -401,7 +404,7 @@ and (max-width: 449px)
      }
      .logo1 {
          width: 125px;
-         margin-top: 10px;
+         margin-top: 8px;
          margin-left: 5px;
      }
      #nav_motivation{
@@ -426,17 +429,17 @@ and (max-width: 617px)
          
      }
      #login_btn1 {
-         margin-left: 276px;
+         margin-left: 256px;
          font-size: 17px;
-         margin-top: -22px;
+         margin-top: -30px;
      }
      #signup_btn1 {
-         margin-left: 339px;
+         margin-left: 319px;
          font-size: 17px;
-         margin-top: -22px;
+         margin-top: -35px;
      }
      #bell1 {
-         margin-left: 188px;
+         margin-left: 190px;
          height: 21px;
          margin-top: 15px;
      }
@@ -446,7 +449,7 @@ and (max-width: 617px)
      }
      .logo1 {
          width: 125px;
-         margin-top: 10px;
+         margin-top: 8px;
          margin-left: 5px;
      }
    
@@ -472,15 +475,15 @@ and (max-width: 617px)
      #login_btn1 {
          margin-left: 276px;
          font-size: 17px;
-         margin-top: -22px;
+         margin-top: -30px;
      }
      #signup_btn1 {
          margin-left: 339px;
          font-size: 17px;
-         margin-top: -22px;
+         margin-top: -35px;
      }
      #bell1 {
-         margin-left: 188px;
+         margin-left: 208px;
          height: 21px;
          margin-top: 15px;
      }
@@ -490,7 +493,7 @@ and (max-width: 617px)
      }
      .logo1 {
          width: 127px;
-         margin-top: 10px;
+         margin-top: 8px;
          margin-left: 5px;
      }
      #nav_motivation{
@@ -512,17 +515,17 @@ and (max-width: 617px)
          
      }
      #login_btn1 {
-         margin-left: 276px;
+         margin-left: 260px;
          font-size: 18px;
-         margin-top: -22px;
+         margin-top: -30px;
      }
      #signup_btn1 {
-         margin-left: 339px;
+         margin-left: 319px;
          font-size: 18px;
-         margin-top: -22px;
+         margin-top: -35px;
      }
      #bell1 {
-         margin-left: 188px;
+         margin-left: 195px;
          height: 21px;
          margin-top: 15px;
      }
@@ -532,7 +535,7 @@ and (max-width: 617px)
      }
      .logo1 {
          width: 127px;
-         margin-top: 10px;
+         margin-top: 8px;
          margin-left: 5px;
      }
      #nav_motivation{
@@ -556,15 +559,15 @@ and (max-width: 617px)
      #login_btn1 {
          margin-left: 266px;
          font-size: 20px;
-         margin-top: -24px;
+         margin-top: -30px;
      }
      #signup_btn1 {
          margin-left: 339px;
          font-size: 20px;
-         margin-top: -24px;
+         margin-top: -35px;
      }
      #bell1 {
-         margin-left: 160px;
+         margin-left: 183px;
          height: 24px;
          margin-top: 17px;
      }
@@ -574,7 +577,7 @@ and (max-width: 617px)
      }
      .logo1 {
          width: 133px;
-         margin-top: 10px;
+         margin-top: 8px;
          margin-left: 15px;
      }
      #nav_motivation{
@@ -598,15 +601,15 @@ and (max-width: 617px)
      #login_btn1 {
          margin-left: 258px;
          font-size: 20px;
-         margin-top: -24px;
+         margin-top: -30px;
      }
      #signup_btn1 {
          margin-left: 339px;
          font-size: 20px;
-         margin-top: -24px;
+         margin-top: -35px;
      }
      #bell1 {
-         margin-left: 160px;
+         margin-left: 175px;
          height: 24px;
          margin-top: 17px;
      }
@@ -616,7 +619,7 @@ and (max-width: 617px)
      }
      .logo1 {
          width: 133px;
-         margin-top: 10px;
+         margin-top: 8px;
          margin-left: 15px;
      }
      #nav_motivation{
@@ -641,15 +644,15 @@ and (max-width: 617px)
      #login_btn1 {
          margin-left: 258px;
          font-size: 20px;
-         margin-top: -24px;
+         margin-top: -30px;
      }
      #signup_btn1 {
          margin-left: 339px;
          font-size: 20px;
-         margin-top: -24px;
+         margin-top: -35px;
      }
      #bell1 {
-         margin-left: 160px;
+         margin-left: 175px;
          height: 24px;
          margin-top: 17px;
      }
@@ -659,7 +662,7 @@ and (max-width: 617px)
      }
      .logo1 {
          width: 136px;
-         margin-top: 10px;
+         margin-top: 8px;
          margin-left: 15px;
      }
      #nav_motivation{
@@ -683,17 +686,17 @@ and (max-width: 617px)
      #login_btn1 {
          margin-left: 338px;
          font-size: 22px;
-         margin-top: 18px;
+         margin-top: 14px;
      }
      #signup_btn1 {
          margin-left: 429px;
          font-size: 22px;
-         margin-top: -24px;
+         margin-top: -35px;
      }
      #bell1 {
-         margin-left: -150px;
+         margin-left: -175px;
          height: 24px;
-         margin-top: 17px;
+         margin-top: 21px;
      }
      #cart1 {
          height: 24px;
@@ -701,7 +704,7 @@ and (max-width: 617px)
      }
      .logo1 {
          width: 150px;
-         margin-top: 10px;
+         margin-top: 8px;
          margin-left: 15px;
      }
      #nav_motivation{
@@ -716,7 +719,7 @@ and (max-width: 617px)
 @media only screen and (min-width: 1101px) and (max-width: 1200px) {
 
     .restcomp{
-        margin-left: 570px;
+        margin-left: 50%;
     }
      .nav_bar1 {
        
@@ -724,19 +727,19 @@ and (max-width: 617px)
          
      }
      #login_btn1 {
-         margin-left: 338px;
+         margin-left: 318px;
          font-size: 25px;
          margin-top: 16px;
      }
      #signup_btn1 {
          margin-left: 429px;
          font-size: 25px;
-         margin-top: -28.5px;
+         margin-top: -35px;
      }
      #bell1 {
-         margin-left: -160px;
+         margin-left: -180px;
          height: 25px;
-         margin-top: 17px;
+         margin-top: 21px;
      }
      #cart1 {
          height: 25px;
@@ -744,7 +747,7 @@ and (max-width: 617px)
      }
      .logo1 {
          width: 160px;
-         margin-top: 10px;
+         margin-top: 8px;
          margin-left: 15px;
      }
      #nav_motivation{
@@ -758,7 +761,8 @@ and (max-width: 617px)
 
 @media only screen and (min-width: 1201px) and (max-width: 1300px) {
     .restcomp{
-        margin-left: 655px;
+        margin-left: 50%;
+        
     }
      .nav_bar1 {
        
@@ -766,28 +770,28 @@ and (max-width: 617px)
          
      }
      #login_btn1 {
-         margin-left: 338px;
-         font-size: 25px;
-         margin-top: 16px;
-     }
-     #signup_btn1 {
-         margin-left: 429px;
-         font-size: 25px;
-         margin-top: -28.5px;
-     }
-     #bell1 {
-         margin-left: -160px;
-         height: 25px;
-         margin-top: 17px;
-     }
+        margin-left: 318px;
+        font-size: 25px;
+        margin-top: 16px;
+    }
+    #signup_btn1 {
+        margin-left: 429px;
+        font-size: 25px;
+        margin-top: -35px;
+    }
+    #bell1 {
+        margin-left: -180px;
+        height: 25px;
+        margin-top: 21px;
+    }
      #cart1 {
          height: 25px;
          margin-left: 18px;
      }
      .logo1 {
          width: 160px;
-         margin-top: 10px;
-         margin-left: 15px;
+         margin-top: 8px;
+         margin-left: 5%;
      }
      #nav_motivation{
         
@@ -798,7 +802,8 @@ and (max-width: 617px)
 
 @media only screen and (min-width: 1301px) and (max-width: 1360px) {
     .restcomp{
-        margin-left: 755px;
+        margin-left: 55%;
+        
     }
      .nav_bar1 {
        
@@ -806,28 +811,28 @@ and (max-width: 617px)
          
      }
      #login_btn1 {
-         margin-left: 338px;
-         font-size: 25px;
-         margin-top: 16px;
-     }
-     #signup_btn1 {
-         margin-left: 429px;
-         font-size: 25px;
-         margin-top: -30px;
-     }
-     #bell1 {
-         margin-left: -166px;
-         height: 28px;
-         margin-top: 17px;
-     }
+        margin-left: 318px;
+        font-size: 25px;
+        margin-top: 16px;
+    }
+    #signup_btn1 {
+        margin-left: 429px;
+        font-size: 25px;
+        margin-top: -35px;
+    }
+    #bell1 {
+        margin-left: -180px;
+        height: 25px;
+        margin-top: 21px;
+    }
      #cart1 {
          height: 28px;
          margin-left: 18px;
      }
      .logo1 {
          width: 160px;
-         margin-top: 10px;
-         margin-left: 15px;
+         margin-top: 8px;
+         margin-left: 5%;
      }
      #nav_motivation{
         
@@ -838,7 +843,7 @@ and (max-width: 617px)
 
 @media only screen and (min-width: 1361px) and (max-width: 1440px) {
     .restcomp{
-        margin-left: 820px;
+        margin-left: 55%;
     }
      .nav_bar1 {
        
@@ -846,28 +851,28 @@ and (max-width: 617px)
          
      }
      #login_btn1 {
-         margin-left: 338px;
-         font-size: 25px;
-         margin-top: 16px;
-     }
-     #signup_btn1 {
-         margin-left: 429px;
-         font-size: 25px;
-         margin-top: -31px;
-     }
-     #bell1 {
-         margin-left: -166px;
-         height: 28px;
-         margin-top: 17px;
-     }
+        margin-left: 318px;
+        font-size: 25px;
+        margin-top: 16px;
+    }
+    #signup_btn1 {
+        margin-left: 429px;
+        font-size: 25px;
+        margin-top: -35px;
+    }
+    #bell1 {
+        margin-left: -180px;
+        height: 25px;
+        margin-top: 21px;
+    }
      #cart1 {
          height: 28px;
          margin-left: 18px;
      }
      .logo1 {
          width: 160px;
-         margin-top: 10px;
-         margin-left: 15px;
+         margin-top: 8px;
+         margin-left: 5%;
      }
      #nav_motivation{
         
@@ -878,7 +883,7 @@ and (max-width: 617px)
 
 @media only screen and (min-width: 1441px) and (max-width: 1520px) {
     .restcomp{
-        margin-left: 890px;
+        margin-left: 55%;
     }
      .nav_bar1 {
        
@@ -886,20 +891,20 @@ and (max-width: 617px)
          
      }
      #login_btn1 {
-         margin-left: 345px;
-         font-size: 25px;
-         margin-top: -31px;
-     }
-     #signup_btn1 {
-         margin-left: 439px;
-         font-size: 25px;
-         margin-top: -31px;
-     }
-     #bell1 {
-         margin-left: 220px;
-         height: 29px;
-         margin-top: 18px;
-     }
+        margin-left: 318px;
+        font-size: 25px;
+        margin-top: 16px;
+    }
+    #signup_btn1 {
+        margin-left: 429px;
+        font-size: 25px;
+        margin-top: -35px;
+    }
+    #bell1 {
+        margin-left: -195px;
+        height: 25px;
+        margin-top: 21px;
+    }
      #cart1 {
          height: 29px;
          margin-left: 26px;
@@ -907,8 +912,8 @@ and (max-width: 617px)
      }
      .logo1 {
          width: 170px;
-         margin-top: 10px;
-         margin-left: 15px;
+         margin-top: 8px;
+         margin-left: 5%;
      }
      #nav_motivation{
         
@@ -920,7 +925,7 @@ and (max-width: 617px)
 
 @media only screen and (min-width: 1521px) and (max-width: 1600px) {
     .restcomp{
-        margin-left: 960px;
+        margin-left: 57%;
     }
      .nav_bar1 {
        
@@ -928,20 +933,20 @@ and (max-width: 617px)
          
      }
      #login_btn1 {
-         margin-left: 345px;
-         font-size: 25px;
-         margin-top: -31px;
-     }
-     #signup_btn1 {
-         margin-left: 439px;
-         font-size: 25px;
-         margin-top: -31px;
-     }
-     #bell1 {
-         margin-left: 220px;
-         height: 29px;
-         margin-top: 18px;
-     }
+        margin-left: 318px;
+        font-size: 25px;
+        margin-top: 16px;
+    }
+    #signup_btn1 {
+        margin-left: 429px;
+        font-size: 25px;
+        margin-top: -35px;
+    }
+    #bell1 {
+        margin-left: -195px;
+        height: 25px;
+        margin-top: 21px;
+    }
      #cart1 {
          height: 29px;
          margin-left: 26px;
@@ -949,8 +954,8 @@ and (max-width: 617px)
      }
      .logo1 {
          width: 180px;
-         margin-top: 10px;
-         margin-left: 15px;
+         margin-top: 8px;
+         margin-left: 6%;
      }
      #nav_motivation{
         
@@ -962,7 +967,7 @@ and (max-width: 617px)
 
 @media only screen and (min-width: 1601px) and (max-width: 1680px) {
     .restcomp{
-        margin-left: 1040px;
+        margin-left: 58%;
     }
      .nav_bar1 {
        
@@ -970,20 +975,20 @@ and (max-width: 617px)
          
      }
      #login_btn1 {
-         margin-left: 345px;
-         font-size: 25px;
-         margin-top: -31px;
-     }
-     #signup_btn1 {
-         margin-left: 439px;
-         font-size: 25px;
-         margin-top: -31px;
-     }
-     #bell1 {
-         margin-left: 220px;
-         height: 29px;
-         margin-top: 18px;
-     }
+        margin-left: 318px;
+        font-size: 25px;
+        margin-top: 16px;
+    }
+    #signup_btn1 {
+        margin-left: 429px;
+        font-size: 25px;
+        margin-top: -35px;
+    }
+    #bell1 {
+        margin-left: -195px;
+        height: 25px;
+        margin-top: 21px;
+    }
      #cart1 {
          height: 29px;
          margin-left: 26px;
@@ -991,8 +996,8 @@ and (max-width: 617px)
      }
      .logo1 {
          width: 190px;
-         margin-top: 10px;
-         margin-left: 15px;
+         margin-top: 8px;
+         margin-left: 7%;
      }
      #nav_motivation{
         
@@ -1004,7 +1009,7 @@ and (max-width: 617px)
 
 @media only screen and (min-width: 1680px) and (max-width: 1760px) {
     .restcomp{
-        margin-left: 1120px;
+        margin-left:60%;
     }
      .nav_bar1 {
        
@@ -1012,20 +1017,20 @@ and (max-width: 617px)
          
      }
      #login_btn1 {
-         margin-left: 345px;
-         font-size: 26px;
-         margin-top: -31px;
-     }
-     #signup_btn1 {
-         margin-left: 439px;
-         font-size: 26px;
-         margin-top: -31px;
-     }
-     #bell1 {
-         margin-left: 220px;
-         height: 29px;
-         margin-top: 18px;
-     }
+        margin-left: 318px;
+        font-size: 25px;
+        margin-top: 16px;
+    }
+    #signup_btn1 {
+        margin-left: 429px;
+        font-size: 25px;
+        margin-top: -35px;
+    }
+    #bell1 {
+        margin-left: -195px;
+        height: 25px;
+        margin-top: 21px;
+    }
      #cart1 {
          height: 29px;
          margin-left: 26px;
@@ -1033,8 +1038,8 @@ and (max-width: 617px)
      }
      .logo1 {
          width: 200px;
-         margin-top: 10px;
-         margin-left: 15px;
+         margin-top: 8px;
+         margin-left: 7%;
      }
      #nav_motivation{
         
@@ -1044,9 +1049,352 @@ and (max-width: 617px)
      }
 }
 
-@media only screen and (min-width: 1760px) and (max-width: 1840px) {
+@media only screen and (min-width: 1760px) and (max-width: 1792px) {
     .restcomp{
-        margin-left: 1200px;
+        margin-left: 60%;
+    }
+     .nav_bar1 {
+       
+         height: 700px;
+         
+     }
+     #login_btn1 {
+        margin-left: 318px;
+        font-size: 25px;
+        margin-top: 16px;
+    }
+    #signup_btn1 {
+        margin-left: 429px;
+        font-size: 25px;
+        margin-top: -35px;
+    }
+    #bell1 {
+        margin-left: -195px;
+        height: 25px;
+        margin-top: 21px;
+    }
+     #cart1 {
+         height: 29px;
+         margin-left: 26px;
+       
+     }
+     .logo1 {
+         width: 210px;
+         margin-top: 8px;
+         margin-left:8%;
+     }
+     #nav_motivation{
+        
+        margin-top:260px;
+        margin-left: -670px;
+        font-size:54px;
+     }
+
+}
+
+@media only screen and (min-width: 1793px) and (max-width: 1837px) {
+    .restcomp{
+        margin-left: 61%;
+    }
+     .nav_bar1 {
+       
+         height: 700px;
+         
+     }
+     #login_btn1 {
+        margin-left: 318px;
+        font-size: 25px;
+        margin-top: 16px;
+    }
+    #signup_btn1 {
+        margin-left: 429px;
+        font-size: 25px;
+        margin-top: -35px;
+    }
+    #bell1 {
+        margin-left: -195px;
+        height: 25px;
+        margin-top: 21px;
+    }
+     #cart1 {
+         height: 29px;
+         margin-left: 26px;
+       
+     }
+     .logo1 {
+         width: 210px;
+         margin-top: 8px;
+         margin-left:8%;
+     }
+     #nav_motivation{
+        
+        margin-top:260px;
+        margin-left: -670px;
+        font-size:54px;
+     }
+
+}
+@media only screen and (min-width: 1838px) and (max-width: 2418px) {
+    .restcomp{
+        margin-left: 62.5%;
+    }
+     .nav_bar1 {
+       
+         height: 700px;
+         
+     }
+     #login_btn1 {
+        margin-left: 318px;
+        font-size: 25px;
+        margin-top: 16px;
+    }
+    #signup_btn1 {
+        margin-left: 429px;
+        font-size: 25px;
+        margin-top: -35px;
+    }
+    #bell1 {
+        margin-left: -195px;
+        height: 25px;
+        margin-top: 21px;
+    }
+     #cart1 {
+         height: 29px;
+         margin-left: 26px;
+       
+     }
+     .logo1 {
+         width: 210px;
+         margin-top: 8px;
+         margin-left:8%;
+     }
+     #nav_motivation{
+        
+        margin-top:260px;
+        margin-left: -670px;
+        font-size:54px;
+     }
+
+}
+
+@media only screen and (min-width: 2419px) and (max-width: 2591px) {
+    .restcomp{
+        margin-left: 65%;
+    }
+     .nav_bar1 {
+       
+         height: 700px;
+         
+     }
+     #login_btn1 {
+        margin-left: 318px;
+        font-size: 25px;
+        margin-top: 16px;
+    }
+    #signup_btn1 {
+        margin-left: 429px;
+        font-size: 25px;
+        margin-top: -35px;
+    }
+    #bell1 {
+        margin-left: -195px;
+        height: 25px;
+        margin-top: 21px;
+    }
+     #cart1 {
+         height: 29px;
+         margin-left: 26px;
+       
+     }
+     .logo1 {
+         width: 210px;
+         margin-top: 8px;
+         margin-left:8%;
+     }
+     #nav_motivation{
+        
+        margin-top:260px;
+        margin-left: -670px;
+        font-size:54px;
+     }
+
+}
+
+@media only screen and (min-width: 2592px) and (max-width: 2748px) {
+    .restcomp{
+        margin-left: 67%;
+    }
+     .nav_bar1 {
+       
+         height: 700px;
+         
+     }
+     #login_btn1 {
+        margin-left: 318px;
+        font-size: 25px;
+        margin-top: 16px;
+    }
+    #signup_btn1 {
+        margin-left: 429px;
+        font-size: 25px;
+        margin-top: -35px;
+    }
+    #bell1 {
+        margin-left: -195px;
+        height: 25px;
+        margin-top: 21px;
+    }
+     #cart1 {
+         height: 29px;
+         margin-left: 26px;
+       
+     }
+     .logo1 {
+         width: 210px;
+         margin-top: 8px;
+         margin-left:8%;
+     }
+     #nav_motivation{
+        
+        margin-top:260px;
+        margin-left: -670px;
+        font-size:54px;
+     }
+
+}
+
+@media only screen and (min-width: 2749px) and (max-width: 2925px) {
+    .restcomp{
+        margin-left: 69%;
+    }
+     .nav_bar1 {
+       
+         height: 700px;
+         
+     }
+     #login_btn1 {
+        margin-left: 318px;
+        font-size: 25px;
+        margin-top: 16px;
+    }
+    #signup_btn1 {
+        margin-left: 429px;
+        font-size: 25px;
+        margin-top: -35px;
+    }
+    #bell1 {
+        margin-left: -195px;
+        height: 25px;
+        margin-top: 21px;
+    }
+     #cart1 {
+         height: 29px;
+         margin-left: 26px;
+       
+     }
+     .logo1 {
+         width: 210px;
+         margin-top: 8px;
+         margin-left:8%;
+     }
+     #nav_motivation{
+        
+        margin-top:260px;
+        margin-left: -670px;
+        font-size:54px;
+     }
+
+}
+
+@media only screen and (min-width: 2926px) and (max-width: 3000px) {
+    .restcomp{
+        margin-left: 72%;
+    }
+     .nav_bar1 {
+       
+         height: 700px;
+         
+     }
+     #login_btn1 {
+        margin-left: 318px;
+        font-size: 25px;
+        margin-top: 16px;
+    }
+    #signup_btn1 {
+        margin-left: 429px;
+        font-size: 25px;
+        margin-top: -35px;
+    }
+    #bell1 {
+        margin-left: -195px;
+        height: 25px;
+        margin-top: 21px;
+    }
+     #cart1 {
+         height: 29px;
+         margin-left: 26px;
+       
+     }
+     .logo1 {
+         width: 210px;
+         margin-top: 8px;
+         margin-left:8%;
+     }
+     #nav_motivation{
+        
+        margin-top:260px;
+        margin-left: -670px;
+        font-size:54px;
+     }
+
+}
+
+/* 
+@media only screen and (min-width: 1912px) and (max-width: 2099px) {
+    .restcomp{
+        margin-left: 66%;
+    }
+     .nav_bar1 {
+       
+         height: 700px;
+         
+     }
+     #login_btn1 {
+        margin-left: 318px;
+        font-size: 25px;
+        margin-top: 16px;
+    }
+    #signup_btn1 {
+        margin-left: 429px;
+        font-size: 25px;
+        margin-top: -35px;
+    }
+    #bell1 {
+        margin-left: -195px;
+        height: 25px;
+        margin-top: 17px;
+    }
+     #cart1 {
+         height: 29px;
+         margin-left: 26px;
+       
+     }
+     .logo1 {
+         width: 210px;
+         margin-top: 10px;
+         margin-left:8%;
+     }
+     #nav_motivation{
+        
+        margin-top:260px;
+        margin-left: -670px;
+        font-size:54px;
+     }
+}
+
+@media only screen and (min-width: 2100px) and (max-width: 3000px) {
+    .restcomp{
+        margin-left: 65%;
     }
      .nav_bar1 {
        
@@ -1057,11 +1405,12 @@ and (max-width: 617px)
          margin-left: 345px;
          font-size: 28px;
          margin-top: -31px;
+         margin-bottom: -5px;
      }
      #signup_btn1 {
          margin-left: 439px;
          font-size: 28px;
-         margin-top: -31px;
+         margin-top: -32px;
      }
      #bell1 {
          margin-left: 220px;
@@ -1076,7 +1425,7 @@ and (max-width: 617px)
      .logo1 {
          width: 210px;
          margin-top: 10px;
-         margin-left:20px;
+         margin-left:8%;
      }
      #nav_motivation{
         
@@ -1084,16 +1433,14 @@ and (max-width: 617px)
         margin-left: -670px;
         font-size:54px;
      }
-
 }
-
-@media only screen and (min-width: 1840px) and (max-width: 1920px) {
+@media only screen and (min-width: 1912px) and (max-width: 2099px) {
     .restcomp{
-        margin-left: 1280px;
+        margin-left: 66%;
     }
      .nav_bar1 {
        
-         height: 720px;
+         height: 700px;
          
      }
      #login_btn1 {
@@ -1104,7 +1451,7 @@ and (max-width: 617px)
      #signup_btn1 {
          margin-left: 439px;
          font-size: 28px;
-         margin-top: -31px;
+         margin-top: -32px;
      }
      #bell1 {
          margin-left: 220px;
@@ -1117,39 +1464,39 @@ and (max-width: 617px)
        
      }
      .logo1 {
-         width: 220px;
+         width: 210px;
          margin-top: 10px;
-         margin-left: 20px;
+         margin-left:8%;
      }
      #nav_motivation{
         
-        margin-top:280px;
-        margin-left: -720px;
-        font-size:56px;
+        margin-top:260px;
+        margin-left: -670px;
+        font-size:54px;
      }
 }
 
-@media only screen and (min-width: 1920px) and (max-width: 2000px) {
+@media only screen and (min-width: 2100px) and (max-width: 2312px) {
     .restcomp{
-        margin-left: 1280px;
+        margin-left: 69%;
     }
      .nav_bar1 {
        
-         height: 750px;
+         height: 700px;
          
      }
      #login_btn1 {
-         margin-left: 435px;
-         font-size: 30px;
-         margin-top: 18px;
-     }
-     #signup_btn1 {
-         margin-left: 543px;
-         font-size: 30px;
+         margin-left: 345px;
+         font-size: 28px;
          margin-top: -31px;
      }
+     #signup_btn1 {
+         margin-left: 439px;
+         font-size: 28px;
+         margin-top: -32px;
+     }
      #bell1 {
-         margin-left: -200px;
+         margin-left: 220px;
          height: 29px;
          margin-top: 18px;
      }
@@ -1159,14 +1506,143 @@ and (max-width: 617px)
        
      }
      .logo1 {
-         width: 240px;
+         width: 210px;
          margin-top: 10px;
-         margin-left:22px;
+         margin-left:8%;
      }
      #nav_motivation{
         
-        margin-top:300px;
-        margin-left: -730px;
-        font-size:60px;
+        margin-top:260px;
+        margin-left: -670px;
+        font-size:54px;
      }
 }
+
+
+@media only screen and (min-width: 1912px) and (max-width: 2099px) {
+    .restcomp{
+        margin-left: 66%;
+    }
+     .nav_bar1 {
+       
+         height: 700px;
+         
+     }
+     #login_btn1 {
+         margin-left: 345px;
+         font-size: 28px;
+         margin-top: -31px;
+     }
+     #signup_btn1 {
+         margin-left: 439px;
+         font-size: 28px;
+         margin-top: -32px;
+     }
+     #bell1 {
+         margin-left: 220px;
+         height: 29px;
+         margin-top: 18px;
+     }
+     #cart1 {
+         height: 29px;
+         margin-left: 26px;
+       
+     }
+     .logo1 {
+         width: 210px;
+         margin-top: 10px;
+         margin-left:8%;
+     }
+     #nav_motivation{
+        
+        margin-top:260px;
+        margin-left: -670px;
+        font-size:54px;
+     }
+}
+
+@media only screen and (min-width: 2313px) and (max-width: 2867px) {
+    .restcomp{
+      
+        margin-right: 10%;
+    }
+     .nav_bar1 {
+       
+         height: 700px;
+         
+     }
+     #login_btn1 {
+         margin-left: 345px;
+         font-size: 28px;
+         margin-top: -31px;
+     }
+     #signup_btn1 {
+         margin-left: 439px;
+         font-size: 28px;
+         margin-top: -32px;
+     }
+     #bell1 {
+         margin-left: 220px;
+         height: 29px;
+         margin-top: 18px;
+     }
+     #cart1 {
+         height: 29px;
+         margin-left: 26px;
+       
+     }
+     .logo1 {
+         width: 210px;
+         margin-top: 10px;
+         margin-left:8%;
+     }
+     #nav_motivation{
+        
+        margin-top:260px;
+        margin-left: -670px;
+        font-size:54px;
+     }
+}
+
+@media only screen and (min-width: 2868px) and (max-width: 3000px) {
+    .restcomp{
+      
+        margin-right: 14%;
+    }
+     .nav_bar1 {
+       
+         height: 700px;
+         
+     }
+     #login_btn1 {
+         margin-left: 345px;
+         font-size: 28px;
+         margin-top: -31px;
+     }
+     #signup_btn1 {
+         margin-left: 439px;
+         font-size: 28px;
+         margin-top: -32px;
+     }
+     #bell1 {
+         margin-left: 220px;
+         height: 29px;
+         margin-top: 18px;
+     }
+     #cart1 {
+         height: 29px;
+         margin-left: 26px;
+       
+     }
+     .logo1 {
+         width: 210px;
+         margin-top: 10px;
+         margin-left:8%;
+     }
+     #nav_motivation{
+        
+        margin-top:260px;
+        margin-left: -670px;
+        font-size:54px;
+     }
+} */
