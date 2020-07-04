@@ -4,7 +4,7 @@ import logowhite from '../nav/LogoWhite.png';
 import bell from '../nav/notifications.png';
 import cart from '../nav/Cart.png';
 import history from '../../history';
-import Facebook from '../signup/facebook.png';
+
 import axios from "axios";
 
 //import Logo from '../components/logo/logo';

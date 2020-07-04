@@ -38,7 +38,7 @@ class home extends Component{
                       <div class="goalshomecard">
                                <div id="goalshomecards1">
                                   
-                                  <img id="picturehere" src={PictureGoal1 }/>
+                                  <img id="picturehere" alt='error 404 not found' src={PictureGoal1 }/>
                                    <h2 id="goalshomecards_heading">Learn the latest <br></br>skills</h2>
                                    <p id="goalshomecards_content">like business analytics, graphic design, Python, and more</p>
                                 </div>
@@ -46,7 +46,7 @@ class home extends Component{
 
 
                                <div  id="goalshomecards2"> 
-                                <img id="picturehere" src={PictureGoal2 }/>
+                                <img id="picturehere" src={PictureGoal2 } alt='error 404 not found'/>
                                 <h2 id="goalshomecards_heading">One-on-One Mentorship</h2>
                                 <p id="goalshomecards_content">in high-demand fields like IT, AI and cloud engineering</p>
                                 </div>
@@ -57,13 +57,13 @@ class home extends Component{
                             
                             
                                <div id="goalshomecards3">
-                                 <img id="picturehere" src={PictureGoal3 }/>
+                                 <img id="picturehere" src={PictureGoal3 } alt='error 404 not found'/>
                                  <h2 id="goalshomecards_heading">Earn a certificate or degree</h2>
                                 <p id="goalshomecards_content">from a leading university in business, computer science, and more</p>
                                 </div>
                                
                                <div id="goalshomecards4">
-                                 <img id="picturehere" src={PictureGoal4 }/>
+                                 <img id="picturehere" src={PictureGoal4 } alt='error 404 not found'/>
                                  <h2 id="goalshomecards_heading">Hands-On-Hand Intership</h2>
                                 <p id="goalshomecards_content">we will make sure you have the time of your life</p>
                                  </div>

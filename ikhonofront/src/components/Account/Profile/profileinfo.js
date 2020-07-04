@@ -65,7 +65,7 @@ class profileinfo extends Component {
     
      <br/>
 
-     <img id="personal_mukhda" src={mukhda} alt="no image" ></img><br></br>
+     <img id="personal_mukhda" src={mukhda} alt='error 404 not found' ></img><br></br>
      {/* <button id="mukhda_edit" >Edit</button> */}
      <div id="personal_nameinfo">
      <p class="personal_paravaliclass">

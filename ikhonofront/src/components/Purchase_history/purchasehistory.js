@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './purchasehistory.css';
-import {purchaseItems} from '../../FinalDetails';
+
 import axios from 'axios';
 
 

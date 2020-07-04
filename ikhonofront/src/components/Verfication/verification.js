@@ -8,7 +8,7 @@ function verification() {
   <table id='verification_table'>
           
           <tr>
-           <td class="verification_heading_color"><p class='verify_img_fix'><img src={ Verify_image} class="verification_image"/> </p></td>
+           <td class="verification_heading_color"><p class='verify_img_fix'><img src={ Verify_image} class="verification_image" alt='error 404 not found'/> </p></td>
          </tr>
               <tr >
                    <td ><p class="verify_email_address"> Verify your email address</p> </td>

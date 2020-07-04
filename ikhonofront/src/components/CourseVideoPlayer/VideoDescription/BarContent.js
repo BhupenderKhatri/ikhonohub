@@ -1,4 +1,4 @@
-import React, {Component} from 'react' ;
+import React from 'react' ;
 import './Bar.css' ; 
 const BarContent =({theory,skilllevel,noofstudents,language,captions ,lecture, videos, certificates,describing} ) => {
     return(

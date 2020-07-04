@@ -2,12 +2,11 @@ import React,{Component} from 'react';
 import './course_details.css';
 import Intro from './course_intro1' ;
 import What_learn from './course_intro2' ;
-import Comments from  '../comments/CommentsList' ;
+
 import RightNow from './course_intro3' ;
 import Details from './course_intro4' ;
 import Questions from './course_intro5' ;
 
-import Card1 from '../prices/priceList';
 import axios from 'axios';
 
 

@@ -1,7 +1,7 @@
 import React, { Component }  from 'react' ;
 import'./MyCourses.css' ; 
 import ComingSoon from './Tajmahal.jpg';
-import history from './../../../history';
+
 import { CircularProgressbar, buildStyles } from 'react-circular-progressbar';
 import 'react-circular-progressbar/dist/styles.css';
 
@@ -11,7 +11,7 @@ class MyCoursedetails extends Component {
     return (
 
             <div id='mycourses_card'>
-              <div id='mycourses_image_coming'><img src={ComingSoon} /></div>
+              <div id='mycourses_image_coming'><img src={ComingSoon} alt='error 404 not found'/></div>
               <div id='mycourses_content'>  
                <div id='mycourses_coursename'>{this.props.heading}</div>
                       <div id='mycourses_contentsecond'> 

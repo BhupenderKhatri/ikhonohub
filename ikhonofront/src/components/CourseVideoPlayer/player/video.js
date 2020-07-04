@@ -1,5 +1,5 @@
 import React , {Component} from 'react';
-import SubHeadings from './subHeadings';
+
 import ReactPlayermain from '../ReactPlayer';
 import PlayerHead1 from './playerhead1';
 import PlayerHead2 from './playerhead2';

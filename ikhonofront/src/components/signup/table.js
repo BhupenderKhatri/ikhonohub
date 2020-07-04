@@ -64,9 +64,7 @@ class table extends Component{
          }
          }
     componentDidMount() {
-         const headers = {
-              "Content-type": "application/text"
-         }
+         
          let tok = localStorage.getItem("tkk");
          axios.post('http://localhost:5000/users/register', { token: tok }).then(res => {
               if (res.data = "/dash") {
@@ -92,7 +90,7 @@ class table extends Component{
 
                 <table id='signingup'>
                <tr><a href="/login" class="loginsignup"  >Login</a><span id="sign_in_slogan_danda">/</span>
-                   <a class="signupsignup" >Signup</a></tr> 
+                   <a class="signupsignup" href="/signup" >Signup</a></tr> 
                     <tr>
                     <td> {<input 
                     type= "text " 

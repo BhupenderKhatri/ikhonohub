@@ -1,6 +1,5 @@
 import React, { Component, useState } from 'react'
 import './cart.css';
-import { productionItems } from '../../FinalDetails';
 import Nav from '../dashboardnav/dashboardnav';
 import Footer from '../footer/footer';
 // import Razorpay from './Rajorpay'

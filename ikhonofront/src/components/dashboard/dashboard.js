@@ -15,8 +15,8 @@ import ChevronRightIcon from '@material-ui/icons/ChevronRight';
 import ListItem from '@material-ui/core/ListItem';
 import ListItemIcon from '@material-ui/core/ListItemIcon';
 import ListItemText from '@material-ui/core/ListItemText';
-import InboxIcon from '@material-ui/icons/MoveToInbox';
-import MailIcon from '@material-ui/icons/Mail';
+//import InboxIcon from '@material-ui/icons/MoveToInbox';
+//import MailIcon from '@material-ui/icons/Mail';
 
 import './dashboard.css';
 import history from '../../history';
@@ -184,7 +184,7 @@ export default function MiniDrawer() {
             <MenuIcon />
           </IconButton>
           <Typography variant="h6" noWrap>
-             <div><img id='dashboard_logowhite' src={LogoWhite}/>
+             <div><img id='dashboard_logowhite' src={LogoWhite} alt='error 404 not found'/>
              
               
 
@@ -286,14 +286,14 @@ export default function MiniDrawer() {
                 Streak
                 </div>
                 <div>
-                <img id="dashboard_ion" src={Icon_badge1}/>
+                <img id="dashboard_ion" src={Icon_badge1} alt='error 404 not found'/>
                 &nbsp;&nbsp;&nbsp; 5
                 </div>
               </div>
               <div id='dashboard-badges'>
                 <div>Badges</div>
                  
-                <div><img  id="dashboard_ion1" src={Icon_badge}/>&nbsp; &nbsp;&nbsp; 0</div>
+                <div><img  id="dashboard_ion1" src={Icon_badge} alt='error 404 not found'/>&nbsp; &nbsp;&nbsp; 0</div>
               </div>
             </div>
         <Recommended/>

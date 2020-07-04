@@ -1,6 +1,6 @@
 import React from 'react';
-import CommentList from '../comments/CommentsList';
-import Courseprice from '../prices/priceList';
+// import CommentList from '../comments/CommentsList';
+// import Courseprice from '../prices/priceList';
 import Coursedetails from '../course_details/course_details';
 import Nav from '../loginnav/loginnav';
 import Footer from '../footer/footer';

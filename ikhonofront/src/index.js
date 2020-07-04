@@ -1,13 +1,10 @@
-import React , { PureComponent } from 'react';
+import React  from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './containers/App';
 import * as serviceWorker from './serviceWorker';
 
 
-import Dropdown from './components/newdashboardnav/newdashboardnav';
-import Dashboard from './components/dashboard/dashboard';
-import Cart from './components/cart/cart';
 import './index.css';
 
 ReactDOM.render(

@@ -2,7 +2,7 @@ import React ,{useState}from 'react';
 import ReactPlayer from "react-player";
 
 import {Link} from 'react-router-dom';
-import Desc from './VideoDescription/Direction';
+
 import Whiteclock from './clock.png';
 
 import './ReactPlayer.css';

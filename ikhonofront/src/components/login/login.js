@@ -54,9 +54,7 @@ class login extends Component {
 
     }
   componentDidMount() {
-    const headers = {
-      "Content-type": "application/text"
-    }
+    
     let tok = localStorage.getItem("tkk");
     console.log(tok);
     axios.post('http://localhost:5000/users/login', {token:tok}).then(res => {
@@ -89,7 +87,7 @@ class login extends Component {
            
         <table id='loggingup'>
           
-<tr> <a class="loginsignup1" href="/loginsignup1" >Login</a><span id="login_slogan_danda">/</span>
+<tr> <a class="loginsignup1" href="/login" >Login</a><span id="login_slogan_danda">/</span>
                    <a href="/signup" class="signupsignup1" >Signup</a></tr>
                     <tr>
                          <td> {<input 

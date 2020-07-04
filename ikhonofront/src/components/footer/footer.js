@@ -6,7 +6,7 @@ import Instagram from './instagram.png';
 import Youtube from './youtube.png';
 import Twitter from './twitter.png';
 
-import Privacy from '../PrivacyPolicy/privacy';
+
 import history from '../../history';
 
 class newfooter extends Component{

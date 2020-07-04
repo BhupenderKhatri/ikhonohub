@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
 import './forgot_password.css';
 import Loginnav from '../loginnav/loginnav';
-import history from "../../history";
-import axios from "axios";
+
 
 class Forgotpassword extends Component {
 

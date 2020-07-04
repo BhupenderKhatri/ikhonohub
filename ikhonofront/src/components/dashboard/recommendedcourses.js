@@ -8,7 +8,7 @@ import DasboardResumeIcon from './icons/Group 358.png';
 import { CircularProgressbar, buildStyles } from 'react-circular-progressbar';
 import 'react-circular-progressbar/dist/styles.css';
 import axios from 'axios';
-var percentage = 0;
+
 
 class recommendedcourses extends Component {
 
@@ -64,16 +64,16 @@ class recommendedcourses extends Component {
             
                 </div>
                 <div>
-                    <div id="current_icon"><img src={DasboardVideoIcon} />
+                    <div id="current_icon"><img src={DasboardVideoIcon} alt='error 404 not found'/>
                             <p id='current_co1'>{this.state.currentsection.map(dashvid => dashvid.video)}</p></div>
                     
                 </div> 
                 <div>
-                <div id="current_icon"><img src={DasboardBookIcon} />
+                <div id="current_icon"><img src={DasboardBookIcon} alt='error 404 not found'/>
                             <p id='current_co1'>{this.state.currentsection.map(dashles => dashles.Lesson)}</p> </div>
                 </div>
                 <div>
-                    <div><img id="current_icon" src={Quiz} />
+                    <div><img id="current_icon" src={Quiz} alt='error 404 not found'/>
 
                             <p id='current_co11'>{this.state.currentsection.map(dashqu => dashqu.Quiz)}</p></div>
                 </div>
@@ -81,7 +81,7 @@ class recommendedcourses extends Component {
                 {/* <div id='res'><button onClick={()=>history.push('/player')}>Resume</button> </div>
                 <div id="arrow">→</div> */}
                 <div onClick={()=>history.push('/player')}>
-            <div id="current_res">  <img src={DasboardResumeIcon} /> </div>
+            <div id="current_res">  <img src={DasboardResumeIcon} alt='error 404 not found'/> </div>
                 </div>
                 </div>
                 </div>
@@ -101,7 +101,7 @@ class recommendedcourses extends Component {
                 {/* <div id='res'><button onClick={()=>history.push('/player')}>Resume</button> </div>
                 <div id="arrow">→</div> */}
                 <div onClick={()=>history.push('/player')}>
-            <div id="current_res1">  <img src={DasboardResumeIcon} /> </div>
+            <div id="current_res1">  <img src={DasboardResumeIcon} alt='error 404 not found'/> </div>
                 </div>
                 </div>
               </div>              
