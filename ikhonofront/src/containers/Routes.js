@@ -11,14 +11,12 @@ import cart from './../components/cart/cart';
 import bell from './../components/bell/bell';
 
 import cartLoggedIn from './../components/cartLoggedIn/cartLoggedIn';
-import Addaddress from '../components/Account/Profile/newaddress';
+
 import Addprofile from '../components/Account/Profile/addprofile';
 
 import Carddetails from '../components/carddetails/carddetails';
 import Dashboard from '../components/dashboard/dashboard';
-import AllCoursesLoggedIn from '../components/AllCourses/AllCoursesLoggedIn';
-import AllCoursesLoggedOut from '../components/AllCourses/AllCoursesLoggedOut';
-import Accountboard from '../components/Accountboard/Accountboard';
+
 
 import Privacy from '../components/PrivacyPolicy/privacy';
 import ReactPlayerPage from '../components/CourseVideoPlayer/playermain';
@@ -45,16 +43,15 @@ export default class Routes extends Component {
                     <Route path="/Verification" component={Verification} />
                     <Route path="/cart" component={cart} />
                     <Route path="/bell" component={bell} />
-                    <Route path="/AllCoursesLoggedIn" component={AllCoursesLoggedIn} />
-                    <Route path="/AllCoursesLoggedOut" component={AllCoursesLoggedOut} />
+                    
                     <Route path="/dashboard" component={Dashboard} />
                     <Route path="/carddetails" component={Carddetails} />
                     <Route path="/cartLoggedIn" component={cartLoggedIn} />
-                    <Route path="/accountboard" component={Accountboard} />
+                    
                     <Route path="/help" component={Help} />
                     <Route path="/privacy" component={Privacy} />
                     <Route path="/player" component={ReactPlayerPage} />
-                    <Route path="/addaddress" component={Addaddress} />
+                    
                     <Route path="/addprofile" component={Addprofile} />
 
                     

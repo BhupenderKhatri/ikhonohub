@@ -129,15 +129,15 @@ class login extends Component {
                          </tr> 
                        
                      <tr class="login_logos">
-                      {< a href="https://www.facebook.com/">  <img src= {Facebook}  alt="Error"></img> </a>}
+                      {< a href="https://www.facebook.com/">  <img src= {Facebook}  alt="Error"/> </a>}
                     </tr>
 
 
                     <tr class="login_logos1">
-                      <a href="https://twitter.com/" >  {<img src= {Twitter}  alt="Error"></img>}</a>
+                      <a href="https://twitter.com/" >  {<img src= {Twitter}  alt="Error"/>}</a>
                     </tr>
                     <tr class="login_logos2" >
-                     <a href="https://www.google.co.in/">{<img src= {Google}  alt="Error"></img>}</a> 
+                     <a href="https://www.google.co.in/">{<img src= {Google}  alt="Error"/>}</a> 
                     </tr>
          
          

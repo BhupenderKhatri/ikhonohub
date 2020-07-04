@@ -4,7 +4,7 @@ import history from '../../../history';
 import axios from 'axios';
 // import Newdashboardnav from '../../newdashboardnav/newdashboardnav';
 import './addprofile.css'
-import Footer from '../../footer/footer';
+//import Footer from '../../footer/footer';
 
 
 class addprofile extends Component {

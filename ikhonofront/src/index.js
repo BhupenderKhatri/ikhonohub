@@ -8,7 +8,6 @@ import * as serviceWorker from './serviceWorker';
 import Dropdown from './components/newdashboardnav/newdashboardnav';
 import Dashboard from './components/dashboard/dashboard';
 import Cart from './components/cart/cart';
-import 'tachyons';
 import './index.css';
 
 ReactDOM.render(

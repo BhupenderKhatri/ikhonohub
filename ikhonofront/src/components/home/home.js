@@ -1,8 +1,7 @@
 import React ,{Component}from 'react';
 import './home.css';
-import Slider from '../slider/slider';
-import PopularCourses from '../popular_courses/popularCourses';
-import MainCourses from '../mainCourses/mainCourses';
+
+
 import Content from '../content/content';
 import Footer from '../footer/footer';
 import Nav from '../nav/nav';

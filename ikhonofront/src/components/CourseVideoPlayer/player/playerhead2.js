@@ -3,7 +3,7 @@ import ReactPlayer from "react-player";
 
 import {Link} from 'react-router-dom';
 // import Desc from './VideoDescription/Direction';
-import Iframe from 'react-iframe';
+
 import axios from 'axios';
 import Whiteclock from '../clock.png';
 import '../ReactPlayer.css';

@@ -1,4 +1,4 @@
-.base{
+.tablesignup_main{
     background-image: url("background@2x.png");
     background-size: 100% 100%;
   background-repeat: no-repeat;
@@ -210,7 +210,7 @@ button:focus {outline:0;}
  @media only screen and (min-width: 320px) 
 and (max-width: 359px) 
   {
-    .base{
+    .tablesignup_main{
         background-image: url("iphone5.png");
         background-size: 100% 100%;
         background-repeat: no-repeat;
@@ -333,7 +333,7 @@ and (max-width: 359px)
   @media only screen and (min-width: 320px) 
 and (max-width: 359px) 
   {
-    .base{
+    .tablesignup_main{
         background-image: url("iphone5.png");
         background-size: 100% 100%;
         background-repeat: no-repeat;
@@ -456,7 +456,7 @@ and (max-width: 359px)
   @media only screen and (min-width: 360px) 
   and (max-width: 374px) 
     {
-        .base{
+        .tablesignup_main{
             background-image: url("iphone5.png");
             background-size: 100% 100%;
             background-repeat: no-repeat;
@@ -580,7 +580,7 @@ and (max-width: 359px)
   @media only screen and (min-width: 375px) 
   and (max-width: 411px) 
     {
-        .base{
+        .tablesignup_main{
             background-image: url("iphone5.png");
             background-size: 100% 100%;
             background-repeat: no-repeat;
@@ -705,7 +705,7 @@ and (max-width: 359px)
     @media only screen and (min-width: 412px) 
     and (max-width: 413px) 
       {
-          .base{
+          .tablesignup_main{
               background-image: url("iphone5.png");
               background-size: 100% 100%;
               background-repeat: no-repeat;
@@ -830,7 +830,7 @@ and (max-width: 359px)
     @media only screen and (min-width: 414px) 
     and (max-width: 449px) 
       {
-          .base{
+          .tablesignup_main{
               background-image: url("iphone5.png");
               background-size: 100% 100%;
               background-repeat: no-repeat;
@@ -954,7 +954,7 @@ and (max-width: 359px)
   @media only screen and (min-width: 450px) 
 and (max-width: 550px) 
   {
-    .base{
+    .tablesignup_main{
         background-image: url("iphone5.png");
         background-size: 100% 100%;
         background-repeat: no-repeat;
@@ -1081,7 +1081,7 @@ and (max-width: 550px)
 and (max-width: 599px) 
   {
 
-    .base{
+    .tablesignup_main{
         background-image: url("iphone5.png");
         background-size: 100% 100%;
         background-repeat: no-repeat;
@@ -1205,7 +1205,7 @@ and (max-width: 599px)
 and (max-width: 617px) 
   {
 
-    .base{
+    .tablesignup_main{
         background-image: url("iphone5.png");
         background-size: 100% 100%;
         background-repeat: no-repeat;
@@ -1328,7 +1328,7 @@ and (max-width: 617px)
   @media only screen and (min-width: 618px) 
 and (max-width: 700px) 
 {
-    .base{
+    .tablesignup_main{
         background-image: url("iphone5.png");
         background-size: 100% 100%;
         background-repeat: no-repeat;
@@ -1452,7 +1452,7 @@ and (max-width: 700px)
 @media only screen and (min-width: 701px) 
 and (max-width: 767px) 
   {
-    .base{
+    .tablesignup_main{
         background-image: url("iphone 6,7,8.png");
         background-size: 100% 100%;
         background-repeat: no-repeat;
@@ -1578,7 +1578,7 @@ and (max-width: 767px)
 {
       
    
-    .base{
+    .tablesignup_main{
         background-image: url("ipad.png");
         background-size: 100% 100%;
       background-repeat: no-repeat;
@@ -1699,7 +1699,7 @@ and (max-width: 767px)
 {
       
    
-    .base{
+    .tablesignup_main{
         background-image: url("ipad.png");
         background-size: 100% 100%;
       background-repeat: no-repeat;
@@ -1819,7 +1819,7 @@ and (max-width: 767px)
     @media only screen and (min-width: 851px) and (max-width: 909px)
      {
    
-        .base{
+        .tablesignup_main{
             background-image: url("ipad.png");
             background-size: 100% 100%;
           background-repeat: no-repeat;
@@ -1936,7 +1936,7 @@ and (max-width: 767px)
  } @media only screen and (min-width: 910px) and (max-width: 1023px) {
 
     
-    .base{
+    .tablesignup_main{
         background-image: url("ipad.png");
         background-size: 100% 100%;
       background-repeat: no-repeat;
@@ -2055,7 +2055,7 @@ and (max-width: 767px)
 
 @media only screen and (min-width: 1024px) and (max-width: 1100px) {
 
-    .base{
+    .tablesignup_main{
         background-image: url("ipad pro.png");
         background-size: 100% 100%;
       background-repeat: no-repeat;
@@ -2172,7 +2172,7 @@ and (max-width: 767px)
 
 @media only screen and (min-width: 1101px) and (max-width: 1200px) {
 
-    .base{
+    .tablesignup_main{
         background-image: url("ipad pro.png");
         background-size: 100% 100%;
       background-repeat: no-repeat;
@@ -2289,7 +2289,7 @@ and (max-width: 767px)
 
 
 @media only screen and (min-width: 1201px) and (max-width: 1300px) {
-    .base{
+    .tablesignup_main{
     
         background-size: 100% 100%;
       background-repeat: no-repeat;
@@ -2409,7 +2409,7 @@ and (max-width: 1359px)
   {
 
 
-    .base{
+    .tablesignup_main{
     
        background-size: 100% 100%;
      background-repeat: no-repeat;
@@ -2528,7 +2528,7 @@ and (max-width: 1359px)
 @media only screen and (min-width: 1360px) and (max-width: 1439px)
  {
 
-    .base{
+    .tablesignup_main{
        
        background-size: 100% 100%;
      background-repeat: no-repeat;
@@ -2647,7 +2647,7 @@ and (max-width: 1359px)
 and (max-width: 1520px)
   {
 
-    .base{
+    .tablesignup_main{
       
        background-size: 100% 100%;
      background-repeat: no-repeat;
@@ -2767,7 +2767,7 @@ and (max-width: 1520px)
 and (max-width: 1599px)
   {
 
-    .base{
+    .tablesignup_main{
     
        background-size: 100% 100%;
      background-repeat: no-repeat;
@@ -2889,7 +2889,7 @@ and (max-width: 1599px)
 and (max-width: 1680px)
   {
 
-    .base{
+    .tablesignup_main{
        
        background-size: 100% 100%;
      background-repeat: no-repeat;
@@ -3011,7 +3011,7 @@ and (max-width: 1680px)
   and (max-width: 1760px)
     {
   
-        .base{
+        .tablesignup_main{
        
             background-size: 100% 100%;
           background-repeat: no-repeat;
@@ -3130,7 +3130,7 @@ and (max-width: 1680px)
 and (max-width: 1840px)
   {
 
-    .base{
+    .tablesignup_main{
        
         background-size: 100% 100%;
       background-repeat: no-repeat;
@@ -3249,7 +3249,7 @@ and (max-width: 1840px)
 and (max-width: 1919px)
   {
 
-    .base{
+    .tablesignup_main{
         
         background-size: 100% 100%;
       background-repeat: no-repeat;
@@ -3373,7 +3373,7 @@ and (max-width: 1919px)
     {
   
 
-        .base{
+        .tablesignup_main{
         
             background-size: 100% 100%;
           background-repeat: no-repeat;

@@ -1,6 +1,5 @@
 import React,{Component} from 'react';
 import './table.css';
-import 'tachyons' ;
 import Facebook from './fb.png';
 import Twitter from './twit.png';
 import Google from './sahivaligoogli.png' ;
@@ -82,7 +81,7 @@ class table extends Component{
     }
     render(){
         return(
-            <div class='base'>
+            <div class='tablesignup_main'>
 
               <div>
                 <Loginnav/>
@@ -95,7 +94,7 @@ class table extends Component{
                <tr><a href="/login" class="loginsignup"  >Login</a><span id="sign_in_slogan_danda">/</span>
                    <a class="signupsignup" >Signup</a></tr> 
                     <tr>
-        <td> {<input 
+                    <td> {<input 
                     type= "text " 
                     name="username"
                      placeholder=  " Enter Name " 
