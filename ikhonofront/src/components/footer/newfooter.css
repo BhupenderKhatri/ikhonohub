@@ -1,586 +1,422 @@
-    #anchor_one {
-        text-align: center;
-        font: Book 22px/30px Avenir;
+#footer_main_container{
+    background: #2D2D2DCF 0% 0% no-repeat padding-box;
+    opacity: 1;
+    display: flex;
+    padding-top: 10px;
+    box-sizing: border-box;
+    padding-bottom: 10px;
+  justify-content: space-evenly;
+    
+}
+
+#footer_container_one{
+    margin-top: 40px;
+    /* margin-left: 7.5%; */
+
+}
+.footer_image_ikonohub{
+    width: 200px;
+    height: 60px;
+    
+}
+
+#footer_nav_options{
+
+    /* margin-left:8%; */
+}
+
+.footer_option_underline{
+    border: 1px solid grey;  
+
+}
+
+.footer_options{
+    color: silver;
+    font-size: 20px;
+}
+
+#footer_follow_content{
+    margin-top: -25px;
+    /* margin-left:8%; */
+    padding: 0px;
+
+}
+
+
+.footer_follow_heading{
+    color: white;
+    font-size: 25px;
+   
+}
+
+.footer_follow_mini_para{
+    color: silver;
+    
+    
+    
+}
+
+#footer_follow_images{
+margin-left: -15px;
+
+}
+
+.footer_follow_image_logo{
+    width: 30px;
+    margin-left: 15px;
+  
+}
+
+#footer_help{
+
+    margin-top: -25px;
+    /* margin-left: -2%; */
+
+   
+}
+
+.footer_help_heading{
+    color: white;
+    font-size: 25px;
+}
+
+.footer_help_contact_details{
+    color: silver;
+    
+}
+
+
+/* Responsive css starts here */
+
+@media only screen and (min-width:320px) 
+and (max-width:415px){
+    #footer_main_container{
+        padding-bottom: 10px;
+        flex-direction: column;
+        
+        /* align-items: center; */
+        
+    }
+    
+    #footer_container_one{
         margin-top: 10px;
+    
+    
+    }
+    .footer_image_ikonohub{
+      display: none;
+    
+        
     }
     
-    #aboutus_footer {
-        box-sizing: border-box;
-        color: whitesmoke;
+    #footer_nav_options{
+        
+    margin-left: 2.5%;
+     
     }
     
-    #anchor_one a:link {
-        text-decoration: none;
+    .footer_option_underline{
+        border: 1px solid grey;
+        margin-right:70%;
+    }
+    .footer_options{
+        font-size: 15px;
+    }
+    #footer_follow_content{
+        margin-top: 5px;
+        margin-left: 2.5%;
+    }
+    .footer_follow_heading{
+    
+        font-size: 20px;
+       
     }
     
-    #anchor_one a {
-        color: white;
+    .footer_follow_mini_para{
+        
+        
+        
     }
     
-    .row {
-        margin-left: 631.5px;
-        margin-top: 12px;
+    #footer_follow_images{
+    margin-left: -15px;
+    
     }
     
-    .column {
-        float: left;
-        width: 50px;
-        padding: 5px;
+    .footer_follow_image_logo{
+        width: 30px;
+        margin-left: 15px;
+      
     }
     
-    .footer {
-        text-align: center;
-        color: white;
-        margin-top: 70px;
-        background-color: #FF3300CC;
-        width: 1519px;
+    #footer_help{
+    
+        margin-top: 5px;
+        margin-left:2.5%;
+        /* margin-left: -2%; */
+    
+       
     }
     
-    #issuetwo {
-        margin-left: -25px;
-        color: white;
-        size: 12px;
-        margin-top: -10px;
-        cursor: pointer;
+    .footer_help_heading{
+
+        font-size: 20px;
     }
     
-    #issuetwo a:link {
-        text-decoration: none;
+    .footer_help_contact_details{
+    
+        font-size: 15px;
+    }
+   
+}
+
+
+@media only screen and (min-width:416px) 
+and (max-width:699px){
+    #footer_main_container{
+        padding-bottom: 10px;
+        flex-direction: row;
+        flex-wrap:wrap ;
+        
+        /* align-items: center; */
+        
     }
     
-    #issuetwo a {
-        color: white;
+    #footer_container_one{
+        margin-top: 10px;
+    
+    
+    }
+    .footer_image_ikonohub{
+      display: none;
+    
+        
     }
     
-    #issueone {
-        text-align: center;
-        color: white;
-        size: 12px;
+    #footer_nav_options{
+        
+    margin-left: 0%;
+    
+     
     }
     
-    @media only screen and (min-width: 320px) and (max-width: 374px) {
-        .row {
-            margin-left: 32px;
-            margin-top: 12px;
-        }
-        #issueone {
-            text-align: left;
-            font-size: 15px;
-            margin-left: 29px;
-        }
-        #issuetwo {
-            font-size: 15px;
-            text-align: left;
-            margin-left: 88px;
-        }
-        .footer {
-            width: 100%;
-        }
+    .footer_option_underline{
+        border: 1px solid grey;
+        margin-right:0%;
+    }
+    .footer_options{
+        font-size: 15px;
+    }
+    #footer_follow_content{
+        margin-top: -22px;
+        margin-left: 10%;
+        
+    }
+    .footer_follow_heading{
+    
+        font-size: 20px;
+       
     }
     
-    @media only screen and (min-width: 374px) and (max-width: 450px) {
-        .row {
-            margin-left: 79px;
-            margin-top: 12px;
-        }
-        #issueone {
-            text-align: left;
-            font-size: 15px;
-            margin-left: 72px;
-        }
-        #issuetwo {
-            font-size: 15px;
-            text-align: left;
-            margin-left: 126px;
-        }
-        .footer {
-            width: 100%;
-        }
+    .footer_follow_mini_para{
+        
+        
+        
     }
     
-    @media only screen and (min-width: 450px) and (max-width: 500px) {
-        #anchor_one {
-            text-align: center;
-            margin-left: -85px;
-        }
-        .row {
-            margin-left: 67px;
-            margin-top: 12px;
-        }
-        #issueone {
-            text-align: left;
-            font-size: 15px;
-            margin-left: 65px;
-        }
-        #issuetwo {
-            font-size: 15px;
-            text-align: left;
-            margin-left: 110px;
-        }
-        .footer {
-            width: 100%;
-        }
-    }
-    @media only screen and (min-width: 501px) and (max-width: 550px) {
-        #anchor_one {
-            text-align: center;
-            margin-left: -85px;
-        }
-        .row {
-            margin-left: 100px;
-            margin-top: 12px;
-        }
-        #issueone {
-            text-align: left;
-            font-size: 15px;
-            margin-left: 100px;
-        }
-        #issuetwo {
-            font-size: 15px;
-            text-align: left;
-            margin-left: 140px;
-        }
-        .footer {
-            width: 100%;
-        }
+    #footer_follow_images{
+    margin-left: -15px;
+    
     }
     
-    @media only screen and (min-width: 551px) and (max-width: 617px) {
-        #anchor_one {
-            text-align: center;
-            margin-left: -15px;
-        }
-        .row {
-            margin-left: 163px;
-            margin-top: 12px;
-        }
-        #issueone {
-            text-align: left;
-            font-size: 15px;
-            margin-left: 165px;
-        }
-        #issuetwo {
-            font-size: 15px;
-            text-align: left;
-            margin-left: 208px;
-        }
-        .footer {
-            width: 100%;
-        }
+    .footer_follow_image_logo{
+        width: 30px;
+        margin-left: 15px;
+      
     }
     
-    @media only screen and (min-width: 618px) and (max-width: 700px) {
-        #anchor_one {
-            text-align: center;
-            margin-left: -15px;
-        }
-        .row {
-            margin-left: 197px;
-            margin-top: 12px;
-        }
-        #issueone {
-            text-align: left;
-            font-size: 15px;
-            margin-left: 195px;
-        }
-        #issuetwo {
-            font-size: 15px;
-            text-align: left;
-            margin-left: 248px;
-        }
-        .footer {
-            width: 100%;
-        }
+    #footer_help{
+    
+        margin-top: 0px;
+        /* margin-left: -2%; */
+    
+       
     }
     
-    @media only screen and (min-width: 701px) and (max-width: 767px) {
-        #anchor_one {
-            text-align: center;
-            margin-left: -15px;
-        }
-        .row {
-            margin-left: 235px;
-            margin-top: 12px;
-        }
-        #issueone {
-            text-align: left;
-            font-size: 15px;
-            margin-left: 235px;
-        }
-        #issuetwo {
-            font-size: 15px;
-            text-align: left;
-            margin-left: 283px;
-        }
-        .footer {
-            width: 100%;
-        }
+    .footer_help_heading{
+
+        font-size: 20px;
     }
     
-    @media only screen and (min-width: 768px) and (max-width: 850px) {
-        #anchor_one {
-            text-align: center;
-            margin-left: -15px;
-        }
-        .row {
-            margin-left: 245px;
-            margin-top: 12px;
-        }
-        #issueone {
-            text-align: left;
-            font-size: 15px;
-            margin-left: 255px;
-        }
-        #issuetwo {
-            font-size: 15px;
-            text-align: left;
-            margin-left: 293px;
-        }
-        .footer {
-            width: 100%;
-        }
+    .footer_help_contact_details{
+    
+        font-size: 15px;
+    }
+   
+}
+@media only screen and (min-width:700px) 
+and (max-width:767px){
+    #footer_main_container{
+        padding-bottom: 10px;
+        flex-direction: row;
+        
+        
+        /* align-items: center; */
+        
     }
     
-    @media only screen and (min-width: 851px) and (max-width: 909px) {
-        #anchor_one {
-            text-align: center;
-            margin-left: -15px;
-        }
-        .row {
-            margin-left: 308px;
-            margin-top: 12px;
-        }
-        #issueone {
-            text-align: left;
-            font-size: 15px;
-            margin-left: 314px;
-        }
-        #issuetwo {
-            font-size: 15px;
-            text-align: left;
-            margin-left: 354px;
-        }
-        .footer {
-            width: 100%;
-        }
+    #footer_container_one{
+        margin-top: 10px;
+    
+    
+    }
+    .footer_image_ikonohub{
+      display: none;
+    
+        
     }
     
-    @media only screen and (min-width: 910px) and (max-width: 1023px) {
-        #anchor_one {
-            text-align: center;
-            margin-left: -15px;
-        }
-        .row {
-            margin-left: 370px;
-            margin-top: 12px;
-        }
-        #issueone {
-            text-align: left;
-            font-size: 15px;
-            margin-left: 375px;
-        }
-        #issuetwo {
-            font-size: 15px;
-            text-align: left;
-            margin-left: 420px;
-        }
-        .footer {
-            width: 100%;
-        }
+    #footer_nav_options{
+        
+    margin-left: 0%;
+    
+     
     }
     
-    @media only screen and (min-width: 1024px) and (max-width: 1100px) {
-        #anchor_one {
-            text-align: center;
-            margin-left: -15px;
-        }
-        .row {
-            margin-left: 410px;
-            margin-top: 12px;
-        }
-        #issueone {
-            text-align: left;
-            font-size: 15px;
-            margin-left: 410px;
-        }
-        #issuetwo {
-            font-size: 15px;
-            text-align: left;
-            margin-left: 460px;
-        }
-        .footer {
-            width: 100%;
-        }
+    .footer_option_underline{
+        border: 1px solid grey;
+        margin-right:0%;
+    }
+    .footer_options{
+        font-size: 15px;
+    }
+    #footer_follow_content{
+        margin-top: -22px;
+        margin-left: 1%;
+        
+    }
+    .footer_follow_heading{
+    
+        font-size: 20px;
+       
     }
     
-    @media only screen and (min-width: 1101px) and (max-width: 1200px) {
-        #anchor_one {
-            text-align: center;
-            margin-left: -15px;
-        }
-        .row {
-            margin-left: 417px;
-            margin-top: 12px;
-        }
-        #issueone {
-            text-align: left;
-            font-size: 15px;
-            margin-left: 420px;
-        }
-        #issuetwo {
-            font-size: 15px;
-            text-align: left;
-            margin-left: 470px;
-        }
-        .footer {
-            width: 100%;
-        }
+    .footer_follow_mini_para{
+        
+        
+        
     }
     
-    @media only screen and (min-width: 1201px) and (max-width: 1300px) {
-        #anchor_one {
-            text-align: center;
-            margin-left: -15px;
-        }
-        .row {
-            margin-left: 482px;
-            margin-top: 12px;
-        }
-        #issueone {
-            text-align: left;
-            font-size: 15px;
-            margin-left: 485px;
-        }
-        #issuetwo {
-            font-size: 15px;
-            text-align: left;
-            margin-left: 535px;
-        }
-        .footer {
-            width: 100%;
-        }
+    #footer_follow_images{
+    margin-left: -15px;
+    
     }
     
-    @media only screen and (min-width: 1301px) and (max-width: 1360px) {
-        #anchor_one {
-            text-align: center;
-            margin-left: -15px;
-        }
-        .row {
-            margin-left: 522px;
-            margin-top: 12px;
-        }
-        #issueone {
-            text-align: left;
-            font-size: 15px;
-            margin-left: 538px;
-        }
-        #issuetwo {
-            font-size: 15px;
-            text-align: left;
-            margin-left: 580px;
-        }
-        .footer {
-            width: 100%;
-        }
+    .footer_follow_image_logo{
+        width: 30px;
+        margin-left: 15px;
+      
     }
     
-    @media only screen and (min-width: 1361px) and (max-width: 1440px) {
-        #anchor_one {
-            text-align: center;
-            margin-left: -15px;
-            font-size: 17px;
-        }
-        .row {
-            margin-left: 561px;
-            margin-top: 12px;
-        }
-        #issueone {
-            text-align: left;
-            font-size: 17px;
-            margin-left: 545px;
-        }
-        #issuetwo {
-            font-size: 17px;
-            text-align: left;
-            margin-left: 610px;
-        }
-        .footer {
-            width: 100%;
-        }
+    #footer_help{
+    
+        margin-top: -22px;
+        margin-left: 1%;
+    
+       
     }
     
-    @media only screen and (min-width: 1441px) and (max-width: 1520px) {
-        #anchor_one {
-            text-align: center;
-            margin-left: -15px;
-            font-size: 17px;
-        }
-        .row {
-            margin-left: 610px;
-            margin-top: 12px;
-        }
-        #issueone {
-            text-align: left;
-            font-size: 17px;
-            margin-left: 590px;
-        }
-        #issuetwo {
-            font-size: 17px;
-            text-align: left;
-            margin-left: 654px;
-        }
-        .footer {
-            width: 100%;
-        }
+    .footer_help_heading{
+
+        font-size: 20px;
     }
     
-    @media only screen and (min-width: 1521px) and (max-width: 1600px) {
-        #anchor_one {
-            text-align: center;
-            margin-left: -15px;
-            font-size: 17px;
-        }
-        .row {
-            margin-left: 655px;
-            margin-top: 12px;
-        }
-        #issueone {
-            text-align: left;
-            font-size: 17px;
-            margin-left: 638px;
-        }
-        #issuetwo {
-            font-size: 17px;
-            text-align: left;
-            margin-left: 698px;
-        }
-        .footer {
-            width: 100%;
-        }
+    .footer_help_contact_details{
+    
+        font-size: 15px;
+    }
+   
+}
+@media only screen and (min-width:768px) 
+and (max-width:960px){
+
+    #footer_main_container{
+        padding-bottom: 10px;
+        
     }
     
-    @media only screen and (min-width: 1601px) and (max-width: 1680px) {
-        #anchor_one {
-            text-align: center;
-            margin-left: -15px;
-            font-size: 17px;
-        }
-        .row {
-            margin-left: 670px;
-            margin-top: 12px;
-        }
-        #issueone {
-            text-align: left;
-            font-size: 17px;
-            margin-left: 670px;
-        }
-        #issuetwo {
-            font-size: 17px;
-            text-align: left;
-            margin-left: 712px;
-        }
-        .footer {
-            width: 100%;
-        }
+    #footer_container_one{
+        margin-top: 40px;
+    
+    
+    }
+    .footer_image_ikonohub{
+      display: none;
+    
+        
     }
     
-    @media only screen and (min-width: 1680px) and (max-width: 1760px) {
-        #anchor_one {
-            text-align: center;
-            margin-left: -15px;
-            font-size: 17px;
-        }
-        .row {
-            margin-left: 739px;
-            margin-top: 12px;
-        }
-        #issueone {
-            text-align: left;
-            font-size: 17px;
-            margin-left: 726px;
-        }
-        #issuetwo {
-            font-size: 17px;
-            text-align: left;
-            margin-left: 777px;
-        }
-        .footer {
-            width: 100%;
-        }
+    #footer_nav_options{
+    margin-left: -5%;
+     
     }
     
-    @media only screen and (min-width: 1760px) and (max-width: 1840px) {
-        #anchor_one {
-            text-align: center;
-            margin-left: -15px;
-            font-size: 17px;
-        }
-        .row {
-            margin-left: 743px;
-            margin-top: 12px;
-        }
-        #issueone {
-            text-align: left;
-            font-size: 17px;
-            margin-left: 730px;
-        }
-        #issuetwo {
-            font-size: 17px;
-            text-align: left;
-            margin-left: 782px;
-        }
-        .footer {
-            width: 100%;
-        }
+    .footer_option_underline{
+        border: 1px solid grey;
+
+    
     }
     
-    @media only screen and (min-width: 1840px) and (max-width: 1920px) {
-        #anchor_one {
-            text-align: center;
-            margin-left: -15px;
-            font-size: 17px;
-        }
-        .row {
-            margin-left: 790px;
-            margin-top: 12px;
-        }
-        #issueone {
-            text-align: left;
-            font-size: 17px;
-            margin-left: 770px;
-        }
-        #issuetwo {
-            font-size: 17px;
-            text-align: left;
-            margin-left: 832px;
-        }
-        .footer {
-            width: 100%;
-        }
+    .footer_options{
+
+        font-size: 15px;
     }
     
-    @media only screen and (min-width: 1920px) and (max-width: 2000px) {
-        #anchor_one {
-            text-align: center;
-            margin-left: -15px;
-            font-size: 17px;
-        }
-        .row {
-            margin-left: 824px;
-            margin-top: 12px;
-        }
-        #issueone {
-            text-align: left;
-            font-size: 17px;
-            margin-left: 820px;
-        }
-        #issuetwo {
-            font-size: 17px;
-            text-align: left;
-            margin-left: 866px;
-        }
-        .footer {
-            width: 100%;
-        }
+    #footer_follow_content{
+        margin-top: -25px;
+    
     }
+    
+    
+    .footer_follow_heading{
+    
+        font-size: 20px;
+       
+    }
+    
+    .footer_follow_mini_para{
+        
+        
+        
+    }
+    
+    #footer_follow_images{
+    margin-left: -15px;
+    
+    }
+    
+    .footer_follow_image_logo{
+        width: 30px;
+        margin-left: 15px;
+      
+    }
+    
+    #footer_help{
+    
+        margin-top: -25px;
+        /* margin-left: -2%; */
+    
+       
+    }
+    
+    .footer_help_heading{
+
+        font-size: 20px;
+    }
+    
+    .footer_help_contact_details{
+    
+        
+    }
+   
+  }

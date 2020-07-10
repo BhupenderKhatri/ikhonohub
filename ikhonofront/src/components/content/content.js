@@ -1,11 +1,11 @@
 import React , {Component}  from 'react' ;
 import './content.css' ;
-import Second from './second.png' ;
-import Third from './third.png' ;
-import Fourth from './fourth.png' ;
-import Fifth from './fifth.png' ;
-import Sixth  from './sixth.png' ;
-import Seven  from './seven.png' ;
+import One from './one.png';
+import Two from './two.png';
+import Three from './three.png';
+import Four from './four.png';
+import Five from './five.png';
+import Six from './six.png';
 
 class content extends Component{
     render(){
@@ -16,7 +16,7 @@ class content extends Component{
          </div>
                 {/* first content */}
                 <div id="cont_maincontent1">
-                    <div >{<img id="img_content1" src= {Second}  alt="Error"></img>}</div>
+                    <div >{<img id="img_content1" src= {One}  alt="Error"></img>}</div>
                         <div id="base_detail1" >
                             <h2 id="cont_headdetail1"> Build your portfolio </h2>
                                     <div id="cont_detailinside1">
@@ -41,12 +41,12 @@ class content extends Component{
 
                 
             </div>
-        <div>{<img id="img_content2" src= {Third}  alt="Error"></img>}</div>
+        <div>{<img id="img_content2" src= {Two}  alt="Error"></img>}</div>
     </div>
 
  {/* third content */}
       <div id="cont_maincontent3">
-                 <div >{<img id="img_content3" src= {Fourth}  alt="Error"></img>}</div>  
+                 <div >{<img id="img_content3" src= {Three}  alt="Error"></img>}</div>  
             <div id="base_detail3">
                     <h2 id="cont_headdetail3"> Get Hired </h2>                       
                         <div id="cont_detailinside3">
@@ -63,14 +63,14 @@ class content extends Component{
                              Our intermediate and advanced courses help you<br></br> continue to build your skills, advance you to senior<br></br> roles and get you recognized as one of the best<br></br> developers at your company. 
                         </div>
                 </div>
-                     <div>{<img id="img_content4"  src= {Fifth}  alt="Error"></img>}</div> 
+                     <div>{<img id="img_content4"  src= {Four}  alt="Error"></img>}</div> 
          </div>
 
 
  {/* five content */}
 
   <div id="cont_maincontent5"> 
-       <div> {<img id="img_content5" src= {Sixth}  alt="Error"></img>}</div> 
+       <div> {<img id="img_content5" src= {Five}  alt="Error"></img>}</div> 
           <div id="base_detail5">
                 <h2 id="cont_headdetail5"> Never stop growing </h2>
                     <div id="cont_detailinside5">
@@ -89,7 +89,7 @@ class content extends Component{
                             Our comprehensive courses have 200+ hours of<br></br> lessons available 24/7. You’ll learn everything from<br></br> beginner programming fundamentals to the <br></br>most advanced concepts. 
                         </div>
                 </div>
-            <div>{<img id="img_content6" src= {Seven}  alt="Error"></img>}</div>
+            <div>{<img id="img_content6" src= {Six}  alt="Error"></img>}</div>
         </div>
 
 </div>

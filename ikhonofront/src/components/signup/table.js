@@ -6,7 +6,7 @@ import Google from './sahivaligoogli.png' ;
 import Loginnav from '../loginnav/loginnav';
 import axios from 'axios';
 import history from '../../history';
- 
+import Typical from 'react-typical';
 class table extends Component{
 
      constructor(props){
@@ -156,10 +156,20 @@ class table extends Component{
                     
         </table>  
 
-                   <div id="sign_in_slogan">
-    <h2 id="sign_in_slogan_heading">Where Aspiration Meets Preparation</h2>
-    <p id="sign_in_slogan_para">Find your next opportunity, get that key introduction, even meet a co-founder. Someone in our thriving and supportive <strong><span class="sign_in_spancolor">IKHONO HUB</span></strong> community is always online willing to lend a hand.</p>
-  </div> 
+        <div id="sign_in_slogan">
+
+<h2 id="sign_in_slogan_heading">Where Aspiration Meets Preparation</h2>
+  <div id="login_slogan_para">
+  <Typical
+      steps={['Find your next opportunity, get that key introduction, even meet a co-founder. Someone in our thriving and supportive IKHONO HUB community is always online willing to lend a hand.', 500, 'Leadership and learning are indispensable to each other', 500 ,'The beautiful thing about learning is that nobody can take it away from you',500]}
+      loop={Infinity}
+      wrapper="p"
+    />
+
+  </div>
+
+  <p id="sign_in_slogan_para"></p>
+</div>
                
             </div>
 

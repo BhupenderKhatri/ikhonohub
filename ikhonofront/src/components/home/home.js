@@ -1,15 +1,13 @@
 import React ,{Component}from 'react';
 import './home.css';
-
-
 import Content from '../content/content';
 import Footer from '../footer/footer';
 import Nav from '../nav/nav';
- 
 import PictureGoal1 from "../home/Homegoalpic1.png" ;
 import PictureGoal2 from "../home/Homegoalpic2.png" ;
 import PictureGoal3 from "../home/Homegoalpic3.png" ;
 import PictureGoal4 from "../home/Homegoalpic4.png" ;
+import Background from "../home/backgroundimage.png";
 
 
 
@@ -18,10 +16,13 @@ class home extends Component{
     render(){
       
       return (
-    <div id="mainbackhome" >
+        
+    <div id="mainbackhome">
+
           <div>
            <Nav/>
           </div>
+          <img id="backgroundimage" alt='error 404 not found' src={Background }/>
             <div id="home_about_background_color">
                <p id="homeaboutheading">About Us</p>
               
@@ -87,6 +88,7 @@ class home extends Component{
              <Footer/>
             </div>
      </div>
+    
   );
 }
 }

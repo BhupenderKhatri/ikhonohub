@@ -6,6 +6,7 @@ import Google from './sahivaligoogli.png' ;
 import Loginnav from '../loginnav/loginnav';
 import history from "./../../history";
 import axios from "axios";
+import Typical from 'react-typical'
 
 class login extends Component {
 
@@ -142,9 +143,20 @@ class login extends Component {
                   
                     
   </table>  
+
   <div id="login_slogan">
-    <h2 id="login_slogan_heading">Where Aspiration Meets Preparation</h2>
-    <p id="login_slogan_para">Find your next opportunity, get that key introduction, even meet a co-founder. Someone in our thriving and supportive <strong><span class="login_spancolor">IKHONO HUB</span></strong> community is always online willing to lend a hand.</p>
+
+  <h2 id="login_slogan_heading">Where Aspiration Meets Preparation</h2>
+    <div id="login_slogan_para">
+    <Typical
+        steps={['Find your next opportunity, get that key introduction, even meet a co-founder. Someone in our thriving and supportive IKHONO HUB community is always online willing to lend a hand.', 500, 'Leadership and learning are indispensable to each other', 500 ,'The beautiful thing about learning is that nobody can take it away from you',500]}
+        loop={Infinity}
+        wrapper="p"
+      />
+
+    </div>
+  
+    <p id="login_slogan_para"></p>
   </div>
         
     </div>

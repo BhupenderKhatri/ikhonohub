@@ -4,47 +4,54 @@ import Facebook from './facebook.png';
 import Linkedin from './linkedin.png';
 import Instagram from './instagram.png';
 import Youtube from './youtube.png';
-import Twitter from './twitter.png';
+import Ikhonohub from '../footer/LogoWhite.png';
 
-
+import Privacy from '../PrivacyPolicy/privacy';
 import history from '../../history';
 
 class newfooter extends Component{
     render(){
       return(
-          <div >
-             <div id="anchor_one">
-                         <a href="youtube.com">    ABOUT US &nbsp;&nbsp; <span> | </span></a> &nbsp;&nbsp;
-                            
-                         <a href="youtube.com"> 
-                               CONTACT US</a>
-                             
-             </div>
-             <div class="row">
-                              <div class="column"> < a href="https://www.facebook.com/Ikhono-Hub-101845231477935">  <img src= {Facebook}  alt="Error"></img> </a></div>
-                              <div class="column">< a href="https://www.linkedin.com/company/ikhonohub">  <img src= {Linkedin}  alt="Error"></img> </a></div>
-                              <div class="column">< a href="https://www.instagram.com/ikhonohub">  <img src= {Instagram}  alt="Error"></img> </a></div>
-                              <div class="column">  < a href="https://www.youtube.com/channel/UCTXNRNBIOxfGA_qTU7shi0w/featured">  <img src= {Youtube}  alt="Error"></img> </a></div>
-                              <div class="column">  < a href="">  <img src= {Twitter}  alt="Error"></img> </a>  </div>    
-             </div>
-    <div class="footer">
-          <h3 id="issueone">COPYWRITE Ⓒ 2020 , IKHONO HUB</h3>
-   
-         
-         
-          <div id="issuetwo"> <a onClick={()=>history.push('/privacy')}>
-                                PRIVACY &nbsp;&nbsp; <span> | </span></a> 
-                            
-             <a onClick={()=>history.push('/privacy')}>
-             &nbsp;&nbsp;   TERMS
-                              </a>
-             </div>
+          <div id="footer_main_container">
+          
+            {/* firsts div starts here */}
+            <div id="footer_container_one">
+              <img class="footer_image_ikonohub" src={Ikhonohub} alt="nikal be"></img>
+            </div>
 
-</div>
+            {/* //second div starts here */}
+            <div id="footer_nav_options">
+              <a href  class="footer_options"> Home</a>
+              <hr class="footer_option_underline"></hr>
+               <a href class="footer_options"> About Us</a>
+               <hr class="footer_option_underline"></hr>
+               <a href class="footer_options"> Contect Us</a>
+               <hr class="footer_option_underline"></hr>
+               <a href class="footer_options"> Privacy and Terms</a>
+            </div>
+
+            {/* third div starts here */}
+            <div id="footer_follow_content">
+              <p class="footer_follow_heading">Follow Us On</p>
+              <p class="footer_follow_mini_para">Please follow us on our social media <br></br> profile to get updates</p>
+              <div id="footer_follow_images">
+              <img class="footer_follow_image_logo" src={Facebook} alt="nikal be"></img>
+              <img class="footer_follow_image_logo"  src={Linkedin} alt="nikal be"></img>
+              <img class="footer_follow_image_logo"  src={Instagram} alt="nikal be"></img>
+              <img class="footer_follow_image_logo"  src={ Youtube} alt="nikal be"></img>
+              </div>
+            </div>
+
+            {/* fourth div starts here */}
+            <div id="footer_help">
+            <p class="footer_help_heading">Need Help</p>
+              <p class="footer_help_contact_details">Contact : 8248415788<br></br> Address : 3/199 Teacher's Nagar, Tiruttani. <br></br>Email : g.gaganesh10@gmail.com</p>
+
+            </div>
+         </div>
 
 
 
-        </div>
 
       );
     }

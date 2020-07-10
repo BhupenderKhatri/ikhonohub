@@ -1,21 +1,27 @@
-#mainbackhome{
-    background-color: black;
-
+#backgroundimage{
+width: 100%;
+height: 50%;
+background:transparent 0% 0% no-repeat padding-box;
+background:cover ;
+overflow: hidden;
 }
 #home_about_background_color{
     background: transparent linear-gradient(280deg, #111111 0%, #000000 100%) 0% 0% no-repeat padding-box;
     padding-bottom:1px;
 }
 #homeaboutheading{
-  font-size: 35px;
   color:#ffffff;
   text-align:center;
   margin-top:0px;
- padding-top:10px;
  padding-bottom:10px;
+ font-size:32px ;  
+ padding-top: 55px;
 }
 .homeaboutpara{
-    font-size: 20px;
+    font-size: 22px;
+  line-height: 45px;
+  margin-top: 15px;
+  margin-bottom: 60px;
     color:#ffffff;
     text-align:center;
     
@@ -25,15 +31,20 @@
     background: transparent linear-gradient(80deg, #111111 0%, #000000 100%) 0% 0% no-repeat padding-box;
     margin-top: 0px;
     padding-top:1px;
-    
-  border-bottom: 5px solid orangered ;
-  
-    
+    border-top: 3px solid transparent ; 
+    border-bottom: 3px solid transparent;  
+    border-image: linear-gradient(to left, orangered , yellow);
+    border-image-slice: 1; 
 }
 #home_goals_heading{
-   color:white;
-   font-size:35px;
+   font-size: 72px;
+  background: -webkit-linear-gradient(45deg,orangered ,gold);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+   font-weight: bold;
+   font-size:40px;
    text-align:center;
+   text-transform: uppercase;
 
 }
 .goalshomecard{
@@ -41,65 +52,142 @@
     padding-bottom:20px;
 }
 #goalshomecards1{
-    width: 240px;
-    height: 300px;
-    color: white;
-    background: transparent linear-gradient(217deg, #FF00EE 0%, #FFDB00 100%) 0% 0% no-repeat padding-box;
-    border-radius: 20px;
-    opacity: 1;
-    margin-left:75px ;
+    color: white;   
+    border: 3px solid;
+    width: 260px;
+    height: 333px;
+  border-radius: 20px;
+ margin-left:80px ;
 }
 #picturehere{
     height: 80px;
     width: 80px;
-    margin-left: 35%;
-    margin-top: 10%;
+    margin-left: 31%;
+    margin-top: 5%;
     
 }
 #goalshomecards_heading{
  text-align: center;
  margin-top: 30px;
- font-size: 22px;
+    font-size: 31px;
 }
 #goalshomecards_content{
     margin-top: 30px;
     text-align: center;
-    font-size: 18px;
+    font-size: 21px;
     
 }
 
 #goalshomecards2{
-    width: 240px;
-    height: 300px;
+    width: 260px;
+    height: 333px;
+       margin-left:100px ;
     color: white;
-    background: transparent linear-gradient(218deg, #0064D6 0%, #00D6CF 100%) 0% 0% no-repeat padding-box;
+    background:none;
+    border: 3px solid white;
     border-radius: 20px;
     opacity: 1;
-    margin-left: 75px;
    
 }
 
 #goalshomecards3{
-    width: 240px;
-    height: 300px;
+    width: 260px;
+    height: 333px;          
+       margin-left:100px ;
+       margin-top: 0px;
     color: white;
-    background: transparent linear-gradient(221deg, #FFDB00 0%, #FF0011 100%) 0% 0% no-repeat padding-box;
+    background:none;
+    border: 3px solid white;
     border-radius: 20px;
     opacity: 1;
-    margin-left: 75px;
    
 }
 
 #goalshomecards4{
-    width: 240px;
-    height: 300px;
+    width: 260px;
+    height: 333px;      
+    margin-left:100px ;
+    margin-top: 0px;
     color: white;
-    background: transparent linear-gradient(217deg, #00D6CF 0%, #00FF55 100%) 0% 0% no-repeat padding-box;
+    background:none;
+    border: 3px solid white;
     border-radius: 20px;
-    margin-left: 75px;
+
    
 } 
-
+@media only screen and (max-width: 319px) {
+        
+        .homeaboutpara {
+            font-size: 9.4px;
+            line-height: 15px;
+            margin-left: 25px;
+            width: 270px;
+           }
+         #homeaboutheading{
+            font-size: 17px;
+           
+          }
+          .goalshomecard{
+              flex-direction: column;
+              margin-left: 30%;
+          }
+        #home_goals_heading{
+           font-size:20px;
+        }
+        #picturehere{
+            height: 28px;
+            width: 28px; 
+            margin-top:5px ;
+            margin-left: 38%;           
+        }
+        #goalshomecards_heading{
+        
+         margin-top: 15px;
+         font-size: 12px;
+        }
+        #goalshomecards_content{
+            margin-top: 12px;
+            text-align: center;
+            font-size: 10px;
+            
+        }
+        #goalshomecards1{
+            width: 120px;
+            height: 150px;
+            border-radius: 10px;
+            margin-left:0px;
+            border:1px solid white;
+        }
+        #goalshomecards2{
+            width: 120px;
+            height: 150px;
+            border-radius: 10px;
+            margin-left:0px;
+            border:1px solid white;
+            margin-top: 10px;
+           
+        }
+        
+        #goalshomecards3{
+            width: 120px;
+            height: 150px;
+            border-radius: 10px;
+            margin-left:0px;
+            border:1px solid white;
+            margin-top: 10px;
+           
+        }
+        
+        #goalshomecards4{
+            width: 120px;
+            height: 150px;
+            border-radius: 10px;
+            margin-left:0px;
+            border:1px solid white;
+            margin-top: 10px;
+           
+        } 
+    }
 
 
 @media only screen and (min-width: 320px) 
@@ -115,56 +203,64 @@
             font-size: 17px;
            
           }
-          
+          .goalshomecard{
+              flex-direction: column;
+              margin-left: 30%;
+          }
         #home_goals_heading{
            font-size:20px;
         }
         #picturehere{
-            height: 25px;
-            width: 25px; 
-            margin-top:10px ;
-            margin-left: 55px;           
+            height: 28px;
+            width: 28px; 
+            margin-top:5px ;
+            margin-left: 38%;           
         }
         #goalshomecards_heading{
-         width: 130px;
+        
          margin-top: 15px;
          font-size: 12px;
         }
         #goalshomecards_content{
-            margin-top: 20px;
+            margin-top: 12px;
             text-align: center;
             font-size: 10px;
             
         }
         #goalshomecards1{
-            width: 140px;
+            width: 120px;
             height: 150px;
             border-radius: 10px;
-            margin-left:12px ;
+            margin-left:0px;
+            border:1px solid white;
         }
         #goalshomecards2{
-            width: 140px;
+            width: 120px;
             height: 150px;
             border-radius: 10px;
-            margin-left:20px ;
+            margin-left:0px;
+            border:1px solid white;
+            margin-top: 10px;
            
         }
         
         #goalshomecards3{
-            width: 140px;
+            width: 120px;
             height: 150px;
             border-radius: 10px;
-            margin-left:-300px ;
-            margin-top: 180px;
+            margin-left:0px;
+            border:1px solid white;
+            margin-top: 10px;
            
         }
         
         #goalshomecards4{
-            width: 140px;
+            width: 120px;
             height: 150px;
             border-radius: 10px;
-            margin-left:20px ;
-            margin-top: 180px;
+            margin-left:0px;
+            border:1px solid white;
+            margin-top: 10px;
            
         } 
     }
@@ -204,58 +300,63 @@
             width: 280px;
            }
          
-        
-         #home_goals_heading{
-            font-size:20px;
-         }
-         #picturehere{
-             height: 25px;
-             width: 25px; 
-             margin-top:10px ;
-             margin-left: 55px;           
-         }
-         #goalshomecards_heading{
-          width: 130px;
-          margin-top: 15px;
-          font-size: 12px;
-         }
-         #goalshomecards_content{
-             margin-top: 20px;
-             text-align: center;
-             font-size: 10px;
-             
-         }
-         #goalshomecards1{
-             width: 140px;
-             height: 150px;
-             border-radius: 10px;
-             margin-left:25px ;
-         }
-         #goalshomecards2{
-             width: 140px;
-             height: 150px;
-             border-radius: 10px;
-             margin-left:30px ;
-            
-         }
-         
-         #goalshomecards3{
-             width: 140px;
-             height: 150px;
-             border-radius: 10px;
-             margin-left:-310px ;
-             margin-top: 180px;
-            
-         }
-         
-         #goalshomecards4{
-             width: 140px;
-             height: 150px;
-             border-radius: 10px;
-             margin-left:30px ;
-             margin-top: 180px;
-            
-         } 
+           .goalshomecard{
+            flex-direction: column;
+            margin-left: 32%;
+        }
+      #home_goals_heading{
+         font-size:20px;
+      }
+      #picturehere{
+          height: 28px;
+          width: 28px; 
+          margin-top:5px ;
+          margin-left: 38%;           
+      }
+      #goalshomecards_heading{
+      
+       margin-top: 15px;
+       font-size: 12px;
+      }
+      #goalshomecards_content{
+          margin-top: 12px;
+          text-align: center;
+          font-size: 10px;
+          
+      }
+      #goalshomecards1{
+          width: 120px;
+          height: 150px;
+          border-radius: 10px;
+          margin-left:0px ;
+          border:1px solid white;
+      }
+      #goalshomecards2{
+          width: 120px;
+          height: 150px;
+          border-radius: 10px;
+          margin-left:0px ;
+          margin-top: 10px;
+          border:1px solid white;
+      }
+      
+      #goalshomecards3{
+          width: 120px;
+          height: 150px;
+          border-radius: 10px;
+          margin-left:0px ;
+          margin-top: 10px;
+          border:1px solid white;
+      }
+      
+      #goalshomecards4{
+          width: 120px;
+          height: 150px;
+          border-radius: 10px;
+          margin-left:0px ;
+          margin-top: 10px;
+          border:1px solid white;
+      } 
     }
 
 
@@ -276,7 +377,7 @@
 
 
     
-@media only screen and (min-width: 374px) 
+@media only screen and (min-width: 375px) 
     and (max-width: 411px) {
                 
         
@@ -291,59 +392,63 @@
             margin-left: 40px;
             width: 290px;
            }
-         #home_goals_heading{
-            font-size:20px;
-         }
-         #picturehere{
-             height: 25px;
-             width: 25px; 
-             margin-top:10px ;
-             margin-left: 55px;           
-         }
-         #goalshomecards_heading{
-            width: 130px;
-            margin-top: 15px;
-            font-size: 12px;
-           }
-           #goalshomecards_content{
-               margin-top: 20px;
-               text-align: center;
-               font-size: 10px;
-               
-           }
-           #goalshomecards1{
-               width: 140px;
-               height: 150px;
-               border-radius: 10px;
-               margin-left:38px ;
-           }
-           #goalshomecards2{
-               width: 140px;
-               height: 150px;
-               border-radius: 10px;
-               margin-left:30px ;
-              
-           }
-           
-           #goalshomecards3{
-               width: 140px;
-               height: 150px;
-               border-radius: 10px;
-               margin-left:-310px ;
-               margin-top: 180px;
-              
-           }
-           
-           #goalshomecards4{
-               width: 140px;
-               height: 150px;
-               border-radius: 10px;
-               margin-left:30px ;
-               margin-top: 180px;
-              
-           } 
-
-
+           .goalshomecard{
+            flex-direction: column;
+            margin-left: 32%;
+        }
+      #home_goals_heading{
+         font-size:20px;
+      }
+      #picturehere{
+          height: 28px;
+          width: 28px; 
+          margin-top:5px ;
+          margin-left: 38%;           
+      }
+      #goalshomecards_heading{
+      
+       margin-top: 15px;
+       font-size: 12px;
+      }
+      #goalshomecards_content{
+          margin-top: 12px;
+          text-align: center;
+          font-size: 10px;
+          
+      }
+      #goalshomecards1{
+          width: 120px;
+          height: 150px;
+          border-radius: 10px;
+          margin-left:0px ;
+          border:1px solid white;
+      }
+      #goalshomecards2{
+          width: 120px;
+          height: 150px;
+          border-radius: 10px;
+          margin-left:0px ;
+          margin-top: 10px;
+          border:1px solid white;
+      }
+      
+      #goalshomecards3{
+          width: 120px;
+          height: 150px;
+          border-radius: 10px;
+          margin-left:0px ;
+          margin-top: 10px;
+          border:1px solid white;
+      }
+      
+      #goalshomecards4{
+          width: 120px;
+          height: 150px;
+          border-radius: 10px;
+          margin-left:0px ;
+          margin-top: 10px;
+          border:1px solid white;
+      } 
     }
 
     
@@ -378,57 +483,63 @@ and (max-width: 413px)
             width: 300px;
        }
     
-     #home_goals_heading{
-        font-size:20px;
-     }
-     #picturehere{
-         height: 25px;
-         width: 25px; 
-         margin-top:10px ;
-         margin-left: 55px;           
-     }
-     #goalshomecards_heading{
-        width: 130px;
-        margin-top: 15px;
-        font-size: 12px;
-       }
-       #goalshomecards_content{
-           margin-top: 20px;
-           text-align: center;
-           font-size: 10px;
-           
-       }
-       #goalshomecards1{
-           width: 140px;
-           height: 150px;
-           border-radius: 10px;
-           margin-left:43px ;
-       }
-       #goalshomecards2{
-           width: 140px;
-           height: 150px;
-           border-radius: 10px;
-           margin-left:45px ;
-          
-       }
-       
-       #goalshomecards3{
-           width: 140px;
-           height: 150px;
-           border-radius: 10px;
-           margin-left:-325px ;
-           margin-top: 180px;
-          
-       }
-       
-       #goalshomecards4{
-           width: 140px;
-           height: 150px;
-           border-radius: 10px;
-           margin-left:45px ;
-           margin-top: 180px;
-          
-       } 
+       .goalshomecard{
+        flex-direction: column;
+        margin-left: 32%;
+    }
+  #home_goals_heading{
+     font-size:20px;
+  }
+  #picturehere{
+      height: 28px;
+      width: 28px; 
+      margin-top:5px ;
+      margin-left: 38%;           
+  }
+  #goalshomecards_heading{
+  
+   margin-top: 15px;
+   font-size: 12px;
+  }
+  #goalshomecards_content{
+      margin-top: 12px;
+      text-align: center;
+      font-size: 10px;
+      
+  }
+  #goalshomecards1{
+      width: 120px;
+      height: 150px;
+      border-radius: 10px;
+      margin-left:0px ;
+      border:1px solid white;
+  }
+  #goalshomecards2{
+      width: 120px;
+      height: 150px;
+      border-radius: 10px;
+      margin-left:0px ;
+      margin-top: 10px;
+      border:1px solid white;
+  }
+  
+  #goalshomecards3{
+      width: 120px;
+      height: 150px;
+      border-radius: 10px;
+      margin-left:0px ;
+      margin-top: 10px;
+      border:1px solid white;
+  }
+  
+  #goalshomecards4{
+      width: 120px;
+      height: 150px;
+      border-radius: 10px;
+      margin-left:0px ;
+      margin-top: 10px;
+      border:1px solid white;
+  } 
 }  
 @media only screen and (min-width: 414px) 
 and (max-width: 449px)
@@ -445,58 +556,65 @@ and (max-width: 449px)
         margin-left: 50px;
         width: 305px;
        }
+       .goalshomecard{
+           display: grid;
+           grid-template-columns: auto auto;
+           grid-gap:10px 0px;
+        margin-left: 15%; 
+    }
+  #home_goals_heading{
+     font-size:20px;
+  }
+  #picturehere{
+      height: 28px;
+      width: 28px; 
+      margin-top:5px ;
+      margin-left: 38%;           
+  }
+  #goalshomecards_heading{
   
-    #home_goals_heading{
-        font-size:20px;
-     }
-     #picturehere{
-         height: 25px;
-         width: 25px; 
-         margin-top:10px ;
-         margin-left: 55px;           
-     }
-     #goalshomecards_heading{
-        width: 130px;
-        margin-top: 15px;
-        font-size: 12px;
-       }
-       #goalshomecards_content{
-           margin-top: 20px;
-           text-align: center;
-           font-size: 10px;
-           
-       }
-       #goalshomecards1{
-           width: 140px;
-           height: 150px;
-           border-radius: 10px;
-           margin-left:50px ;
-       }
-       #goalshomecards2{
-           width: 140px;
-           height: 150px;
-           border-radius: 10px;
-           margin-left:50px ;
-          
-       }
-       
-       #goalshomecards3{
-           width: 140px;
-           height: 150px;
-           border-radius: 10px;
-           margin-left:-330px ;
-           margin-top: 180px;
-          
-       }
-       
-       #goalshomecards4{
-           width: 140px;
-           height: 150px;
-           border-radius: 10px;
-           margin-left:50px ;
-           margin-top: 180px;
-          
-       } 
+   margin-top: 15px;
+   font-size: 12px;
+  }
+  #goalshomecards_content{
+      margin-top: 12px;
+      text-align: center;
+      font-size: 10px;
+      
+  }
+  #goalshomecards1{
+      width: 120px;
+      height: 150px;
+      border-radius: 10px;
+      margin-left:0px ;
+      border:1px solid white;
+  }
+  #goalshomecards2{
+      width: 120px;
+      height: 150px;
+      border-radius: 10px;
+      margin-left:0px ;
+      margin-top: 0px;
+      border:1px solid white;
+  }
+  
+  #goalshomecards3{
+      width: 120px;
+      height: 150px;
+      border-radius: 10px;
+      margin-left:0px ;
+      margin-top: 0px;
+      border:1px solid white;
+  }
+  
+  #goalshomecards4{
+      width: 120px;
+      height: 150px;
+      border-radius: 10px;
+      margin-left:0px ;
+      margin-top: 0px;
+      border:1px solid white;
+  } 
     
 }   
 
@@ -517,57 +635,65 @@ and (max-width: 449px)
             width: 340px;
            
            }
-        #home_goals_heading{
-            font-size:22px;
-         }
-         #picturehere{
-             height: 35px;
-             width: 35px; 
-             margin-top:10px ;
-             margin-left: 62px;           
-         }
-         #goalshomecards_heading{
-            width: 160px;
-            margin-top: 15px;
-            font-size: 14px;
-           }
-           #goalshomecards_content{
-               margin-top: 20px;
-               text-align: center;
-               font-size: 12px;
-               
-           }
-           #goalshomecards1{
-               width: 160px;
-               height: 180px;
-               border-radius: 10px;
-               margin-left:60px ;
-           }
-           #goalshomecards2{
-               width: 160px;
-               height: 180px;
-               border-radius: 10px;
-               margin-left:60px ;
-              
-           }
-           
-           #goalshomecards3{
-               width: 160px;
-               height: 180px;
-               border-radius: 10px;
-               margin-left:-380px ;
-               margin-top: 205px;
-              
-           }
-           
-           #goalshomecards4{
-               width: 160px;
-               height: 180px;
-               border-radius: 10px;
-               margin-left:60px ;
-               margin-top: 205px;
-              
-           } 
+           .goalshomecard{
+            display: grid;
+            grid-template-columns: auto auto;
+            grid-gap:20px 0px;
+         margin-left: 17%; 
+     }
+   #home_goals_heading{
+      font-size:20px;
+   }
+   #picturehere{
+       height: 28px;
+       width: 28px; 
+       margin-top:5px ;
+       margin-left: 38%;           
+   }
+   #goalshomecards_heading{
+   
+    margin-top: 15px;
+    font-size: 12px;
+   }
+   #goalshomecards_content{
+       margin-top: 12px;
+       text-align: center;
+       font-size: 10px;
+       
+   }
+   #goalshomecards1{
+       width: 120px;
+       height: 150px;
+       border-radius: 10px;
+       margin-left:0px ;
+       border:1px solid white;
+   }
+   #goalshomecards2{
+       width: 120px;
+       height: 150px;
+       border-radius: 10px;
+       margin-left:0px ;
+       margin-top: 0px;
+       border:1px solid white;
+   }
+   
+   #goalshomecards3{
+       width: 120px;
+       height: 150px;
+       border-radius: 10px;
+       margin-left:0px ;
+       margin-top: 0px;
+       border:1px solid white;
+   }
+   
+   #goalshomecards4{
+       width: 120px;
+       height: 150px;
+       border-radius: 10px;
+       margin-left:0px ;
+       margin-top: 0px;
+       border:1px solid white;
+   } 
     } 
     
 
@@ -585,58 +711,65 @@ and (max-width: 449px)
             margin-left: 85px;
             width: 370px;
            }
-        #home_goals_heading{
-            font-size:22px;
-         }
-         #picturehere{
-             height: 35px;
-             width: 35px; 
-             margin-top:10px ;
-             margin-left: 62px;           
-         }
-         #goalshomecards_heading{
-            width: 160px;
-            margin-top: 15px;
-            font-size: 14px;
-           }
-           #goalshomecards_content{
-               margin-top: 20px;
-               text-align: center;
-               font-size: 12px;
-               
-           }
-           #goalshomecards1{
-               width: 160px;
-               height: 180px;
-               border-radius: 10px;
-               margin-left:85px ;
-           }
-           #goalshomecards2{
-               width: 160px;
-               height: 180px;
-               border-radius: 10px;
-               margin-left:85px ;
-              
-           }
-           
-           #goalshomecards3{
-               width: 160px;
-               height: 180px;
-               border-radius: 10px;
-               margin-left:-405px ;
-               margin-top: 210px;
-              
-           }
-           
-           #goalshomecards4{
-               width: 160px;
-               height: 180px;
-               border-radius: 10px;
-               margin-left:85px ;
-               margin-top: 210px;
-              
-           } 
-
+           .goalshomecard{
+            display: grid;
+            grid-template-columns: auto auto;
+            grid-gap:20px 0px;
+         margin-left: 17%; 
+     }
+   #home_goals_heading{
+      font-size:20px;
+   }
+   #picturehere{
+       height: 30px;
+       width: 30px; 
+       margin-top:8px ;
+       margin-left: 38%;           
+   }
+   #goalshomecards_heading{
+   
+    margin-top: 12px;
+    font-size: 15px;
+   }
+   #goalshomecards_content{
+       margin-top: 12px;
+       text-align: center;
+       font-size: 12px;
+       
+   }
+   #goalshomecards1{
+       width: 135px;
+       height: 170px;
+       border-radius: 10px;
+       margin-left:0px ;
+       border:1.5px solid white;
+   }
+   #goalshomecards2{
+       width: 135px;
+       height: 170px;
+       border-radius: 10px;
+       margin-left:0px ;
+       margin-top: 0px;
+       border:1.5px solid white;
+   }
+   
+   #goalshomecards3{
+       width: 135px;
+       height: 170px;
+       border-radius: 10px;
+       margin-left:0px ;
+       margin-top: 0px;
+       border:1.5px solid white;
+   }
+   
+   #goalshomecards4{
+       width: 135px;
+       height: 170px;
+       border-radius: 10px;
+       margin-left:0px ;
+       margin-top: 0px;
+       border:1.5px solid white;
+   } 
     }    
     @media only screen and (min-width: 600px) 
     and (max-width: 617px) {
@@ -653,58 +786,65 @@ and (max-width: 449px)
             width: 410px;
             
            }
-        #home_goals_heading{
-            font-size:24px;
-         }
-         #picturehere{
-             height: 35px;
-             width: 35px; 
-             margin-top:10px ;
-             margin-left: 62px;           
-         }
-         #goalshomecards_heading{
-            width: 160px;
-            margin-top: 16px;
-            font-size: 15px;
-           }
-           #goalshomecards_content{
-               margin-top: 20px;
-               text-align: center;
-               font-size: 12px;
-               
-           }
-           #goalshomecards1{
-               width: 160px;
-               height: 180px;
-               border-radius: 10px;
-               margin-left:95px ;
-           }
-           #goalshomecards2{
-               width: 160px;
-               height: 180px;
-               border-radius: 10px;
-               margin-left:95px ;
-              
-           }
-           
-           #goalshomecards3{
-               width: 160px;
-               height: 180px;
-               border-radius: 10px;
-               margin-left:-415px ;
-               margin-top: 210px;
-              
-           }
-           
-           #goalshomecards4{
-               width: 160px;
-               height: 180px;
-               border-radius: 10px;
-               margin-left:95px ;
-               margin-top: 210px;
-              
-           } 
-
+           .goalshomecard{
+            display: grid;
+            grid-template-columns: auto auto;
+            grid-gap:20px 0px;
+         margin-left: 18%; 
+     }
+   #home_goals_heading{
+      font-size:20px;
+   }
+   #picturehere{
+       height: 30px;
+       width: 30px; 
+       margin-top:8px ;
+       margin-left: 38%;           
+   }
+   #goalshomecards_heading{
+   
+    margin-top: 12px;
+    font-size: 15px;
+   }
+   #goalshomecards_content{
+       margin-top: 12px;
+       text-align: center;
+       font-size: 12px;
+       
+   }
+   #goalshomecards1{
+       width: 135px;
+       height: 170px;
+       border-radius: 10px;
+       margin-left:0px ;
+       border:1.5px solid white;
+   }
+   #goalshomecards2{
+       width: 135px;
+       height: 170px;
+       border-radius: 10px;
+       margin-left:0px ;
+       margin-top: 0px;
+       border:1.5px solid white;
+   }
+   
+   #goalshomecards3{
+       width: 135px;
+       height: 170px;
+       border-radius: 10px;
+       margin-left:0px ;
+       margin-top: 0px;
+       border:1.5px solid white;
+   }
+   
+   #goalshomecards4{
+       width: 135px;
+       height: 170px;
+       border-radius: 10px;
+       margin-left:0px ;
+       margin-top: 0px;
+       border:1.5px solid white;
+   } 
 
 
     } 
@@ -722,70 +862,66 @@ and (max-width: 449px)
             margin-left: 100px;
             width: 420px;
            }
-        #home_goals_heading{
-            font-size:24px;
-         }
-         #picturehere{
-             height: 50px;
-             width: 50px; 
-             margin-top:10px ;
-             margin-left: 62px;           
-         }
-         #goalshomecards_heading{
-            width: 175px;
-            margin-top: 22px;
-            font-size: 16px;
-           }
-           #goalshomecards_content{
-               margin-top: 25px;
-               text-align: center;
-               font-size: 14px;
-               
-           }
-           #goalshomecards1{
-               width: 180px;
-               height: 210px;
-               border-radius: 10px;
-               margin-left:112px ;
-           }
-           #goalshomecards2{
-               width: 175px;
-               height: 210px;
-               border-radius: 10px;
-               margin-left:100px ;
-              
-           }
-           
-           #goalshomecards3{
-               width: 175px;
-               height: 210px;
-               border-radius: 10px;
-               margin-left:-455px ;
-               margin-top: 240px;
-              
-           }
-           
-           #goalshomecards4{
-               width: 175px;
-               height: 210px;
-               border-radius: 10px;
-               margin-left:105px ;
-               margin-top: 240px;
-              
-           } 
-
+           .goalshomecard{
+            display: grid;
+            grid-template-columns: auto auto;
+            grid-gap:20px 0px;
+         margin-left: 19%; 
+     }
+   #home_goals_heading{
+      font-size:20px;
+   }
+   #picturehere{
+       height: 35px;
+       width: 35px; 
+       margin-top:8px ;
+       margin-left: 38%;           
+   }
+   #goalshomecards_heading{
+   
+    margin-top: 12px;
+    font-size: 15px;
+   }
+   #goalshomecards_content{
+       margin-top: 12px;
+       text-align: center;
+       font-size: 12px;
+       
+   }
+   #goalshomecards1{
+       width: 140px;
+       height: 180px;
+       border-radius: 10px;
+       margin-left:0px ;
+       border:1.5px solid white;
+   }
+   #goalshomecards2{
+       width: 140px;
+       height: 180px;
+       border-radius: 10px;
+       margin-left:0px ;
+       margin-top: 0px;
+       border:1.5px solid white;
+   }
+   
+   #goalshomecards3{
+       width: 140px;
+       height: 180px;
+       border-radius: 10px;
+       margin-left:0px ;
+       margin-top: 0px;
+       border:1.5px solid white;
+   }
+   
+   #goalshomecards4{
+       width: 140px;
+       height: 180px;
+       border-radius: 10px;
+       margin-left:0px ;
+       margin-top: 0px;
+       border:1.5px solid white;
+   } 
     }
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -803,58 +939,65 @@ and (max-width: 449px)
             margin-top: -14px;
             width: 400px;
            }
-        #home_goals_heading{
-            font-size:25px;
-         }
-         #picturehere{
-             height: 50px;
-             width: 50px; 
-             margin-top:10px ;
-             margin-left: 62px;           
-         }
-         #goalshomecards_heading{
-            width: 175px;
-            margin-top: 20px;
-            font-size: 16px;
-           }
-           #goalshomecards_content{
-               margin-top: 20px;
-               text-align: center;
-               font-size: 15px;
-               
-           }
-           #goalshomecards1{
-               width: 180px;
-               height: 210px;
-               border-radius: 10px;
-               margin-left:125px ;
-           }
-           #goalshomecards2{
-               width: 175px;
-               height: 210px;
-               border-radius: 10px;
-               margin-left:125px ;
-              
-           }
-           
-           #goalshomecards3{
-               width: 175px;
-               height: 210px;
-               border-radius: 10px;
-               margin-left:-480px ;
-               margin-top: 240px;
-              
-           }
-           
-           #goalshomecards4{
-               width: 175px;
-               height: 210px;
-               border-radius: 10px;
-               margin-left:130px ;
-               margin-top: 240px;
-              
-           } 
-
+           .goalshomecard{
+            display: grid;
+            grid-template-columns: auto auto;
+            grid-gap:20px 0px;
+         margin-left: 20%; 
+     }
+   #home_goals_heading{
+      font-size:20px;
+   }
+   #picturehere{
+       height: 35px;
+       width: 35px; 
+       margin-top:8px ;
+       margin-left: 38%;           
+   }
+   #goalshomecards_heading{
+   
+    margin-top: 12px;
+    font-size: 15px;
+   }
+   #goalshomecards_content{
+       margin-top: 12px;
+       text-align: center;
+       font-size: 12px;
+       
+   }
+   #goalshomecards1{
+       width: 150px;
+       height: 180px;
+       border-radius: 10px;
+       margin-left:0px ;
+       border:1.5px solid white;
+   }
+   #goalshomecards2{
+       width: 150px;
+       height: 180px;
+       border-radius: 10px;
+       margin-left:0px ;
+       margin-top: 0px;
+       border:1.5px solid white;
+   }
+   
+   #goalshomecards3{
+       width: 150px;
+       height: 180px;
+       border-radius: 10px;
+       margin-left:0px ;
+       margin-top: 0px;
+       border:1.5px solid white;
+   }
+   
+   #goalshomecards4{
+       width: 150px;
+       height: 180px;
+       border-radius: 10px;
+       margin-left:0px ;
+       margin-top: 0px;
+       border:1.5px solid white;
+   } 
         }
 
 
@@ -870,57 +1013,63 @@ and (max-width: 850px) {
         margin-top: -15px;
         margin-bottom: 25px;
        }
-    #home_goals_heading{
-        font-size:25px;
-     }
-     #picturehere{
-         height: 50px;
-         width: 50px; 
-         margin-top:10px ;
-         margin-left: 62px;           
-     }
-     #goalshomecards_heading{
-        width: 175px;
-        margin-top: 20px;
-        font-size: 16px;
-       }
-       #goalshomecards_content{
-           margin-top: 20px;
-           text-align: center;
-           font-size: 15px;
-           
-       }
-       #goalshomecards1{
-           width: 180px;
-           height: 210px;
-           border-radius: 10px;
-           margin-left:140px ;
-       }
-       #goalshomecards2{
-           width: 175px;
-           height: 210px;
-           border-radius: 10px;
-           margin-left:145px ;
-          
-       }
-       
-       #goalshomecards3{
-           width: 175px;
-           height: 210px;
-           border-radius: 10px;
-           margin-left:-500px ;
-           margin-top: 250px;
-          
-       }
-       
-       #goalshomecards4{
-           width: 175px;
-           height: 210px;
-           border-radius: 10px;
-           margin-left:150px ;
-           margin-top: 250px;
-          
-       } 
+    .goalshomecard{
+        display: flex;
+        justify-content: space-evenly;
+ }
+#home_goals_heading{
+  font-size:22px;
+}
+#picturehere{
+   height: 35px;
+   width: 35px; 
+   margin-top:8px ;
+   margin-left: 38%;           
+}
+#goalshomecards_heading{
+
+margin-top: 12px;
+font-size: 15px;
+}
+#goalshomecards_content{
+   margin-top: 12px;
+   text-align: center;
+   font-size: 12px;
+   
+}
+#goalshomecards1{
+   width: 150px;
+   height: 180px;
+   border-radius: 10px;
+   margin-left:0px ;
+   border:1.5px solid white;
+}
+#goalshomecards2{
+   width: 150px;
+   height: 180px;
+   border-radius: 10px;
+   margin-left:0px ;
+   margin-top: 0px;
+   border:1.5px solid white;
+}
+
+#goalshomecards3{
+   width: 150px;
+   height: 180px;
+   border-radius: 10px;
+   margin-left:0px ;
+   margin-top: 0px;
+   border:1.5px solid white;
+}
+
+#goalshomecards4{
+   width: 150px;
+   height: 180px;
+   border-radius: 10px;
+   margin-left:0px ;
+   margin-top: 0px;
+   border:1.5px solid white;
+} 
 
 }
 
@@ -939,57 +1088,63 @@ and (max-width: 850px) {
       
      }
     
-    #home_goals_heading{
-        font-size:27px;
-     }
-     #picturehere{
-         height: 60px;
-         width: 60px; 
-         margin-top:10px ;
-         margin-left: 70px;           
-     }
-     #goalshomecards_heading{
-        width: 195px;
-        margin-top: 20px;
-        font-size: 18px;
-       }
-       #goalshomecards_content{
-           margin-top: 25px;
-           text-align: center;
-           font-size: 16.5px;
-           
-       }
-       #goalshomecards1{
-           width: 200px;
-           height: 240px;
-           border-radius: 10px;
-           margin-left:155px ;
-       }
-       #goalshomecards2{
-        width: 200px;
-        height: 240px;
-           border-radius: 10px;
-           margin-left:170px ;
-          
-       }
-       
-       #goalshomecards3{
-        width: 200px;
-        height: 240px;
-           border-radius: 10px;
-           margin-left:-570px ;
-           margin-top: 270px;
-          
-       }
-       
-       #goalshomecards4{
-        width: 200px;
-        height: 240px;
-           border-radius: 10px;
-           margin-left:170px ;
-           margin-top: 270px;
-          
-       } 
+     .goalshomecard{
+        display: flex;
+        justify-content: space-evenly;
+ }
+#home_goals_heading{
+  font-size:22px;
+}
+#picturehere{
+   height: 40px;
+   width: 40px; 
+   margin-top:8px ;
+   margin-left: 37%;           
+}
+#goalshomecards_heading{
+
+margin-top: 12px;
+font-size: 15px;
+}
+#goalshomecards_content{
+   margin-top: 12px;
+   text-align: center;
+   font-size: 13px;
+   
+}
+#goalshomecards1{
+   width: 160px;
+   height: 190px;
+   border-radius: 10px;
+   margin-left:0px ;
+   border:2px solid white;
+}
+#goalshomecards2{
+   width: 160px;
+   height: 190px;
+   border-radius: 10px;
+   margin-left:0px ;
+   margin-top: 0px;
+   border:2px solid white;
+}
+
+#goalshomecards3{
+   width: 160px;
+   height: 190px;
+   border-radius: 10px;
+   margin-left:0px ;
+   margin-top: 0px;
+   border:2px solid white;
+}
+
+#goalshomecards4{
+   width: 160px;
+   height: 190px;
+   border-radius: 10px;
+   margin-left:0px ;
+   margin-top: 0px;
+   border:2px solid white;
+} 
 
 }
 
@@ -1008,58 +1163,65 @@ and (max-width: 850px) {
       margin-top: 15px;
       margin-bottom: 45px;
      }
-     #home_goals_heading{
-        font-size:27px;
-     }
-     #picturehere{
-         height: 60px;
-         width: 60px; 
-         margin-top:10px ;
-         margin-left: 70px;           
-     }
-     #goalshomecards_heading{
-        width: 195px;
-        margin-top: 20px;
-        font-size: 18px;
-       }
-       #goalshomecards_content{
-           margin-top: 25px;
-           text-align: center;
-           font-size: 17px;
-           
-       }
-       #goalshomecards1{
-           width: 200px;
-           height: 240px;
-           border-radius: 10px;
-           margin-left:180px ;
-       }
-       #goalshomecards2{
-        width: 200px;
-        height: 240px;
-           border-radius: 10px;
-           margin-left:195px ;
-          
-       }
-       
-       #goalshomecards3{
-        width: 200px;
-        height: 240px;
-           border-radius: 10px;
-           margin-left:-595px ;
-           margin-top: 280px;
-          
-       }
-       
-       #goalshomecards4{
-        width: 200px;
-        height: 240px;
-           border-radius: 10px;
-           margin-left:195px ;
-           margin-top: 280px;
-          
-       } 
- 
+     
+     .goalshomecard{
+        display: flex;
+        justify-content: space-evenly;
+ }
+#home_goals_heading{
+  font-size:22px;
+}
+#picturehere{
+   height: 40px;
+   width: 40px; 
+   margin-top:8px ;
+   margin-left: 37%;           
+}
+#goalshomecards_heading{
+
+margin-top: 12px;
+font-size: 15px;
+}
+#goalshomecards_content{
+   margin-top: 12px;
+   text-align: center;
+   font-size: 13px;
+   
+}
+#goalshomecards1{
+   width: 160px;
+   height: 190px;
+   border-radius: 10px;
+   margin-left:0px ;
+   border:2px solid white;
+}
+#goalshomecards2{
+   width: 160px;
+   height: 190px;
+   border-radius: 10px;
+   margin-left:0px ;
+   margin-top: 0px;
+   border:2px solid white;
+}
+
+#goalshomecards3{
+   width: 160px;
+   height: 190px;
+   border-radius: 10px;
+   margin-left:0px ;
+   margin-top: 0px;
+   border:2px solid white;
+}
+
+#goalshomecards4{
+   width: 160px;
+   height: 190px;
+   border-radius: 10px;
+   margin-left:0px ;
+   margin-top: 0px;
+   border:2px solid white;
+} 
+
 }
 
 @media only screen and (min-width: 1024px) and (max-width: 1100px){
@@ -1075,70 +1237,67 @@ and (max-width: 850px) {
       margin-top: 15px;
       margin-bottom: 55px;
      }
-     #home_goals_heading{
-        font-size:27px;
-     }
-     #picturehere{
-         height: 70px;
-         width: 70px; 
-         margin-top:10px ;
-         margin-left: 72px;           
-     }
-     #goalshomecards_heading{
-        width: 215px;
-        margin-top: 25px;
-        font-size: 20px;
-       }
-       #goalshomecards_content{
-           margin-top: 25px;
-           text-align: center;
-           font-size: 17px;
-           
-       }
-       #goalshomecards1{
-           width: 220px;
-           height: 270px;
-           border-radius: 10px;
-           margin-left:200px ;
-       }
-       #goalshomecards2{
-        width: 220px;
-           height: 270px;
-           border-radius: 10px;
-           margin-left:200px ;
-          
-       }
-       
-       #goalshomecards3{
-        width: 220px;
-           height: 270px;
-           border-radius: 10px;
-           margin-left:-640px ;
-           margin-top: 300px;
-          
-       }
-       
-       #goalshomecards4{
-        width: 220px;
-        height: 270px;
-           border-radius: 10px;
-           margin-left:200px ;
-           margin-top: 300px;
-          
-       } 
+     .goalshomecard{
+        display: flex;
+        justify-content: space-evenly;
+        margin-left: 5%;
+        margin-right:5%;
+ }
+#home_goals_heading{
+  font-size:23px;
+}
+#picturehere{
+   height: 45px;
+   width: 45px; 
+   margin-top:8px ;
+   margin-left: 37%;           
+}
+#goalshomecards_heading{
+
+margin-top: 12px;
+font-size: 17px;
+}
+#goalshomecards_content{
+   margin-top: 12px;
+   text-align: center;
+   font-size: 15px;
+   
+}
+#goalshomecards1{
+   width: 165px;
+   height: 195px;
+   border-radius: 10px;
+   margin-left:0px ;
+   border:2px solid white;
+}
+#goalshomecards2{
+   width: 165px;
+   height: 195px;
+   border-radius: 10px;
+   margin-left:0px ;
+   margin-top: 0px;
+   border:2px solid white;
 }
 
+#goalshomecards3{
+   width: 165px;
+   height: 195px;
+   border-radius: 10px;
+   margin-left:0px ;
+   margin-top: 0px;
+   border:2px solid white;
+}
 
+#goalshomecards4{
+   width: 165px;
+   height: 195px;
+   border-radius: 10px;
+   margin-left:0px ;
+   margin-top: 0px;
+   border:2px solid white;
+} 
 
-
-
-
-
-
-
-
-
-
+}
 
 
 
@@ -1156,57 +1315,65 @@ and (max-width: 850px) {
       margin-bottom: 55px;
      }
     
-     #home_goals_heading{
-        font-size:28px;
-     }
-     #picturehere{
-         height: 70px;
-         width: 70px; 
-         margin-top:10px ;
-         margin-left: 72px;           
-     }
-     #goalshomecards_heading{
-        width: 215px;
-        margin-top: 25px;
-        font-size: 20px;
-       }
-       #goalshomecards_content{
-           margin-top: 25px;
-           text-align: center;
-           font-size: 17px;
-           
-       }
-       #goalshomecards1{
-           width: 220px;
-           height: 270px;
-           border-radius: 10px;
-           margin-left:230px ;
-       }
-       #goalshomecards2{
-        width: 220px;
-           height: 270px;
-           border-radius: 10px;
-           margin-left:240px ;
-          
-       }
-       
-       #goalshomecards3{
-        width: 220px;
-           height: 270px;
-           border-radius: 10px;
-           margin-left:-680px ;
-           margin-top: 300px;
-          
-       }
-       
-       #goalshomecards4{
-        width: 220px;
-        height: 270px;
-           border-radius: 10px;
-           margin-left:240px ;
-           margin-top: 300px;
-          
-       } 
+     .goalshomecard{
+        display: flex;
+        justify-content: space-evenly;
+        margin-left: 8%;
+        margin-right:8%;
+ }
+#home_goals_heading{
+  font-size:23px;
+}
+#picturehere{
+   height: 45px;
+   width: 45px; 
+   margin-top:8px ;
+   margin-left: 37%;           
+}
+#goalshomecards_heading{
+
+margin-top: 12px;
+font-size: 17px;
+}
+#goalshomecards_content{
+   margin-top: 12px;
+   text-align: center;
+   font-size: 15px;
+   
+}
+#goalshomecards1{
+   width: 165px;
+   height: 195px;
+   border-radius: 10px;
+   margin-left:0px ;
+   border:2px solid white;
+}
+#goalshomecards2{
+   width: 165px;
+   height: 195px;
+   border-radius: 10px;
+   margin-left:0px ;
+   margin-top: 0px;
+   border:2px solid white;
+}
+
+#goalshomecards3{
+   width: 165px;
+   height: 195px;
+   border-radius: 10px;
+   margin-left:0px ;
+   margin-top: 0px;
+   border:2px solid white;
+}
+
+#goalshomecards4{
+   width: 165px;
+   height: 195px;
+   border-radius: 10px;
+   margin-left:0px ;
+   margin-top: 0px;
+   border:2px solid white;
+}  
  
   
 }
@@ -1224,51 +1391,65 @@ and (max-width: 850px) {
       margin-top: 15px;
       margin-bottom: 55px;
      }
-     #home_goals_heading{
-        font-size:30px;
-     }
-     #picturehere{
-         height: 80px;
-         width: 80px;
-     }
-     #goalshomecards_heading{
+     .goalshomecard{
+        display: flex;
+        justify-content: space-evenly;
+        margin-left: 5%;
+        margin-right:5%;
+ }
+#home_goals_heading{
+  font-size:23px;
+}
+#picturehere{
+   height: 50px;
+   width: 50px; 
+   margin-top:8px ;
+   margin-left: 35%;           
+}
+#goalshomecards_heading{
 
-        margin-top: 30px;
-        font-size: 22px;
-       }
-       #goalshomecards_content{
-           margin-top: 30px;
-           text-align: center;
-           font-size: 18px;
-           
-       }
-       #goalshomecards1{
-           width: 240px;
-           height: 300px;
-           margin-left:60px ;
-       }
-       #goalshomecards2{
-        width: 240px;
-           height: 300px;
-           margin-left:55px ;
-          
-       }
-       
-       #goalshomecards3{
-        width: 240px;
-           height: 300px;           
-           margin-left:55px ;
-           margin-top: 0px;
-          
-       }
-       
-       #goalshomecards4{
-        width: 240px;
-        height: 300px;      
-           margin-left:55px ;
-           margin-top: 0px;
-          
-       } 
+margin-top: 12px;
+font-size: 18px;
+}
+#goalshomecards_content{
+   margin-top: 12px;
+   text-align: center;
+   font-size: 16px;
+   
+}
+#goalshomecards1{
+   width: 175px;
+   height: 215px;
+   border-radius: 10px;
+   margin-left:0px ;
+   border:2px solid white;
+}
+#goalshomecards2{
+   width: 175px;
+   height: 215px;
+   border-radius: 10px;
+   margin-left:0px ;
+   margin-top: 0px;
+   border:2px solid white;
+}
+
+#goalshomecards3{
+   width: 175px;
+   height: 215px;
+   border-radius: 10px;
+   margin-left:0px ;
+   margin-top: 0px;
+   border:2px solid white;
+}
+
+#goalshomecards4{
+   width: 175px;
+   height: 215px;
+   border-radius: 10px;
+   margin-left:0px ;
+   margin-top: 0px;
+   border:2px solid white;
+}  
  
 }
 
@@ -1286,51 +1467,65 @@ and (max-width: 1359px){
       margin-top: 15px;
       margin-bottom: 55px;
      }
-     #home_goals_heading{
-        font-size:30px;
-     }
-     #picturehere{
-         height: 80px;
-         width: 80px;
-     }
-     #goalshomecards_heading{
+     .goalshomecard{
+        display: flex;
+        justify-content: space-evenly;
+        margin-left: 5%;
+        margin-right:5%;
+ }
+#home_goals_heading{
+  font-size:24px;
+}
+#picturehere{
+   height: 60px;
+   width: 60px; 
+   margin-top:8px ;
+   margin-left: 35%;           
+}
+#goalshomecards_heading{
 
-        margin-top: 30px;
-        font-size: 22px;
-       }
-       #goalshomecards_content{
-           margin-top: 30px;
-           text-align: center;
-           font-size: 18px;
-           
-       }
-       #goalshomecards1{
-           width: 240px;
-           height: 300px;
-           margin-left:70px ;
-       }
-       #goalshomecards2{
-        width: 240px;
-           height: 300px;
-           margin-left:78px ;
-          
-       }
-       
-       #goalshomecards3{
-        width: 240px;
-           height: 300px;           
-           margin-left:78px ;
-           margin-top: 0px;
-          
-       }
-       
-       #goalshomecards4{
-        width: 240px;
-        height: 300px;      
-           margin-left:80px ;
-           margin-top: 0px;
-          
-       } 
+margin-top: 5px;
+font-size: 20px;
+}
+#goalshomecards_content{
+   margin-top: 0px;
+   text-align: center;
+   font-size: 16.5px;
+   
+}
+#goalshomecards1{
+   width: 190px;
+   height: 230px;
+   border-radius: 10px;
+   margin-left:0px ;
+   border:3px solid white;
+}
+#goalshomecards2{
+   width: 190px;
+   height: 230px;
+   border-radius: 10px;
+   margin-left:0px ;
+   margin-top: 0px;
+   border:3px solid white;
+}
+
+#goalshomecards3{
+   width: 190px;
+   height: 230px;
+   border-radius: 10px;
+   margin-left:0px ;
+   margin-top: 0px;
+   border:3px solid white;
+}
+
+#goalshomecards4{
+   width: 190px;
+   height: 230px;
+   border-radius: 10px;
+   margin-left:0px ;
+   margin-top: 0px;
+   border:3px solid white;
+}  
  
 
 }
@@ -1348,51 +1543,65 @@ and (max-width: 1359px){
       margin-top: 15px;
       margin-bottom: 55px;
      }
-     #home_goals_heading{
-        font-size:30px;
-     }
-     #picturehere{
-         height: 80px;
-         width: 80px;
-     }
-     #goalshomecards_heading{
+     .goalshomecard{
+        display: flex;
+        justify-content: space-evenly;
+        margin-left: 5%;
+        margin-right:5%;
+ }
+#home_goals_heading{
+  font-size:25px;
+}
+#picturehere{
+   height: 65px;
+   width: 65px; 
+   margin-top:10px ;
+   margin-left: 35%;           
+}
+#goalshomecards_heading{
 
-        margin-top: 30px;
-        font-size: 22px;
-       }
-       #goalshomecards_content{
-           margin-top: 30px;
-           text-align: center;
-           font-size: 18px;
-           
-       }
-       #goalshomecards1{
-           width: 240px;
-           height: 300px;
-           margin-left:80px ;
-       }
-       #goalshomecards2{
-        width: 240px;
-           height: 300px;
-           margin-left:5 ;
-          
-       }
-       
-       #goalshomecards3{
-        width: 240px;
-           height: 300px;           
-           margin-left:85px ;
-           margin-top: 0px;
-          
-       }
-       
-       #goalshomecards4{
-        width: 240px;
-        height: 300px;      
-           margin-left:85px ;
-           margin-top: 0px;
-          
-       } 
+margin-top: 5px;
+font-size: 21px;
+}
+#goalshomecards_content{
+   margin-top: 0px;
+   text-align: center;
+   font-size: 18px;
+   
+}
+#goalshomecards1{
+   width: 205px;
+   height: 240px;
+   border-radius: 10px;
+   margin-left:0px ;
+   border:3px solid white;
+}
+#goalshomecards2{
+   width: 205px;
+   height: 240px;
+   border-radius: 10px;
+   margin-left:0px ;
+   margin-top: 0px;
+   border:3px solid white;
+}
+
+#goalshomecards3{
+   width: 205px;
+   height: 240px;
+   border-radius: 10px;
+   margin-left:0px ;
+   margin-top: 0px;
+   border:3px solid white;
+}
+
+#goalshomecards4{
+   width: 205px;
+   height: 240px;
+   border-radius: 10px;
+   margin-left:0px ;
+   margin-top: 0px;
+   border:3px solid white;
+}  
 }
 
 @media only screen and (min-width: 1440px) 
@@ -1409,51 +1618,65 @@ and (max-width: 1520px){
       margin-top: 15px;
       margin-bottom: 60px;
      }
-     #home_goals_heading{
-        font-size:30px;
-     }
-     #picturehere{
-         height: 80px;
-         width: 80px;
-     }
-     #goalshomecards_heading{
+     .goalshomecard{
+        display: flex;
+        justify-content: space-evenly;
+        margin-left: 6%;
+        margin-right:6%;
+ }
+#home_goals_heading{
+  font-size:26px;
+}
+#picturehere{
+   height: 65px;
+   width: 65px; 
+   margin-top:11px ;
+   margin-left: 35%;           
+}
+#goalshomecards_heading{
 
-        margin-top: 30px;
-        font-size: 22px;
-       }
-       #goalshomecards_content{
-           margin-top: 30px;
-           text-align: center;
-           font-size: 18px;
-           
-       }
-       #goalshomecards1{
-           width: 240px;
-           height: 300px;
-           margin-left:105px ;
-       }
-       #goalshomecards2{
-        width: 240px;
-           height: 300px;
-           margin-left:100px ;
-          
-       }
-       
-       #goalshomecards3{
-        width: 240px;
-           height: 300px;           
-           margin-left:100px ;
-           margin-top: 0px;
-          
-       }
-       
-       #goalshomecards4{
-        width: 240px;
-        height: 300px;      
-           margin-left:100px ;
-           margin-top: 0px;
-          
-       }
+margin-top: 10px;
+font-size: 22px;
+}
+#goalshomecards_content{
+   margin-top: 0px;
+   text-align: center;
+   font-size: 19px;
+   
+}
+#goalshomecards1{
+   width: 220px;
+   height: 260px;
+   border-radius: 10px;
+   margin-left:0px ;
+   border:3px solid white;
+}
+#goalshomecards2{
+   width: 220px;
+   height: 260px;
+   border-radius: 10px;
+   margin-left:0px ;
+   margin-top: 0px;
+   border:3px solid white;
+}
+
+#goalshomecards3{
+   width: 220px;
+   height: 260px;
+   border-radius: 10px;
+   margin-left:0px ;
+   margin-top: 0px;
+   border:3px solid white;
+}
+
+#goalshomecards4{
+   width: 220px;
+   height: 260px;
+   border-radius: 10px;
+   margin-left:0px ;
+   margin-top: 0px;
+   border:3px solid white;
+}  
 }
 
 
@@ -1480,51 +1703,65 @@ and (max-width: 1599px){
       margin-bottom: 60px;
      }
     
-     #home_goals_heading{
-        font-size:40px;
-     }
-     #picturehere{
-         height: 80px;
-         width: 80px;
-     }
-     #goalshomecards_heading{
+     .goalshomecard{
+        display: flex;
+        justify-content: space-evenly;
+        margin-left: 6%;
+        margin-right:6%;
+ }
+#home_goals_heading{
+  font-size:26px;
+}
+#picturehere{
+   height: 65px;
+   width: 65px; 
+   margin-top:11px ;
+   margin-left: 35%;           
+}
+#goalshomecards_heading{
 
-        margin-top: 30px;
-        font-size: 31px;
-       }
-       #goalshomecards_content{
-           margin-top: 30px;
-           text-align: center;
-           font-size: 21px;
-           
-       }
-       #goalshomecards1{
-        width: 260px;
-        height: 333px;
-           margin-left:105px ;
-       }
-       #goalshomecards2{
-        width: 260px;
-        height: 333px;
-           margin-left:100px ;
-          
-       }
-       
-       #goalshomecards3{
-        width: 260px;
-        height: 333px;          
-           margin-left:100px ;
-           margin-top: 0px;
-          
-       }
-       
-       #goalshomecards4{
-        width: 260px;
-        height: 333px;      
-        margin-left:100px ;
-        margin-top: 0px;
-          
-       }     
+margin-top: 10px;
+font-size: 23px;
+}
+#goalshomecards_content{
+   margin-top: 0px;
+   text-align: center;
+   font-size: 20px;
+   
+}
+#goalshomecards1{
+   width: 230px;
+   height: 270px;
+   border-radius: 10px;
+   margin-left:0px ;
+   border:3px solid white;
+}
+#goalshomecards2{
+   width: 230px;
+   height: 270px;
+   border-radius: 10px;
+   margin-left:0px ;
+   margin-top: 0px;
+   border:3px solid white;
+}
+
+#goalshomecards3{
+   width: 230px;
+   height: 270px;
+   border-radius: 10px;
+   margin-left:0px ;
+   margin-top: 0px;
+   border:3px solid white;
+}
+
+#goalshomecards4{
+   width: 230px;
+   height: 270px;
+   border-radius: 10px;
+   margin-left:0px ;
+   margin-top: 0px;
+   border:3px solid white;
+}      
 }
 
 @media only screen and (min-width: 1600px) 
@@ -1532,63 +1769,74 @@ and (max-width: 1680px){
      
     
     #homeaboutheading{
-        font-size:34px ;  
+        font-size:32px ;  
         padding-top: 55px;
      }
      .homeaboutpara{
-      font-size: 24px;
-      line-height: 55px;
+      font-size: 22px;
+      line-height: 45px;
       margin-top: 15px;
       margin-bottom: 60px;
      }
-    
-     #home_goals_heading{
-        font-size:45px;
-     }
-     #picturehere{
-         height: 80px;
-         width: 80px;
-     }
-     #goalshomecards_heading{
+     .goalshomecard{
+        display: flex;
+        justify-content: space-evenly;
+        margin-left: 5%;
+        margin-right:5%;
+ }
+#home_goals_heading{
+  font-size:30px;
+}
+#picturehere{
+   height: 65px;
+   width: 65px; 
+   margin-top:11px ;
+   margin-left: 35%;           
+}
+#goalshomecards_heading{
 
-        margin-top: 30px;
-        font-size: 32px;
-       }
-       #goalshomecards_content{
-           margin-top: 30px;
-           text-align: center;
-           font-size: 23px;
-           
-       }
-       #goalshomecards1{
-        width: 260px;
-        height: 333px;
-           margin-left:120px ;
-       }
-       #goalshomecards2{
-        width: 260px;
-        height: 333px;
-           margin-left:120px ;
-          
-       }
-       
-       #goalshomecards3{
-        width: 260px;
-        height: 333px;          
-           margin-left:120px ;
-           margin-top: 0px;
-          
-       }
-       
-       #goalshomecards4{
-        width: 260px;
-        height: 333px;      
-        margin-left:120px ;
-        margin-top: 0px;
-          
-       }
+margin-top: 10px;
+font-size: 24px;
+}
+#goalshomecards_content{
+   margin-top: 0px;
+   text-align: center;
+   font-size: 21px;
+   
+}
+#goalshomecards1{
+   width: 240px;
+   height: 280px;
+   border-radius: 10px;
+   margin-left:0px ;
+   border:3px solid white;
+}
+#goalshomecards2{
+   width: 240px;
+   height: 280px;
+   border-radius: 10px;
+   margin-left:0px ;
+   margin-top: 0px;
+   border:3px solid white;
+}
 
+#goalshomecards3{
+   width: 240px;
+   height: 280px;
+   border-radius: 10px;
+   margin-left:0px ;
+   margin-top: 0px;
+   border:3px solid white;
+}
 
+#goalshomecards4{
+   width: 240px;
+   height: 280px;
+   border-radius: 10px;
+   margin-left:0px ;
+   margin-top: 0px;
+   border:3px solid white;
+} 
 }
 
 
@@ -1596,60 +1844,74 @@ and (max-width: 1680px){
 and (max-width: 1758px)
 {
     #homeaboutheading{
-        font-size:36px ;  
+        font-size:32px ;  
+        padding-top: 55px;
      }
      .homeaboutpara{
-      font-size: 26px;
-      line-height: 55px;
+      font-size: 22px;
+      line-height: 45px;
       margin-top: 15px;
-      margin-bottom: 65px;
+      margin-bottom: 60px;
      }
-    
-     #home_goals_heading{
-        font-size:50px;
-     }
-     #picturehere{
-         height: 80px;
-         width: 80px;
-     }
-     #goalshomecards_heading{
+     .goalshomecard{
+        display: flex;
+        justify-content: space-evenly;
+        margin-left: 6%;
+        margin-right:6%;
+ }
+#home_goals_heading{
+  font-size:30px;
+}
+#picturehere{
+   height: 65px;
+   width: 65px; 
+   margin-top:11px ;
+   margin-left: 35%;           
+}
+#goalshomecards_heading{
 
-        margin-top: 30px;
-        font-size: 32px;
-       }
-       #goalshomecards_content{
-           margin-top: 30px;
-           text-align: center;
-           font-size: 23px;
-           
-       }
-       #goalshomecards1{
-        width: 260px;
-        height: 333px;
-           margin-left:135px ;
-       }
-       #goalshomecards2{
-        width: 260px;
-        height: 333px;
-           margin-left:135px ;
-          
-       }
-       
-       #goalshomecards3{
-        width: 260px;
-        height: 333px;          
-           margin-left:135px ;
-           margin-top: 0px;
-          
-       }
-       
-       #goalshomecards4{
-        width: 260px;
-        height: 333px;      
-        margin-left:135px ;
-        margin-top: 0px;
-          
-       }
+margin-top: 10px;
+font-size: 24px;
+}
+#goalshomecards_content{
+   margin-top: 0px;
+   text-align: center;
+   font-size: 21px;
+   
+}
+#goalshomecards1{
+   width: 240px;
+   height: 280px;
+   border-radius: 10px;
+   margin-left:0px ;
+   border:3px solid white;
+}
+#goalshomecards2{
+   width: 240px;
+   height: 280px;
+   border-radius: 10px;
+   margin-left:0px ;
+   margin-top: 0px;
+   border:3px solid white;
+}
+
+#goalshomecards3{
+   width: 240px;
+   height: 280px;
+   border-radius: 10px;
+   margin-left:0px ;
+   margin-top: 0px;
+   border:3px solid white;
+}
+
+#goalshomecards4{
+   width: 240px;
+   height: 280px;
+   border-radius: 10px;
+   margin-left:0px ;
+   margin-top: 0px;
+   border:3px solid white;
+} 
 }
 
 
@@ -1658,186 +1920,225 @@ and (max-width: 1758px)
 and (max-width: 1840px){
 
 
-
     #homeaboutheading{
-        font-size:38px ;  
+        font-size:32px ;  
         padding-top: 55px;
      }
      .homeaboutpara{
-      font-size: 28px;
-      line-height: 55px;
+      font-size: 22px;
+      line-height: 45px;
       margin-top: 15px;
-      margin-bottom: 65px;
+      margin-bottom: 60px;
      }
-     #home_goals_heading{
-        font-size:50px;
-     }
-     #picturehere{
-         height: 80px;
-         width: 80px;
-     }
-     #goalshomecards_heading{
+     .goalshomecard{
+        display: flex;
+        justify-content: space-evenly;
+        margin-left: 6%;
+        margin-right:6%;
+ }
+#home_goals_heading{
+  font-size:30px;
+}
+#picturehere{
+   height: 65px;
+   width: 65px; 
+   margin-top:11px ;
+   margin-left: 35%;           
+}
+#goalshomecards_heading{
 
-        margin-top: 30px;
-        font-size: 32px;
-       }
-       #goalshomecards_content{
-           margin-top: 30px;
-           text-align: center;
-           font-size: 23px;
-           
-       }
-       #goalshomecards1{
-        width: 260px;
-        height: 333px;
-           margin-left:170px ;
-       }
-       #goalshomecards2{
-        width: 260px;
-        height: 333px;
-           margin-left:140px ;
-          
-       }
-       
-       #goalshomecards3{
-        width: 260px;
-        height: 333px;          
-           margin-left:140px ;
-           margin-top: 0px;
-          
-       }
-       
-       #goalshomecards4{
-        width: 260px;
-        height: 333px;      
-        margin-left:140px ;
-        margin-top: 0px;
-          
-       }
+margin-top: 10px;
+font-size: 24px;
+}
+#goalshomecards_content{
+   margin-top: 0px;
+   text-align: center;
+   font-size: 21px;
+   
+}
+#goalshomecards1{
+   width: 240px;
+   height: 280px;
+   border-radius: 10px;
+   margin-left:0px ;
+   border:3px solid white;
+}
+#goalshomecards2{
+   width: 240px;
+   height: 280px;
+   border-radius: 10px;
+   margin-left:0px ;
+   margin-top: 0px;
+   border:3px solid white;
+}
+
+#goalshomecards3{
+   width: 240px;
+   height: 280px;
+   border-radius: 10px;
+   margin-left:0px ;
+   margin-top: 0px;
+   border:3px solid white;
+}
+
+#goalshomecards4{
+   width: 240px;
+   height: 280px;
+   border-radius: 10px;
+   margin-left:0px ;
+   margin-top: 0px;
+   border:3px solid white;
+} 
 }
 
 @media only screen and (min-width: 1841px) 
 and (max-width: 1919px){
    
 
-
     #homeaboutheading{
-        font-size:40px ;  
+        font-size:32px ;  
         padding-top: 55px;
      }
      .homeaboutpara{
-      font-size: 30px;
-      line-height: 55px;
+      font-size: 22px;
+      line-height: 45px;
       margin-top: 15px;
-      margin-bottom: 68px;
+      margin-bottom: 60px;
      }
-    
-     #home_goals_heading{
-        font-size:55px;
-     }
-     #picturehere{
-         height: 80px;
-         width: 80px;
-     }
-     #goalshomecards_heading{
+     .goalshomecard{
+        display: flex;
+        justify-content: space-evenly;
+        margin-left: 7%;
+        margin-right:7%;
+ }
+#home_goals_heading{
+  font-size:30px;
+}
+#picturehere{
+   height: 65px;
+   width: 65px; 
+   margin-top:11px ;
+   margin-left: 35%;           
+}
+#goalshomecards_heading{
 
-        margin-top: 30px;
-        font-size: 35px;
-       }
-       #goalshomecards_content{
-           margin-top: 30px;
-           text-align: center;
-           font-size: 25px;
-           
-       }
-       #goalshomecards1{
-        width: 280px;
-        height: 353px;
-           margin-left:170px ;
-       }
-       #goalshomecards2{
-        width: 280px;
-        height: 353px;
-           margin-left:140px ;
-          
-       }
-       
-       #goalshomecards3{
-        width: 280px;
-        height: 353px;           
-           margin-left:140px ;
-           margin-top: 0px;
-          
-       }
-       
-       #goalshomecards4{
-        width: 280px;
-        height: 353px;      
-        margin-left:140px ;
-        margin-top: 0px;
-          
-       }
+margin-top: 10px;
+font-size: 24px;
+}
+#goalshomecards_content{
+   margin-top: 0px;
+   text-align: center;
+   font-size: 21px;
+   
+}
+#goalshomecards1{
+   width: 240px;
+   height: 280px;
+   border-radius: 10px;
+   margin-left:0px ;
+   border:3px solid white;
+}
+#goalshomecards2{
+   width: 240px;
+   height: 280px;
+   border-radius: 10px;
+   margin-left:0px ;
+   margin-top: 0px;
+   border:3px solid white;
+}
+
+#goalshomecards3{
+   width: 240px;
+   height: 280px;
+   border-radius: 10px;
+   margin-left:0px ;
+   margin-top: 0px;
+   border:3px solid white;
+}
+
+#goalshomecards4{
+   width: 240px;
+   height: 280px;
+   border-radius: 10px;
+   margin-left:0px ;
+   margin-top: 0px;
+   border:3px solid white;
+} 
 }
 
 
 @media only screen and (min-width: 1920px) 
-and (max-width: 2000px){
-
+{
 
 
     #homeaboutheading{
-        font-size:42px ;  
+        font-size:32px ;  
         padding-top: 55px;
      }
      .homeaboutpara{
-      font-size: 32px;
-      line-height: 55px;
+      font-size: 22px;
+      line-height: 45px;
       margin-top: 15px;
-      margin-bottom: 75px;
+      margin-bottom: 60px;
      }
-     #home_goals_heading{
-        font-size:55px;
-     }
-     #picturehere{
-         height: 80px;
-         width: 80px;
-     }
-     #goalshomecards_heading{
+    
+     .goalshomecard{
+        display: flex;
+        justify-content: space-evenly;
+        margin-left: 10%;
+        margin-right:10%;
+ }
+#home_goals_heading{
+  font-size:30px;
+}
+#picturehere{
+   height: 65px;
+   width: 65px; 
+   margin-top:11px ;
+   margin-left: 35%;           
+}
+#goalshomecards_heading{
 
-        margin-top: 30px;
-        font-size: 35px;
-       }
-       #goalshomecards_content{
-           margin-top: 30px;
-           text-align: center;
-           font-size: 25px;
-           
-       }
-       #goalshomecards1{
-        width: 280px;
-        height: 353px;
-           margin-left:180px ;
-       }
-       #goalshomecards2{
-        width: 280px;
-        height: 353px;
-           margin-left:140px ;
-          
-       }
-       
-       #goalshomecards3{
-        width: 280px;
-        height: 353px;           
-           margin-left:140px ;
-           margin-top: 0px;
-          
-       }
-       
-       #goalshomecards4{
-        width: 280px;
-        height: 353px;      
-        margin-left:140px ;
-        margin-top: 0px;
-          
-       }
+margin-top: 10px;
+font-size: 24px;
+}
+#goalshomecards_content{
+   margin-top: 0px;
+   text-align: center;
+   font-size: 21px;
+   
+}
+#goalshomecards1{
+   width: 240px;
+   height: 280px;
+   border-radius: 10px;
+   margin-left:0px ;
+   border:3px solid white;
+}
+#goalshomecards2{
+   width: 240px;
+   height: 280px;
+   border-radius: 10px;
+   margin-left:0px ;
+   margin-top: 0px;
+   border:3px solid white;
+}
+
+#goalshomecards3{
+   width: 240px;
+   height: 280px;
+   border-radius: 10px;
+   margin-left:0px ;
+   margin-top: 0px;
+   border:3px solid white;
+}
+
+#goalshomecards4{
+   width: 240px;
+   height: 280px;
+   border-radius: 10px;
+   margin-left:0px ;
+   margin-top: 0px;
+   border:3px solid white;
+} 
 }
