@@ -35,17 +35,17 @@ class newfooter extends Component{
               <p class="footer_follow_heading">Follow Us On</p>
               <p class="footer_follow_mini_para">Please follow us on our social media <br></br> profile to get updates</p>
               <div id="footer_follow_images">
-              <img class="footer_follow_image_logo" src={Facebook} alt="nikal be"></img>
-              <img class="footer_follow_image_logo"  src={Linkedin} alt="nikal be"></img>
-              <img class="footer_follow_image_logo"  src={Instagram} alt="nikal be"></img>
-              <img class="footer_follow_image_logo"  src={ Youtube} alt="nikal be"></img>
+              <a class="footer_link" href="https://www.facebook.com/"><img class="footer_follow_image_logo" src={Facebook} alt="nikal be"></img></a>
+              <a class="footer_link" href="https://www.linkedin.com/"> <img class="footer_follow_image_logo"  src={Linkedin} alt="nikal be"></img></a>
+              <a class="footer_link" href="https://www.instagram.com/"> <img class="footer_follow_image_logo"  src={Instagram} alt="nikal be"></img></a>
+              <a class="footer_link" href="https://www.youtube.com/"> <img class="footer_follow_image_logo"  src={ Youtube} alt="nikal be"></img></a>
               </div>
             </div>
 
             {/* fourth div starts here */}
             <div id="footer_help">
             <p class="footer_help_heading">Need Help</p>
-              <p class="footer_help_contact_details">Contact : 8248415788<br></br> Address : 3/199 Teacher's Nagar, Tiruttani. <br></br>Email : g.gaganesh10@gmail.com</p>
+              <p class="footer_help_contact_details"> B-15 MAHENDRA PARK DELHI 110033 <br></br>Email : info@ikhonohub.com</p>
 
             </div>
          </div>

@@ -6,7 +6,7 @@ import bell from './notifications.png';
 import cart from './Cart.png';
 import history from '../../history';
 import {toast} from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
+import './toast.css';
 
 toast.configure()
 function Nav () {

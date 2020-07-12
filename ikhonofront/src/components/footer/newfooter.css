@@ -8,6 +8,9 @@
   justify-content: space-evenly;
     
 }
+.footer_link{
+    text-decoration: none;
+}
 
 #footer_container_one{
     margin-top: 40px;

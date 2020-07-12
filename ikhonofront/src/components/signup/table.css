@@ -185,9 +185,33 @@ button:focus {outline:0;}
     margin-left: 85px;
     margin-bottom: 8px;
     display: inline-block;
-    height: 35px;
-    width: 35px;
     
+}
+#logofbsignup{
+    height: 40px;
+    width: 40px;
+}
+#password_input_signup{
+    background-color:transparent;
+    text-align: left;
+    border-bottom:white ;
+    
+}
+
+#logotwsignup{
+    height: 40px;
+    width: 40px;
+}
+
+#logogosignup{
+    height: 40px;
+    width: 40px;
+}
+
+#signupinputline{
+    width: 320px;
+    text-align: left;
+    font-style: dotted;
 }
 
 .sign_in_logos4{
@@ -205,6 +229,20 @@ button:focus {outline:0;}
     height: 35px;
     width: 35px;
 }
+#sign_in_slogan{
+    margin-top: -100px;
+}
+#signup_slogan_para{
+    font-size: 20px;
+    color: white;
+    margin-left:70px;
+}
+
+
+
+
+
+
 
 
  @media only screen and (min-width: 320px) 
@@ -212,12 +250,13 @@ and (max-width: 359px)
   {
     .tablesignup_main{
         background-image: url("iphone5.png");
-        background-size: 100% 100%;
+        
         background-repeat: no-repeat;
-        height: 568px;
+        height: 668px;
         background-position: center;  
         
     }
+    
 
     #sign_in_slogan{
         width: 250px;
@@ -244,6 +283,33 @@ and (max-width: 359px)
     
 }
 
+#signupinputline{
+    width: 230px;
+    text-align: left;
+    font-style: dotted;
+}
+
+
+#logofbsignup{
+    height: 33px;
+    width: 33px;
+}
+
+
+#logotwsignup{
+    height: 33px;
+    width: 33px;
+}
+
+#logogosignup{
+    height: 33px;
+    width: 33px;
+}
+#signup_slogan_para{
+    font-size: 10px;
+    margin-left:20px;
+    width : 220px ;
+}
 
 
 /* Signup button jo upr hai*/
@@ -327,131 +393,13 @@ and (max-width: 359px)
     height: 23px;
     width: 23px;
 }
-
-  }
-
-  @media only screen and (min-width: 320px) 
-and (max-width: 359px) 
-  {
-    .tablesignup_main{
-        background-image: url("iphone5.png");
-        background-size: 100% 100%;
-        background-repeat: no-repeat;
-        height: 568px;
-        background-position: center;  
-        
-    }
-
-    #sign_in_slogan{
-        width: 250px;
-        height: 200px;
-        margin-left: 40px;
-        margin-top: -489px;
-    
-    }
-    #sign_in_slogan_heading{
-        
-        font-size: 14px;
-    }
-    #sign_in_slogan_para{
-      margin-top: -5px;
-        font-size: 12px;
-    
-    }
-
-    .loginsignup
-{
-    margin-left: 65px;
-    font-size: 18px;
-   
-    
-}
-
-
-
-/* Signup button jo upr hai*/
-.signupsignup
-{    
-    font-size: 18px;
- 
-  
-}
-
-
-
-#sign_in_slogan_danda{
-  font-size: 18px;
-    margin-left: 10px;
-    margin-right: 10px;
-
-}
-
-#signingup
-{
-
-    margin-top: 125px;
-    margin-left: 30px;
-    width: 260px;
-    height: 100px;
-    padding-bottom: 5px;
-    padding-top: 12px;
-  
-}
-
-
-
-.sign_in_inputs{
-   
-    margin-top: 25px;
-    margin-left: 25px;
-    margin-bottom: -12px;
-    width: 200px;
-    height:31px;
-    font-size: 13px;
-   
-}
-
-.sign_in_willsubmit{
-   
-    font-size: 18px;
-    margin-left: 80px;
-    margin-top: 18px;
-  
-}
-
-
-.sign_in_or{
-   
-    margin-top: 7px;
-    margin-bottom: 8px;
-    font-size: 15px;
-  
-    
-}
-
-.sign_in_logos3{
-    margin-left: 35px;
-    margin-bottom: 8px;
-    height: 23px;
-    width: 23px;
-    
-}
-
-.sign_in_logos4{
-    margin-left: 60px;
-    height: 23px;
-    width: 23px;
-    margin-top: -7px;
-}
-
-.sign_in_logos5{
-    margin-left: 60px;
-    margin-top: -7px;
-    height: 23px;
-    width: 23px;
+#sign_in_slogan_heading{
+ margin-top: -580px;
 }
 
   }
+
+
 
   @media only screen and (min-width: 360px) 
   and (max-width: 374px) 
@@ -489,8 +437,41 @@ and (max-width: 359px)
        
         
     }
+    #signupinputline{
+        width: 230px;
+        text-align: left;
+        font-style: dotted;
+    }
     
     
+    #logofbsignup{
+        height: 33px;
+        width: 33px;
+    }
+  
+    
+    
+    
+    #logotwsignup{
+        height: 33px;
+        width: 33px;
+    }
+    
+    #logogosignup{
+        height: 33px;
+        width: 33px;
+    }
+    #sign_in_slogan_heading{
+        margin-top: -650px;
+        font-size: 17px;
+        width: 300px;
+        margin-left: -10px;
+       }
+       #signup_slogan_para{
+        font-size: 9px;
+        margin-left:20px;
+        width : 220px ;
+    }
     
     /* Signup button jo upr hai*/
     .signupsignup
@@ -612,6 +593,39 @@ and (max-width: 359px)
         font-size: 18px;
        
         
+    }
+    #signupinputline{
+        width: 230px;
+        text-align: left;
+        font-style: dotted;
+    }
+    
+    
+    #logofbsignup{
+        height: 33px;
+        width: 33px;
+    }
+    
+    
+    #logotwsignup{
+        height: 33px;
+        width: 33px;
+    }
+    
+    #logogosignup{
+        height: 33px;
+        width: 33px;
+    }
+    #sign_in_slogan_heading{
+        margin-top: -630px;
+        font-size: 17px;
+        width: 300px;
+
+    }
+    #signup_slogan_para{
+        font-size: 15px;
+        margin-left:20px;
+        width : 260px ;
     }
     
     
@@ -738,6 +752,39 @@ and (max-width: 359px)
          
           
       }
+      #signupinputline{
+        width: 250px;
+        text-align: left;
+        font-style: dotted;
+    }
+    
+    
+    #logofbsignup{
+        height: 33px;
+        width: 33px;
+    }
+    
+    
+    #logotwsignup{
+        height: 33px;
+        width: 33px;
+    }
+    
+    #logogosignup{
+        height: 33px;
+        width: 33px;
+    }
+    #sign_in_slogan_heading{
+        margin-top: -680px;
+        font-size: 18px;
+        width: 350px;
+       }
+       
+       #signup_slogan_para{
+        font-size: 15px;
+        margin-left:20px;
+        width : 260px ;
+    }
       
       
       
@@ -864,7 +911,40 @@ and (max-width: 359px)
           
       }
       
-      
+      #signupinputline{
+        width: 270px;
+        text-align: left;
+        font-style: dotted;
+    }
+    
+    
+    #logofbsignup{
+        height: 33px;
+        width: 33px;
+    }
+    
+    
+    #logotwsignup{
+        height: 33px;
+        width: 33px;
+    }
+    
+    #logogosignup{
+        height: 33px;
+        width: 33px;
+    }
+    #sign_in_slogan_heading{
+        margin-top: -730px;
+        font-size: 20px;
+        width: 350px;
+        margin-left: 0px;
+       }
+       #signup_slogan_para{
+        font-size: 15px;
+        margin-left:30px;
+        width : 280px ;
+    }
+       
       
       /* Signup button jo upr hai*/
       .signupsignup
@@ -987,6 +1067,39 @@ and (max-width: 550px)
    
     
 }
+#signupinputline{
+    width: 280px;
+    text-align: left;
+    font-style: dotted;
+}
+
+
+#logofbsignup{
+    height: 38px;
+    width: 38px;
+}
+
+
+#logotwsignup{
+    height: 38px;
+    width: 38px;
+}
+
+#logogosignup{
+    height: 38px;
+    width: 38px;
+}
+#sign_in_slogan_heading{
+    margin-top: -730px;
+    font-size: 22px;
+    width: 390px;
+    margin-left: 0px;
+   }
+   #signup_slogan_para{
+    font-size: 15px;
+    margin-left:20px;
+    width : 340px ;
+}
 
 
 
@@ -1001,7 +1114,7 @@ and (max-width: 550px)
 
 
 #sign_in_slogan_danda{
-  font-size: 20px;
+  font-size: 30px;
     margin-left: 10px;
     margin-right: 10px;
 
@@ -1114,7 +1227,40 @@ and (max-width: 599px)
    
     
 }
+#signupinputline{
+    width: 280px;
+    text-align: left;
+    font-style: dotted;
+}
 
+
+#logofbsignup{
+    height: 38px;
+    width: 38px;
+}
+
+
+#logotwsignup{
+    height: 38px;
+    width: 38px;
+}
+
+#logogosignup{
+    height: 38px;
+    width: 38px;
+}
+#sign_in_slogan_heading{
+    margin-top: -730px;
+    font-size: 27px;
+    width: 490px;
+    margin-left: -40px;
+   
+   }
+   #signup_slogan_para{
+    font-size: 15px;
+    margin-left:20px;
+    width : 340px ;
+}
 
 
 /* Signup button jo upr hai*/
@@ -1238,7 +1384,39 @@ and (max-width: 617px)
    
     
 }
+#signupinputline{
+    width: 330px;
+    text-align: left;
+    font-style: dotted;
+}
 
+
+#logofbsignup{
+    height: 38px;
+    width: 38px;
+}
+
+
+#logotwsignup{
+    height: 38px;
+    width: 38px;
+}
+
+#logogosignup{
+    height: 38px;
+    width: 38px;
+}
+#sign_in_slogan_heading{
+    margin-top: -820px;
+    font-size: 27px;
+    width: 490px;
+   
+}
+#signup_slogan_para{
+    font-size: 15px;
+    margin-left:20px;
+    width : 340px ;
+}
 
 
 /* Signup button jo upr hai*/
@@ -1325,6 +1503,11 @@ and (max-width: 617px)
     
   }
 
+
+
+
+
+
   @media only screen and (min-width: 618px) 
 and (max-width: 700px) 
 {
@@ -1362,6 +1545,42 @@ and (max-width: 700px)
     
 }
 
+#signupinputline{
+    width: 330px;
+    text-align: left;
+    font-style: dotted;
+}
+
+
+#logofbsignup{
+    height: 38px;
+    width: 38px;
+}
+
+
+#logotwsignup{
+    height: 38px;
+    width: 38px;
+}
+
+#logogosignup{
+    height: 38px;
+    width: 38px;
+}
+#sign_in_slogan_heading{
+    margin-top: -820px;
+    font-size: 30px;
+    width: 550px;
+    margin-left: -40px;   
+}
+#signup_slogan_para{
+    font-size: 15px;
+    margin-left:20px;
+    width : 400px ;
+}
+#typical_content_font{
+    font-size: 69px;
+}
 
 
 /* Signup button jo upr hai*/
@@ -1486,6 +1705,40 @@ and (max-width: 767px)
     
 }
 
+#signupinputline{
+    width: 330px;
+    text-align: left;
+    font-style: dotted;
+}
+
+
+#logofbsignup{
+    height: 38px;
+    width: 38px;
+}
+
+
+#logotwsignup{
+    height: 38px;
+    width: 38px;
+}
+
+#logogosignup{
+    height: 38px;
+    width: 38px;
+}
+#sign_in_slogan_heading{
+    margin-top: -820px;
+    font-size: 35px;
+    width: 650px;
+    margin-left: -60px;
+   
+}
+#signup_slogan_para{
+    font-size: 15px;
+    margin-left:-20px;
+    width : 490px ;
+}
 
 
 /* Signup button jo upr hai*/
@@ -1612,6 +1865,41 @@ and (max-width: 767px)
         
     }
     
+    #signupinputline{
+        width: 330px;
+        text-align: left;
+        font-style: dotted;
+    }
+    
+    
+    #logofbsignup{
+        height: 38px;
+        width: 38px;
+    }
+    
+    
+    #logotwsignup{
+        height: 38px;
+        width: 38px;
+    }
+    
+    #logogosignup{
+        height: 38px;
+        width: 38px;
+    }
+    #sign_in_slogan_heading{
+        margin-top: -820px;
+        margin-left: 5px;
+        font-size: 35px;
+        width: 650px;
+       
+    }
+    #signup_slogan_para{
+        font-size: 18px;
+        margin-left: 60px;
+        width : 490px ;
+    }
+    
     
     /* Signup button jo upr hai*/
     .signupsignup
@@ -1695,7 +1983,7 @@ and (max-width: 767px)
 }
 
 
-@media only screen and (min-width: 800px) and (max-width: 849px) 
+@media only screen and (min-width: 800px) and (max-width: 850px) 
 {
       
    
@@ -1732,7 +2020,40 @@ and (max-width: 767px)
       
         
     }
+    #signupinputline{
+        width: 330px;
+        text-align: left;
+        font-style: dotted;
+    }
     
+    
+    #logofbsignup{
+        height: 38px;
+        width: 38px;
+    }
+    
+    
+    #logotwsignup{
+        height: 38px;
+        width: 38px;
+    }
+    
+    #logogosignup{
+        height: 38px;
+        width: 38px;
+    }
+    #sign_in_slogan_heading{
+        margin-top: -820px;
+        margin-left: 5px;
+        font-size: 35px;
+        width: 650px;
+       
+    }
+    #signup_slogan_para{
+        font-size: 18px;
+        margin-left: 60px;
+        width : 490px ;
+    }
     
     /* Signup button jo upr hai*/
     .signupsignup
@@ -1852,6 +2173,40 @@ and (max-width: 767px)
           
             
         }
+        #signupinputline{
+            width: 330px;
+            text-align: left;
+            font-style: dotted;
+        }
+        
+        
+        #logofbsignup{
+            height: 38px;
+            width: 38px;
+        }
+        
+        
+        #logotwsignup{
+            height: 38px;
+            width: 38px;
+        }
+        
+        #logogosignup{
+            height: 38px;
+            width: 38px;
+        }
+        #sign_in_slogan_heading{
+            margin-top: -820px;
+            margin-left: 5px;
+            font-size: 38px;
+            width: 750px;
+           
+        }
+        #signup_slogan_para{
+            font-size: 18px;
+           
+            width : 530px ;
+        }
         
         
         /* Signup button jo upr hai*/
@@ -1873,7 +2228,7 @@ and (max-width: 767px)
         {
         
             margin-top: 330px;
-            margin-left: 195px;
+            margin-left: 255px;
             padding-bottom: 10px;
             width: 400px;
             height: 580px;
@@ -1969,6 +2324,41 @@ and (max-width: 767px)
       
         
     }
+    #signupinputline{
+        width: 330px;
+        text-align: left;
+        font-style: dotted;
+    }
+    
+    
+    #logofbsignup{
+        height: 38px;
+        width: 38px;
+    }
+    
+    
+    #logotwsignup{
+        height: 38px;
+        width: 38px;
+    }
+    
+    #logogosignup{
+        height: 38px;
+        width: 38px;
+    }
+    #sign_in_slogan_heading{
+        margin-top: -820px;
+        margin-left: 0px;
+        font-size: 40px;
+        width: 750px;
+       
+    }
+    #signup_slogan_para{
+        font-size: 20px;
+       
+        width : 530px ;
+    }
+    
     
     
     /* Signup button jo upr hai*/
@@ -1990,7 +2380,7 @@ and (max-width: 767px)
     {
     
         margin-top: 330px;
-        margin-left: 245px;
+        margin-left: 255px;
         padding-bottom: 10px;
         width: 400px;
         height: 580px;
@@ -2087,6 +2477,43 @@ and (max-width: 767px)
       
         
     }
+
+    
+    
+    #logofbsignup{
+        height: 38px;
+        width: 38px;
+    }
+    
+    
+    #logotwsignup{
+        height: 38px;
+        width: 38px;
+    }
+    
+    #logogosignup{
+        height: 38px;
+        width: 38px;
+    }
+    #sign_in_slogan_heading{
+        margin-top: -920px;
+        margin-left: -90px;
+        font-size: 43px;
+        width: 750px;
+        
+       
+    }
+    #signup_slogan_para{
+        font-size: 21px;
+        margin-left: -20px;
+        width : 550px ;
+    }
+    
+    #signupinputline{
+        width: 330px;
+        text-align: left;
+        font-style: dotted;
+    }
     
     
     /* Signup button jo upr hai*/
@@ -2102,17 +2529,18 @@ and (max-width: 767px)
         margin-left: 10px;
         margin-right: 10px;
        
+       
     }
     
     #signingup
     {
     
-        margin-top: 450px;
+        margin-top: 350px;
         margin-left: 300px;
         padding-bottom: 10px;
         width: 400px;
         height: 580px;
-        padding-top: 20px;
+        
        
     }
     
@@ -2203,6 +2631,33 @@ and (max-width: 767px)
         margin-left: 93px;
       
         
+    }
+    #signupinputline{
+        width: 330px;
+        text-align: left;
+        font-style: dotted;
+    }
+    
+    
+    #logofbsignup{
+        height: 42px;
+        width: 42px;
+    }
+    
+    
+    #logotwsignup{
+        height: 42px;
+        width: 42px;
+    }
+    
+    #logogosignup{
+        height: 42px;
+        width: 42px;
+    }
+    #signup_slogan_para{
+        font-size: 20px;
+       
+        width : 430px ;
     }
     
     
@@ -2321,6 +2776,35 @@ and (max-width: 767px)
       
         
     }
+    #logofbsignup{
+        height: 42px;
+        width: 42px;
+    }
+    
+    
+    #logotwsignup{
+        height: 42px;
+        width: 42px;
+    }
+    
+    #logogosignup{
+        height: 42px;
+        width: 42px;
+    }
+    .tablesignup_main{
+      background-image: url("background@2x.png");
+     
+      background-repeat: no-repeat;
+      background-position: center;
+      height: 900px;
+    }
+
+#signup_slogan_para{
+    font-size: 20px;
+   
+    width : 430px ;
+}
+    
     
     
     /* Signup button jo upr hai*/
@@ -2442,6 +2926,49 @@ and (max-width: 1359px)
      
        
    }
+   #logofbsignup{
+    height: 42px;
+    width: 42px;
+}
+
+
+#logotwsignup{
+    height: 42px;
+    width: 42px;
+}
+
+#logogosignup{
+    height: 42px;
+    width: 42px;
+}
+.tablesignup_main{
+  background-image: url("background@2x.png");
+ 
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 900px;
+}
+
+#sign_in_slogan_heading{
+  
+    font-size: 37px;
+    width: 650px;
+    margin-left: -20px;
+    
+   
+}
+#signupinputline{
+    width: 330px;
+    text-align: left;
+    font-style: dotted;
+}
+#signup_slogan_para{
+    font-size: 20px;
+   
+    width : 490px ;
+}
+    
+
    
    
    /* Signup button jo upr hai*/
@@ -2561,6 +3088,47 @@ and (max-width: 1359px)
      
        
    }
+   #logofbsignup{
+    height: 42px;
+    width: 42px;
+}
+
+
+#logotwsignup{
+    height: 42px;
+    width: 42px;
+}
+
+#logogosignup{
+    height: 42px;
+    width: 42px;
+}
+.tablesignup_main{
+  background-image: url("background@2x.png");
+ 
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 900px;
+}
+
+#sign_in_slogan_heading{
+  
+    font-size: 37px;
+    width: 650px;
+    
+    
+   
+}
+#signupinputline{
+    width: 340px;
+    text-align: left;
+    font-style: dotted;
+}
+#signup_slogan_para{
+    font-size: 22px;
+   
+    width : 490px ;
+}
    
    
    /* Signup button jo upr hai*/
@@ -2680,6 +3248,47 @@ and (max-width: 1520px)
      
        
    }
+   #logofbsignup{
+    height: 42px;
+    width: 42px;
+}
+
+
+#logotwsignup{
+    height: 42px;
+    width: 42px;
+}
+
+#logogosignup{
+    height: 42px;
+    width: 42px;
+}
+.tablesignup_main{
+  background-image: url("background@2x.png");
+ 
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 900px;
+}
+
+#sign_in_slogan_heading{
+    margin-top: -100px;
+    font-size: 37px;
+    width: 650px;
+    
+    
+   
+}
+#signupinputline{
+    width: 340px;
+    text-align: left;
+    font-style: dotted;
+}
+#signup_slogan_para{
+    font-size: 23px;
+   
+    width : 490px ;
+}
    
    
    /* Signup button jo upr hai*/
@@ -2800,6 +3409,46 @@ and (max-width: 1599px)
      
        
    }
+   #logofbsignup{
+    height: 45px;
+    width: 45px;
+}
+
+
+#logotwsignup{
+    height: 45px;
+    width: 45px;
+}
+
+#logogosignup{
+    height: 45px;
+    width: 45px;
+}
+.tablesignup_main{
+  background-image: url("background@2x.png");
+ 
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 900px;
+}
+
+#sign_in_slogan_heading{
+    margin-top: -100px;
+    font-size: 37px;
+    width: 650px;
+  
+}
+#signupinputline{
+    width: 340px;
+    text-align: left;
+    font-style: dotted;
+}
+#signup_slogan_para{
+    font-size: 24px;
+   
+    width : 490px ;
+}
+
    
    
    /* Signup button jo upr hai*/
@@ -2922,7 +3571,45 @@ and (max-width: 1680px)
      
        
    }
+   #logofbsignup{
+    height: 45px;
+    width: 45px;
+}
+
+
+#logotwsignup{
+    height: 45px;
+    width: 45px;
+}
+
+#logogosignup{
+    height: 45px;
+    width: 45px;
+}
+.tablesignup_main{
+  background-image: url("background@2x.png");
+ 
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 900px;
+}
+
+#sign_in_slogan_heading{
+    margin-top: -100px;
+    font-size: 42px;
+    width: 750px;
+  
+}
+#signupinputline{
+    width: 340px;
+    text-align: left;
+    font-style: dotted;
+}
+#signup_slogan_para{
+    font-size: 24px;
    
+    width : 530px ;
+}
    
    /* Signup button jo upr hai*/
    .signupsignup
@@ -3044,6 +3731,45 @@ and (max-width: 1680px)
           
             
         }
+        #logofbsignup{
+            height: 45px;
+            width: 45px;
+        }
+        
+        
+        #logotwsignup{
+            height: 45px;
+            width: 45px;
+        }
+        
+        #logogosignup{
+            height: 45px;
+            width: 45px;
+        }
+        .tablesignup_main{
+          background-image: url("background@2x.png");
+         
+          background-repeat: no-repeat;
+          background-position: center;
+          height: 900px;
+        }
+        
+        #sign_in_slogan_heading{
+            margin-top: -100px;
+            font-size: 42px;
+            width: 750px;
+          
+        }
+        #signupinputline{
+            width: 340px;
+            text-align: left;
+            font-style: dotted;
+        }
+        #signup_slogan_para{
+            font-size: 25px;
+           
+            width : 580px ;
+        }
         
         
         /* Signup button jo upr hai*/
@@ -3064,7 +3790,7 @@ and (max-width: 1680px)
         #signingup
         {
         
-            margin-top: 195px;
+            margin-top: 135px;
             margin-left: 230px;
             padding-bottom: 10px;
             width: 450px;
@@ -3163,6 +3889,47 @@ and (max-width: 1840px)
       
         
     }
+    #logofbsignup{
+        height: 45px;
+        width: 45px;
+    }
+    
+    
+    #logotwsignup{
+        height: 45px;
+        width: 45px;
+    }
+    
+    #logogosignup{
+        height: 45px;
+        width: 45px;
+    }
+    .tablesignup_main{
+      background-image: url("background@2x.png");
+     
+      background-repeat: no-repeat;
+      background-position: center;
+      height: 900px;
+    }
+    
+    #sign_in_slogan_heading{
+        margin-top: 20px;
+        font-size: 44px;
+        width: 850px;
+      
+    }
+    #signupinputline{
+        width: 340px;
+        text-align: left;
+        font-style: dotted;
+    }
+    #signup_slogan_para{
+        font-size: 25px;
+       
+        width : 580px ;
+    }
+    
+    
     
     
     
@@ -3183,7 +3950,7 @@ and (max-width: 1840px)
     #signingup
     {
     
-        margin-top: 195px;
+        margin-top: 125px;
         margin-left: 230px;
         padding-bottom: 10px;
         width: 450px;
@@ -3282,6 +4049,46 @@ and (max-width: 1919px)
       
         
     }
+    #logofbsignup{
+        height: 45px;
+        width: 45px;
+    }
+    
+    
+    #logotwsignup{
+        height: 45px;
+        width: 45px;
+    }
+    
+    #logogosignup{
+        height: 45px;
+        width: 45px;
+    }
+    .tablesignup_main{
+      background-image: url("background@2x.png");
+     
+      background-repeat: no-repeat;
+      background-position: center;
+      height: 1200px;
+    }
+    
+    #sign_in_slogan_heading{
+        margin-top: 20px;
+        font-size: 44px;
+        width: 850px;
+      
+    }
+    #signupinputline{
+        width: 340px;
+        text-align: left;
+        font-style: dotted;
+    }
+    
+    #signup_slogan_para{
+        font-size: 25px;
+       
+        width : 580px ;
+    }
     
     
 
@@ -3302,7 +4109,7 @@ and (max-width: 1919px)
     #signingup
     {
     
-        margin-top: 215px;
+        margin-top: 165px;
         margin-left: 300px;
         padding-bottom: 10px;
         width: 530px;
@@ -3369,7 +4176,7 @@ and (max-width: 1919px)
   
   }
   @media only screen and (min-width: 1920px) 
-  and (max-width: 2000px)
+ 
     {
   
 
@@ -3406,6 +4213,41 @@ and (max-width: 1919px)
           
             
         }
+        #logofbsignup{
+            height: 45px;
+            width: 45px;
+        }
+        
+        
+        #logotwsignup{
+            height: 45px;
+            width: 45px;
+        }
+        
+        #logogosignup{
+            height: 45px;
+            width: 45px;
+        }
+        .tablesignup_main{
+          background-image: url("background@2x.png");
+         
+          background-repeat: no-repeat;
+          background-position: center;
+          height: 1200px;
+        }
+        
+        #sign_in_slogan_heading{
+            margin-top: 20px;
+            font-size: 46px;
+            width: 850px;
+          
+        }
+        #signupinputline{
+            width: 340px;
+            text-align: left;
+            font-style: dotted;
+        }
+        
         
         
         /* Signup button jo upr hai*/
@@ -3435,6 +4277,11 @@ and (max-width: 1919px)
            
         }
         
+        #signup_slogan_para{
+            font-size: 25px;
+           
+            width : 580px ;
+        }
         
         
         .sign_in_inputs{

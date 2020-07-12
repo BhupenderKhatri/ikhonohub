@@ -95,39 +95,48 @@ class table extends Component{
                     <td> {<input 
                     type= "text " 
                     name="username"
+                    id="password_input_signup"
                      placeholder=  " Enter Name " 
                      class="sign_in_inputs"
                     onChange={this.onUsersignupchange}
                      ></input>}</td>
                     </tr>
+                    <hr id="signupinputline"></hr>
                     <tr>
                          <td> 
                               {<input
                                type= "email"
                                 name="email" 
                                 placeholder="Enter Email " 
+                                id="password_input_signup"
                                 class="sign_in_inputs"
                                 onChange={this.onEmailsignupchange}
                                 ></input>}</td>
                     </tr>
+                    <hr id="signupinputline"></hr>
                     <tr>
                          <td> 
                               {<input
                                type= "password" 
                                name="password" 
                                placeholder="Enter Password " 
+                               id="password_input_signup"
                                class="sign_in_inputs" 
+                              
                                onChange={this.onPasswordsignupchange}
                                ></input>}</td>
                     </tr>
+                    <hr id="signupinputline"></hr>
                     <tr>
                          <td> {<input type= "password"
                           name="passwordConf"
                            placeholder="Confirm Password "
+                           id="password_input_signup"
                             class="sign_in_inputs" 
                           onChange={this.onPassword2signupchange}
                           ></input>}</td>
                     </tr>
+                    <hr id="signupinputline"></hr>
                     <tr>
                          <td>
                          {<button  class="sign_in_willsubmit" onClick={this.onSubmitsignup}>Register</button>}
@@ -142,35 +151,40 @@ class table extends Component{
                     </tr> 
                   
                     <tr class="sign_in_logos3">
-                      {< a href="https://www.facebook.com/">  <img src= {Facebook}  alt="Error"></img> </a>}
+                      {< a href="https://www.facebook.com/">  <img src= {Facebook}  id="logofbsignup"  alt="Error"></img> </a>}
                     </tr>
 
                     <tr class="sign_in_logos4">
-                      <a href="https://twitter.com/" >  {<img src= {Twitter}  alt="Error"></img>}</a>
+                      <a href="https://twitter.com/" >  {<img src= {Twitter}  id="logotwsignup"  alt="Error"></img>}</a>
                     </tr>
                     <tr class="sign_in_logos5" >
-                     <a href="https://www.google.co.in/">{<img src= {Google}  alt="Error"></img>}</a> 
+                     <a href="https://www.google.co.in/">{<img src= {Google}  id="logogosignup"  alt="Error"></img>}</a> 
                     </tr>
               
                 
                     
         </table>  
 
+        { 
         <div id="sign_in_slogan">
 
 <h2 id="sign_in_slogan_heading">Where Aspiration Meets Preparation</h2>
-  <div id="login_slogan_para">
-  <Typical
-      steps={['Find your next opportunity, get that key introduction, even meet a co-founder. Someone in our thriving and supportive IKHONO HUB community is always online willing to lend a hand.', 500, 'Leadership and learning are indispensable to each other', 500 ,'The beautiful thing about learning is that nobody can take it away from you',500]}
-      loop={Infinity}
-      wrapper="p"
-    />
+  <div >
+             <p id="signup_slogan_para">
+                         <Typical 
+                                   class="typical_content_font"
+                                   steps={['Find your next opportunity, get that key introduction, even meet a co-founder. Someone in our thriving and supportive IKHONO HUB community is always online willing to lend a hand.', 500, 'Leadership and learning are indispensable to each other', 500 ,'The beautiful thing about learning is that nobody can take it away from you',500]}
+                                   loop={Infinity}
+                                   wrapper="p"
+                              />
+             </p>
+              
 
   </div>
 
-  <p id="sign_in_slogan_para"></p>
+
 </div>
-               
+                }
             </div>
 
         );
