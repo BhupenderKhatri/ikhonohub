@@ -35,10 +35,10 @@ class newfooter extends Component{
               <p class="footer_follow_heading">Follow Us On</p>
               <p class="footer_follow_mini_para">Please follow us on our social media <br></br> profile to get updates</p>
               <div id="footer_follow_images">
-              <a class="footer_link" href="https://www.facebook.com/"><img class="footer_follow_image_logo" src={Facebook} alt="nikal be"></img></a>
-              <a class="footer_link" href="https://www.linkedin.com/"> <img class="footer_follow_image_logo"  src={Linkedin} alt="nikal be"></img></a>
-              <a class="footer_link" href="https://www.instagram.com/"> <img class="footer_follow_image_logo"  src={Instagram} alt="nikal be"></img></a>
-              <a class="footer_link" href="https://www.youtube.com/"> <img class="footer_follow_image_logo"  src={ Youtube} alt="nikal be"></img></a>
+              <a class="footer_link" href="https://www.facebook.com/Ikhono-Hub-101845231477935/"><img class="footer_follow_image_logo" src={Facebook} alt="nikal be"></img></a>
+              <a class="footer_link" href="https://www.linkedin.com/company/ikhonohub/?viewAsMember=true"> <img class="footer_follow_image_logo"  src={Linkedin} alt="nikal be"></img></a>
+              <a class="footer_link" href="https://instagram.com/ikhonohub?igshid=1jauyzvbjvao6"> <img class="footer_follow_image_logo"  src={Instagram} alt="nikal be"></img></a>
+              <a class="footer_link" href="https://www.youtube.com/channel/UCTXNRNBIOxfGA_qTU7shi0w"> <img class="footer_follow_image_logo"  src={ Youtube} alt="nikal be"></img></a>
               </div>
             </div>
 
