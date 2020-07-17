@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Router, Switch, Route } from "react-router-dom";
-
+import Interncourse from './../components/interncourse/interncourse';
 import home from "./../components/home/home";
 import signup from "./../components/signup/signup";
 import history from '../history';
@@ -53,7 +53,7 @@ export default class Routes extends Component {
                     <Route path="/player" component={ReactPlayerPage} />
                     
                     <Route path="/addprofile" component={Addprofile} />
-
+                    <Route path="/interncourse" component={Interncourse}/>
                     
                     <Route path="/mycourses" component={MyCourses} />
                     <Route path="/trending" component={TrendingCourses} />

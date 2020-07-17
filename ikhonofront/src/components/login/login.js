@@ -126,19 +126,19 @@ class login extends Component {
                               <p class='login_or'>OR</p>
                          </td >
                          </tr> 
-                   
-                     <tr class="login_logos11">
-                      {< a href="https://www.facebook.com/">  <img src= {Facebook}  height="80" width="80" alt="Error"/> </a>}
-                    </tr>
+                       
+                     <tr>
+                       <td>
+                      {< a href="https://www.facebook.com/">  <img class="login_logos" src= {Facebook}  alt="Error"/> </a>}
+                        </td>
 
-
-                    <tr class="login_logos12">
-                      <a href="https://twitter.com/" >  {<img src= {Twitter}  height="80" width="80" alt="Error"/>}</a>
+                      <td>
+                      <a href="https://twitter.com/" >  {<img class="login_logos1" src= {Twitter}  alt="Error"/>}</a>
+                      </td>
+                      <td>
+                     <a href="https://www.google.co.in/">{<img class="login_logos2" src= {Google}  alt="Error"/>}</a> 
+                     </td>
                     </tr>
-                    <tr class="login_logos23" >
-                     <a href="https://www.google.co.in/">{<img src= {Google}  height="80" width="80" alt="Error"/>}</a> 
-                    </tr>
-                   
          
          
                   

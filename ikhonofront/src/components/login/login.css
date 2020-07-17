@@ -186,21 +186,21 @@
 }
 
 .login_logos {
-    margin-left: 90px;
+    margin-left: 100px;
     height: 35px;
     width: 35px;
     display: inline-block;
 }
 
 .login_logos1 {
-    margin-left: -212px;
+    margin-left: -215px;
     height: 35px;
     width: 35px;
     display: inline-block;
 }
 
 .login_logos2 {
-    margin-left: -130px;
+    margin-left: -140px;
     height: 35px;
     width: 35px;
     border-radius: 50%;
@@ -250,7 +250,7 @@ and (max-width: 359px)
 
 
 /* Signup button jo upr hai*/
- .signupsignup1
+  .signupsignup1
 {    
     font-size: 18px;
   
@@ -464,9 +464,9 @@ and (max-width: 359px)
         }
         
           }
-        
+         
 
-  @media only screen and (min-width: 375px) 
+   @media only screen and (min-width: 375px) 
   and (max-width: 411px) 
   {
     .login{
@@ -500,12 +500,12 @@ and (max-width: 359px)
     font-size: 18px;
    
     
-}
+} 
 
 
 
 /* Signup button jo upr hai*/
- .signupsignup1
+  .signupsignup1
 {    
     font-size: 18px;
   
@@ -632,9 +632,9 @@ and (max-width: 359px)
     }
     
     
-    
+     
     /* Signup button jo upr hai*/
-     .signupsignup1
+      .signupsignup1
     {    
         font-size: 18px;
       
@@ -759,10 +759,10 @@ and (max-width: 359px)
         
     }
     
-    
+     
     
     /* Signup button jo upr hai*/
-     .signupsignup1
+      .signupsignup1
     {    
         font-size: 18px;
       
@@ -884,12 +884,12 @@ and (max-width: 550px)
     font-size: 18px;
    
     
-}
+} 
 
 
 
 /* Signup button jo upr hai*/
- .signupsignup1
+  .signupsignup1
 {    
     font-size: 18px;
   
@@ -1013,12 +1013,12 @@ and (max-width: 599px)
     font-size: 18px;
    
     
-}
+} 
 
 
 
 /* Signup button jo upr hai*/
- .signupsignup1
+  .signupsignup1
 {    
     font-size: 18px;
   
@@ -1142,11 +1142,11 @@ and (max-width: 616px)
    
     
 }
-
+ 
 
 
 /* Signup button jo upr hai*/
- .signupsignup1
+  .signupsignup1
 {    
     font-size: 18px;
   
@@ -1231,9 +1231,9 @@ and (max-width: 616px)
     width: 23px;
 }
 
-  }
+  } 
 
-  @media only screen and (min-width: 617px) 
+   @media only screen and (min-width: 617px) 
 and (max-width: 700px) 
 {
     .login{
@@ -1395,7 +1395,7 @@ and (max-width: 767px)
     font-size: 18px;
    
     
-}
+} 
 
 
 
@@ -1522,11 +1522,11 @@ and (max-width: 767px)
    
     
 }
-
+ 
 
 
 /* Signup button jo upr hai*/
- .signupsignup1
+  .signupsignup1
 {    
     font-size: 18px;
   
@@ -1649,11 +1649,11 @@ and (max-width: 767px)
    
     
 }
-
+ 
 
 
 /* Signup button jo upr hai*/
- .signupsignup1
+  .signupsignup1
 {    
     font-size: 18px;
   
@@ -1779,9 +1779,9 @@ and (max-width: 767px)
     }
     
     
-    
+     */
     /* Signup button jo upr hai*/
-     .signupsignup1
+      .signupsignup1
     {    
         font-size: 18px;
       
@@ -1908,7 +1908,7 @@ and (max-width: 767px)
         
         
         /* Signup button jo upr hai*/
-         .signupsignup1
+        .signupsignup1
         {    
             font-size: 18px;
           
@@ -2033,10 +2033,10 @@ and (max-width: 767px)
         
     }
     
-    
+     */
     
     /* Signup button jo upr hai*/
-     .signupsignup1
+      .signupsignup1
     {    
         font-size: 18px;
       
@@ -2161,9 +2161,9 @@ and (max-width: 767px)
     }
     
     
-    
+     
     /* Signup button jo upr hai*/
-     .signupsignup1
+      .signupsignup1
     {    
         font-size: 18px;
       
@@ -2288,9 +2288,9 @@ and (max-width: 767px)
     }
     
     
-    
+     
     /* Signup button jo upr hai*/
-     .signupsignup1
+      .signupsignup1
     {    
         font-size: 18px;
       
@@ -2415,7 +2415,7 @@ and (max-width: 1359px)
     font-size: 18px;
    
     
-}
+} 
 
 
 
@@ -2543,12 +2543,12 @@ and (max-width: 1359px)
     font-size: 18px;
    
     
-}
+} 
 
 
 
 /* Signup button jo upr hai*/
- .signupsignup1
+  .signupsignup1
 {    
     font-size: 18px;
   
@@ -2673,11 +2673,11 @@ and (max-width: 1520px)
    
     
 }
-
+ 
 
 
 /* Signup button jo upr hai*/
- .signupsignup1
+  .signupsignup1
 {    
     font-size: 18px;
   
@@ -2801,11 +2801,11 @@ and (max-width: 1599px)
    
     
 }
-
+ 
 
 
 /* Signup button jo upr hai*/
- .signupsignup1
+  .signupsignup1
 {    
     font-size: 18px;
   
@@ -2929,11 +2929,11 @@ and (max-width: 1680px)
    
     
 }
-
+ 
 
 
 /* Signup button jo upr hai*/
- .signupsignup1
+  .signupsignup1
 {    
     font-size: 18px;
   
@@ -2996,30 +2996,26 @@ and (max-width: 1680px)
     
 }
 
-
-.login_logos11{
-    margin-left: 85px;
+.login_logos{
+    margin-left: 50px;
     margin-bottom: 8px;
-    display: inline-block;
-    height: 35px;
-    width: 35px;
+    height: 23px;
+    width: 23px;
     
 }
 
-.login_logos12{
-    margin-left: 60px;
-    height: 35px;
-    width: 35px;
+.login_logos1{
+    margin-left: -130px;
+    height: 23px;
+    width: 23px;
     margin-top: -7px;
-    display: inline-block;
 }
 
-.login_logos23{
-    margin-left: 60px;
+.login_logos2{
+    margin-left: -80px;
     margin-top: -7px;
-    display: inline-block;
-    height: 35px;
-    width: 35px;
+    height: 23px;
+    width: 23px;
 }
 
   }
@@ -3061,10 +3057,10 @@ and (max-width: 1680px)
     
 }
 
-
+ 
 
 /* Signup button jo upr hai*/
- .signupsignup1
+  .signupsignup1
 {    
     font-size: 18px;
   
@@ -3314,11 +3310,11 @@ and (max-width: 1919px)
    
     
 }
-
+ 
 
 
 /* Signup button jo upr hai*/
- .signupsignup1
+  .signupsignup1
 {    
     font-size: 18px;
   
@@ -3442,10 +3438,10 @@ and (max-width: 1919px)
     
 }
 
-
+ 
 
 /* Signup button jo upr hai*/
- .signupsignup1
+  .signupsignup1
 {    
     font-size: 18px;
   
@@ -3530,4 +3526,4 @@ and (max-width: 1919px)
     width: 23px;
 }
 
-  }
+  } 

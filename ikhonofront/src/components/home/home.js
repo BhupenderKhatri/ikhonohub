@@ -11,7 +11,6 @@ import Background from "../home/backgroundimage.png";
 
 
 
-
 class home extends Component{
     render(){
       
@@ -76,11 +75,9 @@ class home extends Component{
                    
             
            
-            {/*
-            <div>
-            <MainCourses/>
-            </div>
-            */}
+         
+            
+          
             <div>
              <Content/>
             </div>

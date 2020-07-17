@@ -1,0 +1,53 @@
+#whatyoulearn_main{
+background-color: white;
+width: 600px;
+padding-left: 15px;
+margin-left: 30%;
+margin-top: 1%;
+padding-top: 5px;
+
+}
+
+#learn_para_main{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    margin-top: -10px;
+}
+.tick_icon{
+    width: 15px;
+    height: 12px;
+}
+
+.learn_heading{
+    font-size:30px ;
+    font-weight: 650;
+    margin-left: 3%;
+
+
+}
+
+.syllabus_download{
+    width: 260px;
+    height:40px;
+    margin-left: 8%;
+    font-size:20px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 0px 0px 10px #00000073;
+border-radius: 14px;
+opacity: 1;
+border:none;
+font-weight: 600;
+outline: none;
+}
+
+.syllabus_download:hover{
+    color: white;
+    background:  transparent linear-gradient(270deg, #FF3300 0%, #FFDB00 100%) 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.syllabus_download:active { 
+    transform: scale(0.98); 
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24); 
+    
+} 
