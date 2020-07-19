@@ -14,8 +14,8 @@ class Programinclude extends Component{
         <div class="program_title">
                 <div id="program1">
                     <img id="program_img1" alt="study" src={Studying}/>
-                   <div id="program_base"> <h3 id="program_title">Real-world projects from industry experts</h3>
-                  <p id="program_para">With real world projects and immersive content built in partnership with top tier companies, you’ll master the tech skills companies want.</p>
+                   <div id="program_base"> <h3 id="program_title">Projects with Practical skills</h3>
+                  <p id="program_para">We provide you with different projects which will lead you through a real time industry experience</p>
                   </div>
                 </div>
                      
@@ -23,26 +23,28 @@ class Programinclude extends Component{
                       <div id="program2"> 
                         <img id="program_img1" alt="study" src={Candidate}/>
                       <div id="program_base">  
-                        <h3 id="program_title">Technical mentor support</h3>
-                        <p id="program_para">Our knowledgeable mentors guide your learning and are focused on answering your questions, motivating you and keeping you on track.</p>
+                        <h3 id="program_title">Mentor Support</h3>
+                        <p id="program_para">What to do if you are stuck at a point in the course?
+                        No worries our mentor will be there to help you with all of your doubts.
+                        </p>
                       </div>
                       </div>
 
 
-                              <div id="program3">
+                              <div id="program1">
                              <img id="program_img1" alt="study" src={Career}/>
                              <div id="program_base"> 
-                                <h3 id="program_title">Personal career coach and career services</h3>
-                                <p id="program_para">You’ll have access to career coaching sessions, interview prep advice, and resume and online professional profile reviews to help you grow in your career.</p>
+                                <h3 id="program_title">Career sessions</h3>
+                                <p id="program_para">You will be able to join our special career sessions through which you will learn to build your own career path and get ur dream job.</p>
                              </div>
                               </div>
 
 
-                                      <div id="program4">
+                                      <div id="program2">
                                           <img id="program_img1" alt="study" src={Developer}/>
                                       <div id="program_base"> 
-                                          <h3 id="program_title">Flexible learning program</h3>
-                                          <p id="program_para">Get a custom learning plan tailored to fit your busy life. Learn at your own pace and reach your personal goals on the schedule that works best for you.</p>
+                                          <h3 id="program_title">Flexible learning schedule</h3>
+                                          <p id="program_para">No need to bind yourself with our schedule. You can access the whole course at your place ,at your time. We provide you the facility to access your course at your comfort zone.</p>
                                       </div>
                                       </div>
 
