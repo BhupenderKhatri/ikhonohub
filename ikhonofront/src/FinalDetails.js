@@ -207,3 +207,82 @@ export const refundItems =[
         
         }
         ]
+
+
+        export const machinelearning=[
+            {
+                c1_1:"Machine Learning : The Demand Of Future",
+                c1_2:"4.0",
+                c1_3:"75 Rating",
+                c1_4:"18 Reviews",
+                c1_5:"You will get through python.",
+                c1_6:"You will do data analysis",
+                c1_7:"You will go through data visualisation",
+                c1_8:"You will implement different algorithms",
+                c1_9:"4 months",
+                c1_10:"No download needed",
+                c1_11:"Certificate of Completion",
+                c1_12:"4 minor & 3 major Projects",
+                c1_13:"Split-screen video",
+                c1_14:"Accessible on any device",
+                c1_15:"Flexible schedule",
+                c1_16:"Assignments with mentor Support",
+                
+                c2_1:" Get an exposure on how to work on real time problems.",
+                c2_2:" How to implement machine learning models",
+                c2_3:" How to use machine learning in different aspects",
+                c2_4:" How Machine learning can help you in your future",
+                c2_5:" Skills which which will help you to secure a job as machine learning engineer",
+                c2_6:" Build a professional portfolio",
+                
+                c4_1 :"Tic Tac Toe" ,
+                c4_1a:"Working on python " ,
+                c4_1b:"different python libraries" ,
+                c4_1c:"go through python basics" ,
+                c4_2 :"Stock Price Analysis",
+                c4_2a:"Work on stock price data set", 
+                c4_2b:"work with advanced python", 
+                c4_2c:"work with different plots",
+                c4_3 :"My own dataset",
+                c4_3a:"Make your own dataset",
+                c4_3b:"build model on that dataset",
+                c4_3c:"do visualization for your own data set",
+                c4_4 :"Comparing the models",
+                c4_4a:"work on a dataset",
+                c4_4b:"build 2 models using different algorithms",
+                c4_4c:"compare the accuracy of two models",
+                c4_5 :"My own dataset",
+                c4_5a:"data analysis on a dataset from kaggle",
+                c4_5b:"implement classification algorithmn",
+                c4_5c:"predict the quality of a wine.",
+
+                c4_5d:"predict the accuracy.",
+
+                c4_6 :"Breast Cancer Classification",
+                c4_6a:"Work on a real time dataset",
+                c4_6b:"work on tkinter frame work",
+                c4_6c:"make a full fledged desktop application",
+                c4_7 :"Tweets Analyzing",
+                c4_7a:"Working on a tweet dataset ",
+                c4_7b:"work on Natural language processing",
+                c4_7c:"learn the basic concepts of NLP",
+
+                c5_1:"Projects with Practical skills",
+                c5_2:"We provide you with different projects which will lead you through a real time industry experience",
+                c5_3:"Mentor Support",
+                c5_4:"What to do if you are stuck at a point in the course? No worries our mentor will be there to help you with all of your doubts.",
+                c5_5:"Career sessions",
+                c5_6:"You will be able to join our special career sessions through which you will learn to build your own career path and get ur dream job.",
+                c5_7:"Flexible learning schedule",
+                c5_8:"No need to bind yourself with our schedule. You can access the whole course at your place ,at your time. We provide you the facility to access your course at your comfort zone.",
+
+                ques1: "Are there any prerequisites for the course?",
+                ans1:  "Yes, you should have basic knowledge of python , no prior knowledge of ML is required.",
+                ques2: "Do we provide certification?",
+                ans2:  "Yes, definitely you will get a course completion certificate which you can use on your professional platforms or resume.",
+                ques3: "Do we provide career opportunities?",
+                ans3:  "Yes, it depends on you if you pass with flying colors we will be there to help  u in best possible ways.",
+                ques4: "will this course meet the future demands?",
+                ans4:  "This course will lead u to every possible industrial aspect & will meet to the future demands.",
+            }
+        ]

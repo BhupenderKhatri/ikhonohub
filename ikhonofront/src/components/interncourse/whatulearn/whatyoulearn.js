@@ -1,8 +1,9 @@
 import React ,{Component}from 'react';
 import tick from './tick.png';
 import './whatyoulearn.css';
-class Whatyoulearn extends Component{
-    render(){
+
+const Whatyoulearn=({c2_1,c2_2,c2_3,c2_4,c2_5,c2_6}) =>{
+    
       
       return (
 
@@ -13,19 +14,19 @@ class Whatyoulearn extends Component{
 </div>
 <div id="learn_para_main">
   <ul class="list_learn">
-<li class="learn_para"> Get an exposure on how to work on real time problems.</li>
-<li class="learn_para"> How to implement machine learning models</li>
-<li class="learn_para"> How to use machine learning in different aspects</li></ul>
+<li class="learn_para"> {c2_1}</li>
+      <li class="learn_para"> {c2_2}</li>
+      <li class="learn_para"> {c2_3}</li></ul>
 <ul class="list_learn">
-<li class="learn_para"> How Machine learning can help you in your future</li>
-<li class="learn_para"> Skills which which will help you to secure a job as machine learning engineer</li>
-<li class="learn_para"> Build a professional portfolio</li>
+<li class="learn_para">{c2_4} </li>
+<li class="learn_para">{c2_5} </li>
+<li class="learn_para">{c2_6} </li>
 </ul>
 
 </div>
 </div>
         );
     }
-    }
+    
     
     export default Whatyoulearn;
