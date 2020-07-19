@@ -34,7 +34,7 @@ class Coursesubject extends Component{
 
     <div id="intern_guide">
         <p class="guide_heading">In this course:</p>
-        <p class="guide_detail"><span><img src={tick} class="tick_icon"></img></span> &nbsp;	You will get through python.</p>
+        <p class="guide_detail"><span><img src={tick} class="tick_icon"></img></span> &nbsp;You will get through python.</p>
         <p class="guide_detail"><span><img src={tick} class="tick_icon"></img></span> &nbsp;You will do data analysis</p>
         <p class="guide_detail"><span><img src={tick} class="tick_icon"></img></span> &nbsp;You will go through data visualisation</p>
         <p class="guide_detail"><span><img src={tick} class="tick_icon"></img></span> &nbsp;You will implement different algorithms</p>
@@ -45,11 +45,12 @@ class Coursesubject extends Component{
        <p class="left_sideicon_para"><span><img src={clock} class="left_side_icons"/></span>&nbsp;&nbsp;4 months</p>
        <p class="left_sideicon_para"><span><img src={download} class="left_side_icons"/></span>&nbsp;&nbsp;No download needed</p>
        <p class="left_sideicon_para"><span><img src={certificate} class="left_side_icons"/></span>&nbsp;&nbsp;Certificate of Completion</p>
-       <p class="left_sideicon_para"><span><img src={realproject} class="left_side_icons"/></span>&nbsp;&nbsp; 4 minor & 3 major Projects</p>
+       <p class="left_sideicon_para"><span><img src={realproject} class="left_side_icons"/></span>&nbsp;&nbsp;4 minor & 3 major Projects</p>
        <p class="left_sideicon_para"><span><img src={splitscreenvideo} class="left_side_icons"/></span>&nbsp;&nbsp;Split-screen video</p>
        <p class="left_sideicon_para"><span><img src={anydevice} class="left_side_icons"/></span>&nbsp;&nbsp;Accessible on any device</p>
        <p class="left_sideicon_para"><span><img src={flexibleplans} class="left_side_icons"/></span>&nbsp;&nbsp;Flexible schedule</p>
        <p class="left_sideicon_para"><span><img src={mentorsupport} class="left_side_icons"/></span>&nbsp;&nbsp;Assignments with mentor Support</p>
+    
     
     </div>
 
@@ -59,7 +60,7 @@ class Coursesubject extends Component{
   <form >
     <p class="intern_form_heading">Lets Begin The Journey</p>
     <p class="intern_form_subheading">Fill To Enroll Now</p>
-    <input type="text" class="intern_form" placeholder="Name" required/>
+  <div class="input-text">  <input type="text" class="intern_form" placeholder="Name" required/>
     <input type="text" class="intern_form" placeholder="Email" required/>
     <input type="text" class="intern_form" placeholder="Contact No" required/>
     <select class="plan_selection">
@@ -68,6 +69,7 @@ class Coursesubject extends Component{
     <option value="plan 2">Advanced</option>
     <option value="plan 3">Premium</option>
 </select>
+</div>
 <input type="button" class="intern_button" value="Request a Call-Back"/>
 </form>
 

@@ -16,9 +16,9 @@ class Interncourse extends Component{
           
 <div class="intern-main">
   <Nav/>
-  {/* <Coursesubject/> */}
-  {/* <Whatyoulearn/> */}
-  {/* <Courseconcept/> */}
+  <Coursesubject/> 
+  <Whatyoulearn/>
+  <Courseconcept/> 
   <Projecttitle/>
   <Programinclude/>
   {/* <Pricing/> */}

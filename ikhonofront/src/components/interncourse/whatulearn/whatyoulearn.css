@@ -1,76 +1,140 @@
 #whatyoulearn_main{
-/* background-color: white; */
-width:100%;
-padding-left: 15px;
-margin-top: 1%;
-padding-top: 5px;
-
-}
-.syllabus_heading{
-    display: grid;
-    grid-template-columns: auto auto ;
-    align-items: center;
-    justify-content: center;
-    grid-column-gap: 80px;
-}
-
-#learn_para_main{
-    display: grid;
-    justify-content: center;
-    grid-template-columns: auto auto;
-    margin-top: -10px;
-    grid-column-gap: 40px;
-}
-.tick_icon{
-    width: 15px;
-    height: 12px;
-}
-
-.learn_heading{
-    font-size:30px ;
-    font-weight: 650;
-   
-
-
-}
-
-.syllabus_download{
-    width: 250px;
-    height:45px;
-    font-size:20px;
-    background: #FFFFFF 0% 0% no-repeat padding-box;
-box-shadow: 0px 0px 10px #00000073;
-border-radius: 14px;
-opacity: 1;
-border:none;
-font-weight: 600;
-outline: none;
-}
-
-.syllabus_download:hover{
-    color: white;
-    background:  transparent linear-gradient(270deg, #FF3300 0%, #FFDB00 100%) 0% 0% no-repeat padding-box;
-    opacity: 1;
-}
-
-.syllabus_download:active { 
-    transform: scale(0.98); 
-    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24); 
+    width:100%;
     
-} 
-
-.learn_para:before {
-    content: '✓';
-    color: red;
-}
-ul.list_learn{
-    list-style-position: inside;
-    padding: 10px 0 10px 20px;
-    text-indent: -1em;
-}
-.learn_para{
-    list-style: none;
-    width: 300px;
-    line-height: 30px;
-  
-}
+    
+    }
+    .syllabus_heading{
+        display: grid;
+        grid-template-columns: auto auto ;
+        align-items: center;
+        justify-content: center;
+        grid-column-gap: 80px;
+    }
+    
+    #learn_para_main{
+        display: grid;
+        justify-content: center;
+        grid-template-columns: auto auto;
+        margin-top: -10px;
+        grid-column-gap: 40px;
+    }
+    
+    
+    .learn_heading{
+        font-size:30px ;
+        font-weight: 650;
+    }
+    
+    .syllabus_download{
+        width: 250px;
+        height:45px;
+        font-size:20px;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 10px #00000073;
+    border-radius: 14px;
+    opacity: 1;
+    border:none;
+    font-weight: 600;
+    outline: none;
+    }
+    
+    .syllabus_download:hover{
+        color: white;
+        background:  transparent linear-gradient(270deg, #FF3300 0%, #FFDB00 100%) 0% 0% no-repeat padding-box;
+        opacity: 1;
+    }
+    
+    .syllabus_download:active { 
+        transform: scale(0.98); 
+        box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24); 
+        
+    } 
+    
+    .learn_para:before {
+        content: '✓';
+        color: red;
+    }
+    .list_learn{
+        list-style-position: inside;
+        text-indent: -1em;
+    }
+    .learn_para{
+        list-style: none;
+        width: 300px;
+        line-height: 30px;
+      
+    }
+    @media only screen and (max-width:768px){
+            .syllabus_heading{
+                display: grid;
+                grid-template-columns: auto auto ;
+                align-items: center;
+                justify-content: center;
+                grid-column-gap: 40px;
+            } 
+            #learn_para_main{
+                display: grid;
+                justify-content: center;
+                grid-template-columns: auto auto;
+                margin-top: 0px;
+                grid-column-gap: 0px;
+            } 
+            .learn_heading{
+                font-size:20px ;
+                font-weight: 650;
+            }  
+            .syllabus_download{
+            width: 180px;
+            height:40px;
+            font-size:14px;
+            border-radius: 10px;
+            }       
+            .learn_para{
+                list-style: none;
+                width: 200px;
+                line-height: 22px;
+                font-size: small;
+            }
+    }
+    @media only screen and (max-width:480px){
+        
+        #whatyoulearn_main{
+            box-sizing: border-box;
+            padding-top: 10px;
+            padding-bottom: 20px;
+        }
+        .syllabus_heading{
+            display: grid;
+            grid-template-columns: auto auto ;
+            align-items: center;
+            justify-content: center;
+            grid-column-gap: 20px;
+            margin-bottom:10px;
+        } 
+        #learn_para_main{
+            display: grid;
+            justify-content: center;
+            grid-template-columns: auto;
+            margin-top: 0px;
+            grid-column-gap: 0px;
+        } 
+        .learn_heading{
+            font-size:15px ;
+            font-weight: 650;
+        }  
+        .syllabus_download{
+        width: 140px;
+        height:35px;
+        font-size:11px;
+        border-radius: 10px;
+        }       
+        .learn_para{
+            list-style: none;
+            width: 280px;
+            line-height: 22px;
+            font-size: small;
+        }
+        .list_learn{
+            margin: 0px;
+        }
+    }
