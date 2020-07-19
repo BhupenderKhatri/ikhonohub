@@ -1,0 +1,185 @@
+.coursesub-black{
+    background: rgb(0, 0, 0);
+    width: 100%;
+    height: 60vh;
+    margin-bottom: -380px;
+
+}
+
+#intern_main{
+    width: 90%;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    margin-top: 40px;
+    padding-left: 60px;
+    padding-right: 60px;
+   margin-left:8%;
+    border-radius: 40px;
+    display: grid;
+    height: 600px;
+    width: 1150px;
+    grid-template-columns: 1fr 1fr;
+    justify-self: center;
+    box-shadow: 0px 5px 15px #000000b7;
+    
+}
+
+
+#intern_leftpart{
+    width: 110%;
+  
+}
+
+.intern_course_heading{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#ratingcontainer{
+    display: flex;
+    font-weight: 650;
+   
+}
+.intern_rating{
+    width: 160px;
+    height: 30px;
+    filter: brightness(125%);
+
+}
+
+.intern_ratinggrade{
+    margin-left: 20px;
+    font-size: 25px;
+    margin-top: -2px;
+}
+             
+.intern_ratingno{
+    margin-left: 50px;
+    font-size: 25px;
+    margin-top: -2px;
+}
+
+.intern_ratingreview{
+    margin-left: 20px;
+    font-size: 25px;
+    margin-top: -2px;
+}
+
+
+#intern_guide{
+    line-height: 20px;
+    margin-top: -20px;
+}
+.guide_heading{
+    font-size: 25px;
+    font-weight: bold;
+}
+.guide_detail{
+    font-weight: 650;
+    font-size:18px;
+}
+
+#leftside_one_icons{
+    line-height: 25px;
+}
+#leftside_icon_main{
+    display: grid;
+    grid-template-columns: auto auto;
+    line-height: 10px;
+}
+.leftside_features_icons{
+    display: flex;
+    flex-direction: row;
+}
+.left_side_icons{
+    width: 18px;
+    
+}
+
+#leftside_two_icons{
+    line-height: 25px;
+}
+.left_sideicon_para{
+    
+}
+
+
+#intern_rightpart{
+margin-left: 130px;
+display: flex;
+height: 480px;
+padding-left: 70px;
+width: 390px;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 0px 3px 40px #8EA4FCA3;
+border-radius: 29px;
+opacity: 1;
+line-height: 5px;
+margin-top: 50px;
+padding-top: 20px;
+flex-direction: column;
+}
+
+.intern_form_heading{
+    font-size: 30px;
+    font-weight: bold;
+    color: #FF3300;
+    margin-bottom: 40px;
+
+}
+.intern_form_subheading{
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
+.tick_icon{
+    width: 12px;
+    
+}
+
+.intern_form{
+  margin-top: 10px;
+  border-left: none;
+  width:296px;
+  height: 40px;
+  font-size: 20px;
+  border-right: none;
+  outline: none;
+  border-top: none;
+}
+
+.plan_selection{
+    margin-top: 10px;
+    border-left: none;
+    outline: none;
+    border-bottom: 2px solid ;
+    width: 300px;
+    height: 40px;
+    color: grey;
+    font-size: 20px;
+    border-right: none;
+    border-top: none;
+}
+
+.intern_button{
+    width: 280px;
+    cursor: pointer;
+    outline: none;
+    height: 55px;
+    margin-left: 15px;
+    margin-top: 50px;
+    border: 3px solid orangered;
+    background: -webkit-linear-gradient(45deg,orangered ,gold);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 25px;  
+    border-image-slice: 1;
+   border-radius: 15px;
+   
+}
+
+.intern_button:active { 
+    transform: scale(0.98); 
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24); 
+    
+} 

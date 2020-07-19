@@ -1,0 +1,65 @@
+#pricing-main-head{
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 50px;
+}
+.pricing_main{
+
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-evenly;
+}
+.pricing-base{
+    width: 300px;
+    height: 500px;
+   
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 25px #FFCDC1;
+    border-radius: 10px;
+    box-sizing: border-box;
+    align-content:end;
+    justify-content: end;
+}
+#pricing-base-title{
+    text-align: center;
+    color: #FF3300;
+}
+#prices{
+    text-align: center;
+    font-weight: bold;
+}
+.pricing-btn{
+    width: 8rem;
+    height:2.5rem;
+    /* margin-top: 80px; */
+    align-content: end;
+    margin-left: 80px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: #FF3300;
+    border-radius: .4rem;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px #00000094;
+}
+.pricing-btn:active { 
+    transform: scale(0.98); 
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24); 
+    
+} 
+
+#pricing-cont{
+    padding-left: 30px;
+    padding-right: 20px;
+    box-sizing: border-box;
+}
+@media only screen and (min-width:1500px){
+    .pricing_main{
+
+        display: grid;
+        grid-template-columns: auto auto auto;
+        justify-content: center;
+        grid-column-gap:100px;
+    }
+}

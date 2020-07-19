@@ -2,7 +2,7 @@
 import React, { Component } from 'react';
 import './nav.css';
 import logowhite from './LogoWhite.png';
-import bell from './notifications.png';
+import phone from './phone.png';
 import cart from './Cart.png';
 import history from '../../history';
 import {toast} from 'react-toastify';
@@ -25,10 +25,12 @@ function Nav () {
                 <img id="logo1" alt="ikhohub" onClick={()=>history.push('/')} src={logowhite}/>   
                 </div>
                 <div className="restcomp">
-                <img id="bell1" onClick={notify} alt="ikhohub" src={bell}/>   
+                <img id="phone1" onClick={notify} alt="ikhohub" src={phone}/>   
                 {/* <img id="cart1" onClick={()=>history.push('/cart')} alt="ikhohub" src={cart}/>    */}
-                <button type="button" id="login_btn1" onClick={()=>history.push('/login')}>Login</button>
-                <button type="button" id="signup_btn1" onClick={() => history.push('/signup')}>SignUp</button>
+                <button type="button" id="login_btn1" >+91-8248415788</button>
+                {/* onClick={()=>history.push('/login')} */}
+                <button type="button" id="signup_btn1" >Hire From Us</button>
+                {/* onClick={() => history.push('/signup')} */}
                 {/* <h2 id="nav_motivation">An investment in knowledge pays<br></br> the best interest.</h2> */}
                 </div>
             </div>

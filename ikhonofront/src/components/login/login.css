@@ -9,7 +9,7 @@
 
 
 .login_inputs {
-    border-bottom: 2px solid red;
+    border-bottom: 2px solid white;
     border-top: none;
     border-left: none;
     border-right: none;
@@ -19,9 +19,9 @@
     letter-spacing: 0px;
     color: #000000;
     margin-top: 45px;
-    margin-left: 35px;
+    margin-left: 30px;
     /* margin-bottom: -30px; */
-    width: 320px;
+    width: 300px;
     margin-bottom: -15px;
     height:50px;
 }
@@ -61,7 +61,7 @@
     
     color: white;
     text-decoration: none;
-    border-bottom: 2px solid orangered;
+    border-bottom: 2px solid red;
     opacity: 1;
     font-size: 30px;
     margin-left: 93px;
@@ -134,10 +134,10 @@
     font-size: 20px;
 }
 #loggingup {
-    margin-top: 100px;
+    margin-top: 200px;
     margin-left: 240px;
     padding-bottom: 10px;
-    width: 400px;
+    width: 500px;
     height: 480px;
     background:rgba(255,255,255,0.1);
     border-radius: 35px;
@@ -149,12 +149,12 @@
 .login_willsubmit {
     font-family:'Times New Roman', Times, serif;
     background-color: #ff4500;
-    padding-left: 20px;
+    padding-left: -20px;
     padding-right: 20px;
     padding-top: 6px;
     padding-bottom: 6px;
     font-size: 170%;
-    margin-left: 140px;
+    margin-left: 80px;
     margin-top: 28px;
     
     color: white;
@@ -217,7 +217,7 @@ and (max-width: 359px)
         background-image: url("iphone5.png");
         background-size: 100% 100%;
         background-repeat: no-repeat;
-        height: 568px;
+        height: 668px;
         background-position: center;  
         
     }
@@ -345,7 +345,7 @@ and (max-width: 359px)
                 background-image: url("iphone5.png");
                 background-size: 100% 100%;
                 background-repeat: no-repeat;
-                height: 568px;
+                height: 740px;
                 background-position: center;  
                 
             }
@@ -473,7 +473,7 @@ and (max-width: 359px)
         background-image: url("iphone5.png");
         background-size: 100% 100%;
         background-repeat: no-repeat;
-        height: 568px;
+        height: 812px;
         background-position: center;  
         
     }
@@ -601,7 +601,7 @@ and (max-width: 359px)
             background-image: url("iphone5.png");
             background-size: 100% 100%;
             background-repeat: no-repeat;
-            height: 568px;
+            height: 847px;
             background-position: center;  
             
         }
@@ -729,7 +729,7 @@ and (max-width: 359px)
             background-image: url("iphone5.png");
             background-size: 100% 100%;
             background-repeat: no-repeat;
-            height: 568px;
+            height: 896px;
             background-position: center;  
             
         }
@@ -856,7 +856,7 @@ and (max-width: 550px)
         background-image: url("iphone5.png");
         background-size: 100% 100%;
         background-repeat: no-repeat;
-        height: 568px;
+        height: 896px;
         background-position: center;  
         
     }
@@ -985,7 +985,7 @@ and (max-width: 599px)
         background-image: url("iphone5.png");
         background-size: 100% 100%;
         background-repeat: no-repeat;
-        height: 568px;
+        height: 896px;
         background-position: center;  
         
     }
@@ -1113,7 +1113,7 @@ and (max-width: 616px)
         background-image: url("iphone5.png");
         background-size: 100% 100%;
         background-repeat: no-repeat;
-        height: 568px;
+        height: 960px;
         background-position: center;  
         
     }
@@ -1240,7 +1240,7 @@ and (max-width: 700px)
         background-image: url("iphone5.png");
         background-size: 100% 100%;
         background-repeat: no-repeat;
-        height: 568px;
+        height: 960px;
         background-position: center;  
         
     }
@@ -1367,7 +1367,7 @@ and (max-width: 767px)
         background-image: url("iphone5.png");
         background-size: 100% 100%;
         background-repeat: no-repeat;
-        height: 568px;
+        height: 960px;
         background-position: center;  
         
     }
@@ -1493,7 +1493,7 @@ and (max-width: 767px)
         background-image: url("iphone5.png");
         background-size: 100% 100%;
         background-repeat: no-repeat;
-        height: 568px;
+        height: 1068px;
         background-position: center;  
         
     }
@@ -1620,7 +1620,7 @@ and (max-width: 767px)
         background-image: url("iphone5.png");
         background-size: 100% 100%;
         background-repeat: no-repeat;
-        height: 568px;
+        height: 1068px;
         background-position: center;  
         
     }
@@ -1748,7 +1748,7 @@ and (max-width: 767px)
             background-image: url("iphone5.png");
             background-size: 100% 100%;
             background-repeat: no-repeat;
-            height: 568px;
+            height: 1068px;
             background-position: center;  
             
         }
@@ -1875,7 +1875,7 @@ and (max-width: 767px)
                 background-image: url("iphone5.png");
                 background-size: 100% 100%;
                 background-repeat: no-repeat;
-                height: 568px;
+                height: 1068px;
                 background-position: center;  
                 
             }
@@ -2003,7 +2003,7 @@ and (max-width: 767px)
             background-image: url("iphone5.png");
             background-size: 100% 100%;
             background-repeat: no-repeat;
-            height: 568px;
+            height: 1366px;
             background-position: center;  
             
         }
@@ -2130,7 +2130,7 @@ and (max-width: 767px)
             background-image: url("iphone5.png");
             background-size: 100% 100%;
             background-repeat: no-repeat;
-            height: 568px;
+            height: 847px;
             background-position: center;  
             
         }
@@ -2257,7 +2257,7 @@ and (max-width: 767px)
             background-image: url("iphone5.png");
             background-size: 100% 100%;
             background-repeat: no-repeat;
-            height: 568px;
+            height: 800px;
             background-position: center;  
             
         }
@@ -2387,7 +2387,7 @@ and (max-width: 1359px)
         background-image: url("iphone5.png");
         background-size: 100% 100%;
         background-repeat: no-repeat;
-        height: 568px;
+        height: 768px;
         background-position: center;  
         
     }
@@ -2515,7 +2515,7 @@ and (max-width: 1359px)
         background-image: url("iphone5.png");
         background-size: 100% 100%;
         background-repeat: no-repeat;
-        height: 568px;
+        height: 768px;
         background-position: center;  
         
     }
@@ -2644,7 +2644,7 @@ and (max-width: 1520px)
         background-image: url("iphone5.png");
         background-size: 100% 100%;
         background-repeat: no-repeat;
-        height: 568px;
+        height: 900px;
         background-position: center;  
         
     }
@@ -2772,7 +2772,7 @@ and (max-width: 1599px)
         background-image: url("iphone5.png");
         background-size: 100% 100%;
         background-repeat: no-repeat;
-        height: 568px;
+        height: 864px;
         background-position: center;  
         
     }
@@ -2826,7 +2826,7 @@ and (max-width: 1599px)
     margin-top: 80px;
     margin-left: 150px;
     width: 220px;
-    height: 100px;
+    height: 400px ;
     padding-bottom: 5px;
     padding-top: 12px;
   
@@ -2900,7 +2900,7 @@ and (max-width: 1680px)
         background-image: url("iphone5.png");
         background-size: 100% 100%;
         background-repeat: no-repeat;
-        height: 568px;
+        height: 900px;
         background-position: center;  
         
     }
@@ -3027,7 +3027,7 @@ and (max-width: 1680px)
         background-image: url("iphone5.png");
         background-size: 100% 100%;
         background-repeat: no-repeat;
-        height: 568px;
+        height: 1050px;
         background-position: center;  
         
     }
@@ -3154,7 +3154,7 @@ and (max-width: 1840px)
         background-image: url("iphone5.png");
         background-size: 100% 100%;
         background-repeat: no-repeat;
-        height: 568px;
+        height: 1050px;
         background-position: center;  
         
     }
@@ -3281,7 +3281,7 @@ and (max-width: 1919px)
         background-image: url("iphone5.png");
         background-size: 100% 100%;
         background-repeat: no-repeat;
-        height: 568px;
+        height: 1080px;
         background-position: center;  
         
     }
@@ -3408,7 +3408,7 @@ and (max-width: 1919px)
         background-image: url("iphone5.png");
         background-size: 100% 100%;
         background-repeat: no-repeat;
-        height: 568px;
+        height: 1200px;
         background-position: center;  
         
     }
