@@ -62,7 +62,7 @@ const Projecttitle=({c4_1,c4_1a ,c4_1b ,c4_1c , c4_2 , c4_2a, c4_2b, c4_2c ,c4_3
                     <li>{c4_5a}</li>
                     <li>{c4_5b}</li>
                     <li>{c4_5c}</li>
-                    <li>{c4_5d}</li>
+                    
                 </ul>
             </div>
                   

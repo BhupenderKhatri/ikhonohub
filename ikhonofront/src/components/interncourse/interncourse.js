@@ -83,7 +83,7 @@ class Interncourse extends Component{
             c4_5a={machinelearning[i].c4_5a}
             c4_5b={machinelearning[i].c4_5b}
             c4_5c={machinelearning[i].c4_5c}
-            c4_5d={machinelearning[i].c4_5c}
+            
             c4_6 ={machinelearning[i].c4_6}
             c4_6a={machinelearning[i].c4_6a}
             c4_6b={machinelearning[i].c4_6b}
