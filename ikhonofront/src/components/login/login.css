@@ -149,12 +149,12 @@
 .login_willsubmit {
     font-family:'Times New Roman', Times, serif;
     background-color: #ff4500;
-    padding-left: -20px;
+    padding-left: 20px;
     padding-right: 20px;
     padding-top: 6px;
     padding-bottom: 6px;
     font-size: 170%;
-    margin-left: 80px;
+    margin-left: 50px;
     margin-top: 28px;
     
     color: white;
@@ -210,7 +210,7 @@
     text-decoration: none;
 }
 
- @media only screen and (min-width: 320px) 
+  @media only screen and (min-width: 320px) 
 and (max-width: 359px) 
   {
     .login{
@@ -226,7 +226,7 @@ and (max-width: 359px)
         width: 220px;
         height: 200px;
         margin-left: 40px;
-        margin-top: -439px;
+        margin-top: -470px;
     }
     #login_slogan_heading{
         
@@ -243,17 +243,16 @@ and (max-width: 359px)
 {
     margin-left: 65px;
     font-size: 18px;
-   
+   margin-left: 55px;
     
 }
 
-
+ 
 
 /* Signup button jo upr hai*/
-  .signupsignup1
+   .signupsignup1
 {    
     font-size: 18px;
-  
 }
 
 
@@ -268,13 +267,13 @@ and (max-width: 359px)
 #loggingup
 {
 
-    margin-top: 135px;
+    margin-top: 155px;
     margin-left: 35px;
     width: 220px;
-    height: 100px;
+    height: 200px;
     padding-bottom: 5px;
-    padding-top: 12px;
-  
+    padding-top: 18px;
+    
 }
 
 
@@ -293,8 +292,10 @@ and (max-width: 359px)
 .login_willsubmit{
    
     font-size: 18px;
-    margin-left: 85px;
-    margin-top: 18px;
+    margin-left: 75px;
+    margin-top: 28px;
+    padding-left: 20px;
+    padding-right: 20px;
   
 }
 #login_forgot_password{
@@ -354,7 +355,7 @@ and (max-width: 359px)
                 width: 250px;
                 height: 200px;
                 margin-left: 50px;
-                margin-top: -439px;
+                margin-top: -459px;
             }
             #login_slogan_heading{
                 
@@ -371,12 +372,12 @@ and (max-width: 359px)
         {
             margin-left: 65px;
             font-size: 18px;
-           
+            margin-left: 65px;
             
         }
         
         
-        
+         
         /* Signup button jo upr hai*/
          .signupsignup1
         {    
@@ -396,9 +397,9 @@ and (max-width: 359px)
         #loggingup
         {
         
-            margin-top: 135px;
+            margin-top: 185px;
             margin-left: 50px;
-            width: 220px;
+            width: 260px;
             height: 100px;
             padding-bottom: 5px;
             padding-top: 12px;
@@ -421,8 +422,8 @@ and (max-width: 359px)
         .login_willsubmit{
            
             font-size: 18px;
-            margin-left: 85px;
-            margin-top: 18px;
+            margin-left: 80px;
+            margin-top: 28px;
           
         }
         #login_forgot_password{
@@ -450,7 +451,7 @@ and (max-width: 359px)
         }
         
         .login_logos1{
-            margin-left: -130px;
+            margin-left: -138px;
             height: 23px;
             width: 23px;
             margin-top: -7px;
@@ -482,7 +483,7 @@ and (max-width: 359px)
         width: 250px;
         height: 200px;
         margin-left: 60px;
-        margin-top: -439px;
+        margin-top: -470px;
     }
     #login_slogan_heading{
         
@@ -498,7 +499,7 @@ and (max-width: 359px)
 {
     margin-left: 65px;
     font-size: 18px;
-   
+    margin-left: 70px;
     
 } 
 
@@ -523,9 +524,9 @@ and (max-width: 359px)
 #loggingup
 {
 
-    margin-top: 135px;
-    margin-left: 60px;
-    width: 220px;
+    margin-top: 205px;
+    margin-left: 50px;
+    width: 280px;
     height: 100px;
     padding-bottom: 5px;
     padding-top: 12px;
@@ -537,7 +538,7 @@ and (max-width: 359px)
 .login_inputs{
    
     margin-top: 20px;
-    margin-left: 25px;
+    margin-left: 33px;
     margin-bottom: -12px;
     width: 200px;
     height:31px;
@@ -548,8 +549,8 @@ and (max-width: 359px)
 .login_willsubmit{
    
     font-size: 18px;
-    margin-left: 85px;
-    margin-top: 18px;
+    margin-left: 88px;
+    margin-top: 28px;
   
 }
 #login_forgot_password{
@@ -569,7 +570,7 @@ and (max-width: 359px)
 }
 
 .login_logos{
-    margin-left: 50px;
+    margin-left: 70px;
     margin-bottom: 8px;
     height: 23px;
     width: 23px;
@@ -577,14 +578,14 @@ and (max-width: 359px)
 }
 
 .login_logos1{
-    margin-left: -130px;
+    margin-left: -148px;
     height: 23px;
     width: 23px;
     margin-top: -7px;
 }
 
 .login_logos2{
-    margin-left: -80px;
+    margin-left: -100px;
     margin-top: -7px;
     height: 23px;
     width: 23px;
@@ -610,7 +611,7 @@ and (max-width: 359px)
             width: 250px;
             height: 200px;
             margin-left: 70px;
-            margin-top: -439px;
+            margin-top: -470px;
         }
         #login_slogan_heading{
             
@@ -627,14 +628,14 @@ and (max-width: 359px)
     {
         margin-left: 65px;
         font-size: 18px;
-       
+       margin-left: 70px;
         
     }
     
     
-     
+      
     /* Signup button jo upr hai*/
-      .signupsignup1
+     .signupsignup1
     {    
         font-size: 18px;
       
@@ -652,9 +653,9 @@ and (max-width: 359px)
     #loggingup
     {
     
-        margin-top: 135px;
-        margin-left: 70px;
-        width: 220px;
+        margin-top: 205px;
+        margin-left: 60px;
+        width: 280px;
         height: 100px;
         padding-bottom: 5px;
         padding-top: 12px;
@@ -666,7 +667,7 @@ and (max-width: 359px)
     .login_inputs{
        
         margin-top: 20px;
-        margin-left: 25px;
+        margin-left: 35px;
         margin-bottom: -12px;
         width: 200px;
         height:31px;
@@ -677,8 +678,8 @@ and (max-width: 359px)
     .login_willsubmit{
        
         font-size: 18px;
-        margin-left: 85px;
-        margin-top: 18px;
+        margin-left: 90px;
+        margin-top: 28px;
       
     }
     #login_forgot_password{
@@ -698,7 +699,7 @@ and (max-width: 359px)
     }
     
     .login_logos{
-        margin-left: 50px;
+        margin-left: 70px;
         margin-bottom: 8px;
         height: 23px;
         width: 23px;
@@ -706,14 +707,14 @@ and (max-width: 359px)
     }
     
     .login_logos1{
-        margin-left: -130px;
+        margin-left: -148px;
         height: 23px;
         width: 23px;
         margin-top: -7px;
     }
     
     .login_logos2{
-        margin-left: -80px;
+        margin-left: -100px;
         margin-top: -7px;
         height: 23px;
         width: 23px;
@@ -738,7 +739,7 @@ and (max-width: 359px)
             width: 250px;
             height: 200px;
             margin-left: 80px;
-            margin-top: -439px;
+            margin-top: -470px;
         }
         #login_slogan_heading{
             
@@ -755,14 +756,14 @@ and (max-width: 359px)
     {
         margin-left: 65px;
         font-size: 18px;
-       
+       margin-left: 70px;
         
     }
     
-     
+      
     
     /* Signup button jo upr hai*/
-      .signupsignup1
+    .signupsignup1
     {    
         font-size: 18px;
       
@@ -780,9 +781,9 @@ and (max-width: 359px)
     #loggingup
     {
     
-        margin-top: 135px;
-        margin-left: 80px;
-        width: 220px;
+        margin-top: 215px;
+        margin-left: 65px;
+        width: 280px;
         height: 100px;
         padding-bottom: 5px;
         padding-top: 12px;
@@ -794,7 +795,7 @@ and (max-width: 359px)
     .login_inputs{
        
         margin-top: 20px;
-        margin-left: 25px;
+        margin-left: 35px;
         margin-bottom: -12px;
         width: 200px;
         height:31px;
@@ -805,8 +806,8 @@ and (max-width: 359px)
     .login_willsubmit{
        
         font-size: 18px;
-        margin-left: 85px;
-        margin-top: 18px;
+        margin-left: 90px;
+        margin-top: 28px;
       
     }
     #login_forgot_password{
@@ -826,7 +827,7 @@ and (max-width: 359px)
     }
     
     .login_logos{
-        margin-left: 50px;
+        margin-left: 70px;
         margin-bottom: 8px;
         height: 23px;
         width: 23px;
@@ -834,14 +835,14 @@ and (max-width: 359px)
     }
     
     .login_logos1{
-        margin-left: -130px;
+        margin-left: -148px;
         height: 23px;
         width: 23px;
         margin-top: -7px;
     }
     
     .login_logos2{
-        margin-left: -80px;
+        margin-left: -100px;
         margin-top: -7px;
         height: 23px;
         width: 23px;
@@ -865,7 +866,7 @@ and (max-width: 550px)
         width: 280px;
         height: 200px;
         margin-left: 100px;
-        margin-top: -439px;
+        margin-top: -480px;
     }
     #login_slogan_heading{
         
@@ -882,14 +883,14 @@ and (max-width: 550px)
 {
     margin-left: 65px;
     font-size: 18px;
-   
+    margin-left: 70px;
     
 } 
 
-
+ 
 
 /* Signup button jo upr hai*/
-  .signupsignup1
+.signupsignup1
 {    
     font-size: 18px;
   
@@ -907,10 +908,10 @@ and (max-width: 550px)
 #loggingup
 {
 
-    margin-top: 135px;
-    margin-left: 95px;
-    width: 220px;
-    height: 100px;
+    margin-top: 220px;
+    margin-left: 85px;
+    width: 280px;
+    height: 300px;
     padding-bottom: 5px;
     padding-top: 12px;
   
@@ -921,7 +922,7 @@ and (max-width: 550px)
 .login_inputs{
    
     margin-top: 20px;
-    margin-left: 25px;
+    margin-left: 35px;
     margin-bottom: -12px;
     width: 200px;
     height:31px;
@@ -932,8 +933,8 @@ and (max-width: 550px)
 .login_willsubmit{
    
     font-size: 18px;
-    margin-left: 85px;
-    margin-top: 18px;
+    margin-left: 90px;
+    margin-top: 28px;
   
 }
 #login_forgot_password{
@@ -953,7 +954,7 @@ and (max-width: 550px)
 }
 
 .login_logos{
-    margin-left: 50px;
+    margin-left: 70px;
     margin-bottom: 8px;
     height: 23px;
     width: 23px;
@@ -961,14 +962,14 @@ and (max-width: 550px)
 }
 
 .login_logos1{
-    margin-left: -130px;
+    margin-left: -148px;
     height: 23px;
     width: 23px;
     margin-top: -7px;
 }
 
 .login_logos2{
-    margin-left: -80px;
+    margin-left: -100px;
     margin-top: -7px;
     height: 23px;
     width: 23px;
@@ -994,7 +995,7 @@ and (max-width: 599px)
         width: 300px;
         height: 200px;
         margin-left: 150px;
-        margin-top: -439px;
+        margin-top: -520px;
     }
     #login_slogan_heading{
         
@@ -1011,10 +1012,10 @@ and (max-width: 599px)
 {
     margin-left: 65px;
     font-size: 18px;
-   
+    margin-left: 90px;
     
 } 
-
+ 
 
 
 /* Signup button jo upr hai*/
@@ -1036,10 +1037,10 @@ and (max-width: 599px)
 #loggingup
 {
 
-    margin-top: 135px;
-    margin-left: 165px;
-    width: 220px;
-    height: 100px;
+    margin-top: 215px;
+    margin-left: 120px;
+    width: 320px;
+    height: 350px;
     padding-bottom: 5px;
     padding-top: 12px;
   
@@ -1050,7 +1051,7 @@ and (max-width: 599px)
 .login_inputs{
    
     margin-top: 20px;
-    margin-left: 25px;
+    margin-left: 55px;
     margin-bottom: -12px;
     width: 200px;
     height:31px;
@@ -1061,8 +1062,8 @@ and (max-width: 599px)
 .login_willsubmit{
    
     font-size: 18px;
-    margin-left: 85px;
-    margin-top: 18px;
+    margin-left: 110px;
+    margin-top: 28px;
   
 }
 #login_forgot_password{
@@ -1082,7 +1083,7 @@ and (max-width: 599px)
 }
 
 .login_logos{
-    margin-left: 50px;
+    margin-left: 90px;
     margin-bottom: 8px;
     height: 23px;
     width: 23px;
@@ -1090,14 +1091,14 @@ and (max-width: 599px)
 }
 
 .login_logos1{
-    margin-left: -130px;
+    margin-left: -167px;
     height: 23px;
     width: 23px;
     margin-top: -7px;
 }
 
 .login_logos2{
-    margin-left: -80px;
+    margin-left: -120px;
     margin-top: -7px;
     height: 23px;
     width: 23px;
@@ -1139,14 +1140,14 @@ and (max-width: 616px)
 {
     margin-left: 65px;
     font-size: 18px;
-   
+    margin-left: 60px;
     
 }
  
-
+ 
 
 /* Signup button jo upr hai*/
-  .signupsignup1
+ .signupsignup1
 {    
     font-size: 18px;
   
@@ -1164,9 +1165,9 @@ and (max-width: 616px)
 #loggingup
 {
 
-    margin-top: 80px;
+    margin-top: 150px;
     margin-left: 35px;
-    width: 220px;
+    width: 250px;
     height: 100px;
     padding-bottom: 5px;
     padding-top: 12px;
@@ -1189,8 +1190,8 @@ and (max-width: 616px)
 .login_willsubmit{
    
     font-size: 18px;
-    margin-left: 85px;
-    margin-top: 18px;
+    margin-left: 80px;
+    margin-top: 28px;
   
 }
 #login_forgot_password{
@@ -1264,13 +1265,13 @@ and (max-width: 700px)
 
     .loginsignup1
 {
-    margin-left: 65px;
+    margin-left: 70px;
     font-size: 18px;
    
     
 }
 
-
+ 
 
 /* Signup button jo upr hai*/
  .signupsignup1
@@ -1291,10 +1292,10 @@ and (max-width: 700px)
 #loggingup
 {
 
-    margin-top: 80px;
-    margin-left: 40px;
-    width: 220px;
-    height: 100px;
+    margin-top: 150px;
+    margin-left: 25px;
+    width: 280px;
+    height: 350px;
     padding-bottom: 5px;
     padding-top: 12px;
   
@@ -1305,7 +1306,7 @@ and (max-width: 700px)
 .login_inputs{
    
     margin-top: 20px;
-    margin-left: 25px;
+    margin-left: 35spx;
     margin-bottom: -12px;
     width: 200px;
     height:31px;
@@ -1316,8 +1317,8 @@ and (max-width: 700px)
 .login_willsubmit{
    
     font-size: 18px;
-    margin-left: 85px;
-    margin-top: 18px;
+    margin-left: 88px;
+    margin-top: 28px;
   
 }
 #login_forgot_password{
@@ -1337,7 +1338,7 @@ and (max-width: 700px)
 }
 
 .login_logos{
-    margin-left: 50px;
+    margin-left: 70px;
     margin-bottom: 8px;
     height: 23px;
     width: 23px;
@@ -1345,14 +1346,14 @@ and (max-width: 700px)
 }
 
 .login_logos1{
-    margin-left: -130px;
+    margin-left: -148px;
     height: 23px;
     width: 23px;
     margin-top: -7px;
 }
 
 .login_logos2{
-    margin-left: -80px;
+    margin-left: -100px;
     margin-top: -7px;
     height: 23px;
     width: 23px;
@@ -1391,16 +1392,16 @@ and (max-width: 767px)
 
     .loginsignup1
 {
-    margin-left: 65px;
+    margin-left: 70px;
     font-size: 18px;
    
     
-} 
+}  
 
 
 
 /* Signup button jo upr hai*/
- .signupsignup1
+  .signupsignup1
 {    
     font-size: 18px;
   
@@ -1418,10 +1419,10 @@ and (max-width: 767px)
 #loggingup
 {
 
-    margin-top: 80px;
+    margin-top: 150px;
     margin-left: 45px;
-    width: 220px;
-    height: 100px;
+    width: 280px;
+    height: 350px;
     padding-bottom: 5px;
     padding-top: 12px;
   
@@ -1432,7 +1433,7 @@ and (max-width: 767px)
 .login_inputs{
    
     margin-top: 20px;
-    margin-left: 25px;
+    margin-left: 35px;
     margin-bottom: -12px;
     width: 200px;
     height:31px;
@@ -1444,7 +1445,7 @@ and (max-width: 767px)
    
     font-size: 18px;
     margin-left: 85px;
-    margin-top: 18px;
+    margin-top: 28px;
   
 }
 #login_forgot_password{
@@ -1464,7 +1465,7 @@ and (max-width: 767px)
 }
 
 .login_logos{
-    margin-left: 50px;
+    margin-left: 70px;
     margin-bottom: 8px;
     height: 23px;
     width: 23px;
@@ -1472,14 +1473,14 @@ and (max-width: 767px)
 }
 
 .login_logos1{
-    margin-left: -130px;
+    margin-left: -148px;
     height: 23px;
     width: 23px;
     margin-top: -7px;
 }
 
 .login_logos2{
-    margin-left: -80px;
+    margin-left: -100px;
     margin-top: -7px;
     height: 23px;
     width: 23px;
@@ -1517,16 +1518,16 @@ and (max-width: 767px)
 
     .loginsignup1
 {
-    margin-left: 65px;
+    margin-left: 75px;
     font-size: 18px;
    
     
 }
- 
+  
 
 
 /* Signup button jo upr hai*/
-  .signupsignup1
+   .signupsignup1
 {    
     font-size: 18px;
   
@@ -1544,10 +1545,10 @@ and (max-width: 767px)
 #loggingup
 {
 
-    margin-top: 80px;
+    margin-top: 150px;
     margin-left: 55px;
-    width: 220px;
-    height: 100px;
+    width: 300px;
+    height: 350px;
     padding-bottom: 5px;
     padding-top: 12px;
   
@@ -1558,7 +1559,7 @@ and (max-width: 767px)
 .login_inputs{
    
     margin-top: 20px;
-    margin-left: 25px;
+    margin-left: 40px;
     margin-bottom: -12px;
     width: 200px;
     height:31px;
@@ -1569,8 +1570,8 @@ and (max-width: 767px)
 .login_willsubmit{
    
     font-size: 18px;
-    margin-left: 85px;
-    margin-top: 18px;
+    margin-left: 90px;
+    margin-top: 28px;
   
 }
 #login_forgot_password{
@@ -1590,7 +1591,7 @@ and (max-width: 767px)
 }
 
 .login_logos{
-    margin-left: 50px;
+    margin-left: 70px;
     margin-bottom: 8px;
     height: 23px;
     width: 23px;
@@ -1598,14 +1599,14 @@ and (max-width: 767px)
 }
 
 .login_logos1{
-    margin-left: -130px;
+    margin-left: -158px;
     height: 23px;
     width: 23px;
     margin-top: -7px;
 }
 
 .login_logos2{
-    margin-left: -80px;
+    margin-left: -100px;
     margin-top: -7px;
     height: 23px;
     width: 23px;
@@ -1629,33 +1630,33 @@ and (max-width: 767px)
         width: 350px;
         height: 200px;
         margin-left: 390px;
-        margin-top: -250px;
+        margin-top: -350px;
     }
     #login_slogan_heading{
         
-        font-size: 14px;
+        font-size: 18px;
         margin-top: -20px;
     }
     #login_slogan_para{
       margin-top: -5px;
-        font-size: 12px;
+        font-size: 16px;
     
     }
 
     .loginsignup1
 {
-    margin-left: 65px;
-    font-size: 18px;
+    margin-left: 75px;
+    font-size: 22px;
    
     
 }
  
-
+ 
 
 /* Signup button jo upr hai*/
-  .signupsignup1
+   .signupsignup1
 {    
-    font-size: 18px;
+    font-size: 20px;
   
 }
 
@@ -1671,10 +1672,10 @@ and (max-width: 767px)
 #loggingup
 {
 
-    margin-top: 80px;
-    margin-left: 65px;
-    width: 220px;
-    height: 100px;
+    margin-top: 110px;
+    margin-left: 50px;
+    width: 300px;
+    height: 400px;
     padding-bottom: 5px;
     padding-top: 12px;
   
@@ -1685,24 +1686,24 @@ and (max-width: 767px)
 .login_inputs{
    
     margin-top: 20px;
-    margin-left: 25px;
+    margin-left: 40px;
     margin-bottom: -12px;
     width: 200px;
     height:31px;
-    font-size: 13px;
+    font-size: 15px;
    
 }
 
 .login_willsubmit{
    
-    font-size: 18px;
-    margin-left: 85px;
-    margin-top: 18px;
+    font-size: 20px;
+    margin-left: 95px;
+    margin-top: 28px;
   
 }
 #login_forgot_password{
     
-    font-size: 15px;
+    font-size: 18px;
    
     
 }
@@ -1711,31 +1712,31 @@ and (max-width: 767px)
    
     margin-top: -3px;
     margin-bottom: 8px;
-    font-size: 15px;
+    font-size: 18px;
   
     
 }
 
 .login_logos{
-    margin-left: 50px;
+    margin-left: 70px;
     margin-bottom: 8px;
-    height: 23px;
-    width: 23px;
+    height: 28px;
+    width: 28px;
     
 }
 
 .login_logos1{
-    margin-left: -130px;
-    height: 23px;
-    width: 23px;
+    margin-left: -158px;
+    height: 28px;
+    width: 28px;
     margin-top: -7px;
 }
 
 .login_logos2{
-    margin-left: -80px;
+    margin-left: -100px;
     margin-top: -7px;
-    height: 23px;
-    width: 23px;
+    height: 28px;
+    width: 28px;
 }
 
   }
@@ -1756,34 +1757,34 @@ and (max-width: 767px)
         #login_slogan{
             width: 350px;
             height: 200px;
-            margin-left: 400px;
-            margin-top: -250px;
+            margin-left: 430px;
+            margin-top: -350px;
         }
         #login_slogan_heading{
             
-            font-size: 14px;
+            font-size: 20px;
             margin-top: -20px;
         }
         #login_slogan_para{
           margin-top: -5px;
-            font-size: 12px;
+            font-size: 18px;
         
         }
     
         .loginsignup1
     {
-        margin-left: 65px;
-        font-size: 18px;
+        margin-left: 75px;
+        font-size: 24px;
        
         
     }
     
     
-     */
-    /* Signup button jo upr hai*/
-      .signupsignup1
+     
+    /*Signup button jo upr hai */
+       .signupsignup1
     {    
-        font-size: 18px;
+        font-size: 21px;
       
     }
     
@@ -1799,10 +1800,10 @@ and (max-width: 767px)
     #loggingup
     {
     
-        margin-top: 80px;
+        margin-top: 120px;
         margin-left: 65px;
-        width: 220px;
-        height: 100px;
+        width: 300px;
+        height: 400px;
         padding-bottom: 5px;
         padding-top: 12px;
       
@@ -1813,24 +1814,24 @@ and (max-width: 767px)
     .login_inputs{
        
         margin-top: 20px;
-        margin-left: 25px;
+        margin-left: 45px;
         margin-bottom: -12px;
         width: 200px;
         height:31px;
-        font-size: 13px;
+        font-size: 15px;
        
     }
     
     .login_willsubmit{
        
-        font-size: 18px;
-        margin-left: 85px;
-        margin-top: 18px;
+        font-size: 20px;
+        margin-left: 95px;
+        margin-top: 28px;
       
     }
     #login_forgot_password{
         
-        font-size: 15px;
+        font-size: 20px;
        
         
     }
@@ -1839,31 +1840,31 @@ and (max-width: 767px)
        
         margin-top: -3px;
         margin-bottom: 8px;
-        font-size: 15px;
+        font-size: 20px;
       
         
     }
     
     .login_logos{
-        margin-left: 50px;
+        margin-left: 70px;
         margin-bottom: 8px;
-        height: 23px;
-        width: 23px;
+        height: 30px;
+        width: 30px;
         
     }
     
     .login_logos1{
-        margin-left: -130px;
-        height: 23px;
-        width: 23px;
+        margin-left: -158px;
+        height: 30px;
+        width: 30px;
         margin-top: -7px;
     }
     
     .login_logos2{
-        margin-left: -80px;
+        margin-left: -100px;
         margin-top: -7px;
-        height: 23px;
-        width: 23px;
+        height: 30px;
+        width: 30px;
     }
     
       }
@@ -1883,34 +1884,34 @@ and (max-width: 767px)
             #login_slogan{
                 width: 350px;
                 height: 200px;
-                margin-left: 450px;
-                margin-top: -250px;
+                margin-left: 500px;
+                margin-top: -350px;
             }
             #login_slogan_heading{
                 
-                font-size: 14px;
+                font-size: 22px;
                 margin-top: -20px;
             }
             #login_slogan_para{
               margin-top: -5px;
-                font-size: 12px;
+                font-size: 20px;
             
             }
         
             .loginsignup1
         {
-            margin-left: 65px;
-            font-size: 18px;
+            margin-left: 85px;
+            font-size: 24px;
            
             
         }
         
         
-        
+         
         /* Signup button jo upr hai*/
-        .signupsignup1
+         .signupsignup1
         {    
-            font-size: 18px;
+            font-size: 22px;
           
         }
         
@@ -1926,10 +1927,10 @@ and (max-width: 767px)
         #loggingup
         {
         
-            margin-top: 80px;
-            margin-left: 95px;
-            width: 220px;
-            height: 100px;
+            margin-top: 120px;
+            margin-left: 70px;
+            width: 330px;
+            height: 400px;
             padding-bottom: 5px;
             padding-top: 12px;
           
@@ -1940,24 +1941,24 @@ and (max-width: 767px)
         .login_inputs{
            
             margin-top: 20px;
-            margin-left: 25px;
+            margin-left: 55px;
             margin-bottom: -12px;
             width: 200px;
             height:31px;
-            font-size: 13px;
+            font-size: 20px;
            
         }
         
         .login_willsubmit{
            
-            font-size: 18px;
-            margin-left: 85px;
-            margin-top: 18px;
+            font-size: 22px;
+            margin-left: 105px;
+            margin-top: 28px;
           
         }
         #login_forgot_password{
             
-            font-size: 15px;
+            font-size: 22px;
            
             
         }
@@ -1966,31 +1967,31 @@ and (max-width: 767px)
            
             margin-top: -3px;
             margin-bottom: 8px;
-            font-size: 15px;
+            font-size: 22px;
           
             
         }
         
         .login_logos{
-            margin-left: 50px;
+            margin-left: 70px;
             margin-bottom: 8px;
-            height: 23px;
-            width: 23px;
+            height: 35px;
+            width: 35px;
             
         }
         
         .login_logos1{
-            margin-left: -130px;
-            height: 23px;
-            width: 23px;
+            margin-left: -178px;
+            height: 35px;
+            width: 35px;
             margin-top: -7px;
         }
         
         .login_logos2{
-            margin-left: -80px;
+            margin-left: -110px;
             margin-top: -7px;
-            height: 23px;
-            width: 23px;
+            height: 35px;
+            width: 35px;
         }
         
           }
@@ -2011,34 +2012,34 @@ and (max-width: 767px)
         #login_slogan{
             width: 450px;
             height: 200px;
-            margin-left: 450px;
-            margin-top: -250px;
+            margin-left: 500px;
+            margin-top: -350px;
         }
         #login_slogan_heading{
             
-            font-size: 14px;
+            font-size: 24px;
             margin-top: -20px;
         }
         #login_slogan_para{
           margin-top: -5px;
-            font-size: 12px;
+            font-size: 22px;
         
         }
     
         .loginsignup1
     {
-        margin-left: 65px;
-        font-size: 18px;
+        margin-left: 85px;
+        font-size: 24px;
        
         
     }
-    
-     */
+     
+     
     
     /* Signup button jo upr hai*/
-      .signupsignup1
+       .signupsignup1
     {    
-        font-size: 18px;
+        font-size: 22px;
       
     }
     
@@ -2056,8 +2057,8 @@ and (max-width: 767px)
     
         margin-top: 80px;
         margin-left: 95px;
-        width: 220px;
-        height: 100px;
+        width: 350px;
+        height: 450px;
         padding-bottom: 5px;
         padding-top: 12px;
       
@@ -2068,24 +2069,24 @@ and (max-width: 767px)
     .login_inputs{
        
         margin-top: 20px;
-        margin-left: 25px;
+        margin-left: 60px;
         margin-bottom: -12px;
         width: 200px;
         height:31px;
-        font-size: 13px;
+        font-size: 20px;
        
     }
     
     .login_willsubmit{
        
         font-size: 18px;
-        margin-left: 85px;
-        margin-top: 18px;
+        margin-left: 115px;
+        margin-top: 24px;
       
     }
     #login_forgot_password{
         
-        font-size: 15px;
+        font-size: 22px;
        
         
     }
@@ -2094,31 +2095,31 @@ and (max-width: 767px)
        
         margin-top: -3px;
         margin-bottom: 8px;
-        font-size: 15px;
+        font-size: 22px;
       
         
     }
     
     .login_logos{
-        margin-left: 50px;
+        margin-left: 70px;
         margin-bottom: 8px;
-        height: 23px;
-        width: 23px;
+        height: 35px;
+        width: 35px;
         
     }
     
     .login_logos1{
-        margin-left: -130px;
-        height: 23px;
-        width: 23px;
+        margin-left: -188px;
+        height: 35px;
+        width: 35px;
         margin-top: -7px;
     }
     
     .login_logos2{
-        margin-left: -80px;
+        margin-left: -110px;
         margin-top: -7px;
-        height: 23px;
-        width: 23px;
+        height: 35px;
+        width: 35px;
     }
     
       }
@@ -2138,34 +2139,34 @@ and (max-width: 767px)
         #login_slogan{
             width: 500px;
             height: 200px;
-            margin-left: 450px;
-            margin-top: -250px;
+            margin-left: 550px;
+            margin-top: -450px;
         }
         #login_slogan_heading{
             
-            font-size: 14px;
+            font-size: 26px;
             margin-top: -20px;
         }
         #login_slogan_para{
           margin-top: -5px;
-            font-size: 12px;
+            font-size: 24px;
         
         }
     
         .loginsignup1
     {
-        margin-left: 65px;
-        font-size: 18px;
+        margin-left: 100px;
+        font-size: 28px;
        
         
     }
     
     
-     
+      
     /* Signup button jo upr hai*/
-      .signupsignup1
+       .signupsignup1
     {    
-        font-size: 18px;
+        font-size: 25px;
       
     }
     
@@ -2181,10 +2182,10 @@ and (max-width: 767px)
     #loggingup
     {
     
-        margin-top: 80px;
+        margin-top: 100px;
         margin-left: 85px;
-        width: 220px;
-        height: 100px;
+        width: 380px;
+        height: 500px;
         padding-bottom: 5px;
         padding-top: 12px;
       
@@ -2195,24 +2196,24 @@ and (max-width: 767px)
     .login_inputs{
        
         margin-top: 20px;
-        margin-left: 25px;
+        margin-left: 35px;
         margin-bottom: -12px;
-        width: 200px;
+        width: 300px;
         height:31px;
-        font-size: 13px;
+        font-size: 20px;
        
     }
     
     .login_willsubmit{
        
-        font-size: 18px;
-        margin-left: 85px;
-        margin-top: 18px;
+        font-size: 24px;
+        margin-left: 125px;
+        margin-top: 28px;
       
     }
     #login_forgot_password{
         
-        font-size: 15px;
+        font-size: 22px;
        
         
     }
@@ -2221,31 +2222,31 @@ and (max-width: 767px)
        
         margin-top: -3px;
         margin-bottom: 8px;
-        font-size: 15px;
+        font-size: 22px;
       
         
     }
     
     .login_logos{
-        margin-left: 50px;
+        margin-left: 90px;
         margin-bottom: 8px;
-        height: 23px;
-        width: 23px;
+        height: 40px;
+        width: 40px;
         
     }
     
     .login_logos1{
-        margin-left: -130px;
-        height: 23px;
-        width: 23px;
+        margin-left: -208px;
+        height: 40px;
+        width: 40px;
         margin-top: -7px;
     }
     
     .login_logos2{
-        margin-left: -80px;
+        margin-left: -140px;
         margin-top: -7px;
-        height: 23px;
-        width: 23px;
+        height: 40px;
+        width: 40px;
     }
     
       }
@@ -2263,36 +2264,35 @@ and (max-width: 767px)
         }
     
         #login_slogan{
-            width: 450px;
+            width: 500px;
             height: 200px;
-            margin-left: 530px;
-            margin-top: -250px;
+            margin-left: 570px;
+            margin-top: -400px;
         }
         #login_slogan_heading{
             
-            font-size: 14px;
+            font-size: 28px;
             margin-top: -20px;
         }
         #login_slogan_para{
           margin-top: -5px;
-            font-size: 12px;
+            font-size: 26px;
         
         }
     
         .loginsignup1
     {
-        margin-left: 65px;
-        font-size: 18px;
-       
+        margin-left: 100px;
+        font-size: 26px;
         
     }
     
-    
+     
      
     /* Signup button jo upr hai*/
-      .signupsignup1
+       .signupsignup1
     {    
-        font-size: 18px;
+        font-size: 24px;
       
     }
     
@@ -2308,10 +2308,10 @@ and (max-width: 767px)
     #loggingup
     {
     
-        margin-top: 80px;
-        margin-left: 115px;
-        width: 220px;
-        height: 100px;
+        margin-top: 120px;
+        margin-left: 85px;
+        width: 350px;
+        height: 450px;
         padding-bottom: 5px;
         padding-top: 12px;
       
@@ -2322,24 +2322,24 @@ and (max-width: 767px)
     .login_inputs{
        
         margin-top: 20px;
-        margin-left: 25px;
+        margin-left: 35px;
         margin-bottom: -12px;
-        width: 200px;
+        width: 270px;
         height:31px;
-        font-size: 13px;
+        font-size: 22px;
        
     }
     
     .login_willsubmit{
        
-        font-size: 18px;
-        margin-left: 85px;
-        margin-top: 18px;
+        font-size: 24px;
+        margin-left: 115px;
+        margin-top: 28px;
       
     }
     #login_forgot_password{
         
-        font-size: 15px;
+        font-size: 22px;
        
         
     }
@@ -2348,31 +2348,31 @@ and (max-width: 767px)
        
         margin-top: -3px;
         margin-bottom: 8px;
-        font-size: 15px;
+        font-size: 22px;
       
         
     }
     
     .login_logos{
-        margin-left: 50px;
+        margin-left: 70px;
         margin-bottom: 8px;
-        height: 23px;
-        width: 23px;
+        height: 40px;
+        width: 40px;
         
     }
     
     .login_logos1{
-        margin-left: -130px;
-        height: 23px;
-        width: 23px;
+        margin-left: -189px;
+        height: 40px;
+        width: 40px;
         margin-top: -7px;
     }
     
     .login_logos2{
-        margin-left: -80px;
+        margin-left: -120px;
         margin-top: -7px;
-        height: 23px;
-        width: 23px;
+        height: 40px;
+        width: 40px;
     }
     
       }
@@ -2393,36 +2393,36 @@ and (max-width: 1359px)
     }
 
     #login_slogan{
-        width: 450px;
+        width: 550px;
         height: 200px;
         margin-left: 620px;
-        margin-top: -250px;
+        margin-top: -420px;
     }
     #login_slogan_heading{
         
-        font-size: 14px;
+        font-size: 30px;
         margin-top: -20px;
     }
     #login_slogan_para{
       margin-top: -5px;
-        font-size: 12px;
+        font-size: 28px;
     
     }
 
     .loginsignup1
 {
-    margin-left: 65px;
-    font-size: 18px;
+    margin-left: 105px;
+    font-size: 30px;
    
     
 } 
-
+ 
 
 
 /* Signup button jo upr hai*/
  .signupsignup1
 {    
-    font-size: 18px;
+    font-size: 26px;
   
 }
 
@@ -2439,9 +2439,9 @@ and (max-width: 1359px)
 {
 
     margin-top: 80px;
-    margin-left: 150px;
-    width: 220px;
-    height: 100px;
+    margin-left: 100px;
+    width: 400px;
+    height: 500px;
     padding-bottom: 5px;
     padding-top: 12px;
   
@@ -2451,25 +2451,25 @@ and (max-width: 1359px)
 
 .login_inputs{
    
-    margin-top: 20px;
-    margin-left: 25px;
+    margin-top: 50px;
+    margin-left: 45px;
     margin-bottom: -12px;
-    width: 200px;
+    width: 300px;
     height:31px;
-    font-size: 13px;
+    font-size: 25px;
    
 }
 
 .login_willsubmit{
    
-    font-size: 18px;
-    margin-left: 85px;
-    margin-top: 18px;
+    font-size: 28px;
+    margin-left: 135px;
+    margin-top: 38px;
   
 }
 #login_forgot_password{
     
-    font-size: 15px;
+    font-size: 28px;
    
     
 }
@@ -2478,31 +2478,31 @@ and (max-width: 1359px)
    
     margin-top: -3px;
     margin-bottom: 8px;
-    font-size: 15px;
+    font-size: 28px;
   
     
 }
 
 .login_logos{
-    margin-left: 50px;
+    margin-left: 100px;
     margin-bottom: 8px;
-    height: 23px;
-    width: 23px;
+    height: 44px;
+    width: 44px;
     
 }
 
 .login_logos1{
-    margin-left: -130px;
-    height: 23px;
-    width: 23px;
+    margin-left: -220px;
+    height: 44px;
+    width: 44px;
     margin-top: -7px;
 }
 
 .login_logos2{
-    margin-left: -80px;
+    margin-left: -150px;
     margin-top: -7px;
-    height: 23px;
-    width: 23px;
+    height: 44px;
+    width: 44px;
 }
 
   }
@@ -2521,36 +2521,36 @@ and (max-width: 1359px)
     }
 
     #login_slogan{
-        width: 500px;
+        width: 550px;
         height: 200px;
-        margin-left: 630px;
-        margin-top: -250px;
+        margin-left: 700px;
+        margin-top: -450px;
     }
     #login_slogan_heading{
         
-        font-size: 18px;
+        font-size: 32px;
         margin-top: -20px;
     }
     #login_slogan_para{
       margin-top: -5px;
-        font-size: 16px;
+        font-size: 30px;
     
     }
 
     .loginsignup1
 {
-    margin-left: 65px;
-    font-size: 18px;
+    margin-left: 95px;
+    font-size: 34px;
    
     
 } 
 
-
+ 
 
 /* Signup button jo upr hai*/
-  .signupsignup1
+ .signupsignup1
 {    
-    font-size: 18px;
+    font-size: 32px;
   
 }
 
@@ -2566,10 +2566,10 @@ and (max-width: 1359px)
 #loggingup
 {
 
-    margin-top: 80px;
-    margin-left: 150px;
-    width: 220px;
-    height: 100px;
+    margin-top: 60px;
+    margin-left: 100px;
+    width: 400px;
+    height: 520px;
     padding-bottom: 5px;
     padding-top: 12px;
   
@@ -2579,25 +2579,25 @@ and (max-width: 1359px)
 
 .login_inputs{
    
-    margin-top: 20px;
-    margin-left: 25px;
+    margin-top: 50px;
+    margin-left: 45px;
     margin-bottom: -12px;
-    width: 200px;
+    width: 300px;
     height:31px;
-    font-size: 13px;
+    font-size: 28px;
    
 }
 
 .login_willsubmit{
    
-    font-size: 18px;
-    margin-left: 85px;
-    margin-top: 18px;
+    font-size: 30px;
+    margin-left: 135px;
+    margin-top: 48px;
   
 }
 #login_forgot_password{
     
-    font-size: 15px;
+    font-size: 30px;
    
     
 }
@@ -2606,31 +2606,31 @@ and (max-width: 1359px)
    
     margin-top: -3px;
     margin-bottom: 8px;
-    font-size: 15px;
+    font-size: 30px;
   
     
 }
 
 .login_logos{
-    margin-left: 50px;
+    margin-left: 100px;
     margin-bottom: 8px;
-    height: 23px;
-    width: 23px;
+    height: 45px;
+    width: 45px;
     
 }
 
 .login_logos1{
-    margin-left: -130px;
-    height: 23px;
-    width: 23px;
+    margin-left: -220px;
+    height: 45px;
+    width: 45px;
     margin-top: -7px;
 }
 
 .login_logos2{
-    margin-left: -80px;
+    margin-left: -150px;
     margin-top: -7px;
-    height: 23px;
-    width: 23px;
+    height: 45px;
+    width: 45px;
 }
 
   }
@@ -2650,36 +2650,36 @@ and (max-width: 1520px)
     }
 
     #login_slogan{
-        width: 450px;
+        width: 600px;
         height: 200px;
-        margin-left: 620px;
-        margin-top: -250px;
+        margin-left: 700px;
+        margin-top: -450px;
     }
     #login_slogan_heading{
         
-        font-size: 20px;
+        font-size: 35px;
         margin-top: -20px;
     }
     #login_slogan_para{
       margin-top: -5px;
-        font-size: 18px;
+        font-size: 32px;
     
     }
 
     .loginsignup1
 {
-    margin-left: 65px;
-    font-size: 18px;
+    margin-left: 95px;
+    font-size: 34px;
    
     
-}
+} 
+
  
 
-
 /* Signup button jo upr hai*/
-  .signupsignup1
+ .signupsignup1
 {    
-    font-size: 18px;
+    font-size: 32px;
   
 }
 
@@ -2695,10 +2695,10 @@ and (max-width: 1520px)
 #loggingup
 {
 
-    margin-top: 80px;
-    margin-left: 115px;
-    width: 220px;
-    height: 100px;
+    margin-top: 120px;
+    margin-left: 100px;
+    width: 400px;
+    height: 520px;
     padding-bottom: 5px;
     padding-top: 12px;
   
@@ -2708,25 +2708,25 @@ and (max-width: 1520px)
 
 .login_inputs{
    
-    margin-top: 20px;
-    margin-left: 25px;
+    margin-top: 50px;
+    margin-left: 45px;
     margin-bottom: -12px;
-    width: 200px;
+    width: 300px;
     height:31px;
-    font-size: 13px;
+    font-size: 28px;
    
 }
 
 .login_willsubmit{
    
-    font-size: 18px;
-    margin-left: 85px;
-    margin-top: 18px;
+    font-size: 30px;
+    margin-left: 135px;
+    margin-top: 48px;
   
 }
 #login_forgot_password{
     
-    font-size: 15px;
+    font-size: 30px;
    
     
 }
@@ -2735,34 +2735,35 @@ and (max-width: 1520px)
    
     margin-top: -3px;
     margin-bottom: 8px;
-    font-size: 15px;
+    font-size: 30px;
   
     
 }
 
 .login_logos{
-    margin-left: 50px;
+    margin-left: 100px;
     margin-bottom: 8px;
-    height: 23px;
-    width: 23px;
+    height: 45px;
+    width: 45px;
     
 }
 
 .login_logos1{
-    margin-left: -130px;
-    height: 23px;
-    width: 23px;
+    margin-left: -220px;
+    height: 45px;
+    width: 45px;
     margin-top: -7px;
 }
 
 .login_logos2{
-    margin-left: -80px;
+    margin-left: -150px;
     margin-top: -7px;
-    height: 23px;
-    width: 23px;
+    height: 45px;
+    width: 45px;
 }
 
   }
+
 
   @media only screen and (min-width: 1521px) 
 and (max-width: 1599px)
@@ -2778,36 +2779,36 @@ and (max-width: 1599px)
     }
 
     #login_slogan{
-        width: 450px;
+        width: 650px;
         height: 200px;
-        margin-left: 690px;
-        margin-top: -250px;
+        margin-left: 750px;
+        margin-top: -530px;
     }
     #login_slogan_heading{
         
-        font-size: 24px;
+        font-size: 38px;
         margin-top: -20px;
     }
     #login_slogan_para{
       margin-top: -5px;
-        font-size: 22px;
+        font-size: 35px;
     
     }
 
     .loginsignup1
 {
-    margin-left: 65px;
-    font-size: 18px;
+    margin-left: 105px;
+    font-size: 38px;
    
     
-}
+} 
+
  
 
-
 /* Signup button jo upr hai*/
-  .signupsignup1
+ .signupsignup1
 {    
-    font-size: 18px;
+    font-size: 32px;
   
 }
 
@@ -2823,10 +2824,10 @@ and (max-width: 1599px)
 #loggingup
 {
 
-    margin-top: 80px;
-    margin-left: 150px;
-    width: 220px;
-    height: 400px ;
+    margin-top: 60px;
+    margin-left: 100px;
+    width: 450px;
+    height: 550px;
     padding-bottom: 5px;
     padding-top: 12px;
   
@@ -2836,25 +2837,25 @@ and (max-width: 1599px)
 
 .login_inputs{
    
-    margin-top: 20px;
-    margin-left: 25px;
+    margin-top: 70px;
+    margin-left: 45px;
     margin-bottom: -12px;
-    width: 200px;
+    width: 350px;
     height:31px;
-    font-size: 13px;
+    font-size: 32px;
    
 }
 
 .login_willsubmit{
    
-    font-size: 18px;
-    margin-left: 85px;
-    margin-top: 18px;
+    font-size: 33px;
+    margin-left: 155px;
+    margin-top: 68px;
   
 }
 #login_forgot_password{
     
-    font-size: 15px;
+    font-size: 33px;
    
     
 }
@@ -2863,35 +2864,35 @@ and (max-width: 1599px)
    
     margin-top: -3px;
     margin-bottom: 8px;
-    font-size: 15px;
+    font-size: 33px;
   
     
 }
 
 .login_logos{
-    margin-left: 50px;
+    margin-left: 110px;
     margin-bottom: 8px;
-    height: 23px;
-    width: 23px;
+    height: 50px;
+    width: 50px;
     
 }
 
 .login_logos1{
-    margin-left: -130px;
-    height: 23px;
-    width: 23px;
+    margin-left: -248px;
+    height: 50px;
+    width: 50px;
     margin-top: -7px;
 }
 
 .login_logos2{
-    margin-left: -80px;
+    margin-left: -170px;
     margin-top: -7px;
-    height: 23px;
-    width: 23px;
+    height: 50px;
+    width: 50px;
 }
 
   }
--
+
   @media only screen and (min-width: 1600px) 
 and (max-width: 1680px)
 {
@@ -2906,36 +2907,36 @@ and (max-width: 1680px)
     }
 
     #login_slogan{
-        width: 450px;
+        width: 680px;
         height: 200px;
-        margin-left: 690px;
-        margin-top: -250px;
+        margin-left: 750px;
+        margin-top: -530px;
     }
     #login_slogan_heading{
         
-        font-size: 24px;
+        font-size: 40px;
         margin-top: -20px;
     }
     #login_slogan_para{
       margin-top: -5px;
-        font-size: 22px;
+        font-size: 38px;
     
     }
 
     .loginsignup1
 {
-    margin-left: 65px;
-    font-size: 18px;
+    margin-left: 105px;
+    font-size: 40px;
    
     
-}
+} 
+
  
 
-
 /* Signup button jo upr hai*/
-  .signupsignup1
+ .signupsignup1
 {    
-    font-size: 18px;
+    font-size: 35px;
   
 }
 
@@ -2951,10 +2952,10 @@ and (max-width: 1680px)
 #loggingup
 {
 
-    margin-top: 80px;
-    margin-left: 150px;
-    width: 220px;
-    height: 100px;
+    margin-top: 60px;
+    margin-left: 100px;
+    width: 450px;
+    height: 550px;
     padding-bottom: 5px;
     padding-top: 12px;
   
@@ -2964,25 +2965,25 @@ and (max-width: 1680px)
 
 .login_inputs{
    
-    margin-top: 20px;
-    margin-left: 25px;
+    margin-top: 70px;
+    margin-left: 45px;
     margin-bottom: -12px;
-    width: 200px;
+    width: 350px;
     height:31px;
-    font-size: 13px;
+    font-size: 35px;
    
 }
 
 .login_willsubmit{
    
-    font-size: 18px;
-    margin-left: 85px;
-    margin-top: 18px;
+    font-size: 35px;
+    margin-left: 155px;
+    margin-top: 68px;
   
 }
 #login_forgot_password{
     
-    font-size: 15px;
+    font-size: 35px;
    
     
 }
@@ -2991,34 +2992,35 @@ and (max-width: 1680px)
    
     margin-top: -3px;
     margin-bottom: 8px;
-    font-size: 15px;
+    font-size: 35px;
   
     
 }
 
 .login_logos{
-    margin-left: 50px;
+    margin-left: 110px;
     margin-bottom: 8px;
-    height: 23px;
-    width: 23px;
+    height: 55px;
+    width: 55px;
     
 }
 
 .login_logos1{
-    margin-left: -130px;
-    height: 23px;
-    width: 23px;
+    margin-left: -245px;
+    height: 55px;
+    width: 55px;
     margin-top: -7px;
 }
 
 .login_logos2{
-    margin-left: -80px;
+    margin-left: -170px;
     margin-top: -7px;
-    height: 23px;
-    width: 23px;
+    height: 55px;
+    width: 55px;
 }
 
   }
+
   @media only screen and (min-width: 1680px) 
   and (max-width: 1760px)
   {
@@ -3033,36 +3035,36 @@ and (max-width: 1680px)
     }
 
     #login_slogan{
-        width: 450px;
+        width: 680px;
         height: 200px;
-        margin-left: 790px;
-        margin-top: -250px;
+        margin-left: 750px;
+        margin-top: -530px;
     }
     #login_slogan_heading{
         
-        font-size: 24px;
+        font-size: 40px;
         margin-top: -20px;
     }
     #login_slogan_para{
       margin-top: -5px;
-        font-size: 22px;
+        font-size: 38px;
     
     }
 
     .loginsignup1
 {
-    margin-left: 65px;
-    font-size: 18px;
+    margin-left: 105px;
+    font-size: 40px;
    
     
-}
+} 
 
  
 
 /* Signup button jo upr hai*/
-  .signupsignup1
+ .signupsignup1
 {    
-    font-size: 18px;
+    font-size: 35px;
   
 }
 
@@ -3078,10 +3080,10 @@ and (max-width: 1680px)
 #loggingup
 {
 
-    margin-top: 80px;
-    margin-left: 180px;
-    width: 220px;
-    height: 100px;
+    margin-top: 60px;
+    margin-left: 100px;
+    width: 450px;
+    height: 550px;
     padding-bottom: 5px;
     padding-top: 12px;
   
@@ -3091,25 +3093,25 @@ and (max-width: 1680px)
 
 .login_inputs{
    
-    margin-top: 20px;
-    margin-left: 25px;
+    margin-top: 70px;
+    margin-left: 45px;
     margin-bottom: -12px;
-    width: 200px;
+    width: 350px;
     height:31px;
-    font-size: 13px;
+    font-size: 35px;
    
 }
 
 .login_willsubmit{
    
-    font-size: 18px;
-    margin-left: 85px;
-    margin-top: 18px;
+    font-size: 35px;
+    margin-left: 150px;
+    margin-top: 68px;
   
 }
 #login_forgot_password{
     
-    font-size: 15px;
+    font-size: 35px;
    
     
 }
@@ -3118,31 +3120,31 @@ and (max-width: 1680px)
    
     margin-top: -3px;
     margin-bottom: 8px;
-    font-size: 15px;
+    font-size: 35px;
   
     
 }
 
 .login_logos{
-    margin-left: 50px;
+    margin-left: 110px;
     margin-bottom: 8px;
-    height: 23px;
-    width: 23px;
+    height: 55px;
+    width: 55px;
     
 }
 
 .login_logos1{
-    margin-left: -130px;
-    height: 23px;
-    width: 23px;
+    margin-left: -248px;
+    height: 55px;
+    width: 55px;
     margin-top: -7px;
 }
 
 .login_logos2{
-    margin-left: -80px;
+    margin-left: -170px;
     margin-top: -7px;
-    height: 23px;
-    width: 23px;
+    height: 55px;
+    width: 55px;
 }
 
   }
@@ -3160,36 +3162,36 @@ and (max-width: 1840px)
     }
 
     #login_slogan{
-        width: 450px;
+        width: 750px;
         height: 200px;
-        margin-left: 890px;
-        margin-top: -250px;
+        margin-left: 830px;
+        margin-top: -530px;
     }
     #login_slogan_heading{
         
-        font-size: 24px;
+        font-size: 44px;
         margin-top: -20px;
     }
     #login_slogan_para{
       margin-top: -5px;
-        font-size: 22px;
+        font-size: 42px;
     
     }
 
     .loginsignup1
 {
-    margin-left: 65px;
-    font-size: 18px;
+    margin-left: 95px;
+    font-size: 44px;
    
     
-}
+} 
 
-
+ 
 
 /* Signup button jo upr hai*/
  .signupsignup1
 {    
-    font-size: 18px;
+    font-size: 40px;
   
 }
 
@@ -3205,10 +3207,10 @@ and (max-width: 1840px)
 #loggingup
 {
 
-    margin-top: 80px;
-    margin-left: 150px;
-    width: 320px;
-    height: 100px;
+    margin-top: 60px;
+    margin-left: 100px;
+    width: 450px;
+    height: 550px;
     padding-bottom: 5px;
     padding-top: 12px;
   
@@ -3218,58 +3220,58 @@ and (max-width: 1840px)
 
 .login_inputs{
    
-    margin-top: 20px;
-    margin-left: 25px;
+    margin-top: 90px;
+    margin-left: 45px;
     margin-bottom: -12px;
-    width: 270px;
+    width: 350px;
     height:31px;
-    font-size: 13px;
+    font-size: 40px;
    
 }
 
 .login_willsubmit{
    
-    font-size: 18px;
-    margin-left: 85px;
-    margin-top: 18px;
+    font-size: 40px;
+    margin-left: 135px;
+    margin-top: 68px;
   
 }
 #login_forgot_password{
     
-    font-size: 15px;
+    font-size: 40px;
    
     
 }
 
 .login_or{
    
-    margin-top: 5px;
+    margin-top: -3px;
     margin-bottom: 8px;
-    font-size: 15px;
+    font-size: 35px;
   
     
 }
 
 .login_logos{
-    margin-left: 50px;
+    margin-left: 110px;
     margin-bottom: 8px;
-    height: 23px;
-    width: 23px;
+    height: 60px;
+    width: 60px;
     
 }
 
 .login_logos1{
-    margin-left: -170px;
-    height: 23px;
-    width: 23px;
+    margin-left: -248px;
+    height: 60px;
+    width: 60px;
     margin-top: -7px;
 }
 
 .login_logos2{
-    margin-left: -80px;
+    margin-left: -170px;
     margin-top: -7px;
-    height: 23px;
-    width: 23px;
+    height: 60px;
+    width: 60px;
 }
 
   }
@@ -3287,36 +3289,36 @@ and (max-width: 1919px)
     }
 
     #login_slogan{
-        width: 450px;
+        width: 850px;
         height: 200px;
-        margin-left: 890px;
-        margin-top: -250px;
+        margin-left: 850px;
+        margin-top: -590px;
     }
     #login_slogan_heading{
         
-        font-size: 24px;
+        font-size: 48px;
         margin-top: -20px;
     }
     #login_slogan_para{
       margin-top: -5px;
-        font-size: 22px;
+        font-size: 46px;
     
     }
 
     .loginsignup1
 {
-    margin-left: 65px;
-    font-size: 18px;
+    margin-left: 95px;
+    font-size: 44px;
    
     
-}
+} 
+
  
 
-
 /* Signup button jo upr hai*/
-  .signupsignup1
+ .signupsignup1
 {    
-    font-size: 18px;
+    font-size: 40px;
   
 }
 
@@ -3332,10 +3334,10 @@ and (max-width: 1919px)
 #loggingup
 {
 
-    margin-top: 80px;
-    margin-left: 350px;
-    width: 220px;
-    height: 100px;
+    margin-top: 140px;
+    margin-left: 100px;
+    width: 450px;
+    height: 550px;
     padding-bottom: 5px;
     padding-top: 12px;
   
@@ -3345,25 +3347,25 @@ and (max-width: 1919px)
 
 .login_inputs{
    
-    margin-top: 20px;
-    margin-left: 25px;
+    margin-top: 70px;
+    margin-left: 50px;
     margin-bottom: -12px;
-    width: 200px;
+    width: 350px;
     height:31px;
-    font-size: 13px;
+    font-size: 35px;
    
 }
 
 .login_willsubmit{
    
-    font-size: 18px;
-    margin-left: 85px;
-    margin-top: 18px;
+    font-size: 44px;
+    margin-left: 145px;
+    margin-top: 68px;
   
 }
 #login_forgot_password{
     
-    font-size: 15px;
+    font-size: 44px;
    
     
 }
@@ -3372,31 +3374,31 @@ and (max-width: 1919px)
    
     margin-top: -3px;
     margin-bottom: 8px;
-    font-size: 15px;
+    font-size: 44px;
   
     
 }
 
 .login_logos{
-    margin-left: 50px;
+    margin-left: 110px;
     margin-bottom: 8px;
-    height: 23px;
-    width: 23px;
+    height: 65px;
+    width: 65px;
     
 }
 
 .login_logos1{
-    margin-left: -130px;
-    height: 23px;
-    width: 23px;
+    margin-left: -248px;
+    height: 65px;
+    width: 65px;
     margin-top: -7px;
 }
 
 .login_logos2{
-    margin-left: -80px;
+    margin-left: -170px;
     margin-top: -7px;
-    height: 23px;
-    width: 23px;
+    height: 65px;
+    width: 65px;
 }
 
   }
@@ -3414,36 +3416,36 @@ and (max-width: 1919px)
     }
 
     #login_slogan{
-        width: 450px;
+        width: 850px;
         height: 200px;
-        margin-left: 990px;
-        margin-top: -250px;
+        margin-left: 850px;
+        margin-top: -590px;
     }
     #login_slogan_heading{
         
-        font-size: 24px;
+        font-size: 48px;
         margin-top: -20px;
     }
     #login_slogan_para{
       margin-top: -5px;
-        font-size: 22px;
+        font-size: 46px;
     
     }
 
     .loginsignup1
 {
-    margin-left: 65px;
-    font-size: 18px;
+    margin-left: 95px;
+    font-size: 44px;
    
     
-}
+} 
 
  
 
 /* Signup button jo upr hai*/
-  .signupsignup1
+ .signupsignup1
 {    
-    font-size: 18px;
+    font-size: 40px;
   
 }
 
@@ -3459,10 +3461,10 @@ and (max-width: 1919px)
 #loggingup
 {
 
-    margin-top: 80px;
-    margin-left: 450px;
-    width: 220px;
-    height: 100px;
+    margin-top: 140px;
+    margin-left: 100px;
+    width: 450px;
+    height: 550px;
     padding-bottom: 5px;
     padding-top: 12px;
   
@@ -3472,25 +3474,25 @@ and (max-width: 1919px)
 
 .login_inputs{
    
-    margin-top: 20px;
-    margin-left: 25px;
+    margin-top: 70px;
+    margin-left: 45px;
     margin-bottom: -12px;
-    width: 200px;
+    width: 400px;
     height:31px;
-    font-size: 13px;
+    font-size: 35px;
    
 }
 
 .login_willsubmit{
    
-    font-size: 18px;
-    margin-left: 85px;
-    margin-top: 18px;
+    font-size: 44px;
+    margin-left: 155px;
+    margin-top: 68px;
   
 }
 #login_forgot_password{
     
-    font-size: 15px;
+    font-size: 44px;
    
     
 }
@@ -3499,31 +3501,31 @@ and (max-width: 1919px)
    
     margin-top: -3px;
     margin-bottom: 8px;
-    font-size: 15px;
+    font-size: 44px;
   
     
 }
 
 .login_logos{
-    margin-left: 50px;
+    margin-left: 100px;
     margin-bottom: 8px;
-    height: 23px;
-    width: 23px;
+    height: 65px;
+    width: 65px;
     
 }
 
 .login_logos1{
-    margin-left: -130px;
-    height: 23px;
-    width: 23px;
+    margin-left: -258px;
+    height: 65px;
+    width: 65px;
     margin-top: -7px;
 }
 
 .login_logos2{
-    margin-left: -80px;
+    margin-left: -160px;
     margin-top: -7px;
-    height: 23px;
-    width: 23px;
+    height: 65px;
+    width: 65px;
 }
 
-  } 
+  }

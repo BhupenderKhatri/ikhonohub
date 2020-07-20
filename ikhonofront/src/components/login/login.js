@@ -91,7 +91,7 @@ class login extends Component {
 <tr> <a class="loginsignup1" href="/login" >Login</a><span id="login_slogan_danda">/</span>
                    <a href="/signup" class="signupsignup1" >Signup</a></tr>
                     <tr>
-                         <td> {<input 
+                        <td>{<input 
                          type= "email" 
                          placeholder="Enter Email "
                           class ='login_inputs'
@@ -100,7 +100,7 @@ class login extends Component {
                     </tr>
                     <tr>
                          <td> {<input 
-                         type= "password"
+                          type= "password"
                           placeholder="Enter Password "
                            class="login_inputs"
                            onChange={this.onPasswordloginchange}
