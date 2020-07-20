@@ -1,9 +1,15 @@
 #intern_concept_main{
   background-color: skyblue;
   height: 100%;
-  padding-left: 10%;
   margin-top: 20px;
-  padding-top: 15px;
-  padding-bottom: 20px;
-}
+  padding-top: 10px;
+  padding-bottom: 40px;
+ 
 
+}
+.intern-concept
+{
+  display: grid;
+  grid-gap: 10px;
+
+}

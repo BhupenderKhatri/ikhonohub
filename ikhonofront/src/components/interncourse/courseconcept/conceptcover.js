@@ -42,6 +42,7 @@ export default function ControlledAccordions() {
     <div id="intern_concept_main">
     <div className={classes.root}>
       <h1 className={classes.mainHeading}>Topics Covered</h1>
+      <div class="intern-concept">
       <Accordion expanded={expanded === 'panel1'} onChange={handleChange('panel1')}>
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
@@ -159,7 +160,7 @@ export default function ControlledAccordions() {
           </Typography>
         </AccordionDetails>
       </Accordion>
-     
+      </div>
     </div>
     </div>
   );
