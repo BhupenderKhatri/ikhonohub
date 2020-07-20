@@ -8,7 +8,7 @@ import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import './conceptcover.css';
 const useStyles = makeStyles((theme) => ({
   root: {
-    width: '64%',
+    width: '50%',
     margin:'auto',
     marginTop:'20px',
 
