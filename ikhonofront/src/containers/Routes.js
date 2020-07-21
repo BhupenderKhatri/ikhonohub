@@ -29,6 +29,7 @@ import Account from '../components/dashboard/dashboardAccount';
 import Help from '../components/dashboard/dashboardHelp';
 
 import Quiz from './../components/quiz/quiz';
+import Intern_IOS from "../components/interncourse/intern_IOS";
 
 export default class Routes extends Component {
     render() {
@@ -53,7 +54,8 @@ export default class Routes extends Component {
                     <Route path="/player" component={ReactPlayerPage} />
                     
                     <Route path="/addprofile" component={Addprofile} />
-                    <Route path="/interncourse" component={Interncourse}/>
+                    <Route path="/internML" component={Interncourse}/>
+                    <Route path="/internIOS" component={Intern_IOS}/>
                     
                     <Route path="/mycourses" component={MyCourses} />
                     <Route path="/trending" component={TrendingCourses} />

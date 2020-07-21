@@ -9,13 +9,13 @@ import PictureGoal3 from "../home/Homegoalpic3.png" ;
 import PictureGoal4 from "../home/Homegoalpic4.png" ;
 import Background from "../home/backgroundimage.png";
 
+import InternMentor from './InternCourseHome/InternCourseCardList';
+
 
 
 class home extends Component{
     render(){
-      
       return (
-        
     <div id="mainbackhome">
 
           <div>
@@ -43,18 +43,12 @@ class home extends Component{
                                    <p id="goalshomecards_content">like business analytics, graphic design, Python, and more</p>
                                 </div>
 
-
-
                                <div  id="goalshomecards2"> 
                                 <img id="picturehere" src={PictureGoal2 } alt='error 404 not found'/>
                                 <h2 id="goalshomecards_heading">One-on-One Mentorship</h2>
                                 <p id="goalshomecards_content">in high-demand fields like IT, AI and cloud engineering</p>
                                 </div>
                              
-                            
-                   
-                           
-                            
                             
                                <div id="goalshomecards3">
                                  <img id="picturehere" src={PictureGoal3 } alt='error 404 not found'/>
@@ -67,17 +61,24 @@ class home extends Component{
                                  <h2 id="goalshomecards_heading">Hands-On-Hand Intership</h2>
                                 <p id="goalshomecards_content">we will make sure you have the time of your life</p>
                                  </div>
-
-                                
                    </div>     
-            
             </div>   
-                   
             
-           
-         
+            {/* <div>   
+            <h3 id="home_goals_heading2">Popular Courses</h3>              
+            <CardList courses = {courses} />
+            </div> */}
             
-          
+            <br></br>
+            <br></br>
+            {/*
+            <div>
+            <MainCourses/>
+            </div>
+            */}
+            <div>
+              <InternMentor/>
+            </div>
             <div>
              <Content/>
             </div>

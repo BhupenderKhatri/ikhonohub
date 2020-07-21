@@ -113,8 +113,38 @@ class Interncourse extends Component{
   }
   )}
 
-
-  <Pricing/>
+{machinelearning.map((user,i)=>
+{
+  return(
+    <Pricing
+    c6_1={machinelearning[i].c6_1}
+    c6_2={machinelearning[i].c6_2}
+    c6_3={machinelearning[i].c6_3}
+    c6_4={machinelearning[i].c6_4}
+    c6_5={machinelearning[i].c6_5}
+    c6_6={machinelearning[i].c6_6}
+    c6_7={machinelearning[i].c6_7}
+    c6_8={machinelearning[i].c6_8}
+    c6_9={machinelearning[i].c6_9}
+    c6_10={machinelearning[i].c6_10}
+    c6_11={machinelearning[i].c6_11}
+    c6_12={machinelearning[i].c6_12}
+    c6_13={machinelearning[i].c6_13}
+    c6_14={machinelearning[i].c6_14}
+    c6_15={machinelearning[i].c6_15}
+    c6_16={machinelearning[i].c6_16}
+    c6_17={machinelearning[i].c6_17}
+    c6_18={machinelearning[i].c6_18}
+    c6_19={machinelearning[i].c6_19}
+    c6_20={machinelearning[i].c6_20}
+    c6_21={machinelearning[i].c6_21}
+    c6_22={machinelearning[i].c6_22}
+    c6_23={machinelearning[i].c6_23}
+    c6_24={machinelearning[i].c6_24}
+    />
+  );
+  })}
+  
 
 {
     machinelearning.map((user,i)=>

@@ -1,0 +1,42 @@
+
+#interncardbase{
+    margin-left: 120px;
+    border: yellow;
+    background-color: white;
+    border-radius: 15px;
+    width: 240px;
+}
+#intern_home_heading{
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 20px;
+}
+#internHome_button{
+    width: 242px;
+    height: 40px;
+    border-radius: 0px 0px 15px 15px ;
+    color: white;
+    box-shadow: none;
+    background: transparent linear-gradient(270deg, #BD3F32 0%, #D4420C 100%);
+    margin-top: 20px;
+}
+#internhomebasebackground{
+ display: inline-block;
+ 
+}
+
+#internhomebasebackground :hover{
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 1);
+}
+#image_intern_home{
+    height:'50px';
+     width:'50px';
+}
+#internship_home_head{
+    text-align: center;
+    color: #faee1c;
+    font-size: 40px;
+    font-weight: bolder;
+   
+}
