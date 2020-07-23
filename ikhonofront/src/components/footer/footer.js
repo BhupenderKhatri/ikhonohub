@@ -45,7 +45,7 @@ class newfooter extends Component{
             {/* fourth div starts here */}
             <div id="footer_help">
             <p class="footer_help_heading">Need Help</p>
-              <p class="footer_help_contact_details"> B-15 MAHENDRA PARK DELHI 110033 <br></br>Email : info@ikhonohub.com</p>
+              <p class="footer_help_contact_details"> Contact : 9654439851 <br></br> B-15 MAHENDRA PARK DELHI 110033 <br></br>Email : info@ikhonohub.com</p>
 
             </div>
          </div>

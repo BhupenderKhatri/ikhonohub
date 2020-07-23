@@ -43,7 +43,7 @@ class internfooter extends Component{
             {/* fourth div starts here */}
             <div id="footer_help1">
             <p class="footer_help_heading1">Need Help</p>
-              <p class="footer_help_contact_details1">Contact : 8248415788<br></br> Address : 3/199 Teacher's Nagar, Tiruttani. <br></br>Email : g.gaganesh10@gmail.com</p>
+              <p class="footer_help_contact_details1">Contact : 9654439851 <br></br>B-15 MAHENDRA PARK DELHI 110033 <br></br>Email : info@ikhonohub.com</p>
 
             </div>
          </div>
