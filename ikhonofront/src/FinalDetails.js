@@ -403,18 +403,14 @@ export const refundItems =[
                 c6_16:"course completion certificate",
                 c6_16a:"Internship certificate after project submission",
                 
+                
                 c6_17:"Premium",
                 c6_18:"₹12000",
-                c6_19:"2 major+2 minor project",
-                c6_20:"project assistance",
-                c6_21:"Github + collaboration",
-                c6_22:"one to one mentorship",
-                c6_23:"Technical Interview tips",
-                c6_24:"Job security Strategies",
-                c6_25:"Internship + placement opportunities",
-                c6_26:"career path building ",
-                c6_27:"course completion certificate",
-                c6_28:"Internship certificate after project submission",
+                c6_19:"This will include all the feature of Advance package",
+                c6_20:"Job security Strategies",
+                c6_21:"Internship + placement opportunities",
+                c6_22:"course completion certificate",
+                c6_23:"Internship certificate after project submission",
 
                 ques1: "Are there any prerequisites for the course?",
                 ans1:  "A Mac or  acomputer running MacOS. That's it! No previous coding experience is required. All tools and software you will be using in this course will be free.",
@@ -426,3 +422,361 @@ export const refundItems =[
                 ans4:  "Ultimately you’re the only can that can control that. However, while everyone learns at a different pace, students who put in a couple hours each day to apply what they’ve learned should be able to confidently build their own projects and start interviewing in 3-6 months. We don’t see just getting hired as the end goal though. Our advanced courses will also teach you the topics and skills you need to get promoted or hired as a senior developer.",
             }
         ]
+
+
+        export const WebDev =[
+        {
+            c1_1:"Complete Study of Web Development",
+            c1_2:"4.0",
+            c1_3:"75 Rating",
+            c1_4:"18 Reviews",
+            c1_5:"Skills to apply CSS ,HTML in practical",
+            c1_6:"You will understand the Javascript",
+            c1_7:"You will be able to make your own website",
+            c1_9:"Time",
+            c1_10:"No download needed",
+            c1_11:"Certificate of Completion",
+            c1_12:"2 minor and 2 major projects",
+            c1_13:"Split-screen video",
+            c1_14:"Accessible on any device",
+            c1_15:"Flexible schedule",
+            c1_16:"Assignments with mentor Support" ,
+
+            c2_1:"Skills that will help you to apply for  the job role for a web developer",
+            c2_2:"Learn modern technologies that are being actually used in tech companies in 2020",
+            c2_3:"Build a professional portfolio",
+            c2_4:"Master modern and advanced web Development fundamentals ",
+            
+            c4_1:"Weather App",
+            c4_1a:"Using CSS and HTML",
+            c4_2:"Auto Expo",
+            c4_2a:"full functional e commerse website",
+            c4_3 :"Calculator",
+            c4_3a:"Using React App",
+         
+            c5_1:"Projects with Practical skills",
+            c5_2:"We provide you with different projects which will lead you through a real time industry experience",
+            c5_3:"Mentor Support",
+            c5_4:"What to do if you are stuck at a point in the course? No worries our mentor will be there to help you with all of your doubts.",
+            c5_5:"Career sessions",
+            c5_6:"You will be able to join our special career sessions through which you will learn to build your own career path and get ur dream job.",
+            c5_7:"Flexible learning schedule",
+            c5_8:"No need to bind yourself with our schedule. You can access the whole course at your place ,at your time. We provide you the facility to access your course at your comfort zone.",
+            
+
+            c6_1:"Basic",
+            c6_2:"₹5000",
+            c6_3:"Course Completion Certificate",
+            c6_4:"1 major+1 minor project",
+            c6_5:"Github+version control with git",
+            c6_6:"firebase",
+            c6_7:"Internship certificate after project submission",
+            c6_8:"",
+
+            c6_9:"Advanced",
+            c6_10:"₹8000",
+            c6_11:"2 major+2 minor project",
+            c6_12:"project assistance",
+            c6_13:"Github + collaboration",
+            c6_14:"one to one mentorship",
+            c6_15:"Technical Interview tips",
+            c6_16:"course completion certificate",
+            c6_16a:"Internship certificate after project submission",
+            
+            c6_17:"Premium",
+            c6_18:"₹12000",
+            c6_19:"This will include all the feature of Advance package",
+            c6_20:"Job security Strategies",
+            c6_21:"Internship + placement opportunities",
+            c6_22:"course completion certificate",
+            c6_23:"Internship certificate after project submission",
+          
+
+
+            ques1: "Are there any prerequisites for the course?",
+            ans1:  "No,Any beginner who wants to build career as Web designer can take this course.",
+            ques2: "Do we provide certification?",
+            ans2:  "Yes, definitely you will get a course completion certificate which you can use on your professional platforms or resume.",
+            ques3: "Can I use the course projects in my portfolio",
+            ans3:  "Yes, you’d be crazy not to in our slightly biased opinion! All projects are mentor led and guided and ready to use the minute you join. Many of our students tell us the projects they built while following along with our courses were what got them interviews and because they built the projects themselves, they could confidently explain and walk through their work during the interview. You know what that means? Job offer!",
+            ques4: "How long does it usually take for me to build something and get hired?",
+            ans4:  "Ultimately you’re the only can that can control that. However, while everyone learns at a different pace, students who put in a couple hours each day to apply what they’ve learned should be able to confidently build their own projects and start interviewing in 3-6 months. We don’t see just getting hired as the end goal though. Our advanced courses will also teach you the topics and skills you need to get promoted or hired as a senior developer.",
+
+        }
+    ]   
+    
+    
+    export const CareerDev=[
+        {
+            c1_1:"Personal Career Coaching",
+            c1_2:"4.0",
+            c1_3:"75 Rating",
+            c1_4:"18 Reviews",
+            c1_5:"You will able to choose a smart career path",
+            c1_6:"You will be able distinguish between various fields",
+            c1_7:"You will be able to make your mindset towards your bright future",
+            c1_9:"Time",
+            c1_10:"No download needed",
+            c1_11:"Certificate of Completion",
+            c1_12:"2 minor and 2 major projects",
+            c1_13:"Split-screen video",
+            c1_14:"Accessible on any device",
+            c1_15:"Flexible schedule",
+            c1_16:"Assignments with mentor Support" ,
+
+
+            c2_1:"Personal assistance in your job search",
+            c2_2:"Monthly one on one mentor call",
+            c2_3:"Competency analysis to know about your strong fields and guidance in corporate life",
+            c2_4:"Personalized feedback and career guidance ",
+            c2_5:"Resume guidance",
+            c2_6:"Github portfolio r eview",
+            c2_7:"Listen Attitude Analysis (very important for corporate life)",
+            c2_8:"Tips and Tricks for interviews to get your dream job. ",
+            c2_9:"Mock interviews",
+ 
+
+
+            c5_1:"Projects with Practical skills",
+            c5_2:"We provide you with different projects which will lead you through a real time industry experience",
+            c5_3:"Mentor Support",
+            c5_4:"What to do if you are stuck at a point in the course? No worries our mentor will be there to help you with all of your doubts.",
+            c5_5:"Career sessions",
+            c5_6:"You will be able to join our special career sessions through which you will learn to build your own career path and get ur dream job.",
+            c5_7:"Flexible learning schedule",
+            c5_8:"No need to bind yourself with our schedule. You can access the whole course at your place ,at your time. We provide you the facility to access your course at your comfort zone.",
+            
+
+            c6_1:"Basic",
+            c6_2:"₹5000",
+            c6_3:"free access to our webinars for 2 years",
+            c6_4:"free access to our personality development seminars for 2 years ",
+            c6_5:"job search assistance",
+            c6_6:"mentor support",
+            c6_7:"resume guidance",
+            c6_8:"personalized feedbacks",
+            c6_8a:"github reviews",
+            c6_8b:"Competency analysis",
+            c6_8c:"Mock interviews",
+            c6_8d:"course completion certificate",
+            
+
+
+            // c6_9:"Advanced",
+            // c6_10:"₹8000",
+            // c6_11:"2 major+2 minor project",
+            // c6_12:"project assistance",
+            // c6_13:"Github + collaboration",
+            // c6_14:"one to one mentorship",
+            // c6_15:"Technical Interview tips",
+            // c6_16:"course completion certificate",
+            // c6_16a:"Internship certificate after project submission",
+            
+            // c6_17:"Premium",
+            // c6_18:"₹12000",
+            // c6_19:"2 major+2 minor project",
+            // c6_20:"project assistance",
+            // c6_21:"Github + collaboration",
+            // c6_22:"one to one mentorship",
+            // c6_23:"Technical Interview tips",
+            // c6_24:"Job security Strategies",
+            // c6_25:"Internship + placement opportunities",
+            // c6_26:"career path building ",
+            // c6_27:"course completion certificate",
+            // c6_28:"Internship certificate after project submission",
+
+
+            ques1: "Are there any prerequisites for the course?",
+            ans1:  "No,anyone who want to shine bright in his/her future can take up this course",
+            ques2: "Do we provide certification?",
+            ans2:  "Yes, definitely you will get a course completion certificate which you can use on your professional platforms or resume.",
+            ques3: "Can I use the course projects in my portfolio",
+            ans3:  "Yes, definitely you will be able to grab all of your dream opportunities",
+            // ques4: "How long does it usually take for me to build something and get hired?",
+            // ans4:  "Ultimately you’re the only can that can control that. However, while everyone learns at a different pace, students who put in a couple hours each day to apply what they’ve learned should be able to confidently build their own projects and start interviewing in 3-6 months. We don’t see just getting hired as the end goal though. Our advanced courses will also teach you the topics and skills you need to get promoted or hired as a senior developer.",
+
+
+
+        }
+    ]
+
+
+
+    export const Python=[
+    {
+         
+
+
+
+                c1_1:"Python Programming",
+                c1_2:"4.0",
+                c1_3:"75 Rating",
+                c1_4:"18 Reviews",
+                c1_5:"You will work on real time problems",
+                c1_6:"You will understand basic and advance python",
+                c1_7:"You will work on diff. projects",
+                
+                c1_9:"Time",
+                c1_10:"No download needed",
+                c1_11:"Certificate of Completion",
+                c1_12:"2 minor and 2 major projects",
+                c1_13:"Split-screen video",
+                c1_14:"Accessible on any device",
+                c1_15:"Flexible schedule",
+                c1_16:"Assignments with mentor Support",
+                
+               
+
+
+                c5_1:"Projects with Practical skills",
+                c5_2:"We provide you with different projects which will lead you through a real time industry experience",
+                c5_3:"Mentor Support",
+                c5_4:"What to do if you are stuck at a point in the course? No worries our mentor will be there to help you with all of your doubts.",
+                c5_5:"Career sessions",
+                c5_6:"You will be able to join our special career sessions through which you will learn to build your own career path and get ur dream job.",
+                c5_7:"Flexible learning schedule",
+                c5_8:"No need to bind yourself with our schedule. You can access the whole course at your place ,at your time. We provide you the facility to access your course at your comfort zone.",
+
+                c6_1:"Basic",
+                c6_2:"₹5000",
+                c6_3:"Course Completion Certificate",
+                c6_4:"1 major+1 minor project",
+                c6_5:"Github+version control with git",
+                c6_6:"firebase",
+                c6_7:"Internship certificate after project submission",
+                c6_8:"",
+
+                c6_9:"Advanced",
+                c6_10:"₹8000",
+                c6_11:"2 major+2 minor project",
+                c6_12:"project assistance",
+                c6_13:"Github + collaboration",
+                c6_14:"one to one mentorship",
+                c6_15:"Technical Interview tips",
+                c6_16:"course completion certificate",
+                c6_16a:"Internship certificate after project submission",
+                
+                    
+                c6_17:"Premium",
+                c6_18:"₹12000",
+                c6_19:"This will include all the feature of Advance package",
+                c6_20:"Job security Strategies",
+                c6_21:"Internship + placement opportunities",
+                c6_22:"course completion certificate",
+                c6_23:"Internship certificate after project submission",
+
+                ques1: "How will be training be imparted",
+                ans1:  "This training will be delivered using video tutorials and interactive exercises.",
+                ques2: "What is the timing of this training program",
+                ans2:  "As this is a online training so you can choose to learn at any time of the day. We recommend that you spend 2 hours every day."  ,
+                ques3: "Who can join? I am a beginner/advanced user, is this training program for me?",
+                ans3:  "This training would be better suited to beginners who have no prior knowledge of python programming. Anyone who is willing to learn and has interest in python can opt for this training program ",
+                ques4:"Are there any Pre-requisites for joining this program?",
+                 ans4: "This program is for beginners. There are no pre-requisites.",
+                 ques5:"Will I get to work on a project", 
+                 ans5: "Yes, you will work on 1 minor and 1 major project.",
+                 ques6:"Will there be a certificate provided at the end of the training?",
+                 
+                }
+
+
+    ]
+
+
+
+export const UxUi=[{
+
+
+
+    c1_1:" UI/UX Design	",
+    c1_2:"4.0",
+    c1_3:"75 Rating",
+    c1_4:"18 Reviews",
+    c1_5:"Make a blueprint of any website ",
+    c1_6:"To show the website is working ",
+    c1_7:"Make Mobile based design",
+    c1_9:"Time",
+    c1_10:"No download needed",
+    c1_11:"Certificate of Completion",
+    c1_12:"2 minor and 2 major projects",
+    c1_13:"Split-screen video",
+    c1_14:"Accessible on any device",
+    c1_15:"Flexible schedule",
+    c1_16:"Assignments with mentor Support" ,
+
+    c2_1:"•	Website design by own",
+    c2_2:"•	Mobile based design",
+    c2_3:"•	Well known of prototyping",
+    c2_4:"•	You can build and share your design to everyone ",
+   
+    
+
+
+    c4_1 :"E-commerce Website" ,
+    c4_1a:"You will create a beautiful e-commerce website with the help of  UI/UX" ,
+   
+
+    c4_2 :"Login/ signup",
+    c4_2a:"In this project you will be making login/signup using different techniques.", 
+   
+
+    c4_3 :" Home page design",
+    c4_3a:"How about designing a beautiful home page ,so you will be doing that only in this project ",
+    
+
+    c4_4 :"Landing page",
+    c4_4a:"You will be using different techniques for making a landing page.",
+   
+
+
+
+   
+    c5_1:"Projects with Practical skills",
+    c5_2:"We provide you with different projects which will lead you through a real time industry experience",
+    c5_3:"Mentor Support",
+    c5_4:"What to do if you are stuck at a point in the course? No worries our mentor will be there to help you with all of your doubts.",
+    c5_5:"Career sessions",
+    c5_6:"You will be able to join our special career sessions through which you will learn to build your own career path and get ur dream job.",
+    c5_7:"Flexible learning schedule",
+    c5_8:"No need to bind yourself with our schedule. You can access the whole course at your place ,at your time. We provide you the facility to access your course at your comfort zone.",
+    
+
+
+    c6_1:"Basic",
+    c6_2:"₹5000",
+    c6_3:"Course Completion Certificate",
+    c6_4:"1 major+1 minor project",
+    c6_5:"Github+version control with git",
+    c6_6:"firebase",
+    c6_7:"Internship certificate after project submission",
+    c6_8:"",
+
+    c6_9:"Advanced",
+    c6_10:"₹8000",
+    c6_11:"2 major+2 minor project",
+    c6_12:"project assistance",
+    c6_13:"Github + collaboration",
+    c6_14:"one to one mentorship",
+    c6_15:"Technical Interview tips",
+    c6_16:"course completion certificate",
+    c6_16a:"Internship certificate after project submission",
+    
+   
+    c6_17:"Premium",
+    c6_18:"₹12000",
+    c6_19:"This will include all the feature of Advance package",
+    c6_20:"Job security Strategies",
+    c6_21:"Internship + placement opportunities",
+    c6_22:"course completion certificate",
+    c6_23:"Internship certificate after project submission",
+
+    ques1: "Are there any prerequisites for the course?",
+    ans1:  "No,Any beginner who wants to build career as Web designer can take this course.",
+    ques2: "Do we provide certification?",
+    ans2:  "Yes, definitely you will get a course completion certificate which you can use on your professional platforms or resume.",
+    ques3: "Can I use the course projects in my portfolio",
+    ans3:  "Yes, you’d be crazy not to in our slightly biased opinion! All projects are mentor led and guided and ready to use the minute you join. Many of our students tell us the projects they built while following along with our courses were what got them interviews and because they built the projects themselves, they could confidently explain and walk through their work during the interview. You know what that means? Job offer!",
+    ques4: "How long does it usually take for me to build something and get hired?",
+    ans4:  "Ultimately you’re the only can that can control that. However, while everyone learns at a different pace, students who put in a couple hours each day to apply what they’ve learned should be able to confidently build their own projects and start interviewing in 3-6 months. We don’t see just getting hired as the end goal though. Our advanced courses will also teach you the topics and skills you need to get promoted or hired as a senior developer.",
+
+}]     

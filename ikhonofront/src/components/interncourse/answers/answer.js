@@ -2,7 +2,7 @@ import React from 'react';
 import './answer.css';
 
 
-const Answer=({ques1,ans1,ques2,ans2,ques3,ans3,ques4,ans4})=>{
+const Answer=({ques1,ans1,ques2,ans2,ques3,ans3,ques4,ans4,ques5,ans5,ques6,ans6,ques7,ans7,ques8,ans8})=>{
    
       
       return (
@@ -22,6 +22,18 @@ const Answer=({ques1,ans1,ques2,ans2,ques3,ans3,ques4,ans4})=>{
    
     <h3 id="question-title">{ques4}</h3>
     <p id="question-para">{ans4}</p>
+
+    <h3 id="question-title">{ques5}</h3>
+    <p id="question-para">{ans5}</p>
+    
+    <h3 id="question-title">{ques6}</h3>
+    <p id="question-para">{ans6}</p>
+    
+    <h3 id="question-title">{ques7}</h3>
+    <p id="question-para">{ans7}</p>
+   
+    <h3 id="question-title">{ques8}</h3>
+    <p id="question-para">{ans8}</p>
 
 </div>
 </div>

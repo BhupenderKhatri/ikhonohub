@@ -1,7 +1,7 @@
 import React , {Component}  from 'react' ;
 import './pricing.css' ;
 
-const Pricing = ({c6_1,c6_2,c6_3,c6_4,c6_5,c6_6,c6_7,c6_8,c6_9,c6_10,c6_11,c6_12,c6_13,c6_14,c6_15,c6_16,c6_16a,c6_17,c6_18,c6_19,c6_20,c6_21,c6_22,c6_23,c6_24,c6_25,c6_26,c6_27,c6_28})=>{
+const Pricing = ({c6_1,c6_2,c6_3,c6_4,c6_5,c6_6,c6_7,c6_8 ,c6_8a,c6_8b,c6_8c,c6_8d,c6_9,c6_10,c6_11,c6_12,c6_13,c6_14,c6_15,c6_16,c6_16a,c6_17,c6_18,c6_19,c6_20,c6_21,c6_22,c6_23,c6_24,c6_25,c6_26,c6_27,c6_28})=>{
     
       return(
 <div >
@@ -18,6 +18,10 @@ const Pricing = ({c6_1,c6_2,c6_3,c6_4,c6_5,c6_6,c6_7,c6_8,c6_9,c6_10,c6_11,c6_12
                     <p>{c6_6}</p>
                     <p>{c6_7}</p>
                     <p>{c6_8}</p>
+                    <p>{c6_8a}</p>
+                     <p>{c6_8b}</p>
+                      <p>{c6_8c}</p>
+                       <p>{c6_8d}</p>
                 </div>
                 <button className="pricing-btn">Registor</button>
             </div>

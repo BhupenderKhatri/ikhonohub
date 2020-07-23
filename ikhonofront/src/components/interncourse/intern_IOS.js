@@ -1,6 +1,6 @@
 import React ,{Component}from 'react';
 import './interncourse.css';
-import Projecttitle from '../interncourse/projecttitle/project_title';
+import Projecttitle_Only4 from '../interncourse/projecttitle/project_title_only4';
 import Programinclude from '../interncourse/programinclude/programinclude';
 import Answer from '../interncourse/answers/answer';
 import InternFooter from '../internfooter/internfooter';
@@ -61,7 +61,7 @@ class Intern_IOS extends Component{
 
    {IOS.map((user,i)=>{
      return(
-      <Projecttitle
+      <Projecttitle_Only4
       c4_1={IOS[i].c4_1}
       c4_1a={IOS[i].c4_1a}
             c4_1b={IOS[i].c4_1b}
