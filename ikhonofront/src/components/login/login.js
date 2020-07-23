@@ -6,7 +6,6 @@ import Google from './sahivaligoogli.png' ;
 import Loginnav from '../loginnav/loginnav';
 import history from "./../../history";
 import axios from "axios";
-import Typical from 'react-typical'
 
 class login extends Component {
 
@@ -55,7 +54,9 @@ class login extends Component {
 
     }
   componentDidMount() {
-    
+    const headers = {
+      "Content-type": "application/text"
+    }
     let tok = localStorage.getItem("tkk");
     console.log(tok);
     axios.post('http://localhost:5000/users/login', {token:tok}).then(res => {
@@ -88,10 +89,10 @@ class login extends Component {
            
         <table id='loggingup'>
           
-<tr> <a class="loginsignup1" href="/login" >Login</a><span id="login_slogan_danda">/</span>
+<tr> <a class="loginsignup1" href="/loginsignup1" >Login</a><span id="login_slogan_danda">/</span>
                    <a href="/signup" class="signupsignup1" >Signup</a></tr>
                     <tr>
-                        <td>{<input 
+                         <td> {<input 
                          type= "email" 
                          placeholder="Enter Email "
                           class ='login_inputs'
@@ -100,7 +101,7 @@ class login extends Component {
                     </tr>
                     <tr>
                          <td> {<input 
-                          type= "password"
+                         type= "password"
                           placeholder="Enter Password "
                            class="login_inputs"
                            onChange={this.onPasswordloginchange}
@@ -127,37 +128,25 @@ class login extends Component {
                          </td >
                          </tr> 
                        
-                     <tr>
-                       <td>
-                      {< a href="https://www.facebook.com/">  <img class="login_logos" src= {Facebook}  alt="Error"/> </a>}
-                        </td>
+                     <tr >
+                      {< a href="https://www.facebook.com/">  <img class="login_logos" src= {Facebook}  alt="Error"></img> </a>}
+                    </tr>
 
-                      <td>
-                      <a href="https://twitter.com/" >  {<img class="login_logos1" src= {Twitter}  alt="Error"/>}</a>
-                      </td>
-                      <td>
-                     <a href="https://www.google.co.in/">{<img class="login_logos2" src= {Google}  alt="Error"/>}</a> 
-                     </td>
+
+                    <tr >
+                      <a href="https://twitter.com/" >  {<img class="login_logos1" src= {Twitter}  alt="Error"></img>}</a>
+                    </tr>
+                    <tr  >
+                     <a href="https://www.google.co.in/">{<img class="login_logos2" src= {Google}  alt="Error"></img>}</a> 
                     </tr>
          
          
                   
                     
   </table>  
-
   <div id="login_slogan">
-
-  <h2 id="login_slogan_heading">Where Aspiration Meets Preparation</h2>
-    <div id="login_slogan_para">
-    <Typical
-        steps={['Find your next opportunity, get that key introduction, even meet a co-founder. Someone in our thriving and supportive IKHONO HUB community is always online willing to lend a hand.', 500, 'Leadership and learning are indispensable to each other', 500 ,'The beautiful thing about learning is that nobody can take it away from you',500]}
-        loop={Infinity}
-        wrapper="p"
-      />
-
-    </div>
-  
-    <p id="login_slogan_para"></p>
+    <h2 id="login_slogan_heading">Where Aspiration Meets Preparation</h2>
+    <p id="login_slogan_para">Find your next opportunity, get that key introduction, even meet a co-founder. Someone in our thriving and supportive <strong><span class="login_spancolor">IKHONO HUB</span></strong> community is always online willing to lend a hand.</p>
   </div>
         
     </div>

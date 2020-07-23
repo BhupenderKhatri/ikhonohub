@@ -21,7 +21,7 @@ class Interncourse extends Component{
   <Courseconcept/> 
   <Projecttitle/>
   <Programinclude/>
-  {/* <Pricing/> */}
+  <Pricing/>
   <Answer/>
   <InternFooter/>
 </div>
