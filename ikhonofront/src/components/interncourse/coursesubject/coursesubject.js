@@ -10,11 +10,61 @@ import splitscreenvideo from './splitscreenvideo.png';
 import anydevice from './anydevice.png';
 import flexibleplans from './flexibleplans.png';
 import mentorsupport from './mentorsupport.png';
+import axios from 'axios';
 
 
-const Coursesubject =({id,c1_1,c1_2,c1_3,c1_4,c1_5,c1_6,c1_7,c1_8,c1_9,c1_10,c1_11,c1_12,c1_13,c1_14,c1_15,c1_16}) =>{
+class  Coursesubject extends Component{
+
+  constructor(props){
+
+    super(props);
+
+    this.state={
+      userId:props.id,
+      userName:'',
+      userEmail:'',
+      userContact:'',
+      userPlan:''
+     
+    }
+  }
+
+onNameChange=(event)=>{
+
+    this.setState({userName:event.target.value});
+}
+
+onEmailChange=(event)=>{
+
+  this.setState({userEmail:event.target.value});
     
+}
+
+onContactNoChange=(event)=>{
+    this.setState({userContact:event.target.value});
+}
+
+onPlanChange=(event)=>{
+    this.setState({userPlan:event.target.value});    
+}
+
+onUserClick=(event)=>{
+    const headers = {
+           
+      "Content-Type": "application/json"
+  }
+    console.log('form submit',this.state);
+    axios.post('http://localhost:5000/users/CallUserfordetail',this.state,{headers: headers}).then(res => {
+
+      console.log('POST response', res);
       
+  })
+ }
+  
+
+  render(){
+
+      const {id,c1_1,c1_2,c1_3,c1_4,c1_5,c1_6,c1_7,c1_8,c1_9,c1_10,c1_11,c1_12,c1_13,c1_14,c1_15,c1_16} = this.props ;
       return (
          <div>
             
@@ -59,27 +109,29 @@ const Coursesubject =({id,c1_1,c1_2,c1_3,c1_4,c1_5,c1_6,c1_7,c1_8,c1_9,c1_10,c1_
   <form >
     <p class="intern_form_heading">Lets Begin The Journey</p>
     <p class="intern_form_subheading">Fill To Enroll Now</p>
-    <input type="text" class="intern_form" placeholder="Name" required/>
-    <input type="text" class="intern_form" placeholder="Email" required/>
-    <input type="text" class="intern_form" placeholder="Contact No" required/>
+    <input type="text" class="intern_form" placeholder="Name" 
+    onChange={this.onNameChange}  
+    required/>
+    <input type="text" class="intern_form" placeholder="Email" 
+    onChange={this.onEmailChange}
+    required/>
+    <input type="text" class="intern_form" placeholder="Contact No"
+    onChange={this.onContactNoChange}
+    required/>
     <select class="plan_selection">
     <option value="" disabled selected>Select Plan</option>
-    <option value="plan 1">Basic</option>
-    <option value="plan 2">Advanced</option>
-    <option value="plan 3">Premium</option>
+    <option value="plan 1" onChange={this.onPlanChange}>Basic</option>
+    <option value="plan 2" onChange={this.onPlanChange}>Advanced</option>
+    <option value="plan 3" onChange={this.onPlanChange}>Premium</option>
 </select>
-<input type="button" class="intern_button" value="Request a Call-Back"/>
+<input type="button" class="intern_button" onClick={this.onUserClick} value="Request a Call-Back"/>
 </form>
 
 </div>
 </div>
 
-
- 
-
-
    </div> 
         );
     }
-    
+  }
     export default Coursesubject;

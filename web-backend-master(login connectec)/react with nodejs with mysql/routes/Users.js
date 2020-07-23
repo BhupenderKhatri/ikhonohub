@@ -273,7 +273,22 @@ users.post('/profilechange', (req, res) => {
 //     res.json('addsucess');
 // })
 
+//////////////////////////////////////////////////////
+users.post('/CallUserfordetail', (req, res) => {
+    const calluser={
+        id:req.body.userId,
+        Name:req.body.userName,
+        Email:req.body.userEmail,
+        Contact:req.body.userContact,
+        Plan:req.body.userPlan
+    }
 
+    Console.log(calluser);
+    res.send("sucess");
+
+
+
+})
 
 
 
