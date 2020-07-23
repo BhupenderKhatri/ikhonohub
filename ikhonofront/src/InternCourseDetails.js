@@ -19,6 +19,16 @@ export const InternCourseDetails = [
       id: 4,
       heading: 'Machine Learning',
       imagesrc:"https://th.bing.com/th/id/OIP.cG6U1qstYDijh9bPL42e-QHaEo?pid=Api&rs=1"
+    },
+    {
+      id: 5,
+      heading: 'UX/UI',
+      imagesrc:"https://th.bing.com/th/id/OIP.cG6U1qstYDijh9bPL42e-QHaEo?pid=Api&rs=1"
+    } , 
+    {
+      id: 6,
+      heading: 'Career Development',
+      imagesrc:"https://th.bing.com/th/id/OIP.cG6U1qstYDijh9bPL42e-QHaEo?pid=Api&rs=1"
     } 
 ];
 

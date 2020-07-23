@@ -14,11 +14,8 @@ import './index.css';
 ReactDOM.render(
   <React.StrictMode>
      
-    <InternCareerDev/>
-    <InternCareerDev1/>
-    <InternCareerDev2/>
-    <InternCareerDev3/>
-    <InternCareerDev4/>
+    <App/>
+    
 
   </React.StrictMode>,
   document.getElementById('root')

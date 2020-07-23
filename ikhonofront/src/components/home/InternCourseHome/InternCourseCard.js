@@ -1,13 +1,17 @@
-import React from 'react';
+import React, { Component } from 'react';
 import './InternCourseCard.css';
+import Ios from '../../interncourse/intern_IOS';
+import {Link} from 'react-router' ; 
+class InternCourse extends Component  {
+   
 
 
-const Card = ({ 
-      id,
-      heading,
-      imagesrc
-}) => {
-    return (
+     
+  render(){
+
+
+  const {id,heading,imagesrc} =this.props;
+  return (
      <div id="internhomebasebackground">
 
     
@@ -19,5 +23,6 @@ const Card = ({
     </div>
     );
   }
+  }
  
-export default Card;
+export default InternCourse;

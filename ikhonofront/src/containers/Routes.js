@@ -30,6 +30,10 @@ import Help from '../components/dashboard/dashboardHelp';
 
 import Quiz from './../components/quiz/quiz';
 import Intern_IOS from "../components/interncourse/intern_IOS";
+import Intern_WebDev from "../components/interncourse/intern_WebDev";
+import Intern_Career from "../components/interncourse/Intern_CareerDev";
+import Intern_Python from "../components/interncourse/intern_Python";
+import Intern_UXUI from "../components/interncourse/intern_UXUI";
 
 export default class Routes extends Component {
     render() {
@@ -56,6 +60,10 @@ export default class Routes extends Component {
                     <Route path="/addprofile" component={Addprofile} />
                     <Route path="/internML" component={Interncourse}/>
                     <Route path="/internIOS" component={Intern_IOS}/>
+                    <Route path="/interncareer" component={Intern_Career}/>
+                    <Route path="/internwebdev" component={Intern_WebDev}/>
+                    <Route path="/internpython" component={Intern_Python}/>
+                    <Route path="/internUXUI" component={Intern_UXUI}/>
                     
                     <Route path="/mycourses" component={MyCourses} />
                     <Route path="/trending" component={TrendingCourses} />
