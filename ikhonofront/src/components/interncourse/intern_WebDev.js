@@ -22,6 +22,7 @@ class Intern_WebDev extends Component{
   { WebDev.map((user,i)=>{
     return (
       <Coursesubject
+      id={ WebDev[i].id}
       c1_1={ WebDev[i].c1_1}
       c1_2={ WebDev[i].c1_2}
       c1_3={ WebDev[i].c1_3}

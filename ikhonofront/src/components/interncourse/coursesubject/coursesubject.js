@@ -12,7 +12,7 @@ import flexibleplans from './flexibleplans.png';
 import mentorsupport from './mentorsupport.png';
 
 
-const Coursesubject =({c1_1,c1_2,c1_3,c1_4,c1_5,c1_6,c1_7,c1_8,c1_9,c1_10,c1_11,c1_12,c1_13,c1_14,c1_15,c1_16}) =>{
+const Coursesubject =({id,c1_1,c1_2,c1_3,c1_4,c1_5,c1_6,c1_7,c1_8,c1_9,c1_10,c1_11,c1_12,c1_13,c1_14,c1_15,c1_16}) =>{
     
       
       return (

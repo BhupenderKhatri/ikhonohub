@@ -58,6 +58,7 @@ export default class Routes extends Component {
                     <Route path="/player" component={ReactPlayerPage} />
                     
                     <Route path="/addprofile" component={Addprofile} />
+                    
                     <Route path="/internML" component={Interncourse}/>
                     <Route path="/internIOS" component={Intern_IOS}/>
                     <Route path="/interncareer" component={Intern_Career}/>

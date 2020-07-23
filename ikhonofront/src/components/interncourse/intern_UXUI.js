@@ -23,6 +23,7 @@ class Intern_UxUi extends Component{
   { UxUi.map((user,i)=>{
     return (
       <Coursesubject
+      id={ UxUi[i].id}
       c1_1={ UxUi[i].c1_1}
       c1_2={ UxUi[i].c1_2}
       c1_3={ UxUi[i].c1_3}
@@ -63,8 +64,8 @@ class Intern_UxUi extends Component{
    { UxUi.map((user,i)=>{
      return(
       <Projecttitle_onlyfour
-      c4_1={ UxUi[i].c4_1}
-      c4_1a={ UxUi[i].c4_1a}
+            c4_1={ UxUi[i].c4_1}
+            c4_1a={ UxUi[i].c4_1a}
             c4_1b={ UxUi[i].c4_1b}
             c4_1c={ UxUi[i].c4_1c}
             

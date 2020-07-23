@@ -22,6 +22,8 @@ class Intern_IOS extends Component{
   {IOS.map((user,i)=>{
     return (
       <Coursesubject
+      id={IOS[i].id}
+      c1_1={IOS[i].c1_1}
       c1_1={IOS[i].c1_1}
       c1_2={IOS[i].c1_2}
       c1_3={IOS[i].c1_3}

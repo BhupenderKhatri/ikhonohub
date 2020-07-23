@@ -22,6 +22,7 @@ class InternCareerDev extends Component{
   {CareerDev.map((user,i)=>{
     return (
       <Coursesubject
+      id={CareerDev[i].id}
       c1_1={CareerDev[i].c1_1}
       c1_2={CareerDev[i].c1_2}
       c1_3={CareerDev[i].c1_3}

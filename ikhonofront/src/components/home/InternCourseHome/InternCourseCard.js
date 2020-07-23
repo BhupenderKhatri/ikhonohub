@@ -3,10 +3,7 @@ import './InternCourseCard.css';
 import Ios from '../../interncourse/intern_IOS';
 import {Link} from 'react-router' ; 
 class InternCourse extends Component  {
-   
-
-
-     
+    
   render(){
 
 

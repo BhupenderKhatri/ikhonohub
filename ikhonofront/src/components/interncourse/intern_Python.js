@@ -22,6 +22,7 @@ class Intern_Python extends Component{
   { Python.map((user,i)=>{
     return (
       <Coursesubject
+      id={ Python[i].id}
       c1_1={ Python[i].c1_1}
       c1_2={ Python[i].c1_2}
       c1_3={ Python[i].c1_3}

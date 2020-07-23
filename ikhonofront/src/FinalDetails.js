@@ -210,7 +210,8 @@ export const refundItems =[
 
 
         export const machinelearning=[
-            {
+            {   
+                id:'ml',
                 c1_1:"Machine Learning : The Demand Of Future",
                 c1_2:"4.0",
                 c1_3:"75 Rating",
@@ -316,7 +317,7 @@ export const refundItems =[
 
 
         export const IOS=[
-            {
+            {   id:'ios',
                 c1_1:"iOS Application Development Course",
                 c1_2:"4.0",
                 c1_3:"75 Rating",
@@ -425,7 +426,7 @@ export const refundItems =[
 
 
         export const WebDev =[
-        {
+        {   id:'wd',
             c1_1:"Complete Study of Web Development",
             c1_2:"4.0",
             c1_3:"75 Rating",
@@ -507,7 +508,8 @@ export const refundItems =[
     
     
     export const CareerDev=[
-        {
+        {   
+            id:'cd',
             c1_1:"Personal Career Coaching",
             c1_2:"4.0",
             c1_3:"75 Rating",
@@ -607,7 +609,7 @@ export const refundItems =[
          
 
 
-
+                id:'py',
                 c1_1:"Python Programming",
                 c1_2:"4.0",
                 c1_3:"75 Rating",
@@ -687,7 +689,7 @@ export const refundItems =[
 export const UxUi=[{
 
 
-
+    id:'uxui',
     c1_1:" UI/UX Design	",
     c1_2:"4.0",
     c1_3:"75 Rating",
