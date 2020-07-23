@@ -5,10 +5,12 @@ const jwt = require('jsonwebtoken')
 const bcrypt = require('bcrypt')
 const nodemailer = require("nodemailer");
 var url = require('url');
+var fs = require('fs');
 const User = require('../models/User')
 const profile_info = require('../models/profile_info')
 var jwtDecode = require('jwt-decode');
 users.use(cors())
+
 
 process.env.SECRET_KEY = 'secret'
 
@@ -282,13 +284,12 @@ users.post('/CallUserfordetail', (req, res) => {
         Contact:req.body.userContact,
         Plan:req.body.userPlan
     }
-
-    Console.log(calluser);
-    res.send("sucess");
-
-
-
+        console.log(calluser);
+        fs.appendFileSync('intern.txt', JSON.stringify(calluser, null, 4));
+        console.log("hello")
+   
 })
+
 
 
 

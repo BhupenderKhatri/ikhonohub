@@ -118,11 +118,11 @@ onUserClick=(event)=>{
     <input type="text" class="intern_form" placeholder="Contact No"
     onChange={this.onContactNoChange}
     required/>
-    <select class="plan_selection">
+    <select value={this.state.selectValue} onChange={this.onPlanChange} class="plan_selection">
     <option value="" disabled selected>Select Plan</option>
-    <option value="plan 1" onChange={this.onPlanChange}>Basic</option>
-    <option value="plan 2" onChange={this.onPlanChange}>Advanced</option>
-    <option value="plan 3" onChange={this.onPlanChange}>Premium</option>
+    <option value="Basic">Basic</option>
+    <option value="Advanced">Advanced</option>
+    <option value="Premium">Premium</option>
 </select>
 <input type="button" class="intern_button" onClick={this.onUserClick} value="Request a Call-Back"/>
 </form>
