@@ -1,10 +1,18 @@
-
+#internhomebasebackground{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 50px;
+    justify-content: center;
+    align-items: center;
+   }
 #interncardbase{
-    
-    border: yellow;
     background-color: white;
     border-radius: 15px;
     width: 240px;
+}
+#image_intern_home{
+     width:100%;
+     border-radius: 15px 15px 0px 0px;
 }
 #intern_home_heading{
     font-size: 20px;
@@ -13,245 +21,111 @@
     margin-top: 20px;
 }
 #internHome_button{
-    width: 242px;
+    width: 100% ;
     height: 40px;
     border-radius: 0px 0px 15px 15px ;
     color: white;
-    box-shadow: none;
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
     background: transparent linear-gradient(270deg, #BD3F32 0%, #D4420C 100%);
     margin-top: 20px;
 }
-#internhomebasebackground{
- display: inline-block;
- 
-}
 
-#internhomebasebackground :hover{
-    box-shadow: 4px 4px 4px rgba(0, 0, 0, 1);
-}
-#image_intern_home{
-    height:200px;
-     width:240px;
-}
 #internship_home_head{
     text-align: center;
     color: #faee1c;
     font-size: 40px;
     font-weight: bolder;
+    margin-top:0px;
    
 }
-
-/* ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
-
-@media only screen and (min-width: 320px) 
-    and (max-width: 359px){
-
-        #interncardbase{
-            border: yellow;
-            background-color: white;
-            border-radius: 15px;
-            width: 160px;
-            margin-left: 80px;
-            margin-top: 10px;
-        }
-        #image_intern_home{
-            height:100px;
-             width:160px;
-             border-radius: 15px 15px  0px 0px ;
-        }
-        #intern_home_heading{
-            font-size: 20px;
-            font-weight: bolder;
-            text-align: center;
-            margin-top: 0px;
-        }
-        #internHome_button{
-            width: 162px;
-            height: 30px;
-            border-radius: 0px 0px 15px 15px ;
-            color: white;
-            box-shadow: none;
-            background: transparent linear-gradient(270deg, #BD3F32 0%, #D4420C 100%);
-            margin-top: 0px;
-        }
-    }
-/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
-    
-    @media only screen and (min-width: 360px) 
-    and (max-width: 374px){
-
-        #interncardbase{
-            border: yellow;
-            background-color: white;
-            border-radius: 15px;
-            width: 160px;
-            margin-left: 100px;
-            margin-top: 10px;
-        }
-        #image_intern_home{
-            height:100px;
-             width:160px;
-             border-radius: 15px 15px  0px 0px ;
-        }
-        #intern_home_heading{
-            font-size: 20px;
-            font-weight: bolder;
-            text-align: center;
-            margin-top: 0px;
-        }
-        #internHome_button{
-            width: 162px;
-            height: 30px;
-            border-radius: 0px 0px 15px 15px ;
-            color: white;
-            box-shadow: none;
-            background: transparent linear-gradient(270deg, #BD3F32 0%, #D4420C 100%);
-            margin-top: 0px;
-        }
-
-    }
-    
-/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
-    
-@media only screen and (min-width: 375px) 
-    and (max-width: 411px) 
-    {
-
-        #interncardbase{
-            border: yellow;
-            background-color: white;
-            border-radius: 15px;
-            width: 160px;
-            margin-left: 120px;
-            margin-top: 10px;
-        }
-        #image_intern_home{
-            height:100px;
-             width:160px;
-             border-radius: 15px 15px  0px 0px ;
-        }
-        #intern_home_heading{
-            font-size: 20px;
-            font-weight: bolder;
-            text-align: center;
-            margin-top: 0px;
-        }
-        #internHome_button{
-            width: 162px;
-            height: 30px;
-            border-radius: 0px 0px 15px 15px ;
-            color: white;
-            box-shadow: none;
-            background: transparent linear-gradient(270deg, #BD3F32 0%, #D4420C 100%);
-            margin-top: 0px;
-        }
-
-    }
-
- /* //////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
- 
-@media only screen and (min-width: 412px) 
-and (max-width: 413px){
-
+@media only screen and (max-width:1000px){
+    #internhomebasebackground{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-gap: 30px;
+        justify-content: center;
+        align-items: center;
+       }
+}
+@media only screen and (max-width:800px){
+    #internhomebasebackground{
+        grid-gap: 18px;
+       }
     #interncardbase{
-        border: yellow;
-        background-color: white;
-        border-radius: 15px;
-        width: 160px;
-        margin-left: 130px;
-        margin-top: 10px;
-    }
-    #image_intern_home{
-        height:100px;
-         width:160px;
-         border-radius: 15px 15px  0px 0px ;
+        width: 200px;
     }
     #intern_home_heading{
-        font-size: 20px;
-        font-weight: bolder;
-        text-align: center;
-        margin-top: 0px;
+        font-size: 17px;
     }
     #internHome_button{
-        width: 162px;
-        height: 30px;
-        border-radius: 0px 0px 15px 15px ;
-        color: white;
-        box-shadow: none;
-        background: transparent linear-gradient(270deg, #BD3F32 0%, #D4420C 100%);
-        margin-top: 0px;
+        height: 35px;
+        font-size: 17px;   
+    }
+    #internship_home_head{
+        font-size: 30px;
     }
 }
-
- /* //////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
-
-
- @media only screen and (min-width: 414px) 
-and (max-width: 449px){
+@media only screen and (max-width:650px){
+    #internhomebasebackground{
+        grid-gap: 15px;
+       }
     #interncardbase{
-        border: yellow;
-        background-color: white;
-        border-radius: 15px;
-        width: 160px;
-        margin-left: 140px;
-        margin-top: 10px;
-    }
-    #image_intern_home{
-        height:100px;
-         width:160px;
-         border-radius: 15px 15px  0px 0px ;
+        width: 150px;
     }
     #intern_home_heading{
-        font-size: 20px;
-        font-weight: bolder;
-        text-align: center;
-        margin-top: 0px;
+        font-size: 17px;
     }
     #internHome_button{
-        width: 162px;
-        height: 30px;
-        border-radius: 0px 0px 15px 15px ;
-        color: white;
-        box-shadow: none;
-        background: transparent linear-gradient(270deg, #BD3F32 0%, #D4420C 100%);
-        margin-top: 0px;
+        height: 35px;
+        font-size: 15px;   
+    }
+    #internship_home_head{
+        font-size: 25px;
     }
 }
- /* //////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
-
- @media only screen and (min-width: 450px) 
- and (max-width: 550px) {
+@media only screen and (max-width:500px){
+    #internhomebasebackground{
+        grid-gap: 15px;
+       }
     #interncardbase{
-        border: yellow;
-        background-color: white;
-        border-radius: 15px;
-        width: 160px;
-        margin-left: 140px;
-        margin-top: 10px;
-    }
-    #image_intern_home{
-        height:100px;
-         width:160px;
-         border-radius: 15px 15px  0px 0px ;
+        width: 118px;
     }
     #intern_home_heading{
-        font-size: 20px;
-        font-weight: bolder;
-        text-align: center;
-        margin-top: 0px;
+        margin-top: 10px;
+        font-size: 12px;
     }
     #internHome_button{
-        width: 162px;
-        height: 30px;
-        border-radius: 0px 0px 15px 15px ;
-        color: white;
-        box-shadow: none;
-        background: transparent linear-gradient(270deg, #BD3F32 0%, #D4420C 100%);
-        margin-top: 0px;
+        margin-top:5px;
+        height: 35px;
+        font-size: 13px;   
     }
- }
- /* //////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
-
+    #internship_home_head{
+        font-size: 22px;
+    }
+}
+@media only screen and (max-width:400px){
+    #internhomebasebackground{
+        grid-template-columns: auto;
+        grid-gap: 15px;
+       }
+    #interncardbase{
+        width: 130px;
+    }
+    #intern_home_heading{
+        margin-top: 10px;
+        font-size: 13px;
+    }
+    #internHome_button{
+        margin-top:8px;
+        height: 25px;
+        font-size: 13px;   
+    }
+    #internship_home_head{
+        font-size: 20px;
+    }
+}
 
 
 

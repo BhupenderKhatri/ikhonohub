@@ -5,17 +5,21 @@ import './InternCourseCard.css';
 
  const InternCourseList = () => {
   return (
-    <div>
+    <div >
       <p id="internship_home_head">INTERNSHIP COURSES</p>
+      <div id="internhomebasebackground">
        {InternCourseDetails.map((user,i)=>{
            return(
+             
                <InternCourse
                 id={InternCourseDetails[i].id}     
                 heading={InternCourseDetails[i].heading}      
                 imagesrc={InternCourseDetails[i].imagesrc}                                                                                                                                 
                />
+               
            );
        })}
+       </div>
     </div>
   );
 }

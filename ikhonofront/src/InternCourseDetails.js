@@ -1,9 +1,9 @@
 export const InternCourseDetails = [
-    {
-      id: 1,
-      heading: 'Python ',
-      imagesrc:"https://th.bing.com/th/id/OIP.cG6U1qstYDijh9bPL42e-QHaEo?pid=Api&rs=1"
-    },
+    // {
+    //   id: 1,
+    //   heading: 'Python ',
+    //   imagesrc:"https://th.bing.com/th/id/OIP.cG6U1qstYDijh9bPL42e-QHaEo?pid=Api&rs=1"
+    // },
     {
       id: 2,
       heading: 'Web Development',
@@ -20,16 +20,16 @@ export const InternCourseDetails = [
       heading: 'Machine Learning',
       imagesrc:"https://th.bing.com/th/id/OIP.cG6U1qstYDijh9bPL42e-QHaEo?pid=Api&rs=1"
     },
-    {
-      id: 5,
-      heading: 'UX/UI',
-      imagesrc:"https://th.bing.com/th/id/OIP.cG6U1qstYDijh9bPL42e-QHaEo?pid=Api&rs=1"
-    } , 
-    {
-      id: 6,
-      heading: 'Career Development',
-      imagesrc:"https://th.bing.com/th/id/OIP.cG6U1qstYDijh9bPL42e-QHaEo?pid=Api&rs=1"
-    } 
+    // {
+    //   id: 5,
+    //   heading: 'UX/UI',
+    //   imagesrc:"https://th.bing.com/th/id/OIP.cG6U1qstYDijh9bPL42e-QHaEo?pid=Api&rs=1"
+    // } , 
+    // {
+    //   id: 6,
+    //   heading: 'Career Development',
+    //   imagesrc:"https://th.bing.com/th/id/OIP.cG6U1qstYDijh9bPL42e-QHaEo?pid=Api&rs=1"
+    // } 
 ];
 
   

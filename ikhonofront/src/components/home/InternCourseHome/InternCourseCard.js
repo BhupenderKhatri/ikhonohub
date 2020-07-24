@@ -35,15 +35,13 @@ class InternCourse extends Component  {
 
   const {id,heading,imagesrc} =this.props;
   return (
-     <div id="internhomebasebackground">
-
-    
+     
         <div id="interncardbase" >
           <img id="image_intern_home" class="imageClass" alt='img' src={imagesrc} />
           <p id="intern_home_heading">{heading}</p>
           <button id="internHome_button" onClick={()=>this.onClickChange(id)} >Learn More</button>
         </div>
-    </div>
+    
     );
   }
   }
