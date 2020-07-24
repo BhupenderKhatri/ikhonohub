@@ -30,8 +30,8 @@
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 1);
 }
 #image_intern_home{
-    height:'50px';
-     width:'50px';
+    height:200px;
+     width:240px;
 }
 #internship_home_head{
     text-align: center;
@@ -40,3 +40,240 @@
     font-weight: bolder;
    
 }
+
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+@media only screen and (min-width: 320px) 
+    and (max-width: 359px){
+
+        #interncardbase{
+            border: yellow;
+            background-color: white;
+            border-radius: 15px;
+            width: 160px;
+            margin-left: 80px;
+            margin-top: 10px;
+        }
+        #image_intern_home{
+            height:100px;
+             width:160px;
+             border-radius: 15px 15px  0px 0px ;
+        }
+        #intern_home_heading{
+            font-size: 20px;
+            font-weight: bolder;
+            text-align: center;
+            margin-top: 0px;
+        }
+        #internHome_button{
+            width: 162px;
+            height: 30px;
+            border-radius: 0px 0px 15px 15px ;
+            color: white;
+            box-shadow: none;
+            background: transparent linear-gradient(270deg, #BD3F32 0%, #D4420C 100%);
+            margin-top: 0px;
+        }
+    }
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+    
+    @media only screen and (min-width: 360px) 
+    and (max-width: 374px){
+
+        #interncardbase{
+            border: yellow;
+            background-color: white;
+            border-radius: 15px;
+            width: 160px;
+            margin-left: 100px;
+            margin-top: 10px;
+        }
+        #image_intern_home{
+            height:100px;
+             width:160px;
+             border-radius: 15px 15px  0px 0px ;
+        }
+        #intern_home_heading{
+            font-size: 20px;
+            font-weight: bolder;
+            text-align: center;
+            margin-top: 0px;
+        }
+        #internHome_button{
+            width: 162px;
+            height: 30px;
+            border-radius: 0px 0px 15px 15px ;
+            color: white;
+            box-shadow: none;
+            background: transparent linear-gradient(270deg, #BD3F32 0%, #D4420C 100%);
+            margin-top: 0px;
+        }
+
+    }
+    
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+    
+@media only screen and (min-width: 375px) 
+    and (max-width: 411px) 
+    {
+
+        #interncardbase{
+            border: yellow;
+            background-color: white;
+            border-radius: 15px;
+            width: 160px;
+            margin-left: 120px;
+            margin-top: 10px;
+        }
+        #image_intern_home{
+            height:100px;
+             width:160px;
+             border-radius: 15px 15px  0px 0px ;
+        }
+        #intern_home_heading{
+            font-size: 20px;
+            font-weight: bolder;
+            text-align: center;
+            margin-top: 0px;
+        }
+        #internHome_button{
+            width: 162px;
+            height: 30px;
+            border-radius: 0px 0px 15px 15px ;
+            color: white;
+            box-shadow: none;
+            background: transparent linear-gradient(270deg, #BD3F32 0%, #D4420C 100%);
+            margin-top: 0px;
+        }
+
+    }
+
+ /* //////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+ 
+@media only screen and (min-width: 412px) 
+and (max-width: 413px){
+
+    #interncardbase{
+        border: yellow;
+        background-color: white;
+        border-radius: 15px;
+        width: 160px;
+        margin-left: 130px;
+        margin-top: 10px;
+    }
+    #image_intern_home{
+        height:100px;
+         width:160px;
+         border-radius: 15px 15px  0px 0px ;
+    }
+    #intern_home_heading{
+        font-size: 20px;
+        font-weight: bolder;
+        text-align: center;
+        margin-top: 0px;
+    }
+    #internHome_button{
+        width: 162px;
+        height: 30px;
+        border-radius: 0px 0px 15px 15px ;
+        color: white;
+        box-shadow: none;
+        background: transparent linear-gradient(270deg, #BD3F32 0%, #D4420C 100%);
+        margin-top: 0px;
+    }
+}
+
+ /* //////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+ @media only screen and (min-width: 414px) 
+and (max-width: 449px){
+    #interncardbase{
+        border: yellow;
+        background-color: white;
+        border-radius: 15px;
+        width: 160px;
+        margin-left: 140px;
+        margin-top: 10px;
+    }
+    #image_intern_home{
+        height:100px;
+         width:160px;
+         border-radius: 15px 15px  0px 0px ;
+    }
+    #intern_home_heading{
+        font-size: 20px;
+        font-weight: bolder;
+        text-align: center;
+        margin-top: 0px;
+    }
+    #internHome_button{
+        width: 162px;
+        height: 30px;
+        border-radius: 0px 0px 15px 15px ;
+        color: white;
+        box-shadow: none;
+        background: transparent linear-gradient(270deg, #BD3F32 0%, #D4420C 100%);
+        margin-top: 0px;
+    }
+}
+ /* //////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+ @media only screen and (min-width: 450px) 
+ and (max-width: 550px) {
+    #interncardbase{
+        border: yellow;
+        background-color: white;
+        border-radius: 15px;
+        width: 160px;
+        margin-left: 140px;
+        margin-top: 10px;
+    }
+    #image_intern_home{
+        height:100px;
+         width:160px;
+         border-radius: 15px 15px  0px 0px ;
+    }
+    #intern_home_heading{
+        font-size: 20px;
+        font-weight: bolder;
+        text-align: center;
+        margin-top: 0px;
+    }
+    #internHome_button{
+        width: 162px;
+        height: 30px;
+        border-radius: 0px 0px 15px 15px ;
+        color: white;
+        box-shadow: none;
+        background: transparent linear-gradient(270deg, #BD3F32 0%, #D4420C 100%);
+        margin-top: 0px;
+    }
+ }
+ /* //////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 

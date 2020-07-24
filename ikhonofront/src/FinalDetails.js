@@ -252,11 +252,11 @@ export const refundItems =[
                 c4_4a:"work on a dataset",
                 c4_4b:"build 2 models using different algorithms",
                 c4_4c:"compare the accuracy of two models",
-                c4_5 :"My own dataset",
+               
+                c4_5 :"Wine Quality Prediction",
                 c4_5a:"data analysis on a dataset from kaggle",
                 c4_5b:"implement classification algorithmn",
                 c4_5c:"predict the quality of a wine.",
-
                 c4_5d:"predict the accuracy.",
 
                 c4_6 :"Breast Cancer Classification",
