@@ -49,6 +49,7 @@ onPlanChange=(event)=>{
 }
 
 onUserClick=(event)=>{
+  alert("Succesfully Registered your request. We will contact you as soon as possible.")
     const headers = {
            
       "Content-Type": "application/json"
