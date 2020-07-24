@@ -12,7 +12,7 @@ export const InternCourseDetails = [
     },
     {
       id: 3,
-      heading: 'Java Foundation',
+      heading: 'Ios Development',
       imagesrc:"https://th.bing.com/th/id/OIP.cG6U1qstYDijh9bPL42e-QHaEo?pid=Api&rs=1"
     },
     {

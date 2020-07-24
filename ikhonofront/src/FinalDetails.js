@@ -431,9 +431,10 @@ export const refundItems =[
             c1_2:"4.0",
             c1_3:"75 Rating",
             c1_4:"18 Reviews",
-            c1_5:"Skills to apply CSS ,HTML in practical",
-            c1_6:"You will understand the Javascript",
-            c1_7:"You will be able to make your own website",
+            c1_5:"Skills to apply CSS ,HTML in practical.",
+            c1_6:"You will understand the Javascript.",
+            c1_7:"You will be able to make your own website.",
+            c1_8:'You will understand the working of Database and Server.',
             c1_9:"Time",
             c1_10:"No download needed",
             c1_11:"Certificate of Completion",
@@ -443,18 +444,28 @@ export const refundItems =[
             c1_15:"Flexible schedule",
             c1_16:"Assignments with mentor Support" ,
 
-            c2_1:"Skills that will help you to apply for  the job role for a web developer",
-            c2_2:"Learn modern technologies that are being actually used in tech companies in 2020",
-            c2_3:"Build a professional portfolio",
-            c2_4:"Master modern and advanced web Development fundamentals ",
+            c2_1:"  Skills that will help you to apply for  the job role for a web developer",
+            c2_2:"  Learn modern technologies that are being actually used in tech companies in 2020",
+            c2_3:"  Build a professional portfolio",
+            c2_4:"  Master modern and advanced web Development fundamentals ",
+            c2_5:"  Organize and structure your code using JavaScript patterns like modules",
+            c2_6:"  Modern JavaScript for 2020: NPM, Webpack, Babel and ES6 modules",
             
             c4_1:"Weather App",
-            c4_1a:"Using CSS and HTML",
+            c4_1a:"Learn advance HTML & CSS tags.",
+            c4_1b:'Learn to Work with APIs',
+            c4_1c:'Animated weather conditions with live background images',
+
             c4_2:"Auto Expo",
-            c4_2a:"full functional e commerse website",
+            c4_2a:"Full functional E-Commerse Website",
+            c4_2b:"Learn Advance JS with React.js",
+            c4_2c:"Applying concepts of Server & Database ",
+
             c4_3 :"Calculator",
-            c4_3a:"Using React App",
-         
+            c4_3a:"Learn advance HTML & CSS.",
+            c4_3b:"Learn working state of the calculator.",
+            c4_3c:"Learn to Setup the directory component .",
+        
             c5_1:"Projects with Practical skills",
             c5_2:"We provide you with different projects which will lead you through a real time industry experience",
             c5_3:"Mentor Support",
@@ -706,10 +717,10 @@ export const UxUi=[{
     c1_15:"Flexible schedule",
     c1_16:"Assignments with mentor Support" ,
 
-    c2_1:"•	Website design by own",
-    c2_2:"•	Mobile based design",
-    c2_3:"•	Well known of prototyping",
-    c2_4:"•	You can build and share your design to everyone ",
+    c2_1:" Website design by own",
+    c2_2:" Mobile based design",
+    c2_3:" Well known of prototyping",
+    c2_4:" You can build and share your design to everyone ",
    
     
 

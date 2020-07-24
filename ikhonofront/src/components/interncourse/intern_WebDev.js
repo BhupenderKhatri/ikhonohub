@@ -1,6 +1,6 @@
 import React ,{Component}from 'react';
 import './interncourse.css';
-import Projecttitle from './projecttitle/project_title';
+import Projecttitle_onlythree from './projecttitle/project_title_only3';
 import Programinclude from './programinclude/programinclude';
 import Answer from './answers/answer';
 import InternFooter from '../internfooter/internfooter';
@@ -62,7 +62,7 @@ class Intern_WebDev extends Component{
 
    { WebDev.map((user,i)=>{
      return(
-      <Projecttitle
+      <Projecttitle_onlythree
       c4_1={ WebDev[i].c4_1}
       c4_1a={ WebDev[i].c4_1a}
             c4_1b={ WebDev[i].c4_1b}
@@ -76,23 +76,8 @@ class Intern_WebDev extends Component{
             c4_3a={ WebDev[i].c4_3a}
             c4_3b={ WebDev[i].c4_3b}
             c4_3c={ WebDev[i].c4_3c}
-            c4_4 ={ WebDev[i].c4_4}
-            c4_4a={ WebDev[i].c4_4a}
-            c4_4b={ WebDev[i].c4_4b}
-            c4_4c={ WebDev[i].c4_4c}
-            c4_5 ={ WebDev[i].c4_5}
-            c4_5a={ WebDev[i].c4_5a}
-            c4_5b={ WebDev[i].c4_5b}
-            c4_5c={ WebDev[i].c4_5c}
-            
-            c4_6 ={ WebDev[i].c4_6}
-            c4_6a={ WebDev[i].c4_6a}
-            c4_6b={ WebDev[i].c4_6b}
-            c4_6c={ WebDev[i].c4_6c}
-            c4_7 ={ WebDev[i].c4_7}
-            c4_7a={ WebDev[i].c4_7a}
-            c4_7b={ WebDev[i].c4_7b}
-            c4_7c={ WebDev[i].c4_7c}
+          
+           
       />
      );
    })}
