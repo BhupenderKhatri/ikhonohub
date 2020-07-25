@@ -35,9 +35,10 @@
 #internship_home_head{
     text-align: center;
     color: #faee1c;
-    font-size: 40px;
+    font-size: 42px;
     font-weight: bolder;
     margin-top:0px;
+    
    
 }
 @media only screen and (max-width:1000px){

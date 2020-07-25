@@ -6,7 +6,7 @@ import './InternCourseCard.css';
  const InternCourseList = () => {
   return (
     <div >
-      <p id="internship_home_head">INTERNSHIP COURSES</p>
+      <p id="internship_home_head">Popular Courses</p>
       <div id="internhomebasebackground">
        {InternCourseDetails.map((user,i)=>{
            return(

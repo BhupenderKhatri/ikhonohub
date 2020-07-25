@@ -16,6 +16,9 @@
 }
 .question-answer{
     /* padding-left: 5%; */
+    margin-left: 32px;
+    margin-bottom: 22px;
+
 }
 #question-title{
     color: #FF3300;

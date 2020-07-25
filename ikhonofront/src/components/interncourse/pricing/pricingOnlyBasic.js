@@ -23,7 +23,7 @@ const PricingOnlyOne= ({c6_1,c6_2,c6_3,c6_4,c6_5,c6_6,c6_7,c6_8 ,c6_8a,c6_8b,c6_
                       <p>{c6_8c}</p>
                        <p>{c6_8d}</p>
                 </div>
-                <button className="pricing-btn">Registor</button>
+                <button className="pricing-btn">Register</button>
             </div>
                                 
   </div>  

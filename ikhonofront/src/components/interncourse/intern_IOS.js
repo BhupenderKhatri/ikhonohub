@@ -8,7 +8,7 @@ import Pricing from '../interncourse/pricing/pricing';
 import Coursesubject from '../interncourse/coursesubject/coursesubject';
 import Nav from '../nav/nav';
 import Whatyoulearn from './whatulearn/whatyoulearn';
-import Courseconcept from './courseconcept/conceptcover';
+import Courseconcept from './courseconcept/conceptios';
 
 import {IOS} from '../../FinalDetails';
 

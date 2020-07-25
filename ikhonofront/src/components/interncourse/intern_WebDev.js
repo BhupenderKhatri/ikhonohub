@@ -8,7 +8,7 @@ import Pricing from './pricing/pricing';
 import Coursesubject from './coursesubject/coursesubject';
 import Nav from '../nav/nav';
 import Whatyoulearn from './whatulearn/whatyoulearn';
-import Courseconcept from './courseconcept/conceptcover';
+import Courseconcept from './courseconcept/conceptcoverweb';
 
 import { WebDev} from '../../FinalDetails';
 
