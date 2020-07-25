@@ -5,7 +5,11 @@
     margin-bottom: -380px;
 
 }
-
+.alert {
+    padding: 20px;
+    background-color: #f44336;
+    color: white;
+  }
 #intern_main{
 
     background: #ffffff 0% 0% no-repeat padding-box;

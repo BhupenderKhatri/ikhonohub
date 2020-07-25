@@ -13,6 +13,9 @@ import Courseconcept from './courseconcept/conceptcoverweb';
 import { WebDev} from '../../FinalDetails';
 
 class Intern_WebDev extends Component{
+  componentDidMount() {
+    window.scrollTo(0, 0);
+}
     render(){
       
       return (

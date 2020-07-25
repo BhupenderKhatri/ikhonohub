@@ -10,7 +10,7 @@ const Whatyoulearn=({c2_1,c2_2,c2_3,c2_4,c2_5,c2_6}) =>{
 <div id="whatyoulearn_main">
   <div class="syllabus_heading">
 <p class="learn_heading">What you'll learn</p>
-<input type="button" class="syllabus_download" value="DOWNLOAD SYLLABUS"/>
+{/* <input type="button" class="syllabus_download" value="DOWNLOAD SYLLABUS"/> */}
 </div>
 <div id="learn_para_main">
   <ul class="list_learn">

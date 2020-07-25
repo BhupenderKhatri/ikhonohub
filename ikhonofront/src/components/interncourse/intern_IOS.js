@@ -13,7 +13,10 @@ import Courseconcept from './courseconcept/conceptios';
 import {IOS} from '../../FinalDetails';
 
 class Intern_IOS extends Component{
-    render(){
+  componentDidMount() {
+    window.scrollTo(0, 0);
+}  
+  render(){
       
       return (
           

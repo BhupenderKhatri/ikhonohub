@@ -287,6 +287,7 @@ users.post('/CallUserfordetail', (req, res) => {
         console.log(calluser);
         fs.appendFileSync('intern.txt', JSON.stringify(calluser, null, 4));
         console.log("hello")
+    res.send("success")
    
 })
 

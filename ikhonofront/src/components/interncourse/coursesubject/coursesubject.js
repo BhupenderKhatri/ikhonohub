@@ -49,7 +49,7 @@ onPlanChange=(event)=>{
 }
 
 onUserClick=(event)=>{
-  alert("Succesfully Registered your request. We will contact you as soon as possible.")
+  
     const headers = {
            
       "Content-Type": "application/json"
@@ -58,7 +58,7 @@ onUserClick=(event)=>{
     axios.post('http://localhost:5000/users/CallUserfordetail',this.state,{headers: headers}).then(res => {
 
       console.log('POST response', res);
-      
+      alert("Succesfully Registered your request. We will contact you as soon as possible.")
   })
  }
   

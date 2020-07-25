@@ -1,5 +1,5 @@
 import React ,{Component}from 'react';
-import './projecttitle.css';
+import './project_title_only3.css';
 
 const Projecttitle_only3=({c4_1,c4_1a ,c4_1b ,c4_1c , c4_2 , c4_2a, c4_2b, c4_2c ,c4_3,c4_3a,c4_3b,c4_3c,c4_5,c4_5a,c4_5b,c4_5c,c4_5d,c4_6,c4_6a,c4_6b,c4_6c,c4_7,c4_7a,c4_7b,c4_7c})=> {
     

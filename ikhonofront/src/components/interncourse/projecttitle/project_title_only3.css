@@ -1,0 +1,203 @@
+.project_main{
+    width: 100%;
+    padding-bottom: 30px;
+    color: #000000;
+    background: #e3f0ffba 0% 0% no-repeat padding-box;
+    box-sizing: border-box;
+    border-top: 4px solid transparent ; 
+    border-bottom: 4px solid transparent;  
+    border-image: linear-gradient(to left, orangered , yellow);
+    border-image-slice: 1; 
+}
+#project_heading{
+    text-align: center;  background: -webkit-linear-gradient(90deg,#FF3300 ,#FFDB00 );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 30px;
+}
+.project_title{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 50px; 
+    margin-top:40px;
+    justify-content: center;
+    align-items: center;
+}
+.project_title1{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 50px; 
+    margin-top:40px;
+    justify-content: center;
+    align-items: center;
+}
+#project1{
+    width: 200px;
+    height: 250px;
+    
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 10px #FB7F64;
+    border-radius: 20px;
+    box-sizing: border-box;  
+}
+#project2{
+    width: 200px;
+    height: 250px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 10px #FFDF19;
+    border-radius: 20px;
+    box-sizing: border-box;  
+}
+#project3{
+    width: 210px;
+    height: 280px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 10px #FB7F64;
+    border-radius: 20px;
+    box-sizing: border-box;  
+}
+#project4{
+    width: 212px;
+    height: 280px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 10px #FFDF19;
+    border-radius: 20px;
+    box-sizing: border-box;  
+}
+#title_head1{
+    font-size: 16px;
+    text-align: center;
+}
+#title-para{
+    padding-left: 15px;
+    
+}
+#title_para1{
+    line-height: 25px;
+    font-size: 15px;
+   
+    
+}
+ @media only screen and (max-width:1000px){
+    
+   
+    .project_title{
+        
+        grid-template-columns: auto auto auto auto;
+        grid-gap: 35px; 
+        margin-top:40px;
+    }
+    .project_title1{
+        grid-template-columns: auto auto auto;
+        grid-gap: 30px; 
+        margin-top:30px;
+    }
+    #project1{
+        width: 155px;
+        height: 220px;
+    
+    }
+    #project2{
+        width: 155px;
+        height: 220px;
+         
+    }
+    #project3{
+        width: 170px;
+        height: 220px;
+         
+    }
+    #project4{
+        width: 170px;
+        height: 220px;
+        
+    }
+    #title_head1{
+        font-size: 12px;
+        text-align: center;
+    }
+    #title-para{
+        padding-left: 10px;
+        font-size: 14px;
+    }
+    #title_para1{
+        line-height: 25px;
+        font-size: 12.5px;
+        line-height: 20px;
+        padding-left: 24px;
+        
+        
+    }
+}
+
+@media only screen and (max-width:767px){
+    .project_title{
+        
+        grid-template-columns: auto auto ;
+        grid-gap: 35px 50px; 
+        margin-top:40px;
+    }
+    .project_title1{
+        grid-template-columns: auto auto ;
+        grid-gap: 50px; 
+        margin-top:30px;
+    }
+    #project1{
+        width: 160px;
+        height: 225px;
+
+    }
+    #project2{
+        width: 160px;
+        height: 225px;
+         
+    }
+    #project3{
+        width: 185px;
+        height: 225px;
+         
+    }
+    #project4{
+        width: 185px;
+        height: 235px;
+        
+    }
+    #title_head1{
+        font-size: 13px;
+        text-align: center;
+    }
+    #title-para{
+        font-size: 13px;
+        padding-left: 8px;
+    }
+    #title_para1{
+        line-height: 25px;
+        font-size: 12px;
+        line-height: 22px;
+        padding-left: 22px;
+        
+        
+    }
+
+}
+@media only screen and (max-width:439px){
+    .project_title{
+        
+        grid-template-columns: auto  ;
+        grid-gap: 35px 50px; 
+        margin-top:40px;
+    } .project_title1{
+        grid-template-columns: auto ;
+        grid-gap: 50px; 
+        margin-top:30px;
+    }
+    #project3{
+        margin-top: 0px;
+         
+    }
+    #project4{
+        margin-top: 0px;
+        
+    }
+
+}

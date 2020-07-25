@@ -4,49 +4,4 @@
     "Email": "aajaklecoursekiya",
     "Contact": "mujhebulayanhi",
     "Plan": "Premium"
-}{
-    "id": "wd",
-    "Name": "",
-    "Email": "",
-    "Contact": "",
-    "Plan": ""
-}{
-    "id": "wd",
-    "Name": "",
-    "Email": "",
-    "Contact": "",
-    "Plan": ""
-}{
-    "id": "wd",
-    "Name": "",
-    "Email": "",
-    "Contact": "",
-    "Plan": ""
-}{
-    "id": "wd",
-    "Name": "",
-    "Email": "",
-    "Contact": "",
-    "Plan": ""
-}{
-    "Name": "",
-    "Email": "",
-    "Contact": "",
-    "Plan": ""
-}{
-    "Name": "",
-    "Email": "",
-    "Contact": "",
-    "Plan": ""
-}{
-    "Name": "",
-    "Email": "",
-    "Contact": "",
-    "Plan": ""
-}{
-    "id": "wd",
-    "Name": "",
-    "Email": "",
-    "Contact": "",
-    "Plan": ""
 }

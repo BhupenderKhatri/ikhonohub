@@ -13,7 +13,10 @@ import Courseconcept from './courseconcept/conceptcover';
 import {machinelearning} from '../../FinalDetails';
 
 class Interncourse extends Component{
-    render(){
+  componentDidMount() {
+    window.scrollTo(0, 0);
+}  
+  render(){
       
       return (
           
